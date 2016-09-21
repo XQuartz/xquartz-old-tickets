@@ -1,0 +1,100 @@
+6/3/10 10:54:19 	org.macosforge.xquartz.startx[2679]	privileged_startx: bootstrap_look_up(org.macosforge.xquartz.privileged_startx): Unknown service name
+6/3/10 10:54:19 	org.macosforge.xquartz.startx[2679]	font_cache: Scanning user font directories to generate X11 font caches
+6/3/10 10:54:19 	org.macosforge.xquartz.startx[2679]	font_cache: Updating FC cache
+6/3/10 10:54:19 	org.macosforge.xquartz.startx[2679]	xauth:  creating new authority file /Users/chris/.serverauth.2679
+6/3/10 10:54:19 	org.macosforge.xquartz.startx[2679]	xauth:  error in locking authority file /Users/chris/.Xauthority
+6/3/10 10:54:19 	org.macosforge.xquartz.startx[2679]	xauth:  error in locking authority file /Users/chris/.Xauthority
+6/3/10 10:54:19 	org.macosforge.xquartz.startx[2679]	xauth:  error in locking authority file /Users/chris/.Xauthority
+6/3/10 10:54:19 	org.macosforge.xquartz.startx[2679]	xauth:  error in locking authority file /Users/chris/.Xauthority
+6/3/10 10:54:19 	[0x0-0xbe0be].org.macosforge.xquartz.X11[2649]		argv[5] = /Users/chris/.serverauth.2679
+6/3/10 10:54:19 	org.macosforge.xquartz.startx[2679]	Xquartz: Handoff connection established (try 1 of 5) on fd 6, "/var/tmp/tmp.0.jtGuEZ".  Sending message.
+6/3/10 10:54:19 	org.macosforge.xquartz.startx[2679]	Xquartz: Message sent.  Closing handoff fd.
+6/3/10 10:54:21 	org.macosforge.xquartz.startx[2679]	font_cache: Done
+6/3/10 10:54:21 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:21 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:21 	org.macosforge.xquartz.startx[2679]	waiting for X server to begin accepting connections 
+6/3/10 10:54:22 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:23 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:23 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:23 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:24 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:25 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:25 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:25 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:26 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:27 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:27 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:27 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:28 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:29 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:29 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:29 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:30 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:31 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:31 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:31 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:32 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:33 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:33 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:33 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:34 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:35 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:35 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:35 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:36 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:37 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:37 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:37 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:38 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:39 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:39 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:39 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:40 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:41 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:41 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:41 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:42 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:43 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:43 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:43 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:44 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:45 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:45 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:45 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:46 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:47 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:47 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:47 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:48 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:49 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:49 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:49 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:50 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:51 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:51 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:51 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:52 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:53 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:53 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:53 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:54 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:55 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:55 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:55 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:56 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:57 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:57 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:57 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:58 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:54:59 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:54:59 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:54:59 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:55:00 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:55:01 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:55:01 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:55:01 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:55:02 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:55:03 	org.macosforge.xquartz.startx[2679]	Xlib: connection to ":3.0" refused by server
+6/3/10 10:55:03 	org.macosforge.xquartz.startx[2679]	Xlib: No protocol specified
+6/3/10 10:55:03 	org.macosforge.xquartz.startx[2679]	.
+6/3/10 10:55:04 	org.macosforge.xquartz.startx[2679]	.

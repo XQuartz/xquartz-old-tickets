@@ -1,0 +1,54 @@
+xwininfo: Window id: 0x381 (the root window) (has no name)
+
+  Root window id: 0x381 (the root window) (has no name)
+  Parent window id: 0x0 (none)
+     3 children:
+     0xa00001 (has no name): ()  1x1+0+0  +0+0
+     0x400004 (has no name): ()  1x1+0+0  +0+0
+     0x400001 (has no name): ()  1x1+0+0  +0+0
+
+  Absolute upper-left X:  0
+  Absolute upper-left Y:  0
+  Relative upper-left X:  0
+  Relative upper-left Y:  0
+  Width: 1600
+  Height: 1178
+  Depth: 24
+  Visual: 0x22
+  Visual Class: TrueColor
+  Border width: 0
+  Class: InputOutput
+  Colormap: 0x21 (installed)
+  Bit Gravity State: ForgetGravity
+  Window Gravity State: NorthWestGravity
+  Backing Store State: NotUseful
+  Save Under State: no
+  Map State: IsViewable
+  Override Redirect State: no
+  Corners:  +0+0  -0+0  -0-0  +0-0
+  -geometry 1600x1178+0+0
+
+  Bit gravity: ForgetGravity
+  Window gravity: NorthWestGravity
+  Backing-store hint: NotUseful
+  Backing-planes to be preserved: 0xffffffff
+  Backing pixel: 0
+  Save-unders: No
+
+  Someone wants these events:
+      StructureNotify
+      SubstructureNotify
+      SubstructureRedirect
+  Do not propagate these events:
+  Override redirection?: No
+
+  No window manager hints defined
+  Window manager hints:
+      Process id: (unknown)
+
+  No normal window size hints defined
+  No zoom window size hints defined
+
+  No window shape defined
+  No border shape defined
+

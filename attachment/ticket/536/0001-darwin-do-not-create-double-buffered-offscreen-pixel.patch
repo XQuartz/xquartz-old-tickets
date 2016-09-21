@@ -1,0 +1,27 @@
+From e5fff8f98f8d0be99ae3fe4863cd3d0c6779ac9b Mon Sep 17 00:00:00 2001
+From: Jonas Maebe <jonas.maebe@elis.ugent.be>
+Date: Mon, 10 Sep 2012 00:44:15 +0200
+Subject: [PATCH] darwin: do not create double-buffered offscreen pixel
+ formats
+
+http://xquartz.macosforge.org/trac/ticket/512
+---
+ src/glx/apple/apple_visual.c |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/src/glx/apple/apple_visual.c b/src/glx/apple/apple_visual.c
+index a246164..282934f 100644
+--- a/src/glx/apple/apple_visual.c
++++ b/src/glx/apple/apple_visual.c
+@@ -116,7 +116,7 @@ apple_visual_create_pfobj(CGLPixelFormatObj * pfobj, const struct glx_config * m
+       *uses_stereo = false;
+    }
+ 
+-   if (mode->doubleBufferMode) {
++   if (!offscreen && mode->doubleBufferMode) {
+       attr[numattr++] = kCGLPFADoubleBuffer;
+       *double_buffered = true;
+    }
+-- 
+1.7.8
+

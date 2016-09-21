@@ -1,0 +1,21 @@
+====
+To apply the xinitrc.patch, change to the "/usr/X11/lib/X11/xinit"
+directory and apply it by typing the following command:
+
+	% sudo patch -p0 <xinitrc.patch
+-- 
+Jeffrey Allen Neitzel
+jneitzel (at) chaosnet (dot) org
+
+===================================================================
+--- xinitrc.orig	2008-02-14 08:27:24.000000000 +0000
++++ xinitrc	2008-02-22 16:48:33.000000000 +0000
+@@ -45,7 +45,7 @@
+ 
+ 
+ 
+-[ -x /usr/X11/bin/font_cache.sh ] && /usr/X11/bin/font_cache.sh &
++[ -x /usr/X11/bin/font_cache.sh ] && ( /usr/X11/bin/font_cache.sh & )
+ 
+ if [ -x /usr/X11/bin/xset ] ; then
+ 	fontpath="/usr/X11/lib/X11/fonts/misc/,/usr/X11/lib/X11/fonts/TTF/,/usr/X11/lib/X11/fonts/OTF,/usr/X11/lib/X11/fonts/Type1/,/usr/X11/lib/X11/fonts/75dpi:unscaled/,/usr/X11/lib/X11/fonts/100dpi/:unscaled,/usr/X11/lib/X11/fonts/75dpi:unscaled/,/usr/X11/lib/X11/fonts/100dpi/:unscaled"

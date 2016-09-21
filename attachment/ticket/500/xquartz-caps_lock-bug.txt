@@ -1,0 +1,12 @@
+KeyPress event, serial 29, synthetic NO, window 0xc00001,
+    root 0x141, subw 0x0, time 3111674512, (101,2), root:(730,482),
+    state 0x2, keycode 65 (keysym 0xffe5, Caps_Lock), same_screen YES,
+    XLookupString gives 0 bytes: 
+    XmbLookupString gives 0 bytes: 
+    XFilterEvent returns: False
+
+KeyRelease event, serial 29, synthetic NO, window 0xc00001,
+    root 0x141, subw 0x0, time 3111674512, (101,2), root:(730,482),
+    state 0x2, keycode 65 (keysym 0xffe5, Caps_Lock), same_screen YES,
+    XLookupString gives 0 bytes: 
+    XFilterEvent returns: False

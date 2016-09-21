@@ -1,0 +1,1025 @@
+    valuators:
+          0: 814.00 (814.00)
+          1: 1509.00 (1509.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 809.00 (809.00)
+          1: 1506.00 (1506.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 804.00 (804.00)
+          1: 1502.00 (1502.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 799.00 (799.00)
+          1: 1500.00 (1500.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 794.00 (794.00)
+          1: 1498.00 (1498.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 785.00 (785.00)
+          1: 1496.00 (1496.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 778.00 (778.00)
+          1: 1494.00 (1494.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 768.00 (768.00)
+          1: 1493.00 (1493.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 760.00 (760.00)
+          1: 1491.00 (1491.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 753.00 (753.00)
+          1: 1489.00 (1489.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 748.00 (748.00)
+          1: 1487.00 (1487.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 745.00 (745.00)
+          1: 1486.00 (1486.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 743.00 (743.00)
+          1: 1486.00 (1486.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 741.00 (741.00)
+          1: 1485.00 (1485.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 740.00 (740.00)
+          1: 1485.00 (1485.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 739.00 (739.00)
+          1: 1484.00 (1484.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 737.00 (737.00)
+          1: 1484.00 (1484.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 735.00 (735.00)
+          1: 1482.00 (1482.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 733.00 (733.00)
+          1: 1481.00 (1481.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 731.00 (731.00)
+          1: 1480.00 (1480.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 729.00 (729.00)
+          1: 1480.00 (1480.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 729.00 (729.00)
+          1: 1479.00 (1479.00)
+
+EVENT type 15 (RawButtonPress)
+    device: 2
+    detail: 1
+    valuators:
+          0: 729.00 (729.00)
+          1: 1479.00 (1479.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 727.00 (727.00)
+          1: 1479.00 (1479.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 725.00 (725.00)
+          1: 1479.00 (1479.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 723.00 (723.00)
+          1: 1477.00 (1477.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 721.00 (721.00)
+          1: 1477.00 (1477.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 720.00 (720.00)
+          1: 1476.00 (1476.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 720.00 (720.00)
+          1: 1475.00 (1475.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 719.00 (719.00)
+          1: 1475.00 (1475.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 712.00 (712.00)
+          1: 1469.00 (1469.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 700.00 (700.00)
+          1: 1454.00 (1454.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 680.00 (680.00)
+          1: 1429.00 (1429.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 652.00 (652.00)
+          1: 1392.00 (1392.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 625.00 (625.00)
+          1: 1353.00 (1353.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 609.00 (609.00)
+          1: 1331.00 (1331.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 598.00 (598.00)
+          1: 1318.00 (1318.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 593.00 (593.00)
+          1: 1309.00 (1309.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 588.00 (588.00)
+          1: 1303.00 (1303.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 587.00 (587.00)
+          1: 1301.00 (1301.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 587.00 (587.00)
+          1: 1299.00 (1299.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 587.00 (587.00)
+          1: 1298.00 (1298.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 589.00 (589.00)
+          1: 1296.00 (1296.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 584.00 (584.00)
+          1: 1293.00 (1293.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 577.00 (577.00)
+          1: 1287.00 (1287.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 566.00 (566.00)
+          1: 1281.00 (1281.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 553.00 (553.00)
+          1: 1274.00 (1274.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 543.00 (543.00)
+          1: 1269.00 (1269.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 532.00 (532.00)
+          1: 1264.00 (1264.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 526.00 (526.00)
+          1: 1260.00 (1260.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 522.00 (522.00)
+          1: 1258.00 (1258.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 519.00 (519.00)
+          1: 1257.00 (1257.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 518.00 (518.00)
+          1: 1256.00 (1256.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 515.00 (515.00)
+          1: 1256.00 (1256.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 514.00 (514.00)
+          1: 1256.00 (1256.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 513.00 (513.00)
+          1: 1256.00 (1256.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 512.00 (512.00)
+          1: 1256.00 (1256.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 510.00 (510.00)
+          1: 1256.00 (1256.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 509.00 (509.00)
+          1: 1256.00 (1256.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 508.00 (508.00)
+          1: 1256.00 (1256.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 507.00 (507.00)
+          1: 1256.00 (1256.00)
+
+EVENT type 15 (RawButtonPress)
+    device: 2
+    detail: 1
+    valuators:
+          0: 507.00 (507.00)
+          1: 1256.00 (1256.00)
+
+EVENT type 13 (RawKeyPress)
+    device: 3
+    detail: 67
+    valuators:
+
+EVENT type 13 (RawKeyPress)
+    device: 3
+    detail: 15
+    valuators:
+
+EVENT type 14 (RawKeyRelease)
+    device: 3
+    detail: 15
+    valuators:
+
+EVENT type 14 (RawKeyRelease)
+    device: 3
+    detail: 67
+    valuators:
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 670.00 (670.00)
+          1: 1268.00 (1268.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 667.00 (667.00)
+          1: 1273.00 (1273.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 652.00 (652.00)
+          1: 1290.00 (1290.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 636.00 (636.00)
+          1: 1310.00 (1310.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 612.00 (612.00)
+          1: 1342.00 (1342.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 594.00 (594.00)
+          1: 1369.00 (1369.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 574.00 (574.00)
+          1: 1400.00 (1400.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 558.00 (558.00)
+          1: 1428.00 (1428.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 547.00 (547.00)
+          1: 1452.00 (1452.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 541.00 (541.00)
+          1: 1466.00 (1466.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 536.00 (536.00)
+          1: 1481.00 (1481.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 536.00 (536.00)
+          1: 1482.00 (1482.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 534.00 (534.00)
+          1: 1488.00 (1488.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 529.00 (529.00)
+          1: 1497.00 (1497.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 523.00 (523.00)
+          1: 1508.00 (1508.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 514.00 (514.00)
+          1: 1527.00 (1527.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 505.00 (505.00)
+          1: 1547.00 (1547.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 496.00 (496.00)
+          1: 1565.00 (1565.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 487.00 (487.00)
+          1: 1580.00 (1580.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 482.00 (482.00)
+          1: 1588.00 (1588.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 476.00 (476.00)
+          1: 1597.00 (1597.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 472.00 (472.00)
+          1: 1601.00 (1601.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 468.00 (468.00)
+          1: 1606.00 (1606.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 466.00 (466.00)
+          1: 1608.00 (1608.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 466.00 (466.00)
+          1: 1609.00 (1609.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 465.00 (465.00)
+          1: 1609.00 (1609.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 465.00 (465.00)
+          1: 1608.00 (1608.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 465.00 (465.00)
+          1: 1607.00 (1607.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 465.00 (465.00)
+          1: 1606.00 (1606.00)
+
+EVENT type 15 (RawButtonPress)
+    device: 2
+    detail: 1
+    valuators:
+          0: 465.00 (465.00)
+          1: 1606.00 (1606.00)
+
+EVENT type 13 (RawKeyPress)
+    device: 3
+    detail: 67
+    valuators:
+
+EVENT type 13 (RawKeyPress)
+    device: 3
+    detail: 17
+    valuators:
+
+EVENT type 14 (RawKeyRelease)
+    device: 3
+    detail: 17
+    valuators:
+
+EVENT type 14 (RawKeyRelease)
+    device: 3
+    detail: 67
+    valuators:
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 470.00 (470.00)
+          1: 1606.00 (1606.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 493.00 (493.00)
+          1: 1601.00 (1601.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 529.00 (529.00)
+          1: 1594.00 (1594.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 603.00 (603.00)
+          1: 1586.00 (1586.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 687.00 (687.00)
+          1: 1585.00 (1585.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 756.00 (756.00)
+          1: 1592.00 (1592.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 793.00 (793.00)
+          1: 1603.00 (1603.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 815.00 (815.00)
+          1: 1612.00 (1612.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 826.00 (826.00)
+          1: 1617.00 (1617.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 832.00 (832.00)
+          1: 1619.00 (1619.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 835.00 (835.00)
+          1: 1619.00 (1619.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 852.00 (852.00)
+          1: 1618.00 (1618.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 881.00 (881.00)
+          1: 1613.00 (1613.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 932.00 (932.00)
+          1: 1604.00 (1604.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 970.00 (970.00)
+          1: 1599.00 (1599.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1021.00 (1021.00)
+          1: 1593.00 (1593.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1052.00 (1052.00)
+          1: 1590.00 (1590.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1079.00 (1079.00)
+          1: 1588.00 (1588.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1089.00 (1089.00)
+          1: 1586.00 (1586.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1094.00 (1094.00)
+          1: 1585.00 (1585.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1099.00 (1099.00)
+          1: 1585.00 (1585.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1107.00 (1107.00)
+          1: 1585.00 (1585.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1115.00 (1115.00)
+          1: 1585.00 (1585.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1124.00 (1124.00)
+          1: 1586.00 (1586.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1137.00 (1137.00)
+          1: 1588.00 (1588.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1147.00 (1147.00)
+          1: 1589.00 (1589.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1157.00 (1157.00)
+          1: 1590.00 (1590.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1167.00 (1167.00)
+          1: 1590.00 (1590.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1177.00 (1177.00)
+          1: 1590.00 (1590.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1186.00 (1186.00)
+          1: 1590.00 (1590.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1194.00 (1194.00)
+          1: 1590.00 (1590.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1200.00 (1200.00)
+          1: 1591.00 (1591.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1206.00 (1206.00)
+          1: 1591.00 (1591.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1209.00 (1209.00)
+          1: 1592.00 (1592.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1211.00 (1211.00)
+          1: 1592.00 (1592.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1213.00 (1213.00)
+          1: 1593.00 (1593.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1215.00 (1215.00)
+          1: 1593.00 (1593.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1218.00 (1218.00)
+          1: 1594.00 (1594.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1221.00 (1221.00)
+          1: 1596.00 (1596.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1225.00 (1225.00)
+          1: 1598.00 (1598.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1229.00 (1229.00)
+          1: 1599.00 (1599.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1232.00 (1232.00)
+          1: 1601.00 (1601.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1234.00 (1234.00)
+          1: 1602.00 (1602.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1235.00 (1235.00)
+          1: 1602.00 (1602.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1235.00 (1235.00)
+          1: 1603.00 (1603.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1236.00 (1236.00)
+          1: 1603.00 (1603.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1237.00 (1237.00)
+          1: 1604.00 (1604.00)
+
+EVENT type 17 (RawMotion)
+    device: 2
+    detail: 0
+    valuators:
+          0: 1238.00 (1238.00)
+          1: 1604.00 (1604.00)
+
+EVENT type 15 (RawButtonPress)
+    device: 2
+    detail: 1
+    valuators:
+          0: 1238.00 (1238.00)
+          1: 1604.00 (1604.00)
+
+

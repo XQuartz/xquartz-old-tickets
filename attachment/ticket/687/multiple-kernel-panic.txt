@@ -1,0 +1,237 @@
+Interval Since Last Panic Report:  85133 sec
+Panics Since Last Report:          2
+Anonymous UUID:                    AC2107D2-30F3-7940-6F57-7F569137A1FF
+
+Sat Nov 10 19:17:01 2012
+panic(cpu 1 caller 0xffffff800fcb83c9): "Double fault at 0xffffff7f90420be2, registers:\n" "CR0: 0x0000000080010033, CR2: 0xffffff80f7c37ff8, CR3: 0x000000002da88000, CR4: 0x0000000000000660\n" "RAX: 0xffffff7f9069b198, RBX: 0x0000000000000000, RCX: 0x0000000000000000, RDX: 0x0000000000000000\n" "RSP: 0xffffff80f7c38000, RBP: 0xffffff80f7c38000, RSI: 0x0000000000000003, RDI: 0xffffff80db855004\n" "R8:  0x000000000abd0000, R9:  0x0000000000000000, R10: 0xffffff80f7c383d0, R11: 0xffffff8034b9d004\n" "R12: 0xffffff8023531004, R13: 0x0000000000000000, R14: 0x0000000000000000, R15: 0xffffff80db858004\n" "RFL: 0x0000000000010246, RIP: 0xffffff7f90420be2, CS:  0x0000000000000008, SS:  0x0000000000000010\n" "Error code: 0x0000000000000000\n"@/SourceCache/xnu/xnu-2050.18.24/osfmk/i386/trap_native.c:280
+Backtrace (CPU 1), Frame : Return Address
+0xffffff80f174dec0 : 0xffffff800fc1d626 
+0xffffff80f174df30 : 0xffffff800fcb83c9 
+0xffffff80f174e0a0 : 0xffffff800fcceddf 
+0xffffff80f7c38000 : 0xffffff7f903f3534 
+0xffffff80f7c38020 : 0xffffff7f903f7a99 
+0xffffff80f7c38060 : 0xffffff7f90534cab 
+0xffffff80f7c38080 : 0xffffff7f90715d1d 
+0xffffff80f7c380e0 : 0xffffff7f90793fca 
+0xffffff80f7c38240 : 0xffffff7f9079aab3 
+0xffffff80f7c38330 : 0xffffff7f90403e86 
+0xffffff80f7c383d0 : 0xffffff7f90417614 
+0xffffff80f7c38490 : 0xffffff7f90442590 
+0xffffff80f7c38680 : 0xffffff7f90442a2e 
+0xffffff80f7c38770 : 0xffffff7f91430aea 
+0xffffff80f7c387d0 : 0xffffff7f9142d7b3 
+0xffffff80f7c38810 : 0xffffff7f9142b655 
+0xffffff80f7c38840 : 0xffffff7f913dcf23 
+0xffffff80f7c38860 : 0xffffff7f913dcf99 
+0xffffff80f7c38890 : 0xffffff7f913f71d5 
+0xffffff80f7c388c0 : 0xffffff7f913dd1ea 
+0xffffff80f7c38920 : 0xffffff7f913dcff4 
+0xffffff80f7c38960 : 0xffffff7f913de598 
+0xffffff80f7c389a0 : 0xffffff7f913dcdc2 
+0xffffff80f7c389d0 : 0xffffff7f91441af1 
+0xffffff80f7c38a10 : 0xffffff7f913dd8c5 
+0xffffff80f7c38a40 : 0xffffff7f9140c9c2 
+0xffffff80f7c38a90 : 0xffffff7f9142b162 
+0xffffff80f7c38aa0 : 0xffffff7f9142da69 
+0xffffff80f7c38ad0 : 0xffffff7f91430825 
+0xffffff80f7c38c00 : 0xffffff7f914304f5 
+0xffffff80f7c38d40 : 0xffffff7f9142fefe 
+0xffffff80f7c38d50 : 0xffffff7f91407cfb 
+0xffffff80f7c38d60 : 0xffffff7f913dcfa8 
+0xffffff80f7c38d90 : 0xffffff7f913f71d5 
+0xffffff80f7c38dc0 : 0xffffff7f913dd1ea 
+0xffffff80f7c38e20 : 0xffffff7f913dcff4 
+0xffffff80f7c38e60 : 0xffffff7f913de598 
+0xffffff80f7c38ea0 : 0xffffff7f913dcdc2 
+0xffffff80f7c38ed0 : 0xffffff7f91441af1 
+0xffffff80f7c38f10 : 0xffffff7f913dd8c5 
+0xffffff80f7c38f40 : 0xffffff7f9140c9c2 
+0xffffff80f7c38f90 : 0xffffff7f9142b162 
+0xffffff80f7c38fa0 : 0xffffff7f9142da69 
+0xffffff80f7c38fd0 : 0xffffff7f91430825 
+0xffffff80f7c39100 : 0xffffff7f914304f5 
+0xffffff80f7c39240 : 0xffffff7f9142fefe 
+0xffffff80f7c39250 : 0xffffff7f91407cfb 
+0xffffff80f7c39260 : 0xffffff7f913dcfa8 
+0xffffff80f7c39290 : 0xffffff7f913f71d5 
+0xffffff80f7c392c0 : 0xffffff7f913dd1ea 
+0xffffff80f7c39320 : 0xffffff7f913dcff4 
+0xffffff80f7c39360 : 0xffffff7f913de598 
+0xffffff80f7c393a0 : 0xffffff7f913dcdc2 
+0xffffff80f7c393d0 : 0xffffff7f91441af1 
+0xffffff80f7c39410 : 0xffffff7f913dd8c5 
+0xffffff80f7c39440 : 0xffffff7f9140c9c2 
+0xffffff80f7c39490 : 0xffffff7f9142b162 
+0xffffff80f7c394a0 : 0xffffff7f9142da69 
+0xffffff80f7c394d0 : 0xffffff7f91430825 
+0xffffff80f7c39600 : 0xffffff7f914304f5 
+0xffffff80f7c39740 : 0xffffff7f9142fefe 
+0xffffff80f7c39750 : 0xffffff7f91407cfb 
+0xffffff80f7c39760 : 0xffffff7f913dcfa8 
+0xffffff80f7c39790 : 0xffffff7f913f71d5 
+0xffffff80f7c397c0 : 0xffffff7f913dd1ea 
+0xffffff80f7c39820 : 0xffffff7f913dcff4 
+0xffffff80f7c39860 : 0xffffff7f913de598 
+0xffffff80f7c398a0 : 0xffffff7f913dcdc2 
+0xffffff80f7c398d0 : 0xffffff7f91441af1 
+0xffffff80f7c39910 : 0xffffff7f913dd8c5 
+0xffffff80f7c39940 : 0xffffff7f9140c9c2 
+0xffffff80f7c39990 : 0xffffff7f9142b162 
+0xffffff80f7c399a0 : 0xffffff7f9142da69 
+0xffffff80f7c399d0 : 0xffffff7f91430825 
+0xffffff80f7c39b00 : 0xffffff7f914304f5 
+0xffffff80f7c39c40 : 0xffffff7f9142fefe 
+0xffffff80f7c39c50 : 0xffffff7f91407cfb 
+0xffffff80f7c39c60 : 0xffffff7f913dcfa8 
+0xffffff80f7c39c90 : 0xffffff7f913f71d5 
+0xffffff80f7c39cc0 : 0xffffff7f913dd1ea 
+	Backtrace continues...
+      Kernel Extensions in backtrace:
+         com.apple.NVDAResman(8.0)[A4C53A36-22B6-3075-82B9-9DE612A9C015]@0xffffff7f903d5000->0xffffff7f906d7fff
+            dependency: com.apple.iokit.IOPCIFamily(2.7.2)[B1B77B26-7984-302F-BA8E-544DD3D75E73]@0xffffff7f90251000
+            dependency: com.apple.iokit.IONDRVSupport(2.3.5)[86DDB71C-A73A-3EBE-AC44-0BC9A38B9A44]@0xffffff7f903c1000
+            dependency: com.apple.iokit.IOGraphicsFamily(2.3.5)[803496D0-ADAD-3ADB-B071-8A0A197DA53D]@0xffffff7f9037e000
+         com.apple.nvidia.nv50hal(8.0)[9F3D09B5-3158-3D9E-BDA3-E71576AAD3B7]@0xffffff7f906e5000->0xffffff7f90a07fff
+            dependency: com.apple.NVDAResman(8.0.0)[A4C53A36-22B6-3075-82B9-9DE612A9C015]@0xffffff7f903d5000
+            dependency: com.apple.iokit.IOPCIFamily(2.7.2)[B1B77B26-7984-302F-BA8E-544DD3D75E73]@0xffffff7f90251000
+         com.apple.GeForce(8.0)[2E56ED9A-D848-3795-9E52-56BABDC9000C]@0xffffff7f913d7000->0xffffff7f91499fff
+            dependency: com.apple.NVDAResman(8.0.0)[A4C53A36-22B6-3075-82B9-9DE612A9C015]@0xffffff7f903d5000
+            dependency: com.apple.iokit.IONDRVSupport(2.3.5)[86DDB71C-A73A-3EBE-AC44-0BC9A38B9A44]@0xffffff7f903c1000
+            dependency: com.apple.iokit.IOPCIFamily(2.7.2)[B1B77B26-7984-302F-BA8E-544DD3D75E73]@0xffffff7f90251000
+            dependency: com.apple.iokit.IOGraphicsFamily(2.3.5)[803496D0-ADAD-3ADB-B071-8A0A197DA53D]@0xffffff7f9037e000
+
+BSD process name corresponding to current thread: WindowServer
+
+Mac OS version:
+12C60
+
+Kernel version:
+Darwin Kernel Version 12.2.0: Sat Aug 25 00:48:52 PDT 2012; root:xnu-2050.18.24~1/RELEASE_X86_64
+Kernel UUID: 69A5853F-375A-3EF4-9247-478FD0247333
+Kernel slide:     0x000000000fa00000
+Kernel text base: 0xffffff800fc00000
+System model name: MacBookPro5,5 (Mac-F2268AC8)
+
+System uptime in nanoseconds: 3260522832924
+last loaded kext at 141268771905: com.apple.filesystems.smbfs	1.8 (addr 0xffffff7f90219000, size 229376)
+last unloaded kext at 176455183714: com.apple.driver.AppleUSBTCKeyEventDriver	235.4 (addr 0xffffff7f91923000, size 8192)
+loaded kexts:
+com.apple.filesystems.smbfs	1.8
+com.apple.driver.AppleHWSensor	1.9.5d0
+com.apple.driver.AudioAUUC	1.60
+com.apple.driver.AGPM	100.12.69
+com.apple.driver.AppleHDA	2.3.1f2
+com.apple.driver.AppleMikeyHIDDriver	122
+com.apple.driver.AppleMikeyDriver	2.3.1f2
+com.apple.driver.AppleSMCLMU	2.0.2d0
+com.apple.iokit.IOUserEthernet	1.0.0d1
+com.apple.iokit.IOBluetoothSerialManager	4.0.9f33
+com.apple.Dont_Steal_Mac_OS_X	7.0.0
+com.apple.driver.ApplePolicyControl	3.2.11
+com.apple.driver.ACPI_SMC_PlatformPlugin	1.0.0
+com.apple.driver.AppleLPC	1.6.0
+com.apple.filesystems.autofs	3.0
+com.apple.iokit.BroadcomBluetoothHCIControllerUSBTransport	4.0.9f33
+com.apple.driver.AppleUpstreamUserClient	3.5.10
+com.apple.driver.AppleBacklight	170.2.3
+com.apple.driver.AppleMCCSControl	1.0.33
+com.apple.GeForce	8.0.0
+com.apple.driver.SMCMotionSensor	3.0.2d6
+com.apple.driver.AppleUSBTCButtons	235.4
+com.apple.AppleFSCompression.AppleFSCompressionTypeDataless	1.0.0d1
+com.apple.AppleFSCompression.AppleFSCompressionTypeZlib	1.0.0d1
+com.apple.BootCache	34
+com.apple.driver.AppleUSBTCKeyboard	235.4
+com.apple.driver.AppleIRController	320.15
+com.apple.driver.AppleUSBCardReader	3.1.0
+com.apple.iokit.SCSITaskUserClient	3.5.1
+com.apple.driver.XsanFilter	404
+com.apple.iokit.IOAHCIBlockStorage	2.2.2
+com.apple.driver.AppleFWOHCI	4.9.6
+com.apple.driver.AirPort.Brcm4331	602.15.22
+com.apple.driver.AppleEFINVRAM	1.6.1
+com.apple.driver.AppleAHCIPort	2.4.1
+com.apple.driver.AppleUSBHub	5.2.5
+com.apple.nvenet	2.0.19
+com.apple.driver.AppleUSBOHCI	5.2.5
+com.apple.driver.AppleSmartBatteryManager	161.0.0
+com.apple.driver.AppleUSBEHCI	5.4.0
+com.apple.driver.AppleRTC	1.5
+com.apple.driver.AppleHPET	1.7
+com.apple.driver.AppleACPIButtons	1.6
+com.apple.driver.AppleSMBIOS	1.9
+com.apple.driver.AppleACPIEC	1.6
+com.apple.driver.AppleAPIC	1.6
+com.apple.driver.AppleIntelCPUPowerManagementClient	196.0.0
+com.apple.nke.applicationfirewall	4.0.39
+com.apple.security.quarantine	2
+com.apple.driver.AppleIntelCPUPowerManagement	196.0.0
+com.apple.driver.DspFuncLib	2.3.1f2
+com.apple.iokit.IOAudioFamily	1.8.9fc10
+com.apple.kext.OSvKernDSPLib	1.6
+com.apple.driver.AppleHDAController	2.3.1f2
+com.apple.iokit.IOHDAFamily	2.3.1f2
+com.apple.iokit.IOSurface	86.0.3
+com.apple.iokit.IOSerialFamily	10.0.6
+com.apple.iokit.IOBluetoothFamily	4.0.9f33
+com.apple.driver.IOPlatformPluginLegacy	1.0.0
+com.apple.driver.AppleSMBusPCI	1.0.10d0
+com.apple.driver.IOPlatformPluginFamily	5.2.0d16
+com.apple.kext.triggers	1.0
+com.apple.iokit.IOFireWireIP	2.2.5
+com.apple.iokit.AppleBluetoothHCIControllerUSBTransport	4.0.9f33
+com.apple.driver.AppleGraphicsControl	3.2.11
+com.apple.driver.AppleBacklightExpert	1.0.4
+com.apple.driver.AppleSMBusController	1.0.10d0
+com.apple.nvidia.nv50hal	8.0.0
+com.apple.NVDAResman	8.0.0
+com.apple.iokit.IONDRVSupport	2.3.5
+com.apple.iokit.IOGraphicsFamily	2.3.5
+com.apple.driver.AppleSMC	3.1.4d2
+com.apple.driver.AppleUSBMultitouch	235.7
+com.apple.iokit.IOUSBHIDDriver	5.2.5
+com.apple.iokit.IOSCSIBlockCommandsDevice	3.5.1
+com.apple.iokit.IOUSBMassStorageClass	3.5.0
+com.apple.driver.AppleUSBMergeNub	5.2.5
+com.apple.driver.AppleUSBComposite	5.2.5
+com.apple.iokit.IOSCSIMultimediaCommandsDevice	3.5.1
+com.apple.iokit.IOBDStorageFamily	1.7
+com.apple.iokit.IODVDStorageFamily	1.7.1
+com.apple.iokit.IOCDStorageFamily	1.7.1
+com.apple.iokit.IOAHCISerialATAPI	2.5.0
+com.apple.iokit.IOSCSIArchitectureModelFamily	3.5.1
+com.apple.iokit.IOFireWireFamily	4.5.5
+com.apple.iokit.IO80211Family	500.15
+com.apple.iokit.IOAHCIFamily	2.2.1
+com.apple.iokit.IONetworkingFamily	3.0
+com.apple.iokit.IOUSBUserClient	5.2.5
+com.apple.iokit.IOUSBFamily	5.4.0
+com.apple.driver.NVSMU	2.2.9
+com.apple.driver.AppleEFIRuntime	1.6.1
+com.apple.iokit.IOHIDFamily	1.8.0
+com.apple.iokit.IOSMBusFamily	1.1
+com.apple.security.sandbox	220
+com.apple.kext.AppleMatch	1.0.0d1
+com.apple.security.TMSafetyNet	7
+com.apple.driver.DiskImages	344
+com.apple.iokit.IOStorageFamily	1.8
+com.apple.driver.AppleKeyStore	28.21
+com.apple.driver.AppleACPIPlatform	1.6
+com.apple.iokit.IOPCIFamily	2.7.2
+com.apple.iokit.IOACPIFamily	1.4
+com.apple.kec.corecrypto	1.0
+Model: MacBookPro5,5, BootROM MBP55.00AC.B03, 2 processors, Intel Core 2 Duo, 2.26 GHz, 8 GB, SMC 1.47f2
+Graphics: NVIDIA GeForce 9400M, NVIDIA GeForce 9400M, PCI, 256 MB
+Memory Module: BANK 0/DIMM0, 4 GB, DDR3, 1067 MHz, 0x0000, 0x454C48343030534F32353630382D31333333
+Memory Module: BANK 1/DIMM0, 4 GB, DDR3, 1067 MHz, 0x0000, 0x454C48343030534F32353630382D31333333
+AirPort: spairport_wireless_card_type_airport_extreme (0x14E4, 0x8D), Broadcom BCM43xx 1.0 (5.106.98.81.22)
+Bluetooth: Version 4.0.9f33 10885, 2 service, 11 devices, 1 incoming serial ports
+Network Service: AirPort, AirPort, en1
+Serial ATA Device: ST9250315ASG, 250,06 GB
+Serial ATA Device: HL-DT-ST DVDRW  GS23N
+USB Device: Internal Memory Card Reader, apple_vendor_id, 0x8403, 0x26500000 / 2
+USB Device: Built-in iSight, apple_vendor_id, 0x8507, 0x24400000 / 2
+USB Device: BRCM2046 Hub, 0x0a5c  (Broadcom Corp.), 0x4500, 0x06100000 / 2
+USB Device: Bluetooth USB Host Controller, apple_vendor_id, 0x8213, 0x06110000 / 3
+USB Device: Apple Internal Keyboard / Trackpad, apple_vendor_id, 0x0237, 0x04600000 / 3
+USB Device: IR Receiver, apple_vendor_id, 0x8242, 0x04500000 / 2

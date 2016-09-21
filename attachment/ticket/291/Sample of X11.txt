@@ -1,0 +1,260 @@
+Sampling process 38095 for 3 seconds with 1 millisecond of run time between samples
+Sampling completed, processing symbols...
+Analysis of sampling X11.bin (pid 38095) every 1 millisecond
+Call graph:
+    1841 Thread_2507
+      1841 start
+        1841 main
+          1841 mach_msg_server
+            1841 mach_startup_server
+              1841 _Xstart_x11_server
+                1841 do_start_x11_server
+                  1841 server_main
+                    1841 X11ControllerMain
+                      1841 X11ApplicationMain
+                        1841 -[NSApplication run]
+                          1826 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:]
+                            1826 _DPSNextEvent
+                              1823 BlockUntilNextEventMatchingListInMode
+                                1823 ReceiveNextEventCommon
+                                  1820 RunCurrentEventLoopInMode
+                                    1820 CFRunLoopRunInMode
+                                      1820 CFRunLoopRunSpecific
+                                        1806 mach_msg
+                                          1806 mach_msg_trap
+                                            1806 mach_msg_trap
+                                        9 __CFMachPortPerform
+                                          9 PullEventsFromWindowServerOnConnection(unsigned int, unsigned char)
+                                            7 CGEventCreateNextEvent
+                                              7 CGSGetNextEventRecordInternal
+                                                7 snarfEvents
+                                                  6 _CGSGetPortStreamInline
+                                                    6 mach_msg
+                                                      6 mach_msg_trap
+                                                        6 mach_msg_trap
+                                                  1 CGSDispatchDatagramsFromStream
+                                                    1 CGSDecodeEventRecord
+                                                      1 CGEventCreateFromDataAndSource
+                                                        1 free
+                                                          1 munmap$UNIX2003
+                                                            1 munmap$UNIX2003
+                                            2 ConvertPlatformEventRecordAndPostWithOptions(__CGEvent*, _CGSEventRecord const*, short, unsigned char, unsigned char)
+                                              2 PostEventToQueueInternal
+                                                2 _NotifyEventLoopObservers
+                                                  1 KeyEventPostedObserver
+                                                    1 FindSpecificEventInQueue
+                                                      1 free
+                                                        1 szone_free
+                                                          1 szone_free
+                                                  1 SCTKeyEventObserver
+                                                    1 -[NSAutoreleasePool init]
+                                                      1 -[NSAutoreleasePool initWithCapacity:]
+                                                        1 NSPushAutoreleasePool
+                                                          1 NSPushAutoreleasePool
+                                        3 __CFRunLoopDoObservers
+                                          2 FlushAllBuffers(__CFRunLoopObserver*, unsigned long, void*)
+                                            1 CFAbsoluteTimeGetCurrent
+                                              1 CFAbsoluteTimeGetCurrent
+                                            1 CFRunLoopTimerSetNextFireDate
+                                              1 __CFRunLoopTimerRescheduleWithAllModes
+                                                1 mk_timer_arm
+                                                  1 mk_timer_arm
+                                          1 CFSetGetCount
+                                            1 CFSetGetCount
+                                        1 CFRunLoopRunSpecific
+                                        1 __CFRunLoopTimerRescheduleWithAllModes
+                                          1 mk_timer_arm
+                                            1 mk_timer_arm
+                                  3 AcquireEventFromQueue
+                                    3 _NotifyEventLoopObservers
+                                      3 HIApplication::EventObserver(unsigned long, OpaqueEventRef*, void*)
+                                        3 HIApplication::HandleActivated(OpaqueEventRef*, unsigned char, OpaqueWindowPtr*)
+                                          2 SetMenuBarObscured
+                                            2 ShowBar(unsigned char, unsigned char)
+                                              1 MBarDraw()
+                                                1 ShowHide
+                                                  1 _ShowHideWindows
+                                                    1 WindowData::PrepareForVisibility()
+                                                      1 HIView::Render(unsigned long, CGContext*)
+                                                        1 HIView::Draw(short, OpaqueGrafPtr*, unsigned long)
+                                                          1 HIView::DrawComposited(short, OpaqueGrafPtr*, __HIShape const*, unsigned long, HIView*, CGContext*)
+                                                            1 HIView::RecursiveDrawComposited(__HIShape const*, unsigned long, HIView*, CGContext*, unsigned char, float)
+                                                              1 HIView::RecursiveDrawComposited(__HIShape const*, unsigned long, HIView*, CGContext*, unsigned char, float)
+                                                                1 HIView::SendDraw(short, OpaqueGrafPtr*, __HIShape const*, CGContext*)
+                                                                  1 HIView::DrawCacheOrSelf(short, __HIShape const*, CGContext*)
+                                                                    1 HIMenuBarView::DrawSelf(short, __HIShape const*, CGContext*)
+                                                                      1 IsMenuBarTransparencyEnabled
+                                                                        1 TBGetBooleanPref
+                                                                          1 myCFPreferencesCopyValue(__CFString const*, __CFString const*, __CFString const*, __CFString const*)
+                                                                            1 CFPreferencesCopyValue
+                                                                              1 __CFXPreferencesGetSourceForTriplet
+                                                                                1 CFStringCreateWithFormat
+                                                                                  1 CFStringCreateWithFormatAndArguments
+                                                                                    1 _CFStringCreateWithFormatAndArgumentsAux
+                                                                                      1 _CFStringAppendFormatAndArgumentsAux
+                                                                                        1 CFStringCreateCopy
+                                                                                          1 __compare_and_swap32
+                                                                                            1 __compare_and_swap32
+                                              1 SetMenuBarLimits
+                                                1 _CGSSetSystemStatusBarLimits
+                                                  1 mach_msg
+                                                    1 mach_msg_trap
+                                                      1 mach_msg_trap
+                                          1 EnableScreenUpdates
+                                            1 CGSReenableUpdate
+                                              1 CGSReenableUpdateForConnections
+                                                1 _CGSReenableUpdateForConnections
+                                                  1 mach_msg
+                                                    1 mach_msg_trap
+                                                      1 mach_msg_trap
+                              1 _DPSNextEvent
+                              1 _NSHandleCarbonMenuEvent
+                                1 _NSHandleCarbonMenuEvent
+                              1 __memcpy
+                                1 __memcpy
+                          14 -[X11Application sendEvent:]
+                            12 -[X11Application activateX:]
+                              12 ActivateTSMDocument
+                                12 MyActivateTSMDocument
+                                  12 _TSMSetInputSourceSelected
+                                    12 IsSendWindowServerKeyboardLayoutUpdate
+                                      12 CGSSetKeyTranslationTableFromPtr
+                                        12 _CGSSetKeyTranslationTable
+                                          12 mach_msg
+                                            12 mach_msg_trap
+                                              12 mach_msg_trap
+                            1 -[X11Application(Private) sendX11NSEvent:]
+                              1 TISCopyCurrentKeyboardLayoutInputSource
+                                1 CFStringCompare
+                                  1 CFStringCompareWithOptions
+                                    1 CFStringCompareWithOptionsAndLocale
+                                      1 CFUniCharGetBitmapPtrForPlane
+                                        1 CFUniCharGetBitmapPtrForPlane
+                            1 CGSDeactivateCurrContext
+                              1 _LSSetMetaApplicationInformationItem
+                                1 _LSDoSetMetaApplicationInformation
+                                  1 mach_msg
+                                    1 mach_msg_trap
+                                      1 mach_msg_trap
+                          1 NSPopAutoreleasePool
+                            1 objc_assign_strongCast
+                              1 objc_assign_strongCast
+    1841 Thread_2603
+      1841 thread_start
+        1841 _pthread_start
+          1841 CAPThread::Entry(CAPThread*)
+            1841 HALRunLoop::OwnThread(void*)
+              1841 CFRunLoopRunInMode
+                1841 CFRunLoopRunSpecific
+                  1841 mach_msg
+                    1841 mach_msg_trap
+                      1841 mach_msg_trap
+    1841 Thread_2703
+      1841 thread_start
+        1841 _pthread_start
+          1841 server_thread
+            1841 dix_main
+              1841 Dispatch
+                1824 select$DARWIN_EXTSN
+                  1824 select$DARWIN_EXTSN
+                12 ProcessInputEvents
+                  12 mieqProcessInputEvents
+                    12 DarwinEventHandler
+                      12 QuartzShow
+                        12 QuartzResumeXCursor
+                          12 QuartzSetCursor
+                            12 load_cursor
+                              12 xp_set_cursor
+                                12 CGSRegisterCursorWithData
+                                  12 CGSRegisterCursorWithData2
+                                    12 _CGSRegisterCursorWithData
+                                      12 mach_msg
+                                        12 mach_msg_trap
+                                          12 mach_msg_trap
+                3 WaitForSomething
+                  3 BlockHandler
+                    1 AnimCurScreenBlockHandler
+                      1 miSpriteBlockHandler
+                        1 miSpriteBlockHandler
+                    1 QuartzBlockHandler
+                      1 NSPopAutoreleasePool
+                        1 objc_assign_strongCast
+                          1 objc_assign_strongCast
+                    1 objc_msgSend
+                      1 objc_msgSend
+                2 ProcRenderDispatch
+                  2 ProcRenderFillRectangles
+                    2 CompositeRects
+                      2 miCompositeRects
+                        2 miColorRects
+                          2 RootlessPolyFillRect
+                            2 RootlessStartDrawing
+                              2 xprStartDrawing
+                                2 xp_lock_window
+                                  2 xp_synchronize
+                                    2 _xp_synchronize
+                                      2 _xp_async_dequeue
+                                        2 pthread_cond_wait$UNIX2003
+                                          2 __semwait_signal
+                                            2 __semwait_signal
+    1841 Thread_2803
+      1841 thread_start
+        1841 _pthread_start
+          1841 xpbproxy_x_thread
+            1841 xpbproxy_input_loop
+              1841 pthread_cond_wait$UNIX2003
+                1841 __semwait_signal
+                  1841 __semwait_signal
+    1841 Thread_2903
+      1841 thread_start
+        1841 _pthread_start
+          1841 glvmDoWork
+            1841 pthread_cond_wait$UNIX2003
+              1841 __semwait_signal
+                1841 __semwait_signal
+    1841 Thread_2a03
+      1841 thread_start
+        1841 _pthread_start
+          1841 DarwinProcessFDAdditionQueue_thread
+            1841 pthread_cond_wait$UNIX2003
+              1841 __semwait_signal
+                1841 __semwait_signal
+    1841 Thread_2b03
+      1841 thread_start
+        1841 _pthread_start
+          1841 select$DARWIN_EXTSN
+            1841 select$DARWIN_EXTSN
+    1841 Thread_2c03
+      1841 thread_start
+        1841 _pthread_start
+          1841 _xp_async_thread
+            1839 _xp_async_dequeue
+              1839 pthread_cond_wait$UNIX2003
+                1839 __semwait_signal
+                  1839 __semwait_signal
+            2 _xp_frame_draw_cb
+              1 CGSSetWindowTitle
+                1 CGSSetWindowProperty
+                  1 _CGSSetWindowProperty
+                    1 mach_msg
+                      1 mach_msg_trap
+                        1 mach_msg_trap
+              1 draw_titlebar_text
+                1 ApplyRunStyles(OpaqueATSUTextLayout*, unsigned long, unsigned long, unsigned long, unsigned long const*, OpaqueATSUStyle**)
+                  1 ATSUSetRunStyle
+                    1 TTextLineLayout::ReleaseFromReadOrWriteUse()
+                      1 TTextLineLayout::ReleaseFromReadOrWriteUse()
+
+Total number in stack (recursive counted multiple, when >=5):
+        9       mach_msg
+        9       mach_msg_trap
+        7       _pthread_start
+        7       thread_start
+        5       __semwait_signal
+        5       pthread_cond_wait$UNIX2003
+
+Sort by top of stack, same collapsed (when >= 5):
+        __semwait_signal        7364
+        mach_msg_trap        3681
+        select$DARWIN_EXTSN        3665
+Sample analysis of process 38095 written to file /dev/stdout

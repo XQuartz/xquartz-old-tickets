@@ -1,0 +1,91 @@
+>>> WINEDEBUG=glx wine hl.exe
+err:wgl:has_opengl  glx_version is 1.2 and GLX_SGIX_fbconfig extension is unsupported. Expect problems.
+wine: Unhandled page fault on execute access to 0x00000000 at address 0x0 (thread 0009), starting debugger...
+Unhandled exception: page fault on execute access to 0x00000000 in 32-bit code (0x00000000).
+Register dump:
+ CS:0017 SS:001f DS:001f ES:001f FS:1007 GS:0037
+ EIP:00000000 ESP:0032f3cc EBP:0032f448 EFLAGS:00010202(   - 00      - -RI1)
+ EAX:6080ce00 EBX:61aef18e ECX:00000008 EDX:0032f42c
+ ESI:00000000 EDI:6025cc80
+Stack dump:
+0x0032f3cc:  61aef327 6080ce00 6084d600 00008013
+0x0032f3dc:  0032f42c 60563e10 60505e0e 0032f438
+0x0032f3ec:  60505ed1 00000bf8 0032f410 61b30dc8
+0x0032f3fc:  61b30dc8 0032f42c 0032f4c0 00000000
+0x0032f40c:  6080ce00 00000000 00000000 6025cc80
+0x0032f41c:  7def00cc 00128698 00000000 00000008
+0200: sel=1007 base=7def0000 limit=0000ffff 32-bit rw-
+Backtrace:
+=>1 0x00000000 (0x0032f448)
+  2 0x61af7cb8 (0x0032f4e8)
+  3 0x6053e5b9 (0x0032f538)
+  4 0x62955abc (0x0032f9f8)
+  5 0x629cc020 (0x0032fa48)
+  6 0x62073044 (0x0032fae8)
+  7 0x6207393b (0x0032fb48)
+  8 0x01da2d7e in hl (+0x9a2d7e) (0x0032fb80)
+  9 0x01da1f30 in hl (+0x9a1f30) (0x0032fb94)
+  10 0x01da0507 in hl (+0x9a0507) (0x0032fbc8)
+  11 0x01da0690 in hl (+0x9a0690) (0x0032fbe8)
+  12 0x01401b0d in hl (+0x1b0d) (0x0032fecc)
+  13 0x014038f1 in hl (+0x38f1) (0x0032ff58)
+  14 0x7b8665d1 in kernel32 (+0x565d1) (0x0032ffe8)
+0x00000000: -- no code accessible --
+Modules:
+Module	Address			Debug info	Name (22 modules)
+PE	  550000-  566000	Deferred        dbg
+PE	  a70000-  ac8000	Deferred        vgui
+PE	 1400000- 3516000	Export          hl
+PE	10000000-1001f000	Deferred        filesystem_stdio
+PE	20000000-20353000	Deferred        steam
+PE	21100000-2115e000	Deferred        mss32
+PE	60170000-60174000	Deferred        wsock32
+PE	60190000-60194000	Deferred        ws2_32
+PE	60310000-60314000	Deferred        advapi32
+PE	60370000-60385000	Deferred        user32
+PE	604f0000-604f4000	Deferred        gdi32
+PE	61ef0000-61ef4000	Deferred        ole32
+PE	61fd0000-61fd4000	Deferred        rpcrt4
+PE	62050000-62054000	Deferred        ddraw
+PE	620c0000-6210d000	Deferred        winmm
+PE	62430000-62434000	Deferred        version
+PE	62480000-62486000	Deferred        shlwapi
+PE	624f0000-6256b000	Deferred        shell32
+PE	62630000-62642000	Deferred        comctl32
+PE	62780000-62784000	Deferred        oleaut32
+PE	7b810000-7b87c000	Export          kernel32
+PE	7bc10000-7bc14000	Deferred        ntdll
+Threads:
+process  tid      prio (all id:s are in hex)
+00000008 (D) C:\Program Files\CS16\hl.exe
+	00000019    0
+	00000009    0 <==
+0000000c 
+	00000014    0
+	00000013    0
+	00000012    0
+	0000000e    0
+	0000000d    0
+0000000f 
+	00000016    0
+	00000015    0
+	00000011    0
+	00000010    0
+00000017 
+	00000018    0
+Backtrace:
+=>1 0x00000000 (0x0032f448)
+  2 0x61af7cb8 (0x0032f4e8)
+  3 0x6053e5b9 (0x0032f538)
+  4 0x62955abc (0x0032f9f8)
+  5 0x629cc020 (0x0032fa48)
+  6 0x62073044 (0x0032fae8)
+  7 0x6207393b (0x0032fb48)
+  8 0x01da2d7e in hl (+0x9a2d7e) (0x0032fb80)
+  9 0x01da1f30 in hl (+0x9a1f30) (0x0032fb94)
+  10 0x01da0507 in hl (+0x9a0507) (0x0032fbc8)
+  11 0x01da0690 in hl (+0x9a0690) (0x0032fbe8)
+  12 0x01401b0d in hl (+0x1b0d) (0x0032fecc)
+  13 0x014038f1 in hl (+0x38f1) (0x0032ff58)
+  14 0x7b8665d1 in kernel32 (+0x565d1) (0x0032ffe8)
+

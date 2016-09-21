@@ -1,0 +1,717 @@
+trace:wgl:wglGetProcAddress func: 'wglGetIntegerv'
+trace:wgl:X11DRV_WineGL_InitOpenglInfo GL version             : 2.1 ATI-7.12.9.
+trace:wgl:X11DRV_WineGL_InitOpenglInfo GL renderer            : AMD Radeon HD 6750M OpenGL Engine.
+trace:wgl:X11DRV_WineGL_InitOpenglInfo GLX version            : 1.4.
+trace:wgl:X11DRV_WineGL_InitOpenglInfo Server GLX version     : 1.4.
+trace:wgl:X11DRV_WineGL_InitOpenglInfo Server GLX vendor:     : SGI.
+trace:wgl:X11DRV_WineGL_InitOpenglInfo Client GLX version     : 1.4.
+trace:wgl:X11DRV_WineGL_InitOpenglInfo Client GLX vendor:     : Mesa Project and SGI.
+trace:wgl:X11DRV_WineGL_InitOpenglInfo Direct rendering enabled: True
+trace:wgl:has_opengl GLX is up and running error_base = 159
+trace:wgl:register_extension_string ''
+trace:wgl:register_extension     - 'wglGetIntegerv'
+trace:wgl:register_extension     - 'wglFinish'
+trace:wgl:register_extension     - 'wglFlush'
+trace:wgl:register_extension_string 'WGL_ARB_extensions_string'
+trace:wgl:register_extension     - 'wglGetExtensionsStringARB'
+trace:wgl:register_extension_string 'WGL_ARB_make_current_read'
+trace:wgl:register_extension     - 'wglGetCurrentReadDCARB'
+trace:wgl:register_extension     - 'wglMakeContextCurrentARB'
+trace:wgl:register_extension_string 'WGL_ARB_multisample'
+trace:wgl:register_extension_string 'WGL_ARB_pixel_format'
+trace:wgl:register_extension     - 'wglChoosePixelFormatARB'
+trace:wgl:register_extension     - 'wglGetPixelFormatAttribfvARB'
+trace:wgl:register_extension     - 'wglGetPixelFormatAttribivARB'
+trace:wgl:register_extension_string 'WGL_EXT_extensions_string'
+trace:wgl:register_extension     - 'wglGetExtensionsStringEXT'
+trace:wgl:register_extension_string 'WGL_EXT_swap_control'
+trace:wgl:register_extension     - 'wglSwapIntervalEXT'
+trace:wgl:register_extension     - 'wglGetSwapIntervalEXT'
+trace:wgl:register_extension_string 'WGL_WINE_pixel_format_passthrough'
+trace:wgl:register_extension     - 'wglSetPixelFormatWINE'
+trace:wgl:X11DRV_wglGetProcAddress ('wglGetIntegerv'):                  (0x44755800) - WineGL
+trace:wgl:wglGetProcAddress func: 'wglFinish'
+trace:wgl:X11DRV_wglGetProcAddress ('wglFinish'):                       (0x44755930) - WineGL
+trace:wgl:wglGetProcAddress func: 'wglFlush'
+trace:wgl:X11DRV_wglGetProcAddress ('wglFlush'):                        (0x44758260) - WineGL
+trace:wgl:X11DRV_ChoosePixelFormat (0x2057a0,0x32db3c)
+trace:wgl:dump_PIXELFORMATDESCRIPTOR   - size / version : 40 / 1
+trace:wgl:dump_PIXELFORMATDESCRIPTOR   - dwFlags : PFD_DOUBLEBUFFER PFD_SUPPORT_OPENGL 
+trace:wgl:dump_PIXELFORMATDESCRIPTOR   - iPixelType : PFD_TYPE_RGBA
+trace:wgl:dump_PIXELFORMATDESCRIPTOR   - Color   : 24
+trace:wgl:dump_PIXELFORMATDESCRIPTOR   - Red     : 0
+trace:wgl:dump_PIXELFORMATDESCRIPTOR   - Green   : 0
+trace:wgl:dump_PIXELFORMATDESCRIPTOR   - Blue    : 0
+trace:wgl:dump_PIXELFORMATDESCRIPTOR   - Alpha   : 8
+trace:wgl:dump_PIXELFORMATDESCRIPTOR   - Accum   : 0
+trace:wgl:dump_PIXELFORMATDESCRIPTOR   - Depth   : 16
+trace:wgl:dump_PIXELFORMATDESCRIPTOR   - Stencil : 0
+trace:wgl:dump_PIXELFORMATDESCRIPTOR   - Aux     : 0
+trace:wgl:dump_PIXELFORMATDESCRIPTOR   - iLayerType : PFD_MAIN_PLANE
+trace:wgl:get_formats Found 272 bitmap capable fbconfigs
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x42 corresponding to iPixelFormat 1 at GLX index 0
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x42 corresponding to iPixelFormat 2 at GLX index 0
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x43 corresponding to iPixelFormat 3 at GLX index 1
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x43 corresponding to iPixelFormat 4 at GLX index 1
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x44 corresponding to iPixelFormat 5 at GLX index 2
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x44 corresponding to iPixelFormat 6 at GLX index 2
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x45 corresponding to iPixelFormat 7 at GLX index 3
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x45 corresponding to iPixelFormat 8 at GLX index 3
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x46 corresponding to iPixelFormat 9 at GLX index 4
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x46 corresponding to iPixelFormat 10 at GLX index 4
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x47 corresponding to iPixelFormat 11 at GLX index 5
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x47 corresponding to iPixelFormat 12 at GLX index 5
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x48 corresponding to iPixelFormat 13 at GLX index 6
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x48 corresponding to iPixelFormat 14 at GLX index 6
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x49 corresponding to iPixelFormat 15 at GLX index 7
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x49 corresponding to iPixelFormat 16 at GLX index 7
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x4a corresponding to iPixelFormat 17 at GLX index 8
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x4b corresponding to iPixelFormat 18 at GLX index 9
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x4c corresponding to iPixelFormat 19 at GLX index 10
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x4d corresponding to iPixelFormat 20 at GLX index 11
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x4e corresponding to iPixelFormat 21 at GLX index 12
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x4f corresponding to iPixelFormat 22 at GLX index 13
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x50 corresponding to iPixelFormat 23 at GLX index 14
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x51 corresponding to iPixelFormat 24 at GLX index 15
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x52 corresponding to iPixelFormat 25 at GLX index 16
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x52 corresponding to iPixelFormat 26 at GLX index 16
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x53 corresponding to iPixelFormat 27 at GLX index 17
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x53 corresponding to iPixelFormat 28 at GLX index 17
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x54 corresponding to iPixelFormat 29 at GLX index 18
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x54 corresponding to iPixelFormat 30 at GLX index 18
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x55 corresponding to iPixelFormat 31 at GLX index 19
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x55 corresponding to iPixelFormat 32 at GLX index 19
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x56 corresponding to iPixelFormat 33 at GLX index 20
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x56 corresponding to iPixelFormat 34 at GLX index 20
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x57 corresponding to iPixelFormat 35 at GLX index 21
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x57 corresponding to iPixelFormat 36 at GLX index 21
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x58 corresponding to iPixelFormat 37 at GLX index 22
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x58 corresponding to iPixelFormat 38 at GLX index 22
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x59 corresponding to iPixelFormat 39 at GLX index 23
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x59 corresponding to iPixelFormat 40 at GLX index 23
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x5a corresponding to iPixelFormat 41 at GLX index 24
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x5b corresponding to iPixelFormat 42 at GLX index 25
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x5c corresponding to iPixelFormat 43 at GLX index 26
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x5d corresponding to iPixelFormat 44 at GLX index 27
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x5e corresponding to iPixelFormat 45 at GLX index 28
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x5f corresponding to iPixelFormat 46 at GLX index 29
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x60 corresponding to iPixelFormat 47 at GLX index 30
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x61 corresponding to iPixelFormat 48 at GLX index 31
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x72 corresponding to iPixelFormat 49 at GLX index 48
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x72 corresponding to iPixelFormat 50 at GLX index 48
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x73 corresponding to iPixelFormat 51 at GLX index 49
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x73 corresponding to iPixelFormat 52 at GLX index 49
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x74 corresponding to iPixelFormat 53 at GLX index 50
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x74 corresponding to iPixelFormat 54 at GLX index 50
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x75 corresponding to iPixelFormat 55 at GLX index 51
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x75 corresponding to iPixelFormat 56 at GLX index 51
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x76 corresponding to iPixelFormat 57 at GLX index 52
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x76 corresponding to iPixelFormat 58 at GLX index 52
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x77 corresponding to iPixelFormat 59 at GLX index 53
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x77 corresponding to iPixelFormat 60 at GLX index 53
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x78 corresponding to iPixelFormat 61 at GLX index 54
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x78 corresponding to iPixelFormat 62 at GLX index 54
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x79 corresponding to iPixelFormat 63 at GLX index 55
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x79 corresponding to iPixelFormat 64 at GLX index 55
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x7a corresponding to iPixelFormat 65 at GLX index 56
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x7a corresponding to iPixelFormat 66 at GLX index 56
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x7b corresponding to iPixelFormat 67 at GLX index 57
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x7b corresponding to iPixelFormat 68 at GLX index 57
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x7c corresponding to iPixelFormat 69 at GLX index 58
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x7c corresponding to iPixelFormat 70 at GLX index 58
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x7d corresponding to iPixelFormat 71 at GLX index 59
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x7d corresponding to iPixelFormat 72 at GLX index 59
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x7e corresponding to iPixelFormat 73 at GLX index 60
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x7e corresponding to iPixelFormat 74 at GLX index 60
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x7f corresponding to iPixelFormat 75 at GLX index 61
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x7f corresponding to iPixelFormat 76 at GLX index 61
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x80 corresponding to iPixelFormat 77 at GLX index 62
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x80 corresponding to iPixelFormat 78 at GLX index 62
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x81 corresponding to iPixelFormat 79 at GLX index 63
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x81 corresponding to iPixelFormat 80 at GLX index 63
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x92 corresponding to iPixelFormat 81 at GLX index 80
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x92 corresponding to iPixelFormat 82 at GLX index 80
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x93 corresponding to iPixelFormat 83 at GLX index 81
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x93 corresponding to iPixelFormat 84 at GLX index 81
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x94 corresponding to iPixelFormat 85 at GLX index 82
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x94 corresponding to iPixelFormat 86 at GLX index 82
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x95 corresponding to iPixelFormat 87 at GLX index 83
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x95 corresponding to iPixelFormat 88 at GLX index 83
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x96 corresponding to iPixelFormat 89 at GLX index 84
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x96 corresponding to iPixelFormat 90 at GLX index 84
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x97 corresponding to iPixelFormat 91 at GLX index 85
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x97 corresponding to iPixelFormat 92 at GLX index 85
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x98 corresponding to iPixelFormat 93 at GLX index 86
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x98 corresponding to iPixelFormat 94 at GLX index 86
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x99 corresponding to iPixelFormat 95 at GLX index 87
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x99 corresponding to iPixelFormat 96 at GLX index 87
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x9a corresponding to iPixelFormat 97 at GLX index 88
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x9a corresponding to iPixelFormat 98 at GLX index 88
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x9b corresponding to iPixelFormat 99 at GLX index 89
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x9b corresponding to iPixelFormat 100 at GLX index 89
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x9c corresponding to iPixelFormat 101 at GLX index 90
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x9c corresponding to iPixelFormat 102 at GLX index 90
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x9d corresponding to iPixelFormat 103 at GLX index 91
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x9d corresponding to iPixelFormat 104 at GLX index 91
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x9e corresponding to iPixelFormat 105 at GLX index 92
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x9e corresponding to iPixelFormat 106 at GLX index 92
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x9f corresponding to iPixelFormat 107 at GLX index 93
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x9f corresponding to iPixelFormat 108 at GLX index 93
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xa0 corresponding to iPixelFormat 109 at GLX index 94
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0xa0 corresponding to iPixelFormat 110 at GLX index 94
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xa1 corresponding to iPixelFormat 111 at GLX index 95
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0xa1 corresponding to iPixelFormat 112 at GLX index 95
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xb2 corresponding to iPixelFormat 113 at GLX index 112
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xb3 corresponding to iPixelFormat 114 at GLX index 113
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xb4 corresponding to iPixelFormat 115 at GLX index 114
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xb5 corresponding to iPixelFormat 116 at GLX index 115
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xb6 corresponding to iPixelFormat 117 at GLX index 116
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xb7 corresponding to iPixelFormat 118 at GLX index 117
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xb8 corresponding to iPixelFormat 119 at GLX index 118
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xb9 corresponding to iPixelFormat 120 at GLX index 119
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xba corresponding to iPixelFormat 121 at GLX index 120
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xbb corresponding to iPixelFormat 122 at GLX index 121
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xbc corresponding to iPixelFormat 123 at GLX index 122
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xbd corresponding to iPixelFormat 124 at GLX index 123
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xbe corresponding to iPixelFormat 125 at GLX index 124
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xbf corresponding to iPixelFormat 126 at GLX index 125
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xc0 corresponding to iPixelFormat 127 at GLX index 126
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xc1 corresponding to iPixelFormat 128 at GLX index 127
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xd2 corresponding to iPixelFormat 129 at GLX index 144
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xd3 corresponding to iPixelFormat 130 at GLX index 145
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xd4 corresponding to iPixelFormat 131 at GLX index 146
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xd5 corresponding to iPixelFormat 132 at GLX index 147
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xd6 corresponding to iPixelFormat 133 at GLX index 148
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xd7 corresponding to iPixelFormat 134 at GLX index 149
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xd8 corresponding to iPixelFormat 135 at GLX index 150
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xd9 corresponding to iPixelFormat 136 at GLX index 151
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xda corresponding to iPixelFormat 137 at GLX index 152
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xdb corresponding to iPixelFormat 138 at GLX index 153
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xdc corresponding to iPixelFormat 139 at GLX index 154
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xdd corresponding to iPixelFormat 140 at GLX index 155
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xde corresponding to iPixelFormat 141 at GLX index 156
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xdf corresponding to iPixelFormat 142 at GLX index 157
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xe0 corresponding to iPixelFormat 143 at GLX index 158
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xe1 corresponding to iPixelFormat 144 at GLX index 159
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xf2 corresponding to iPixelFormat 145 at GLX index 176
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0xf2 corresponding to iPixelFormat 146 at GLX index 176
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xf3 corresponding to iPixelFormat 147 at GLX index 177
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0xf3 corresponding to iPixelFormat 148 at GLX index 177
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xf4 corresponding to iPixelFormat 149 at GLX index 178
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0xf4 corresponding to iPixelFormat 150 at GLX index 178
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xf5 corresponding to iPixelFormat 151 at GLX index 179
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0xf5 corresponding to iPixelFormat 152 at GLX index 179
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xf6 corresponding to iPixelFormat 153 at GLX index 180
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0xf6 corresponding to iPixelFormat 154 at GLX index 180
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xf7 corresponding to iPixelFormat 155 at GLX index 181
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0xf7 corresponding to iPixelFormat 156 at GLX index 181
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xf8 corresponding to iPixelFormat 157 at GLX index 182
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0xf8 corresponding to iPixelFormat 158 at GLX index 182
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xf9 corresponding to iPixelFormat 159 at GLX index 183
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0xf9 corresponding to iPixelFormat 160 at GLX index 183
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xfa corresponding to iPixelFormat 161 at GLX index 184
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0xfa corresponding to iPixelFormat 162 at GLX index 184
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xfb corresponding to iPixelFormat 163 at GLX index 185
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0xfb corresponding to iPixelFormat 164 at GLX index 185
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xfc corresponding to iPixelFormat 165 at GLX index 186
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0xfc corresponding to iPixelFormat 166 at GLX index 186
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xfd corresponding to iPixelFormat 167 at GLX index 187
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0xfd corresponding to iPixelFormat 168 at GLX index 187
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xfe corresponding to iPixelFormat 169 at GLX index 188
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0xfe corresponding to iPixelFormat 170 at GLX index 188
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0xff corresponding to iPixelFormat 171 at GLX index 189
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0xff corresponding to iPixelFormat 172 at GLX index 189
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x100 corresponding to iPixelFormat 173 at GLX index 190
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x100 corresponding to iPixelFormat 174 at GLX index 190
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x101 corresponding to iPixelFormat 175 at GLX index 191
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x101 corresponding to iPixelFormat 176 at GLX index 191
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x112 corresponding to iPixelFormat 177 at GLX index 208
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x112 corresponding to iPixelFormat 178 at GLX index 208
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x113 corresponding to iPixelFormat 179 at GLX index 209
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x113 corresponding to iPixelFormat 180 at GLX index 209
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x114 corresponding to iPixelFormat 181 at GLX index 210
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x114 corresponding to iPixelFormat 182 at GLX index 210
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x115 corresponding to iPixelFormat 183 at GLX index 211
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x115 corresponding to iPixelFormat 184 at GLX index 211
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x116 corresponding to iPixelFormat 185 at GLX index 212
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x116 corresponding to iPixelFormat 186 at GLX index 212
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x117 corresponding to iPixelFormat 187 at GLX index 213
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x117 corresponding to iPixelFormat 188 at GLX index 213
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x118 corresponding to iPixelFormat 189 at GLX index 214
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x118 corresponding to iPixelFormat 190 at GLX index 214
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x119 corresponding to iPixelFormat 191 at GLX index 215
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x119 corresponding to iPixelFormat 192 at GLX index 215
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x11a corresponding to iPixelFormat 193 at GLX index 216
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x11a corresponding to iPixelFormat 194 at GLX index 216
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x11b corresponding to iPixelFormat 195 at GLX index 217
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x11b corresponding to iPixelFormat 196 at GLX index 217
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x11c corresponding to iPixelFormat 197 at GLX index 218
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x11c corresponding to iPixelFormat 198 at GLX index 218
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x11d corresponding to iPixelFormat 199 at GLX index 219
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x11d corresponding to iPixelFormat 200 at GLX index 219
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x11e corresponding to iPixelFormat 201 at GLX index 220
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x11e corresponding to iPixelFormat 202 at GLX index 220
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x11f corresponding to iPixelFormat 203 at GLX index 221
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x11f corresponding to iPixelFormat 204 at GLX index 221
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x120 corresponding to iPixelFormat 205 at GLX index 222
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x120 corresponding to iPixelFormat 206 at GLX index 222
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x121 corresponding to iPixelFormat 207 at GLX index 223
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x121 corresponding to iPixelFormat 208 at GLX index 223
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x132 corresponding to iPixelFormat 209 at GLX index 240
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x133 corresponding to iPixelFormat 210 at GLX index 241
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x134 corresponding to iPixelFormat 211 at GLX index 242
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x135 corresponding to iPixelFormat 212 at GLX index 243
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x136 corresponding to iPixelFormat 213 at GLX index 244
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x137 corresponding to iPixelFormat 214 at GLX index 245
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x138 corresponding to iPixelFormat 215 at GLX index 246
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x139 corresponding to iPixelFormat 216 at GLX index 247
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x13a corresponding to iPixelFormat 217 at GLX index 248
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x13b corresponding to iPixelFormat 218 at GLX index 249
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x13c corresponding to iPixelFormat 219 at GLX index 250
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x13d corresponding to iPixelFormat 220 at GLX index 251
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x13e corresponding to iPixelFormat 221 at GLX index 252
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x13f corresponding to iPixelFormat 222 at GLX index 253
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x140 corresponding to iPixelFormat 223 at GLX index 254
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x141 corresponding to iPixelFormat 224 at GLX index 255
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x152 corresponding to iPixelFormat 225 at GLX index 272
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x153 corresponding to iPixelFormat 226 at GLX index 273
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x154 corresponding to iPixelFormat 227 at GLX index 274
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x155 corresponding to iPixelFormat 228 at GLX index 275
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x156 corresponding to iPixelFormat 229 at GLX index 276
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x157 corresponding to iPixelFormat 230 at GLX index 277
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x158 corresponding to iPixelFormat 231 at GLX index 278
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x159 corresponding to iPixelFormat 232 at GLX index 279
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x15a corresponding to iPixelFormat 233 at GLX index 280
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x15b corresponding to iPixelFormat 234 at GLX index 281
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x15c corresponding to iPixelFormat 235 at GLX index 282
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x15d corresponding to iPixelFormat 236 at GLX index 283
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x15e corresponding to iPixelFormat 237 at GLX index 284
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x15f corresponding to iPixelFormat 238 at GLX index 285
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x160 corresponding to iPixelFormat 239 at GLX index 286
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x161 corresponding to iPixelFormat 240 at GLX index 287
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x172 corresponding to iPixelFormat 241 at GLX index 304
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x172 corresponding to iPixelFormat 242 at GLX index 304
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x173 corresponding to iPixelFormat 243 at GLX index 305
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x173 corresponding to iPixelFormat 244 at GLX index 305
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x174 corresponding to iPixelFormat 245 at GLX index 306
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x174 corresponding to iPixelFormat 246 at GLX index 306
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x175 corresponding to iPixelFormat 247 at GLX index 307
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x175 corresponding to iPixelFormat 248 at GLX index 307
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x176 corresponding to iPixelFormat 249 at GLX index 308
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x176 corresponding to iPixelFormat 250 at GLX index 308
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x177 corresponding to iPixelFormat 251 at GLX index 309
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x177 corresponding to iPixelFormat 252 at GLX index 309
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x178 corresponding to iPixelFormat 253 at GLX index 310
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x178 corresponding to iPixelFormat 254 at GLX index 310
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x179 corresponding to iPixelFormat 255 at GLX index 311
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x179 corresponding to iPixelFormat 256 at GLX index 311
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x17a corresponding to iPixelFormat 257 at GLX index 312
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x17a corresponding to iPixelFormat 258 at GLX index 312
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x17b corresponding to iPixelFormat 259 at GLX index 313
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x17b corresponding to iPixelFormat 260 at GLX index 313
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x17c corresponding to iPixelFormat 261 at GLX index 314
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x17c corresponding to iPixelFormat 262 at GLX index 314
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x17d corresponding to iPixelFormat 263 at GLX index 315
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x17d corresponding to iPixelFormat 264 at GLX index 315
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x17e corresponding to iPixelFormat 265 at GLX index 316
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x17e corresponding to iPixelFormat 266 at GLX index 316
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x17f corresponding to iPixelFormat 267 at GLX index 317
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x17f corresponding to iPixelFormat 268 at GLX index 317
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x180 corresponding to iPixelFormat 269 at GLX index 318
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x180 corresponding to iPixelFormat 270 at GLX index 318
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x181 corresponding to iPixelFormat 271 at GLX index 319
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x181 corresponding to iPixelFormat 272 at GLX index 319
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x192 corresponding to iPixelFormat 273 at GLX index 336
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x192 corresponding to iPixelFormat 274 at GLX index 336
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x193 corresponding to iPixelFormat 275 at GLX index 337
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x193 corresponding to iPixelFormat 276 at GLX index 337
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x194 corresponding to iPixelFormat 277 at GLX index 338
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x194 corresponding to iPixelFormat 278 at GLX index 338
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x195 corresponding to iPixelFormat 279 at GLX index 339
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x195 corresponding to iPixelFormat 280 at GLX index 339
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x196 corresponding to iPixelFormat 281 at GLX index 340
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x196 corresponding to iPixelFormat 282 at GLX index 340
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x197 corresponding to iPixelFormat 283 at GLX index 341
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x197 corresponding to iPixelFormat 284 at GLX index 341
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x198 corresponding to iPixelFormat 285 at GLX index 342
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x198 corresponding to iPixelFormat 286 at GLX index 342
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x199 corresponding to iPixelFormat 287 at GLX index 343
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x199 corresponding to iPixelFormat 288 at GLX index 343
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x19a corresponding to iPixelFormat 289 at GLX index 344
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x19a corresponding to iPixelFormat 290 at GLX index 344
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x19b corresponding to iPixelFormat 291 at GLX index 345
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x19b corresponding to iPixelFormat 292 at GLX index 345
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x19c corresponding to iPixelFormat 293 at GLX index 346
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x19c corresponding to iPixelFormat 294 at GLX index 346
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x19d corresponding to iPixelFormat 295 at GLX index 347
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x19d corresponding to iPixelFormat 296 at GLX index 347
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x19e corresponding to iPixelFormat 297 at GLX index 348
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x19e corresponding to iPixelFormat 298 at GLX index 348
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x19f corresponding to iPixelFormat 299 at GLX index 349
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x19f corresponding to iPixelFormat 300 at GLX index 349
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1a0 corresponding to iPixelFormat 301 at GLX index 350
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x1a0 corresponding to iPixelFormat 302 at GLX index 350
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1a1 corresponding to iPixelFormat 303 at GLX index 351
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x1a1 corresponding to iPixelFormat 304 at GLX index 351
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1b2 corresponding to iPixelFormat 305 at GLX index 368
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1b3 corresponding to iPixelFormat 306 at GLX index 369
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1b4 corresponding to iPixelFormat 307 at GLX index 370
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1b5 corresponding to iPixelFormat 308 at GLX index 371
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1b6 corresponding to iPixelFormat 309 at GLX index 372
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1b7 corresponding to iPixelFormat 310 at GLX index 373
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1b8 corresponding to iPixelFormat 311 at GLX index 374
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1b9 corresponding to iPixelFormat 312 at GLX index 375
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1ba corresponding to iPixelFormat 313 at GLX index 376
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1bb corresponding to iPixelFormat 314 at GLX index 377
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1bc corresponding to iPixelFormat 315 at GLX index 378
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1bd corresponding to iPixelFormat 316 at GLX index 379
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1be corresponding to iPixelFormat 317 at GLX index 380
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1bf corresponding to iPixelFormat 318 at GLX index 381
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1c0 corresponding to iPixelFormat 319 at GLX index 382
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1c1 corresponding to iPixelFormat 320 at GLX index 383
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1d2 corresponding to iPixelFormat 321 at GLX index 400
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1d3 corresponding to iPixelFormat 322 at GLX index 401
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1d4 corresponding to iPixelFormat 323 at GLX index 402
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1d5 corresponding to iPixelFormat 324 at GLX index 403
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1d6 corresponding to iPixelFormat 325 at GLX index 404
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1d7 corresponding to iPixelFormat 326 at GLX index 405
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1d8 corresponding to iPixelFormat 327 at GLX index 406
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1d9 corresponding to iPixelFormat 328 at GLX index 407
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1da corresponding to iPixelFormat 329 at GLX index 408
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1db corresponding to iPixelFormat 330 at GLX index 409
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1dc corresponding to iPixelFormat 331 at GLX index 410
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1dd corresponding to iPixelFormat 332 at GLX index 411
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1de corresponding to iPixelFormat 333 at GLX index 412
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1df corresponding to iPixelFormat 334 at GLX index 413
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1e0 corresponding to iPixelFormat 335 at GLX index 414
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1e1 corresponding to iPixelFormat 336 at GLX index 415
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1f2 corresponding to iPixelFormat 337 at GLX index 432
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x1f2 corresponding to iPixelFormat 338 at GLX index 432
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1f3 corresponding to iPixelFormat 339 at GLX index 433
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x1f3 corresponding to iPixelFormat 340 at GLX index 433
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1f4 corresponding to iPixelFormat 341 at GLX index 434
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x1f4 corresponding to iPixelFormat 342 at GLX index 434
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1f5 corresponding to iPixelFormat 343 at GLX index 435
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x1f5 corresponding to iPixelFormat 344 at GLX index 435
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1f6 corresponding to iPixelFormat 345 at GLX index 436
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x1f6 corresponding to iPixelFormat 346 at GLX index 436
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1f7 corresponding to iPixelFormat 347 at GLX index 437
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x1f7 corresponding to iPixelFormat 348 at GLX index 437
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1f8 corresponding to iPixelFormat 349 at GLX index 438
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x1f8 corresponding to iPixelFormat 350 at GLX index 438
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1f9 corresponding to iPixelFormat 351 at GLX index 439
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x1f9 corresponding to iPixelFormat 352 at GLX index 439
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1fa corresponding to iPixelFormat 353 at GLX index 440
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x1fa corresponding to iPixelFormat 354 at GLX index 440
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1fb corresponding to iPixelFormat 355 at GLX index 441
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x1fb corresponding to iPixelFormat 356 at GLX index 441
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1fc corresponding to iPixelFormat 357 at GLX index 442
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x1fc corresponding to iPixelFormat 358 at GLX index 442
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1fd corresponding to iPixelFormat 359 at GLX index 443
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x1fd corresponding to iPixelFormat 360 at GLX index 443
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1fe corresponding to iPixelFormat 361 at GLX index 444
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x1fe corresponding to iPixelFormat 362 at GLX index 444
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x1ff corresponding to iPixelFormat 363 at GLX index 445
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x1ff corresponding to iPixelFormat 364 at GLX index 445
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x200 corresponding to iPixelFormat 365 at GLX index 446
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x200 corresponding to iPixelFormat 366 at GLX index 446
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x201 corresponding to iPixelFormat 367 at GLX index 447
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x201 corresponding to iPixelFormat 368 at GLX index 447
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x212 corresponding to iPixelFormat 369 at GLX index 464
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x212 corresponding to iPixelFormat 370 at GLX index 464
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x213 corresponding to iPixelFormat 371 at GLX index 465
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x213 corresponding to iPixelFormat 372 at GLX index 465
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x214 corresponding to iPixelFormat 373 at GLX index 466
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x214 corresponding to iPixelFormat 374 at GLX index 466
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x215 corresponding to iPixelFormat 375 at GLX index 467
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x215 corresponding to iPixelFormat 376 at GLX index 467
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x216 corresponding to iPixelFormat 377 at GLX index 468
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x216 corresponding to iPixelFormat 378 at GLX index 468
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x217 corresponding to iPixelFormat 379 at GLX index 469
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x217 corresponding to iPixelFormat 380 at GLX index 469
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x218 corresponding to iPixelFormat 381 at GLX index 470
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x218 corresponding to iPixelFormat 382 at GLX index 470
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x219 corresponding to iPixelFormat 383 at GLX index 471
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x219 corresponding to iPixelFormat 384 at GLX index 471
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x21a corresponding to iPixelFormat 385 at GLX index 472
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x21a corresponding to iPixelFormat 386 at GLX index 472
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x21b corresponding to iPixelFormat 387 at GLX index 473
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x21b corresponding to iPixelFormat 388 at GLX index 473
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x21c corresponding to iPixelFormat 389 at GLX index 474
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x21c corresponding to iPixelFormat 390 at GLX index 474
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x21d corresponding to iPixelFormat 391 at GLX index 475
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x21d corresponding to iPixelFormat 392 at GLX index 475
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x21e corresponding to iPixelFormat 393 at GLX index 476
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x21e corresponding to iPixelFormat 394 at GLX index 476
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x21f corresponding to iPixelFormat 395 at GLX index 477
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x21f corresponding to iPixelFormat 396 at GLX index 477
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x220 corresponding to iPixelFormat 397 at GLX index 478
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x220 corresponding to iPixelFormat 398 at GLX index 478
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x221 corresponding to iPixelFormat 399 at GLX index 479
+trace:wgl:get_formats Found bitmap capable format FBCONFIG_ID 0x221 corresponding to iPixelFormat 400 at GLX index 479
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x232 corresponding to iPixelFormat 401 at GLX index 496
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x233 corresponding to iPixelFormat 402 at GLX index 497
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x234 corresponding to iPixelFormat 403 at GLX index 498
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x235 corresponding to iPixelFormat 404 at GLX index 499
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x236 corresponding to iPixelFormat 405 at GLX index 500
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x237 corresponding to iPixelFormat 406 at GLX index 501
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x238 corresponding to iPixelFormat 407 at GLX index 502
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x239 corresponding to iPixelFormat 408 at GLX index 503
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x23a corresponding to iPixelFormat 409 at GLX index 504
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x23b corresponding to iPixelFormat 410 at GLX index 505
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x23c corresponding to iPixelFormat 411 at GLX index 506
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x23d corresponding to iPixelFormat 412 at GLX index 507
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x23e corresponding to iPixelFormat 413 at GLX index 508
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x23f corresponding to iPixelFormat 414 at GLX index 509
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x240 corresponding to iPixelFormat 415 at GLX index 510
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x241 corresponding to iPixelFormat 416 at GLX index 511
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x252 corresponding to iPixelFormat 417 at GLX index 528
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x253 corresponding to iPixelFormat 418 at GLX index 529
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x254 corresponding to iPixelFormat 419 at GLX index 530
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x255 corresponding to iPixelFormat 420 at GLX index 531
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x256 corresponding to iPixelFormat 421 at GLX index 532
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x257 corresponding to iPixelFormat 422 at GLX index 533
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x258 corresponding to iPixelFormat 423 at GLX index 534
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x259 corresponding to iPixelFormat 424 at GLX index 535
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x25a corresponding to iPixelFormat 425 at GLX index 536
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x25b corresponding to iPixelFormat 426 at GLX index 537
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x25c corresponding to iPixelFormat 427 at GLX index 538
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x25d corresponding to iPixelFormat 428 at GLX index 539
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x25e corresponding to iPixelFormat 429 at GLX index 540
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x25f corresponding to iPixelFormat 430 at GLX index 541
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x260 corresponding to iPixelFormat 431 at GLX index 542
+trace:wgl:get_formats Found onscreen format FBCONFIG_ID 0x261 corresponding to iPixelFormat 432 at GLX index 543
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=2
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=4
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=6
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=8
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=9
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=10
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=11
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=12
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=14
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=16
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=21
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=22
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=26
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=28
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=30
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=32
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=34
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=36
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=38
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=40
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=41
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=42
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=45
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=46
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=50
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=52
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=54
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=56
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=58
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=60
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=62
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=64
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=66
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=68
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=70
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=72
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=74
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=76
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=78
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=80
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=82
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=84
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=86
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=88
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=90
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=92
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=94
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=96
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=98
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=100
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=102
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=104
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=106
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=108
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=110
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=112
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=113
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=114
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=117
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=118
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=119
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=120
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=121
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=122
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=125
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=126
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=127
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=128
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=129
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=130
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=133
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=134
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=135
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=136
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=137
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=138
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=141
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=142
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=143
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=144
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=146
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=148
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=150
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=152
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=154
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=156
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=158
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=160
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=162
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=164
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=166
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=168
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=170
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=172
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=174
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=176
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=178
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=180
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=182
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=184
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=186
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=188
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=190
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=192
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=194
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=196
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=198
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=200
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=202
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=204
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=206
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=208
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=209
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=210
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=213
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=214
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=215
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=216
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=217
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=218
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=221
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=222
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=223
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=224
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=225
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=226
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=229
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=230
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=231
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=232
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=233
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=234
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=237
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=238
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=239
+trace:wgl:X11DRV_ChoosePixelFormat depth mismatch for iPixelFormat=240
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=242
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=244
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=246
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=248
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=250
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=252
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=254
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=256
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=258
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=260
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=262
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=264
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=266
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=268
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=270
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=272
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=274
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=276
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=278
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=280
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=282
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=284
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=286
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=288
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=290
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=292
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=294
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=296
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=298
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=300
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=302
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=304
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=338
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=340
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=342
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=344
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=346
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=348
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=350
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=352
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=354
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=356
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=358
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=360
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=362
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=364
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=366
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=368
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=370
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=372
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=374
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=376
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=378
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=380
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=382
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=384
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=386
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=388
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=390
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=392
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=394
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=396
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=398
+trace:wgl:X11DRV_ChoosePixelFormat PFD_DRAW_TO_BITMAP mismatch for iPixelFormat=400
+trace:wgl:X11DRV_ChoosePixelFormat Successfully found a matching mode, returning index: 115 b4
+trace:wgl:X11DRV_SetPixelFormat (0x2057a0,115,0x32db3c)
+trace:wgl:ConvertPixelFormatWGLtoGLX Returning fmt_id=0xb4 for iPixelFormat=115
+trace:wgl:ConvertPixelFormatWGLtoGLX Number of returned pixelformats=432
+trace:wgl:ConvertPixelFormatGLXtoWGL Returning iPixelFormat 115 for fmt_id 0xb4
+trace:wgl:internal_SetPixelFormat  FBConfig have :
+trace:wgl:internal_SetPixelFormat  - FBCONFIG_ID   0xb4
+trace:wgl:internal_SetPixelFormat  - VISUAL_ID     0x2d4
+trace:wgl:internal_SetPixelFormat  - DRAWABLE_TYPE 0x7
+trace:wgl:ConvertPixelFormatGLXtoWGL Returning iPixelFormat 115 for fmt_id 0xb4
+trace:wgl:wglCreateContext (0x50b8)
+trace:wgl:X11DRV_wglCreateContext (0x50b8)->(PF:115)
+trace:wgl:ConvertPixelFormatWGLtoGLX Returning fmt_id=0xb4 for iPixelFormat=115
+trace:wgl:ConvertPixelFormatWGLtoGLX Number of returned pixelformats=432
+trace:wgl:X11DRV_wglCreateContext  creating context 0x187d8a0 (GL context creation delayed)
+trace:wgl:wglMakeCurrent hdc: (0x50b8), hglrc: (0x187d8a0)
+trace:wgl:X11DRV_wglMakeCurrent (0x50b8,0x187d8a0)
+trace:wgl:ConvertPixelFormatWGLtoGLX Returning fmt_id=0xb4 for iPixelFormat=115
+trace:wgl:ConvertPixelFormatWGLtoGLX Number of returned pixelformats=432
+trace:wgl:describeDrawable  HDC 0x50b8 has:
+trace:wgl:describeDrawable  - iPixelFormat 115
+trace:wgl:describeDrawable  - Drawable 0x601406
+trace:wgl:describeDrawable  - FBCONFIG_ID 0xb4
+trace:wgl:describeDrawable  - VISUAL_ID 0x2d4
+trace:wgl:describeContext  Context 0x187d8a0 have (vis:0x41b34120):
+trace:wgl:describeContext  - FBCONFIG_ID 0xb4
+trace:wgl:describeContext  - VISUAL_ID 0x2d4
+trace:wgl:X11DRV_wglMakeCurrent  make current for dis 0x44a15800, drawable 0x601406, ctx 0x41b342b0
+set off screen: invalid drawable
+X Error of failed request:  0
+  Major opcode of failed request:  149 (GLX)
+  Minor opcode of failed request:  26 (X_GLXMakeContextCurrent)
+  Serial number of failed request:  80015
+  Current serial number in output stream:  80015

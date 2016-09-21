@@ -1,0 +1,127 @@
+Sampling process 4077 for 1 seconds with 1 millisecond of run time between samples
+Sampling completed, processing symbols...
+Analysis of sampling X11.bin (pid 4077) every 1 millisecond
+Call graph:
+    623 Thread_2507
+      623 start
+        623 main
+          623 mach_msg_server
+            623 mach_startup_server
+              623 _Xstart_x11_server
+                623 do_start_x11_server
+                  623 server_main
+                    623 X11ApplicationMain
+                      623 -[NSApplication run]
+                        622 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:]
+                          622 _DPSNextEvent
+                            622 BlockUntilNextEventMatchingListInMode
+                              622 ReceiveNextEventCommon
+                                622 RunCurrentEventLoopInMode
+                                  622 CFRunLoopRunInMode
+                                    622 CFRunLoopRunSpecific
+                                      618 mach_msg
+                                        618 mach_msg_trap
+                                          618 mach_msg_trap
+                                      3 __CFMachPortPerform
+                                        3 PullEventsFromWindowServerOnConnection(unsigned int, unsigned char)
+                                          3 CGEventCreateNextEvent
+                                            3 CGSGetNextEventRecordInternal
+                                              3 snarfEvents
+                                                2 CGSDispatchDatagramsFromStream
+                                                  2 CGSDecodeEventRecord
+                                                    2 CGEventCreateFromDataAndSource
+                                                      1 free
+                                                        1 munmap$UNIX2003
+                                                          1 munmap$UNIX2003
+                                                      1 malloc
+                                                        1 malloc_zone_malloc
+                                                          1 szone_malloc
+                                                            1 large_and_huge_malloc
+                                                              1 mmap
+                                                                1 mmap
+                                                1 _CGSGetPortStreamInline
+                                                  1 mach_msg
+                                                    1 mach_msg_trap
+                                                      1 mach_msg_trap
+                                      1 __CFRunLoopTimerRescheduleWithAllModes
+                                        1 mk_timer_arm
+                                          1 mk_timer_arm
+                        1 -[X11Application sendEvent:]
+                          1 -[X11Application(Private) sendX11NSEvent:]
+                            1 xp_find_window
+                              1 CGSFindWindowAndOwner
+                                1 _CGSFindWindow
+                                  1 mach_msg
+                                    1 mach_msg_trap
+                                      1 mach_msg_trap
+    623 Thread_2603
+      623 thread_start
+        623 _pthread_start
+          623 CAPThread::Entry(CAPThread*)
+            623 HALRunLoop::OwnThread(void*)
+              623 CFRunLoopRunInMode
+                623 CFRunLoopRunSpecific
+                  623 mach_msg
+                    623 mach_msg_trap
+                      623 mach_msg_trap
+    623 Thread_2703
+      623 thread_start
+        623 _pthread_start
+          623 server_thread
+            623 dix_main
+              623 Dispatch
+                623 select$DARWIN_EXTSN
+                  623 select$DARWIN_EXTSN
+    623 Thread_2803
+      623 thread_start
+        623 _pthread_start
+          623 xpbproxy_x_thread
+            623 xpbproxy_run
+              623 CFRunLoopRun
+                623 CFRunLoopRunSpecific
+                  623 __CFSocketPerformV0
+                    623 __CFSocketDoCallback
+                      623 x_input_callback
+                        623 -[x_selection own_clipboard]
+                          623 XGetSelectionOwner
+                            623 _XReply
+                              623 xcb_wait_for_reply
+                                623 select$DARWIN_EXTSN
+                                  623 select$DARWIN_EXTSN
+    623 Thread_2903
+      623 thread_start
+        623 _pthread_start
+          623 glvmDoWork
+            623 pthread_cond_wait$UNIX2003
+              623 __semwait_signal
+                623 __semwait_signal
+    623 Thread_2a03
+      623 thread_start
+        623 _pthread_start
+          623 DarwinProcessFDAdditionQueue_thread
+            623 pthread_cond_wait$UNIX2003
+              623 __semwait_signal
+                623 __semwait_signal
+    623 Thread_2b03
+      623 thread_start
+        623 _pthread_start
+          623 select$DARWIN_EXTSN
+            623 select$DARWIN_EXTSN
+    623 Thread_2c03
+      623 thread_start
+        623 _pthread_start
+          623 _xp_async_thread
+            623 _xp_async_dequeue
+              623 pthread_cond_wait$UNIX2003
+                623 __semwait_signal
+                  623 __semwait_signal
+
+Total number in stack (recursive counted multiple, when >=5):
+        7       _pthread_start
+        7       thread_start
+
+Sort by top of stack, same collapsed (when >= 5):
+        __semwait_signal        1869
+        select$DARWIN_EXTSN        1869
+        mach_msg_trap        1243
+Sample analysis of process 4077 written to file /dev/stdout

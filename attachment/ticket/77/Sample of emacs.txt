@@ -1,0 +1,22 @@
+Sampling process 168 for 3 seconds with 1 millisecond of run time between samples
+Sampling completed, processing symbols...
+Analysis of sampling emacs (pid 168) every 1 millisecond
+Call graph:
+    2472 Thread_2503
+      2472 input_available_signal
+        2472 handle_async_input
+          2472 read_avail_input
+            2472 XTread_socket
+              2472 _XimFilterPropertyNotify
+                2472 XInternAtom
+                  2472 _XReply
+                    2472 _XRead
+                      2472 _XWaitForReadable
+                        2472 poll$UNIX2003
+                          2472 poll$UNIX2003
+
+Total number in stack (recursive counted multiple, when >=5):
+
+Sort by top of stack, same collapsed (when >= 5):
+        poll$UNIX2003        2472
+Sample analysis of process 168 written to file /dev/stdout

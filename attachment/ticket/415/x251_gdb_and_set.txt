@@ -1,0 +1,277 @@
+Here's the gdb session up to the error, with the backtrace:
+
+> gdb /Applications/Utilities/X11.app/Contents/MacOS/X11.bin
+GNU gdb 6.3.50-20050815 (Apple version gdb-967) (Tue Jul 14 02:15:14 UTC 2009)
+Copyright 2004 Free Software Foundation, Inc.
+GDB is free software, covered by the GNU General Public License, and you are
+welcome to change it and/or distribute copies of it under certain conditions.
+Type "show copying" to see the conditions.
+There is absolutely no warranty for GDB.  Type "show warranty" for details.
+This GDB was configured as "powerpc-apple-darwin"...Reading symbols for shared libraries .............................. done
+
+(gdb) break malloc_error_break
+Breakpoint 1 at 0xe0ade6c
+(gdb) run
+Starting program: /Applications/Utilities/X11.app/Contents/MacOS/X11.bin 
+we're in X11 now
+Reading symbols for shared libraries +++++++++++++++++++++++++++++......................................................................... done
+Breakpoint 1 at 0x92e0be6c
+X11.app: main(): argc=1
+	argv[0] = /Applications/Utilities/X11.app/Contents/MacOS/X11.bin
+Waiting for startup parameters via Mach IPC.
+X11.app: Listening on socket for fd handoff:  (4) /var/tmp/tmp.0.PT9apw
+X11.app: Thread created for handoff.  Returning success to tell caller to connect and push the fd.
+X11.app: Received new $DISPLAY fd: 6 ... sleeping to allow xinitrc to catchup.
+X11.app: do_start_x11_server(): argc=6
+	argv[0] = /usr/X11/bin/X
+	argv[1] = :2
+	argv[2] = -nolisten
+	argv[3] = tcp
+	argv[4] = -auth
+	argv[5] = /Users/schmitt/.serverauth.66338
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+Xquartz starting:
+X.Org X Server 1.8.2
+Build Date: 20100710
+Reading symbols for shared libraries .. done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+X11.app Handing off fd to server thread via DarwinListenOnOpenFD(6)
+DarwinListenOnOpenFD: 6
+Calling ListenOnOpenFD() for new fd: 6
+X11.app: Launching /usr/X11/bin/xterm:
+	argv[0] = /bin/sh
+	argv[1] = -c
+	argv[2] = /usr/X11/bin/xterm
+
+
+X11.bin(66330,0xf0185000) malloc: *** error for object 0xb08a00: non-page-aligned, non-allocated pointer being freed
+*** set a breakpoint in malloc_error_break to debug
+[Switching to process 66330 thread 0xaa07]
+
+Breakpoint 1, 0x92e0be6c in malloc_error_break ()
+(gdb) 
+(gdb) bt
+#0  0x92e0be6c in malloc_error_break ()
+#1  0x92e06ad4 in szone_error ()
+#2  0x00018664 in QuartzSetCursor ()
+#3  0x001057d4 in miPointerUpdateSprite ()
+#4  0x00105f9c in miPointerDisplayCursor ()
+#5  0x0003ab8c in CursorDisplayCursor ()
+#6  0x0006bc90 in AnimCurDisplayCursor ()
+#7  0x000d5918 in ChangeToCursor ()
+#8  0x000d9fdc in CheckMotion ()
+#9  0x00085eb8 in ProcessOtherEvent ()
+#10 0x000a6c68 in ProcessPointerEvent ()
+#11 0x001016e0 in mieqProcessDeviceEvent ()
+#12 0x00101bdc in mieqProcessInputEvents ()
+#13 0x0000f89c in ProcessInputEvents ()
+#14 0x000cd614 in Dispatch ()
+#15 0x000bf83c in dix_main ()
+#16 0x00014908 in server_thread ()
+#17 0x92d3e0d4 in _pthread_start ()
+
+--------------------------------------------------------------------------------------------------------
+the output of set gives :
+
+> set
+ARCH=MAC
+Apple_PubSub_Socket_Render=/tmp/launch-2sUmda/Render
+BASH=/bin/bash
+BASH_ARGC=()
+BASH_ARGV=()
+BASH_ENV='~/.bashrc'
+BASH_LINENO=()
+BASH_SOURCE=()
+BASH_VERSINFO=([0]="3" [1]="2" [2]="17" [3]="1" [4]="release" [5]="powerpc-apple-darwin9.0")
+BASH_VERSION='3.2.17(1)-release'
+COLUMNS=132
+COMMAND_MODE=unix2003
+DIRSTACK=()
+DISPLAY=/tmp/launch-tJMWrz/org.x:0
+EDITOR=emacs
+ENV=/Users/schmitt/.bashrc
+EUID=501
+GIDL_STARTUP=/Users/schmitt/Idl/gstartup.sidl
+GROUPS=()
+HISTFILE=/Users/schmitt/.bash_history
+HISTFILESIZE=600
+HISTSIZE=600
+HOME=/Users/schmitt
+HOSTNAME=arete.nrl.navy.mil
+HOSTOS=Darwin
+HOSTTYPE=powerpc
+IDL_DIR=/Applications/Idl/idl_6.1
+IDL_PATH=+/Users/schmitt/Idl:+/Applications/Idl/idl_6.1/lib
+IDL_STARTUP=/Users/schmitt/Idl/startup.sidl
+IFS=$' \t\n'
+IGNOREEOF=10
+INFOPATH=/sw/share/info:/sw/info:/usr/local/info
+KRB5_CONFIG=/Users/schmitt/.bin/ccs-krb5/krb5.conf
+LANG=en_US.UTF-8
+LINES=50
+LOGDIR=/private/var/log
+LOGNAME=schmitt
+MACHTYPE=powerpc-apple-darwin9.0
+MAGICK_HOME=/usr/local
+MAILCHECK=600
+MANPATH=/opt/local/share/man:/sw/share/man:/Users/schmitt/man:/usr/local/share/man:/usr/share/man:/usr/X11R6/man:/usr/local/man:/sw/lib/perl5/5.8.8/man
+OLDPWD=/Volumes
+OPTERR=1
+OPTIND=1
+OSTYPE=darwin9.0
+PATH=/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/Current/bin:/sw/bin:/sw/sbin:/usr/krb5/bin:/Users/schmitt/.bin/ccs-krb5:/usr/X11R6/bin:/usr/local/bin:/sw/bin:/usr/bin:/bin:/sbin:/usr/sbin:/usr/lib:/Users/schmitt/.bin
+PERL5LIB=/sw/lib/perl5:/sw/lib/perl5/darwin
+PIPESTATUS=([0]="0")
+PPID=23168
+PROXYFTP=
+PROXYHTTP=
+PS1='\t_\h> '
+PS2='> '
+PS4='+ '
+PWD=/Users/schmitt/Documents/papers
+RSI_DIR=/Applications/Idl
+SECURITYSESSIONID=92ec50
+SGML_CATALOG_FILES=/sw/etc/sgml/catalog
+SHELL=/bin/bash
+SHELLOPTS=braceexpand:emacs:hashall:histexpand:ignoreeof:interactive-comments:monitor:notify
+SHLVL=1
+SSH_AUTH_SOCK=/tmp/launch-IA8H0C/Listeners
+TERM=xterm
+TERM_PROGRAM=Apple_Terminal
+TERM_PROGRAM_VERSION=240.2
+TMPDIR=/var/folders/s5/s5sfZ6lv2RWFOU+8ZPvovU+++TI/-Tmp-/
+UID=501
+USER=schmitt
+WEB_DIR=/usr/local0/etc/apache
+XML_CATALOG_FILES=/sw/etc/xml/catalog
+_=lsof
+__CF_USER_TEXT_ENCODING=0x1F5:0:0
+osMajorVer=9
+osMinorVer=8
+perlversion=5.8.8
+append_path () 
+{ 
+    if ! eval test -z "\"\${$1##*:$2:*}\"" -o -z "\"\${$1%%*:$2}\"" -o -z "\"\${$1##$2:*}\"" -o -z "\"\${$1##$2}\""; then
+        eval "$1=\$$1:$2";
+    fi
+}
+cols () 
+{ 
+    stty columns "$@"
+}
+dir () 
+{ 
+    ls -al "$@"
+}
+dtree () 
+{ 
+    ls -R "$@" | grep ":" | sed -e 's/://' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
+}
+edt () 
+{ 
+    emacs "$@"
+}
+gcat () 
+{ 
+    gunzip -c "$@" | cat
+}
+htop () 
+{ 
+    dir -t | head "$@"
+}
+idlfind () 
+{ 
+    find ~/Idl -depth -follow -name "$@" -print;
+    find /pub/idl -depth -follow -name "$@" -print
+}
+mantext () 
+{ 
+    man "$@" | col -b
+}
+p2 () 
+{ 
+    enscript --nup=2 -DDuplex:true "$@"
+}
+p2l () 
+{ 
+    enscript --nup=2 --landscape --lines-per-page=46 -DDuplex:true "$@" -o - | lp
+}
+p4 () 
+{ 
+    enscript --nup=4 --portrait "$@"
+}
+p4l () 
+{ 
+    enscript --nup=4 --landscape --lines-per-page=46 -DDuplex:true "$@"
+}
+pgrep () 
+{ 
+    ps -efl | grep "$@"
+}
+pgzlist () 
+{ 
+    gunzip -c "$@" | pax -v
+}
+pland () 
+{ 
+    enscript --landscape --font "Courier7" "$@"
+}
+pledit () 
+{ 
+    plutil -convert xml1 ${1};
+    $EDITOR -w ${1};
+    plutil -convert binary1 ${1}
+}
+prepend_path () 
+{ 
+    if ! eval test -z "\"\${$1##*:$2:*}\"" -o -z "\"\${$1%%*:$2}\"" -o -z "\"\${$1##$2:*}\"" -o -z "\"\${$1##$2}\""; then
+        eval "$1=$2:\$$1";
+    fi
+}
+ps2 () 
+{ 
+    psnup -n 2 -r "$@" | lp -d thebes
+}
+ps2c () 
+{ 
+    psnup -n 2 -r "$@" | lp -d Autistic_8400DP
+}
+rows () 
+{ 
+    stty rows "$@"
+}
+rsync () 
+{ 
+    /usr/bin/rsync -E
+}
+tgzext () 
+{ 
+    gunzip -c "$@" | /usr/bin/tar -xvf -
+}
+tgzlist () 
+{ 
+    gunzip -c "$@" | /usr/bin/tar -tvf -
+}
+tgzpak () 
+{ 
+    /usr/bin/tar -cvf - "$@" | gzip -9 -c > "$@".tgz
+}
+top () 
+{ 
+    dir -t "$@" | head
+}
+xferto () 
+{ 
+    ( cd "$1";
+    /usr/bin/tar cvf - . ) | ( cd "$2";
+    /usr/bin/tar -xpf - )
+}

@@ -1,0 +1,4 @@
+2/5/09 12:27:35 PM org.x.startx[172] CGLCreateContext error: invalid share context 
+2/5/09 12:27:35 PM [0x0-0x11011].edu.ucsf.cgl.chimera[159] X Error of failed request:  BadAlloc (insufficient resources for operation) 
+2/5/09 12:27:35 PM [0x0-0x11011].edu.ucsf.cgl.chimera[159]   Major opcode of failed request:  147 (GLX) 
+2/5/09 12:27:35 PM [0x0-0x11011].edu.ucsf.cgl.chimera[159]   Minor opcode of failed request:  3 (X_GLXCreateContext) 

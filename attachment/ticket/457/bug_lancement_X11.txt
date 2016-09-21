@@ -1,0 +1,39 @@
+26/11/2010 22:50:18	org.macosforge.xquartz.startx[3945]	Xquartz: bootstrap_look_up(): Unknown service name
+26/11/2010 22:50:19	org.macosforge.xquartz.startx[3945]	giving up.
+26/11/2010 22:50:19	org.macosforge.xquartz.startx[3945]	/opt/X11/bin/xinit:  Operation timed out (errno 60):  unable to connect to X server
+26/11/2010 22:50:19	org.macosforge.xquartz.startx[3945]	waiting for X server to shut down 
+26/11/2010 22:50:19	org.macosforge.xquartz.startx[3945]	Terminated
+26/11/2010 22:50:19	org.macosforge.xquartz.startx[3945]	X11.app: main(): argc=2
+26/11/2010 22:50:19	org.macosforge.xquartz.startx[3945]		argv[0] = /Applications/Utilities/XQuartz.app/Contents/MacOS/X11.bin
+26/11/2010 22:50:19	org.macosforge.xquartz.startx[3945]		argv[1] = --listenonly
+26/11/2010 22:50:19	org.macosforge.xquartz.startx[3945]	Waiting for startup parameters via Mach IPC.
+26/11/2010 22:50:20	org.macosforge.xquartz.startx[3945]	.
+26/11/2010 22:50:21	org.macosforge.xquartz.startx[3945]	.
+26/11/2010 22:50:22	org.macosforge.xquartz.startx[3945]	.
+26/11/2010 22:50:23	org.macosforge.xquartz.startx[3945]	.
+26/11/2010 22:50:24	org.macosforge.xquartz.startx[3945]	.
+26/11/2010 22:50:25	org.macosforge.xquartz.startx[3945]	.
+26/11/2010 22:50:26	org.macosforge.xquartz.startx[3945]	.
+26/11/2010 22:50:27	org.macosforge.xquartz.startx[3945]	.
+26/11/2010 22:50:28	org.macosforge.xquartz.startx[3945]	.
+26/11/2010 22:50:29	org.macosforge.xquartz.startx[3945]	.
+26/11/2010 22:50:30	org.macosforge.xquartz.startx[3945]	/opt/X11/bin/xinit:  X server slow to shut down, sending KILL signal.
+26/11/2010 22:50:30	org.macosforge.xquartz.startx[3945]	waiting for server to die 
+26/11/2010 22:50:31	org.macosforge.xquartz.startx[3945]	.
+26/11/2010 22:50:32	org.macosforge.xquartz.startx[3945]	.
+26/11/2010 22:50:33	org.macosforge.xquartz.startx[3945]	.
+26/11/2010 22:50:34	org.macosforge.xquartz.startx[3945]	/opt/X11/bin/xinit:  Operation timed out (errno 60):  Can't kill server
+26/11/2010 22:50:34	com.apple.launchd.peruser.501[101]	(org.macosforge.xquartz.startx[3945]) Exited with exit code: 1
+26/11/2010 22:50:34	org.macosforge.xquartz.startx[4130]	font_cache: Scanning user font directories to generate X11 font caches
+26/11/2010 22:50:35	org.macosforge.xquartz.startx[4130]	font_cache: Updating FC cache
+26/11/2010 22:50:35	org.macosforge.xquartz.privileged_startx[201]	font_cache: Scanning system font directories to generate X11 font caches
+26/11/2010 22:50:35	defaults[4160]	
+The domain/default pair of (org.macosforge.xquartz.X11, dpi) does not exist
+26/11/2010 22:50:35	org.macosforge.xquartz.startx[4130]	Xquartz: Unable to locate waiting server: org.macosforge.xquartz.X11
+26/11/2010 22:50:35	org.macosforge.xquartz.startx[4130]	Xquartz: X11.app = /Applications/Utilities/XQuartz.app/Contents/MacOS/X11
+26/11/2010 22:50:35	org.macosforge.xquartz.startx[4130]	Xquartz: Starting X server: /Applications/Utilities/XQuartz.app/Contents/MacOS/X11 --listenonly
+26/11/2010 22:50:35	org.macosforge.xquartz.startx[4130]	ERROR: Unknown switch '/Applications/Utilities/XQuartz.app/Contents/MacOS/X11.bin'. Accepted values: ia32, intel64
+26/11/2010 22:50:35	org.macosforge.xquartz.privileged_startx[201]	font_cache: Updating FC cache
+26/11/2010 22:50:37	org.macosforge.xquartz.startx[4130]	font_cache: Done
+26/11/2010 22:50:37	org.macosforge.xquartz.startx[4130]	waiting for X server to begin accepting connections 
+26/11/2010 22:50:37	org.macosforge.xquartz.privileged_startx[201]	font_cache: Done

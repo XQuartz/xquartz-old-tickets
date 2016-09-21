@@ -1,0 +1,39 @@
+Index: Portfile
+===================================================================
+--- Portfile	(revision 122300)
++++ Portfile	(working copy)
+@@ -6,7 +6,7 @@
+ 
+ name                cmake
+ version             3.0.0
+-revision            2
++revision            3
+ set branch          [join [lrange [split ${version} .] 0 1] .]
+ categories          devel
+ license             BSD
+@@ -35,6 +35,7 @@
+ patchfiles          patch-CMakeFindFrameworks.cmake.diff \
+                     patch-Modules-FindFreetype.cmake.diff \
+                     patch-Modules-FindQt4.cmake.diff \
++                    patch-Modules-Platform-Darwin.cmake.diff \
+                     patch-Modules-noArchCheck.diff
+ 
+ # fix for swig issues in 3.0.0; remove after 3.0.1 is released
+Index: files/patch-Modules-Platform-Darwin.cmake.diff
+===================================================================
+--- files/patch-Modules-Platform-Darwin.cmake.diff	(revision 0)
++++ files/patch-Modules-Platform-Darwin.cmake.diff	(working copy)
+@@ -0,0 +1,13 @@
++http://trac.macports.org/ticket/44125
++
++--- Modules/Platform/Darwin.cmake.orig	2014-06-09 08:46:52.000000000 -0700
+++++ Modules/Platform/Darwin.cmake	2014-07-19 20:43:20.000000000 -0700
++@@ -207,6 +207,8 @@ if(CMAKE_OSX_DEPLOYMENT_TARGET)
++     set(_sdk_ver "${CMAKE_MATCH_1}")
++   elseif("${_CMAKE_OSX_SYSROOT_ORIG}" MATCHES "^macosx([0-9]+\\.[0-9]+)$")
++     set(_sdk_ver "${CMAKE_MATCH_1}")
+++  elseif("${_CMAKE_OSX_SYSROOT_ORIG}" STREQUAL "/")
+++    set(_sdk_ver "${_CURRENT_OSX_VERSION}")
++   else()
++     message(FATAL_ERROR
++       "CMAKE_OSX_DEPLOYMENT_TARGET is '${CMAKE_OSX_DEPLOYMENT_TARGET}' "

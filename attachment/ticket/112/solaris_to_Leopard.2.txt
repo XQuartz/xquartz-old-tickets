@@ -1,0 +1,123 @@
+name of display:    localhost:12.0
+version number:    11.0
+vendor string:    The X.Org Foundation
+vendor release number:    10300000
+maximum request size:  16777212 bytes
+motion buffer size:  0
+bitmap unit, bit order, padding:    32, LSBFirst, 32
+image byte order:    LSBFirst
+number of supported pixmap formats:    7
+supported pixmap formats:
+    depth 1, bits_per_pixel 1, scanline_pad 32
+    depth 4, bits_per_pixel 8, scanline_pad 32
+    depth 8, bits_per_pixel 8, scanline_pad 32
+    depth 15, bits_per_pixel 16, scanline_pad 32
+    depth 16, bits_per_pixel 16, scanline_pad 32
+    depth 24, bits_per_pixel 32, scanline_pad 32
+    depth 32, bits_per_pixel 32, scanline_pad 32
+keycode range:    minimum 8, maximum 255
+focus:  None
+number of extensions:    28
+    Apple-DRI
+    Apple-WM
+    BIG-REQUESTS
+    DAMAGE
+    DEC-XTRAP
+    DOUBLE-BUFFER
+    DPMS
+    Extended-Visual-Information
+    GLX
+    MIT-SCREEN-SAVER
+    MIT-SHM
+    MIT-SUNDRY-NONSTANDARD
+    RENDER
+    SECURITY
+    SGI-GLX
+    SHAPE
+    SYNC
+    TOG-CUP
+    X-Resource
+    XAccessControlExtension
+    XC-APPGROUP
+    XC-MISC
+    XFIXES
+    XINERAMA
+    XInputExtension
+    XKEYBOARD
+    XTEST
+    XVideo
+default screen number:    0
+number of screens:    1
+
+screen #0:
+  dimensions:    1920x1200 pixels (650x406 millimeters)
+  resolution:    75x75 dots per inch
+  depths (7):    24, 1, 4, 8, 15, 16, 32
+  root window id:    0x44
+  depth of root window:    24 planes
+  number of colormaps:    minimum 1, maximum 1
+  default colormap:    0x21
+  default number of colormap cells:    256
+  preallocated pixels:    black 0, white 16777215
+  options:    backing-store NO, save-unders NO
+  largest cursor:    32x32
+  current input event mask:    0x1a0000
+    StructureNotifyMask      SubstructureNotifyMask   SubstructureRedirectMask 
+  number of visuals:    8
+  default visual id:  0x24
+  visual:
+    visual id:    0x24
+    class:    TrueColor
+    depth:    24 planes
+    available colormap entries:    256 per subfield
+    red, green, blue masks:    0xff0000, 0xff00, 0xff
+    significant bits in color specification:    8 bits
+  visual:
+    visual id:    0x25
+    class:    TrueColor
+    depth:    24 planes
+    available colormap entries:    256 per subfield
+    red, green, blue masks:    0xff0000, 0xff00, 0xff
+    significant bits in color specification:    8 bits
+  visual:
+    visual id:    0x26
+    class:    TrueColor
+    depth:    24 planes
+    available colormap entries:    256 per subfield
+    red, green, blue masks:    0xff0000, 0xff00, 0xff
+    significant bits in color specification:    8 bits
+  visual:
+    visual id:    0x27
+    class:    TrueColor
+    depth:    24 planes
+    available colormap entries:    256 per subfield
+    red, green, blue masks:    0xff0000, 0xff00, 0xff
+    significant bits in color specification:    8 bits
+  visual:
+    visual id:    0x28
+    class:    DirectColor
+    depth:    24 planes
+    available colormap entries:    256 per subfield
+    red, green, blue masks:    0xff0000, 0xff00, 0xff
+    significant bits in color specification:    8 bits
+  visual:
+    visual id:    0x29
+    class:    DirectColor
+    depth:    24 planes
+    available colormap entries:    256 per subfield
+    red, green, blue masks:    0xff0000, 0xff00, 0xff
+    significant bits in color specification:    8 bits
+  visual:
+    visual id:    0x2a
+    class:    DirectColor
+    depth:    24 planes
+    available colormap entries:    256 per subfield
+    red, green, blue masks:    0xff0000, 0xff00, 0xff
+    significant bits in color specification:    8 bits
+  visual:
+    visual id:    0x2b
+    class:    DirectColor
+    depth:    24 planes
+    available colormap entries:    256 per subfield
+    red, green, blue masks:    0xff0000, 0xff00, 0xff
+    significant bits in color specification:    8 bits

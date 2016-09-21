@@ -1,0 +1,19 @@
+commit 5bdb2f7fec1fefcb1aeb12253609850694bd2cdd
+Author: Pelle Johansson <pelle@Gjusen.int.morth.org>
+Date:   Thu Jan 24 17:42:24 2008 +0100
+
+    Allow ensure frame on root window.
+
+diff --git a/miext/rootless/rootlessWindow.c b/miext/rootless/rootlessWindow.c
+index 82f54d6..bf0380f 100644
+--- a/miext/rootless/rootlessWindow.c
++++ b/miext/rootless/rootlessWindow.c
+@@ -473,7 +473,7 @@ RootlessEnsureFrame(WindowPtr pWin)
+     if (WINREC(pWin) != NULL)
+         return WINREC(pWin);
+ 
+-    if (!IsTopLevel(pWin))
++    if (!IsTopLevel(pWin) && !IsRoot(pWin))
+         return NULL;
+ 
+     if (pWin->drawable.class != InputOutput)

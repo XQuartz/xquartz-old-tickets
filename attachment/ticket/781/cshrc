@@ -1,0 +1,180 @@
+
+#
+# HISTORY
+# 
+# @(#)$RCSfile: .cshrc,v $ $Revision: 4.1.3.3 $ (DEC) $Date: 1992/05/11 09:13:09 $ 
+# 
+
+#         skip remaining setup if not an interactive shell
+
+if ($?ENVIRONMENT) exit
+
+#          settings  for interactive shells
+
+limit coredumpsize 0 #unlimited
+defaults write com.apple.x11 wm_ffm true
+#xhost +aramis.obspm.fr
+#xhost +mesioq.obspm.fr
+set history=100
+set ignoreeof
+set noclobber
+set notify
+set savehist=100
+set time=100
+
+#set path = ( $path "." /Developer/usr/bin /Users/laurent/Shellscripts /Users/laurent/bin /Users/laurent/Telescopes/ESO-Paranal/p2pp-3.3.2/bin )
+#set path = ( $path "." /Developer/usr/bin /Users/laurent/Shellscripts /Users/laurent/bin /opt/local/bin /opt/local/sbin /Users/laurent/Telescopes/ESO-Paranal/p2pp-3.3.2/bin )
+#set path = ( $PATH /bin /sbin /usr/sbin /usr/bin /usr/bin/X11 /usr/local /usr/local/lib /usr/local/bin /Users/laurent/Shellscripts /Users/laurent/bin /sw/lib/pythonls 2.4/site-packages/Numeric /usr/local/gwTeX/bin/i386-apple-darwin-current /usr/local/miriad/darwin_x86/bin /opt/local/bin /opt/local/sbin .)
+#set path = ( path /bin /sbin /usr/sbin /usr/bin /usr/bin/X11 /usr/local /usr/local/lib /usr/local/bin /Users/laurent/Shellscripts /Users/laurent/bin /usr/local/bin/X11 /usr/local/teTeX/bin )
+#setenv CLASSPATH ${CLASSPATH}:$HOME/hcss/lib/
+#set DYLD_LIBRARY_PATH= ( /sw/lib $DYLD_LIBRARY_PATH /Developer/usr/lib )
+#set DYLD_LIBRARY_PATH = ($DYLD_LIBRARY_PATH ~/TR/CRT)
+#setenv CLASSPATH $HOME/hcss/lib/
+
+# For interactive shells, set the prompt to show the host name and event number.
+if ( $?prompt ) then
+        if ( -o /bin/su ) then
+                set prompt="`iznogoud` \!# "
+        else
+                set prompt="$cwd:t>"
+        endif
+endif
+
+#         aliases
+
+alias cd		'chdir \!* ; set current=$cwd ; set prompt="$cwd:t>"; if ("$TERM" == "xterm"  && ! $?NOTITLE) echo -n "]2;`/bin/hostname -s`: $cwd "'
+alias h			"clear ; history | /usr/bin/grep -i \!* | sed -e '$ d'"
+alias hc		"history -c"
+alias lo		exit
+alias gs		"gs -sDEVICE=x11"
+#alias ls		"ls -lt \!*|page"
+#alias rm		"rm -i"
+alias sc		"source ~/.cshrc" #; source ~/.login"
+alias w			"/usr/ucb/w | sort"
+alias ret               "cd /Users/laurent"
+alias cf77                      "f77 -r8 -i8 -double_size 128"
+alias lpr8		"lpr -Plplerma8_color"
+alias lpq8		"lpq -Plplerma8_color"
+alias dbg	"gdb"
+alias dbx	"gdb"
+alias  psu 'ps -Ao "user pid pcpu pmem nice tty time" | grep  \!* | grep -v grep'
+
+umask 027
+
+#setenv R_DISPOSE "lpr -Pps3 -r %s"
+
+
+alias eps2pdf	epstopdf
+alias CD            'cd \!*;echo $cwd'
+alias cp            'cp -i'
+alias copy          'cp -i'
+alias mv            'mv -iv'
+alias rename        'mv -i'
+alias ren           'mv -i'
+alias rmdir         'rm -r'
+alias delete        'rm -i'
+alias del           'rm -i'
+alias pwd           'echo $cwd'
+#alias ls            'ls -aF'
+alias unx           'chmod -x'
+alias x           'chmod +x'
+alias where       'pushd ~; find . -name \!* -print; popd'
+alias cerca       'find . -name \!* -print'
+alias land        'enscript -r'
+alias simbad telnet 130.79.128.4
+alias ftpcds ftp 130.79.128.5
+alias xyell  "xterm -sb -ls -sl 100 -fb 9x15bold -fn 9x15bold -fg brown -bg yellow"
+alias xblue  "xterm -sb -ls -sl 100 -fb 9x15bold -fn 9x15bold -fg black -bg cyan"
+alias xblac  "xterm -sb -ls -sl 100 -fb 9x15bold -fn 9x15bold -fg wheat -bg black"
+alias xwhit  "xterm -sb -ls -sl 100 -fb 9x15bold -fn 9x15bold -fg blue -bg white"
+alias xem  'xemacs  -fg blue -bg yellow'
+alias python python2.7 #uses python in /sw version...
+alias ds9 "ds9 -zscale -cmap cool -lock frame wcs -mode none"
+
+set prompt = "Lorenzo>"
+setenv setuplas '@ "/Users/laurent/Gildas/setup.class"'
+setenv setuplas90 '@ "/Users/laurent/Gildas/setup90.class"'
+setenv setupgreg '@ "/Users/laurent/Gildas/setup.greg"'
+setenv cnverr yes
+setenv SHARE NO
+setenv SVN_EDITOR vim
+setenv STARLINK_DIR /star
+
+
+
+alias spg /Users/laurent/Transfert-Radiatif/Monte-Carlo/spectre_to_greg
+alias spga /Users/laurent/Transfert-Radiatif/Monte-Carlo/spectre_to_greg_auto
+alias csf /Users/laurent/Transfert-Radiatif/Monte-Carlo/convol_shell_frag
+alias csd /Users/laurent/Transfert-Radiatif/Monte-Carlo/convol_shell
+alias tsfn /Users/laurent/Transfert-Radiatif/Monte-Carlo/trans_shell_frag_noref
+alias tsf /Users/laurent/Transfert-Radiatif/Monte-Carlo/trans_shell_frag
+alias tsfd /Users/laurent/Transfert-Radiatif/Monte-Carlo/trans_shell_frag_diff
+alias tsn /Users/laurent/Transfert-Radiatif/Monte-Carlo/trans_shell_noref
+alias ptt /Users/laurent/Transfert-Radiatif/Monte-Carlo/pop_to_tex
+alias mtx /Users/laurent/Transfert-Radiatif/Monte-Carlo/mean_tex
+alias vp /Users/laurent/Transfert-Radiatif/Monte-Carlo/velpos
+alias vpa /Users/laurent/Transfert-Radiatif/Monte-Carlo/velpos_auto
+alias dvips   'dvips -t a4'
+alias his history
+alias class 'class $setuplas90'
+alias CLASS '/sw/lib/gildas/darwin-gfortran/bin/class'
+alias greg 'greg -niw $setupgreg'
+#alias GREG 'greg -niw $setupgreg'
+alias grep 'grep -ni'
+alias ll            'ls -lh'
+alias lsd 'ls -l | grep ^d'
+alias lpr 'lpr -h'
+alias lD 'ls -d'
+alias lF 'ls -F \!*|grep /'
+alias lA 'ls -A'
+alias lz 'ls -lh \!*|~/Shellscripts/lz.csh'
+alias lsz 'ls -lh \!*|~/Shellscripts/lz.csh'
+alias lt 'ls -lT \!*|~/Shellscripts/lt.csh'
+alias lts 'ls -lTtr \!*|~/Shellscripts/lt.csh'
+alias wl 'wc -l'
+alias xterm "xterm -sb -fg Wheat -bg black -cr green -ms red -fa Monaco -fs 8"
+alias nrao "xterm -T nrao -e ssh -l obs modelo.as.arizona.edu &"
+alias qr ./quick_run.csh #c''est volontairement local
+alias qrcs ./quick_run_cs.csh #c''est volontairement local
+alias taramis "telnet -l pagani aramis.obspm.fr"
+alias faramis "ftp pagani@aramis.obspm.fr"
+alias srubicon "ssh -X pagani@rubicon.obspm.fr"
+alias saramis "ssh -X pagani@aramis.obspm.fr"
+alias stucana "ssh -X pagani@tucana.obspm.fr"
+alias santlia "ssh -X fesquet@antlia.obspm.fr"
+alias tozone "ssh -X -l pagani ozone.obspm.fr"
+alias fozone "ftp pagani@ozone.obspm.fr"
+alias tunnel443 "sudo ssh -N -f -p 443 pagani@rubicon.obspm.fr -L3128:proxy.obspm.fr:3128 -L1025:smtp.obspm.fr:25 sleep 120"
+alias t443 "sudo ssh -N -f -p 443 pagani@rubicon.obspm.fr -L3128:proxy.obspm.fr:3128 -L1025:smtp.obspm.fr:25 sleep 120"
+alias tunnel "sudo ssh -N -f pagani@rubicon.obspm.fr -L3128:proxy.obspm.fr:3128 -L1025:smtp.obspm.fr:25 sleep 120"
+alias gtun "ps -A|grep ssh"
+alias VLC '/usr/bin/open -a "/Applications/VLC.app"'
+alias RP '/usr/bin/open -a "/Applications/RealPlayer.app"'
+#setenv CFLAGS -Wa,-oldas
+alias conv90 "convert -rotate 90 "
+alias conv90neg "convert -rotate 90 -negate "
+#alias mysql /usr/local/mysql/bin/mysql
+alias cassis "/Applications/cassis/cassis.run"
+#alias hipe "/Applications/hipe_v2.6.0/bin/ia_launchers/ia_hipe.app/Contents/MacOS/ia_hipe &"
+
+#test -r /usr/local/gildas/etc/login && source /usr/local/gildas/etc/login !inclus dans fink maintenant
+#test -r /sw/bin/init.csh && source /sw/bin/init.csh #fink
+#set path = (/sw/lib/gcc4.7/bin $path)
+#setenv GAG_ROOT_DIR /Users/laurent/Gildas/gildas-exe-04oct13
+#setenv GAG_EXEC_SYSTEM x86_64-darwin-ifort
+#source $GAG_ROOT_DIR/etc/login
+
+#source  /usr/local/miriad/MIRRC
+#source /usr/local/karma/.login
+#source /opt/intel/bin/ifortvars.csh intel64
+#source /Users/laurent/TR/ARTIST/artistrc.csh
+alias ifort "ifort -diag-disable warn,remark"
+#test -r /sw/bin/init.csh && source /sw/bin/init.csh #fink
+awk '$2=="convert"{trouve = 1}END{if (trouve)print "editer /star/etc/cshrc convert -> star_convert"}' /star/etc/cshrc
+#source $STARLINK_DIR/etc/login
+#source $STARLINK_DIR/etc/cshrc
+
+# Setting PATH for Python 2.7
+# The orginal version is saved in .cshrc.pysave
+# set path=(/Library/Frameworks/Python.framework/Versions/2.7/bin $path)
+source .nextcshrc

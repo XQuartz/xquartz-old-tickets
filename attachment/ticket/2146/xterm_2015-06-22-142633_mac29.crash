@@ -1,0 +1,177 @@
+Process:               xterm [38764]
+Path:                  /opt/X11/*/xterm
+Identifier:            xterm
+Version:               ???
+Code Type:             X86-64 (Native)
+Parent Process:        quartz-wm [38762]
+Responsible:           X11.bin [38465]
+User ID:               2207
+
+Date/Time:             2015-06-22 14:26:33.223 -0600
+OS Version:            Mac OS X 10.10.3 (14D136)
+Report Version:        11
+Anonymous UUID:        D2DAC291-D0B1-0ACA-B3EF-7F1642154C18
+
+
+Time Awake Since Boot: 62000 seconds
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_BAD_ACCESS (SIGSEGV)
+Exception Codes:       KERN_INVALID_ADDRESS at 0x0000000000000000
+
+VM Regions Near 0:
+--> 
+    __TEXT                 0000000100000000-0000000100061000 [  388K] r-x/rwx SM=COW  /opt/X11/*
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_platform.dylib      	0x00007fff8d896b50 _platform_strcmp + 80
+1   xterm                         	0x0000000100002b1d MapSelections + 52
+2   xterm                         	0x000000010000298c xtermGetSelection + 76
+3   xterm                         	0x000000010000304b SelectionReceived + 1081
+4   libXt.6.dylib                 	0x000000010013ee2d ReqTimedOut + 293
+5   libXt.6.dylib                 	0x00000001001371f2 XtAppProcessEvent + 852
+6   xterm                         	0x000000010002a262 xevents + 116
+7   xterm                         	0x000000010000fa07 VTparse + 1561
+8   xterm                         	0x000000010000f343 VTRun + 277
+9   xterm                         	0x000000010002377a main + 5090
+10  xterm                         	0x00000001000014d8 start + 52
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x0000000000000000  rcx: 0x0000000000000000  rdx: 0x0000000000000002
+  rdi: 0x0000000000000000  rsi: 0x000000010004d41b  rbp: 0x00007fff5fbff0f0  rsp: 0x00007fff5fbff0f0
+   r8: 0x0000000102201b98   r9: 0x0000000000000be0  r10: 0x00007fff5fbff0b0  r11: 0x00007ffe5d8fbd78
+  r12: 0x00000001022016b0  r13: 0x0000000100817400  r14: 0x000000010004d41b  r15: 0x0000000000000002
+  rip: 0x00007fff8d896b50  rfl: 0x0000000000010202  cr2: 0x0000000000000000
+  
+Logical CPU:     2
+Error Code:      0x00000004
+Trap Number:     14
+
+
+Binary Images:
+       0x100000000 -        0x100060fff +xterm (???) <99171531-4458-3DF0-895A-58CB502C02D6> /usr/X11R6/bin/xterm
+       0x100085000 -        0x100094fff +libXft.2.dylib (6.2) <711D24CF-8125-351D-BA0D-69FDB58E2944> /opt/X11/*/libXft.2.dylib
+       0x10009d000 -        0x1000adfff +libXmu.6.dylib (9) <D73AC9A9-45C1-34FE-9A50-BD9FE9436C43> /opt/X11/*/libXmu.6.dylib
+       0x1000b8000 -        0x1000ffff7 +libXaw.7.dylib (8) <A5BC6805-73AB-37C3-B6DD-796FF7C4A1C0> /opt/X11/*/libXaw.7.dylib
+       0x10011f000 -        0x100162fff +libXt.6.dylib (7) <03296813-FC02-3CAB-91A0-F95261AFF595> /opt/X11/*/libXt.6.dylib
+       0x10017d000 -        0x100286fff +libX11.6.dylib (10) <87781555-B810-3B19-95D6-C67EB8C7B4A6> /opt/X11/*/libX11.6.dylib
+       0x1002ae000 -        0x1002baff7 +libXpm.4.dylib (16) <8E1D9D1B-BFE5-306B-A990-A0CA9C1AF344> /opt/X11/*/libXpm.4.dylib
+       0x1002c1000 -        0x1002d1fff +libICE.6.dylib (10) <062D5174-8A9D-3462-8FB1-28E208478BD4> /opt/X11/*/libICE.6.dylib
+       0x1002de000 -        0x10030eff7 +libfontconfig.1.dylib (10) <19AD9A97-8ACA-3F9E-A404-F1DD2EB556FB> /opt/X11/*/libfontconfig.1.dylib
+       0x10031c000 -        0x100398ff7 +libfreetype.6.dylib (18.2) <FFF7309F-4EA6-38E1-B512-68405CFD903A> /opt/X11/*/libfreetype.6.dylib
+       0x1003b2000 -        0x1003b8fff +libXrender.1.dylib (5) <744AC00C-AEF2-3B68-B92D-844F235AF42F> /opt/X11/*/libXrender.1.dylib
+       0x1003be000 -        0x1003d3ff7 +libxcb.1.dylib (3) <4C73EEBD-08C6-3C93-9F2C-60CF7D63D6F1> /opt/X11/*/libxcb.1.dylib
+       0x1003e5000 -        0x1003e6fff +libXau.6.dylib (7) <58D3B6CB-9468-3826-9D52-8F0FCE8CCE3B> /opt/X11/*/libXau.6.dylib
+       0x1003eb000 -        0x1003eefff +libXdmcp.6.dylib (7) <6DD4CCAD-9891-3039-A7DA-3EA54D85FDF6> /opt/X11/*/libXdmcp.6.dylib
+       0x1003f4000 -        0x1003f8fff +libSM.6.dylib (7.1) <001EA78E-9FFB-3F00-B616-399DBFD86F81> /opt/X11/*/libSM.6.dylib
+       0x1003fe000 -        0x100409fff +libXext.6.dylib (11) <F99B45C5-2121-3A29-B101-297DC513942E> /opt/X11/*/libXext.6.dylib
+    0x7fff64f35000 -     0x7fff64f6b837  dyld (353.2.1) <65DCCB06-339C-3E25-9702-600A28291D0E> /usr/lib/dyld
+    0x7fff83c7b000 -     0x7fff83c7bff7  libkeymgr.dylib (28) <77845842-DE70-3CC5-BD01-C3D14227CED5> /usr/lib/system/libkeymgr.dylib
+    0x7fff83dd1000 -     0x7fff83dd2ff3  libSystem.B.dylib (1213) <CCEC13A5-D0D9-31C5-B0B0-1C564B4A20A6> /usr/lib/libSystem.B.dylib
+    0x7fff83fbb000 -     0x7fff83fc0ff7  libmacho.dylib (862) <126CA2ED-DE91-308F-8881-B9DAEC3C63B6> /usr/lib/system/libmacho.dylib
+    0x7fff84078000 -     0x7fff84079fff  libDiagnosticMessagesClient.dylib (100) <2EE8E436-5CDC-34C5-9959-5BA218D507FB> /usr/lib/libDiagnosticMessagesClient.dylib
+    0x7fff8411e000 -     0x7fff84136ff7  libexpat.1.dylib (12) <C5FE8836-E277-3162-9D15-6735321CB2C6> /usr/lib/libexpat.1.dylib
+    0x7fff84f45000 -     0x7fff84f75fff  libsystem_m.dylib (3086.1) <1E12AB45-6D96-36D0-A226-F24D9FB0D9D6> /usr/lib/system/libsystem_m.dylib
+    0x7fff84fae000 -     0x7fff84fb0ff7  libsystem_coreservices.dylib (9) <41B7C578-5A53-31C8-A96F-C73E030B0938> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff859b0000 -     0x7fff85a3cff7  libsystem_c.dylib (1044.10.1) <86FBED7A-F2C8-3591-AD6F-486DD57E6B6A> /usr/lib/system/libsystem_c.dylib
+    0x7fff85ac9000 -     0x7fff85acfff7  libsystem_networkextension.dylib (167.1.10) <29AB225B-D7FB-30ED-9600-65D44B9A9442> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff85bb1000 -     0x7fff85bbafff  libsystem_pthread.dylib (105.10.1) <3103AA7F-3BAE-3673-9649-47FFD7E15C97> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff86ce3000 -     0x7fff86ce7fff  libcache.dylib (69) <45E9A2E7-99C4-36B2-BEE3-0C4E11614AD1> /usr/lib/system/libcache.dylib
+    0x7fff873cd000 -     0x7fff873cffff  libsystem_sandbox.dylib (358.20.5) <4CF77128-6BE0-3958-B646-707FA9CE61B2> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff87cf8000 -     0x7fff87d22ff7  libdispatch.dylib (442.1.4) <502CF32B-669B-3709-8862-08188225E4F0> /usr/lib/system/libdispatch.dylib
+    0x7fff8916e000 -     0x7fff89184ff7  libsystem_asl.dylib (267) <F153AC5B-0542-356E-88C8-20A62CA704E2> /usr/lib/system/libsystem_asl.dylib
+    0x7fff89cda000 -     0x7fff89d20ff7  libauto.dylib (186) <A260789B-D4D8-316A-9490-254767B8A5F1> /usr/lib/libauto.dylib
+    0x7fff89dd4000 -     0x7fff89dfcfff  libxpc.dylib (559.20.9) <D35D0DB2-D7BD-3BE4-8378-062BFE545E1D> /usr/lib/system/libxpc.dylib
+    0x7fff89e57000 -     0x7fff89ecdfe7  libcorecrypto.dylib (233.1.2) <E1789801-3985-3949-B736-6B3378873301> /usr/lib/system/libcorecrypto.dylib
+    0x7fff89ece000 -     0x7fff89ed6fff  libsystem_dnssd.dylib (561.1.1) <62B70ECA-E40D-3C63-896E-7F00EC386DDB> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff8ab06000 -     0x7fff8ab2efff  libsystem_info.dylib (459.20.1) <AEB3FE62-4763-3050-8352-D6F9AF961AE6> /usr/lib/system/libsystem_info.dylib
+    0x7fff8afa6000 -     0x7fff8afa8fff  libquarantine.dylib (76.20.1) <7AF90041-2768-378A-925A-D83161863642> /usr/lib/system/libquarantine.dylib
+    0x7fff8b086000 -     0x7fff8b088fff  libsystem_configuration.dylib (699.1.5) <20F3B077-179D-3CB0-A3C1-C8602D53B4DB> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff8b24a000 -     0x7fff8b44446f  libobjc.A.dylib (647) <759E155D-BC42-3D4E-869B-6F57D477177C> /usr/lib/libobjc.A.dylib
+    0x7fff8c8d6000 -     0x7fff8c901fff  libc++abi.dylib (125) <88A22A0F-87C6-3002-BFBA-AC0F2808B8B9> /usr/lib/libc++abi.dylib
+    0x7fff8d84b000 -     0x7fff8d883fff  libsystem_network.dylib (412.20.3) <589A5F67-BE2A-3245-A181-0ECC9B53EB00> /usr/lib/system/libsystem_network.dylib
+    0x7fff8d894000 -     0x7fff8d89cfff  libsystem_platform.dylib (63) <64E34079-D712-3D66-9CE2-418624A5C040> /usr/lib/system/libsystem_platform.dylib
+    0x7fff8d8e1000 -     0x7fff8d8e2fff  libsystem_secinit.dylib (18) <581DAD0F-6B63-3A48-B63B-917AF799ABAA> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff8eb58000 -     0x7fff8eb74ff7  libsystem_malloc.dylib (53.1.1) <19BCC257-5717-3502-A71F-95D65AFA861B> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff8ed1d000 -     0x7fff8ed1dff7  liblaunch.dylib (559.20.9) <FA89A113-696E-3271-8FE1-A0D7324E8481> /usr/lib/system/liblaunch.dylib
+    0x7fff8ed1e000 -     0x7fff8ed3bfff  libsystem_kernel.dylib (2782.20.48) <EAFD7BD0-0C30-3E7D-9528-F9916BA0167C> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff8f412000 -     0x7fff8f419ff7  libcompiler_rt.dylib (35) <BF8FC133-EE10-3DA6-9B90-92039E28678F> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff8f84c000 -     0x7fff8f87cff7  libncurses.5.4.dylib (44) <F09809A4-53B9-3E91-A8FA-D3F584C03AA3> /usr/lib/libncurses.5.4.dylib
+    0x7fff8f92b000 -     0x7fff8f93cff7  libz.1.dylib (55) <88C7C7DE-04B8-316F-8B74-ACD9F3DE1AA1> /usr/lib/libz.1.dylib
+    0x7fff8f9a1000 -     0x7fff8f9a4ff7  libdyld.dylib (353.2.1) <9EACCA38-291D-38CC-811F-7E9D1451E2D3> /usr/lib/system/libdyld.dylib
+    0x7fff8fa68000 -     0x7fff8fa6dff7  libunwind.dylib (35.3) <BE7E51A0-B6EA-3A54-9CCA-9D88F683A6D6> /usr/lib/system/libunwind.dylib
+    0x7fff8fa6e000 -     0x7fff8fa7ffff  libsystem_coretls.dylib (35.20.2) <6084A531-2523-39F8-B030-811FA1A32FB5> /usr/lib/system/libsystem_coretls.dylib
+    0x7fff8faf8000 -     0x7fff8fb4cfff  libc++.1.dylib (120) <1B9530FD-989B-3174-BB1C-BDC159501710> /usr/lib/libc++.1.dylib
+    0x7fff90d8d000 -     0x7fff90d98fff  libcommonCrypto.dylib (60061) <D381EBC6-69D8-31D3-8084-5A80A32CB748> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff91438000 -     0x7fff91441ff7  libsystem_notify.dylib (133.1.1) <61147800-F320-3DAA-850C-BADF33855F29> /usr/lib/system/libsystem_notify.dylib
+    0x7fff9147c000 -     0x7fff91489ff7  libbz2.1.0.dylib (36) <2DF83FBC-5C08-39E1-94F5-C28653791B5F> /usr/lib/libbz2.1.0.dylib
+    0x7fff91650000 -     0x7fff91651ffb  libremovefile.dylib (35) <3485B5F4-6CE8-3C62-8DFD-8736ED6E8531> /usr/lib/system/libremovefile.dylib
+    0x7fff9193d000 -     0x7fff91945ffb  libcopyfile.dylib (118.1.2) <0C68D3A6-ACDD-3EF3-991A-CC82C32AB836> /usr/lib/system/libcopyfile.dylib
+    0x7fff91a7d000 -     0x7fff91a82fff  libsystem_stats.dylib (163.20.16) <FBC3F80F-A0FB-3BD6-9A7E-800DE45F092E> /usr/lib/system/libsystem_stats.dylib
+    0x7fff91b1a000 -     0x7fff91b1aff7  libunc.dylib (29) <5676F7EA-C1DF-329F-B006-D2C3022B7D70> /usr/lib/system/libunc.dylib
+    0x7fff92461000 -     0x7fff92462ff7  libsystem_blocks.dylib (65) <9615D10A-FCA7-3BE4-AA1A-1B195DACE1A1> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff935e9000 -     0x7fff935effff  libsystem_trace.dylib (72.20.1) <840F5301-B55A-3078-90B9-FEFFD6CD741A> /usr/lib/system/libsystem_trace.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 51
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 21691
+    thread_create: 0
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=81.0M resident=31.2M(39%) swapped_out_or_unallocated=49.7M(61%)
+Writable regions: Total=80.6M written=5968K(7%) resident=6048K(7%) swapped_out=0K(0%) unallocated=74.7M(93%)
+ 
+REGION TYPE                      VIRTUAL
+===========                      =======
+Kernel Alloc Once                     4K
+MALLOC                             72.2M
+MALLOC (admin)                       16K
+STACK GUARD                        56.0M
+Stack                              8192K
+VM_ALLOCATE                           8K
+__DATA                              924K
+__LINKEDIT                         71.7M
+__TEXT                             9536K
+shared memory                         4K
+===========                      =======
+TOTAL                             218.1M
+
+
+System Profile:
+Thunderbolt Device: Thunderbolt to FireWire Adapter, Apple Inc., 3, 5.6
+Bluetooth: Version 4.3.4f4 15601, 3 services, 18 devices, 1 incoming serial ports
+Model: MacPro6,1, BootROM MP61.0116.B11, 4 processors, Quad-Core Intel Xeon E5, 3.7 GHz, 32 GB, SMC 2.20f18
+Thunderbolt Bus: Mac Pro, Apple Inc., 19.2
+Thunderbolt Bus: Mac Pro, Apple Inc., 19.2
+Thunderbolt Bus: Mac Pro, Apple Inc., 19.2
+Graphics: AMD FirePro D300, AMD FirePro D300, PCIe, 2048 MB
+Graphics: AMD FirePro D300, AMD FirePro D300, PCIe, 2048 MB
+USB Device: Hub
+USB Device: BRCM20702 Hub
+USB Device: Bluetooth USB Host Controller
+USB Device: SCR33xx v2.0 USB SC Reader
+USB Device: Keyboard Hub
+USB Device: USB/PS2 Wheel Mouse
+USB Device: Apple Keyboard
+USB Device: Back-UPS RS 1000 FW:7.g8 .D USB FW:g8
+Memory Module: DIMM1, 8 GB, DDR3 ECC, 1866 MHz, 0x80AD, 0x484D54343147553741465238432D52442020
+Memory Module: DIMM2, 8 GB, DDR3 ECC, 1866 MHz, 0x80AD, 0x484D54343147553741465238432D52442020
+Memory Module: DIMM3, 8 GB, DDR3 ECC, 1866 MHz, 0x80AD, 0x484D54343147553741465238432D52442020
+Memory Module: DIMM4, 8 GB, DDR3 ECC, 1866 MHz, 0x80AD, 0x484D54343147553741465238432D52442020
+FireWire Device: LaCie Bigger Disk Extreme LUN 0, LaCie Group SA, Up to 400 Mb/sec
+AirPort: spairport_wireless_card_type_airport_extreme (0x14E4, 0x135), Broadcom BCM43xx 1.0 (7.15.166.24.3)
+Network Service: Ethernet 1, Ethernet, en0
+PCI Card: AMD FirePro D300, Display Controller, Slot-2
+PCI Card: AMD FirePro D300, Display Controller, Slot-1
+PCI Card: pci11c1,5901, IEEE 1394 Open HCI, Thunderbolt@81,0,0
+Serial ATA Device: APPLE SSD SM1024F, 1 TB

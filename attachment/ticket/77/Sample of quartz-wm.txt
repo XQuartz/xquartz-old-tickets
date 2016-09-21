@@ -1,0 +1,23 @@
+Sampling process 225 for 3 seconds with 1 millisecond of run time between samples
+Sampling completed, processing symbols...
+Analysis of sampling quartz-wm (pid 225) every 1 millisecond
+Call graph:
+    2443 Thread_2503
+      2443 start
+        2443 main
+          2443 CFRunLoopRun
+            2443 CFRunLoopRunSpecific
+              2443 mach_msg
+                2443 mach_msg_trap
+                  2443 mach_msg_trap
+    2443 Thread_2603
+      2443 __CFSocketManager
+        2443 select$DARWIN_EXTSN
+          2443 select$DARWIN_EXTSN
+
+Total number in stack (recursive counted multiple, when >=5):
+
+Sort by top of stack, same collapsed (when >= 5):
+        mach_msg_trap        2443
+        select$DARWIN_EXTSN        2443
+Sample analysis of process 225 written to file /dev/stdout

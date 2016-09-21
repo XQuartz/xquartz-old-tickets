@@ -1,0 +1,930 @@
+11:24 AM ~ $ startx
+font_cache: Scanning user font directories to generate X11 font caches
+font_cache: Updating FC cache
+xauth:  file /Users/fredleason/.serverauth.5375 does not exist
+font_cache: Done
+
+xinit: XFree86_VT property unexpectedly has 0 items instead of 1
+startkde: Starting up...
+Could not load library! Trying exec....
+kdeinit: Launched DCOPServer, pid = 5591 result = 0
+DCOP: register 'anonymous-5591' -> number of clients is now 1
+DCOP: unregister 'anonymous-5591'
+Could not load library! Trying exec....
+kdeinit: Launched KLauncher, pid = 5595 result = 0
+DCOP: register 'klauncher' -> number of clients is now 1
+DCOP: new daemon klauncher
+kdeinit: opened connection to :0
+Could not load library! Trying exec....
+kdeinit: Launched KDED, pid = 5596 result = 0
+DCOP: register 'kded' -> number of clients is now 1
+DCOP: unregister 'kded'
+kdeinit: PID 5596 terminated.
+DCOP: register 'kded' -> number of clients is now 1
+DCOP: unregister 'kded'
+DCOP: register 'kded' -> number of clients is now 1
+Could not load library! Trying exec....
+ksplash: Inactive pixmap: /opt/local/share/apps/ksplash/Themes/Default/splash_inactive_bar.png
+ksplash: Active pixmap:   /opt/local/share/apps/ksplash/Themes/Default/splash_active_bar.png
+kdeinit: Launched 'kcminit_startup', pid = 5598 result = 0
+kio (KDirWatch): Available methods: Stat
+kio (KLauncher): KLauncher: Got kdeinit_exec_wait('kbuildsycoca', ...)
+kdeinit: Got EXT_EXEC 'kbuildsycoca' from launcher.
+Could not load library! Trying exec....
+kio (KLauncher): kbuildsycoca (pid 5599) up and running.
+DCOP: register 'kcminit-5600' -> number of clients is now 2
+DCOP: register 'kbuildsycoca' -> number of clients is now 3
+kbuildsycoca running...
+DCOP: register 'anonymous-5599' -> number of clients is now 4
+kio (KSycoca): Trying to open ksycoca from /private/var/tmp/kdecache-fredleason/ksycoca
+DCOP:  'kcminit-5600' now known as 'kcminit'
+kio (KSycoca): Trying to open ksycoca from /private/var/tmp/kdecache-fredleason/ksycoca
+kdeinit: Got SETENV 'KDE_MULTIHEAD=false' from klauncher.
+kdeinit: PID 5598 terminated.
+kbuildsycoca: checking file timestamps
+kdeinit: Got KWRAPPER 'ksmserver' from socket.
+creating: freds-i7-860.local;1317313631;95854;5606_TIME0:
+Could not load library! Trying exec....
+kdeinit: PID 5606 terminated.
+DCOP: register 'anonymous-5587' -> number of clients is now 5
+DCOP:  'anonymous-5587' now known as 'ksplash'
+kbuildsycoca: timestamp changed:/opt/local/etc/xdg/menus/
+Reusing existing ksycoca
+kbuildsycoca: Recreating ksycoca file (/private/var/tmp/kdecache-fredleason/ksycoca, version 94)
+DCOP: register 'ksmserver-5607' -> number of clients is now 6
+DCOP:  'ksmserver-5607' now known as 'ksmserver'
+kdeinit: Got SETENV 'SESSION_MANAGER=local/freds-i7-860.local:/tmp/.ICE-unix/5607' from klauncher.
+ksmserver: KSMServer: SetAProc_loc: conn 0, prot=local, file=/tmp/.ICE-unix/5607
+ksmserver: KSMServer::restoreSession saved at previous logout
+ksplash: KSplash::upAndRunning(): bad s: restore session
+kio (KLauncher): KLauncher: Got exec_blind('kwin', ...)
+kio (KSycoca): Trying to open ksycoca from /private/var/tmp/kdecache-fredleason/ksycoca
+kdeinit: Got EXEC_NEW 'kwin' from launcher.
+Could not load library! Trying exec....
+kio (KLauncher): kwin (pid 5608) up and running.
+kbuildsycoca: VFolderMenu::mergeFile: /opt/local/etc/xdg/menus/kde-applications-merged/kde-essential.menu
+kbuildsycoca: VFolderMenu::mergeFile: /opt/local/etc/xdg/menus/kde-settings.menu
+kbuildsycoca: VFolderMenu::mergeFile: /opt/local/etc/xdg/menus/kde-information.menu
+kbuildsycoca: Directory and kde-information.directory requires combining!
+kbuildsycoca: VFolderMenu::mergeFile: /opt/local/etc/xdg/menus/kde-screensavers.menu
+kbuildsycoca: Directory and kde-system-screensavers.directory requires combining!
+kbuildsycoca: Menu applications-kmenuedit.menu not found.
+kbuildsycoca: Processing KDE Legacy dirs for <KDE>
+kbuildsycoca: processKDELegacyDirs()
+kbuildsycoca: Looking up applications under /opt/local/share/applications/
+kbuildsycoca: new: /opt/local/share/applications/alacarte.desktop
+kbuildsycoca: new: /opt/local/share/applications/gmenu-simple-editor.desktop
+kbuildsycoca: Looking up applications under /opt/local/share/applications/kde/
+kbuildsycoca: Moving Settings/Information to Information
+kbuildsycoca: WARNING: '/opt/local/share/applications/inkscape.desktop' specifies undefined mimetype/servicetype 'image/svg+xml-compressed'
+kbuildsycoca: WARNING: '/opt/local/share/applications/inkscape.desktop' specifies undefined mimetype/servicetype 'application/vnd.corel-draw'
+kbuildsycoca: WARNING: 'kcertpart.desktop' specifies undefined mimetype/servicetype 'application/binary-certificate'
+kbuildsycoca: WARNING: 'katepart.desktop' specifies undefined mimetype/servicetype 'text/x-fortran'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/bmp'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/g3fax'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-fits'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/pcx'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-portable-anymap'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-portable-graymap'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-psd'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-sgi'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-tga'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-xbitmap'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-xwindowdump'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-xcf'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-compressed-xcf'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-psp'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-icon'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-xpixmap'
+kbuildsycoca: WARNING: 'knotify.desktop' specifies undefined mimetype/servicetype 'KNotify'
+DCOP: unregister 'anonymous-5599'
+DCOP: unregister 'kbuildsycoca'
+kdeinit: PID 5599 terminated.
+kio (KSycoca): Trying to open ksycoca from /private/var/tmp/kdecache-fredleason/ksycoca
+kio (KSycoca): Trying to open ksycoca from /private/var/tmp/kdecache-fredleason/ksycoca
+kio (KDirWatch): Added Dir /Users/fredleason/.kde/share/servicetypes [KDirWatch-1]
+kio (KDirWatch): Global Poll Freq is now 500 msec
+kio (KDirWatch):  Started Polling Timer, freq 500
+kio (KDirWatch):  Setup Stat (freq 500) for /Users/fredleason/.kde/share/servicetypes
+kio (KDirWatch): Added Dir /opt/local/share/servicetypes [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/servicetypes
+kio (KDirWatch): Added Dir /Users/fredleason/.kde/share/mimelnk [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /Users/fredleason/.kde/share/mimelnk
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/media [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/media
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/all [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/all
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/application [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/application
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/audio [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/audio
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/image [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/image
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/inode [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/inode
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/message [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/message
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/model [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/model
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/multipart [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/multipart
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/print [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/print
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/text [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/text
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/uri [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/uri
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/video [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/video
+kio (KDirWatch): Added Dir /Users/fredleason/.kde/share/applnk [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /Users/fredleason/.kde/share/applnk
+kio (KDirWatch): Added Dir /opt/local/share/applnk [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk
+kio (KDirWatch): Added Dir /opt/local/share/applnk/Internet [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/Internet
+kio (KDirWatch): Added Dir /opt/local/share/applnk/.hidden [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/.hidden
+kio (KDirWatch): Added Dir /opt/local/share/applnk/Applications [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/Applications
+kio (KDirWatch): Added Dir /opt/local/share/applnk/Development [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/Development
+kio (KDirWatch): Added Dir /opt/local/share/applnk/Settings [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/Settings
+kio (KDirWatch): Added Dir /opt/local/share/applnk/Settings/LookNFeel [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/Settings/LookNFeel
+kio (KDirWatch): Added Dir /opt/local/share/applnk/Settings/LookNFeel/Themes [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/Settings/LookNFeel/Themes
+kio (KDirWatch): Added Dir /opt/local/share/applnk/Settings/WebBrowsing [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/Settings/WebBrowsing
+kio (KDirWatch): Added Dir /opt/local/share/applnk/System [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/System
+kio (KDirWatch): Added Dir /opt/local/share/applnk/System/ScreenSavers [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/System/ScreenSavers
+kio (KDirWatch): Added Dir /opt/local/share/applnk/Toys [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/Toys
+kio (KDirWatch): Added Dir /opt/local/share/applnk/Utilities [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/Utilities
+kio (KDirWatch): Added Dir /Users/fredleason/.kde/share/services [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /Users/fredleason/.kde/share/services
+kio (KDirWatch): Added Dir /opt/local/share/services [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/services
+kio (KDirWatch): Added Dir /opt/local/share/services/kded [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/services/kded
+kio (KDirWatch): Added Dir /opt/local/share/services/kresources [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/services/kresources
+kio (KDirWatch): Added Dir /opt/local/share/services/kresources/kabc [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/services/kresources/kabc
+kio (KDirWatch): Added Dir /opt/local/share/services/searchproviders [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/services/searchproviders
+kio (KDirWatch): Added Dir /opt/local/share/services/useragentstrings [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/services/useragentstrings
+kio (KDirWatch): Added Dir /Users/fredleason/.config/menus [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /Users/fredleason/.config/menus
+kio (KDirWatch): Added Dir /opt/local/etc/xdg/menus [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/etc/xdg/menus
+kio (KDirWatch): Added Dir /opt/local/etc/xdg/menus/kde-applications-merged [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/etc/xdg/menus/kde-applications-merged
+kio (KDirWatch): Added Dir /opt/local/share/applications [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applications
+kio (KDirWatch): Added Dir /opt/local/share/applications/kde [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applications/kde
+kio (KDirWatch): Added Dir /Users/fredleason/.kde/share/apps/kconf_update [KDirWatch-2]
+kio (KDirWatch):  Setup Stat (freq 500) for /Users/fredleason/.kde/share/apps/kconf_update
+kio (KDirWatch): Added Dir /opt/local/share/apps/kconf_update [KDirWatch-2]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/apps/kconf_update
+kio (KLauncher): KLauncher: Got kdeinit_exec_wait('kconf_update', ...)
+kio (KSycoca): Trying to open ksycoca from /private/var/tmp/kdecache-fredleason/ksycoca
+kdeinit: Got EXEC_NEW 'kconf_update' from launcher.
+Could not load library! Trying exec....
+kio (KLauncher): kconf_update (pid 5609) up and running.
+DCOP: register 'anonymous-5608' -> number of clients is now 5
+DCOP:  'anonymous-5608' now known as 'kwin'
+klauncher: KLauncher::process ---> autoStart(int)
+kdeinit: PID 5609 terminated.
+kdeinit: Got EXEC_NEW 'kdesktop' from launcher.
+DCOP: new daemon kded
+Could not load library! Trying exec....
+kio (KLauncher): kdesktop (pid 5610) up and running.
+media kioslave: MediaList::MediaList()
+kded: Successfully loaded module 'mediamanager'
+kio (KDirWatch): Added File /etc/mtab NotExisting [KDirWatch-3]
+kio (KDirWatch):  Setup Stat (freq 500) for /etc/mtab
+kio (KDirWatch): Added already watched Entry /etc/mtab (now 2 clients) [KDirWatch-3]
+kio (KDirWatch): Added File /etc/fstab NotExisting [KDirWatch-3]
+kio (KDirWatch):  Setup Stat (freq 500) for /etc/fstab
+kdeinit: PID 5610 terminated.
+kdeinit: Got EXEC_NEW 'kicker' from launcher.
+DCOP: register 'kdesktop' -> number of clients is now 5
+DCOP: register 'anonymous-5611' -> number of clients is now 6
+DCOP: unregister 'anonymous-5611'
+Could not load library! Trying exec....
+kio (KLauncher): kicker (pid 5612) up and running.
+kdecore (KConfigSkeleton): Creating KConfigSkeleton (0x7f85f8c51e40)
+kdecore (KConfigSkeleton): KConfigSkeleton::readConfig()
+kdecore (KConfigSkeleton): KConfigSkeleton::readConfig()
+kdesktop: no lock
+kdesktop: no lock
+kdesktop: no lock
+kdesktop: no lock
+kdesktop: Saver Engine disabled
+kio (KSycoca): Trying to open ksycoca from /private/var/tmp/kdecache-fredleason/ksycoca
+kdesktop: KDIconView::initDotDirectories found dir /Users/fredleason/Desktop/
+kdecore (KConfigSkeleton): KConfigSkeleton::readConfig()
+kdesktop: KBackgroundManager enabling exports.
+kdeinit: PID 5612 terminated.
+kio (KTrader): query for ThumbCreator : returning 6 offers
+kdesktop: m_excludeListmedia/hdd_mounted,media/hdd_unmounted,media/floppy_unmounted,media/cdrom_unmounted,media/floppy5_unmounted
+kdesktop:  m_excludeList / item count:5
+kio (KTrader): query for ThumbCreator : returning 6 offers
+kdesktop: m_excludeListmedia/hdd_mounted,media/hdd_unmounted,media/floppy_unmounted,media/cdrom_unmounted,media/floppy5_unmounted
+kdesktop:  m_excludeList / item count:5
+kdecore (KConfigSkeleton): Creating KConfigSkeleton (0x7f85f8ce7bb0)
+kdecore (KConfigSkeleton): KConfigSkeleton::readConfig()
+kdecore (KConfigSkeleton): KConfigSkeleton::readConfig()
+kdesktop: KDIconView::start
+kio (KDirLister): +KDirLister
+kio (KDirListerCache): +KDirListerCache
+kio (KDirWatch): Available methods: Stat
+kio (KDirLister): [virtual bool KDirLister::openURL(const KURL&, bool, bool)] file:///Users/fredleason/Desktop/ keep=false reload=false
+kio (KDirListerCache): [bool KDirListerCache::listDir(KDirLister*, const KURL&, bool, bool)] 0x7f85f8e01f30 url=file:///Users/fredleason/Desktop keep=false reload=false
+kio (KDirListerCache): [void KDirListerCache::stop(KDirLister*)] lister: 0x7f85f8e01f30
+kio (KDirListerCache): [void KDirListerCache::forgetDirs(KDirLister*)] 0x7f85f8e01f30
+kio (KDirListerCache): listDir: Entry not in cache or reloaded: file:///Users/fredleason/Desktop
+kdesktop: KDIconView::slotStarted url: file:///Users/fredleason/Desktop url().url(): file:///Users/fredleason/Desktop/
+kio (KDirWatch): Added Dir /Users/fredleason/Desktop [KDirWatch-1]
+kio (KDirWatch): Global Poll Freq is now 500 msec
+kio (KDirWatch):  Started Polling Timer, freq 500
+kio (KDirWatch):  Setup Stat (freq 500) for /Users/fredleason/Desktop
+kdesktop: ***********KDIconView::configureMedia() 
+DCOP: register 'kicker' -> number of clients is now 6
+DCOP: register 'anonymous-5613' -> number of clients is now 7
+DCOP: unregister 'anonymous-5613'
+kdeinit: Got EXEC_NEW 'kio_file' from launcher.
+kdecore (KConfigSkeleton): Creating KConfigSkeleton (0x7f9cf2c540a0)
+kdecore (KConfigSkeleton): KConfigSkeleton::readConfig()
+kio (KSycoca): Trying to open ksycoca from /private/var/tmp/kdecache-fredleason/ksycoca
+kio (KLauncher): kio_file (pid 5614) up and running.
+kio_file: Starting 5614
+kdecore (KConfigSkeleton): KConfigSkeleton::readConfig()
+kdecore (KConfigSkeleton): Creating KConfigSkeleton (0x7f9cf2cd3790)
+kdecore (KConfigSkeleton): KConfigSkeleton::readConfig()
+kicker: ExtensionManager::desktopIconsArea() = [0,0 - 2560x1372] screen = 0
+kio (KDirWatch): Available methods: Stat
+kio (KDirWatch): Added File /opt/local/share/applications/kde/Home.desktop [KDirWatch-1]
+kio (KDirWatch): Global Poll Freq is now 500 msec
+kio (KDirWatch):  Started Polling Timer, freq 500
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applications/kde/Home.desktop
+kio (KDirWatch): Added File /opt/local/share/applications/kde/konqbrowser.desktop [KDirWatch-1]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applications/kde/konqbrowser.desktop
+kdesktop: KDIconView::updateWorkArea wr: 0,0 2560x1372
+kdesktop:   oldArea:                     0,0 2560x1418
+kio_file: ========= LIST file:///Users/fredleason/Desktop =========
+kio_file: ============= COMPLETED LIST ============
+kio (KDirListerCache): [void KDirListerCache::slotEntries(KIO::Job*, const KIO::UDSEntryList&)] new entries for file:///Users/fredleason/Desktop
+kio: KSambaShare: Could not found smb.conf!
+kio: KNFSShare: Could not found exports file!
+kdecore (KConfigSkeleton): Creating KConfigSkeleton (0x7f9cf2e26020)
+kdecore (KConfigSkeleton): KConfigSkeleton::readConfig()
+kio (KDirListerCache): [void KDirListerCache::slotResult(KIO::Job*)] finished listing file:///Users/fredleason/Desktop
+kdesktop: slotCompleted() m_hasExistingPos: 1
+kdecore (KConfigSkeleton): Creating KConfigSkeleton (0x7f9cf2e4e1b0)
+kdecore (KConfigSkeleton): KConfigSkeleton::readConfig()
+kdecore (KConfigSkeleton): Creating KConfigSkeleton (0x7f9cf2e7f430)
+kdecore (KConfigSkeleton): KConfigSkeleton::readConfig()
+ksmserver: Autostart 0 done
+kcontrol: Initializing kcm_khotkeys_init: init_khotkeys
+kio (KSycoca): Trying to open ksycoca from /private/var/tmp/kdecache-fredleason/ksycoca
+DCOP: register 'khotkeys' -> number of clients is now 7
+kded: Successfully loaded module 'khotkeys'
+kcontrol: Initializing kcm_input: init_mouse
+kdeinit: Got SETENV 'XCURSOR_THEME=default' from klauncher.
+kcontrol: Initializing kcm_keys: init_keys
+kcontrol: Initializing kcm_keyboard: init_keyboard
+kcminit: Use kxkb false
+kcontrol: Initializing kcm_style: init_style
+kdeinit: Got SETENV 'GTK_RC_FILES=/etc/gtk/gtkrc:/Users/fredleason/.gtkrc:/Users/fredleason/.kde/share/config/gtkrc' from klauncher.
+kdeinit: Got SETENV 'GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/Users/fredleason/.gtkrc-2.0:/Users/fredleason/.kde/share/config/gtkrc-2.0' from klauncher.
+kcontrol: Initializing kcm_nsplugins: init_nsplugin
+kio (KLauncher): KLauncher: Got kdeinit_exec('nspluginscan', ...)
+kdeinit: Got EXEC_NEW 'nspluginscan' from launcher.
+Could not load library! Trying exec....
+kio (KLauncher): nspluginscan (pid 5621) up and running.
+kcontrol: Initializing kcm_arts: init_arts
+kcontrol: Initializing kcm_access: init_access
+kio (KLauncher): KLauncher: Got start_service_by_desktop_name('kaccess', ...)
+kdeinit: Got EXEC_NEW 'kaccess' from launcher.
+Could not load library! Trying exec....
+kio (KLauncher): kaccess (pid 5622) up and running.
+kcontrol: Initializing kcm_bell: init_bell
+ksmserver: Kcminit phase 1 done
+klauncher: KLauncher::process ---> autoStart(int)
+ksmserver: Autostart 1 done
+klauncher: KLauncher::process ---> autoStart(int)
+kded: Loading second phase autoload
+kdeinit: Got EXEC_NEW 'ktip' from launcher.
+kcontrol: Initializing kcm_energy: init_energy
+Server has no DPMS extension
+kdecore (KLibLoader): The KLibLoader contains the library kcm_nsplugins (0x7fd372c8bf20)
+kdecore (KLibLoader): The KLibLoader contains the library kcm_khotkeys_init (0x7fd372c76220)
+kdecore (KLibLoader): The KLibLoader contains the library kcm_keyboard (0x7fd372c77870)
+kdecore (KLibLoader): The KLibLoader contains the library kcm_access (0x7fd372c8c410)
+kdecore (KLibLoader): The KLibLoader contains the library kcm_style (0x7fd372c79e90)
+kdecore (KLibLoader): The KLibLoader contains the library kcm_bell (0x7fd372c7af30)
+kdecore (KLibLoader): The KLibLoader contains the library kcm_keys (0x7fd372c77020)
+kdecore (KLibLoader): The KLibLoader contains the library kcm_arts (0x7fd372c842a0)
+kdecore (KLibLoader): The KLibLoader contains the library kcm_energy (0x7fd372c7aa20)
+kdecore (KLibLoader): The KLibLoader contains the library kcm_input (0x7fd372c76770)
+Could not load library! Trying exec....
+kio (KLauncher): ktip (pid 5623) up and running.
+DCOP: unregister 'kcminit'
+kio (KLauncher): KLauncher: Got start_service_by_desktop_name('knotify', ...)
+DCOP: register 'nspluginscan-5621' -> number of clients is now 7
+kded: Successfully loaded module 'systemdirnotify'
+kdeinit: Got EXT_EXEC 'knotify' from launcher.
+kded: Successfully loaded module 'homedirnotify'
+nspluginscan: Creating MIME cache file /Users/fredleason/.kde/share/apps/nsplugins//cache
+nspluginscan: Scanning directories
+nspluginscan: -> scanDirectory dir=/Users/fredleason/.mozilla/plugins
+nspluginscan: No files found
+nspluginscan: <- scanDirectory dir=/Users/fredleason/.mozilla/plugins
+nspluginscan: -> scanDirectory dir=/Users/fredleason/.netscape/plugins
+nspluginscan: No files found
+nspluginscan: <- scanDirectory dir=/Users/fredleason/.netscape/plugins
+nspluginscan: -> scanDirectory dir=/usr/lib/firefox/plugins
+nspluginscan: No files found
+nspluginscan: <- scanDirectory dir=/usr/lib/firefox/plugins
+nspluginscan: -> scanDirectory dir=/usr/lib64/browser-plugins
+nspluginscan: No files found
+nspluginscan: <- scanDirectory dir=/usr/lib64/browser-plugins
+nspluginscan: -> scanDirectory dir=/usr/lib/browser-plugins
+nspluginscan: No files found
+nspluginscan: <- scanDirectory dir=/usr/lib/browser-plugins
+nspluginscan: -> scanDirectory dir=/usr/local/netscape/plugins
+nspluginscan: No files found
+nspluginscan: <- scanDirectory dir=/usr/local/netscape/plugins
+nspluginscan: -> scanDirectory dir=/opt/mozilla/plugins
+nspluginscan: No files found
+nspluginscan: <- scanDirectory dir=/opt/mozilla/plugins
+nspluginscan: -> scanDirectory dir=/opt/mozilla/lib/plugins
+nspluginscan: No files found
+nspluginscan: <- scanDirectory dir=/opt/mozilla/lib/plugins
+nspluginscan: -> scanDirectory dir=/opt/netscape/plugins
+nspluginscan: No files found
+nspluginscan: <- scanDirectory dir=/opt/netscape/plugins
+nspluginscan: -> scanDirectory dir=/opt/netscape/communicator/plugins
+nspluginscan: No files found
+nspluginscan: <- scanDirectory dir=/opt/netscape/communicator/plugins
+nspluginscan: -> scanDirectory dir=/usr/lib/netscape/plugins
+nspluginscan: No files found
+nspluginscan: <- scanDirectory dir=/usr/lib/netscape/plugins
+nspluginscan: -> scanDirectory dir=/usr/lib/netscape/plugins-libc5
+nspluginscan: No files found
+nspluginscan: <- scanDirectory dir=/usr/lib/netscape/plugins-libc5
+nspluginscan: -> scanDirectory dir=/usr/lib/netscape/plugins-libc6
+nspluginscan: No files found
+nspluginscan: <- scanDirectory dir=/usr/lib/netscape/plugins-libc6
+nspluginscan: -> scanDirectory dir=/usr/lib/mozilla/plugins
+nspluginscan: No files found
+nspluginscan: <- scanDirectory dir=/usr/lib/mozilla/plugins
+nspluginscan: -> scanDirectory dir=/usr/lib64/netscape/plugins
+nspluginscan: No files found
+nspluginscan: <- scanDirectory dir=/usr/lib64/netscape/plugins
+nspluginscan: -> scanDirectory dir=/usr/lib64/mozilla/plugins
+nspluginscan: No files found
+nspluginscan: <- scanDirectory dir=/usr/lib64/mozilla/plugins
+nspluginscan: -> scanDirectory dir=/plugins
+nspluginscan: No files found
+nspluginscan: <- scanDirectory dir=/plugins
+nspluginscan: Removing old mimetypes
+nspluginscan: Removing nsplugin MIME types in /Users/fredleason/.kde/share/mimelnk/
+nspluginscan: Creating MIME type descriptions
+nspluginscan: Closing cache file
+DCOP: register 'knotify' -> number of clients is now 8
+nspluginscan: Creating services file /Users/fredleason/.kde/share/services//nsplugin.desktop
+DCOP: unregister 'nspluginscan-5621'
+kded: KWrited - Listening on Device /dev/ttys001
+kded: Successfully loaded module 'kwrited'
+kded: Successfully loaded module 'medianotifier'
+kded: Successfully loaded module 'remotedirnotify'
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/Users/fredleason/.config/menus' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /Users/fredleason/.config/menus [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/Users/fredleason/.kde/share/applnk' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /Users/fredleason/.kde/share/applnk [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/Users/fredleason/.kde/share/mimelnk' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /Users/fredleason/.kde/share/mimelnk [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/Users/fredleason/.kde/share/services' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /Users/fredleason/.kde/share/services [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/Users/fredleason/.kde/share/servicetypes' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /Users/fredleason/.kde/share/servicetypes [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/etc/xdg/menus' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/etc/xdg/menus [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/etc/xdg/menus/kde-applications-merged' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/etc/xdg/menus/kde-applications-merged [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applications' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applications [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applications/kde' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applications/kde [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/.hidden' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/.hidden [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/Applications' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/Applications [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/Development' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/Development [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/Internet' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/Internet [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/Settings' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/Settings [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/Settings/LookNFeel' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/Settings/LookNFeel [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/Settings/LookNFeel/Themes' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/Settings/LookNFeel/Themes [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/Settings/WebBrowsing' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/Settings/WebBrowsing [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/System' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/System [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/System/ScreenSavers' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/System/ScreenSavers [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/Toys' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/Toys [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/Utilities' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/Utilities [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/all' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/all [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/application' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/application [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/audio' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/audio [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/image' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/image [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/inode' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/inode [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/media' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/media [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/message' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/message [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/model' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/model [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/multipart' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/multipart [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/print' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/print [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/text' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/text [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/uri' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/uri [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/video' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/video [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/services' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/services [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/services/kded' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/services/kded [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/services/kresources' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/services/kresources [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/services/kresources/kabc' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/services/kresources/kabc [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/services/searchproviders' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/services/searchproviders [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/services/useragentstrings' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/services/useragentstrings [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/servicetypes' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/servicetypes [KDirWatch-1]
+kio (KDirWatch): Added Dir /Users/fredleason/.kde/share/servicetypes [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /Users/fredleason/.kde/share/servicetypes
+kio (KDirWatch): Added Dir /opt/local/share/servicetypes [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/servicetypes
+kio (KDirWatch): Added Dir /Users/fredleason/.kde/share/mimelnk [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /Users/fredleason/.kde/share/mimelnk
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/media [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/media
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/all [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/all
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/application [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/application
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/audio [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/audio
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/image [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/image
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/inode [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/inode
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/message [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/message
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/model [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/model
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/multipart [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/multipart
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/print [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/print
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/text [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/text
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/uri [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/uri
+kio (KDirWatch): Added Dir /opt/local/share/mimelnk/video [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/mimelnk/video
+kio (KDirWatch): Added Dir /Users/fredleason/.kde/share/applnk [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /Users/fredleason/.kde/share/applnk
+kdeinit: PID 5624 terminated.
+kdeinit: PID 5623 terminated.
+kdeinit: PID 5622 terminated.
+kdeinit: PID 5621 terminated.
+kio (KDirWatch): Added Dir /opt/local/share/applnk [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk
+kio (KLauncher): knotify (pid 5624) up and running.
+kio (KDirWatch): Added Dir /opt/local/share/applnk/Internet [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/Internet
+kio (KDirWatch): Added Dir /opt/local/share/applnk/.hidden [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/.hidden
+ksmserver: Kcminit phase 2 done
+kio (KDirWatch): Added Dir /opt/local/share/applnk/Applications [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/Applications
+kio (KDirWatch): Added Dir /opt/local/share/applnk/Development [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/Development
+kdeinit: Got EXEC_NEW 'klipper' from launcher.
+kio (KDirWatch): Added Dir /opt/local/share/applnk/Settings [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/Settings
+kio (KDirWatch): Added Dir /opt/local/share/applnk/Settings/LookNFeel [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/Settings/LookNFeel
+kio (KDirWatch): Added Dir /opt/local/share/applnk/Settings/LookNFeel/Themes [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/Settings/LookNFeel/Themes
+kio (KDirWatch): Added Dir /opt/local/share/applnk/Settings/WebBrowsing [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/Settings/WebBrowsing
+kio (KDirWatch): Added Dir /opt/local/share/applnk/System [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/System
+Could not load library! Trying exec....
+kio (KDirWatch): Added Dir /opt/local/share/applnk/System/ScreenSavers [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/System/ScreenSavers
+kio (KDirWatch): Added Dir /opt/local/share/applnk/Toys [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/Toys
+kio (KLauncher): klipper (pid 5629) up and running.
+kio (KDirWatch): Added Dir /opt/local/share/applnk/Utilities [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applnk/Utilities
+kio (KDirWatch): Added Dir /Users/fredleason/.kde/share/services [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /Users/fredleason/.kde/share/services
+kio (KDirWatch): Added Dir /opt/local/share/services [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/services
+kio (KDirWatch): Added Dir /opt/local/share/services/kded [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/services/kded
+kio (KDirWatch): Added Dir /opt/local/share/services/kresources [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/services/kresources
+kio (KDirWatch): Added Dir /opt/local/share/services/kresources/kabc [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/services/kresources/kabc
+kio (KDirWatch): Added Dir /opt/local/share/services/searchproviders [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/services/searchproviders
+DCOP: register 'anonymous-5625' -> number of clients is now 8
+kio (KDirWatch): Added Dir /opt/local/share/services/useragentstrings [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/services/useragentstrings
+kio (KDirWatch): Added Dir /Users/fredleason/.config/menus [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /Users/fredleason/.config/menus
+kio (KDirWatch): Added Dir /opt/local/etc/xdg/menus [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/etc/xdg/menus
+kio (KDirWatch): Added Dir /opt/local/etc/xdg/menus/kde-applications-merged [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/etc/xdg/menus/kde-applications-merged
+kio (KDirWatch): Added Dir /opt/local/share/applications [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applications
+kio (KDirWatch): Added Dir /opt/local/share/applications/kde [KDirWatch-4]
+kio (KDirWatch):  Setup Stat (freq 500) for /opt/local/share/applications/kde
+kio (KLauncher): KLauncher: Got kdeinit_exec_wait('kbuildsycoca', ...)
+kdeinit: Got EXT_EXEC 'kbuildsycoca' from launcher.
+creating: freds-i7-860.local;1317313633;916511;5590_TIME0:
+DCOP: register 'kaccess' -> number of clients is now 9
+Xlib XKB extension major=1 minor=0
+DCOP: register 'ktip' -> number of clients is now 10
+Could not load library! Trying exec....
+kio (KLauncher): kbuildsycoca (pid 5630) up and running.
+kdeinit: PID 5629 terminated.
+ksmserver: Autostart 2 done
+DCOP: register 'kbuildsycoca' -> number of clients is now 11
+kbuildsycoca running...
+DCOP: register 'anonymous-5630' -> number of clients is now 12
+kio (KSycoca): Trying to open ksycoca from /private/var/tmp/kdecache-fredleason/ksycoca
+Reusing existing ksycoca
+kbuildsycoca: Recreating ksycoca file (/private/var/tmp/kdecache-fredleason/ksycoca, version 94)
+DCOP: register 'klipper' -> number of clients is now 13
+kbuildsycoca: modified: nsplugin.desktop
+kbuildsycoca: VFolderMenu::mergeFile: /opt/local/etc/xdg/menus/kde-applications-merged/kde-essential.menu
+kbuildsycoca: VFolderMenu::mergeFile: /opt/local/etc/xdg/menus/kde-settings.menu
+kbuildsycoca: VFolderMenu::mergeFile: /opt/local/etc/xdg/menus/kde-information.menu
+kbuildsycoca: Directory and kde-information.directory requires combining!
+kbuildsycoca: VFolderMenu::mergeFile: /opt/local/etc/xdg/menus/kde-screensavers.menu
+kbuildsycoca: Directory and kde-system-screensavers.directory requires combining!
+kbuildsycoca: Menu applications-kmenuedit.menu not found.
+kbuildsycoca: Processing KDE Legacy dirs for <KDE>
+kbuildsycoca: processKDELegacyDirs()
+kbuildsycoca: Looking up applications under /opt/local/share/applications/
+kbuildsycoca: Looking up applications under /opt/local/share/applications/kde/
+kbuildsycoca: Moving Settings/Information to Information
+DCOP: new daemon knotify
+DCOP: unregister 'anonymous-5625'
+knotify: There were knotify events while startup:(startkde:ksmserver)
+kbuildsycoca: WARNING: '/opt/local/share/applications/inkscape.desktop' specifies undefined mimetype/servicetype 'image/svg+xml-compressed'
+kbuildsycoca: WARNING: '/opt/local/share/applications/inkscape.desktop' specifies undefined mimetype/servicetype 'application/vnd.corel-draw'
+kbuildsycoca: WARNING: 'kcertpart.desktop' specifies undefined mimetype/servicetype 'application/binary-certificate'
+kbuildsycoca: WARNING: 'katepart.desktop' specifies undefined mimetype/servicetype 'text/x-fortran'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/bmp'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/g3fax'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-fits'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/pcx'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-portable-anymap'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-portable-graymap'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-psd'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-sgi'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-tga'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-xbitmap'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-xwindowdump'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-xcf'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-compressed-xcf'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-psp'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-icon'
+kbuildsycoca: WARNING: '/opt/local/share/applications/gimp.desktop' specifies undefined mimetype/servicetype 'image/x-xpixmap'
+kbuildsycoca: WARNING: 'knotify.desktop' specifies undefined mimetype/servicetype 'KNotify'
+DCOP: unregister 'anonymous-5630'
+DCOP: unregister 'kbuildsycoca'
+kdeinit: PID 5630 terminated.
+kio (KSycoca): Trying to open ksycoca from /private/var/tmp/kdecache-fredleason/ksycoca
+kaccess: X server XKB extension major=1 minor=0
+DCOP: unregister 'ksplash'
+kicker: *** Embed 25165830 into 20972518. window=0
+kicker: > before reparent: parent=0x481
+kicker: > Loop 0: > reparent of 0x1800006 into 0x14003e6 successful
+DCOP: unregister 'ktip'
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x1c00006
+kio (KSycoca): Trying to open ksycoca from /private/var/tmp/kdecache-fredleason/ksycoca
+kio (KTrader): query for ThumbCreator : returning 6 offers
+kio (KIOJob): stat file:///Users/fredleason/Desktop/Answer2.txt
+kio_file: FileProtocol::stat details=2
+kio (KSycoca): Trying to open ksycoca from /private/var/tmp/kdecache-fredleason/ksycoca
+kdeinit: Got EXEC_NEW 'kio_thumbnail' from launcher.
+kio (KLauncher): kio_thumbnail (pid 5632) up and running.
+DCOP: register 'anonymous-5632' -> number of clients is now 8
+kio (KSycoca): Trying to open ksycoca from /private/var/tmp/kdecache-fredleason/ksycoca
+kio_thumbnail: Wanting MIME Type:text/plain
+kio_thumbnail: using thumb creator for the thumbnail
+kio_thumbnail: Guess plugin: textthumbnail
+kio (KIOJob): Job::kill this=0x7f85f9820180 KIO::PreviewJob m_progressId=0 quietly=true
+kio (Scheduler): Scheduler: killing slave 5632
+kio (Slave): killing slave pid=5632 (thumbnail://)
+kio (KIOJob): Job::kill this=0x7f85f9821b10 KIO::TransferJob m_progressId=0 quietly=true
+kio (KIOConnection): ERROR: Could not write data
+kio (kioslave):  dispatchLoop() slave was killed, returning
+kdecore (KLibLoader): The KLibLoader contains the library textthumbnail (0x7fdc71479270)
+DCOP: unregister 'anonymous-5632'
+kdeinit: PID 5632 terminated.
+kio (KSycoca): Trying to open ksycoca from /private/var/tmp/kdecache-fredleason/ksycoca
+kio (KDirLister): +KDirLister
+kio (KDirListerCache): +KDirListerCache
+kio (KDirLister): [virtual bool KDirLister::openURL(const KURL&, bool, bool)] system:/ keep=false reload=false
+kio (KDirListerCache): [bool KDirListerCache::listDir(KDirLister*, const KURL&, bool, bool)] 0x7f9cf2ed4df8 url=system:/ keep=false reload=false
+kio (KDirListerCache): [void KDirListerCache::stop(KDirLister*)] lister: 0x7f9cf2ed4df8
+kio (KDirListerCache): [void KDirListerCache::forgetDirs(KDirLister*)] 0x7f9cf2ed4df8
+kio (KDirListerCache): listDir: Entry not in cache or reloaded: system:/
+kdeinit: Got EXEC_NEW 'kio_system' from launcher.
+kio (KLauncher): kio_system (pid 5633) up and running.
+DCOP: register 'kio_system-5633' -> number of clients is now 8
+DCOP: unregister 'kio_system-5633'
+DCOP: register 'anonymous-5633' -> number of clients is now 8
+kio (KSycoca): Trying to open ksycoca from /private/var/tmp/kdecache-fredleason/ksycoca
+kio_system: SystemProtocol::listDir: system:/
+kio_system: SystemImpl::listRoot
+kio_system: SystemImpl::createEntry
+kio_system: path = /opt/local/share/apps/systemview/documents.desktop
+kio_system: SystemImpl::createEntry
+kio_system: path = /opt/local/share/apps/systemview/home.desktop
+kio_system: SystemImpl::createEntry
+kio_system: path = /opt/local/share/apps/systemview/media.desktop
+kio_system: SystemImpl::createEntry
+kio_system: path = /opt/local/share/apps/systemview/remote.desktop
+kio_system: SystemImpl::createEntry
+kio_system: path = /opt/local/share/apps/systemview/trash.desktop
+kdeinit: Got EXEC_NEW 'kio_trash' from launcher.
+kio (KLauncher): kio_trash (pid 5641) up and running.
+DCOP: register 'anonymous-5641' -> number of clients is now 9
+kio (KSycoca): Trying to open ksycoca from /private/var/tmp/kdecache-fredleason/ksycoca
+kio_trash: [bool TrashImpl::init()] initialization OK, home trash dir: /Users/fredleason/.local/share/Trash
+kio_trash: listdir: trash:/
+kio_trash: [QStrList TrashImpl::listDir(const QString&)] listing /Users/fredleason/.local/share/Trash/info
+kio_trash: [bool TrashImpl::infoForFile(int, const QString&, TrashImpl::TrashedFileInfo&)] 0 To all my friends.xcf
+kio (Scheduler): Scheduler: killing slave 5641
+kio (Slave): killing slave pid=5641 (trash://)
+kio (KIOJob): Job::kill this=0x7fdc714608f0 KIO::ListJob m_progressId=0 quietly=true
+kio (kioslave):  dispatchLoop() slave was killed, returning
+kio_system: SystemImpl::createEntry
+DCOP: unregister 'anonymous-5641'
+kio_system: path = /opt/local/share/apps/systemview/users.desktop
+kio (KDirListerCache): [void KDirListerCache::slotEntries(KIO::Job*, const KIO::UDSEntryList&)] new entries for system:/
+kio (KDirListerCache): [void KDirListerCache::slotResult(KIO::Job*)] finished listing system:/
+kdeinit: PID 5641 terminated.
+kio (KLauncher): KLauncher: Got start_service_by_desktop_path('/opt/local/share/applications/kde/konsole.desktop', ...)
+kdeinit: Got EXT_EXEC 'konsole' from launcher.
+kdecore (KConfigSkeleton): KConfigSkeleton::writeConfig()
+Could not load library! Trying exec....
+kio (KLauncher): konsole (pid 5644) up and running.
+kdecore (KConfigSkeleton): KConfigSkeleton::readConfig()
+DCOP: register 'konsole-5644' -> number of clients is now 9
+kio (KSycoca): Trying to open ksycoca from /private/var/tmp/kdecache-fredleason/ksycoca
+undecodable token: \001b(hex)[?1034h
+DCOP: unregister 'konsole-5644'
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x600006
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x600006
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x600006
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  19
+  Minor opcode:  0
+  Resource id:  0x600006
+kdeinit: PID 5644 terminated.
+ksmserver: Saving legacy session apps
+ksmserver: Done saving 0 legacy session apps
+ksmserver: completeShutdown: client (101951af17312e000131731363100000056070000)
+ksmserver: completeShutdown: client kdesktop(101951af17312e000131731363200000056070001)
+ksmserver: completeShutdown: client kicker(101951af17312e000131731363200000056070002)
+ksmserver: completeShutdown: client knotify(101951af17312e000131731363300000056070005)
+ksmserver: completeShutdown: client kaccess(101951af17312e000131731363400000056070007)
+ksmserver: completeShutdown: client klipper(101951af17312e000131731363400000056070008)
+ksmserver:  We killed all clients. We have now clients.count()=7
+ksmserver: KSMServer::completeKilling clients.count()=7
+ksmserver: KSMServer::completeKilling clients.count()=6
+DCOP: unregister 'kaccess'
+DCOP: unregister 'klipper'
+ksmserver: KSMServer::completeKilling clients.count()=5
+DCOP: unregister 'knotify'
+ksmserver: KSMServer::completeKilling clients.count()=4
+kio (KDirLister): -KDirLister
+kio (KDirLister): [virtual void KDirLister::stop()] 
+kio (KDirListerCache): [void KDirListerCache::stop(KDirLister*)] lister: 0x7f85f8e01f30
+kio (KDirListerCache): [void KDirListerCache::forgetDirs(KDirLister*)] 0x7f85f8e01f30
+kio (KDirListerCache): [void KDirListerCache::forgetDirs(KDirLister*, const KURL&, bool)] 0x7f85f8e01f30 _url: file:///Users/fredleason/Desktop
+kio (KDirListerCache): [void KDirListerCache::forgetDirs(KDirLister*, const KURL&, bool)] 0x7f85f8e01f30 item moved into cache: file:///Users/fredleason/Desktop
+ksmserver: KSMServer::completeKilling clients.count()=3
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/Users/fredleason/Desktop' sub_entry: 0x0
+kio (KDirWatch):  Stopped Polling Timer
+kio (KDirWatch): Removed Dir /Users/fredleason/Desktop [KDirWatch-1]
+kio (KDirWatch): Poll Freq now 3600000 msec
+kio (KDirListerCache): -KDirListerCache
+DCOP: unregister 'kdesktop'
+kio (KDirLister): -KDirLister
+kio (KDirLister): [virtual void KDirLister::stop()] 
+kio (KDirListerCache): [void KDirListerCache::stop(KDirLister*)] lister: 0x7f9cf2ed4df8
+kio (KDirListerCache): [void KDirListerCache::forgetDirs(KDirLister*)] 0x7f9cf2ed4df8
+kio (KDirListerCache): [void KDirListerCache::forgetDirs(KDirLister*, const KURL&, bool)] 0x7f9cf2ed4df8 _url: system:/
+kio (KDirListerCache): [void KDirListerCache::forgetDirs(KDirLister*, const KURL&, bool)] 0x7f9cf2ed4df8 item moved into cache: system:/
+X Error: BadWindow (invalid Window parameter) 3
+  Major opcode:  20
+  Minor opcode:  0
+  Resource id:  0x120000b
+ksmserver: KSMServer::completeKilling clients.count()=2
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applications/kde/Home.desktop' sub_entry: 0x0
+kio (KDirWatch): Removed File /opt/local/share/applications/kde/Home.desktop [KDirWatch-1]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applications/kde/konqbrowser.desktop' sub_entry: 0x0
+kio (KDirWatch):  Stopped Polling Timer
+kio (KDirWatch): Removed File /opt/local/share/applications/kde/konqbrowser.desktop [KDirWatch-1]
+kio (KDirWatch): Poll Freq now 3600000 msec
+kio (KDirListerCache): -KDirListerCache
+kdecore (KLibLoader): The KLibLoader contains the library kickermenu_systemmenu (0x7f9cf2ed4190)
+kdecore (KLibLoader): The KLibLoader contains the library systemtray_panelapplet (0x7f9cf2e63da0)
+kdecore (KLibLoader): The KLibLoader contains the library kickermenu_prefmenu (0x7f9cf2ed2960)
+kdecore (KLibLoader): The KLibLoader contains the library taskbar_panelapplet (0x7f9cf2e3ba50)
+kdecore (KLibLoader): The KLibLoader contains the library minipager_panelapplet (0x7f9cf2e24a60)
+kdecore (KLibLoader): The KLibLoader contains the library clock_panelapplet (0x7f9cf2e736c0)
+DCOP: unregister 'kicker'
+ksmserver: KSMServer::completeKilling clients.count()=1
+ksmserver: killWM: client kwin(101951af17312e000131611216200000310730000)
+ksmserver: KSMServer::completeKillingWM clients.count()=1
+ksmserver: KSMServer::completeKillingWM clients.count()=1
+DCOP: unregister 'kwin'
+kded: Successfully loaded module 'kdetrayproxy'
+ksmserver: KSMServer::completeKillingWM clients.count()=0
+DCOP: unregister 'ksmserver'
+kdeinit: PID 5608 terminated.
+DCOP: register 'anonymous-5650' -> number of clients is now 3
+DCOP: unregister 'anonymous-5650'
+startkde: Shutting down...
+kdeinit: terminate KDE.
+klauncher: Exiting on signal 1
+DCOP: unregister 'anonymous-5633'
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/Users/fredleason/.config/menus' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /Users/fredleason/.config/menus [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/Users/fredleason/.kde/share/applnk' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /Users/fredleason/.kde/share/applnk [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/Users/fredleason/.kde/share/mimelnk' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /Users/fredleason/.kde/share/mimelnk [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/Users/fredleason/.kde/share/services' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /Users/fredleason/.kde/share/services [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/Users/fredleason/.kde/share/servicetypes' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /Users/fredleason/.kde/share/servicetypes [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/etc/xdg/menus' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/etc/xdg/menus [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/etc/xdg/menus/kde-applications-merged' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/etc/xdg/menus/kde-applications-merged [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applications' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applications [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applications/kde' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applications/kde [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/.hidden' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/.hidden [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/Applications' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/Applications [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/Development' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/Development [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/Internet' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/Internet [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/Settings' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/Settings [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/Settings/LookNFeel' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/Settings/LookNFeel [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/Settings/LookNFeel/Themes' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/Settings/LookNFeel/Themes [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/Settings/WebBrowsing' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/Settings/WebBrowsing [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/System' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/System [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/System/ScreenSavers' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/System/ScreenSavers [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/Toys' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/Toys [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/applnk/Utilities' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/applnk/Utilities [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/all' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/all [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/application' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/application [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/audio' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/audio [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/image' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/image [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/inode' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/inode [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/media' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/media [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/message' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/message [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/model' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/model [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/multipart' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/multipart [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/print' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/print [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/text' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/text [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/uri' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/uri [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/mimelnk/video' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/mimelnk/video [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/services' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/services [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/services/kded' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/services/kded [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/services/kresources' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/services/kresources [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/services/kresources/kabc' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/services/kresources/kabc [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/services/searchproviders' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/services/searchproviders [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/services/useragentstrings' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/services/useragentstrings [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/opt/local/share/servicetypes' sub_entry: 0x0
+kio (KDirWatch): Removed Dir /opt/local/share/servicetypes [KDirWatch-4]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/etc/mtab' sub_entry: 0x0
+kio (KDirWatch): removeEntry: unwatched /etc/mtab /etc/mtab
+DCOP: unregister 'klauncher'
+media kioslave: MediaList::removeMedium(/org/kde/mediamanager/fstab/devdisk0s2)
+media kioslave: MediaList::removeMedium(/org/kde/mediamanager/fstab/devfsdev)
+media kioslave: MediaList::removeMedium(/org/kde/mediamanager/fstab/devdisk1s10VolumesIomega HDD)
+media kioslave: MediaList::removeMedium(/org/kde/mediamanager/fstab/map -hostsnet)
+media kioslave: MediaList::removeMedium(/org/kde/mediamanager/fstab/map auto_homehome)
+media kioslave: MediaList::removeMedium(/org/kde/mediamanager/fstab/devdisk2s2Volumesfleason)
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/etc/fstab' sub_entry: 0x0
+kio (KDirWatch): Removed File /etc/fstab [KDirWatch-3]
+kio (KDirWatch): KDirWatchPrivate::removeEntry for '/etc/mtab' sub_entry: 0x0
+kio (KDirWatch): Removed File /etc/mtab [KDirWatch-3]
+DCOP: unregister 'khotkeys'
+DCOP: unregister 'kded'
+DCOPServer : slotShutdown() -> waiting for clients to disconnect.
+DCOPServer : slotExit() -> exit.
+/opt/local/bin/startkde: line 423: artsshell: command not found
+startkde: Running shutdown scripts...
+startkde: Done.
+xinit: connection to X server lost
+
+waiting for X server to shut down 

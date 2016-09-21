@@ -1,0 +1,239 @@
+
+Jan 24 11:41:18 TMoore.local Installer[14982]: @(#)PROGRAM:Install  PROJECT:Install-735
+Jan 24 11:41:18 TMoore.local Installer[14982]: @(#)PROGRAM:Installer  PROJECT:Installer-614
+Jan 24 11:41:18 TMoore.local Installer[14982]: Hardware: MacBookPro5,1 @ 2.66 GHz (x 2), 8192 MB RAM
+Jan 24 11:41:18 TMoore.local Installer[14982]: Running OS Build: Mac OS X 10.8.2 (12C60)
+Jan 24 11:41:18 TMoore.local Installer[14982]: Env: PATH=/usr/bin:/bin:/usr/sbin:/sbin
+Jan 24 11:41:18 TMoore.local Installer[14982]: Env: TMPDIR=/var/folders/66/m3vr9bzn60s_r4_s32df81940000gn/T/
+Jan 24 11:41:18 TMoore.local Installer[14982]: Env: SHELL=/bin/bash
+Jan 24 11:41:18 TMoore.local Installer[14982]: Env: HOME=/Users/tmoore
+Jan 24 11:41:18 TMoore.local Installer[14982]: Env: USER=tmoore
+Jan 24 11:41:18 TMoore.local Installer[14982]: Env: LOGNAME=tmoore
+Jan 24 11:41:18 TMoore.local Installer[14982]: Env: COM_GOOGLE_CHROME_FRAMEWORK_SERVICE_PROCESS/USERS/TMOORE/LIBRARY/APPLICATION_SUPPORT/GOOGLE/CHROME_SOCKET=/tmp/launch-ZSId2W/ServiceProcessSocket
+Jan 24 11:41:18 TMoore.local Installer[14982]: Env: SSH_AUTH_SOCK=/tmp/launch-oeI6qR/Listeners
+Jan 24 11:41:18 TMoore.local Installer[14982]: Env: Apple_Ubiquity_Message=/tmp/launch-yqFHB5/Apple_Ubiquity_Message
+Jan 24 11:41:18 TMoore.local Installer[14982]: Env: Apple_PubSub_Socket_Render=/tmp/launch-wBvTt8/Render
+Jan 24 11:41:18 TMoore.local Installer[14982]: Env: COMMAND_MODE=unix2003
+Jan 24 11:41:18 TMoore.local Installer[14982]: Env: __CF_USER_TEXT_ENCODING=0x1F5:0:0
+Jan 24 11:41:18 TMoore.local Installer[14982]: XQuartz 2.7.4  Installation Log
+Jan 24 11:41:18 TMoore.local Installer[14982]: Opened from: /Volumes/XQuartz-2.7.4/XQuartz.pkg
+Jan 24 11:41:19 TMoore.local Installer[14982]: Product archive /Volumes/XQuartz-2.7.4/XQuartz.pkg trustLevel=202
+Jan 24 11:41:42 TMoore.local Installer[14982]: InstallerStatusNotifications plugin loaded
+Jan 24 11:41:50 TMoore.local runner[14988]: Administrator authorization granted.
+Jan 24 11:41:50 TMoore.local Installer[14982]: ================================================================================
+Jan 24 11:41:50 TMoore.local Installer[14982]: User picked Standard Install
+Jan 24 11:41:50 TMoore.local Installer[14982]: Choices selected for installation:
+Jan 24 11:41:50 TMoore.local Installer[14982]: 	Install: "XQuartz 2.7.4"
+Jan 24 11:41:50 TMoore.local Installer[14982]: 	Install: "X11"
+Jan 24 11:41:50 TMoore.local Installer[14982]: 		XQuartz.pkg#x11.pkg : org.macosforge.xquartz.pkg : 2.7.43
+Jan 24 11:41:50 TMoore.local Installer[14982]: ================================================================================
+Jan 24 11:41:50 TMoore.local Installer[14982]: It took 0.00 seconds to summarize the package selections.
+Jan 24 11:41:50 TMoore.local Installer[14982]: -[IFDInstallController(Private) _buildInstallPlan]: location = file://localhost
+Jan 24 11:41:50 TMoore.local Installer[14982]: -[IFDInstallController(Private) _buildInstallPlan]: file://localhost/Volumes/XQuartz-2.7.4/XQuartz.pkg#x11.pkg
+Jan 24 11:41:50 TMoore.local Installer[14982]: Set authorization level to root for session
+Jan 24 11:41:50 TMoore.local Installer[14982]: Will use PK session
+Jan 24 11:41:50 TMoore.local Installer[14982]: Starting installation:
+Jan 24 11:41:50 TMoore.local Installer[14982]: Configuring volume "Macintosh HD"
+Jan 24 11:41:50 TMoore.local Installer[14982]: Preparing disk for local booted install.
+Jan 24 11:41:50 TMoore.local Installer[14982]: Free space on "Macintosh HD": 54.96 GB (54957907968 bytes).
+Jan 24 11:41:50 TMoore.local Installer[14982]: Create temporary directory "/var/folders/66/m3vr9bzn60s_r4_s32df81940000gn/T//Install.14982ublRzC"
+Jan 24 11:41:50 TMoore.local Installer[14982]: IFPKInstallElement (1 packages)
+Jan 24 11:41:50 TMoore.local Installer[14982]: Using authorization level of root for IFPKInstallElement
+Jan 24 11:41:50 TMoore.local installd[14601]: PackageKit: ----- Begin install -----
+Jan 24 11:41:50 TMoore.local installd[14601]: PackageKit: request=PKInstallRequest <1 packages, destination=/>
+Jan 24 11:41:50 TMoore.local installd[14601]: PackageKit: packages=(
+	    "PKLeopardPackage <file://localhost/Volumes/XQuartz-2.7.4/XQuartz.pkg#x11.pkg>"
+	)
+Jan 24 11:41:58 TMoore.local installd[14601]: PackageKit: Extracting file://localhost/Volumes/XQuartz-2.7.4/XQuartz.pkg#x11.pkg (destination=/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/Cleanup At Startup/PKInstallSandboxManager/1.sandbox/Root, uid=0)
+Jan 24 11:42:12 TMoore.local installd[14601]: PackageKit: prevent user idle system sleep
+Jan 24 11:42:12 TMoore.local installd[14601]: PackageKit: suspending backupd
+Jan 24 11:42:12 TMoore.local installd[14601]: PackageKit: Executing script "./preinstall" in /private/tmp/PKInstallSandbox.CDyalD/Scripts/org.macosforge.xquartz.pkg.dl5T9f
+Jan 24 11:42:12 TMoore.local install_monitor[15005]: Temporarily excluding: /Applications, /Library, /System, /bin, /private, /sbin, /usr
+Jan 24 11:42:12 TMoore.local installd[14601]: PackageKit: Shoving /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/Cleanup At Startup/PKInstallSandboxManager/1.sandbox/Root (4 items) to /
+Jan 24 11:42:12 TMoore.local installd[14601]: PackageKit: Executing script "./postinstall" in /private/tmp/PKInstallSandbox.CDyalD/Scripts/org.macosforge.xquartz.pkg.dl5T9f
+Jan 24 11:42:13 TMoore.local installd[14601]: ./postinstall: launchctl: Error unloading: org.macosforge.xquartz.privileged_startx
+Jan 24 11:42:13 TMoore.local installd[14601]: ./postinstall: font_cache: Scanning system font directories to generate X11 font caches
+Jan 24 11:42:14 TMoore.local installd[14601]: ./postinstall: font_cache: Making fonts.dir for updated directories.
+Jan 24 11:42:25 TMoore.local installd[14601]: ./postinstall: font_cache: Updating FC cache
+Jan 24 11:42:56 TMoore.local installd[14601]: ./postinstall: font_cache: Done
+Jan 24 11:42:56 TMoore.local installd[14601]: ./postinstall: Removing com.apple.pkg.X11redirect
+Jan 24 11:42:56 TMoore.local installd[14601]: ./postinstall: Forgot package 'com.apple.pkg.X11redirect' on '/'.
+Jan 24 11:42:56 TMoore.local installd[14601]: ./postinstall: Removing X11.app
+Jan 24 11:42:56 TMoore.local installd[14601]: ./postinstall: Removing the stub /usr/X11 and redirecting it to /opt/X11 via symlink
+Jan 24 11:43:06 TMoore.local installd[14601]: ./postinstall: button returned:OK
+Jan 24 11:43:07 TMoore.local installd[14601]: PackageKit: Writing receipt for org.macosforge.xquartz.pkg to /private/var/db/receipts
+Jan 24 11:43:07 TMoore.local installd[14601]: PackageKit: Touched bundle Applications/Utilities/XQuartz.app
+Jan 24 11:43:07 TMoore.local installd[14601]: Installed "XQuartz 2.7.4" ()
+Jan 24 11:43:07 TMoore.local install_monitor[15005]: Re-included: /Applications, /Library, /System, /bin, /private, /sbin, /usr
+Jan 24 11:43:08 TMoore.local installd[14601]: PackageKit: releasing backupd
+Jan 24 11:43:08 TMoore.local installd[14601]: PackageKit: allow user idle system sleep
+Jan 24 11:43:08 TMoore.local installd[14601]: PackageKit: ----- End install -----
+Jan 24 11:43:08 TMoore.local Installer[14982]: PackageKit: Registered bundle file://localhost/Applications/Utilities/XQuartz.app/ for uid 501
+Jan 24 11:43:08 TMoore.local Installer[14982]: Running install actions
+Jan 24 11:43:08 TMoore.local Installer[14982]: Removing temporary directory "/var/folders/66/m3vr9bzn60s_r4_s32df81940000gn/T//Install.14982ublRzC"
+Jan 24 11:43:08 TMoore.local Installer[14982]: Finalize disk "Macintosh HD"
+Jan 24 11:43:08 TMoore.local Installer[14982]: Notifying system of updated components
+Jan 24 11:43:08 TMoore.local Installer[14982]: 
+Jan 24 11:43:08 TMoore.local Installer[14982]: **** Summary Information ****
+Jan 24 11:43:08 TMoore.local Installer[14982]:   Operation      Elapsed time
+Jan 24 11:43:08 TMoore.local Installer[14982]: -----------------------------
+Jan 24 11:43:08 TMoore.local Installer[14982]:        disk      0.00 seconds
+Jan 24 11:43:08 TMoore.local Installer[14982]:      script      0.10 seconds
+Jan 24 11:43:08 TMoore.local Installer[14982]:        zero      0.01 seconds
+Jan 24 11:43:08 TMoore.local Installer[14982]:     install      78.27 seconds
+Jan 24 11:43:08 TMoore.local Installer[14982]:     -total-      78.38 seconds
+Jan 24 11:43:08 TMoore.local Installer[14982]: 
+Jan 24 11:43:08 TMoore.local Installer[14982]: IFDInstallController 6B052950 state = 5
+Jan 24 11:43:08 TMoore.local Installer[14982]: Displaying 'Install Succeeded' UI.
+Jan 24 11:54:17 TMoore.local installd[14601]: installd: Exiting.
+Jan 24 11:55:25 TMoore.local UserEventAgent[15201]: SUNotificationPlugin[uid=501]: Start event monitoring
+Jan 24 11:55:25 TMoore.local UserEventAgent[15201]: SUNotificationPlugin[uid=501]: trigger on login only to notify appstoreupdateagent
+Jan 24 11:55:25 TMoore.local Software Update[15292]: SUCheckService: sending result 2 to peer
+Jan 24 11:55:25 TMoore.local UserEventAgent[15201]: SUNotificationPlugin[uid=501]: check done with result SUCheckServiceResultUpToDate
+Jan 24 11:55:25 TMoore.local UserEventAgent[15201]: SUNotificationPlugin[uid=501]: Notifying appstoreupdateagent for user 501
+Jan 24 11:55:25 TMoore.local UserEventAgent[15201]: SUNotificationPlugin[uid=501]: appstoreupdateagent notification sent
+Jan 24 11:55:25 TMoore.local Software Update[15292]: SUCheckService: okay to stop (did timeout=0)
+Jan 24 12:01:53 TMoore.local Installer[15390]: @(#)PROGRAM:Install  PROJECT:Install-735
+Jan 24 12:01:53 TMoore.local Installer[15390]: @(#)PROGRAM:Installer  PROJECT:Installer-614
+Jan 24 12:01:53 TMoore.local Installer[15390]: Hardware: MacBookPro5,1 @ 2.66 GHz (x 2), 8192 MB RAM
+Jan 24 12:01:53 TMoore.local Installer[15390]: Running OS Build: Mac OS X 10.8.2 (12C60)
+Jan 24 12:01:53 TMoore.local Installer[15390]: Env: PATH=/usr/bin:/bin:/usr/sbin:/sbin
+Jan 24 12:01:53 TMoore.local Installer[15390]: Env: TMPDIR=/var/folders/66/m3vr9bzn60s_r4_s32df81940000gn/T/
+Jan 24 12:01:53 TMoore.local Installer[15390]: Env: SHELL=/bin/bash
+Jan 24 12:01:53 TMoore.local Installer[15390]: Env: HOME=/Users/tmoore
+Jan 24 12:01:53 TMoore.local Installer[15390]: Env: USER=tmoore
+Jan 24 12:01:53 TMoore.local Installer[15390]: Env: LOGNAME=tmoore
+Jan 24 12:01:53 TMoore.local Installer[15390]: Env: SSH_AUTH_SOCK=/tmp/launch-4sZi1M/Listeners
+Jan 24 12:01:53 TMoore.local Installer[15390]: Env: Apple_Ubiquity_Message=/tmp/launch-9kCFfh/Apple_Ubiquity_Message
+Jan 24 12:01:53 TMoore.local Installer[15390]: Env: Apple_PubSub_Socket_Render=/tmp/launch-xmtT8r/Render
+Jan 24 12:01:53 TMoore.local Installer[15390]: Env: DISPLAY=/tmp/launch-l9QeiS/org.macosforge.xquartz:0
+Jan 24 12:01:53 TMoore.local Installer[15390]: Env: COMMAND_MODE=unix2003
+Jan 24 12:01:53 TMoore.local Installer[15390]: Env: __CF_USER_TEXT_ENCODING=0x1F5:0:0
+Jan 24 12:01:53 TMoore.local Installer[15390]: Oracle Secure Global Desktop Client  Installation Log
+Jan 24 12:01:53 TMoore.local Installer[15390]: Opened from: /Volumes/Secure Global Desktop Client/Oracle Secure Global Desktop Client.mpkg
+Jan 24 12:01:54 TMoore.local Installer[15390]: Product archive /Volumes/Secure Global Desktop Client/Oracle Secure Global Desktop Client.mpkg trustLevel=100
+Jan 24 12:01:54 TMoore.local Installer[15390]: External component packages (1) trustLevel=100
+Jan 24 12:01:54 TMoore.local Installer[15390]: Installation checks failed.
+Jan 24 12:01:54 TMoore.local Installer[15390]: Installation check failure.  X11 not found.. Please ensure X11 is installed on your system..
+Jan 24 12:02:01 TMoore.local Installer[15397]: @(#)PROGRAM:Install  PROJECT:Install-735
+Jan 24 12:02:01 TMoore.local Installer[15397]: @(#)PROGRAM:Installer  PROJECT:Installer-614
+Jan 24 12:02:01 TMoore.local Installer[15397]: Hardware: MacBookPro5,1 @ 2.66 GHz (x 2), 8192 MB RAM
+Jan 24 12:02:01 TMoore.local Installer[15397]: Running OS Build: Mac OS X 10.8.2 (12C60)
+Jan 24 12:02:01 TMoore.local Installer[15397]: Env: PATH=/usr/bin:/bin:/usr/sbin:/sbin
+Jan 24 12:02:01 TMoore.local Installer[15397]: Env: TMPDIR=/var/folders/66/m3vr9bzn60s_r4_s32df81940000gn/T/
+Jan 24 12:02:01 TMoore.local Installer[15397]: Env: SHELL=/bin/bash
+Jan 24 12:02:01 TMoore.local Installer[15397]: Env: HOME=/Users/tmoore
+Jan 24 12:02:01 TMoore.local Installer[15397]: Env: USER=tmoore
+Jan 24 12:02:01 TMoore.local Installer[15397]: Env: LOGNAME=tmoore
+Jan 24 12:02:01 TMoore.local Installer[15397]: Env: SSH_AUTH_SOCK=/tmp/launch-4sZi1M/Listeners
+Jan 24 12:02:01 TMoore.local Installer[15397]: Env: Apple_Ubiquity_Message=/tmp/launch-9kCFfh/Apple_Ubiquity_Message
+Jan 24 12:02:01 TMoore.local Installer[15397]: Env: Apple_PubSub_Socket_Render=/tmp/launch-xmtT8r/Render
+Jan 24 12:02:01 TMoore.local Installer[15397]: Env: DISPLAY=/tmp/launch-l9QeiS/org.macosforge.xquartz:0
+Jan 24 12:02:01 TMoore.local Installer[15397]: Env: COMMAND_MODE=unix2003
+Jan 24 12:02:01 TMoore.local Installer[15397]: Env: __CF_USER_TEXT_ENCODING=0x1F5:0:0
+Jan 24 12:02:01 TMoore.local Installer[15397]: Oracle Secure Global Desktop Client  Installation Log
+Jan 24 12:02:01 TMoore.local Installer[15397]: Opened from: /Volumes/Secure Global Desktop Client/Oracle Secure Global Desktop Client.mpkg
+Jan 24 12:02:01 TMoore.local Installer[15397]: Product archive /Volumes/Secure Global Desktop Client/Oracle Secure Global Desktop Client.mpkg trustLevel=100
+Jan 24 12:02:01 TMoore.local Installer[15397]: External component packages (1) trustLevel=100
+Jan 24 12:02:01 TMoore.local Installer[15397]: Installation checks failed.
+Jan 24 12:02:01 TMoore.local Installer[15397]: Installation check failure.  X11 not found.. Please ensure X11 is installed on your system..
+Jan 24 12:13:38 TMoore.local UserEventAgent[11]: SUNotificationPlugin[uid=0]: trigger from periodic
+Jan 24 12:13:39 TMoore.local Software Update[15463]: SoftwareUpdate: shouldCheck=0 (i=603000.000000, l=2013-01-18 21:13:41 +0000, c=0) (dw=0, cdw=0, ac=1)
+Jan 24 12:13:39 TMoore.local Software Update[15463]: SoftwareUpdate: shouldCheck=0 (i=84600.000000, l=2013-01-24 14:45:27 +0000, c=1) (dw=0, cdw=0, ac=1)
+Jan 24 12:13:39 TMoore.local Software Update[15463]: SUCheckService: sending result 2 to peer
+Jan 24 12:13:39 TMoore.local UserEventAgent[11]: SUNotificationPlugin[uid=0]: check done with result SUCheckServiceResultUpToDate
+Jan 24 12:13:39 TMoore.local UserEventAgent[11]: SUNotificationPlugin[uid=0]: Not notifying appstoreupdateagent for user 0
+Jan 24 12:13:39 TMoore.local Software Update[15463]: SUCheckService: okay to stop (did timeout=0)
+Jan 24 12:19:08 TMoore.local Software Update[15493]: SUAppStoreUpdateController: found in cache: <none>
+Jan 24 12:19:35 TMoore.local Installer[15515]: @(#)PROGRAM:Install  PROJECT:Install-735
+Jan 24 12:19:35 TMoore.local Installer[15515]: @(#)PROGRAM:Installer  PROJECT:Installer-614
+Jan 24 12:19:35 TMoore.local Installer[15515]: Hardware: MacBookPro5,1 @ 2.66 GHz (x 2), 8192 MB RAM
+Jan 24 12:19:35 TMoore.local Installer[15515]: Running OS Build: Mac OS X 10.8.2 (12C60)
+Jan 24 12:19:35 TMoore.local Installer[15515]: Env: PATH=/usr/bin:/bin:/usr/sbin:/sbin
+Jan 24 12:19:35 TMoore.local Installer[15515]: Env: TMPDIR=/var/folders/66/m3vr9bzn60s_r4_s32df81940000gn/T/
+Jan 24 12:19:35 TMoore.local Installer[15515]: Env: SHELL=/bin/bash
+Jan 24 12:19:35 TMoore.local Installer[15515]: Env: HOME=/Users/tmoore
+Jan 24 12:19:35 TMoore.local Installer[15515]: Env: USER=tmoore
+Jan 24 12:19:35 TMoore.local Installer[15515]: Env: LOGNAME=tmoore
+Jan 24 12:19:35 TMoore.local Installer[15515]: Env: SSH_AUTH_SOCK=/tmp/launch-4sZi1M/Listeners
+Jan 24 12:19:35 TMoore.local Installer[15515]: Env: Apple_Ubiquity_Message=/tmp/launch-9kCFfh/Apple_Ubiquity_Message
+Jan 24 12:19:35 TMoore.local Installer[15515]: Env: Apple_PubSub_Socket_Render=/tmp/launch-xmtT8r/Render
+Jan 24 12:19:35 TMoore.local Installer[15515]: Env: DISPLAY=/tmp/launch-l9QeiS/org.macosforge.xquartz:0
+Jan 24 12:19:35 TMoore.local Installer[15515]: Env: COMMAND_MODE=unix2003
+Jan 24 12:19:35 TMoore.local Installer[15515]: Env: __CF_USER_TEXT_ENCODING=0x1F5:0:0
+Jan 24 12:19:35 TMoore.local Installer[15515]: XQuartz 2.7.5_rc1  Installation Log
+Jan 24 12:19:35 TMoore.local Installer[15515]: Opened from: /Volumes/XQuartz-2.7.5_rc1/XQuartz.pkg
+Jan 24 12:19:35 TMoore.local Installer[15515]: Product archive /Volumes/XQuartz-2.7.5_rc1/XQuartz.pkg trustLevel=202
+Jan 24 12:20:05 TMoore.local Installer[15515]: InstallerStatusNotifications plugin loaded
+Jan 24 12:20:11 TMoore.local runner[15522]: Administrator authorization granted.
+Jan 24 12:20:11 TMoore.local Installer[15515]: ================================================================================
+Jan 24 12:20:11 TMoore.local Installer[15515]: User picked Standard Install
+Jan 24 12:20:11 TMoore.local Installer[15515]: Choices selected for installation:
+Jan 24 12:20:11 TMoore.local Installer[15515]: 	Upgrade: "XQuartz 2.7.5_rc1"
+Jan 24 12:20:11 TMoore.local Installer[15515]: 	Upgrade: "X11"
+Jan 24 12:20:11 TMoore.local Installer[15515]: 		XQuartz.pkg#x11.pkg : org.macosforge.xquartz.pkg : 2.7.50
+Jan 24 12:20:11 TMoore.local Installer[15515]: ================================================================================
+Jan 24 12:20:11 TMoore.local Installer[15515]: It took 0.00 seconds to summarize the package selections.
+Jan 24 12:20:11 TMoore.local Installer[15515]: -[IFDInstallController(Private) _buildInstallPlan]: location = file://localhost
+Jan 24 12:20:11 TMoore.local Installer[15515]: -[IFDInstallController(Private) _buildInstallPlan]: file://localhost/Volumes/XQuartz-2.7.5_rc1/XQuartz.pkg#x11.pkg
+Jan 24 12:20:11 TMoore.local Installer[15515]: Set authorization level to root for session
+Jan 24 12:20:11 TMoore.local Installer[15515]: Will use PK session
+Jan 24 12:20:11 TMoore.local Installer[15515]: Starting installation:
+Jan 24 12:20:11 TMoore.local Installer[15515]: Configuring volume "Macintosh HD"
+Jan 24 12:20:11 TMoore.local Installer[15515]: Preparing disk for local booted install.
+Jan 24 12:20:11 TMoore.local Installer[15515]: Free space on "Macintosh HD": 56.56 GB (56558731264 bytes).
+Jan 24 12:20:11 TMoore.local Installer[15515]: Create temporary directory "/var/folders/66/m3vr9bzn60s_r4_s32df81940000gn/T//Install.15515fw6zSG"
+Jan 24 12:20:11 TMoore.local Installer[15515]: IFPKInstallElement (1 packages)
+Jan 24 12:20:11 TMoore.local Installer[15515]: Using authorization level of root for IFPKInstallElement
+Jan 24 12:20:11 TMoore.local installd[15526]: installd: Starting
+Jan 24 12:20:11 TMoore.local installd[15526]: installd: uid=0, euid=0
+Jan 24 12:20:12 TMoore.local installd[15526]: PackageKit: ----- Begin install -----
+Jan 24 12:20:12 TMoore.local installd[15526]: PackageKit: request=PKInstallRequest <1 packages, destination=/>
+Jan 24 12:20:12 TMoore.local installd[15526]: PackageKit: packages=(
+	    "PKLeopardPackage <file://localhost/Volumes/XQuartz-2.7.5_rc1/XQuartz.pkg#x11.pkg>"
+	)
+Jan 24 12:20:12 TMoore.local installd[15526]: PackageKit: Will do receipt-based obsoleting for package identifier org.macosforge.xquartz.pkg (prefix path=)
+Jan 24 12:20:18 TMoore.local installd[15526]: PackageKit: Extracting file://localhost/Volumes/XQuartz-2.7.5_rc1/XQuartz.pkg#x11.pkg (destination=/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/Cleanup At Startup/PKInstallSandboxManager/1.sandbox/Root, uid=0)
+Jan 24 12:20:28 TMoore.local installd[15526]: PackageKit: prevent user idle system sleep
+Jan 24 12:20:28 TMoore.local installd[15526]: PackageKit: suspending backupd
+Jan 24 12:20:28 TMoore.local installd[15526]: PackageKit: Executing script "./preinstall" in /private/tmp/PKInstallSandbox.qbpOx1/Scripts/org.macosforge.xquartz.pkg.84vusx
+Jan 24 12:20:28 TMoore.local installd[15526]: PackageKit: Shoving /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/Cleanup At Startup/PKInstallSandboxManager/1.sandbox/Root (4 items) to /
+Jan 24 12:20:28 TMoore.local install_monitor[15531]: Temporarily excluding: /Applications, /Library, /System, /bin, /private, /sbin, /usr
+Jan 24 12:20:47 TMoore.local installd[15526]: PackageKit: Executing script "./postinstall" in /private/tmp/PKInstallSandbox.qbpOx1/Scripts/org.macosforge.xquartz.pkg.84vusx
+Jan 24 12:20:47 TMoore.local installd[15526]: ./postinstall: font_cache: Scanning system font directories to generate X11 font caches
+Jan 24 12:20:47 TMoore.local installd[15526]: ./postinstall: font_cache: Making fonts.dir for updated directories.
+Jan 24 12:20:54 TMoore.local installd[15526]: ./postinstall: font_cache: Updating FC cache
+Jan 24 12:21:17 TMoore.local installd[15526]: ./postinstall: font_cache: Done
+Jan 24 12:21:18 TMoore.local installd[15526]: PackageKit: Writing receipt for org.macosforge.xquartz.pkg to /private/var/db/receipts
+Jan 24 12:21:18 TMoore.local installd[15526]: PackageKit: Touched bundle Applications/Utilities/XQuartz.app
+Jan 24 12:21:18 TMoore.local installd[15526]: Installed "XQuartz 2.7.5_rc1" ()
+Jan 24 12:21:18 TMoore.local install_monitor[15531]: Re-included: /Applications, /Library, /System, /bin, /private, /sbin, /usr
+Jan 24 12:21:19 TMoore.local installd[15526]: PackageKit: releasing backupd
+Jan 24 12:21:19 TMoore.local installd[15526]: PackageKit: allow user idle system sleep
+Jan 24 12:21:19 TMoore.local installd[15526]: PackageKit: ----- End install -----
+Jan 24 12:21:19 TMoore.local Installer[15515]: PackageKit: Registered bundle file://localhost/Applications/Utilities/XQuartz.app/ for uid 501
+Jan 24 12:21:20 TMoore.local Installer[15515]: Running install actions
+Jan 24 12:21:20 TMoore.local Installer[15515]: Removing temporary directory "/var/folders/66/m3vr9bzn60s_r4_s32df81940000gn/T//Install.15515fw6zSG"
+Jan 24 12:21:20 TMoore.local Installer[15515]: Finalize disk "Macintosh HD"
+Jan 24 12:21:20 TMoore.local Installer[15515]: Notifying system of updated components
+Jan 24 12:21:20 TMoore.local Installer[15515]: 
+Jan 24 12:21:20 TMoore.local Installer[15515]: **** Summary Information ****
+Jan 24 12:21:20 TMoore.local Installer[15515]:   Operation      Elapsed time
+Jan 24 12:21:20 TMoore.local Installer[15515]: -----------------------------
+Jan 24 12:21:20 TMoore.local Installer[15515]:        disk      0.01 seconds
+Jan 24 12:21:20 TMoore.local Installer[15515]:      script      0.00 seconds
+Jan 24 12:21:20 TMoore.local Installer[15515]:        zero      0.01 seconds
+Jan 24 12:21:20 TMoore.local Installer[15515]:     install      68.24 seconds
+Jan 24 12:21:20 TMoore.local Installer[15515]:     -total-      68.27 seconds
+Jan 24 12:21:20 TMoore.local Installer[15515]: 
+Jan 24 12:21:20 TMoore.local Installer[15515]: IFDInstallController 2244DD00 state = 5
+Jan 24 12:21:20 TMoore.local Installer[15515]: Displaying 'Install Succeeded' UI.
+Jan 24 12:26:22 TMoore.local installd[15526]: installd: Exiting.
+Jan 24 12:32:09 TMoore.local UserEventAgent[11]: SUNotificationPlugin[uid=0]: Start event monitoring
+Jan 24 12:32:51 TMoore.local UserEventAgent[243]: SUNotificationPlugin[uid=501]: Start event monitoring
+Jan 24 12:32:51 TMoore.local UserEventAgent[243]: SUNotificationPlugin[uid=501]: trigger on login only to notify appstoreupdateagent
+Jan 24 12:32:52 TMoore.local Software Update[260]: SUCheckService: sending result 2 to peer
+Jan 24 12:32:52 TMoore.local UserEventAgent[243]: SUNotificationPlugin[uid=501]: check done with result SUCheckServiceResultUpToDate
+Jan 24 12:32:52 TMoore.local UserEventAgent[243]: SUNotificationPlugin[uid=501]: Notifying appstoreupdateagent for user 501
+Jan 24 12:32:52 TMoore.local UserEventAgent[243]: SUNotificationPlugin[uid=501]: appstoreupdateagent notification sent
+Jan 24 12:32:52 TMoore.local Software Update[260]: SUCheckService: okay to stop (did timeout=0)

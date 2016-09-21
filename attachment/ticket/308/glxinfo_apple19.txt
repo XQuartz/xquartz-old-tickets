@@ -1,0 +1,337 @@
+name of display: /tmp/launch-ADvkm3/:0
+display: /tmp/launch-ADvkm3/:0  screen: 0
+direct rendering: Yes
+server glx vendor string: SGI
+server glx version string: 1.2
+server glx extensions:
+    GLX_ARB_multisample, GLX_EXT_visual_info, GLX_EXT_visual_rating, 
+    GLX_EXT_import_context, GLX_EXT_texture_from_pixmap, GLX_OML_swap_method, 
+    GLX_SGI_make_current_read, GLX_SGIX_fbconfig, GLX_MESA_copy_sub_buffer
+client glx vendor string: SGI
+client glx version string: 1.4
+client glx extensions:
+    GLX_ARB_get_proc_address, GLX_ARB_multisample, GLX_EXT_visual_rating, 
+    GLX_SGIX_fbconfig
+GLX version: 1.4
+GLX extensions:
+    GLX_ARB_get_proc_address, GLX_ARB_multisample, GLX_EXT_visual_rating, 
+    GLX_SGIX_fbconfig
+OpenGL vendor string: NVIDIA Corporation
+OpenGL renderer string: NVIDIA GeForce 8600M GT OpenGL Engine
+OpenGL version string: 2.0 NVIDIA-1.5.48
+OpenGL shading language version string: 1.20
+OpenGL extensions:
+    GL_ARB_transpose_matrix, GL_ARB_vertex_program, GL_ARB_vertex_blend, 
+    GL_ARB_window_pos, GL_ARB_shader_objects, GL_ARB_vertex_shader, 
+    GL_ARB_shading_language_100, GL_EXT_multi_draw_arrays, 
+    GL_EXT_clip_volume_hint, GL_EXT_rescale_normal, 
+    GL_EXT_draw_range_elements, GL_EXT_fog_coord, 
+    GL_EXT_gpu_program_parameters, GL_EXT_geometry_shader4, 
+    GL_EXT_transform_feedback, GL_APPLE_client_storage, 
+    GL_APPLE_specular_vector, GL_APPLE_transform_hint, GL_APPLE_packed_pixels, 
+    GL_APPLE_fence, GL_APPLE_vertex_array_object, 
+    GL_APPLE_vertex_program_evaluators, GL_APPLE_element_array, 
+    GL_APPLE_flush_render, GL_APPLE_aux_depth_stencil, 
+    GL_NV_texgen_reflection, GL_NV_light_max_exponent, GL_IBM_rasterpos_clip, 
+    GL_SGIS_generate_mipmap, GL_ARB_imaging, GL_ARB_point_parameters, 
+    GL_ARB_texture_env_crossbar, GL_ARB_texture_border_clamp, 
+    GL_ARB_multitexture, GL_ARB_texture_env_add, GL_ARB_texture_cube_map, 
+    GL_ARB_texture_env_dot3, GL_ARB_multisample, GL_ARB_texture_env_combine, 
+    GL_ARB_texture_compression, GL_ARB_texture_mirrored_repeat, GL_ARB_shadow, 
+    GL_ARB_depth_texture, GL_ARB_fragment_program, 
+    GL_ARB_fragment_program_shadow, GL_ARB_fragment_shader, 
+    GL_ARB_occlusion_query, GL_ARB_point_sprite, 
+    GL_ARB_texture_non_power_of_two, GL_ARB_vertex_buffer_object, 
+    GL_ARB_pixel_buffer_object, GL_ARB_draw_buffers, 
+    GL_ARB_shader_texture_lod, GL_EXT_compiled_vertex_array, 
+    GL_EXT_framebuffer_object, GL_EXT_framebuffer_blit, 
+    GL_EXT_framebuffer_multisample, GL_EXT_texture_rectangle, 
+    GL_ARB_texture_rectangle, GL_EXT_texture_env_add, GL_EXT_blend_color, 
+    GL_EXT_blend_minmax, GL_EXT_blend_subtract, GL_EXT_texture_lod_bias, 
+    GL_EXT_abgr, GL_EXT_bgra, GL_EXT_stencil_wrap, 
+    GL_EXT_texture_filter_anisotropic, GL_EXT_secondary_color, 
+    GL_EXT_blend_func_separate, GL_EXT_shadow_funcs, GL_EXT_stencil_two_side, 
+    GL_EXT_depth_bounds_test, GL_EXT_texture_compression_s3tc, 
+    GL_EXT_texture_compression_dxt1, GL_EXT_texture_sRGB, 
+    GL_EXT_blend_equation_separate, GL_EXT_texture_mirror_clamp, 
+    GL_EXT_packed_depth_stencil, GL_EXT_bindable_uniform, 
+    GL_EXT_texture_integer, GL_EXT_gpu_shader4, GL_EXT_draw_buffers2, 
+    GL_APPLE_flush_buffer_range, GL_APPLE_ycbcr_422, 
+    GL_APPLE_vertex_array_range, GL_APPLE_texture_range, 
+    GL_APPLE_float_pixels, GL_ATI_texture_float, GL_ARB_texture_float, 
+    GL_ARB_half_float_pixel, GL_APPLE_pixel_buffer, GL_APPLE_object_purgeable, 
+    GL_NV_point_sprite, GL_NV_register_combiners, GL_NV_register_combiners2, 
+    GL_NV_blend_square, GL_NV_texture_shader, GL_NV_texture_shader2, 
+    GL_NV_texture_shader3, GL_NV_fog_distance, GL_NV_depth_clamp, 
+    GL_NV_multisample_filter_hint, GL_NV_fragment_program_option, 
+    GL_NV_fragment_program2, GL_NV_vertex_program2_option, 
+    GL_NV_vertex_program3, GL_ATI_texture_mirror_once, 
+    GL_ATI_texture_env_combine3, GL_ATI_separate_stencil, 
+    GL_SGIS_texture_edge_clamp, GL_SGIS_texture_lod
+
+128 GLX Visuals
+   visual  x  bf lv rg d st colorbuffer ax dp st accumbuffer  ms  cav
+ id dep cl sp sz l  ci b ro  r  g  b  a bf th cl  r  g  b  a ns b eat
+----------------------------------------------------------------------
+0x26 24 tc  1 24  0 r  .  .  8  8  8  0  0  0  0  0  0  0  0  0 0 None
+0x27 24 tc  1 24  0 r  .  .  8  8  8  0  0  0  0 16 16 16 16  0 0 None
+0x28 24 tc  1 24  0 r  .  .  8  8  8  0  0  0  8  0  0  0  0  0 0 None
+0x29 24 tc  1 24  0 r  .  .  8  8  8  0  0  0  8 16 16 16 16  0 0 None
+0x2a 24 tc  1 24  0 r  y  .  8  8  8  0  0  0  0  0  0  0  0  0 0 None
+0x2b 24 tc  1 24  0 r  y  .  8  8  8  0  0  0  0 16 16 16 16  0 0 None
+0x2c 24 tc  1 24  0 r  y  .  8  8  8  0  0  0  8  0  0  0  0  0 0 None
+0x2d 24 tc  1 24  0 r  y  .  8  8  8  0  0  0  8 16 16 16 16  0 0 None
+0x2e 24 tc  1 24  0 r  .  .  8  8  8  0  2  0  0  0  0  0  0  0 0 None
+0x2f 24 tc  1 24  0 r  .  .  8  8  8  0  2  0  0 16 16 16 16  0 0 None
+0x30 24 tc  1 24  0 r  .  .  8  8  8  0  2  0  8  0  0  0  0  0 0 None
+0x31 24 tc  1 24  0 r  .  .  8  8  8  0  2  0  8 16 16 16 16  0 0 None
+0x32 24 tc  1 24  0 r  y  .  8  8  8  0  2  0  0  0  0  0  0  0 0 None
+0x33 24 tc  1 24  0 r  y  .  8  8  8  0  2  0  0 16 16 16 16  0 0 None
+0x34 24 tc  1 24  0 r  y  .  8  8  8  0  2  0  8  0  0  0  0  0 0 None
+0x35 24 tc  1 24  0 r  y  .  8  8  8  0  2  0  8 16 16 16 16  0 0 None
+0x36 24 tc  1 24  0 r  .  .  8  8  8  0  0 24  0  0  0  0  0  0 0 None
+0x37 24 tc  1 24  0 r  .  .  8  8  8  0  0 24  0 16 16 16 16  0 0 None
+0x38 24 tc  1 24  0 r  .  .  8  8  8  0  0 24  8  0  0  0  0  0 0 None
+0x39 24 tc  1 24  0 r  .  .  8  8  8  0  0 24  8 16 16 16 16  0 0 None
+0x3a 24 tc  1 24  0 r  y  .  8  8  8  0  0 24  0  0  0  0  0  0 0 None
+0x3b 24 tc  1 24  0 r  y  .  8  8  8  0  0 24  0 16 16 16 16  0 0 None
+0x3c 24 tc  1 24  0 r  y  .  8  8  8  0  0 24  8  0  0  0  0  0 0 None
+0x3d 24 tc  1 24  0 r  y  .  8  8  8  0  0 24  8 16 16 16 16  0 0 None
+0x3e 24 tc  1 24  0 r  .  .  8  8  8  0  2 24  0  0  0  0  0  0 0 None
+0x3f 24 tc  1 24  0 r  .  .  8  8  8  0  2 24  0 16 16 16 16  0 0 None
+0x40 24 tc  1 24  0 r  .  .  8  8  8  0  2 24  8  0  0  0  0  0 0 None
+0x41 24 tc  1 24  0 r  .  .  8  8  8  0  2 24  8 16 16 16 16  0 0 None
+0x42 24 tc  1 24  0 r  y  .  8  8  8  0  2 24  0  0  0  0  0  0 0 None
+0x43 24 tc  1 24  0 r  y  .  8  8  8  0  2 24  0 16 16 16 16  0 0 None
+0x44 24 tc  1 24  0 r  y  .  8  8  8  0  2 24  8  0  0  0  0  0 0 None
+0x45 24 tc  1 24  0 r  y  .  8  8  8  0  2 24  8 16 16 16 16  0 0 None
+0x46 24 dc  1 24  0 r  .  .  8  8  8  0  0  0  0  0  0  0  0  0 0 None
+0x47 24 dc  1 24  0 r  .  .  8  8  8  0  0  0  0 16 16 16 16  0 0 None
+0x48 24 dc  1 24  0 r  .  .  8  8  8  0  0  0  8  0  0  0  0  0 0 None
+0x49 24 dc  1 24  0 r  .  .  8  8  8  0  0  0  8 16 16 16 16  0 0 None
+0x4a 24 dc  1 24  0 r  y  .  8  8  8  0  0  0  0  0  0  0  0  0 0 None
+0x4b 24 dc  1 24  0 r  y  .  8  8  8  0  0  0  0 16 16 16 16  0 0 None
+0x4c 24 dc  1 24  0 r  y  .  8  8  8  0  0  0  8  0  0  0  0  0 0 None
+0x4d 24 dc  1 24  0 r  y  .  8  8  8  0  0  0  8 16 16 16 16  0 0 None
+0x4e 24 dc  1 24  0 r  .  .  8  8  8  0  2  0  0  0  0  0  0  0 0 None
+0x4f 24 dc  1 24  0 r  .  .  8  8  8  0  2  0  0 16 16 16 16  0 0 None
+0x50 24 dc  1 24  0 r  .  .  8  8  8  0  2  0  8  0  0  0  0  0 0 None
+0x51 24 dc  1 24  0 r  .  .  8  8  8  0  2  0  8 16 16 16 16  0 0 None
+0x52 24 dc  1 24  0 r  y  .  8  8  8  0  2  0  0  0  0  0  0  0 0 None
+0x53 24 dc  1 24  0 r  y  .  8  8  8  0  2  0  0 16 16 16 16  0 0 None
+0x54 24 dc  1 24  0 r  y  .  8  8  8  0  2  0  8  0  0  0  0  0 0 None
+0x55 24 dc  1 24  0 r  y  .  8  8  8  0  2  0  8 16 16 16 16  0 0 None
+0x56 24 dc  1 24  0 r  .  .  8  8  8  0  0 24  0  0  0  0  0  0 0 None
+0x57 24 dc  1 24  0 r  .  .  8  8  8  0  0 24  0 16 16 16 16  0 0 None
+0x58 24 dc  1 24  0 r  .  .  8  8  8  0  0 24  8  0  0  0  0  0 0 None
+0x59 24 dc  1 24  0 r  .  .  8  8  8  0  0 24  8 16 16 16 16  0 0 None
+0x5a 24 dc  1 24  0 r  y  .  8  8  8  0  0 24  0  0  0  0  0  0 0 None
+0x5b 24 dc  1 24  0 r  y  .  8  8  8  0  0 24  0 16 16 16 16  0 0 None
+0x5c 24 dc  1 24  0 r  y  .  8  8  8  0  0 24  8  0  0  0  0  0 0 None
+0x5d 24 dc  1 24  0 r  y  .  8  8  8  0  0 24  8 16 16 16 16  0 0 None
+0x5e 24 dc  1 24  0 r  .  .  8  8  8  0  2 24  0  0  0  0  0  0 0 None
+0x5f 24 dc  1 24  0 r  .  .  8  8  8  0  2 24  0 16 16 16 16  0 0 None
+0x60 24 dc  1 24  0 r  .  .  8  8  8  0  2 24  8  0  0  0  0  0 0 None
+0x61 24 dc  1 24  0 r  .  .  8  8  8  0  2 24  8 16 16 16 16  0 0 None
+0x62 24 dc  1 24  0 r  y  .  8  8  8  0  2 24  0  0  0  0  0  0 0 None
+0x63 24 dc  1 24  0 r  y  .  8  8  8  0  2 24  0 16 16 16 16  0 0 None
+0x64 24 dc  1 24  0 r  y  .  8  8  8  0  2 24  8  0  0  0  0  0 0 None
+0x65 24 dc  1 24  0 r  y  .  8  8  8  0  2 24  8 16 16 16 16  0 0 None
+0x66 15 tc  1 15  0 r  .  .  5  5  5  0  0  0  0  0  0  0  0  0 0 None
+0x67 15 tc  1 15  0 r  .  .  5  5  5  0  0  0  0 16 16 16 16  0 0 None
+0x68 15 tc  1 15  0 r  .  .  5  5  5  0  0  0  8  0  0  0  0  0 0 None
+0x69 15 tc  1 15  0 r  .  .  5  5  5  0  0  0  8 16 16 16 16  0 0 None
+0x6a 15 tc  1 15  0 r  y  .  5  5  5  0  0  0  0  0  0  0  0  0 0 None
+0x6b 15 tc  1 15  0 r  y  .  5  5  5  0  0  0  0 16 16 16 16  0 0 None
+0x6c 15 tc  1 15  0 r  y  .  5  5  5  0  0  0  8  0  0  0  0  0 0 None
+0x6d 15 tc  1 15  0 r  y  .  5  5  5  0  0  0  8 16 16 16 16  0 0 None
+0x6e 15 tc  1 15  0 r  .  .  5  5  5  0  2  0  0  0  0  0  0  0 0 None
+0x6f 15 tc  1 15  0 r  .  .  5  5  5  0  2  0  0 16 16 16 16  0 0 None
+0x70 15 tc  1 15  0 r  .  .  5  5  5  0  2  0  8  0  0  0  0  0 0 None
+0x71 15 tc  1 15  0 r  .  .  5  5  5  0  2  0  8 16 16 16 16  0 0 None
+0x72 15 tc  1 15  0 r  y  .  5  5  5  0  2  0  0  0  0  0  0  0 0 None
+0x73 15 tc  1 15  0 r  y  .  5  5  5  0  2  0  0 16 16 16 16  0 0 None
+0x74 15 tc  1 15  0 r  y  .  5  5  5  0  2  0  8  0  0  0  0  0 0 None
+0x75 15 tc  1 15  0 r  y  .  5  5  5  0  2  0  8 16 16 16 16  0 0 None
+0x76 15 tc  1 15  0 r  .  .  5  5  5  0  0 24  0  0  0  0  0  0 0 None
+0x77 15 tc  1 15  0 r  .  .  5  5  5  0  0 24  0 16 16 16 16  0 0 None
+0x78 15 tc  1 15  0 r  .  .  5  5  5  0  0 24  8  0  0  0  0  0 0 None
+0x79 15 tc  1 15  0 r  .  .  5  5  5  0  0 24  8 16 16 16 16  0 0 None
+0x7a 15 tc  1 15  0 r  y  .  5  5  5  0  0 24  0  0  0  0  0  0 0 None
+0x7b 15 tc  1 15  0 r  y  .  5  5  5  0  0 24  0 16 16 16 16  0 0 None
+0x7c 15 tc  1 15  0 r  y  .  5  5  5  0  0 24  8  0  0  0  0  0 0 None
+0x7d 15 tc  1 15  0 r  y  .  5  5  5  0  0 24  8 16 16 16 16  0 0 None
+0x7e 15 tc  1 15  0 r  .  .  5  5  5  0  2 24  0  0  0  0  0  0 0 None
+0x7f 15 tc  1 15  0 r  .  .  5  5  5  0  2 24  0 16 16 16 16  0 0 None
+0x80 15 tc  1 15  0 r  .  .  5  5  5  0  2 24  8  0  0  0  0  0 0 None
+0x81 15 tc  1 15  0 r  .  .  5  5  5  0  2 24  8 16 16 16 16  0 0 None
+0x82 15 tc  1 15  0 r  y  .  5  5  5  0  2 24  0  0  0  0  0  0 0 None
+0x83 15 tc  1 15  0 r  y  .  5  5  5  0  2 24  0 16 16 16 16  0 0 None
+0x84 15 tc  1 15  0 r  y  .  5  5  5  0  2 24  8  0  0  0  0  0 0 None
+0x85 15 tc  1 15  0 r  y  .  5  5  5  0  2 24  8 16 16 16 16  0 0 None
+0x86 15 dc  1 15  0 r  .  .  5  5  5  0  0  0  0  0  0  0  0  0 0 None
+0x87 15 dc  1 15  0 r  .  .  5  5  5  0  0  0  0 16 16 16 16  0 0 None
+0x88 15 dc  1 15  0 r  .  .  5  5  5  0  0  0  8  0  0  0  0  0 0 None
+0x89 15 dc  1 15  0 r  .  .  5  5  5  0  0  0  8 16 16 16 16  0 0 None
+0x8a 15 dc  1 15  0 r  y  .  5  5  5  0  0  0  0  0  0  0  0  0 0 None
+0x8b 15 dc  1 15  0 r  y  .  5  5  5  0  0  0  0 16 16 16 16  0 0 None
+0x8c 15 dc  1 15  0 r  y  .  5  5  5  0  0  0  8  0  0  0  0  0 0 None
+0x8d 15 dc  1 15  0 r  y  .  5  5  5  0  0  0  8 16 16 16 16  0 0 None
+0x8e 15 dc  1 15  0 r  .  .  5  5  5  0  2  0  0  0  0  0  0  0 0 None
+0x8f 15 dc  1 15  0 r  .  .  5  5  5  0  2  0  0 16 16 16 16  0 0 None
+0x90 15 dc  1 15  0 r  .  .  5  5  5  0  2  0  8  0  0  0  0  0 0 None
+0x91 15 dc  1 15  0 r  .  .  5  5  5  0  2  0  8 16 16 16 16  0 0 None
+0x92 15 dc  1 15  0 r  y  .  5  5  5  0  2  0  0  0  0  0  0  0 0 None
+0x93 15 dc  1 15  0 r  y  .  5  5  5  0  2  0  0 16 16 16 16  0 0 None
+0x94 15 dc  1 15  0 r  y  .  5  5  5  0  2  0  8  0  0  0  0  0 0 None
+0x95 15 dc  1 15  0 r  y  .  5  5  5  0  2  0  8 16 16 16 16  0 0 None
+0x96 15 dc  1 15  0 r  .  .  5  5  5  0  0 24  0  0  0  0  0  0 0 None
+0x97 15 dc  1 15  0 r  .  .  5  5  5  0  0 24  0 16 16 16 16  0 0 None
+0x98 15 dc  1 15  0 r  .  .  5  5  5  0  0 24  8  0  0  0  0  0 0 None
+0x99 15 dc  1 15  0 r  .  .  5  5  5  0  0 24  8 16 16 16 16  0 0 None
+0x9a 15 dc  1 15  0 r  y  .  5  5  5  0  0 24  0  0  0  0  0  0 0 None
+0x9b 15 dc  1 15  0 r  y  .  5  5  5  0  0 24  0 16 16 16 16  0 0 None
+0x9c 15 dc  1 15  0 r  y  .  5  5  5  0  0 24  8  0  0  0  0  0 0 None
+0x9d 15 dc  1 15  0 r  y  .  5  5  5  0  0 24  8 16 16 16 16  0 0 None
+0x9e 15 dc  1 15  0 r  .  .  5  5  5  0  2 24  0  0  0  0  0  0 0 None
+0x9f 15 dc  1 15  0 r  .  .  5  5  5  0  2 24  0 16 16 16 16  0 0 None
+0xa0 15 dc  1 15  0 r  .  .  5  5  5  0  2 24  8  0  0  0  0  0 0 None
+0xa1 15 dc  1 15  0 r  .  .  5  5  5  0  2 24  8 16 16 16 16  0 0 None
+0xa2 15 dc  1 15  0 r  y  .  5  5  5  0  2 24  0  0  0  0  0  0 0 None
+0xa3 15 dc  1 15  0 r  y  .  5  5  5  0  2 24  0 16 16 16 16  0 0 None
+0xa4 15 dc  1 15  0 r  y  .  5  5  5  0  2 24  8  0  0  0  0  0 0 None
+0xa5 15 dc  1 15  0 r  y  .  5  5  5  0  2 24  8 16 16 16 16  0 0 None
+
+128 GLXFBConfigs:
+   visual  x  bf lv rg d st colorbuffer ax dp st accumbuffer  ms  cav
+ id dep cl sp sz l  ci b ro  r  g  b  a bf th cl  r  g  b  a ns b eat
+----------------------------------------------------------------------
+0x26  0 tc  1 24  0 r  .  .  8  8  8  0  0  0  0  0  0  0  0  0 0 None
+0x27  0 tc  1 24  0 r  .  .  8  8  8  0  0  0  0 16 16 16 16  0 0 None
+0x28  0 tc  1 24  0 r  .  .  8  8  8  0  0  0  8  0  0  0  0  0 0 None
+0x29  0 tc  1 24  0 r  .  .  8  8  8  0  0  0  8 16 16 16 16  0 0 None
+0x2a  0 tc  1 24  0 r  y  .  8  8  8  0  0  0  0  0  0  0  0  0 0 None
+0x2b  0 tc  1 24  0 r  y  .  8  8  8  0  0  0  0 16 16 16 16  0 0 None
+0x2c  0 tc  1 24  0 r  y  .  8  8  8  0  0  0  8  0  0  0  0  0 0 None
+0x2d  0 tc  1 24  0 r  y  .  8  8  8  0  0  0  8 16 16 16 16  0 0 None
+0x2e  0 tc  1 24  0 r  .  .  8  8  8  0  2  0  0  0  0  0  0  0 0 None
+0x2f  0 tc  1 24  0 r  .  .  8  8  8  0  2  0  0 16 16 16 16  0 0 None
+0x30  0 tc  1 24  0 r  .  .  8  8  8  0  2  0  8  0  0  0  0  0 0 None
+0x31  0 tc  1 24  0 r  .  .  8  8  8  0  2  0  8 16 16 16 16  0 0 None
+0x32  0 tc  1 24  0 r  y  .  8  8  8  0  2  0  0  0  0  0  0  0 0 None
+0x33  0 tc  1 24  0 r  y  .  8  8  8  0  2  0  0 16 16 16 16  0 0 None
+0x34  0 tc  1 24  0 r  y  .  8  8  8  0  2  0  8  0  0  0  0  0 0 None
+0x35  0 tc  1 24  0 r  y  .  8  8  8  0  2  0  8 16 16 16 16  0 0 None
+0x36  0 tc  1 24  0 r  .  .  8  8  8  0  0 24  0  0  0  0  0  0 0 None
+0x37  0 tc  1 24  0 r  .  .  8  8  8  0  0 24  0 16 16 16 16  0 0 None
+0x38  0 tc  1 24  0 r  .  .  8  8  8  0  0 24  8  0  0  0  0  0 0 None
+0x39  0 tc  1 24  0 r  .  .  8  8  8  0  0 24  8 16 16 16 16  0 0 None
+0x3a  0 tc  1 24  0 r  y  .  8  8  8  0  0 24  0  0  0  0  0  0 0 None
+0x3b  0 tc  1 24  0 r  y  .  8  8  8  0  0 24  0 16 16 16 16  0 0 None
+0x3c  0 tc  1 24  0 r  y  .  8  8  8  0  0 24  8  0  0  0  0  0 0 None
+0x3d  0 tc  1 24  0 r  y  .  8  8  8  0  0 24  8 16 16 16 16  0 0 None
+0x3e  0 tc  1 24  0 r  .  .  8  8  8  0  2 24  0  0  0  0  0  0 0 None
+0x3f  0 tc  1 24  0 r  .  .  8  8  8  0  2 24  0 16 16 16 16  0 0 None
+0x40  0 tc  1 24  0 r  .  .  8  8  8  0  2 24  8  0  0  0  0  0 0 None
+0x41  0 tc  1 24  0 r  .  .  8  8  8  0  2 24  8 16 16 16 16  0 0 None
+0x42  0 tc  1 24  0 r  y  .  8  8  8  0  2 24  0  0  0  0  0  0 0 None
+0x43  0 tc  1 24  0 r  y  .  8  8  8  0  2 24  0 16 16 16 16  0 0 None
+0x44  0 tc  1 24  0 r  y  .  8  8  8  0  2 24  8  0  0  0  0  0 0 None
+0x45  0 tc  1 24  0 r  y  .  8  8  8  0  2 24  8 16 16 16 16  0 0 None
+0x46  0 dc  1 24  0 r  .  .  8  8  8  0  0  0  0  0  0  0  0  0 0 None
+0x47  0 dc  1 24  0 r  .  .  8  8  8  0  0  0  0 16 16 16 16  0 0 None
+0x48  0 dc  1 24  0 r  .  .  8  8  8  0  0  0  8  0  0  0  0  0 0 None
+0x49  0 dc  1 24  0 r  .  .  8  8  8  0  0  0  8 16 16 16 16  0 0 None
+0x4a  0 dc  1 24  0 r  y  .  8  8  8  0  0  0  0  0  0  0  0  0 0 None
+0x4b  0 dc  1 24  0 r  y  .  8  8  8  0  0  0  0 16 16 16 16  0 0 None
+0x4c  0 dc  1 24  0 r  y  .  8  8  8  0  0  0  8  0  0  0  0  0 0 None
+0x4d  0 dc  1 24  0 r  y  .  8  8  8  0  0  0  8 16 16 16 16  0 0 None
+0x4e  0 dc  1 24  0 r  .  .  8  8  8  0  2  0  0  0  0  0  0  0 0 None
+0x4f  0 dc  1 24  0 r  .  .  8  8  8  0  2  0  0 16 16 16 16  0 0 None
+0x50  0 dc  1 24  0 r  .  .  8  8  8  0  2  0  8  0  0  0  0  0 0 None
+0x51  0 dc  1 24  0 r  .  .  8  8  8  0  2  0  8 16 16 16 16  0 0 None
+0x52  0 dc  1 24  0 r  y  .  8  8  8  0  2  0  0  0  0  0  0  0 0 None
+0x53  0 dc  1 24  0 r  y  .  8  8  8  0  2  0  0 16 16 16 16  0 0 None
+0x54  0 dc  1 24  0 r  y  .  8  8  8  0  2  0  8  0  0  0  0  0 0 None
+0x55  0 dc  1 24  0 r  y  .  8  8  8  0  2  0  8 16 16 16 16  0 0 None
+0x56  0 dc  1 24  0 r  .  .  8  8  8  0  0 24  0  0  0  0  0  0 0 None
+0x57  0 dc  1 24  0 r  .  .  8  8  8  0  0 24  0 16 16 16 16  0 0 None
+0x58  0 dc  1 24  0 r  .  .  8  8  8  0  0 24  8  0  0  0  0  0 0 None
+0x59  0 dc  1 24  0 r  .  .  8  8  8  0  0 24  8 16 16 16 16  0 0 None
+0x5a  0 dc  1 24  0 r  y  .  8  8  8  0  0 24  0  0  0  0  0  0 0 None
+0x5b  0 dc  1 24  0 r  y  .  8  8  8  0  0 24  0 16 16 16 16  0 0 None
+0x5c  0 dc  1 24  0 r  y  .  8  8  8  0  0 24  8  0  0  0  0  0 0 None
+0x5d  0 dc  1 24  0 r  y  .  8  8  8  0  0 24  8 16 16 16 16  0 0 None
+0x5e  0 dc  1 24  0 r  .  .  8  8  8  0  2 24  0  0  0  0  0  0 0 None
+0x5f  0 dc  1 24  0 r  .  .  8  8  8  0  2 24  0 16 16 16 16  0 0 None
+0x60  0 dc  1 24  0 r  .  .  8  8  8  0  2 24  8  0  0  0  0  0 0 None
+0x61  0 dc  1 24  0 r  .  .  8  8  8  0  2 24  8 16 16 16 16  0 0 None
+0x62  0 dc  1 24  0 r  y  .  8  8  8  0  2 24  0  0  0  0  0  0 0 None
+0x63  0 dc  1 24  0 r  y  .  8  8  8  0  2 24  0 16 16 16 16  0 0 None
+0x64  0 dc  1 24  0 r  y  .  8  8  8  0  2 24  8  0  0  0  0  0 0 None
+0x65  0 dc  1 24  0 r  y  .  8  8  8  0  2 24  8 16 16 16 16  0 0 None
+0x66  0 tc  1 15  0 r  .  .  5  5  5  0  0  0  0  0  0  0  0  0 0 None
+0x67  0 tc  1 15  0 r  .  .  5  5  5  0  0  0  0 16 16 16 16  0 0 None
+0x68  0 tc  1 15  0 r  .  .  5  5  5  0  0  0  8  0  0  0  0  0 0 None
+0x69  0 tc  1 15  0 r  .  .  5  5  5  0  0  0  8 16 16 16 16  0 0 None
+0x6a  0 tc  1 15  0 r  y  .  5  5  5  0  0  0  0  0  0  0  0  0 0 None
+0x6b  0 tc  1 15  0 r  y  .  5  5  5  0  0  0  0 16 16 16 16  0 0 None
+0x6c  0 tc  1 15  0 r  y  .  5  5  5  0  0  0  8  0  0  0  0  0 0 None
+0x6d  0 tc  1 15  0 r  y  .  5  5  5  0  0  0  8 16 16 16 16  0 0 None
+0x6e  0 tc  1 15  0 r  .  .  5  5  5  0  2  0  0  0  0  0  0  0 0 None
+0x6f  0 tc  1 15  0 r  .  .  5  5  5  0  2  0  0 16 16 16 16  0 0 None
+0x70  0 tc  1 15  0 r  .  .  5  5  5  0  2  0  8  0  0  0  0  0 0 None
+0x71  0 tc  1 15  0 r  .  .  5  5  5  0  2  0  8 16 16 16 16  0 0 None
+0x72  0 tc  1 15  0 r  y  .  5  5  5  0  2  0  0  0  0  0  0  0 0 None
+0x73  0 tc  1 15  0 r  y  .  5  5  5  0  2  0  0 16 16 16 16  0 0 None
+0x74  0 tc  1 15  0 r  y  .  5  5  5  0  2  0  8  0  0  0  0  0 0 None
+0x75  0 tc  1 15  0 r  y  .  5  5  5  0  2  0  8 16 16 16 16  0 0 None
+0x76  0 tc  1 15  0 r  .  .  5  5  5  0  0 24  0  0  0  0  0  0 0 None
+0x77  0 tc  1 15  0 r  .  .  5  5  5  0  0 24  0 16 16 16 16  0 0 None
+0x78  0 tc  1 15  0 r  .  .  5  5  5  0  0 24  8  0  0  0  0  0 0 None
+0x79  0 tc  1 15  0 r  .  .  5  5  5  0  0 24  8 16 16 16 16  0 0 None
+0x7a  0 tc  1 15  0 r  y  .  5  5  5  0  0 24  0  0  0  0  0  0 0 None
+0x7b  0 tc  1 15  0 r  y  .  5  5  5  0  0 24  0 16 16 16 16  0 0 None
+0x7c  0 tc  1 15  0 r  y  .  5  5  5  0  0 24  8  0  0  0  0  0 0 None
+0x7d  0 tc  1 15  0 r  y  .  5  5  5  0  0 24  8 16 16 16 16  0 0 None
+0x7e  0 tc  1 15  0 r  .  .  5  5  5  0  2 24  0  0  0  0  0  0 0 None
+0x7f  0 tc  1 15  0 r  .  .  5  5  5  0  2 24  0 16 16 16 16  0 0 None
+0x80  0 tc  1 15  0 r  .  .  5  5  5  0  2 24  8  0  0  0  0  0 0 None
+0x81  0 tc  1 15  0 r  .  .  5  5  5  0  2 24  8 16 16 16 16  0 0 None
+0x82  0 tc  1 15  0 r  y  .  5  5  5  0  2 24  0  0  0  0  0  0 0 None
+0x83  0 tc  1 15  0 r  y  .  5  5  5  0  2 24  0 16 16 16 16  0 0 None
+0x84  0 tc  1 15  0 r  y  .  5  5  5  0  2 24  8  0  0  0  0  0 0 None
+0x85  0 tc  1 15  0 r  y  .  5  5  5  0  2 24  8 16 16 16 16  0 0 None
+0x86  0 dc  1 15  0 r  .  .  5  5  5  0  0  0  0  0  0  0  0  0 0 None
+0x87  0 dc  1 15  0 r  .  .  5  5  5  0  0  0  0 16 16 16 16  0 0 None
+0x88  0 dc  1 15  0 r  .  .  5  5  5  0  0  0  8  0  0  0  0  0 0 None
+0x89  0 dc  1 15  0 r  .  .  5  5  5  0  0  0  8 16 16 16 16  0 0 None
+0x8a  0 dc  1 15  0 r  y  .  5  5  5  0  0  0  0  0  0  0  0  0 0 None
+0x8b  0 dc  1 15  0 r  y  .  5  5  5  0  0  0  0 16 16 16 16  0 0 None
+0x8c  0 dc  1 15  0 r  y  .  5  5  5  0  0  0  8  0  0  0  0  0 0 None
+0x8d  0 dc  1 15  0 r  y  .  5  5  5  0  0  0  8 16 16 16 16  0 0 None
+0x8e  0 dc  1 15  0 r  .  .  5  5  5  0  2  0  0  0  0  0  0  0 0 None
+0x8f  0 dc  1 15  0 r  .  .  5  5  5  0  2  0  0 16 16 16 16  0 0 None
+0x90  0 dc  1 15  0 r  .  .  5  5  5  0  2  0  8  0  0  0  0  0 0 None
+0x91  0 dc  1 15  0 r  .  .  5  5  5  0  2  0  8 16 16 16 16  0 0 None
+0x92  0 dc  1 15  0 r  y  .  5  5  5  0  2  0  0  0  0  0  0  0 0 None
+0x93  0 dc  1 15  0 r  y  .  5  5  5  0  2  0  0 16 16 16 16  0 0 None
+0x94  0 dc  1 15  0 r  y  .  5  5  5  0  2  0  8  0  0  0  0  0 0 None
+0x95  0 dc  1 15  0 r  y  .  5  5  5  0  2  0  8 16 16 16 16  0 0 None
+0x96  0 dc  1 15  0 r  .  .  5  5  5  0  0 24  0  0  0  0  0  0 0 None
+0x97  0 dc  1 15  0 r  .  .  5  5  5  0  0 24  0 16 16 16 16  0 0 None
+0x98  0 dc  1 15  0 r  .  .  5  5  5  0  0 24  8  0  0  0  0  0 0 None
+0x99  0 dc  1 15  0 r  .  .  5  5  5  0  0 24  8 16 16 16 16  0 0 None
+0x9a  0 dc  1 15  0 r  y  .  5  5  5  0  0 24  0  0  0  0  0  0 0 None
+0x9b  0 dc  1 15  0 r  y  .  5  5  5  0  0 24  0 16 16 16 16  0 0 None
+0x9c  0 dc  1 15  0 r  y  .  5  5  5  0  0 24  8  0  0  0  0  0 0 None
+0x9d  0 dc  1 15  0 r  y  .  5  5  5  0  0 24  8 16 16 16 16  0 0 None
+0x9e  0 dc  1 15  0 r  .  .  5  5  5  0  2 24  0  0  0  0  0  0 0 None
+0x9f  0 dc  1 15  0 r  .  .  5  5  5  0  2 24  0 16 16 16 16  0 0 None
+0xa0  0 dc  1 15  0 r  .  .  5  5  5  0  2 24  8  0  0  0  0  0 0 None
+0xa1  0 dc  1 15  0 r  .  .  5  5  5  0  2 24  8 16 16 16 16  0 0 None
+0xa2  0 dc  1 15  0 r  y  .  5  5  5  0  2 24  0  0  0  0  0  0 0 None
+0xa3  0 dc  1 15  0 r  y  .  5  5  5  0  2 24  0 16 16 16 16  0 0 None
+0xa4  0 dc  1 15  0 r  y  .  5  5  5  0  2 24  8  0  0  0  0  0 0 None
+0xa5  0 dc  1 15  0 r  y  .  5  5  5  0  2 24  8 16 16 16 16  0 0 None
+

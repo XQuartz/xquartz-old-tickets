@@ -1,0 +1,210 @@
+Process:         idl [20533]
+Path:            /Applications/rsi/idl/bin/bin.darwin.ppc/idl
+Identifier:      idl
+Version:         ??? (???)
+Code Type:       PPC (Translated)
+Parent Process:  tcsh [12934]
+
+Date/Time:       2010-06-24 15:15:34.020 +0100
+OS Version:      Mac OS X 10.6.3 (10D573)
+Report Version:  6
+
+Exception Type:  EXC_BAD_ACCESS (SIGBUS)
+Exception Codes: KERN_PROTECTION_FAILURE at 0x0000000000000014
+Crashed Thread:  0
+
+Thread 0 Crashed:
+0   idl                           	0xb80d5849 0xb8000000 + 874569
+1   idl                           	0xb80c0037 0xb8000000 + 786487
+2   idl                           	0xb80dd8e8 0xb8000000 + 907496
+3   idl                           	0xb8145397 spin_lock_wrapper + 1791
+4   idl                           	0xb801ceb7 0xb8000000 + 118455
+
+Thread 1:
+0   libSystem.B.dylib             	0x801402fa mach_msg_trap + 10
+1   libSystem.B.dylib             	0x80140a67 mach_msg + 68
+2   idl                           	0xb819440f CallPPCFunctionAtAddressInt + 206231
+3   libSystem.B.dylib             	0x8016da19 _pthread_start + 345
+4   libSystem.B.dylib             	0x8016d89e thread_start + 34
+
+Thread 2:
+0   idl                           	0xb815a8c8 spin_lock_wrapper + 89136
+1   idl                           	0xb8176d61 CallPPCFunctionAtAddressInt + 85737
+2   idl                           	0xb80c6b13 0xb8000000 + 813843
+3   idl                           	0xb80c0037 0xb8000000 + 786487
+4   idl                           	0xb80dd8e8 0xb8000000 + 907496
+5   idl                           	0xb8145c1d spin_lock_wrapper + 3973
+6   idl                           	0xb801ceb7 0xb8000000 + 118455
+
+Thread 3:
+0   idl                           	0xb815a8c8 spin_lock_wrapper + 89136
+1   idl                           	0xb8177c07 CallPPCFunctionAtAddressInt + 89487
+2   idl                           	0xb80c6b13 0xb8000000 + 813843
+3   idl                           	0xb80c0037 0xb8000000 + 786487
+4   idl                           	0xb80dd8e8 0xb8000000 + 907496
+5   idl                           	0xb8145397 spin_lock_wrapper + 1791
+6   idl                           	0xb801ceb7 0xb8000000 + 118455
+
+Thread 4:
+0   idl                           	0xb815acc0 spin_lock_wrapper + 90152
+1   idl                           	0xb8179c5b CallPPCFunctionAtAddressInt + 97763
+2   idl                           	0xb80c6b13 0xb8000000 + 813843
+3   idl                           	0xb80c0037 0xb8000000 + 786487
+4   idl                           	0xb80dd8e8 0xb8000000 + 907496
+5   idl                           	0xb8145397 spin_lock_wrapper + 1791
+6   idl                           	0xb801ceb7 0xb8000000 + 118455
+
+Thread 5:
+0   idl                           	0xb815a8ff spin_lock_wrapper + 89191
+1   idl                           	0xb8176e5d CallPPCFunctionAtAddressInt + 85989
+2   idl                           	0xb80c6b13 0xb8000000 + 813843
+3   idl                           	0xb80c0037 0xb8000000 + 786487
+4   idl                           	0xb80dd8e8 0xb8000000 + 907496
+5   idl                           	0xb8145397 spin_lock_wrapper + 1791
+6   idl                           	0xb801ceb7 0xb8000000 + 118455
+
+Thread 0 crashed with X86 Thread State (32-bit):
+  eax: 0x00000014  ebx: 0xb80bfca8  ecx: 0x01000000  edx: 0x00000014
+  edi: 0xb8211640  esi: 0x00000000  ebp: 0xb7fffa08  esp: 0xb7fffa04
+   ss: 0x0000001f  efl: 0x00010206  eip: 0xb80d5849   cs: 0x00000017
+   ds: 0x0000001f   es: 0x0000001f   fs: 0x00000000   gs: 0x00000037
+  cr2: 0x00000014
+
+Binary Images:
+ 0x1fd7000 -  0x1fd8ff7  BDL.dylib 38.0.0 (compatibility 1.0.0) <9D3E78C6-FD08-A681-CBCF-EE5495D4116D> /usr/libexec/oah/Shims/BDL.dylib
+ 0x1fdc000 -  0x1fdcff7  libSystem.B.dylib 38.0.0 (compatibility 1.0.0) <49E64BCB-1704-E07E-459A-21C7F3F636A2> /usr/libexec/oah/Shims/libSystem.B.dylib
+ 0x1fe0000 -  0x1fe2ff7  CoreFoundation 38.0.0 (compatibility 150.0.0) <08035C81-3A3A-2508-93BC-856946E0F9C5> /usr/libexec/oah/Shims/CoreFoundation.framework/CoreFoundation
+ 0x1ff0000 -  0x1ff8ff7  IOKit 38.0.0 (compatibility 1.0.0) <1C07A19F-46C4-5568-A9F4-940F892D8CBA> /usr/libexec/oah/Shims/IOKit.framework/IOKit
+0x13980000 - 0x13980ff7  ApplicationServices 38.0.0 (compatibility 1.0.0) <31D5A4F2-0D67-53EA-C597-487219F837A2> /usr/libexec/oah/Shims/ApplicationServices.framework/ApplicationServices
+0x13984000 - 0x139b9ff7  GLEngine ??? (???) <9044CC6B-A668-2190-FC81-4C3A37B67639> /usr/libexec/oah/Shims/GLEngine.bundle/GLEngine
+0x139be000 - 0x139c2ff7  IOSurface ??? (???) <4B825ADA-8DBE-6BA2-1AB3-307D2C3AFCA8> /System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface
+0x139ca000 - 0x139ceff7  libGFXShared.dylib ??? (???) <286F466C-2856-B579-B87F-4E9A35C80263> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGFXShared.dylib
+0x139d3000 - 0x13a04ff7  libGLImage.dylib ??? (???) <AF110892-B10A-5B61-F898-21FB2BCE63BF> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLImage.dylib
+0x13a0c000 - 0x13a0fff7  libCoreVMClient.dylib ??? (???) <98CB96B1-85FE-25AF-AB19-ED061912FC3E> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libCoreVMClient.dylib
+0x13a14000 - 0x13a37fe7  GLRendererFloat ??? (???) <65E1E174-28E0-3FA9-E391-504891B69818> /System/Library/Frameworks/OpenGL.framework/Resources/GLRendererFloat.bundle/GLRendererFloat
+0x13bc4000 - 0x13d37fe7  GLEngine ??? (???) <F0181B85-962E-508D-4912-056D87F8E96E> /System/Library/Frameworks/OpenGL.framework/Resources/GLEngine.bundle/GLEngine
+0x13d69000 - 0x13e75ff7  libGLProgrammability.dylib ??? (???) <CA0A975B-2BEE-44E7-CFA6-8105CFE6FE00> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLProgrammability.dylib
+0x13e94000 - 0x140cbfff  com.apple.ATIRadeonX1000GLDriver 1.6.10 (6.1.0) <F96F39A1-0262-D4EC-D415-D930A0C9C59D> /System/Library/Extensions/ATIRadeonX1000GLDriver.bundle/Contents/MacOS/ATIRadeonX1000GLDriver
+0x80000000 - 0x8005bff7  com.apple.framework.IOKit 2.0 (???) <69E4FE93-376C-565E-650F-04FAD213AA24> /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+0x8007a000 - 0x800e4fe7  libstdc++.6.dylib 7.9.0 (compatibility 7.0.0) <411D87F4-B7E1-44EB-F201-F8B4F9227213> /usr/lib/libstdc++.6.dylib
+0x8013f000 - 0x802e4feb  libSystem.B.dylib 125.0.1 (compatibility 1.0.0) <06A5336A-A6F6-4E62-F55F-4909A64631C2> /usr/lib/libSystem.B.dylib
+0x80364000 - 0x804ddffb  com.apple.CoreFoundation 6.6.1 (550.19) <1E97FB1E-9E42-B8EB-E463-5C75315FDA31> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+0x805d5000 - 0x805e3fe7  libz.1.dylib 1.2.3 (compatibility 1.0.0) <82B2C254-6F8D-7BEA-4C18-038E90CAE19B> /usr/lib/libz.1.dylib
+0x805e8000 - 0x805f4ff7  libkxld.dylib ??? (???) <13F26BB6-C2F7-9D74-933E-09AD8B509ECD> /usr/lib/system/libkxld.dylib
+0x805f8000 - 0x8063eff7  libauto.dylib ??? (???) <85670A64-3B67-8162-D441-D8E0BE15CA94> /usr/lib/libauto.dylib
+0x8064b000 - 0x807cdfe7  libicucore.A.dylib 40.0.0 (compatibility 1.0.0) <96A45E03-2B29-83EB-0FC6-2C932E398722> /usr/lib/libicucore.A.dylib
+0x8082f000 - 0x808dcfe7  libobjc.A.dylib 227.0.0 (compatibility 1.0.0) <DF8E4CFA-3719-3415-0BF1-E8C5E561C3B1> /usr/lib/libobjc.A.dylib
+0x808f0000 - 0x808f3fe7  libmathCommon.A.dylib 315.0.0 (compatibility 1.0.0) <1622A54F-1A98-2CBE-B6A4-2122981A500E> /usr/lib/system/libmathCommon.A.dylib
+0x8fe00000 - 0x8fe4162b  dyld 132.1 (???) <211AF0DD-42D9-79C8-BB6A-1F4BEEF4B4AB> /usr/lib/dyld
+0xb8000000 - 0xb81defff +idl ??? (???) <C6CB6BA8-8BA2-8F0A-4A49-912B00D2FF10> /Applications/rsi/idl/bin/bin.darwin.ppc/idl
+0xffff0000 - 0xffff1fff  libSystem.B.dylib ??? (???) <06A5336A-A6F6-4E62-F55F-4909A64631C2> /usr/lib/libSystem.B.dylib
+
+Translated Code Information:
+objc[20533]: garbage collection is ON
+Rosetta Version:  22.26
+Args:  	/Applications/rsi/idl/bin/bin.darwin.ppc/idl 
+Exception: EXC_BAD_ACCESS (0x0001)
+
+Thread 0: (0xb0220d74, 0xb815a8ff)
+0x9609c038: /usr/lib/libSystem.B.dylib : __dispatch_semaphore_wait_slow + 248 
+0x9609a724: /usr/lib/libSystem.B.dylib : __dispatch_worker_thread + 116 
+0x95fba7e8: /usr/lib/libSystem.B.dylib : __pthread_body + 40 
+0x00000000: /Applications/rsi/idl/bin/bin.darwin.ppc/idl :  + 0 
+
+PPC Thread State
+srr0: 0x00000000	srr1: 0x00000000		             vrsave: 0x00000000
+cr:  0xXXXXXXXX		xer: 0x20000000		 lr: 0x9609c050		ctr: 0x95f1a140
+r00: 0xffffffda 	r01: 0xf0203dc0 	r02: 0x00000000 	r03: 0x00004003 	
+r04: 0x00000040 	r05: 0x3b9a1170 	r06: 0x00000020 	r07: 0x00000000 	
+r08: 0x3b9a1170 	r09: 0x00000000 	r10: 0x3b9a1170 	r11: 0xa09c0664 	
+r12: 0x95f1a140 	r13: 0x00000000 	r14: 0x00000000 	r15: 0x00000000 	
+r16: 0x00000000 	r17: 0x00000000 	r18: 0x00000000 	r19: 0x00000000 	
+r20: 0x00000000 	r21: 0xa09c67ac 	r22: 0xa09c67a0 	r23: 0xa09c67a8 	
+r24: 0x0000e61b 	r25: 0x85e777ae 	r26: 0xa09c64ec 	r27: 0x00000040 	
+r28: 0x0000000f 	r29: 0x224c9170 	r30: 0xa09c6780 	r31: 0x9609bf48 	
+
+Thread 1: Crashed (0xb7fffa04, 0xb80d5849)
+0x00378374: libidl.6.3.dylib : _rw_drawable + 344 
+0x00378f48: libidl.6.3.dylib : _x_rw_pixels + 1564 
+0x00557c84: libidl.6.3.dylib : _do_tv + 1616 
+0x00557d08: libidl.6.3.dylib : _IDL_tvscl + 52 
+0x003af24c: libidl.6.3.dylib : _interpreter + 13860 
+0x00544318: libidl.6.3.dylib : _IDL_Executive + 4356 
+0x000c2784: libidl.6.3.dylib : _IDL_Main + 144 
+0x00002c30: /Applications/rsi/idl/bin/bin.darwin.ppc/idl : _main + 284 
+0x00002364: /Applications/rsi/idl/bin/bin.darwin.ppc/idl : __start + 348 
+0x00002204: /Applications/rsi/idl/bin/bin.darwin.ppc/idl : start + 60 
+0x00000000: /Applications/rsi/idl/bin/bin.darwin.ppc/idl :  + 0 
+
+PPC Thread State
+srr0: 0x00000000	srr1: 0x00000000		             vrsave: 0x00000000
+cr:  0xXXXXXXXX		xer: 0x00000000		 lr: 0x00378374		ctr: 0x00000002
+r00: 0x00000001 	r01: 0xbfffbf10 	r02: 0x007eb0e8 	r03: 0x00000000 	
+r04: 0x00000060 	r05: 0x00000060 	r06: 0x01d00000 	r07: 0x00000000 	
+r08: 0x00000360 	r09: 0x00000000 	r10: 0x000000d8 	r11: 0x01c0d890 	
+r12: 0x95f1a2e0 	r13: 0x00000000 	r14: 0x00000000 	r15: 0x00000000 	
+r16: 0x00000000 	r17: 0x00000000 	r18: 0x00000000 	r19: 0x00000000 	
+r20: 0x00000000 	r21: 0x00000000 	r22: 0x00000000 	r23: 0x00000000 	
+r24: 0x00000000 	r25: 0x00000000 	r26: 0x00000001 	r27: 0x00000000 	
+r28: 0x00000000 	r29: 0x007e9cb0 	r30: 0xbfffbf10 	r31: 0x00378234 	
+
+Thread 2: (0xb011cd88, 0xb815a8c8)
+0x8fc05470: /usr/lib/dyld : dyld::bindLazySymbol(mach_header const*, unsigned long*) + 132 
+0x95f28870: /usr/lib/libSystem.B.dylib : _sleep + 76 
+0x0050b55c: libidl.6.3.dylib : _IDL_ThreadSleep + 32 
+0x0018c934: libidl.6.3.dylib : _draw_l_func + 56 
+0x95fba7e8: /usr/lib/libSystem.B.dylib : __pthread_body + 40 
+0x00000000: /Applications/rsi/idl/bin/bin.darwin.ppc/idl :  + 0 
+
+PPC Thread State
+srr0: 0x00000000	srr1: 0x00000000		             vrsave: 0x00000000
+cr:  0xXXXXXXXX		xer: 0x00000000		 lr: 0x95f3bff0		ctr: 0x95f1a240
+r00: 0xffffffa6 	r01: 0xf0101d20 	r02: 0x0000e61c 	r03: 0x0000e61c 	
+r04: 0x36ad2479 	r05: 0x00000000 	r06: 0x00000001 	r07: 0x00000000 	
+r08: 0x00000000 	r09: 0x0000001b 	r10: 0xf08eb000 	r11: 0xa09c0028 	
+r12: 0x95f1a240 	r13: 0x00000000 	r14: 0x00000000 	r15: 0x00000000 	
+r16: 0x00000000 	r17: 0x00000000 	r18: 0x00000000 	r19: 0x00000000 	
+r20: 0x00000000 	r21: 0x00000000 	r22: 0x00000000 	r23: 0xa09cbe7c 	
+r24: 0x00000000 	r25: 0xf0101de0 	r26: 0xa09cbe7c 	r27: 0xa09ccdd4 	
+r28: 0x0000e600 	r29: 0x0000e61c 	r30: 0x36ad2479 	r31: 0x95f3be7c 	
+
+Thread 3: (0xb009ad78, 0xb815a8c8)
+0x95fb6f84: /usr/lib/libSystem.B.dylib : __pthread_cond_wait + 880 
+0x0050afe8: libidl.6.3.dylib : _IDL_ThreadBEventWait + 240 
+0x005081ec: libidl.6.3.dylib : _thread_pool_func + 372 
+0x95fba7e8: /usr/lib/libSystem.B.dylib : __pthread_body + 40 
+0x00000000: /Applications/rsi/idl/bin/bin.darwin.ppc/idl :  + 0 
+
+PPC Thread State
+srr0: 0x00000000	srr1: 0x00000000		             vrsave: 0x00000000
+cr:  0xXXXXXXXX		xer: 0x00000000		 lr: 0x95fb6fdc		ctr: 0x95f1a130
+r00: 0xffffffdb 	r01: 0xf0080d60 	r02: 0x00000001 	r03: 0x00002603 	
+r04: 0x00002503 	r05: 0x00000000 	r06: 0x00000000 	r07: 0x00000000 	
+r08: 0x00000000 	r09: 0x00000001 	r10: 0xa09d8568 	r11: 0xa09c0668 	
+r12: 0x95f1a130 	r13: 0x00000000 	r14: 0x00000000 	r15: 0x00000000 	
+r16: 0x00000000 	r17: 0x00000000 	r18: 0x00000000 	r19: 0x00000000 	
+r20: 0x00000000 	r21: 0x00000000 	r22: 0x00000000 	r23: 0x00000000 	
+r24: 0x00000000 	r25: 0x00000000 	r26: 0xa09c76fc 	r27: 0x00000000 	
+r28: 0x0190c644 	r29: 0x00000000 	r30: 0x0190c670 	r31: 0x95fb6c20 	
+
+Thread 4: (0xb019ed38, 0xb815acc0)
+0x9609aa4c: /usr/lib/libSystem.B.dylib : __dispatch_mgr_invoke + 228 
+0x9609a430: /usr/lib/libSystem.B.dylib : __dispatch_queue_invoke + 308 
+0x9609a5c0: /usr/lib/libSystem.B.dylib : __dispatch_worker_thread2 + 372 
+0x9609a6fc: /usr/lib/libSystem.B.dylib : __dispatch_worker_thread + 76 
+0x95fba7e8: /usr/lib/libSystem.B.dylib : __pthread_body + 40 
+0x00000000: /Applications/rsi/idl/bin/bin.darwin.ppc/idl :  + 0 
+
+PPC Thread State
+srr0: 0x00000000	srr1: 0x00000000		             vrsave: 0x00000000
+cr:  0xXXXXXXXX		xer: 0x20000000		 lr: 0x9609aa14		ctr: 0x95f5dcec
+r00: 0x0000016b 	r01: 0xf0182bb0 	r02: 0x00000000 	r03: 0x00000005 	
+r04: 0x00000000 	r05: 0x00000000 	r06: 0xf0182d0c 	r07: 0x00000001 	
+r08: 0xf0182d28 	r09: 0x00000000 	r10: 0x0000003e 	r11: 0xa09bf520 	
+r12: 0x95f5dcec 	r13: 0x10624dd3 	r14: 0x960e9b24 	r15: 0xf0182c0c 	
+r16: 0xf0182c8c 	r17: 0xa09da970 	r18: 0xf0182d28 	r19: 0xa09d4500 	
+r20: 0xa09d5500 	r21: 0xf0182d0c 	r22: 0xa09d4480 	r23: 0xa09d4400 	
+r24: 0xa09da970 	r25: 0x00000000 	r26: 0xa09c660c 	r27: 0x00000000 	
+r28: 0xa09c65e4 	r29: 0xa09c631c 	r30: 0xf0182d28 	r31: 0x9609a970 	
+
+

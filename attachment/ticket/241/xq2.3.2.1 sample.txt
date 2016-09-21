@@ -1,0 +1,272 @@
+Sampling process 4802 for 3 seconds with 1 millisecond of run time between samples
+Sampling completed, processing symbols...
+Analysis of sampling X11.bin (pid 4802) every 1 millisecond
+Call graph:
+    1766 Thread_2503
+      1766 start
+        1766 main
+          1766 mach_msg_server
+            1766 mach_startup_server
+              1766 _Xstart_x11_server
+                1766 do_start_x11_server
+                  1766 server_main
+                    1766 X11ApplicationMain
+                      1766 -[NSApplication run]
+                        1764 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:]
+                          1764 _DPSNextEvent
+                            1762 BlockUntilNextEventMatchingListInMode
+                              1762 ReceiveNextEventCommon
+                                1762 RunCurrentEventLoopInMode
+                                  1762 CFRunLoopRunInMode
+                                    1762 CFRunLoopRunSpecific
+                                      1748 mach_msg
+                                        1748 mach_msg_trap
+                                          1748 mach_msg_trap
+                                      8 0xffffffff
+                                        8 _sigtramp
+                                          8 _sigtramp
+                                      3 __CFMachPortPerform
+                                        3 PullEventsFromWindowServerOnConnection(unsigned int, unsigned char)
+                                          2 CGEventCreateNextEvent
+                                            2 CGSGetNextEventRecordInternal
+                                              2 snarfEvents
+                                                2 CGSDispatchDatagramsFromStream
+                                                  2 CGSDecodeEventRecord
+                                                    2 CGEventCreateFromDataAndSource
+                                                      2 malloc
+                                                        2 malloc_zone_malloc
+                                                          2 szone_malloc
+                                                            2 large_and_huge_malloc
+                                                              2 mmap
+                                                                2 mmap
+                                          1 ConvertPlatformEventRecordAndPostWithOptions(__CGEvent*, _CGSEventRecord const*, short, unsigned char, unsigned char)
+                                            1 PostEventToQueueInternal
+                                              1 _NotifyEventLoopObservers
+                                                1 KeyEventPostedObserver
+                                                  1 KeyEventPostedObserver
+                                      3 __CFRunLoopDoObservers
+                                        3 _handleWindowsNeedUpdateNote
+                                          2 -[NSApplication updateWindows]
+                                            1 -[NSNotificationCenter postNotificationName:object:]
+                                              1 -[NSConcreteNotification recycle]
+                                                1 -[NSObject release]
+                                                  1 __CFDoExternRefOperation
+                                                    1 CFBagContainsValue
+                                                      1 __CFBagFindBuckets1a
+                                                        1 __CFBagFindBuckets1a
+                                            1 _CFRelease
+                                              1 malloc_zone_free
+                                                1 malloc_zone_free
+                                          1 objc_msgSend
+                                            1 objc_msgSend
+                            1 SendEventToEventTarget
+                              1 SendEventToEventTargetInternal(OpaqueEventRef*, OpaqueEventTargetRef*, HandlerCallRec*)
+                                1 DispatchEventToHandlers(EventTargetRec*, OpaqueEventRef*, HandlerCallRec*)
+                                  1 ToolboxEventDispatcherHandler(OpaqueEventHandlerCallRef*, OpaqueEventRef*, void*)
+                                    1 FindWindowAndPartFromMouseEvent
+                                      1 FindWindow
+                                        1 FindWindowOfClass
+                                          1 FindWindowCommon(Point, OpaqueWindowPtr**, short*)
+                                            1 FindPlatformWindow
+                                              1 CGSFindWindowAndOwner
+                                                1 _CGSFindWindow
+                                                  1 mach_msg
+                                                    1 mach_msg_trap
+                                                      1 mach_msg_trap
+                            1 _GetEventPlatformEventRecord
+                              1 _GetEventPlatformEventRecord
+                        2 -[X11Application sendEvent:]
+                          2 -[X11Application(Private) sendX11NSEvent:]
+                            2 xp_find_window
+                              2 CGSFindWindowAndOwner
+                                2 _CGSFindWindow
+                                  2 mach_msg
+                                    2 mach_msg_trap
+                                      2 mach_msg_trap
+    1766 Thread_2603
+      1766 thread_start
+        1766 _pthread_start
+          1766 CAPThread::Entry(CAPThread*)
+            1766 HALRunLoop::OwnThread(void*)
+              1766 CFRunLoopRunInMode
+                1766 CFRunLoopRunSpecific
+                  1766 mach_msg
+                    1766 mach_msg_trap
+                      1766 mach_msg_trap
+    1766 Thread_2703
+      1766 thread_start
+        1766 _pthread_start
+          1766 server_thread
+            1766 dix_main
+              1766 Dispatch
+                1495 select$DARWIN_EXTSN
+                  1495 select$DARWIN_EXTSN
+                258 WaitForSomething
+                  114 BlockHandler
+                    93 QuartzBlockHandler
+                      51 NSPopAutoreleasePool
+                        31 NSPopAutoreleasePool
+                        9 objc_assign_strongCast
+                          9 objc_assign_strongCast
+                        8 NSClassFromObject
+                          3 -[NSObject class]
+                            3 -[NSObject class]
+                          3 NSClassFromObject
+                          2 object_getClass
+                            2 object_getClass
+                        1 objc_collecting_enabled
+                          1 objc_collecting_enabled
+                        1 objc_msgSend
+                          1 objc_msgSend
+                        1 pthread_getspecific
+                          1 pthread_getspecific
+                      13 -[NSAutoreleasePool init]
+                        8 -[NSAutoreleasePool initWithCapacity:]
+                          6 NSPushAutoreleasePool
+                            3 NSPushAutoreleasePool
+                            2 objc_assign_strongCast
+                              2 objc_assign_strongCast
+                            1 objc_collecting_enabled
+                              1 objc_collecting_enabled
+                          1 NSClassFromObject
+                            1 NSClassFromObject
+                          1 objc_msgSend
+                            1 objc_msgSend
+                        2 -[NSAutoreleasePool init]
+                        2 objc_msgSend
+                          2 objc_msgSend
+                        1 dyld_stub_objc_collecting_enabled
+                          1 dyld_stub_objc_collecting_enabled
+                      12 objc_msgSend
+                        12 objc_msgSend
+                      6 QuartzBlockHandler
+                      3 +[NSObject alloc]
+                        2 +[NSObject alloc]
+                        1 +[NSAutoreleasePool allocWithZone:]
+                          1 pthread_getspecific
+                            1 pthread_getspecific
+                      3 -[NSAutoreleasePool release]
+                        3 -[NSAutoreleasePool release]
+                      2 pthread_getspecific
+                        2 pthread_getspecific
+                      1 dyld_stub_objc_msgSend
+                        1 dyld_stub_objc_msgSend
+                      1 dyld_stub_pthread_getspecific
+                        1 dyld_stub_pthread_getspecific
+                      1 objc_collecting_enabled
+                        1 objc_collecting_enabled
+                    10 objc_msgSend
+                      10 objc_msgSend
+                    7 AnimCurScreenBlockHandler
+                      4 miSpriteBlockHandler
+                        4 miSpriteBlockHandler
+                      3 AnimCurScreenBlockHandler
+                    2 BlockHandler
+                    2 RootlessBlockHandler
+                      2 RootlessBlockHandler
+                  43 __bzero
+                    43 __bzero
+                  40 GetTimeInMillis
+                    28 gettimeofday
+                      26 __gettimeofday
+                        18 __nanotime
+                          18 __nanotime
+                        8 __gettimeofday
+                      2 gettimeofday
+                    5 __commpage_gettimeofday
+                      5 __commpage_gettimeofday
+                    5 __gettimeofday
+                      5 __gettimeofday
+                    2 GetTimeInMillis
+                  36 WaitForSomething
+                  15 WakeupHandler
+                    11 WakeupHandler
+                    2 NoopDDA
+                      2 NoopDDA
+                    2 RootlessWakeupHandler
+                      2 RootlessWakeupHandler
+                  6 select$DARWIN_EXTSN
+                    6 select$DARWIN_EXTSN
+                  3 __error
+                    3 __error
+                  1 select$UNIX2003
+                    1 select$UNIX2003
+                8 Dispatch
+                4 __error
+                  4 __error
+                1 memset
+                  1 memset
+    1766 Thread_2803
+      1766 thread_start
+        1766 _pthread_start
+          1766 xpbproxy_x_thread
+            1766 xpbproxy_input_loop
+              1766 pthread_cond_wait$UNIX2003
+                1766 __semwait_signal
+                  1766 __semwait_signal
+    1766 Thread_2903
+      1766 thread_start
+        1766 _pthread_start
+          1766 glcDebugListener
+            1766 mach_msg
+              1766 mach_msg_trap
+                1766 mach_msg_trap
+    1766 Thread_2a03
+      1766 thread_start
+        1766 _pthread_start
+          1766 glvmDoWork
+            1766 pthread_cond_wait$UNIX2003
+              1766 __semwait_signal
+                1766 __semwait_signal
+    1766 Thread_2b03
+      1766 thread_start
+        1766 _pthread_start
+          1766 DarwinProcessFDAdditionQueue_thread
+            1766 pthread_cond_wait$UNIX2003
+              1766 __semwait_signal
+                1766 __semwait_signal
+    1766 Thread_2c03
+      1766 0xd3c1815
+        1766 thread_suspend
+          1766 mach_msg
+            1766 mach_msg_trap
+              1766 mach_msg_trap
+    1766 Thread_2d03
+      1766 thread_start
+        1766 _pthread_start
+          1766 select$DARWIN_EXTSN
+            1766 select$DARWIN_EXTSN
+    1766 Thread_2e03
+      1766 thread_start
+        1766 _pthread_start
+          1766 _xp_async_thread
+            1766 _xp_async_dequeue
+              1766 pthread_cond_wait$UNIX2003
+                1766 __semwait_signal
+                  1766 __semwait_signal
+
+Total number in stack (recursive counted multiple, when >=5):
+        8       _pthread_start
+        8       thread_start
+        6       mach_msg
+        6       mach_msg_trap
+        6       objc_msgSend
+
+Sort by top of stack, same collapsed (when >= 5):
+        __semwait_signal        7064
+        mach_msg_trap        7049
+        select$DARWIN_EXTSN        3267
+        __bzero        43
+        WaitForSomething        36
+        NSPopAutoreleasePool        31
+        objc_msgSend        27
+        __nanotime        18
+        __gettimeofday        13
+        WakeupHandler        11
+        objc_assign_strongCast        11
+        Dispatch        8
+        _sigtramp        8
+        __error        7
+        QuartzBlockHandler        6
+        __commpage_gettimeofday        5
+Sample analysis of process 4802 written to file /dev/stdout

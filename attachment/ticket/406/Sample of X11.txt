@@ -1,0 +1,134 @@
+Sampling process 6630 for 1 seconds with 1 millisecond of run time between samples
+Sampling completed, processing symbols...
+Analysis of sampling X11.bin (pid 6630) every 1 millisecond
+Call graph:
+    562 Thread_2507
+      562 start
+        562 main
+          562 mach_msg_server
+            562 mach_startup_server
+              562 _Xstart_x11_server
+                562 do_start_x11_server
+                  562 server_main
+                    562 X11ApplicationMain
+                      562 -[NSApplication run]
+                        562 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:]
+                          562 _DPSNextEvent
+                            562 BlockUntilNextEventMatchingListInMode
+                              562 ReceiveNextEventCommon
+                                562 RunCurrentEventLoopInMode
+                                  562 CFRunLoopRunInMode
+                                    562 CFRunLoopRunSpecific
+                                      562 __CFMachPortPerform
+                                        562 __NSFireMachPort
+                                          562 -[X11Application handleMachMessage:]
+                                            562 -[X11Controller set_window_menu_check:]
+                                              562 -[NSMenu itemChanged:]
+                                                562 +[NSDictionary dictionaryWithObjectsAndKeys:]
+                                                  562 -[__NSPlaceholderDictionary initWithObjects:forKeys:count:]
+                                                    562 CFDictionaryCreate
+                                                      562 __CFDictionaryInit
+                                                        562 _CFRuntimeCreateInstance
+                                                          562 malloc_zone_malloc
+                                                            562 szone_malloc
+                                                              562 0xffffffff
+                                                                562 _sigtramp
+                                                                  562 OsSigHandler
+                                                                    562 FatalError
+                                                                      562 AbortServer
+                                                                        562 CloseWellKnownConnections
+                                                                          562 _XSERVTransClose
+                                                                            562 _XSERVTransFreeConnInfo
+                                                                              562 free
+                                                                                560 __spin_lock
+                                                                                  560 __spin_lock
+                                                                                2 0xffffffff
+                                                                                  2 _sigtramp
+                                                                                    2 _sigtramp
+    562 Thread_2603
+      562 thread_start
+        562 _pthread_start
+          562 CAPThread::Entry(CAPThread*)
+            562 HALRunLoop::OwnThread(void*)
+              562 CFRunLoopRunInMode
+                562 CFRunLoopRunSpecific
+                  562 mach_msg
+                    562 mach_msg_trap
+                      562 mach_msg_trap
+    562 Thread_2703
+      562 thread_start
+        562 _pthread_start
+          562 server_thread
+            562 dix_main
+              562 Dispatch
+                562 ProcImageText8
+                  562 ImageText
+                    562 doImageText
+                      562 RootlessImageText8
+                        562 RootlessStartDrawing
+                          562 xprStartDrawing
+                            562 xp_lock_window
+                              562 xp_synchronize
+                                562 _xp_synchronize
+                                  562 _xp_async_dequeue
+                                    562 pthread_cond_wait$UNIX2003
+                                      562 __semwait_signal
+                                        562 __semwait_signal
+    562 Thread_2803
+      562 thread_start
+        562 _pthread_start
+          562 xpbproxy_x_thread
+            562 xpbproxy_run
+              562 CFRunLoopRun
+                562 CFRunLoopRunSpecific
+                  562 mach_msg
+                    562 mach_msg_trap
+                      562 mach_msg_trap
+    562 Thread_2903
+      562 thread_start
+        562 _pthread_start
+          562 glvmDoWork
+            562 pthread_cond_wait$UNIX2003
+              562 __semwait_signal
+                562 __semwait_signal
+    562 Thread_2a03
+      562 thread_start
+        562 _pthread_start
+          562 DarwinProcessFDAdditionQueue_thread
+            562 pthread_cond_wait$UNIX2003
+              562 __semwait_signal
+                562 __semwait_signal
+    562 Thread_2b03
+      562 thread_start
+        562 _pthread_start
+          562 select$DARWIN_EXTSN
+            562 select$DARWIN_EXTSN
+    562 Thread_2c03
+      562 thread_start
+        562 _pthread_start
+          562 _xp_async_thread
+            562 _xp_frame_draw_cb
+              562 CGContextClearRect
+                562 CGContextFillRects
+                  562 ripc_DrawRects
+                    562 ripc_Render
+                      562 ripl_BltShape
+                        562 ripd_Unlock
+                          562 CGSDeviceUnlock
+                            562 CGSBoundingShapeCreate
+                              562 shape_accum_alloc
+                                562 mem_heap_malloc
+                                  562 malloc_zone_malloc
+                                    562 __spin_lock
+                                      562 __spin_lock
+
+Total number in stack (recursive counted multiple, when >=5):
+        7       _pthread_start
+        7       thread_start
+
+Sort by top of stack, same collapsed (when >= 5):
+        __semwait_signal        1686
+        mach_msg_trap        1124
+        __spin_lock        1122
+        select$DARWIN_EXTSN        562
+Sample analysis of process 6630 written to file /dev/stdout

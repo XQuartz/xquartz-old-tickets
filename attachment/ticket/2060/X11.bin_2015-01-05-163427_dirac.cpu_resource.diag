@@ -1,0 +1,189 @@
+Date/Time:       2015-01-05 16:32:07 +0100
+OS Version:      10.10.2 (Build 14C81f)
+Architecture:    x86_64
+Report Version:  19
+
+Command:         X11.bin
+Path:            /Applications/Utilities/XQuartz.app/Contents/MacOS/X11.bin
+Version:         ??? (???)
+Parent:          launchd [1]
+PID:             721
+
+Event:           cpu usage (microstackshots only)
+Thread:          0x2b3f (65% cpu over 139 seconds)
+Duration:        139.00s
+Steps:           145
+
+Hardware model:  iMac11,2
+Active cpus:     4
+
+Fan speed:       998 rpm
+
+
+Powerstats for:  X11.bin [721] thread 0x2b3f
+Start time:      2015-01-05 16:32:08 +0100
+End time:        2015-01-05 16:34:25 +0100
+Parent:          launchd
+Microstackshots: 84 samples (57%)
+Primary state:   72 samples Non-Frontmost App, Kernel mode, Thread QoS Legacy
+User Activity:   0 samples Idle, 84 samples Active
+Power Source:    0 samples on Battery, 84 samples on AC
+  84 thread_start + 13 (libsystem_pthread.dylib) [0x7fff8c2bf41d]
+    84 _pthread_start + 176 (libsystem_pthread.dylib) [0x7fff8c2c11e5]
+      84 _pthread_body + 131 (libsystem_pthread.dylib) [0x7fff8c2c1268]
+        84 TCopyWriter::WriteTaskProc(void*) + 229 (DesktopServicesPriv) [0x7fff929c41c9]
+          84 TCopyWriter::Write() + 130 (DesktopServicesPriv) [0x7fff929c4296]
+            76 TCopyWriter::WriteDataFork() + 163 (DesktopServicesPriv) [0x7fff929c4fef]
+              76 TCopyQueue::Dequeue() + 47 (DesktopServicesPriv) [0x7fff929e1077]
+                73 TBlockingQueue<TCopyItem>::Dequeue(TCopyItem*&, int) + 97 (DesktopServicesPriv) [0x7fff929e1c91]
+                  73 TConditionVariable::Wait(TDSMutex&) + 31 (DesktopServicesPriv) [0x7fff929df975]
+                    73 __psynch_cvwait + 10 (libsystem_kernel.dylib) [0x7fff99b88136]
+                      10 <Frontmost App>
+                2  TBlockingQueue<TCopyItem>::Dequeue(TCopyItem*&, int) + 38 (DesktopServicesPriv) [0x7fff929e1c56]
+                  2  TDSMutex::lock() + 34 (DesktopServicesPriv) [0x7fff929df87c]
+                    2  __psynch_mutexwait + 10 (libsystem_kernel.dylib) [0x7fff99b88166]
+                1  TBlockingQueue<TCopyItem>::Dequeue(TCopyItem*&, int) + 252 (DesktopServicesPriv) [0x7fff929e1d2c]
+            5  pwrite + 10 (libsystem_kernel.dylib) [0x7fff99b8963a]
+            2  TCopyWriter::WriteDataFork() + 837 (DesktopServicesPriv) [0x7fff929c5291]
+              1  TCopyItem::~TCopyItem() + 57 (DesktopServicesPriv) [0x7fff929e74f5]
+                1  <Frontmost App, User mode>
+              1  TCopyItem::~TCopyItem() + 28 (DesktopServicesPriv) [0x7fff929e74d8]
+                1  TBlockingQueue<TCopyBuffer>::Enqueue(TCopyBuffer*) + 65 (DesktopServicesPriv) [0x7fff929e1fc7]
+                  1  __psynch_cvsignal + 10 (libsystem_kernel.dylib) [0x7fff99b8811e]
+            1  TCopyWriter::WriteDataFork() + 134 (DesktopServicesPriv) [0x7fff929c4fd2]
+              1  TCFURLInfo::GetNumericalProperty(__CFURL const*, __CFString const*) + 43 (DesktopServicesPriv) [0x7fff929af703]
+                1  CFURLCopyResourcePropertyForKey + 123 (CoreFoundation) [0x7fff9490306b]
+                  1  _FSURLCopyResourcePropertyForKeyInternal(__CFURL const*, __CFString const*, void*, void*, __CFError**, unsigned char) + 449 (CoreServicesInternal) [0x7fff8ccb61d8]
+                    1  pthread_mutex_unlock + 63 (libsystem_pthread.dylib) [0x7fff8c2bfb4e]
+                      1  __mtx_droplock + 267 (libsystem_pthread.dylib) [0x7fff8c2bfd11]
+                        1  <User mode>
+
+  Binary Images:
+         0x100000000 -        0x1001c4ff7  X11.bin <F8DA00E7-25F4-3C93-A2A7-C88C86A1F8A6> /Applications/Utilities/XQuartz.app/Contents/MacOS/X11.bin
+      0x7fff8c2be000 -     0x7fff8c2c7fff  libsystem_pthread.dylib (105.10.1) <3103AA7F-3BAE-3673-9649-47FFD7E15C97> /usr/lib/system/libsystem_pthread.dylib
+      0x7fff8cca3000 -     0x7fff8ccd1fff  com.apple.CoreServicesInternal 221.2.2 (221.2.2) <16F7A7F1-CF1D-35AD-A91F-690A814048DF> /System/Library/PrivateFrameworks/CoreServicesInternal.framework/Versions/A/CoreServicesInternal
+      0x7fff92916000 -     0x7fff92a24fff  com.apple.desktopservices 1.9.2 (1.9.2) <8670FD3B-8A5B-3D84-B21E-DF21140545A2> /System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv
+      0x7fff948a6000 -     0x7fff94c3cfff  com.apple.CoreFoundation 6.9 (1152) <CBD1591C-405E-376E-87E9-B264610EBF49> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+      0x7fff99b72000 -     0x7fff99b8ffff  libsystem_kernel.dylib (2782.10.67) <9FEEFF8E-0582-32CF-ABDE-5B05E23E7D37> /usr/lib/system/libsystem_kernel.dylib
+
+
+Powerstats for:  X11.bin [721] (other threads)
+Start time:      2015-01-05 16:32:12 +0100
+End time:        2015-01-05 16:34:26 +0100
+Microstackshots: 61 samples (42%)
+Primary state:   26 samples Non-Frontmost App, Kernel mode, Thread QoS Legacy
+User Activity:   0 samples Idle, 61 samples Active
+Power Source:    0 samples on Battery, 61 samples on AC
+  61 thread_start + 13 (libsystem_pthread.dylib) [0x7fff8c2bf41d]
+    61 _pthread_start + 176 (libsystem_pthread.dylib) [0x7fff8c2c11e5]
+      61 _pthread_body + 131 (libsystem_pthread.dylib) [0x7fff8c2c1268]
+        61 __NSThread__main__ + 1345 (Foundation) [0x7fff8e78b90a]
+          57 ??? (Sparkle + 56161) [0x100249b61]
+            57 _FSOperateOnObjectSync + 460 (CarbonCore) [0x7fff98567de8]
+              57 _NodeOperation + 476 (DesktopServicesPriv) [0x7fff929940dc]
+                57 TFSCopyOperation::DoCopy(TCountedPtr<TCFURLInfo> const&) + 457 (DesktopServicesPriv) [0x7fff929a2bdd]
+                  57 TFSCopyOperation::CopyToTarget() + 688 (DesktopServicesPriv) [0x7fff929a4230]
+                    56 TCopyReader::Read(TLOperationRecordPtr, TCountedPtr<TCFURLInfo> const&, TCountedPtr<TCFURLInfo> const&, OperationResolution) + 423 (DesktopServicesPriv) [0x7fff929e3e47]
+                      34 TCopyReader::ReadDataFork() + 189 (DesktopServicesPriv) [0x7fff929e5ec7]
+                        34 TCopyQueue::GetBuffer() + 57 (DesktopServicesPriv) [0x7fff929e172f]
+                          30 TBlockingQueue<TCopyBuffer>::Dequeue(TCopyBuffer*&, int) + 192 (DesktopServicesPriv) [0x7fff929e1e54]
+                            30 TConditionVariable::WaitWithTimeout(TDSMutex&, unsigned long long, bool&) + 92 (DesktopServicesPriv) [0x7fff929df930]
+                              30 __psynch_cvwait + 10 (libsystem_kernel.dylib) [0x7fff99b88136]
+                                7  <Frontmost App>
+                                1  <User mode>
+                          4  TBlockingQueue<TCopyBuffer>::Dequeue(TCopyBuffer*&, int) + 252 (DesktopServicesPriv) [0x7fff929e1e90]
+                            1  <Frontmost App>
+                            1  <User mode>
+                      4  pread + 10 (libsystem_kernel.dylib) [0x7fff99b895da]
+                        1  <Frontmost App>
+                        1  <Frontmost App, User mode>
+                      4  TCopyReader::ReadDataFork() + 120 (DesktopServicesPriv) [0x7fff929e5e82]
+                        4  TCFURLInfo::GetNumericalProperty(__CFURL const*, __CFString const*) + 43 (DesktopServicesPriv) [0x7fff929af703]
+                          2  _FSURLCopyResourcePropertyForKey + 1 (CoreServicesInternal) [0x7fff8ccb6008]
+                            2  <User mode>
+                          2  CFURLCopyResourcePropertyForKey + 38 (CoreFoundation) [0x7fff94903016]
+                            2  _CFURLHasFileURLScheme + 133 (CoreFoundation) [0x7fff94903155]
+                              2  <User mode>
+                      3  TCopyReader::ReadDataFork() + 556 (DesktopServicesPriv) [0x7fff929e6036]
+                        3  TCopyQueue::Enqueue(TCopyItem*) + 68 (DesktopServicesPriv) [0x7fff929e1030]
+                          3  TBlockingQueue<TCopyItem>::Enqueue(TCopyItem*) + 65 (DesktopServicesPriv) [0x7fff929e1f4f]
+                            2  __psynch_cvsignal + 10 (libsystem_kernel.dylib) [0x7fff99b8811e]
+                              2  <Frontmost App>
+                            1  OSAtomicCompareAndSwapIntBarrier$VARIANT$mp + 6 (libsystem_platform.dylib) [0x7fff96487326]
+                              1  <User mode>
+                      2  TCopyReader::ReadDataFork() + 105 (DesktopServicesPriv) [0x7fff929e5e73]
+                        2  <User mode>
+                      2  TCopyReader::ReadDataFork() + 115 (DesktopServicesPriv) [0x7fff929e5e7d]
+                        2  <User mode>
+                      2  TCFURLInfo::CheckPrefetchState(TCFURLInfo::PrefetchState) const + 1 (DesktopServicesPriv) [0x7fff929aee39]
+                        2  <User mode>
+                      1  TCopyReader::ReadDataFork() + 503 (DesktopServicesPriv) [0x7fff929e6001]
+                        1  <User mode>
+                      1  TCopyReader::ReadDataFork() + 450 (DesktopServicesPriv) [0x7fff929e5fcc]
+                        1  operator new(unsigned long) + 30 (libc++.1.dylib) [0x7fff9919743e]
+                          1  malloc + 42 (libsystem_malloc.dylib) [0x7fff980fa395]
+                            1  malloc_zone_malloc + 71 (libsystem_malloc.dylib) [0x7fff980fb877]
+                              1  szone_malloc_should_clear + 26 (libsystem_malloc.dylib) [0x7fff980fbe2d]
+                                1  <User mode>
+                      1  TCopyReader::ReadDataFork() + 256 (DesktopServicesPriv) [0x7fff929e5f0a]
+                        1  <User mode>
+                      1  TCountedPtr<TCFURLInfo>::~TCountedPtr() + 1 (DesktopServicesPriv) [0x7fff929dca91]
+                        1  <User mode>
+                      1  TCopyReader::ReadDataFork() + 545 (DesktopServicesPriv) [0x7fff929e602b]
+                        1  TCopyItem::TCopyItem(CopyItemType, TCopyQueue*, TCountedPtr<TCFURLInfo>, __CFURL const*, TCopyBuffer*, CopyItemFlags, bool, bool, TLOperationRecordPtr) + 1111 (DesktopServicesPriv) [0x7fff929e6c67]
+                          1  <User mode>
+                    1  TBasicOperationReporter::Finalize() + 18 (DesktopServicesPriv) [0x7fff929e1872]
+                      1  <User mode>
+          4  -[NSUIHeartBeat _heartBeatThread:] + 1738 (AppKit) [0x7fff977e5195]
+            2  -[NSProgressIndicator heartBeat:] + 2192 (AppKit) [0x7fff977e5dec]
+              2  -[NSProgressIndicator _drawBar:] + 498 (AppKit) [0x7fff97b63304]
+                2  -[NSAppearance _drawInRect:context:options:] + 127 (AppKit) [0x7fff97ecb010]
+                  2  -[NSCompositeAppearance _callCoreUIWithBlock:] + 183 (AppKit) [0x7fff97ecd1b5]
+                    2  __44-[NSAppearance _drawInRect:context:options:]_block_invoke + 64 (AppKit) [0x7fff97ecb057]
+                      2  CUIDraw + 205 (CoreUI) [0x7fff91c8040f]
+                        2  CUIRenderer::Draw(CGRect, CGContext*, __CFDictionary const*, __CFDictionary const**) + 2275 (CoreUI) [0x7fff91c43b93]
+                          2  CUICoreThemeRenderer::Draw(CUIDescriptor const*, CGAffineTransform, CUIReturnInfo&) + 445 (CoreUI) [0x7fff91c70705]
+                            2  CUICoreThemeRenderer::DrawProgressBar(CUIDescriptor const*) + 813 (CoreUI) [0x7fff91c74121]
+                              2  -[CUIThemeFacet imageSize] + 83 (CoreUI) [0x7fff91cdbb03]
+                                2  -[CUIThemeFacet _approximateRenditionForRenditionKey:] + 1048 (CoreUI) [0x7fff91cd6a0c]
+                                  2  objc_msgSend + 26 (libobjc.A.dylib) [0x7fff950570da]
+                                    2  <User mode, Thread QoS User Interactive>
+            1  -[NSProgressIndicator heartBeat:] + 2175 (AppKit) [0x7fff977e5ddb]
+              1  -[NSImage drawInRect:] + 119 (AppKit) [0x7fff97aae0dc]
+                1  -[NSImage drawInRect:fromRect:operation:fraction:respectFlipped:hints:] + 2122 (AppKit) [0x7fff977109a7]
+                  1  -[NSImage _usingBestRepresentationForRect:context:hints:body:] + 164 (AppKit) [0x7fff9769e916]
+                    1  __71-[NSImage drawInRect:fromRect:operation:fraction:respectFlipped:hints:]_block_invoke1008 + 1139 (AppKit) [0x7fff97aadd46]
+                      1  -[NSImageRep drawInRect:fromRect:operation:fraction:respectFlipped:hints:] + 711 (AppKit) [0x7fff97711028]
+                        1  objc_msgSend + 46 (libobjc.A.dylib) [0x7fff950570ee]
+                          1  <Thread QoS User Interactive>
+            1  -[NSProgressIndicator heartBeat:] + 2829 (AppKit) [0x7fff977e6069]
+              1  CGContextEndTransparencyLayer + 53 (CoreGraphics) [0x7fff8fc724f2]
+                1  ripc_EndLayer + 1204 (libRIP.A.dylib) [0x106db75f7]
+                  1  ripc_RenderImage + 265 (libRIP.A.dylib) [0x106da9f69]
+                    1  RIPLayerBltImage + 283 (libRIP.A.dylib) [0x106daa2b5]
+                      1  ripd_Lock + 40 (libRIP.A.dylib) [0x106da393c]
+                        1  CGSDeviceLock + 52 (CoreGraphics) [0x7fff8fc13e80]
+                          1  lock_window_backing + 910 (CoreGraphics) [0x7fff8fd84eab]
+                            1  CGSWindowSynchronizeBacking + 40 (CoreGraphics) [0x7fff9010b545]
+                              1  _CGSSynchronizeWindowBackingStore + 110 (CoreGraphics) [0x7fff8fc92062]
+                                1  mach_msg_trap + 10 (libsystem_kernel.dylib) [0x7fff99b834de]
+                                  1  <Thread QoS User Interactive>
+
+  Binary Images:
+         0x100000000 -        0x1001c4ff7  X11.bin <F8DA00E7-25F4-3C93-A2A7-C88C86A1F8A6> /Applications/Utilities/XQuartz.app/Contents/MacOS/X11.bin
+         0x10023c000 -        0x100257ff7  org.andymatuschak.Sparkle 1.5 Beta (git) (1.5) <FE8E6DE1-27AA-3E1F-A3A8-18D2CB6C190E> /Applications/Utilities/XQuartz.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle
+         0x106d9c000 -        0x106dc4ffb  libRIP.A.dylib (775.12) <67ECDE71-D929-3F85-9F5F-D56A6A30F04E> /System/Library/Frameworks/CoreGraphics.framework/Versions/A/Resources/libRIP.A.dylib
+      0x7fff8c2be000 -     0x7fff8c2c7fff  libsystem_pthread.dylib (105.10.1) <3103AA7F-3BAE-3673-9649-47FFD7E15C97> /usr/lib/system/libsystem_pthread.dylib
+      0x7fff8cca3000 -     0x7fff8ccd1fff  com.apple.CoreServicesInternal 221.2.2 (221.2.2) <16F7A7F1-CF1D-35AD-A91F-690A814048DF> /System/Library/PrivateFrameworks/CoreServicesInternal.framework/Versions/A/CoreServicesInternal
+      0x7fff8e723000 -     0x7fff8ea51fff  com.apple.Foundation 6.9 (1152.12) <C0EE9DA6-C111-358A-8874-DA175BB797D6> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+      0x7fff8fbff000 -     0x7fff90456ff7  com.apple.CoreGraphics 1.600.0 <63C3E733-45C4-38BB-9D8D-28C0CCC86513> /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+      0x7fff91c3a000 -     0x7fff91d62ff7  com.apple.coreui 2.1 (305.5) <125964E2-8118-36EB-A6BC-23262C8DD6BE> /System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI
+      0x7fff92916000 -     0x7fff92a24fff  com.apple.desktopservices 1.9.2 (1.9.2) <8670FD3B-8A5B-3D84-B21E-DF21140545A2> /System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv
+      0x7fff948a6000 -     0x7fff94c3cfff  com.apple.CoreFoundation 6.9 (1152) <CBD1591C-405E-376E-87E9-B264610EBF49> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+      0x7fff95056000 -     0x7fff9525046f  libobjc.A.dylib (647) <759E155D-BC42-3D4E-869B-6F57D477177C> /usr/lib/libobjc.A.dylib
+      0x7fff96484000 -     0x7fff9648cfff  libsystem_platform.dylib (63) <64E34079-D712-3D66-9CE2-418624A5C040> /usr/lib/system/libsystem_platform.dylib
+      0x7fff975b1000 -     0x7fff980f8fff  com.apple.AppKit 6.9 (1344.36) <D94A7D32-A789-37EA-A85C-BEFA7DE716E6> /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+      0x7fff980f9000 -     0x7fff98115ff7  libsystem_malloc.dylib (53.1.1) <19BCC257-5717-3502-A71F-95D65AFA861B> /usr/lib/system/libsystem_malloc.dylib
+      0x7fff98512000 -     0x7fff987f9ffb  com.apple.CoreServices.CarbonCore 1108.2 (1108.2) <FD87F83F-301A-3BD6-8262-5692FC1B4457> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+      0x7fff9915a000 -     0x7fff991aefff  libc++.1.dylib (120) <1B9530FD-989B-3174-BB1C-BDC159501710> /usr/lib/libc++.1.dylib
+      0x7fff99b72000 -     0x7fff99b8ffff  libsystem_kernel.dylib (2782.10.67) <9FEEFF8E-0582-32CF-ABDE-5B05E23E7D37> /usr/lib/system/libsystem_kernel.dylib

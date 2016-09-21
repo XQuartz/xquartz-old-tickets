@@ -1,0 +1,86 @@
+Nov  8 06:37:32 gpes3e-gjp4.local Installer[13116]: @(#)PROGRAM:Install  PROJECT:Install-735
+Nov  8 06:37:32 gpes3e-gjp4.local Installer[13116]: @(#)PROGRAM:Installer  PROJECT:Installer-618
+Nov  8 06:37:32 gpes3e-gjp4.local Installer[13116]: Hardware: MacBookPro5,2 @ 2.66 GHz (x 2), 8192 MB RAM
+Nov  8 06:37:32 gpes3e-gjp4.local Installer[13116]: Running OS Build: Mac OS X 10.8.5 (12F45)
+Nov  8 06:37:32 gpes3e-gjp4.local Installer[13116]: Env: PATH=/usr/bin:/bin:/usr/sbin:/sbin
+Nov  8 06:37:32 gpes3e-gjp4.local Installer[13116]: Env: TMPDIR=/var/folders/g_/3tqjbsqs7wb0n2hq8v86yjf0000ks4/T/
+Nov  8 06:37:32 gpes3e-gjp4.local Installer[13116]: Env: SHELL=/bin/bash
+Nov  8 06:37:32 gpes3e-gjp4.local Installer[13116]: Env: HOME=/Volumes/gjp22
+Nov  8 06:37:32 gpes3e-gjp4.local Installer[13116]: Env: USER=gjp22
+Nov  8 06:37:32 gpes3e-gjp4.local Installer[13116]: Env: LOGNAME=gjp22
+Nov  8 06:37:32 gpes3e-gjp4.local Installer[13116]: Env: SSH_AUTH_SOCK=/tmp/launch-lh5sXM/Listeners
+Nov  8 06:37:32 gpes3e-gjp4.local Installer[13116]: Env: Apple_Ubiquity_Message=/tmp/launch-YENG1l/Apple_Ubiquity_Message
+Nov  8 06:37:32 gpes3e-gjp4.local Installer[13116]: Env: Apple_PubSub_Socket_Render=/tmp/launch-uv0LHV/Render
+Nov  8 06:37:32 gpes3e-gjp4.local Installer[13116]: Env: DISPLAY=/tmp/launch-3wcQdq/org.macosforge.xquartz:0
+Nov  8 06:37:32 gpes3e-gjp4.local Installer[13116]: Env: COMMAND_MODE=unix2003
+Nov  8 06:37:32 gpes3e-gjp4.local Installer[13116]: Env: __CF_USER_TEXT_ENCODING=0x4B24:0:2
+Nov  8 06:37:32 gpes3e-gjp4.local Installer[13116]: XQuartz 2.7.5_rc4  Installation Log
+Nov  8 06:37:32 gpes3e-gjp4.local Installer[13116]: Opened from: /Volumes/XQuartz-2.7.5_rc4/XQuartz.pkg
+Nov  8 06:37:33 gpes3e-gjp4.local Installer[13116]: Product archive /Volumes/XQuartz-2.7.5_rc4/XQuartz.pkg trustLevel=202
+Nov  8 06:37:40 gpes3e-gjp4.local installd[13065]: installd: Exiting.
+Nov  8 06:37:46 gpes3e-gjp4.local Installer[13116]: InstallerStatusNotifications plugin loaded
+Nov  8 06:37:52 gpes3e-gjp4.local runner[13123]: Administrator authorization granted.
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: ================================================================================
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: User picked Standard Install
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: Choices selected for installation:
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: 	Install: "XQuartz 2.7.5_rc4"
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: 	Install: "X11"
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: 		XQuartz.pkg#x11.pkg : org.macosforge.xquartz.pkg : 2.7.53
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: ================================================================================
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: It took 0.00 seconds to summarize the package selections.
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: -[IFDInstallController(Private) _buildInstallPlan]: location = file://localhost
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: -[IFDInstallController(Private) _buildInstallPlan]: file://localhost/Volumes/XQuartz-2.7.5_rc4/XQuartz.pkg#x11.pkg
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: Set authorization level to root for session
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: Will use PK session
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: Starting installation:
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: Configuring volume "OS"
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: Preparing disk for local booted install.
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: Free space on "OS": 12.21 GB (12208443392 bytes).
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: Create temporary directory "/var/folders/g_/3tqjbsqs7wb0n2hq8v86yjf0000ks4/T//Install.13116IIXLqN"
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: IFPKInstallElement (1 packages)
+Nov  8 06:37:52 gpes3e-gjp4.local Installer[13116]: Using authorization level of root for IFPKInstallElement
+Nov  8 06:37:52 gpes3e-gjp4.local installd[13129]: installd: Starting
+Nov  8 06:37:52 gpes3e-gjp4.local installd[13129]: installd: uid=0, euid=0
+Nov  8 06:37:52 gpes3e-gjp4.local installd[13129]: PackageKit: ----- Begin install -----
+Nov  8 06:37:52 gpes3e-gjp4.local installd[13129]: PackageKit: request=PKInstallRequest <1 packages, destination=/>
+Nov  8 06:37:52 gpes3e-gjp4.local installd[13129]: PackageKit: packages=(
+	    "PKLeopardPackage <file://localhost/Volumes/XQuartz-2.7.5_rc4/XQuartz.pkg#x11.pkg>"
+	)
+Nov  8 06:37:54 gpes3e-gjp4.local installd[13129]: PackageKit: Will do receipt-based obsoleting for package identifier org.macosforge.xquartz.pkg (prefix path=)
+Nov  8 06:38:16 gpes3e-gjp4.local installd[13129]: PackageKit: Extracting file://localhost/Volumes/XQuartz-2.7.5_rc4/XQuartz.pkg#x11.pkg (destination=/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/Cleanup At Startup/PKInstallSandboxManager/1.sandbox/Root, uid=0)
+Nov  8 06:39:21 gpes3e-gjp4.local installd[13129]: PackageKit: prevent user idle system sleep
+Nov  8 06:39:21 gpes3e-gjp4.local installd[13129]: PackageKit: suspending backupd
+Nov  8 06:39:21 gpes3e-gjp4.local installd[13129]: PackageKit: Executing script "./preinstall" in /private/tmp/PKInstallSandbox.1xTk0l/Scripts/org.macosforge.xquartz.pkg.9wxBYo
+Nov  8 06:39:21 gpes3e-gjp4.local installd[13129]: PackageKit: Shoving /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/Cleanup At Startup/PKInstallSandboxManager/1.sandbox/Root (4 items) to /
+Nov  8 06:39:21 gpes3e-gjp4.local shove[13162]: Cross device symlink found in shove path, including /opt/X11/bin/appres
+Nov  8 06:39:51 gpes3e-gjp4.local shove[13162]: [source=file] failed _RelinkFile(/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/Cleanup At Startup/PKInstallSandboxManager/1.sandbox/Root/opt/X11/lib/X11/fontconfig/conf.d/10-scale-bitmap-fonts.conf, /opt/X11/lib/X11/fontconfig/conf.d/10-scale-bitmap-fonts.conf): Directory not empty
+Nov  8 06:39:51 gpes3e-gjp4.local shove[13162]: srcPath = /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/Cleanup At Startup/PKInstallSandboxManager/1.sandbox/Root/opt/X11/lib/X11/fontconfig/conf.d/10-scale-bitmap-fonts.conf NSFileOwnerAccountID=501 NSFileHFSTypeCode=1936485995 NSFileSystemFileNumber=6779635 NSFileExtensionHidden=0 NSFileSystemNumber=16777225 NSFileSize=65 NSFileGroupOwnerAccountID=0 NSFileOwnerAccountName=bbsadmin-l NSFileCreationDate=2013-11-08 06:38:54 +0000 NSFilePosixPermissions=493 NSFileHFSCreatorCode=1919443312 NSFileType=NSFileTypeSymbolicLink NSFileGroupOwnerAccountName=wheel NSFileReferenceCount=1 NSFileModificationDate=2013-11-08 06:38:54 +0000
+Nov  8 06:39:51 gpes3e-gjp4.local shove[13162]: dstPath = /opt/X11/lib/X11/fontconfig/conf.d/10-scale-bitmap-fonts.conf NSFileOwnerAccountID=501 NSFileHFSTypeCode=1936485995 NSFileSystemFileNumber=222589 NSFileExtensionHidden=0 NSFileSystemNumber=16777231 NSFileSize=65 NSFileGroupOwnerAccountID=0 NSFileOwnerAccountName=bbsadmin-l NSFileCreationDate=2013-11-08 06:32:59 +0000 NSFilePosixPermissions=493 NSFileHFSCreatorCode=1919443312 NSFileType=NSFileTypeSymbolicLink NSFileGroupOwnerAccountName=wheel NSFileReferenceCount=1 NSFileModificationDate=2013-11-08 06:32:59 +0000
+Nov  8 06:39:51 gpes3e-gjp4.local shove[13162]: dstParentPath = /opt/X11/lib/X11/fontconfig/conf.d NSFileOwnerAccountID=0 NSFileSystemFileNumber=313610 NSFileExtensionHidden=0 NSFileSystemNumber=16777231 NSFileSize=20 NSFileGroupOwnerAccountID=0 NSFileOwnerAccountName=root NSFileCreationDate=2012-10-06 21:00:37 +0000 NSFilePosixPermissions=493 NSFileType=NSFileTypeDirectory NSFileGroupOwnerAccountName=wheel NSFileReferenceCount=2 NSFileModificationDate=2013-11-08 06:39:51 +0000
+Nov  8 06:39:52 gpes3e-gjp4.local installd[13129]: PackageKit: releasing backupd
+Nov  8 06:39:52 gpes3e-gjp4.local installd[13129]: PackageKit: allow user idle system sleep
+Nov  8 06:39:55 gpes3e-gjp4.local installd[13129]: PackageKit: Install Failed: Error Domain=PKInstallErrorDomain Code=120 "An unexpected error occurred while moving files to the final destination." UserInfo=0x7ff468cad010 {NSUnderlyingError=0x7ff469e55880 "The operation couldn’t be completed. Directory not empty", NSLocalizedDescription=An unexpected error occurred while moving files to the final destination., arguments=(
+	    "-f",
+	    "-s",
+	    "/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/Cleanup At Startup/PKInstallSandboxManager/1.sandbox/Root",
+	    "/"
+	)} {
+	    NSLocalizedDescription = "An unexpected error occurred while moving files to the final destination.";
+	    NSUnderlyingError = "Error Domain=NSPOSIXErrorDomain Code=66 \"The operation couldn\U2019t be completed. Directory not empty\"";
+	    arguments =     (
+	        "-f",
+	        "-s",
+	        "/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/Cleanup At Startup/PKInstallSandboxManager/1.sandbox/Root",
+	        "/"
+	    );
+	}
+Nov  8 06:39:55 gpes3e-gjp4.local Installer[13116]: install:didFailWithError:Error Domain=PKInstallErrorDomain Code=120 "An unexpected error occurred while moving files to the final destination." UserInfo=0x7fe8dc82d970 {arguments=(
+	    "-f",
+	    "-s",
+	    "/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/Cleanup At Startup/PKInstallSandboxManager/1.sandbox/Root",
+	    "/"
+	), NSLocalizedDescription=An unexpected error occurred while moving files to the final destination., NSUnderlyingError=0x7fe8dc8da9a0 "The operation couldn’t be completed. Directory not empty"}
+Nov  8 06:39:55 gpes3e-gjp4.local Installer[13116]: Install failed: The Installer encountered an error that caused the installation to fail. Contact the software manufacturer for assistance.
+Nov  8 06:39:55 gpes3e-gjp4.local Installer[13116]: IFDInstallController DC8B2AD0 state = 7
+Nov  8 06:39:55 gpes3e-gjp4.local Installer[13116]: Displaying 'Install Failed' UI.
+Nov  8 06:39:55 gpes3e-gjp4.local Installer[13116]: 'Install Failed' UI displayed message:'The Installer encountered an error that caused the installation to fail. Contact the software manufacturer for assistance.'.

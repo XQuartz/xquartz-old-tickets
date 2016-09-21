@@ -1,0 +1,48 @@
+X11.app: main(): argc=2
+	argv[0] = /Applications/Utilities/XQuartz.app/Contents/MacOS/X11.bin
+	argv[1] = -psn_0_2831027
+Waiting for startup parameters via Mach IPC.
+X11.app: Listening on socket for fd handoff:  (6) /var/tmp/tmp.0.tlUcMT
+X11.app: Thread created for handoff.  Returning success to tell caller to connect and push the fd.
+X11.app: do_start_x11_server(): argc=6
+	argv[0] = /opt/X11/bin/Xquartz
+	argv[1] = :0
+	argv[2] = -nolisten
+	argv[3] = tcp
+	argv[4] = -auth
+	argv[5] = /Users/ErnestU/.serverauth.3245
+X11.app Handing off fd to server thread via DarwinListenOnOpenFD(8)
+DarwinListenOnOpenFD: 8
+[1885801.231] Xquartz starting:
+[1885801.231] X.Org X Server 1.13.0
+[1885801.231] Build Date: 20120927
+[1885801.233] Initializing built-in extension Generic Event Extension
+[1885801.233] Initializing built-in extension SHAPE
+[1885801.233] Initializing built-in extension MIT-SHM
+[1885801.233] Initializing built-in extension XInputExtension
+[1885801.233] Initializing built-in extension XTEST
+[1885801.233] Initializing built-in extension BIG-REQUESTS
+[1885801.233] Initializing built-in extension SYNC
+[1885801.233] Initializing built-in extension XKEYBOARD
+[1885801.233] Initializing built-in extension XC-MISC
+[1885801.233] Initializing built-in extension SECURITY
+[1885801.233] Initializing built-in extension XINERAMA
+[1885801.233] Initializing built-in extension PseudoramiX
+[1885801.233] Initializing built-in extension XFIXES
+[1885801.233] Initializing built-in extension RENDER
+[1885801.233] Initializing built-in extension RANDR
+[1885801.233] Initializing built-in extension DAMAGE
+[1885801.233] Initializing built-in extension MIT-SCREEN-SAVER
+[1885801.233] Initializing built-in extension DOUBLE-BUFFER
+[1885801.233] Initializing built-in extension RECORD
+[1885801.233] Initializing built-in extension X-Resource
+[1885801.233] Initializing built-in extension XVideo
+[1885801.233] Initializing built-in extension XVideo-MotionCompensation
+[1885801.233] Initializing built-in extension GLX
+[1885801.250] x: 0, y: 0, w: 1680, h: 1028
+[1885801.265] (II) GLX: Initialized Core OpenGL GL provider for screen 0
+[1885801.696] X11.app: DarwinProcessFDAdditionQueue_thread: Sleeping to allow xinitrc to catchup.
+[1885801.718] (EE) Error loading keymap /opt/X11/share/X11/xkb/compiled/server-0.xkm
+[1885801.718] (EE) XKB: Failed to load keymap. Loading default keymap instead.
+[1885804.698] Calling ListenOnOpenFD() for new fd: 8
+[1886055.393] Server terminated successfully (0). Closing log file.

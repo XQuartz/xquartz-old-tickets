@@ -1,0 +1,20 @@
+============================================================
+Information listing created by :  marcel
+Date                           :  30.07.2009 13:54:30
+Current work part              :  /Volumes/cad-cam-daten/auftraege-in-arbeit/7915-schmid-kuechen/7915-moebel4.prt
+Node name                      :  Marcels-iMac.local
+============================================================
+X server vendor:  The X.Org Foundation
+X vendor release:  10503000
+Window identifier:  0xa000ab
+Window type:  0x11b (TrueColor)
+Window depth:  24
+Graphics device:  ATI Radeon HD 2600 PRO OpenGL Engine
+Translucency method:  Alpha-blend translucency
+Maximum texture size:  512
+Stereo viewing:  Unavailable
+Full-scene antialiasing:  Available (8 samples per pixel)
+Texture cube map:  Available
+Non power of two texture:  Available
+Inter-object shadows:  Unavailable
+

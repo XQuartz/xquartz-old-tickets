@@ -1,0 +1,81 @@
+Sep 23 06:52:04 Cloudy [0x0-0x28028].org.x.X11[604]: X11.app: main(): argc=2
+Sep 23 06:52:04 Cloudy [0x0-0x28028].org.x.X11[604]: 	argv[0] = /Applications/Utilities/X11.app/Contents/MacOS/X11
+Sep 23 06:52:04 Cloudy [0x0-0x28028].org.x.X11[604]: 	argv[1] = -psn_0_163880
+Sep 23 06:52:04 Cloudy [0x0-0x28028].org.x.X11[604]: Waiting for startup parameters via Mach IPC.
+Sep 23 06:52:05 Cloudy org.x.startx[607]: font_cache: Scanning user font directories to generate X11 font caches
+Sep 23 06:52:05 Cloudy org.x.startx[607]: font_cache: Updating FC cache
+Sep 23 06:52:06 Cloudy org.x.privileged_startx[625]: font_cache: Scanning user font directories to generate X11 font caches
+Sep 23 06:52:06 Cloudy org.x.privileged_startx[625]: font_cache: Updating FC cache
+Sep 23 06:52:06 Cloudy org.x.startx[607]: xauth:  creating new authority file /Users/pc/.serverauth.607
+Sep 23 06:52:06 Cloudy [0x0-0x28028].org.x.X11[604]: X11.app: Listening on socket for fd handoff:  (3) /var/tmp/tmp.0.3735Z4
+Sep 23 06:52:06 Cloudy [0x0-0x28028].org.x.X11[604]: X11.app: Thread created for handoff.  Returning success to tell caller to connect and push the fd.
+Sep 23 06:52:06 Cloudy org.x.startx[607]: Xquartz: Handoff connection established.  Sending message.
+Sep 23 06:52:06 Cloudy org.x.startx[607]: Xquartz: Message sent.  Closing.
+Sep 23 06:52:06 Cloudy [0x0-0x28028].org.x.X11[604]: X11.app: Received new $DISPLAY fd: 5 ... sleeping to allow xinitrc to catchup.
+Sep 23 06:52:06 Cloudy [0x0-0x28028].org.x.X11[604]: X11.app: do_start_x11_server(): argc=4
+Sep 23 06:52:06 Cloudy [0x0-0x28028].org.x.X11[604]: 	argv[0] = /usr/X11/bin/X
+Sep 23 06:52:06 Cloudy [0x0-0x28028].org.x.X11[604]: 	argv[1] = :0
+Sep 23 06:52:06 Cloudy [0x0-0x28028].org.x.X11[604]: 	argv[2] = -auth
+Sep 23 06:52:06 Cloudy [0x0-0x28028].org.x.X11[604]: 	argv[3] = /Users/pc/.serverauth.607
+Sep 23 06:52:08 Cloudy [0x0-0x28028].org.x.X11[604]: Xquartz starting:
+Sep 23 06:52:08 Cloudy [0x0-0x28028].org.x.X11[604]: X.Org X Server 1.4.2-apple17
+Sep 23 06:52:08 Cloudy [0x0-0x28028].org.x.X11[604]: Build Date: 20080905
+Sep 23 06:52:08 Cloudy [0x0-0x28028].org.x.X11[604]: No matching visual for __GLcontextMode with visual class = 3 (32772), nplanes = 24
+Sep 23 06:52:08 Cloudy org.x.startx[607]: font_cache: Done
+Sep 23 06:52:08 Cloudy org.x.privileged_startx[625]: font_cache: Done
+Sep 23 06:52:08 Cloudy [0x0-0x28028].org.x.X11[604]: (EE) XKB: Couldn't open rules file /usr/X11/share/X11/xkb/rules/base
+Sep 23 06:52:08 Cloudy [0x0-0x28028].org.x.X11[604]: X11.app: Error detected in determining keyboard layout.  If you are using an Apple-provided keyboard layout, please report this error at http://xquartz.macosforge.org and http://bugreport.apple.com
+Sep 23 06:52:08 Cloudy [0x0-0x28028].org.x.X11[604]: X11.app: Debug Info: keyboard_type=38, currentKeyLayoutRef=0x0, currentKeyLayoutDataRef=0x0, chr_data=0x0
+Sep 23 06:52:18 Cloudy ReportCrash[681]: Formulating crash report for process X11[604]
+Sep 23 06:52:19 Cloudy com.apple.launchd[66] ([0x0-0x28028].org.x.X11[604]): Stray process with PGID equal to this dead job: PID 605 PPID 1 X11
+Sep 23 06:52:19 Cloudy com.apple.launchd[66] ([0x0-0x28028].org.x.X11[604]): Exited abnormally: Bus error
+Sep 23 06:52:19 Cloudy org.x.startx[607]: Xquartz: start_x11_server: (ipc/mig) server died
+Sep 23 06:52:19 Cloudy org.x.startx[607]: XIO:  fatal IO error 54 (Connection reset by peer) on X server ":0.0"
+Sep 23 06:52:19 Cloudy org.x.startx[607]:       after 0 requests (0 known processed) with 0 events remaining.
+Sep 23 06:52:20 Cloudy org.x.startx[684]: font_cache: Scanning user font directories to generate X11 font caches
+Sep 23 06:52:20 Cloudy org.x.privileged_startx[625]: font_cache: Scanning user font directories to generate X11 font caches
+Sep 23 06:52:21 Cloudy org.x.startx[684]: font_cache: Updating FC cache
+Sep 23 06:52:21 Cloudy org.x.privileged_startx[625]: font_cache: Updating FC cache
+Sep 23 06:52:21 Cloudy org.x.startx[684]: xauth:  creating new authority file /Users/pc/.serverauth.684
+Sep 23 06:52:21 Cloudy org.x.startx[684]: Xquartz: X11.app = /Applications/Utilities/X11.app/Contents/MacOS/X11
+Sep 23 06:52:21 Cloudy org.x.startx[684]: Xquartz: Starting X server: /Applications/Utilities/X11.app/Contents/MacOS/X11 --listenonly
+Sep 23 06:52:21 Cloudy org.x.startx[684]: X11.app: main(): argc=2
+Sep 23 06:52:21 Cloudy org.x.startx[684]: 	argv[0] = /Applications/Utilities/X11.app/Contents/MacOS/X11
+Sep 23 06:52:21 Cloudy org.x.startx[684]: 	argv[1] = --listenonly
+Sep 23 06:52:21 Cloudy org.x.startx[684]: Waiting for startup parameters via Mach IPC.
+Sep 23 06:52:21 Cloudy org.x.startx[684]: X11.app: Listening on socket for fd handoff:  (3) /var/tmp/tmp.0.0COhKw
+Sep 23 06:52:21 Cloudy org.x.startx[684]: X11.app: Thread created for handoff.  Returning success to tell caller to connect and push the fd.
+Sep 23 06:52:21 Cloudy org.x.startx[684]: Xquartz: Handoff connection established.  Sending message.
+Sep 23 06:52:21 Cloudy org.x.startx[684]: Xquartz: Message sent.  Closing.
+Sep 23 06:52:21 Cloudy org.x.startx[684]: X11.app: Received new $DISPLAY fd: 5 ... sleeping to allow xinitrc to catchup.
+Sep 23 06:52:22 Cloudy org.x.startx[684]: X11.app: do_start_x11_server(): argc=4
+Sep 23 06:52:22 Cloudy org.x.startx[684]: 	argv[0] = /usr/X11/bin/X
+Sep 23 06:52:22 Cloudy org.x.startx[684]: 	argv[1] = :1
+Sep 23 06:52:22 Cloudy org.x.startx[684]: 	argv[2] = -auth
+Sep 23 06:52:22 Cloudy org.x.startx[684]: 	argv[3] = /Users/pc/.serverauth.684
+Sep 23 06:52:22 Cloudy ReportCrash[681]: Saved crashreport to /Users/pc/Library/Logs/CrashReporter/X11_2008-09-23-065209_Cloudy.crash using uid: 502 gid: 502, euid: 502 egid: 502
+Sep 23 06:52:23 Cloudy org.x.startx[684]: Xquartz starting:
+Sep 23 06:52:23 Cloudy org.x.startx[684]: X.Org X Server 1.4.2-apple17
+Sep 23 06:52:23 Cloudy org.x.startx[684]: Build Date: 20080905
+Sep 23 06:52:23 Cloudy org.x.startx[684]: No matching visual for __GLcontextMode with visual class = 3 (32772), nplanes = 24
+Sep 23 06:52:23 Cloudy org.x.startx[684]: font_cache: Done
+Sep 23 06:52:23 Cloudy org.x.privileged_startx[625]: font_cache: Done
+Sep 23 06:52:24 Cloudy org.x.startx[684]: (EE) XKB: Couldn't open rules file /usr/X11/share/X11/xkb/rules/base
+Sep 23 06:52:24 Cloudy org.x.startx[684]: X11.app Handing off fd to server thread via DarwinListenOnOpenFD(5)
+Sep 23 06:52:24 Cloudy org.x.startx[684]: DarwinListenOnOpenFD: 5
+Sep 23 06:52:27 Cloudy org.x.startx[684]: Calling ListenOnOpenFD() for new fd: 5
+Sep 23 06:52:27 Cloudy [0x0-0x28028].org.x.X11[0]: X11.app: Launching true:
+Sep 23 06:52:27 Cloudy [0x0-0x28028].org.x.X11[0]: 	argv[0] = /usr/bin/login
+Sep 23 06:52:27 Cloudy [0x0-0x28028].org.x.X11[0]: 	argv[1] = -fp
+Sep 23 06:52:27 Cloudy [0x0-0x28028].org.x.X11[0]: 	argv[2] = pc
+Sep 23 06:52:27 Cloudy [0x0-0x28028].org.x.X11[0]: 	argv[3] = /bin/sh
+Sep 23 06:52:27 Cloudy [0x0-0x28028].org.x.X11[0]: 	argv[4] = -c
+Sep 23 06:52:27 Cloudy [0x0-0x28028].org.x.X11[0]: 	argv[5] = true
+Sep 23 06:52:28 Cloudy login[605]: USER_PROCESS: 605 tty??
+Sep 23 06:52:28 Cloudy login[605]: DEAD_PROCESS: 605 tty??
+Sep 23 06:52:28 Cloudy [0x0-0x28028].org.x.X11[0]: Last login: Tue Sep 23 06:38:41 on tty??
+Sep 23 06:53:11 Cloudy /usr/sbin/ocspd[775]: starting
+Sep 23 06:57:07 Cloudy SubmitReport[806]: Submitted compressed crash report for X11
+Sep 23 07:00:02 Cloudy org.x.startx[684]: xinit:  connection to X server lost.
+Sep 23 07:00:02 Cloudy org.x.startx[684]: waiting for X server to shut down 
+Sep 23 07:00:02 Cloudy org.x.startx[684]: Quitting Xquartz...

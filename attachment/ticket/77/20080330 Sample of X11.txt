@@ -1,0 +1,262 @@
+Sampling process 201 for 3 seconds with 1 millisecond of run time between samples
+Sampling completed, processing symbols...
+Analysis of sampling X (pid 201) every 1 millisecond
+Call graph:
+    1872 Thread_2503
+      1796 start
+        1796 main
+          1796 DarwinHandleGUI
+            1792 X11ApplicationMain
+              1792 -[NSApplication run]
+                1776 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:]
+                  1772 _DPSNextEvent
+                    1751 BlockUntilNextEventMatchingListInMode
+                      1751 ReceiveNextEventCommon
+                        1750 RunCurrentEventLoopInMode
+                          1743 CFRunLoopRunSpecific
+                            1693 mach_msg
+                              1693 mach_msg_trap
+                                1693 mach_msg_trap
+                            29 __CFMachPortPerform
+                              27 PullEventsFromWindowServerOnConnection(unsigned int, unsigned char)
+                                24 CGEventCreateNextEvent
+                                  24 CGSGetNextEventRecordInternal
+                                    23 snarfEvents
+                                      20 _CGSGetPortStreamInline
+                                        19 mach_msg
+                                          19 mach_msg_trap
+                                            19 mach_msg_trap
+                                        1 mig_get_reply_port
+                                          1 mig_get_reply_port
+                                      2 CGSDecodeEventRecord
+                                        2 CGEventCreateFromDataAndSource
+                                          2 CGEventCreateFromDataAndSource
+                                      1 CGSDispatchDatagramsFromStream
+                                        1 CGSDecodeEventRecord
+                                          1 __CFDataInit
+                                            1 _CFRuntimeCreateInstance
+                                              1 szone_malloc
+                                                1 tiny_malloc_from_free_list
+                                                  1 tiny_malloc_from_free_list
+                                    1 CGSPostLocalNotification
+                                      1 CGSPostLocalNotification
+                                3 ConvertPlatformEventRecordAndPostWithOptions(__CGEvent*, _CGSEventRecord const*, short, unsigned char, unsigned char)
+                                  2 CreateEventWithCGEvent
+                                    1 CreateMouseEvent
+                                      1 SetEventParameter
+                                        1 SetEventParameter
+                                    1 dyld_stub_CGEventRecordPointer
+                                      1 dyld_stub_CGEventRecordPointer
+                                  1 PostEventToQueueInternal
+                                    1 _NotifyEventLoopObservers
+                                      1 SCTKeyEventObserver
+                                        1 +[NSAutoreleasePool allocWithZone:]
+                                          1 +[NSAutoreleasePool allocWithZone:]
+                              2 MessageHandler(__CFMachPort*, void*, long, void*)
+                                2 MessageHandler(__CFMachPort*, void*, long, void*)
+                            13 __CFRunLoopDoObservers
+                              8 _handleWindowsNeedUpdateNote
+                                6 -[NSApplication updateWindows]
+                                  2 objc_msgSend_rtp
+                                    2 objc_msgSend_rtp
+                                  1 -[NSApplication(NSWindowCache) _updateWindowsUsingCache]
+                                    1 objc_msgSend_rtp
+                                      1 objc_msgSend_rtp
+                                  1 -[NSConcreteNotification recycle]
+                                    1 -[NSObject retainCount]
+                                      1 __CFDoExternRefOperation
+                                        1 CFBagGetCountOfValue
+                                          1 __CFBagFindBuckets1a
+                                            1 __CFBagFindBuckets1a
+                                  1 -[NSNotificationCenter postNotificationName:object:userInfo:]
+                                    1 _CFXNotificationPostNotification
+                                      1 CFDictionaryGetValue
+                                        1 __CFDictionaryFindBuckets1b
+                                          1 __CFDictionaryFindBuckets1b
+                                  1 -[NSUIHeartBeat updateHeartBeatState]
+                                    1 _checkClientHeartBeatStates
+                                      1 dyld_stub__setjmp
+                                        1 dyld_stub__setjmp
+                                1 -[NSNotificationCenter postNotificationName:object:userInfo:]
+                                  1 _CFXNotificationPostNotification
+                                    1 CFDictionaryGetValue
+                                      1 _CFHash
+                                        1 _CFHash
+                                1 objc_msgSend_rtp
+                                  1 objc_msgSend_rtp
+                              5 __CFRunLoopDoObservers
+                            2 _setjmp
+                              2 _setjmp
+                            1 CFRunLoopRunSpecific
+                            1 _CFRetain
+                              1 _CFRetain
+                            1 __CFRunLoopModeFindSourceForMachPort
+                              1 CFSetApplyFunction
+                                1 __CFRunLoopFindSource
+                                  1 __CFRunLoopFindSource
+                            1 __spin_lock
+                              1 __spin_lock
+                            1 dyld_stub__setjmp
+                              1 dyld_stub__setjmp
+                            1 objc_exception_try_exit
+                              1 objc_exception_try_exit
+                          3 CFStringCompare
+                            2 CFStringCompare
+                            1 CFStringGetLength
+                              1 CFStringGetLength
+                          1 CFStringCompareWithOptionsAndLocale
+                            1 CFStringGetLength
+                              1 CFStringGetLength
+                          1 GetCurrentEventLoop
+                            1 GetCurrentEventLoop
+                          1 mk_timer_arm
+                            1 mk_timer_arm
+                          1 szone_free
+                            1 szone_free
+                        1 AcquireEventFromQueue
+                          1 AcquireEventFromQueue
+                    16 SendEventToEventTarget
+                      16 SendEventToEventTargetInternal(OpaqueEventRef*, OpaqueEventTargetRef*, HandlerCallRec*)
+                        16 DispatchEventToHandlers(EventTargetRec*, OpaqueEventRef*, HandlerCallRec*)
+                          16 ToolboxEventDispatcherHandler(OpaqueEventHandlerCallRef*, OpaqueEventRef*, void*)
+                            15 FindWindowAndPartFromMouseEvent
+                              15 FindWindow
+                                15 FindWindowOfClass
+                                  15 FindWindowCommon(Point, OpaqueWindowPtr**, short*)
+                                    11 FindPlatformWindow
+                                      11 CGSFindWindowAndOwner
+                                        10 _CGSFindWindow
+                                          10 mach_msg
+                                            9 mach_msg_trap
+                                              9 mach_msg_trap
+                                            1 mach_msg
+                                        1 CGSFindWindowAndOwner
+                                    3 QDSwapPort
+                                      2 GetThreadPort
+                                        1 GetQDThreadGlobals
+                                          1 GetQDThreadGlobals
+                                        1 GetThreadPort
+                                      1 SetThreadPort
+                                        1 QDIsPortBuffered
+                                          1 IsValidPort
+                                            1 LockPortList
+                                              1 LockPortList
+                                    1 MBarHit
+                                      1 _MBarHit(MenuData*, Point, unsigned char*, MenuData**)
+                                        1 IsCurrentProcessMenuBarOwner
+                                          1 _GetFrontUIProcess
+                                            1 _LSASNExtractHighAndLowParts
+                                              1 pthread_once
+                                                1 __spin_lock
+                                                  1 __spin_lock
+                            1 SendEventToEventTarget
+                              1 SendEventToEventTargetInternal(OpaqueEventRef*, OpaqueEventTargetRef*, HandlerCallRec*)
+                                1 DispatchEventToHandlers(EventTargetRec*, OpaqueEventRef*, HandlerCallRec*)
+                                  1 TEventTypeIndex::ContainsType(unsigned long, unsigned long)
+                                    1 TEventTypeIndex::ContainsType(unsigned long, unsigned long)
+                    2 _NSHandleCarbonMenuEvent
+                      1 ConvertEventRefToEventRecord
+                        1 ConvertEventRefToEventRecord
+                      1 _NSHandleCarbonMenuEvent
+                    1 -[NSApplication windowWithWindowNumber:]
+                      1 -[NSApplication windowWithWindowNumber:]
+                    1 ReleaseEvent
+                      1 ReleaseEvent
+                    1 _runningOnAppKitThread
+                      1 CFDateGetAbsoluteTime
+                        1 CFDateGetAbsoluteTime
+                  1 -[NSApplication _setCurrentEvent:]
+                    1 -[NSApplication _setCurrentEvent:]
+                      1 -[NSEvent isEqual:]
+                        1 -[NSEvent isEqual:]
+                  1 -[NSEvent _initWithCGSEvent:eventRef:]
+                    1 objc_msgSend_rtp
+                      1 objc_msgSend_rtp
+                  1 -[NSObject zone]
+                    1 malloc_zone_from_ptr
+                      1 malloc_zone_from_ptr
+                  1 objc_msgSend_rtp
+                    1 objc_msgSend_rtp
+                15 -[X11Application sendEvent:]
+                  9 -[NSScreen frame]
+                    9 _NXGetScreenRect
+                      9 CGSGetDisplayBounds
+                        8 updateAllDisplayInfoAsNeeded
+                          8 bindDisplayMapping
+                            3 CGSNewRegionWithRect
+                              2 CGSNewRegion
+                                2 CGTypeCreateInstanceWithAllocator
+                                  2 _CFRuntimeCreateInstance
+                                    1 _CFRuntimeCreateInstance
+                                    1 malloc_size
+                                      1 malloc_size
+                              1 shape_alloc_bounds
+                                1 shape_alloc_bounds
+                            3 CGSRegionsEqual
+                              3 shape_is_equal
+                                3 shape_is_equal
+                            2 CGSReleaseRegion
+                              2 _CFRelease
+                                1 regionFinalize
+                                  1 szone_free
+                                    1 szone_free
+                                1 szone_free
+                                  1 szone_free
+                        1 lockDisplay
+                          1 lockDisplay
+                  6 -[NSApplication sendEvent:]
+                    5 -[NSApplication sendEvent:]
+                    1 -[NSApplication setWindowsNeedUpdate:]
+                      1 -[NSApplication setWindowsNeedUpdate:]
+                1 NSPopAutoreleasePool
+                  1 dyld_stub_pthread_getspecific
+                    1 dyld_stub_pthread_getspecific
+            4 -[NSApplication run]
+              2 -[NSApplication run]
+              2 objc_msgSend_rtp
+                2 objc_msgSend_rtp
+      51 mach_msg
+        51 _sigtramp
+          51 _sigtramp
+      25 _checkClientHeartBeatStates
+        24 mach_msg
+          24 _sigtramp
+            24 _sigtramp
+        1 _sigtramp
+          1 SmartScheduleTimer
+            1 SmartScheduleTimer
+    1872 Thread_2603
+      1872 _pthread_start
+        1872 server_thread
+          1872 main
+            1872 Dispatch
+              1872 ProcPolyRectangle
+                1872 RootlessPolyRectangle
+                  1872 RootlessStartDrawing
+                    1872 xprStartDrawing
+                      1872 xp_lock_window
+                        1872 _xp_synchronize
+                          1872 _xp_async_dequeue
+                            1872 _pthread_cond_wait
+                              1872 __semwait_signal
+                                1872 __semwait_signal
+    1872 Thread_2703
+      1872 _pthread_start
+        1872 _xp_async_thread
+          1872 _xp_async_dequeue
+            1872 _pthread_cond_wait
+              1872 __semwait_signal
+                1872 __semwait_signal
+
+Total number in stack (recursive counted multiple, when >=5):
+        6       objc_msgSend_rtp
+        5       mach_msg
+
+Sort by top of stack, same collapsed (when >= 5):
+        __semwait_signal        3744
+        mach_msg_trap        1721
+        _sigtramp        75
+        objc_msgSend_rtp        8
+        -[NSApplication sendEvent:]        5
+        __CFRunLoopDoObservers        5
+Sample analysis of process 201 written to file /dev/stdout

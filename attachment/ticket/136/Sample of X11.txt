@@ -1,0 +1,51 @@
+Sampling process 42081 for 3 seconds with 1 millisecond of run time between samples
+Sampling completed, processing symbols...
+Analysis of sampling X11 (pid 42081) every 1 millisecond
+Call graph:
+    2092 Thread_2503
+      2092 start
+        2092 main
+          2092 mach_msg_server
+            2092 mach_startup_server
+              2092 _Xstart_x11_server
+                2092 do_start_x11_server
+                  2092 server_main
+                    2092 X11ApplicationMain
+                      2092 -[NSApplication run]
+                        2092 -[X11Application sendEvent:]
+                          2092 -[X11Application activateX:]
+                            2092 DarwinSendDDXEvent
+                              2092 pthread_cond_wait$UNIX2003
+                                2092 __semwait_signal
+                                  2092 __semwait_signal
+    2092 Thread_2603
+      2092 thread_start
+        2092 _pthread_start
+          2092 CAPThread::Entry(CAPThread*)
+            2092 HALRunLoop::OwnThread(void*)
+              2092 CFRunLoopRunInMode
+                2092 CFRunLoopRunSpecific
+                  2092 mach_msg
+                    2092 mach_msg_trap
+                      2092 mach_msg_trap
+    2092 Thread_2703
+      2092 thread_start
+        2092 _pthread_start
+          2092 server_thread
+            2092 dix_main
+              2092 InitCoreDevices
+                2092 ActivateDevice
+                  2092 CoreKeyboardProc
+                    2092 XkbInitKeyboardDeviceStruct
+                      2092 XkbDDXLoadKeymapByNames
+                        2092 Pclose
+                          2092 __wait4
+                            2092 __wait4
+
+Total number in stack (recursive counted multiple, when >=5):
+
+Sort by top of stack, same collapsed (when >= 5):
+        __semwait_signal        2092
+        __wait4        2092
+        mach_msg_trap        2092
+Sample analysis of process 42081 written to file /dev/stdout

@@ -1,0 +1,189 @@
+   start X11 with command "xterm&" while in terminal. system log reports:
+
+Jul 12 10:20:54 cmptr defaults[59337]: \nThe domain/default pair of (org.x.X11, dpi) does not exist
+Jul 12 10:20:54 cmptr org.x.startx[59319]: font_cache: Scanning user font directories to generate X11 font caches
+Jul 12 10:20:54 cmptr org.x.privileged_startx[59326]: font_cache: Scanning system font directories to generate X11 font caches
+Jul 12 10:20:54 cmptr org.x.startx[59319]: xauth:  creating new authority file /Users/schmitt/.serverauth.59319
+Jul 12 10:20:54 cmptr org.x.startx[59319]: font_cache: Updating FC cache
+Jul 12 10:20:54 cmptr org.x.startx[59319]: xauth: (stdin):2:  unknown command "e01d44d847e35ce69ff16bbeceb9fb78"
+Jul 12 10:20:54 cmptr org.x.startx[59319]: Xquartz: Unable to locate waiting server: org.x.X11
+Jul 12 10:20:55 cmptr org.x.startx[59319]: Xquartz: X11.app = /Applications/Utilities/X11.app/Contents/MacOS/X11
+Jul 12 10:20:55 cmptr org.x.startx[59319]: Xquartz: Starting X server: /Applications/Utilities/X11.app/Contents/MacOS/X11 --listenonly
+Jul 12 10:20:55 cmptr kernel[0]: encodings.dir/rsrc: file access by '/rsrc' was deprecated in 10.4
+Jul 12 10:20:55 cmptr org.x.startx[59319]: we're in X11 now
+Jul 12 10:20:56 cmptr org.x.startx[59319]: X11.app: main(): argc=2
+Jul 12 10:20:56 cmptr org.x.startx[59319]: 	argv[0] = /Applications/Utilities/X11.app/Contents/MacOS/X11.bin
+Jul 12 10:20:56 cmptr org.x.startx[59319]: 	argv[1] = --listenonly
+Jul 12 10:20:56 cmptr org.x.startx[59319]: Waiting for startup parameters via Mach IPC.
+Jul 12 10:20:56 cmptr org.x.privileged_startx[59326]: font_cache: Updating FC cache
+Jul 12 10:20:56 cmptr org.x.startx[59319]: X11.app: Listening on socket for fd handoff:  (3) /var/tmp/tmp.0.28HXC3
+Jul 12 10:20:56 cmptr org.x.startx[59319]: X11.app: Thread created for handoff.  Returning success to tell caller to connect and push the fd.
+Jul 12 10:20:56 cmptr org.x.startx[59319]: Xquartz: Handoff connection established (try 1 of 5) on fd 4, "/var/tmp/tmp.0.28HXC3".  Sending message.
+Jul 12 10:20:56 cmptr org.x.startx[59319]: Xquartz: Message sent.  Closing handoff fd.
+Jul 12 10:20:56 cmptr org.x.startx[59319]: X11.app: do_start_x11_server(): argc=6
+Jul 12 10:20:56 cmptr org.x.startx[59319]: 	argv[0] = /usr/X11/bin/X
+Jul 12 10:20:56 cmptr org.x.startx[59319]: 	argv[1] = :1
+Jul 12 10:20:56 cmptr org.x.startx[59319]: 	argv[2] = -nolisten
+Jul 12 10:20:56 cmptr org.x.startx[59319]: 	argv[3] = tcp
+Jul 12 10:20:56 cmptr org.x.startx[59319]: 	argv[4] = -auth
+Jul 12 10:20:56 cmptr org.x.startx[59319]: 	argv[5] = /Users/schmitt/.serverauth.59319
+Jul 12 10:20:56 cmptr org.x.startx[59319]: X11.app: Received new $DISPLAY fd: 5 ... sleeping to allow xinitrc to catchup.
+Jul 12 10:20:56 cmptr org.x.startx[59319]: Xquartz starting:
+Jul 12 10:20:56 cmptr org.x.startx[59319]: X.Org X Server 1.8.2
+Jul 12 10:20:56 cmptr org.x.startx[59319]: Build Date: 20100710
+Jul 12 10:20:57 cmptr org.x.startx[59319]: font_cache: Done
+Jul 12 10:20:57 cmptr org.x.startx[59319]: You asked quartz-wm to only proxy, but the server is already doing it.
+Jul 12 10:20:57 cmptr org.x.startx[59319]: quartz-wm is not doing anything but waiting to be told to quit.
+Jul 12 10:20:58 cmptr org.x.privileged_startx[59326]: font_cache: Done
+Jul 12 10:20:58 cmptr org.x.startx[59319]: wmaker
+Jul 12 10:20:58 cmptr org.x.startx[59319]:  warning: could not find icon file "HP-16C-48.xpm"
+Jul 12 10:20:58 cmptr org.x.startx[59319]: wmaker warning: could not find icon file "HP-16C-48.xpm"
+Jul 12 10:20:59 cmptr org.x.startx[59319]: X11.app Handing off fd to server thread via DarwinListenOnOpenFD(5)
+Jul 12 10:20:59 cmptr org.x.startx[59319]: DarwinListenOnOpenFD: 5
+Jul 12 10:20:59 cmptr org.x.startx[59319]: Calling ListenOnOpenFD() for new fd: 5
+
+******  (system.log is silent until I ssh -Y into a remote machine and then start an emacs session on the remote system): *****
+
+Jul 12 10:21:41 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: double free\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:21:43: --- last message repeated 1 time ---
+Jul 12 10:21:43 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xac6400: double free\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:21:43 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: double free\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:21:43 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xac6400: double free\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:21:43 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: double free\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:21:47: --- last message repeated 1 time ---
+Jul 12 10:21:47 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:22:17: --- last message repeated 1 time ---
+Jul 12 10:21:41 cmptr org.x.startx[59319]: wmaker warning: could not find icon file "ColorGNU.xpm"
+Jul 12 10:21:41 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: double free
+Jul 12 10:21:41 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:21:43 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: double free
+Jul 12 10:21:43 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:21:43 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xac6400: double free
+Jul 12 10:21:43 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:21:43 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: double free
+Jul 12 10:21:43 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:21:43 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xac6400: double free
+Jul 12 10:21:43 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:21:43 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: double free
+Jul 12 10:21:43 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:21:44 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: double free
+Jul 12 10:21:44 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:21:47 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:21:47 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:21:51 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:21:51 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:24:13 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:24:13 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:24:13 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+
+*** move cursor to emacs window; cursor visually  disappears *****
+
+Jul 12 10:25:03 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:25:33: --- last message repeated 1 time ---
+Jul 12 10:25:03 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:25:03 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:25:29 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:25:29 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+
+*** move cursor into emacs window again; cursor is a single pixel ****
+
+Jul 12 10:27:56 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:27:56 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:27:56 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+
+*** cursor moved within emacs window *****
+
+Jul 12 10:28:24 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:28:24 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:28:24 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+
+*** cursor is moved outside of emacs window ****
+
+Jul 12 10:29:00 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:29:00 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:29:00 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+
+10:30:00 : click on xterm window ***
+
+Jul 12 10:30:30 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xaa0a00: non-page-aligned, non-allocated pointer being freed\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:30 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:34: --- last message repeated 1 time ---
+Jul 12 10:30:34 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xaa0a00: non-page-aligned, non-allocated pointer being freed\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:35 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xaa0a00: double free\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:35 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:43: --- last message repeated 3 times ---
+Jul 12 10:30:30 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xaa0a00: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:30:30 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:30 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:30:30 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:33 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:30:33 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:34 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xaa0a00: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:30:34 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:35 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xaa0a00: double free
+Jul 12 10:30:35 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:35 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:30:35 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:36 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:30:36 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:41 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:30:41 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:41 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:30:41 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:43 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:43 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:30:43 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:45 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:53: --- last message repeated 2 times ---
+Jul 12 10:30:53 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xac6400: non-page-aligned, non-allocated pointer being freed\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:53 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xaa0a00: non-page-aligned, non-allocated pointer being freed\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:53 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xac6400: non-page-aligned, non-allocated pointer being freed\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:53 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:45 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:30:45 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:48 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:30:48 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:52 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:30:52 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:53 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xac6400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:30:53 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:53 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xaa0a00: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:30:53 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:53 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xac6400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:30:53 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:30:53 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xa9f400: non-page-aligned, non-allocated pointer being freed
+Jul 12 10:30:53 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+
+approximately 10:31:00 : remote emacs session crashes with the error:
+   X protocol error: Bad Match (invalid parameter attributes) on protocol request 62
+
+Soon after, the spinnning beachball appears, and X11 crashes:
+
+Jul 12 10:32:38 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xaf6c00: double free\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:32:39 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xaa0a00: double free\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:32:42 cmptr X11.bin[59398]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xaf6c00: double free\n*** set a breakpoint in malloc_error_break to debug
+Jul 12 10:32:36 cmptr org.x.startx[59319]: wmaker warning: could not find icon file "ColorGNU.xpm"
+Jul 12 10:32:38 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xaf6c00: double free
+Jul 12 10:32:38 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:32:39 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xaa0a00: double free
+Jul 12 10:32:39 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:32:42 cmptr org.x.startx[59319]: X11.bin(59398,0xf0185000) malloc: *** error for object 0xaf6c00: double free
+Jul 12 10:32:42 cmptr org.x.startx[59319]: *** set a breakpoint in malloc_error_break to debug
+Jul 12 10:32:46 cmptr org.x.startx[59319]: Backtrace:
+Jul 12 10:32:46 cmptr org.x.startx[59319]: 0: /Applications/Utilities/X11.app/Contents/MacOS/X11.bin (xorg_backtrace+0x40) [0x1184f0]
+Jul 12 10:32:46 cmptr org.x.startx[59319]: 1: /Applications/Utilities/X11.app/Contents/MacOS/X11.bin (OsInit+0x3f0) [0x11c068]
+Jul 12 10:32:46 cmptr org.x.startx[59319]: 2: /usr/lib/libSystem.B.dylib (_sigtramp+0x44) [0x92d7b9fc]
+Jul 12 10:32:46 cmptr org.x.startx[59319]: Segmentation fault at address 0xa1b1c323
+Jul 12 10:32:46 cmptr org.x.startx[59319]: Fatal server error:
+Jul 12 10:32:46 cmptr org.x.startx[59319]: Caught signal 11 (Segmentation fault). Server aborting
+Jul 12 10:32:46 cmptr org.x.startx[59319]:    OsVendorFatalError
+Jul 12 10:32:46 cmptr org.x.startx[59319]:    AbortDDX
+Jul 12 10:33:03 cmptr ReportCrash[59623]: Formulating crash report for process X11.bin[59398]
+Jul 12 10:33:06 cmptr ReportCrash[59623]: Saved crashreport to /Users/schmitt/Library/Logs/CrashReporter/X11.bin_2010-07-12-103257_cmptr.crash using uid: 501 gid: 501, euid: 501 egid: 501
+Jul 12 10:33:04 cmptr org.x.startx[59319]: Xquartz: start_x11_server: (ipc/mig) server died
+Jul 12 10:33:04 cmptr org.x.startx[59319]: XIO:  fatal IO error 35 (Resource temporarily unavailable) on X server ":1.0"
+Jul 12 10:33:04 cmptr org.x.startx[59319]:       after 141 requests (141 known processed) with 0 events remaining.
+Jul 12 10:33:04 cmptr org.x.startx[59319]: xterm:  fatal IO error 35 (Resource temporarily unavailable) or KillClient on X server ":1.0"
+Jul 12 10:33:06: --- last message repeated 1 time ---
+Jul 12 10:33:04 cmptr org.x.startx[59319]: /usr/X11/bin/xinit:  connection to X server lost.
+Jul 12 10:33:04 cmptr org.x.startx[59319]: xterm:  fatal IO error 35 (Resource temporarily unavailable) or KillClient on X server ":1.0"

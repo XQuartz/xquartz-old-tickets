@@ -1,0 +1,49 @@
+24/06/2010 13:08:07	org.macosforge.xquartz.startx[19836]	font_cache: Scanning user font directories to generate X11 font caches
+24/06/2010 13:08:07	org.macosforge.xquartz.startx[19836]	font_cache: Updating FC cache
+24/06/2010 13:08:07	org.macosforge.xquartz.privileged_startx[19589]	font_cache: Scanning system font directories to generate X11 font caches
+24/06/2010 13:08:08	defaults[19884]	
+The domain/default pair of (org.macosforge.xquartz.X11, dpi) does not exist
+24/06/2010 13:08:08	org.macosforge.xquartz.startx[19836]	xauth:  creating new authority file /Users/pflm/.serverauth.19836
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	X11.app: DISPLAY does not look like a launchd set variable, unsetting.
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	X11.app: main(): argc=2
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	        argv[0] = /Applications/Utilities/XQuartz.app/Contents/MacOS/X11.bin
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	        argv[1] = -psn_0_1778098
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	X11.app: Could not connect to server (DISPLAY is not set).  Starting X server.
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	Waiting for startup parameters via Mach IPC.
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	X11.app: Launching /opt/X11/bin/startx:
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	        argv[0] = /bin/sh
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	        argv[1] = -c
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	        argv[2] = /opt/X11/bin/startx
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	X11.app: Listening on socket for fd handoff:  (3) /var/tmp/tmp.0.QAfgYz
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	X11.app: Thread created for handoff.  Returning success to tell caller to connect and push the fd.
+24/06/2010 13:08:08	org.macosforge.xquartz.startx[19836]	Xquartz: Handoff connection established (try 1 of 5) on fd 6, "/var/tmp/tmp.0.QAfgYz".  Sending message.
+24/06/2010 13:08:08	org.macosforge.xquartz.startx[19836]	Xquartz: Message sent.  Closing handoff fd.
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	X11.app: Received new $DISPLAY fd: 5 ... sleeping to allow xinitrc to catchup.
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	X11.app: do_start_x11_server(): argc=6
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	        argv[0] = /opt/X11/bin/X
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	        argv[1] = :3
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	        argv[2] = -nolisten
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	        argv[3] = tcp
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	        argv[4] = -auth
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	        argv[5] = /Users/pflm/.serverauth.19836
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	lockfile: Sorry, giving up on "/var/folders/-X/-XarIGrxGNO2cWytundHAE+++yw/-Tmp-//font_cache.lock"
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	font_cache is already running.
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	If you believe this to be erroneous, please remove /var/folders/-X/-XarIGrxGNO2cWytundHAE+++yw/-Tmp-//font_cache.lock.
+24/06/2010 13:08:08	org.macosforge.xquartz.privileged_startx[19589]	lockfile: Sorry, giving up on "/opt/X11/var/run/font_cache.lock"
+24/06/2010 13:08:08	org.macosforge.xquartz.privileged_startx[19589]	font_cache is already running.
+24/06/2010 13:08:08	org.macosforge.xquartz.privileged_startx[19589]	If you believe this to be erroneous, please remove /opt/X11/var/run/font_cache.lock.
+24/06/2010 13:08:08	defaults[19987]	
+The domain/default pair of (org.macosforge.xquartz.X11, dpi) does not exist
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	xauth:  creating new authority file /Users/pflm/.serverauth.19926
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	Xquartz starting:
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	X.Org X Server 1.7.6
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	Build Date: 20100329
+24/06/2010 13:08:08	org.macosforge.xquartz.privileged_startx[19589]	font_cache: Updating FC cache
+24/06/2010 13:08:08	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	launch_msg("CheckIn") IPC failure: Operation not permitted
+24/06/2010 13:08:09	org.macosforge.xquartz.startx[19836]	font_cache: Done
+24/06/2010 13:08:10	org.macosforge.xquartz.privileged_startx[19589]	font_cache: Done
+24/06/2010 13:08:10	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	quartz-wm: another window manager is running; exiting
+24/06/2010 13:08:10	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	waiting for X server to shut down 
+24/06/2010 13:08:11	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	X11.app Handing off fd to server thread via DarwinListenOnOpenFD(5)
+24/06/2010 13:08:11	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	DarwinListenOnOpenFD: 5
+24/06/2010 13:08:11	[0x0-0x1b21b2].org.macosforge.xquartz.X11[19794]	Calling ListenOnOpenFD() for new fd: 5

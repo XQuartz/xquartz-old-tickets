@@ -1,0 +1,127 @@
+12/04/2009 12 Apr 10:54:37 [0x0-0x12d12d].org.x.X11[16023] X11.app: main(): argc=2 
+12/04/2009 12 Apr 10:54:37 [0x0-0x12d12d].org.x.X11[16023]  argv[0] = /Applications/Utilities/X11.app/Contents/MacOS/X11.bin 
+12/04/2009 12 Apr 10:54:37 [0x0-0x12d12d].org.x.X11[16023]  argv[1] = -psn_0_1233197 
+12/04/2009 12 Apr 10:54:37 [0x0-0x12d12d].org.x.X11[16023] Waiting for startup parameters via Mach IPC. 
+12/04/2009 12 Apr 10:54:37 org.x.startx[16035] font_cache: Scanning user font directories to generate X11 font caches 
+12/04/2009 12 Apr 10:54:37 org.x.startx[16035] font_cache: Updating FC cache 
+12/04/2009 12 Apr 10:54:37 org.x.privileged_startx[16044] font_cache: Scanning system font directories to generate X11 font caches 
+12/04/2009 12 Apr 10:54:37 org.x.startx[16035] xauth:  creating new authority file /Users/royar/.serverauth.16035 
+12/04/2009 12 Apr 10:54:38 [0x0-0x12d12d].org.x.X11[16023] X11.app: Listening on socket for fd handoff:  (3) /var/tmp/tmp.0.mnR13K 
+12/04/2009 12 Apr 10:54:38 [0x0-0x12d12d].org.x.X11[16023] X11.app: Thread created for handoff.  Returning success to tell caller to connect and push the fd. 
+12/04/2009 12 Apr 10:54:38 org.x.startx[16035] Xquartz: Handoff connection established (try 1 of 5) on fd 4, "/var/tmp/tmp.0.mnR13K".  Sending message. 
+12/04/2009 12 Apr 10:54:38 org.x.startx[16035] Xquartz: Message sent.  Closing handoff fd. 
+12/04/2009 12 Apr 10:54:38 [0x0-0x12d12d].org.x.X11[16023] X11.app: Received new $DISPLAY fd: 5 ... sleeping to allow xinitrc to catchup. 
+12/04/2009 12 Apr 10:54:38 [0x0-0x12d12d].org.x.X11[16023] X11.app: do_start_x11_server(): argc=6 
+12/04/2009 12 Apr 10:54:38 [0x0-0x12d12d].org.x.X11[16023]  argv[0] = /usr/X11/bin/X 
+12/04/2009 12 Apr 10:54:38 [0x0-0x12d12d].org.x.X11[16023]  argv[1] = :0 
+12/04/2009 12 Apr 10:54:38 [0x0-0x12d12d].org.x.X11[16023]  argv[2] = -dpi 
+12/04/2009 12 Apr 10:54:38 [0x0-0x12d12d].org.x.X11[16023]  argv[3] = 102 
+12/04/2009 12 Apr 10:54:38 [0x0-0x12d12d].org.x.X11[16023]  argv[4] = -auth 
+12/04/2009 12 Apr 10:54:38 [0x0-0x12d12d].org.x.X11[16023]  argv[5] = /Users/royar/.serverauth.16035 
+12/04/2009 12 Apr 10:54:38 [0x0-0x12d12d].org.x.X11[16023]  argv[5] = /Users/royar/.serverauth.16035 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] Xquartz starting: 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] X.Org X Server 1.5.3-apple6 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] Build Date: 20090411 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] Thread Assertion Failed: self=Unknown Thread, expected=Xserver Thread 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] xprFrame.c:xprInit:465 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] 0   X11.bin                             0x00020e3c spewCallStack + 44 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] 1   X11.bin                             0x00020f58 _threadSafetyAssert + 144 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] 2   X11.bin                             0x00027370 xprInit + 88 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] 3   X11.bin                             0x00028930 xprHideWindows + 5048 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] 4   X11.bin                             0x0001c878 QuartzSetupScreen + 72 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] 5   X11.bin                             0x00015f60 DarwinPrintBanner + 700 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] 6   X11.bin                             0x001ae318 AddScreen + 900 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] 7   X11.bin                             0x00016ba8 InitOutput + 260 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] 8   X11.bin                             0x001ad134 dix_main + 1032 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] 9   X11.bin                             0x00020b38 QuartzReadPasteboard + 668 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] 10  libSystem.B.dylib                   0x90050028 _pthread_start + 320 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] (EE) XKB: Couldn't open rules file /usr/X11/share/X11/xkb/rules/base 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] (EE) XKB: No components provided for device Virtual core keyboard 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] (EE) XKB: Couldn't open rules file /usr/X11/share/X11/xkb/rules/base 
+12/04/2009 12 Apr 10:54:39 [0x0-0x12d12d].org.x.X11[16023] (EE) XKB: No components provided for device keyboard 
+12/04/2009 12 Apr 10:54:39 org.x.startx[16035] font_cache: Done 
+12/04/2009 12 Apr 10:54:40 org.x.startx[16035] xmodmap:  /Users/royar/.Xmodmap:74:  bad keysym target keysym '65506', no corresponding keycodes 
+12/04/2009 12 Apr 10:54:40 org.x.startx[16035] xmodmap:  /Users/royar/.Xmodmap:75:  bad keysym target keysym '65505', no corresponding keycodes 
+12/04/2009 12 Apr 10:54:40 org.x.startx[16035] xmodmap:  /Users/royar/.Xmodmap:78:  bad keysym target keysym 'F1', no corresponding keycodes 
+12/04/2009 12 Apr 10:54:40 org.x.startx[16035] xmodmap:  /Users/royar/.Xmodmap:79:  bad keysym target keysym 'F2', no corresponding keycodes 
+12/04/2009 12 Apr 10:54:40 org.x.startx[16035] xmodmap:  /Users/royar/.Xmodmap:80:  bad keysym target keysym 'F3', no corresponding keycodes 
+12/04/2009 12 Apr 10:54:40 org.x.startx[16035] xmodmap:  /Users/royar/.Xmodmap:81:  bad keysym target keysym 'F4', no corresponding keycodes 
+12/04/2009 12 Apr 10:54:40 org.x.startx[16035] xmodmap:  /Users/royar/.Xmodmap:82:  bad keysym target keysym 'F5', no corresponding keycodes 
+12/04/2009 12 Apr 10:54:40 org.x.startx[16035] xmodmap:  /Users/royar/.Xmodmap:83:  bad keysym target keysym 'F6', no corresponding keycodes 
+12/04/2009 12 Apr 10:54:40 org.x.startx[16035] xmodmap:  /Users/royar/.Xmodmap:84:  bad keysym target keysym 'F7', no corresponding keycodes 
+12/04/2009 12 Apr 10:54:40 org.x.startx[16035] xmodmap:  /Users/royar/.Xmodmap:85:  bad keysym target keysym 'F8', no corresponding keycodes 
+12/04/2009 12 Apr 10:54:40 org.x.startx[16035] xmodmap:  /Users/royar/.Xmodmap:86:  bad keysym target keysym 'F9', no corresponding keycodes 
+12/04/2009 12 Apr 10:54:40 org.x.startx[16035] xmodmap:  /Users/royar/.Xmodmap:87:  bad keysym target keysym 'F10', no corresponding keycodes 
+12/04/2009 12 Apr 10:54:40 org.x.startx[16035] xmodmap:  /Users/royar/.Xmodmap:88:  bad keysym target keysym 'F11', no corresponding keycodes 
+12/04/2009 12 Apr 10:54:40 org.x.startx[16035] xmodmap:  /Users/royar/.Xmodmap:89:  bad keysym target keysym 'F12', no corresponding keycodes 
+12/04/2009 12 Apr 10:54:40 org.x.startx[16035] xmodmap:  /Users/royar/.Xmodmap:90:  bad keysym target keysym 'F13', no corresponding keycodes 
+12/04/2009 12 Apr 10:54:40 org.x.startx[16035] xmodmap:  15 errors encountered, aborting. 
+12/04/2009 12 Apr 10:54:40 org.x.privileged_startx[16044] font_cache: Updating FC cache 
+12/04/2009 12 Apr 10:54:41 [0x0-0x12d12d].org.x.X11[16023] X11.app Handing off fd to server thread via DarwinListenOnOpenFD(5) 
+12/04/2009 12 Apr 10:54:41 [0x0-0x12d12d].org.x.X11[16023] DarwinListenOnOpenFD: 5 
+12/04/2009 12 Apr 10:54:41 [0x0-0x12d12d].org.x.X11[16023] Calling ListenOnOpenFD() for new fd: 5 
+12/04/2009 12 Apr 10:54:41 [0x0-0x12d12d].org.x.X11[16023] Calling ListenOnOpenFD() for new fd: 5 
+12/04/2009 12 Apr 10:54:41 [0x0-0x12d12d].org.x.X11[16023] X11.app: Launching /Users/royar/xstartup: 
+12/04/2009 12 Apr 10:54:41 [0x0-0x12d12d].org.x.X11[16023]  argv[0] = /bin/tcsh 
+12/04/2009 12 Apr 10:54:41 [0x0-0x12d12d].org.x.X11[16023]  argv[1] = -c 
+12/04/2009 12 Apr 10:54:41 [0x0-0x12d12d].org.x.X11[16023]  argv[2] = /Users/royar/xstartup 
+12/04/2009 12 Apr 10:54:41 [0x0-0x12d12d].org.x.X11[16023]  argv[2] = /Users/royar/xstartup 
+12/04/2009 12 Apr 10:54:41 [0x0-0x12d12d].org.x.X11[16023] stty: stdin isn't a terminal 
+12/04/2009 12 Apr 10:54:42 org.x.privileged_startx[16044] font_cache: Done 
+12/04/2009 12 Apr 10:54:42 org.x.privileged_startx[16044] font_cache: Done 
+12/04/2009 12 Apr 10:54:46 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 16 descent 5 width 12 height 20 
+12/04/2009 12 Apr 10:54:46 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans-12:weight=200 
+12/04/2009 12 Apr 10:54:46 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 16 descent 5 width 12 height 20 
+12/04/2009 12 Apr 10:54:46 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans-12:weight=200 
+12/04/2009 12 Apr 10:54:47 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 16 descent 5 width 11 height 20 
+12/04/2009 12 Apr 10:54:47 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans-12:dpi=102 
+12/04/2009 12 Apr 10:54:47 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 16 descent 5 width 11 height 20 
+12/04/2009 12 Apr 10:54:47 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans-12:slant=110 
+12/04/2009 12 Apr 10:54:47 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 16 descent 5 width 12 height 20 
+12/04/2009 12 Apr 10:54:47 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans-12:weight=200 
+12/04/2009 12 Apr 10:54:47 [0x0-0x12d12d].org.x.X11[16023] checking if Bitstream Vera Sans-12:familylang=en:stylelang=en:fullname=Bitstream Vera Sans:fullnamelang=en:antialias=True:hintstyle=3:rgba=1:fontformat=TrueType:embeddedbitmap=True:decorative=False handles English 
+12/04/2009 12 Apr 10:54:47 [0x0-0x12d12d].org.x.X11[16023] Xft font Bitstream Vera Sans-12:familylang=en:stylelang=en:fullname=Bitstream Vera Sans:fullnamelang=en:antialias=True:hintstyle=3:rgba=1:fontformat=TrueType:embeddedbitmap=True:decorative=False supports en 
+12/04/2009 12 Apr 10:54:47 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 16 descent 5 width 11 height 20 
+12/04/2009 12 Apr 10:54:47 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans-12:familylang=en:style=Roman:stylelang=en:fullname=Bitstream Vera Sans:fullnamelang=en:slant=0:weight=80:pixelsize=17:foundry=bitstream:antialias=True:hintstyle=3:outline=True:scalable=True:dpi=102:rgba=1:fontformat=TrueType:embeddedbitmap=True:decorative=False 
+12/04/2009 12 Apr 10:54:47 [0x0-0x12d12d].org.x.X11[16023] checking if Bitstream Vera Sans-9:familylang=en:stylelang=en:fullname=Bitstream Vera Sans:fullnamelang=en:antialias=True:hintstyle=3:rgba=1:fontformat=TrueType:embeddedbitmap=True:decorative=False handles English 
+12/04/2009 12 Apr 10:54:47 [0x0-0x12d12d].org.x.X11[16023] Xft font Bitstream Vera Sans-9:familylang=en:stylelang=en:fullname=Bitstream Vera Sans:fullnamelang=en:antialias=True:hintstyle=3:rgba=1:fontformat=TrueType:embeddedbitmap=True:decorative=False supports en 
+12/04/2009 12 Apr 10:54:47 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 12 descent 3 width 8 height 15 
+12/04/2009 12 Apr 10:54:47 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans-9:familylang=en:style=Roman:stylelang=en:fullname=Bitstream Vera Sans:fullnamelang=en:slant=0:weight=80:pixelsize=12.75:foundry=bitstream:antialias=True:hintstyle=3:outline=True:scalable=True:dpi=102:rgba=1:fontformat=TrueType:embeddedbitmap=True:decorative=False 
+12/04/2009 12 Apr 10:54:47 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans-9:familylang=en:style=Roman:stylelang=en:fullname=Bitstream Vera Sans:fullnamelang=en:slant=0:weight=80:pixelsize=12.75:foundry=bitstream:antialias=True:hintstyle=3:outline=True:scalable=True:dpi=102:rgba=1:fontformat=TrueType:embeddedbitmap=True:decorative=False 
+12/04/2009 12 Apr 10:54:48 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 16 descent 5 width 12 height 20 
+12/04/2009 12 Apr 10:54:48 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans-12:weight=200 
+12/04/2009 12 Apr 10:54:48 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 16 descent 5 width 11 height 20 
+12/04/2009 12 Apr 10:54:48 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans-12:slant=110 
+12/04/2009 12 Apr 10:54:49 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 16 descent 5 width 12 height 20 
+12/04/2009 12 Apr 10:54:49 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans-12:weight=200 
+12/04/2009 12 Apr 10:54:49 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 16 descent 5 width 12 height 20 
+12/04/2009 12 Apr 10:54:49 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans-12:weight=200 
+12/04/2009 12 Apr 10:54:49 [0x0-0x12d12d].org.x.X11[16023] checking if Bitstream Vera Sans Mono-13:familylang=en:stylelang=en:fullname=Bitstream Vera Sans Mono:fullnamelang=en:antialias=True:hintstyle=3:rgba=1:fontformat=TrueType:embeddedbitmap=True:decorative=False handles English 
+12/04/2009 12 Apr 10:54:49 [0x0-0x12d12d].org.x.X11[16023] Xft font Bitstream Vera Sans Mono-13:familylang=en:stylelang=en:fullname=Bitstream Vera Sans Mono:fullnamelang=en:antialias=True:hintstyle=3:rgba=1:fontformat=TrueType:embeddedbitmap=True:decorative=False supports en 
+12/04/2009 12 Apr 10:54:49 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 13 descent 4 width 8 height 16 
+12/04/2009 12 Apr 10:54:49 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans Mono-13:familylang=en:style=Roman:stylelang=en:fullname=Bitstream Vera Sans Mono:fullnamelang=en:slant=0:weight=80:pixelsize=13.5417:foundry=bitstream:antialias=True:hintstyle=3:outline=True:scalable=True:dpi=75:rgba=1:fontformat=TrueType:embeddedbitmap=True:decorative=False 
+12/04/2009 12 Apr 10:54:49 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 12 descent 3 width 8 height 15 
+12/04/2009 12 Apr 10:54:49 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans Mono-09 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 12 descent 3 width 8 height 15 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans Mono-09 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 18 descent 5 width 11 height 21 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans Mono-13 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans Mono-13 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 18 descent 5 width 11 height 21 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] initialized font -*-Bitstream Vera Sans Mono-*-r-*-*-*-130-*-*-*-*-*-* 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 18 descent 5 width 12 height 21 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] initialized font -*-Vera Sans Mono-medium-r-*-*-*-130-*-*-*-*-*-* 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 18 descent 5 width 11 height 21 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] initialized font -*-Bitstream Vera Sans Mono-*-r-*-*-*-130-*-*-*-*-*-* 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 18 descent 5 width 12 height 21 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] initialized font -*-Vera Sans Mono Oblique-medium-r-*-*-*-130-*-*-*-*-*-* 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] checking if Bitstream Vera Sans Mono-9:familylang=en:stylelang=en:fullname=Bitstream Vera Sans Mono:fullnamelang=en:antialias=True:hintstyle=3:rgba=1:fontformat=TrueType:embeddedbitmap=True:decorative=False handles English 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] Xft font Bitstream Vera Sans Mono-9:familylang=en:stylelang=en:fullname=Bitstream Vera Sans Mono:fullnamelang=en:antialias=True:hintstyle=3:rgba=1:fontformat=TrueType:embeddedbitmap=True:decorative=False supports en 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 9 descent 3 width 6 height 11 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans Mono-9:familylang=en:style=Roman:stylelang=en:fullname=Bitstream Vera Sans Mono:fullnamelang=en:slant=0:weight=80:pixelsize=9.375:foundry=bitstream:antialias=True:hintstyle=3:outline=True:scalable=True:dpi=75:rgba=1:fontformat=TrueType:embeddedbitmap=True:decorative=False 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] finalizing -*-Vera Sans Mono Oblique-medium-r-*-*-*-130-*-*-*-*-*-* 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] finalizing -*-Bitstream Vera Sans Mono-*-r-*-*-*-130-*-*-*-*-*-* 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] finalizing -*-Vera Sans Mono-medium-r-*-*-*-130-*-*-*-*-*-* 
+12/04/2009 12 Apr 10:54:50 [0x0-0x12d12d].org.x.X11[16023] finalizing -*-Bitstream Vera Sans Mono-*-r-*-*-*-130-*-*-*-*-*-* 
+12/04/2009 12 Apr 10:54:51 [0x0-0x12d12d].org.x.X11[16023] initialized metrics ascent 18 descent 5 width 11 height 21 
+12/04/2009 12 Apr 10:54:51 [0x0-0x12d12d].org.x.X11[16023] initialized font Bitstream Vera Sans Mono-13:weight=200 

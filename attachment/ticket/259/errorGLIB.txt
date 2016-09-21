@@ -1,0 +1,274 @@
+(gdb) run ~/Desktop/tv/Trauma.mov
+Starting program: /usr/local/src/mplayer/mplayer ~/Desktop/tv/Trauma.mov
+Reading symbols for shared libraries +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++.......................................................................warning: Could not find object file "/sw/src/fink.build/expat1-2.0.1-1/expat-2.0.1/lib/.libs/xmlparse.o" - no debug information available for "lib/xmlparse.c".
+
+warning: Could not find object file "/sw/src/fink.build/expat1-2.0.1-1/expat-2.0.1/lib/.libs/xmltok.o" - no debug information available for "lib/xmltok.c".
+
+warning: Could not find object file "/sw/src/fink.build/expat1-2.0.1-1/expat-2.0.1/lib/.libs/xmlrole.o" - no debug information available for "lib/xmlrole.c".
+
+.. done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries .. done
+MPlayer SVN-r29219-4.2.1 (C) 2000-2009 MPlayer Team
+Reading symbols for shared libraries . done
+
+Playing Desktop/tv/Trauma.mov.
+libavformat file format detected.
+[lavf] Video stream found, -vid 0
+[lavf] Audio stream found, -aid 1
+VIDEO:  [avc1]  480x272  24bpp  25.000 fps    0.0 kbps ( 0.0 kbyte/s)
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+==========================================================================
+Opening video decoder: [ffmpeg] FFmpeg's libavcodec codec family
+Selected video codec: [ffh264] vfm: ffmpeg (FFmpeg H.264)
+==========================================================================
+==========================================================================
+Opening audio decoder: [faad] AAC (MPEG2/4 Advanced Audio Coding)
+FAAD: compressed input bitrate missing, assuming 128kbit/s!
+AUDIO: 48000 Hz, 2 ch, s16le, 128.0 kbit/8.33% (ratio: 16000->192000)
+Selected audio codec: [faad] afm: faad (FAAD AAC (MPEG-2/MPEG-4 Audio))
+==========================================================================
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries .. done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+Reading symbols for shared libraries . done
+AO: [macosx] 48000Hz 2ch s16le (2 bytes per sample)
+Starting playback...
+VDec: vo config request - 480 x 272 (preferred colorspace: Planar YV12)
+Could not find matching colorspace - retrying with -vf scale...
+Opening video filter: [scale]
+VDec: using Planar YV12 as output csp (no 0)
+Movie-Aspect is 1.78:1 - prescaling to correct movie aspect.
+SwScaler: reducing / aligning filtersize 1 -> 4
+SwScaler: reducing / aligning filtersize 1 -> 4
+SwScaler: reducing / aligning filtersize 1 -> 1
+SwScaler: reducing / aligning filtersize 5 -> 4
+[swscaler @ 0x7d42e0]BICUBIC scaler, from yuv420p to yuyv422 using MMX2
+[swscaler @ 0x7d42e0]using 4-tap MMX scaler for horizontal luminance scaling
+[swscaler @ 0x7d42e0]using 4-tap MMX scaler for horizontal chrominance scaling
+[swscaler @ 0x7d42e0]using n-tap MMX scaler for vertical scaling (BGR)
+[swscaler @ 0x7d42e0]480x272 -> 480x272
+VO: [macosx] 480x272 => 484x272 Packed YUY2 
+Reading symbols for shared libraries . done
+
+Program received signal EXC_BAD_ACCESS, Could not access memory.
+Reason: KERN_PROTECTION_FAILURE at address: 0x00000000
+0x00000000 in ?? ()
+(gdb) bt
+#0  0x00000000 in ?? ()
+#1  0x0001e2a6 in -[MPlayerOpenGLView prepareOpenGL] (self=0x1a797a0, _cmd=0x9356e590) at libvo/vo_macosx.m:708
+#2  0x956fbe95 in -[NSOpenGLContext makeCurrentContext] ()
+#3  0x956fbc22 in -[NSOpenGLContext setView:] ()
+#4  0x957c69f2 in -[NSOpenGLView lockFocusIfCanDraw] ()
+#5  0x95541921 in -[NSView lockFocus] ()
+#6  0x95545cbb in -[NSView _recursiveDisplayAllDirtyWithLockFocus:visRect:] ()
+#7  0x9554612a in -[NSView _recursiveDisplayAllDirtyWithLockFocus:visRect:] ()
+#8  0x955446e9 in -[NSView _recursiveDisplayRectIfNeededIgnoringOpacity:isVisibleRect:rectIsVisibleRectForView:topView:] ()
+#9  0x9554402b in -[NSThemeFrame _recursiveDisplayRectIfNeededIgnoringOpacity:isVisibleRect:rectIsVisibleRectForView:topView:] ()
+#10 0x95540b4f in -[NSView _displayRectIgnoringOpacity:isVisibleRect:rectIsVisibleRectForView:] ()
+#11 0x95481523 in -[NSView displayIfNeeded] ()
+#12 0x95533c61 in -[NSWindow _setFrameCommon:display:stashSize:] ()
+#13 0x9553346a in -[NSWindow setFrame:display:] ()
+#14 0x9561e62a in -[NSWindow setContentSize:] ()
+#15 0x0001ee26 in -[MPlayerOpenGLView config] (self=0x1a797a0, _cmd=0x5eac96) at libvo/vo_macosx.m:468
+#16 0x0001d567 in config (width=480, height=272, d_width=484, d_height=272, flags=0, title=0x6036c4 "MPlayer", format=844715353) at libvo/vo_macosx.m:176
+#17 0x0001865a in config_video_out (vo=0x71cb40, width=480, height=272, d_width=484, d_height=272, flags=0, title=0x6036c4 "MPlayer", format=844715353) at libvo/video_out.c:352
+#18 0x000a4ea0 in config (vf=0x1ad4e50, width=480, height=272, d_width=484, d_height=272, flags=0, outfmt=844715353) at libmpcodecs/vf_vo.c:67
+#19 0x000777a3 in vf_config_wrapper (vf=0x1ad4e50, width=480, height=272, d_width=484, d_height=272, flags=0, outfmt=844715353) at libmpcodecs/vf.c:643
+#20 0x0009dbfd in config (vf=0x1a79510, width=480, height=272, d_width=484, d_height=272, flags=0, outfmt=842094169) at libmpcodecs/vf_scale.c:309
+#21 0x000777a3 in vf_config_wrapper (vf=0x1a79510, width=480, height=272, d_width=484, d_height=272, flags=0, outfmt=842094169) at libmpcodecs/vf.c:643
+#22 0x0007599b in mpcodecs_config_vo (sh=0x1a74860, w=480, h=272, preferred_outfmt=842094169) at libmpcodecs/vd.c:306
+#23 0x00176b60 in init_vo (sh=0x1a74860, pix_fmt=PIX_FMT_YUV420P) at libmpcodecs/vd_ffmpeg.c:521
+#24 0x00176ebe in decode (sh=0x1a74860, data=0x2067600, len=660, flags=0) at libmpcodecs/vd_ffmpeg.c:862
+#25 0x00070401 in decode_video (sh_video=0x1a74860, start=0x2067600 "", in_size=660, drop_frame=0, pts=0) at libmpcodecs/dec_video.c:365
+#26 0x000081a4 in generate_video_frame [inlined] () at mplayer.c:1754
+#27 0x000081a4 in update_video [inlined] () at mplayer.c:2299
+#28 0x000081a4 in SDL_main (argc=2, argv=0x1a25220) at mplayer.c:3691
+#29 0x005649dd in -[SDLMain applicationDidFinishLaunching:] ()
+#30 0x945df8da in __CFXNotificationPost ()
+#31 0x945dfbb3 in _CFXNotificationPostNotification ()
+#32 0x92615080 in -[NSNotificationCenter postNotificationName:object:userInfo:] ()
+#33 0x9261e8c8 in -[NSNotificationCenter postNotificationName:object:] ()
+#34 0x9550849a in -[NSApplication _postDidFinishNotification] ()
+#35 0x955083a9 in -[NSApplication _sendFinishLaunchingNotification] ()
+#36 0x95481ec3 in -[NSApplication(NSAppleEventHandling) _handleAEOpen:] ()
+#37 0x954816bc in -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:] ()
+#38 0x9263d43f in -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:] ()
+#39 0x9263d14f in _NSAppleEventManagerGenericHandler ()
+#40 0x95e12648 in aeDispatchAppleEvent ()
+#41 0x95e1257e in dispatchEventAndSendReply ()
+#42 0x95e12425 in aeProcessAppleEvent ()
+#43 0x968409a5 in AEProcessAppleEvent ()
+#44 0x9547ef91 in _DPSNextEvent ()
+#45 0x9547e630 in -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] ()
+#46 0x9547766b in -[NSApplication run] ()
+#47 0x0056512d in main ()
+(gdb) disass $pc-32 $pc+32
+Dump of assembler code from 0xffffffe0 to 0x20:
+End of assembler dump.
+(gdb) info all-registers
+eax            0xfa0fa0	16388000
+ecx            0x0	0
+edx            0xf8e6fb	16312059
+ebx            0x1a797a0	27760544
+esp            0xbfffbe5c	0xbfffbe5c
+ebp            0xbfffbe78	0xbfffbe78
+esi            0x1aec7b0	28231600
+edi            0x1aec7b0	28231600
+eip            0x0	0
+eflags         0x210282	2163330
+cs             0x17	23
+ss             0x1f	31
+ds             0x1f	31
+es             0x1f	31
+fs             0x0	0
+gs             0x37	55
+st0            -nan(0x9797979797979797)	(raw 0xffff9797979797979797)
+st1            -nan(0x9797979797979797)	(raw 0xffff9797979797979797)
+st2            -nan(0x9797979796969696)	(raw 0xffff9797979796969696)
+st3            <invalid float value>	(raw 0xffff0000000000000000)
+st4            1	(raw 0x3fff8000000000000000)
+st5            1	(raw 0x3fff8000000000000000)
+st6            272	(raw 0x40078800000000000000)
+st7            484	(raw 0x4007f200000000000000)
+fctrl          0x37f	895
+fstat          0x20	32
+ftag           0xffff	65535
+fiseg          0x17	23
+fioff          0x94c6e054	-1798905772
+foseg          0x1f	31
+fooff          0xbfffbbdc	-1073759268
+fop            0x15d	349
+xmm0           {
+  v4_float = {0, 0, 0, 322}, 
+  v2_double = {0, 5.6057911878939453e-315}, 
+  v16_int8 = '\0' <repeats 12 times>, "C?\000", 
+  v8_int16 = {0, 0, 0, 0, 0, 0, 17313, 0}, 
+  v4_int32 = {0, 0, 0, 1134624768}, 
+  v2_int64 = {0, 1134624768}, 
+  uint128 = 177309134880768
+}	(raw 0x0000a143000000000000000000000000)
+xmm1           {
+  v4_float = {0, 0, 0, 322}, 
+  v2_double = {0, 5.6057911878939453e-315}, 
+  v16_int8 = '\0' <repeats 12 times>, "C?\000", 
+  v8_int16 = {0, 0, 0, 0, 0, 0, 17313, 0}, 
+  v4_int32 = {0, 0, 0, 1134624768}, 
+  v2_int64 = {0, 1134624768}, 
+  uint128 = 177309134880768
+}	(raw 0x0000a143000000000000000000000000)
+xmm2           {
+  v4_float = {0, 0, 0, -50}, 
+  v2_double = {0, 1.6104062295448118e-314}, 
+  v16_int8 = '\0' <repeats 12 times>, "?H\000", 
+  v8_int16 = {0, 0, 0, 0, 0, 0, -15800, 0}, 
+  v4_int32 = {0, 0, 0, -1035468800}, 
+  v2_int64 = {0, 3259498496}, 
+  uint128 = 79998060855296
+}	(raw 0x000048c2000000000000000000000000)
+xmm3           {
+  v4_float = {0, 0, 0, 509}, 
+  v2_double = {0, 5.6360656334590168e-315}, 
+  v16_int8 = '\0' <repeats 12 times>, "C??", 
+  v8_int16 = {0, 0, 0, 0, 0, 0, 17406, -32768}, 
+  v4_int32 = {0, 0, 0, 1140752384}, 
+  v2_int64 = {0, 1140752384}, 
+  uint128 = 36308360735227904
+}	(raw 0x0080fe43000000000000000000000000)
+xmm4           {
+  v4_float = {0, 0, 0, -25}, 
+  v2_double = {0, 1.6062617065155827e-314}, 
+  v16_int8 = '\0' <repeats 12 times>, "??\000", 
+  v8_int16 = {0, 0, 0, 0, 0, 0, -15928, 0}, 
+  v4_int32 = {0, 0, 0, -1043857408}, 
+  v2_int64 = {0, 3251109888}, 
+  uint128 = 220731254243328
+}	(raw 0x0000c8c1000000000000000000000000)
+xmm5           {
+  v4_float = {0, 0, 0, -136}, 
+  v2_double = {0, 1.6166230140886553e-314}, 
+  v16_int8 = '\0' <repeats 12 times>, "?\b\000", 
+  v8_int16 = {0, 0, 0, 0, 0, 0, -15608, 0}, 
+  v4_int32 = {0, 0, 0, -1022885888}, 
+  v2_int64 = {0, 3272081408}, 
+  uint128 = 9633611644928
+}	(raw 0x000008c3000000000000000000000000)
+xmm6           {
+  v4_float = {0, 0, 0, 136}, 
+  v2_double = {0, 5.5562511860601918e-315}, 
+  v16_int8 = '\0' <repeats 12 times>, "C\b\000", 
+  v8_int16 = {0, 0, 0, 0, 0, 0, 17160, 0}, 
+  v4_int32 = {0, 0, 0, 1124597760}, 
+  v2_int64 = {0, 1124597760}, 
+  uint128 = 9083855831040
+}	(raw 0x00000843000000000000000000000000)
+xmm7           {
+  v4_float = {0, 0, 0, 0}, 
+  v2_double = {0, 0}, 
+  v16_int8 = '\0' <repeats 15 times>, 
+  v8_int16 = {0, 0, 0, 0, 0, 0, 0, 0}, 
+  v4_int32 = {0, 0, 0, 0}, 
+  v2_int64 = {0, 0}, 
+  uint128 = 0
+}	(raw 0x00000000000000000000000000000000)
+mxcsr          0x1fa6	8102
+mm0            {
+  uint64 = -7523377975159973993, 
+  v2_int32 = {-1751672937, -1751672937}, 
+  v4_int16 = {-26729, -26729, -26729, -26729}, 
+  v8_int8 = "????????"
+}	(raw 0x9797979797979797)
+mm1            {
+  uint64 = -7523377975159973993, 
+  v2_int32 = {-1751672937, -1751672937}, 
+  v4_int16 = {-26729, -26729, -26729, -26729}, 
+  v8_int8 = "????????"
+}	(raw 0x9797979797979797)
+mm2            {
+  uint64 = -7523377975176817002, 
+  v2_int32 = {-1768515946, -1751672937}, 
+  v4_int16 = {-26986, -26986, -26729, -26729}, 
+  v8_int8 = "????????"
+}	(raw 0x9797979796969696)
+mm3            {
+  uint64 = 0, 
+  v2_int32 = {0, 0}, 
+  v4_int16 = {0, 0, 0, 0}, 
+  v8_int8 = "\000\000\000\000\000\000\000"
+}	(raw 0x0000000000000000)
+mm4            {
+  uint64 = -9223372036854775808, 
+  v2_int32 = {0, -2147483648}, 
+  v4_int16 = {0, 0, 0, -32768}, 
+  v8_int8 = "\000\000\000\000\000\000\000?"
+}	(raw 0x8000000000000000)
+mm5            {
+  uint64 = -9223372036854775808, 
+  v2_int32 = {0, -2147483648}, 
+  v4_int16 = {0, 0, 0, -32768}, 
+  v8_int8 = "\000\000\000\000\000\000\000?"
+}	(raw 0x8000000000000000)
+mm6            {
+  uint64 = -8646911284551352320, 
+  v2_int32 = {0, -2013265920}, 
+  v4_int16 = {0, 0, 0, -30720}, 
+  v8_int8 = "\000\000\000\000\000\000\000?"
+}	(raw 0x8800000000000000)
+mm7            {
+  uint64 = -1008806316530991104, 
+  v2_int32 = {0, -234881024}, 
+  v4_int16 = {0, 0, 0, -3584}, 
+  v8_int8 = "\000\000\000\000\000\000\000?"
+}	(raw 0xf200000000000000)
+(gdb) 

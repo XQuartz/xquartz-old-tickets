@@ -1,0 +1,951 @@
+ 0.00: Client -->   12 bytes
+	          byte-order: MSB first
+	       major-version: 000b
+	       minor-version: 0000
+ 0.00: 					8192 bytes <-- X11 Server
+ 0.00: 					2004 bytes <-- X11 Server
+					protocol-major-version: 000b
+					protocol-minor-version: 0000
+					      release-number: 00a1d1c8
+					    resource-id-base: 00c00000
+					    resource-id-mask: 001fffff
+					  motion-buffer-size: 00000100
+					    image-byte-order: LSB first
+					bitmap-format-bit-order: LSB first
+					bitmap-format-scanline-unit: 20
+					bitmap-format-scanline-pad: 20
+					         min-keycode: 8 (^H)
+					         max-keycode: 255 (\377)
+					              vendor: "The X.Org Foundation"
+					      pixmap-formats: (7)
+					               roots: (1)
+ 0.01: Client -->   64 bytes
+	 ............REQUEST: CreateGC
+	  graphic-context-id: GXC 00c00000
+	            drawable: DWB 0000037b
+	          value-mask: background
+	          value-list:
+		          background: 00ffffff
+	 ............REQUEST: QueryExtension
+	                name: "BIG-REQUESTS"
+	 ............REQUEST: GetProperty
+	              delete: False
+	              window: WIN 0000037b
+	            property: <RESOURCE_MANAGER>
+	                type: <STRING>
+	         long-offset: 00000000
+ 0.01: 					  64 bytes <-- X11 Server
+					 ..............REPLY: QueryExtension
+					             present: True
+					        major-opcode: 87
+					         first-event: 00
+					         first-error: 00
+					 ..............REPLY: GetProperty
+					              format: 00
+					                type: <NONE>
+					         bytes-after: 00000000
+ 0.01: Client -->    4 bytes
+	 ............REQUEST: BigreqRequest
+	       BIGREQREQUEST: BigreqEnable
+ 0.01: 					  32 bytes <-- X11 Server
+					 ..............REPLY: BigreqReply
+					    max-request-size: 003fffff
+ 0.02: Client -->   20 bytes
+	 ............REQUEST: QueryExtension
+	                name: "XKEYBOARD"
+ 0.02: 					  32 bytes <-- X11 Server
+					 ..............REPLY: QueryExtension
+					             present: True
+					        major-opcode: 8b
+					         first-event: 60
+					         first-error: 8f
+ 0.02: Client -->    8 bytes
+	 ............REQUEST: XKEYBOARD-Request
+	        minor opcode: 00
+	                data: (1)
+ 0.03: 					  32 bytes <-- X11 Server
+					 ..............REPLY: XKEYBOARD-Reply
+					                data: 01
+					                data: (6)
+ 0.03: Client -->   16 bytes
+	 ............REQUEST: InternAtom
+	      only-if-exists: False
+	                name: "Compose"
+ 0.05: 					  32 bytes <-- X11 Server
+					 ..............REPLY: InternAtom
+					                atom: ATM 00000119
+ 0.05: Client -->   64 bytes
+	 ............REQUEST: CreateWindow
+	               depth: 18
+	                 wid: WIN 00c00001
+	              parent: WIN 0000037b
+	                   x: 0
+	                   y: 0
+	               width: 0001
+	              height: 0001
+	        border-width: 0000
+	               class: InputOutput
+	              visual: VIS 00000022
+	          value-mask: border-pixel | bit-gravity | override-redirect | event-mask | colormap
+	          value-list:
+		        border-pixel: 00000000
+		         bit-gravity: NorthWest
+		   override-redirect: True
+		          event-mask: KeyPress | KeyRelease | ButtonPress | ButtonRelease | EnterWindow | LeaveWindow | PointerMotion | Exposure | VisibilityChange | PropertyChange | ColormapChange
+		            colormap: CMP 00000021
+	 ............REQUEST: InternAtom
+	      only-if-exists: False
+	                name: "Comm"
+ 0.06: 					  32 bytes <-- X11 Server
+					 ..............REPLY: InternAtom
+					                atom: ATM 0000011a
+ 0.07: Client -->   24 bytes
+	 ............REQUEST: InternAtom
+	      only-if-exists: False
+	                name: "InterpRegistry"
+ 0.08: 					  32 bytes <-- X11 Server
+					 ..............REPLY: InternAtom
+					                atom: ATM 0000011b
+ 0.08: Client -->   24 bytes
+	 ............REQUEST: InternAtom
+	      only-if-exists: False
+	                name: "TK_APPLICATION"
+ 0.10: 					  32 bytes <-- X11 Server
+					 ..............REPLY: InternAtom
+					                atom: ATM 0000011c
+ 0.10: Client -->   28 bytes
+	 ............REQUEST: GrabServer
+	 ............REQUEST: GetProperty
+	              delete: False
+	              window: WIN 0000037b
+	            property: ATM 0000011b
+	                type: <STRING>
+	         long-offset: 00000000
+ 0.11: 					  44 bytes <-- X11 Server
+					 ..............REPLY: GetProperty
+					              format: 08
+					                type: <STRING>
+					         bytes-after: 00000000
+					               value: "c00001 wish^@"
+ 0.12: Client -->   40 bytes
+	 ............REQUEST: ChangeProperty
+	                mode: Replace
+	              window: WIN 0000037b
+	            property: ATM 0000011b
+	                type: <STRING>
+	              format: 08
+	                data: "c00001 wish^@"
+	 ............REQUEST: UngrabServer
+ 0.12: Client -->   52 bytes
+	 ............REQUEST: ChangeProperty
+	                mode: Replace
+	              window: WIN 00c00001
+	            property: ATM 0000011c
+	                type: <STRING>
+	              format: 08
+	                data: "wish"
+	 ............REQUEST: GetProperty
+	              delete: False
+	              window: WIN 0000037b
+	            property: <RESOURCE_MANAGER>
+	                type: <STRING>
+	         long-offset: 00000000
+ 0.13: 					  64 bytes <-- X11 Server
+					 ..............EVENT: PropertyNotify
+					              window: WIN 00c00001
+					                atom: ATM 0000011c
+					                time: TIM ffffffffb286cf9f
+					               state: NewValue
+					 ..............REPLY: GetProperty
+					              format: 00
+					                type: <NONE>
+					         bytes-after: 00000000
+ 0.14: Client -->   16 bytes
+	 ............REQUEST: AllocColor
+	                cmap: CMP 00000021
+	                 red: c600
+	               green: b2d2
+	                blue: a87e
+ 0.15: 					  32 bytes <-- X11 Server
+					 ..............REPLY: AllocColor
+					                 red: c6c6
+					               green: b2b2
+					                blue: a8a8
+					               pixel: 00c6b2a8
+ 0.15: Client -->   36 bytes
+	 ............REQUEST: CreateGC
+	  graphic-context-id: GXC 00c00002
+	            drawable: DWB 0000037b
+	          value-mask: foreground
+	          value-list:
+		          foreground: 00c6b2a8
+	 ............REQUEST: AllocColor
+	                cmap: CMP 00000021
+	                 red: d900
+	               green: d900
+	                blue: d900
+ 0.17: 					  32 bytes <-- X11 Server
+					 ..............REPLY: AllocColor
+					                 red: d9d9
+					               green: d9d9
+					                blue: d9d9
+					               pixel: 00d9d9d9
+ 0.17: Client -->   16 bytes
+	 ............REQUEST: AllocColor
+	                cmap: CMP 00000021
+	                 red: 0000
+	               green: 0000
+	                blue: 0000
+ 0.20: 					  32 bytes <-- X11 Server
+					 ..............REPLY: AllocColor
+					                 red: 0000
+					               green: 0000
+					                blue: 0000
+					               pixel: 00000000
+ 0.48: Client -->   16 bytes
+	 ............REQUEST: GetWindowAttributes
+	              window: WIN 00c00001
+	 ............REQUEST: GetGeometry
+	            drawable: DWB 00c00001
+ 0.48: 					  76 bytes <-- X11 Server
+					 ..............REPLY: GetWindowAttributes
+					       backing-store: NotUseful
+					              visual: VIS 00000022
+					               class: InputOutput
+					         bit-gravity: NorthWest
+					         win-gravity: NorthWest
+					      backing-planes: ffffffffffffffff
+					       backing-pixel: 00000000
+					          save-under: False
+					    map-is-installed: True
+					           map-state: Unmapped
+					   override-redirect: True
+					            colormap: CMP 00000021
+					     all-event-masks: KeyPress | KeyRelease | ButtonPress | ButtonRelease | EnterWindow | LeaveWindow | PointerMotion | Exposure | VisibilityChange | PropertyChange | ColormapChange
+					     your-event-mask: KeyPress | KeyRelease | ButtonPress | ButtonRelease | EnterWindow | LeaveWindow | PointerMotion | Exposure | VisibilityChange | PropertyChange | ColormapChange
+					do-not-propagate-mask: 0
+					 ..............REPLY: GetGeometry
+					               depth: 18
+					                root: WIN 0000037b
+					                   x: 0
+					                   y: 0
+					               width: 0001
+					              height: 0001
+					        border-width: 0000
+ 0.48: Client -->   16 bytes
+	 ............REQUEST: GetWindowAttributes
+	              window: WIN 00c00001
+	 ............REQUEST: GetGeometry
+	            drawable: DWB 00c00001
+ 0.48: 					  76 bytes <-- X11 Server
+					 ..............REPLY: GetWindowAttributes
+					       backing-store: NotUseful
+					              visual: VIS 00000022
+					               class: InputOutput
+					         bit-gravity: NorthWest
+					         win-gravity: NorthWest
+					      backing-planes: ffffffffffffffff
+					       backing-pixel: 00000000
+					          save-under: False
+					    map-is-installed: True
+					           map-state: Unmapped
+					   override-redirect: True
+					            colormap: CMP 00000021
+					     all-event-masks: KeyPress | KeyRelease | ButtonPress | ButtonRelease | EnterWindow | LeaveWindow | PointerMotion | Exposure | VisibilityChange | PropertyChange | ColormapChange
+					     your-event-mask: KeyPress | KeyRelease | ButtonPress | ButtonRelease | EnterWindow | LeaveWindow | PointerMotion | Exposure | VisibilityChange | PropertyChange | ColormapChange
+					do-not-propagate-mask: 0
+					 ..............REPLY: GetGeometry
+					               depth: 18
+					                root: WIN 0000037b
+					                   x: 0
+					                   y: 0
+					               width: 0001
+					              height: 0001
+					        border-width: 0000
+ 0.49: Client -->  180 bytes
+	 ............REQUEST: CreateWindow
+	               depth: 18
+	                 wid: WIN 00c00003
+	              parent: WIN 0000037b
+	                   x: 0
+	                   y: 0
+	               width: 0001
+	              height: 0001
+	        border-width: 0000
+	               class: InputOutput
+	              visual: VIS 00000022
+	          value-mask: background-pixel | border-pixel | bit-gravity | event-mask | colormap | cursor
+	          value-list:
+		    background-pixel: 00c6b2a8
+		        border-pixel: 00000000
+		         bit-gravity: NorthWest
+		          event-mask: KeyPress | KeyRelease | ButtonPress | ButtonRelease | EnterWindow | LeaveWindow | PointerMotion | Exposure | VisibilityChange | PropertyChange | ColormapChange
+		            colormap: CMP 00000021
+		              cursor: None
+	 ............REQUEST: CreateWindow
+	               depth: 18
+	                 wid: WIN 00c00004
+	              parent: WIN 0000037b
+	                   x: 0
+	                   y: 0
+	               width: 0001
+	              height: 0001
+	        border-width: 0000
+	               class: InputOutput
+	              visual: VIS 00000022
+	          value-mask: border-pixel | bit-gravity | override-redirect | event-mask | colormap
+	          value-list:
+		        border-pixel: 00000000
+		         bit-gravity: NorthWest
+		   override-redirect: False
+		          event-mask: KeyPress | KeyRelease | ButtonPress | ButtonRelease | EnterWindow | LeaveWindow | PointerMotion | Exposure | VisibilityChange | StructureNotify | FocusChange | PropertyChange | ColormapChange
+		            colormap: CMP 00000021
+	 ............REQUEST: ReparentWindow
+	              window: WIN 00c00003
+	              parent: WIN 00c00004
+	                   x: 0
+	                   y: 0
+	 ............REQUEST: ChangeProperty
+	                mode: Replace
+	              window: WIN 00c00004
+	            property: <WM_CLASS>
+	                type: <STRING>
+	              format: 08
+	                data: "wish^@Wish^@"
+	 ............REQUEST: InternAtom
+	      only-if-exists: False
+	                name: "UTF8_STRING"
+ 0.49: 					  64 bytes <-- X11 Server
+					 ..............EVENT: PropertyNotify
+					              window: WIN 00c00004
+					                atom: <WM_CLASS>
+					                time: TIM ffffffffb286d102
+					               state: NewValue
+					 ..............REPLY: InternAtom
+					                atom: ATM 000000d8
+ 0.49: Client -->   48 bytes
+	 ............REQUEST: ChangeProperty
+	                mode: Replace
+	              window: WIN 00c00004
+	            property: <WM_NAME>
+	                type: <STRING>
+	              format: 08
+	                data: "wish"
+	 ............REQUEST: InternAtom
+	      only-if-exists: False
+	                name: "_NET_WM_NAME"
+ 0.50: 					  64 bytes <-- X11 Server
+					 ..............EVENT: PropertyNotify
+					              window: WIN 00c00004
+					                atom: <WM_NAME>
+					                time: TIM ffffffffb286d113
+					               state: NewValue
+					 ..............REPLY: InternAtom
+					                atom: ATM 000000f1
+ 0.50: Client -->  112 bytes
+	 ............REQUEST: ChangeProperty
+	                mode: Replace
+	              window: WIN 00c00004
+	            property: ATM 000000f1
+	                type: ATM 000000d8
+	              format: 08
+	                data: 77 69 73 68 
+	 ............REQUEST: ChangeProperty
+	                mode: Replace
+	              window: WIN 00c00004
+	            property: <WM_HINTS>
+	                type: <WM_HINTS>
+	              format: 20
+	                data: 00 00 00 03 00 00 00 01 00 00 00 01 00 00 00 00 
+	 ............REQUEST: InternAtom
+	      only-if-exists: False
+	                name: "WM_DELETE_WINDOW"
+ 0.52: 					  96 bytes <-- X11 Server
+					 ..............EVENT: PropertyNotify
+					              window: WIN 00c00004
+					                atom: ATM 000000f1
+					                time: TIM ffffffffb286d122
+					               state: NewValue
+					 ..............EVENT: PropertyNotify
+					              window: WIN 00c00004
+					                atom: <WM_HINTS>
+					                time: TIM ffffffffb286d122
+					               state: NewValue
+					 ..............REPLY: InternAtom
+					                atom: ATM 00000105
+ 0.52: Client -->   20 bytes
+	 ............REQUEST: InternAtom
+	      only-if-exists: False
+	                name: "_NET_WM_PING"
+ 0.53: 					  32 bytes <-- X11 Server
+					 ..............REPLY: InternAtom
+					                atom: ATM 0000011d
+ 0.53: Client -->   20 bytes
+	 ............REQUEST: InternAtom
+	      only-if-exists: False
+	                name: "WM_PROTOCOLS"
+ 0.55: 					  32 bytes <-- X11 Server
+					 ..............REPLY: InternAtom
+					                atom: ATM 00000106
+ 0.55: Client -->  168 bytes
+	 ............REQUEST: ChangeProperty
+	                mode: Replace
+	              window: WIN 00c00004
+	            property: ATM 00000106
+	                type: <ATOM>
+	              format: 20
+	                data: 00 00 01 05 
+	 ............REQUEST: ChangeProperty
+	                mode: Replace
+	              window: WIN 00c00004
+	            property: <WM_NORMAL_HINTS>
+	                type: <WM_SIZE_HINTS>
+	              format: 20
+	                data: 00 00 00 10 00 00 00 00 00 00 00 00 00 00 00 00 
+	 ............REQUEST: ConfigureWindow
+	              window: WIN 00c00004
+	          value-mask: width | height
+	          value-list:
+		               width: 00c8
+		              height: 00c8
+	 ............REQUEST: InternAtom
+	      only-if-exists: False
+	                name: "_NET_WM_STATE"
+ 0.57: 					 128 bytes <-- X11 Server
+					 ..............EVENT: PropertyNotify
+					              window: WIN 00c00004
+					                atom: ATM 00000106
+					                time: TIM ffffffffb286d151
+					               state: NewValue
+					 ..............EVENT: PropertyNotify
+					              window: WIN 00c00004
+					                atom: <WM_NORMAL_HINTS>
+					                time: TIM ffffffffb286d151
+					               state: NewValue
+					 ..............REPLY: InternAtom
+					                atom: ATM 000000f2
+					 ..............EVENT: ConfigureNotify
+					               event: WIN 00c00004
+					              window: WIN 00c00004
+					       above-sibling: WIN 00c00001
+					                   x: 0
+					                   y: 0
+					               width: 00c8
+					              height: 00c8
+					        border-width: 0000
+					   override-redirect: False
+ 0.57: Client -->   32 bytes
+	 ............REQUEST: ChangeProperty
+	                mode: Replace
+	              window: WIN 00c00004
+	            property: ATM 000000f2
+	                type: <ATOM>
+	              format: 20
+	 ............REQUEST: MapWindow
+	              window: WIN 00c00004
+ 0.57: Client -->   16 bytes
+	 ............REQUEST: GetWindowAttributes
+	              window: WIN 00c00004
+	 ............REQUEST: GetGeometry
+	            drawable: DWB 00c00004
+ 0.58: 					 172 bytes <-- X11 Server
+					 ..............EVENT: PropertyNotify
+					              window: WIN 00c00004
+					                atom: ATM 000000f2
+					                time: TIM ffffffffb286d162
+					               state: NewValue
+					 ..............REPLY: GetWindowAttributes
+					       backing-store: NotUseful
+					              visual: VIS 00000022
+					               class: InputOutput
+					         bit-gravity: NorthWest
+					         win-gravity: NorthWest
+					      backing-planes: ffffffffffffffff
+					       backing-pixel: 00000000
+					          save-under: False
+					    map-is-installed: True
+					           map-state: Unmapped
+					   override-redirect: False
+					            colormap: CMP 00000021
+					     all-event-masks: KeyPress | KeyRelease | ButtonPress | ButtonRelease | EnterWindow | LeaveWindow | PointerMotion | Exposure | VisibilityChange | StructureNotify | FocusChange | PropertyChange | ColormapChange
+					     your-event-mask: KeyPress | KeyRelease | ButtonPress | ButtonRelease | EnterWindow | LeaveWindow | PointerMotion | Exposure | VisibilityChange | StructureNotify | FocusChange | PropertyChange | ColormapChange
+					do-not-propagate-mask: 0
+					 ..............REPLY: GetGeometry
+					               depth: 18
+					                root: WIN 0000037b
+					                   x: 0
+					                   y: 0
+					               width: 00c8
+					              height: 00c8
+					        border-width: 0000
+					 ..............EVENT: ReparentNotify
+					               event: WIN 00c00004
+					              window: WIN 00c00004
+					              parent: WIN 0060000e
+					                   x: 0
+					                   y: 22
+					   override-redirect: False
+					 ..............EVENT: ConfigureNotify
+					               event: WIN 00c00004
+					              window: WIN 00c00004
+					       above-sibling: None
+					                   x: 0
+					                   y: 22
+					               width: 00c8
+					              height: 00c8
+					        border-width: 0000
+					   override-redirect: False
+ 0.58: Client -->   16 bytes
+	 ............REQUEST: GetWindowAttributes
+	              window: WIN 00c00004
+	 ............REQUEST: GetGeometry
+	            drawable: DWB 00c00004
+ 0.61: 					 128 bytes <-- X11 Server
+					 ..............EVENT: MapNotify
+					               event: WIN 00c00004
+					              window: WIN 00c00004
+					   override-redirect: False
+					 ..............EVENT: VisibilityNotify
+					              window: WIN 00c00004
+					               state: PartiallyObscured
+					 ..............EVENT: Expose
+					              window: WIN 00c00004
+					                   x: 0000
+					                   y: 0000
+					               width: 00c8
+					              height: 00b9
+					               count: 0001
+					 ..............EVENT: Expose
+					              window: WIN 00c00004
+					                   x: 0000
+					                   y: 00b9
+					               width: 00b9
+					              height: 000f
+					               count: 0000
+ 0.62: 					 160 bytes <-- X11 Server
+					 ..............EVENT: PropertyNotify
+					              window: WIN 00c00004
+					                atom: ATM 000000f0
+					                time: TIM ffffffffb286d186
+					               state: NewValue
+					 ..............EVENT: PropertyNotify
+					              window: WIN 00c00004
+					                atom: ATM 000000f2
+					                time: TIM ffffffffb286d186
+					               state: NewValue
+					 ..............EVENT: PropertyNotify
+					              window: WIN 00c00004
+					                atom: ATM 00000107
+					                time: TIM ffffffffb286d186
+					               state: NewValue
+					 ..............EVENT: **INVALID** (150)
+					               event: WIN 00c00004
+					              window: WIN 00c00004
+					       above-sibling: WIN 0060000e
+					                   x: 0
+					                   y: 22
+					               width: 00c8
+					              height: 00c8
+					        border-width: 0000
+					   override-redirect: False
+					 ..............EVENT: FocusIn
+					              detail: Nonlinear
+					               event: WIN 00c00004
+					                mode: Normal
+ 0.62: 					 108 bytes <-- X11 Server
+					 ..............REPLY: GetWindowAttributes
+					       backing-store: NotUseful
+					              visual: VIS 00000022
+					               class: InputOutput
+					         bit-gravity: NorthWest
+					         win-gravity: NorthWest
+					      backing-planes: ffffffffffffffff
+					       backing-pixel: 00000000
+					          save-under: False
+					    map-is-installed: True
+					           map-state: Viewable
+					   override-redirect: False
+					            colormap: CMP 00000021
+					     all-event-masks: KeyPress | KeyRelease | ButtonPress | ButtonRelease | EnterWindow | LeaveWindow | PointerMotion | Exposure | VisibilityChange | StructureNotify | FocusChange | PropertyChange | ColormapChange
+					     your-event-mask: KeyPress | KeyRelease | ButtonPress | ButtonRelease | EnterWindow | LeaveWindow | PointerMotion | Exposure | VisibilityChange | StructureNotify | FocusChange | PropertyChange | ColormapChange
+					do-not-propagate-mask: 0
+					 ..............REPLY: GetGeometry
+					               depth: 18
+					                root: WIN 0000037b
+					                   x: 0
+					                   y: 22
+					               width: 00c8
+					              height: 00c8
+					        border-width: 0000
+					 ..............EVENT: **INVALID** (150)
+					               event: WIN 00c00004
+					              window: WIN 00c00004
+					       above-sibling: WIN 0060000e
+					                   x: 20
+					                   y: 42
+					               width: 00c8
+					              height: 00c8
+					        border-width: 0000
+					   override-redirect: False
+ 0.62: Client -->   44 bytes
+	 ............REQUEST: ConfigureWindow
+	              window: WIN 00c00003
+	          value-mask: x | y | width | height
+	          value-list:
+		                   x: 0
+		                   y: 0
+		               width: 00c8
+		              height: 00c8
+	 ............REQUEST: GetWindowAttributes
+	              window: WIN 00c00003
+	 ............REQUEST: GetGeometry
+	            drawable: DWB 00c00003
+ 0.73: 					  76 bytes <-- X11 Server
+					 ..............REPLY: GetWindowAttributes
+					       backing-store: NotUseful
+					              visual: VIS 00000022
+					               class: InputOutput
+					         bit-gravity: NorthWest
+					         win-gravity: NorthWest
+					      backing-planes: ffffffffffffffff
+					       backing-pixel: 00000000
+					          save-under: False
+					    map-is-installed: True
+					           map-state: Unmapped
+					   override-redirect: False
+					            colormap: CMP 00000021
+					     all-event-masks: KeyPress | KeyRelease | ButtonPress | ButtonRelease | EnterWindow | LeaveWindow | PointerMotion | Exposure | VisibilityChange | PropertyChange | ColormapChange
+					     your-event-mask: KeyPress | KeyRelease | ButtonPress | ButtonRelease | EnterWindow | LeaveWindow | PointerMotion | Exposure | VisibilityChange | PropertyChange | ColormapChange
+					do-not-propagate-mask: 0
+					 ..............REPLY: GetGeometry
+					               depth: 18
+					                root: WIN 0000037b
+					                   x: 0
+					                   y: 0
+					               width: 00c8
+					              height: 00c8
+					        border-width: 0000
+ 0.73: Client -->   16 bytes
+	 ............REQUEST: GetWindowAttributes
+	              window: WIN 00c00003
+	 ............REQUEST: GetGeometry
+	            drawable: DWB 00c00003
+ 0.77: 					  76 bytes <-- X11 Server
+					 ..............REPLY: GetWindowAttributes
+					       backing-store: NotUseful
+					              visual: VIS 00000022
+					               class: InputOutput
+					         bit-gravity: NorthWest
+					         win-gravity: NorthWest
+					      backing-planes: ffffffffffffffff
+					       backing-pixel: 00000000
+					          save-under: False
+					    map-is-installed: True
+					           map-state: Unmapped
+					   override-redirect: False
+					            colormap: CMP 00000021
+					     all-event-masks: KeyPress | KeyRelease | ButtonPress | ButtonRelease | EnterWindow | LeaveWindow | PointerMotion | Exposure | VisibilityChange | PropertyChange | ColormapChange
+					     your-event-mask: KeyPress | KeyRelease | ButtonPress | ButtonRelease | EnterWindow | LeaveWindow | PointerMotion | Exposure | VisibilityChange | PropertyChange | ColormapChange
+					do-not-propagate-mask: 0
+					 ..............REPLY: GetGeometry
+					               depth: 18
+					                root: WIN 0000037b
+					                   x: 0
+					                   y: 0
+					               width: 00c8
+					              height: 00c8
+					        border-width: 0000
+ 0.77: Client -->   20 bytes
+	 ............REQUEST: InternAtom
+	      only-if-exists: False
+	                name: "__WM_ROOT"
+ 0.78: 					  32 bytes <-- X11 Server
+					 ..............REPLY: InternAtom
+					                atom: ATM 0000011e
+ 0.78: Client -->   24 bytes
+	 ............REQUEST: GetProperty
+	              delete: False
+	              window: WIN 00c00004
+	            property: ATM 0000011e
+	                type: <WINDOW>
+	         long-offset: 00000000
+ 0.80: 					  32 bytes <-- X11 Server
+					 ..............REPLY: GetProperty
+					              format: 00
+					                type: <NONE>
+					         bytes-after: 00000000
+ 0.80: Client -->   20 bytes
+	 ............REQUEST: InternAtom
+	      only-if-exists: False
+	                name: "__SWM_ROOT"
+ 0.83: 					  32 bytes <-- X11 Server
+					 ..............REPLY: InternAtom
+					                atom: ATM 0000011f
+ 0.83: Client -->   24 bytes
+	 ............REQUEST: GetProperty
+	              delete: False
+	              window: WIN 00c00004
+	            property: ATM 0000011f
+	                type: <WINDOW>
+	         long-offset: 00000000
+ 0.85: 					  32 bytes <-- X11 Server
+					 ..............REPLY: GetProperty
+					              format: 00
+					                type: <NONE>
+					         bytes-after: 00000000
+ 0.85: Client -->    8 bytes
+	 ............REQUEST: QueryTree
+	              window: WIN 0060000e
+ 0.88: 					  44 bytes <-- X11 Server
+					 ..............REPLY: QueryTree
+					                root: WIN 0000037b
+					              parent: WIN 0000037b
+					            children: (3)
+ 0.88: Client -->   16 bytes
+	 ............REQUEST: TranslateCoordinates
+	          src-window: WIN 00c00004
+	          dst-window: WIN 0060000e
+	               src-x: 0
+	               src-y: 0
+ 0.90: 					  32 bytes <-- X11 Server
+					 ..............REPLY: TranslateCoordinates
+					         same-screen: True
+					               child: WIN 00c00004
+					               dst-x: 0
+					               dst-y: 22
+ 0.90: Client -->    8 bytes
+	 ............REQUEST: GetGeometry
+	            drawable: DWB 0060000e
+ 0.92: 					  32 bytes <-- X11 Server
+					 ..............REPLY: GetGeometry
+					               depth: 18
+					                root: WIN 0000037b
+					                   x: 20
+					                   y: 20
+					               width: 00c8
+					              height: 00de
+					        border-width: 0000
+ 0.92: Client -->   16 bytes
+	 ............REQUEST: TranslateCoordinates
+	          src-window: WIN 00c00004
+	          dst-window: WIN 0060000e
+	               src-x: 0
+	               src-y: 0
+ 0.93: 					  32 bytes <-- X11 Server
+					 ..............REPLY: TranslateCoordinates
+					         same-screen: True
+					               child: WIN 00c00004
+					               dst-x: 0
+					               dst-y: 22
+ 0.93: Client -->    8 bytes
+	 ............REQUEST: GetGeometry
+	            drawable: DWB 0060000e
+ 0.95: 					  32 bytes <-- X11 Server
+					 ..............REPLY: GetGeometry
+					               depth: 18
+					                root: WIN 0000037b
+					                   x: 20
+					                   y: 20
+					               width: 00c8
+					              height: 00de
+					        border-width: 0000
+ 0.95: Client -->   60 bytes
+	 ............REQUEST: ConfigureWindow
+	              window: WIN 00c00003
+	          value-mask: x | y | width | height
+	          value-list:
+		                   x: 0
+		                   y: 0
+		               width: 00c8
+		              height: 00c8
+	 ............REQUEST: MapWindow
+	              window: WIN 00c00003
+	 ............REQUEST: GetProperty
+	              delete: False
+	              window: WIN 00c00004
+	            property: ATM 000000f2
+	                type: <ATOM>
+	         long-offset: 00000000
+ 0.98: 					 128 bytes <-- X11 Server
+					 ..............EVENT: VisibilityNotify
+					              window: WIN 00c00003
+					               state: PartiallyObscured
+					 ..............EVENT: Expose
+					              window: WIN 00c00003
+					                   x: 0000
+					                   y: 0000
+					               width: 00c8
+					              height: 00b9
+					               count: 0001
+					 ..............EVENT: Expose
+					              window: WIN 00c00003
+					                   x: 0000
+					                   y: 00b9
+					               width: 00b9
+					              height: 000f
+					               count: 0000
+					 ..............REPLY: GetProperty
+					              format: 20
+					                type: <ATOM>
+					         bytes-after: 00000000
+ 0.98: Client -->   28 bytes
+	 ............REQUEST: InternAtom
+	      only-if-exists: False
+	                name: "_NET_WM_STATE_ABOVE"
+ 1.00: 					  32 bytes <-- X11 Server
+					 ..............REPLY: InternAtom
+					                atom: ATM 00000120
+ 1.00: Client -->   36 bytes
+	 ............REQUEST: InternAtom
+	      only-if-exists: False
+	                name: "_NET_WM_STATE_MAXIMIZED_VERT"
+ 1.02: 					  32 bytes <-- X11 Server
+					 ..............REPLY: InternAtom
+					                atom: ATM 000000f6
+ 1.02: Client -->   36 bytes
+	 ............REQUEST: InternAtom
+	      only-if-exists: False
+	                name: "_NET_WM_STATE_MAXIMIZED_HORZ"
+ 1.03: 					  32 bytes <-- X11 Server
+					 ..............REPLY: InternAtom
+					                atom: ATM 000000f5
+ 1.03: Client -->   32 bytes
+	 ............REQUEST: InternAtom
+	      only-if-exists: False
+	                name: "_NET_WM_STATE_FULLSCREEN"
+ 1.05: 					  32 bytes <-- X11 Server
+					 ..............REPLY: InternAtom
+					                atom: ATM 000000f3
+ 1.05: Client -->   24 bytes
+	 ............REQUEST: GetProperty
+	              delete: False
+	              window: WIN 00c00004
+	            property: ATM 000000f2
+	                type: <ATOM>
+	         long-offset: 00000000
+ 1.07: 					  32 bytes <-- X11 Server
+					 ..............REPLY: GetProperty
+					              format: 20
+					                type: <ATOM>
+					         bytes-after: 00000000
+ 1.07: Client -->   16 bytes
+	 ............REQUEST: TranslateCoordinates
+	          src-window: WIN 00c00004
+	          dst-window: WIN 0060000e
+	               src-x: 0
+	               src-y: 0
+ 1.08: 					  32 bytes <-- X11 Server
+					 ..............REPLY: TranslateCoordinates
+					         same-screen: True
+					               child: WIN 00c00004
+					               dst-x: 0
+					               dst-y: 22
+ 1.09: Client -->    8 bytes
+	 ............REQUEST: GetGeometry
+	            drawable: DWB 0060000e
+ 1.10: 					  32 bytes <-- X11 Server
+					 ..............REPLY: GetGeometry
+					               depth: 18
+					                root: WIN 0000037b
+					                   x: 20
+					                   y: 20
+					               width: 00c8
+					              height: 00de
+					        border-width: 0000
+ 1.10: Client -->   44 bytes
+	 ............REQUEST: ConfigureWindow
+	              window: WIN 00c00003
+	          value-mask: x | y | width | height
+	          value-list:
+		                   x: 0
+		                   y: 0
+		               width: 00c8
+		              height: 00c8
+	 ............REQUEST: TranslateCoordinates
+	          src-window: WIN 00c00004
+	          dst-window: WIN 0060000e
+	               src-x: 0
+	               src-y: 0
+ 1.12: 					  32 bytes <-- X11 Server
+					 ..............REPLY: TranslateCoordinates
+					         same-screen: True
+					               child: WIN 00c00004
+					               dst-x: 0
+					               dst-y: 22
+ 1.12: Client -->    8 bytes
+	 ............REQUEST: GetGeometry
+	            drawable: DWB 0060000e
+ 1.13: 					  32 bytes <-- X11 Server
+					 ..............REPLY: GetGeometry
+					               depth: 18
+					                root: WIN 0000037b
+					                   x: 20
+					                   y: 20
+					               width: 00c8
+					              height: 00de
+					        border-width: 0000
+ 1.14: Client -->   28 bytes
+	 ............REQUEST: ConfigureWindow
+	              window: WIN 00c00003
+	          value-mask: x | y | width | height
+	          value-list:
+		                   x: 0
+		                   y: 0
+		               width: 00c8
+		              height: 00c8
+ 1.14: Client -->   20 bytes
+	 ............REQUEST: PolyFillRectangle
+	            drawable: DWB 00c00003
+	                  gc: GXC 00c00002
+	          rectangles: (1)
+ 2.65: 					  32 bytes <-- X11 Server
+					 ..............EVENT: FocusOut
+					              detail: Nonlinear
+					               event: WIN 00c00004
+					                mode: Normal
+ 9.06: Client -->   48 bytes
+	 ............REQUEST: ListFonts
+	           max-names: 2710
+	             pattern: "-*-zapfdingbats-*-*-*-*-*-*-*-*-*-*-*-*"
+ 9.07: 					  32 bytes <-- X11 Server
+					 ..............REPLY: ListFonts
+ 9.07: Client -->   44 bytes
+	 ............REQUEST: ListFonts
+	           max-names: 2710
+	             pattern: "-*-dingbats-*-*-*-*-*-*-*-*-*-*-*-*"
+ 9.07: 					  32 bytes <-- X11 Server
+					 ..............REPLY: ListFonts
+ 9.07: Client -->   48 bytes
+	 ............REQUEST: ListFonts
+	           max-names: 2710
+	             pattern: "-*-zapfdingbats-*-*-*-*-*-*-*-*-*-*-*-*"
+ 9.07: 					  32 bytes <-- X11 Server
+					 ..............REPLY: ListFonts
+ 9.07: Client -->   52 bytes
+	 ............REQUEST: ListFonts
+	           max-names: 2710
+	             pattern: "-*-itc zapfdingbats-*-*-*-*-*-*-*-*-*-*-*-*"
+ 9.09: 					  32 bytes <-- X11 Server
+					 ..............REPLY: ListFonts
+ 9.09: Client -->   48 bytes
+	 ............REQUEST: ListFonts
+	           max-names: 2710
+	             pattern: "-*-zapf dingbats-*-*-*-*-*-*-*-*-*-*-*-*"
+ 9.12: 					 160 bytes <-- X11 Server
+					 ..............REPLY: ListFonts
+					               names: (2)
+ 9.12: Client -->   80 bytes
+	 ............REQUEST: OpenFont
+	             font-id: FNT 00c00005
+	                name: "-misc-zapf dingbats-medium-r-normal--16-*-*-*-*-*-iso10646-1"
+	 ............REQUEST: QueryFont
+	                font: FTB 00c00005
+ 9.14: 					  64 bytes <-- X11 Server
+					 ..............ERROR: Value
+					           bad value: 12582917
+					        minor opcode: 0000
+					        major opcode: 2d
+					 ..............ERROR: Font
+					     bad resource id: 00c00005
+					        minor opcode: 0000
+					        major opcode: 2f

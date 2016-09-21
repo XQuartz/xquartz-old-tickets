@@ -1,0 +1,214 @@
+Return-Path: <jeremyhu@apple.com>
+Received: from smtp01.smtp.vanderbilt.edu (smtp01.smtp.vanderbilt.edu [129.59.1.92])
+	 by imap3 (Cyrus v2.2.12) with LMTPA;
+	 Sun, 23 Aug 2009 17:57:35 -0500
+X-Sieve: CMU Sieve 2.2
+Received: from mailgate.vanderbilt.edu (mailgate.vanderbilt.edu [129.59.4.20])
+	by smtp01.smtp.vanderbilt.edu (8.13.6/8.13.6/VU-3.7.10C+d3.7.10) with ESMTP id n7NMvZQD008216
+	for <robert.a.weller@vanderbilt.edu>; Sun, 23 Aug 2009 17:57:35 -0500 (CDT)
+Received: from mail.outersquare.org (cloud.CS.Berkeley.EDU [128.32.36.234])
+	by mailgate06.csm.vanderbilt.edu (8.14.1/8.14.1) with ESMTP id n7NMvYLm023821
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT)
+	for <robert.a.weller@vanderbilt.edu>; Sun, 23 Aug 2009 17:57:35 -0500
+Received: from localhost (localhost [127.0.0.1])
+	by mail.outersquare.org (Postfix) with ESMTP id 2E06F13415D
+	for <robert.a.weller@vanderbilt.edu>; Sun, 23 Aug 2009 15:57:34 -0700 (PDT)
+X-Virus-Scanned: amavisd-new at mail.outersquare.org
+Received: from mail.outersquare.org ([127.0.0.1])
+	by localhost (mail.outersquare.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id hoqOh+YABPGX for <robert.a.weller@vanderbilt.edu>;
+	Sun, 23 Aug 2009 15:57:29 -0700 (PDT)
+Received: from [192.168.2.21] (208-53-84-65.chico.ca.digitalpath.net [208.53.84.65])
+	(using TLSv1 with cipher AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	(Authenticated sender: jeremy@mail.outersquare.org)
+	by mail.outersquare.org (Postfix) with ESMTPSA id 45F4D134143
+	for <robert.a.weller@vanderbilt.edu>; Sun, 23 Aug 2009 15:57:29 -0700 (PDT)
+Content-Type: text/plain; charset=us-ascii; format=flowed; delsp=yes
+Mime-Version: 1.0 (Apple Message framework v1075.2)
+Subject: Re: Odd new issue with 2.4.0...
+From: Jeremy Huddleston <jeremyhu@apple.com>
+In-Reply-To: <B3E5FCE1-1A85-49D2-8427-A9C070BBC1E0@vanderbilt.edu>
+Date: Sun, 23 Aug 2009 15:57:28 -0700
+Content-Transfer-Encoding: 7bit
+Message-Id: <A696FC0E-474F-409C-84DA-EEE525278A5D@apple.com>
+References: <B0C4DDEC-CFA3-4B71-8BA3-8660706FC405@vanderbilt.edu> <84DD5A96-7CF4-489F-81BE-4E55012F4716@apple.com> <B39FFC6E-351E-4B8F-8262-BDA716E0CA34@vanderbilt.edu> <51DF4E0D-156E-4F6E-A647-3587BD18ABD4@apple.com> <B3E5FCE1-1A85-49D2-8427-A9C070BBC1E0@vanderbilt.edu>
+To: "Robert A. Weller" <robert.a.weller@vanderbilt.edu>
+X-Mailer: Apple Mail (2.1075.2)
+X-Proofpoint-Virus-Version: vendor=fsecure engine=1.12.8161:2.4.5,1.2.40,4.0.166 definitions=2009-08-23_05:2009-08-11,2009-08-23,2009-08-23 signatures=0
+X-PPS: No, score=0
+
+Yes, please open a bug report.  The instructions below had you install  
+the 1.4.2-apple47 server instead of the 1.5.3-apple13 server that is  
+in 2.4.0 ... so something between 1.4.2 and 1.5.3 caused the problem  
+you are seeing.
+
+On Aug 21, 2009, at 19:10, Robert A. Weller wrote:
+
+> Jeremy,
+>
+> The procedure below seems to have restored the correct behavior  
+> across the board. The Geant4 application now correctly opens the  
+> graphics window no matter how many times I start and stop. This is  
+> the case whether the client applicaiton is running on my local  
+> machine or remotely on the cluster.
+>
+> I hate to make a fool of myself by asking a stupid question, but  
+> what exactly just happened? A damage issue to my copy of X? How  
+> might that have happen? I don't run as an admin user.
+>
+> Do you still want a bug report? (Clearly not if my copy just got  
+> zapped somehow. But what is the probability that a random event  
+> could take out the server in so surgical a way that it functioned  
+> except the bizarre failure to refresh the window....) I hope you see  
+> my confusion.
+>
+> Thanks,
+> Bob W.
+>
+> On Aug 19, 2009, at 2:47 PM, Jeremy Huddleston wrote:
+>
+>> Unfortunately, AIGLX is a bit undersupported and undertested.   
+>> AIGLX is what happens to support OpenGL when the client application  
+>> is running remotely rather than locally.
+>>
+>> There is also a damage/refresh issue with xterm that you may have  
+>> seen on the list...  My guess is that they're related.
+>>
+>> Can you file this info in a bug report at http://xquartz.macosforge.org 
+>>  (or just add it to one if you already made it).
+>>
+>> Also, could you try the 1.4.2-apple47 server?  If that works, then  
+>> I suspect it's a damage issue rather than an AIGLX issue.  You need  
+>> to:
+>>
+>> curl -LO http://static.macosforge.org/xquartz/downloads/X11.bin-1.4.2-apple47.bz2
+>> bunzip2 X11.bin-1.4.2-apple47.bz2
+>> sudo cp X11.bin-1.4.2-apple47 /Applications/Utilities/X11.app/ 
+>> Contents/MacOS/X11.bin
+>> sudo chmod 755 /Applications/Utilities/X11.app/Contents/MacOS/X11.bin
+>>
+>> then restart X11
+>>
+>> Please let me know if that works.
+>>
+>> Thanks,
+>> Jeremy
+>>
+>> On Aug 19, 2009, at 11:27, Robert A. Weller wrote:
+>>
+>>> Jeremy,
+>>>
+>>> I believe that it must be in the OpenGL libraries of the Geant4  
+>>> system. Geant4 is a package of c++ code for high-energy physics  
+>>> detector simulation.
+>>>
+>>> It is now clear that everything is working correctly except  
+>>> actually bringing up the window. If e.g. I start xlogo after I've  
+>>> had the "no window" experience, I get _both_ the xlogo window and  
+>>> the Geant4 window the latter with all the ion tracks. It's just  
+>>> the display of the window that's at issue. The only menu selection  
+>>> that seems to matter is zoom. That puts up the window but it  
+>>> remains empty until the next time that the Geant4 code runs, at  
+>>> which point it's upgraded.
+>>>
+>>> Also of note. If I run glxgears after quitting the geant4  
+>>> application but before I restart it, the second restart is  
+>>> completely normal.
+>>>
+>>> All of these lead me to think that in the recent rewrite you  
+>>> probably eliminated some refresh or other code that according to  
+>>> the protocol was totally unnecessary, but the Geant4  
+>>> implementation was depending on it. Opening another x11 window  
+>>> such as xlogo causes something to happen globally that was  
+>>> overlooked by Geant4. What glxgears does is puzzling but it must  
+>>> clear whatever fubar state the Geant4 OpenGL left things in.
+>>>
+>>> I know that this is totally heuristic, but is there anything in  
+>>> this that jogs your memory?  If not, it's not so important. I've  
+>>> now found multiple work arounds. Still, maybe a hint on what to  
+>>> look for in Geant4 (assuming it's really there) would be  
+>>> appreciated.
+>>>
+>>> Regarding your note below, here's how this went.
+>>>
+>>> Run geant4 with no X server running. Ok.
+>>> Quite geant4 normally. X server continues in the dock.
+>>> Run geant4 again. It behaves ok with no OpenGL errors, but no  
+>>> display.
+>>> Quit geant4 normally.
+>>> Log in to out Linux cluster.
+>>> Run xterm. Normal display of the window on the mac.
+>>> Terminate xterm gracefully.
+>>> log out of the cluster. X server continues to run with icon in the  
+>>> dock.
+>>> Run geant4. X window opens normally. Everything ok.
+>>>
+>>> In other words, running a normal application fixed something. This  
+>>> also points squarely to the Geant4 OpenGL to me. Unfortunately,  
+>>> that code is very old. I'm not sure that anyone in the Geant4  
+>>> collaboration is current up to date with it. I'm not in the  
+>>> collaboration but work with them closely, so they will probably be  
+>>> happy if I can tell them anything useful.
+>>>
+>>> Thanks so much for the quick reply.
+>>>
+>>> Regards,
+>>> Bob
+>>>
+>>> On Aug 18, 2009, at 6:50 PM, Jeremy Huddleston wrote:
+>>>
+>>>> Odd.  My guess is that there is a $DISPLAY issue here.
+>>>>
+>>>> If you connect to the remote computer from an xterm (as opposed  
+>>>> to Terminal.app), does it work?
+>>>>
+>>>> Can you try running 'xdpyinfo' or 'xterm' while on the remote  
+>>>> system rather than your radiation transport application?  That  
+>>>> will atleast eliminate your application from the list of possible  
+>>>> culprits (I doubt it is the problem, but it's good to pick  
+>>>> reduced test cases).
+>>>>
+>>>> --Jeremy
+>>>>
+>>>>
+>>>> On Aug 18, 2009, at 14:56, Robert A. Weller wrote:
+>>>>
+>>>>> I have found the last few releases to be extremely stable, but  
+>>>>> 2.4.0 has introduced an annoying issue with the programs that I  
+>>>>> use.
+>>>>>
+>>>>> These are custom code for radiation transport based on Geant4.
+>>>>>
+>>>>> Previously, I could start and stop the transport programs,  
+>>>>> whether running on my local Mac, or on a remote linux cluster,  
+>>>>> arbitrarily and the program would connect with my local X11  
+>>>>> regardless of whether or not it was running with an icon in the  
+>>>>> dock. Now everything works fine the first time I start the  
+>>>>> program either locally or remotely, but subsequently it won't  
+>>>>> work if I have an X icon already in the dock. If I quit X then  
+>>>>> everything is ok again. It is as if somehow the server isn't  
+>>>>> being found if it's already running.
+>>>>>
+>>>>> As I said, everything worked perfectly prior to 2.4.0. I'm  
+>>>>> running Mac OS X 1.5.8 and the programs have not been recompiled  
+>>>>> since I installed X11 2.4.0.  What could be causing this? Could  
+>>>>> it be a regression in 2.4.0. I'm inclined to think not, since  
+>>>>> the list has been so quiet. Surely, everyone would have seen  
+>>>>> this if it were a real issue with the new x11.
+>>>>>
+>>>>> Regards,
+>>>>> Bob Weller
+>>>>> Vanderbilt University
+>>>>>
+>>>>> _______________________________________________
+>>>>> Do not post admin requests to the list. They will be ignored.
+>>>>> X11-users mailing list      (X11-users@lists.apple.com)
+>>>>> Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/jeremyhu%40freedesktop.org
+>>>>>
+>>>>> This email sent to jeremyhu@freedesktop.org
+>>>>
+>>>
+>>
+>
+

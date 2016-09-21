@@ -1,0 +1,69 @@
+Sampling process 2112 for 3 seconds with 1 millisecond of run time between samples
+Sampling completed, processing symbols...
+Analysis of sampling X11 (pid 2112) every 1 millisecond
+Call graph:
+    1587 Thread_2503
+      1587 start
+        1587 main
+          1587 mach_msg_server
+            1587 mach_startup_server
+              1587 _Xstart_x11_server
+                1587 do_start_x11_server
+                  1587 server_main
+                    1587 X11ApplicationMain
+                      1587 xpbproxy_init
+                        1587 XOpenDisplay
+                          1587 _XRead
+                            1587 poll$UNIX2003
+                              1587 poll$UNIX2003
+    1587 Thread_2603
+      1587 thread_start
+        1587 _pthread_start
+          1587 CAPThread::Entry(CAPThread*)
+            1587 HALRunLoop::OwnThread(void*)
+              1587 CFRunLoopRunInMode
+                1587 CFRunLoopRunSpecific
+                  1587 mach_msg
+                    1587 mach_msg_trap
+                      1587 mach_msg_trap
+    1587 Thread_2703
+      1587 thread_start
+        1587 _pthread_start
+          1587 server_thread
+            1587 dix_main
+              1587 Dispatch
+                1587 select$DARWIN_EXTSN
+                  1587 select$DARWIN_EXTSN
+    1587 Thread_2803
+      1587 thread_start
+        1587 _pthread_start
+          1587 glvmDoWork
+            1587 pthread_cond_wait$UNIX2003
+              1587 __semwait_signal
+                1587 __semwait_signal
+    1587 Thread_2903
+      1587 thread_start
+        1587 _pthread_start
+          1587 DarwinProcessFDAdditionQueue_thread
+            1587 pthread_cond_wait$UNIX2003
+              1587 __semwait_signal
+                1587 __semwait_signal
+    1587 Thread_2a03
+      1587 thread_start
+        1587 _pthread_start
+          1587 _xp_async_thread
+            1587 _xp_async_dequeue
+              1587 pthread_cond_wait$UNIX2003
+                1587 __semwait_signal
+                  1587 __semwait_signal
+
+Total number in stack (recursive counted multiple, when >=5):
+        5       _pthread_start
+        5       thread_start
+
+Sort by top of stack, same collapsed (when >= 5):
+        __semwait_signal        4761
+        mach_msg_trap        1587
+        poll$UNIX2003        1587
+        select$DARWIN_EXTSN        1587
+Sample analysis of process 2112 written to file /dev/stdout

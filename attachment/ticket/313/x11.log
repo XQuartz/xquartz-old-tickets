@@ -1,0 +1,81 @@
+9/23/09 5:09:24 PM	[0x0-0x68068].org.x.X11[4637]	X11.app: main(): argc=2
+9/23/09 5:09:24 PM	[0x0-0x68068].org.x.X11[4637]	        argv[0] = /Applications/Utilities/X11.app/Contents/MacOS/X11.bin
+9/23/09 5:09:24 PM	[0x0-0x68068].org.x.X11[4637]	        argv[1] = -psn_0_426088
+9/23/09 5:09:24 PM	[0x0-0x68068].org.x.X11[4637]	Waiting for startup parameters via Mach IPC.
+9/23/09 5:09:24 PM	org.x.startx[4645]	font_cache: Scanning user font directories to generate X11 font caches
+9/23/09 5:09:24 PM	org.x.startx[4645]	font_cache: Updating FC cache
+9/23/09 5:09:24 PM	org.x.privileged_startx[4484]	font_cache: Scanning system font directories to generate X11 font caches
+9/23/09 5:09:24 PM	defaults[4676]	
+The domain/default pair of (org.x.X11, dpi) does not exist
+9/23/09 5:09:24 PM	org.x.startx[4645]	xauth:  creating new authority file /Users/snow/.serverauth.4645
+9/23/09 5:09:24 PM	org.x.startx[4645]	xauth:  error in locking authority file /Users/snow/.Xauthority
+9/23/09 5:09:24 PM	org.x.startx[4645]	xauth:  error in locking authority file /Users/snow/.Xauthority
+9/23/09 5:09:24 PM	org.x.startx[4645]	xauth:  error in locking authority file /Users/snow/.Xauthority
+9/23/09 5:09:24 PM	org.x.startx[4645]	xauth:  error in locking authority file /Users/snow/.Xauthority
+9/23/09 5:09:24 PM	[0x0-0x68068].org.x.X11[4637]	X11.app: Listening on socket for fd handoff:  (4) /var/tmp/tmp.0.qG25oN
+9/23/09 5:09:24 PM	[0x0-0x68068].org.x.X11[4637]	X11.app: Thread created for handoff.  Returning success to tell caller to connect and push the fd.
+9/23/09 5:09:24 PM	[0x0-0x68068].org.x.X11[4637]	X11.app: Received new $DISPLAY fd: 6 ... sleeping to allow xinitrc to catchup.
+9/23/09 5:09:24 PM	[0x0-0x68068].org.x.X11[4637]	X11.app: do_start_x11_server(): argc=4
+9/23/09 5:09:24 PM	[0x0-0x68068].org.x.X11[4637]	        argv[0] = /usr/X11/bin/X
+9/23/09 5:09:24 PM	[0x0-0x68068].org.x.X11[4637]	        argv[1] = :0
+9/23/09 5:09:24 PM	[0x0-0x68068].org.x.X11[4637]	        argv[2] = -auth
+9/23/09 5:09:24 PM	[0x0-0x68068].org.x.X11[4637]	        argv[3] = /Users/snow/.serverauth.4645
+9/23/09 5:09:24 PM	org.x.startx[4645]	Xquartz: Handoff connection established (try 1 of 5) on fd 6, "/var/tmp/tmp.0.qG25oN".  Sending message.
+9/23/09 5:09:24 PM	org.x.startx[4645]	Xquartz: Message sent.  Closing handoff fd.
+9/23/09 5:09:25 PM	[0x0-0x68068].org.x.X11[4637]	Xquartz starting:
+9/23/09 5:09:25 PM	[0x0-0x68068].org.x.X11[4637]	X.Org X Server 1.4.2-apple45
+9/23/09 5:09:25 PM	[0x0-0x68068].org.x.X11[4637]	Build Date: 20090705
+9/23/09 5:09:25 PM	[0x0-0x68068].org.x.X11[4637]	(EE) XKB: Couldn't open rules file /usr/X11/share/X11/xkb/rules/base
+9/23/09 5:09:25 PM	[0x0-0x68068].org.x.X11[4637]	(EE) XKB: Couldn't open rules file /usr/X11/share/X11/xkb/rules/base
+9/23/09 5:09:25 PM	org.x.privileged_startx[4484]	font_cache: Updating FC cache
+9/23/09 5:09:25 PM	SIMBL Agent[2295]	received {
+    NSApplicationBundleIdentifier = "org.x.X11";
+    NSApplicationName = X11;
+    NSApplicationPath = "/Applications/Utilities/X11.app";
+    NSApplicationProcessIdentifier = 4637;
+    NSApplicationProcessSerialNumberHigh = 0;
+    NSApplicationProcessSerialNumberLow = 426088;
+    NSWorkspaceApplicationKey = <NSRunningApplication: 0x1003b1810 (org.x.X11 - 4637)>;
+}
+9/23/09 5:09:26 PM	org.x.startx[4645]	font_cache: Done
+9/23/09 5:09:26 PM	[0x0-0x68068].org.x.X11[4637]	AUDIT: Wed Sep 23 17:09:26 2009: 4637 X: client 1 rejected from local host (uid 501)
+9/23/09 5:09:26 PM	org.x.startx[4645]	Xlib: connection to ":0.0" refused by server
+9/23/09 5:09:26 PM	org.x.startx[4645]	Xlib: No protocol specified
+9/23/09 5:09:26 PM	org.x.startx[4645]	waiting for X server to begin accepting connections 
+9/23/09 5:09:27 PM	org.x.privileged_startx[4484]	font_cache: Done
+9/23/09 5:09:27 PM	org.x.startx[4645]	.
+9/23/09 5:09:27 PM	[0x0-0x68068].org.x.X11[4637]	X11.app Handing off fd to server thread via DarwinListenOnOpenFD(6)
+9/23/09 5:09:27 PM	[0x0-0x68068].org.x.X11[4637]	DarwinListenOnOpenFD: 6
+9/23/09 5:09:27 PM	[0x0-0x68068].org.x.X11[4637]	Calling ListenOnOpenFD() for new fd: 6
+9/23/09 5:09:27 PM	[0x0-0x68068].org.x.X11[4637]	X11.app: Launching /usr/X11/bin/xterm:
+9/23/09 5:09:27 PM	[0x0-0x68068].org.x.X11[4637]	        argv[0] = /bin/sh
+9/23/09 5:09:27 PM	[0x0-0x68068].org.x.X11[4637]	        argv[1] = -c
+9/23/09 5:09:27 PM	[0x0-0x68068].org.x.X11[4637]	        argv[2] = /usr/X11/bin/xterm
+9/23/09 5:09:28 PM	[0x0-0x68068].org.x.X11[4637]	AUDIT: Wed Sep 23 17:09:28 2009: 4637 X: client 3 rejected from local host (uid 501)
+9/23/09 5:09:28 PM	org.x.startx[4645]	Xlib: connection to ":0.0" refused by server
+9/23/09 5:09:28 PM	org.x.startx[4645]	Xlib: No protocol specified
+9/23/09 5:09:28 PM	org.x.startx[4645]	.
+9/23/09 5:09:29 PM	org.x.startx[4645]	.
+9/23/09 5:09:30 PM	[0x0-0x68068].org.x.X11[4637]	AUDIT: Wed Sep 23 17:09:30 2009: 4637 X: client 3 rejected from local host (uid 501)
+9/23/09 5:09:30 PM	org.x.startx[4645]	Xlib: connection to ":0.0" refused by server
+9/23/09 5:09:30 PM	org.x.startx[4645]	Xlib: No protocol specified
+9/23/09 5:09:30 PM	org.x.startx[4645]	.
+9/23/09 5:09:31 PM	org.x.startx[4645]	.
+9/23/09 5:09:32 PM	[0x0-0x68068].org.x.X11[4637]	AUDIT: Wed Sep 23 17:09:32 2009: 4637 X: client 3 rejected from local host (uid 501)
+9/23/09 5:09:32 PM	org.x.startx[4645]	Xlib: connection to ":0.0" refused by server
+9/23/09 5:09:32 PM	org.x.startx[4645]	Xlib: No protocol specified
+9/23/09 5:09:32 PM	org.x.startx[4645]	.
+9/23/09 5:09:33 PM	org.x.startx[4645]	.
+9/23/09 5:09:34 PM	[0x0-0x68068].org.x.X11[4637]	AUDIT: Wed Sep 23 17:09:34 2009: 4637 X: client 3 rejected from local host (uid 501)
+9/23/09 5:09:34 PM	org.x.startx[4645]	Xlib: connection to ":0.0" refused by server
+9/23/09 5:09:34 PM	org.x.startx[4645]	Xlib: No protocol specified
+9/23/09 5:09:34 PM	org.x.startx[4645]	.
+9/23/09 5:09:35 PM	org.x.startx[4645]	.
+9/23/09 5:09:36 PM	[0x0-0x68068].org.x.X11[4637]	xterm:  fatal IO error 32 (Broken pipe) or KillClient on X server "/tmp/launch-Dvo9g3/:0"
+9/23/09 5:09:36 PM	[0x0-0x68068].org.x.X11[4637]	Quitting Xquartz...
+9/23/09 5:09:36 PM	org.x.startx[4645]	Xquartz: start_x11_server: (ipc/mig) server died
+9/23/09 5:09:36 PM	org.x.startx[4645]	giving up.
+9/23/09 5:09:36 PM	org.x.startx[4645]	/usr/X11/bin/xinit:  Connection refused (errno 61):  unable to connect to X server
+9/23/09 5:09:36 PM	org.x.startx[4645]	/usr/X11/bin/xinit:  No such process (errno 3):  
+9/23/09 5:09:36 PM	org.x.startx[4645]	Server error.
+9/23/09 5:09:36 PM	org.x.startx[4645]	xauth:  error in locking authority file /Users/snow/.Xauthority

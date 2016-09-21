@@ -1,0 +1,68 @@
+6/24/10 1:03:52 PM	org.x.privileged_startx[263]	font_cache: Scanning system font directories to generate X11 font caches
+6/24/10 1:03:54 PM	login[295]	USER_PROCESS: 295 ttys001
+6/24/10 1:03:57 PM	org.x.privileged_startx[263]	font_cache: Making fonts.dir for updated directories.
+6/24/10 1:03:59 PM	org.x.privileged_startx[263]	Unknown Type 1 weight "All"
+6/24/10 1:03:59 PM	org.x.privileged_startx[263]	Couldn't determine weight for HelveLTMM
+6/24/10 1:03:59 PM	org.x.privileged_startx[263]	Unknown Type 1 weight "All"
+6/24/10 1:03:59 PM	org.x.privileged_startx[263]	Couldn't determine weight for Helvetica LT MM
+6/24/10 1:04:00 PM	org.x.privileged_startx[263]	Unknown Type 1 weight "All"
+6/24/10 1:04:00 PM	org.x.privileged_startx[263]	Couldn't determine weight for Times LT MM
+6/24/10 1:04:00 PM	org.x.privileged_startx[263]	Unknown Type 1 weight "All"
+6/24/10 1:04:00 PM	org.x.privileged_startx[263]	Couldn't determine weight for TimesLTMM
+6/24/10 1:04:07 PM	org.x.privileged_startx[263]	font_cache: Updating FC cache
+6/24/10 1:04:32 PM	org.x.privileged_startx[263]	font_cache: Done
+6/24/10 1:04:43 PM	kernel	en1: 802.11d country code set to 'US'.
+6/24/10 1:04:43 PM	kernel	en1: Supported channels 1 2 3 4 5 6 7 8 9 10 11 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 149 153 157 161 165
+6/24/10 1:04:59 PM	X11.bin[288]	kCGErrorFailure: _CGSLockWindow: Cannot synchronize window backing store
+6/24/10 1:04:59 PM	X11.bin[288]	kCGErrorFailure: Set a breakpoint @ CGErrorBreakpoint() to catch errors as they are logged.
+6/24/10 1:04:59 PM	X11.bin[288]	kCGErrorFailure: CGSLockWindowRectBits
+6/24/10 1:04:59 PM	com.apple.launchd[1]	(com.apple.WindowServer[79]) Job appears to have crashed: Segmentation fault
+6/24/10 1:04:59 PM	login[295]	DEAD_PROCESS: 295 ttys001
+6/24/10 1:04:59 PM	Dock[179]	MIG: server died: CGSReenableUpdateForConnections: Failed
+6/24/10 1:04:59 PM	Dock[179]	kCGErrorFailure: Set a breakpoint @ CGErrorBreakpoint() to catch errors as they are logged.
+6/24/10 1:04:59 PM	login[222]	DEAD_PROCESS: 222 ttys000
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSDisableUpdateForConnections: Failed
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: _CGSFindSharedWindow: WID 13
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSOrderWindowList
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetWindowTransformsAtPlacement: Failed
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetWindowTransformAtPlacement: Failed
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetWindowTransformAtPlacement: Failed
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetWindowTransformAtPlacement: Failed
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetWindowTransformAtPlacement: Failed
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetWindowTransformAtPlacement: Failed
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetWindowTransformAtPlacement: Failed
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetWindowListSystemLevel: Failed
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetWindowListSystemLevel: Failed
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSOrderWindowList
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetWindowListSystemLevel: Failed
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSOrderWindowList
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetWindowListSystemLevel: Failed
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSOrderWindowList
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetWindowListSystemLevel: Failed
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSOrderWindowList
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetWindowListSystemLevel: Failed
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSOrderWindowList
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetWindowListSystemLevel: Failed
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSOrderWindowList
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSReenableUpdateForConnections: Failed
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	Dock[179]	(ipc/send) invalid destination port: CGSSetMagicMirror: server didn't like your request
+6/24/10 1:04:59 PM	mdworker[294]	(Error) SyncInfo: Catalog changed during searchfs too many times -- falling back to fsw search /
+6/24/10 1:05:00 PM	com.apple.ReportCrash.Root[412]	2010-06-24 13:05:00.128 ReportCrash[412:2903] Saved crash report for WindowServer[79] version ??? (???) to /Library/Logs/DiagnosticReports/WindowServer_2010-06-24-130500_localhost.crash

@@ -1,0 +1,46 @@
+Process:         X11.bin [12950]
+Path:            /Applications/Utilities/XQuartz.app/Contents/MacOS/X11
+Identifier:      org.macosforge.xquartz.X11
+Version:         ??? (???)
+Code Type:       X86-64 (Native)
+Parent Process:  launchd [148]
+
+Date/Time:       2012-01-29 12:54:33.548 -0500
+OS Version:      Mac OS X 10.7.2 (11C74)
+Report Version:  9
+
+Crashed Thread:  0
+
+Exception Type:  EXC_BREAKPOINT (SIGTRAP)
+Exception Codes: 0x0000000000000002, 0x0000000000000000
+
+Application Specific Information:
+dyld: launch, loading dependent libraries
+
+Dyld Error Message:
+  Library not loaded: /opt/X11/*/libpixman-1.0.dylib
+  Referenced from: /Applications/Utilities/XQuartz.app/Contents/MacOS/X11.bin
+  Reason: Incompatible library version: X11.bin requires version 25.0.0 or later, but libpixman-1.0.dylib provides version 24.0.0
+
+Binary Images:
+       0x100000000 -        0x10019cfff +X11.bin (??? - ???) <496CFA71-92EA-3916-A96B-B2BC58E4086E> /Applications/Utilities/XQuartz.app/Contents/MacOS/X11.bin
+       0x100214000 -        0x10022cff7 +org.andymatuschak.Sparkle (1.5 Beta [git] - 1.5) <84A283C4-D4E9-3B05-909A-84EFE0046977> /Applications/Utilities/XQuartz.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle
+       0x100240000 -        0x10026dfff +libXfont.1.dylib (6.1.0 - compatibility 6.0.0) <C97A8929-34E2-31F6-9411-E4C3331CBC17> /opt/X11/*/libXfont.1.dylib
+       0x10027a000 -        0x1002efff7 +libfreetype.6.dylib (15.0.0 - compatibility 15.0.0) <2C0D01CA-4F4D-3F9E-B284-DAE4DFC0625E> /opt/X11/*/libfreetype.6.dylib
+       0x100304000 -        0x100307ff7 +libfontenc.1.dylib (2.0.0 - compatibility 2.0.0) <DCFEB07F-70C8-3738-82C3-A337BEFA60A5> /opt/X11/*/libfontenc.1.dylib
+       0x10030c000 -        0x10030dfff +libXau.6.dylib (7.0.0 - compatibility 7.0.0) <7CE0198F-5790-383E-89EE-BBD83040DB76> /opt/X11/*/libXau.6.dylib
+       0x100310000 -        0x100313fff +libXdmcp.6.dylib (7.0.0 - compatibility 7.0.0) <8373A72B-40D8-3A1A-9240-84C99892E1E2> /opt/X11/*/libXdmcp.6.dylib
+       0x100316000 -        0x100322fff +libXplugin.1.dylib (??? - ???) <1CCA3FCD-8D99-3A3C-91A7-0C758709CCC3> /opt/X11/*/libXplugin.1.dylib
+       0x100329000 -        0x10032afff +libAppleWM.7.dylib (8.0.0 - compatibility 8.0.0) <8D2AD53F-440E-34DA-8D19-E1D623D73B1B> /opt/X11/*/libAppleWM.7.dylib
+       0x10032d000 -        0x100330fff +libXfixes.3.dylib (5.0.0 - compatibility 5.0.0) <D944A8A3-94E9-32C9-B13D-B3119440CA2E> /opt/X11/*/libXfixes.3.dylib
+       0x100333000 -        0x100439fff +libX11.6.dylib (10.0.0 - compatibility 10.0.0) <A0C11072-184C-3FE0-85C4-F8B8407CD139> /opt/X11/*/libX11.6.dylib
+       0x10045d000 -        0x10046eff7 +libxcb.1.dylib (3.0.0 - compatibility 3.0.0) <54906F32-5D77-3144-AA4A-B0433BD022C9> /opt/X11/*/libxcb.1.dylib
+       0x10047c000 -        0x1004e6ff7 +libpixman-1.0.dylib (24.6.0 - compatibility 24.0.0) <66F3DB67-A2E3-3458-945D-5296B279430C> /opt/X11/*/libpixman-1.0.dylib
+    0x7fff6ceea000 -     0x7fff6cf1eac7  dyld (195.5 - ???) <4A6E2B28-C7A2-3528-ADB7-4076B9836041> /usr/lib/dyld
+    0x7fff82569000 -     0x7fff82569fff  com.apple.Carbon (153 - 153) <895C2BF2-1666-3A59-A669-311B1F4F368B> /System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+    0x7fff8634c000 -     0x7fff8635bff7  com.apple.opengl (1.7.5 - 1.7.5) <2945F1A6-910C-3596-9988-5701B04BD821> /System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL
+    0x7fff8bcfb000 -     0x7fff8bd65fff  com.apple.framework.IOKit (2.0 - ???) <87D55F1D-CDB5-3D13-A5F9-98EA4E22F8EE> /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+    0x7fff8cb27000 -     0x7fff8cb39ff7  libz.1.dylib (1.2.5 - compatibility 1.0.0) <30CBEF15-4978-3DED-8629-7109880A19D4> /usr/lib/libz.1.dylib
+    0x7fff8e0c6000 -     0x7fff8e0c6fff  com.apple.Cocoa (6.6 - ???) <021D4214-9C23-3CD8-AFB2-F331697A4508> /System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+    0x7fff8ead4000 -     0x7fff8eb3cff7  com.apple.audio.CoreAudio (4.0.1 - 4.0.1) <7966E3BE-376B-371A-A21D-9BD763C0BAE7> /System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+

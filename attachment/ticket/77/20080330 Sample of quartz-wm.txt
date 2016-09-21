@@ -1,0 +1,23 @@
+Sampling process 218 for 3 seconds with 1 millisecond of run time between samples
+Sampling completed, processing symbols...
+Analysis of sampling quartz-wm (pid 218) every 1 millisecond
+Call graph:
+    2427 Thread_2503
+      2427 start
+        2427 main
+          2427 CFRunLoopRun
+            2427 CFRunLoopRunSpecific
+              2427 mach_msg
+                2427 mach_msg_trap
+                  2427 mach_msg_trap
+    2427 Thread_2603
+      2427 __CFSocketManager
+        2427 select$DARWIN_EXTSN
+          2427 select$DARWIN_EXTSN
+
+Total number in stack (recursive counted multiple, when >=5):
+
+Sort by top of stack, same collapsed (when >= 5):
+        mach_msg_trap        2427
+        select$DARWIN_EXTSN        2427
+Sample analysis of process 218 written to file /dev/stdout

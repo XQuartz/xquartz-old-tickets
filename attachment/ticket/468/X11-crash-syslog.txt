@@ -1,0 +1,68 @@
+
+
+
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: Backtrace:
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: 0: /Applications/Utilities/X11.app/Contents/MacOS/X11.bin (xorg_backtrace+0x36) [0x11610b]
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: 1: /Applications/Utilities/X11.app/Contents/MacOS/X11.bin (OsInit+0x3ce) [0x11958f]
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: 2: /usr/lib/libSystem.B.dylib (_sigtramp+0x2b) [0x963ad2bb]
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: 3: /usr/lib/libSystem.B.dylib (_sigtramp+0x69c52d6f) [0xffffffff]
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: 4: /Applications/Utilities/X11.app/Contents/MacOS/X11.bin (fbFill+0x157) [0x37004]
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: 5: /Applications/Utilities/X11.app/Contents/MacOS/X11.bin (fbPolyFillRect+0xf5) [0x374ec]
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: 6: /Applications/Utilities/X11.app/Contents/MacOS/X11.bin (DRIWrapInit+0x1a01) [0x194da]
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: 7: /Applications/Utilities/X11.app/Contents/MacOS/X11.bin (DamageSetup+0x16ab) [0x82130]
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: 8: /Applications/Utilities/X11.app/Contents/MacOS/X11.bin (ServerBitsFromGlyph+0x15a) [0xe0db3]
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: 9: /Applications/Utilities/X11.app/Contents/MacOS/X11.bin (AllocGlyphCursor+0x194) [0xc539b]
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: 10: /Applications/Utilities/X11.app/Contents/MacOS/X11.bin (ProcCreateGlyphCursor+0xaa) [0xcaebf]
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: 11: /Applications/Utilities/X11.app/Contents/MacOS/X11.bin (Dispatch+0x2af) [0xcdb74]
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: 12: /Applications/Utilities/X11.app/Contents/MacOS/X11.bin (dix_main+0x422) [0xc0da5]
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: 13: /Applications/Utilities/X11.app/Contents/MacOS/X11.bin (QuartzInitServer+0xf9) [0x14a27]
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: 14: /usr/lib/libSystem.B.dylib (_pthread_start+0x141) [0x96372155]
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: 15: /usr/lib/libSystem.B.dylib (thread_start+0x22) [0x96372012]
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: Bus error at address 0x0
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: Fatal server error:
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]: Caught signal 10 (Bus error). Server aborting
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]:    OsVendorFatalError
+Feb 15 09:18:24 211pc75 [0x0-0x1c01c].org.x.X11[657]:    AbortDDX
+Feb 15 09:18:30 211pc75 ReportCrash[3500]: Formulating crash report for process X11.bin[657]
+Feb 15 09:18:31 211pc75 org.x.startx[682]: Xquartz: start_x11_server: (ipc/mig) server died
+Feb 15 09:18:31 211pc75 com.apple.launchd[617] ([0x0-0x1c01c].org.x.X11[657]): Exited abnormally: Abort trap
+Feb 15 09:18:31 211pc75 [0x0-0x1c01c].org.x.X11[0]: XIO:  fatal IO error 2 (No such file or directory) on X server "/tmp/launch-IzBKM9/org.x:0"
+Feb 15 09:18:31 211pc75 [0x0-0x1c01c].org.x.X11[0]:       after 15 requests (15 known processed) with 0 events remaining.
+Feb 15 09:18:31 211pc75 org.x.startx[682]: /usr/X11/bin/xinit: connection to X server lost
+Feb 15 09:18:33 211pc75 ReportCrash[3500]: Saved crashreport to /Users/thierryv/Library/Logs/CrashReporter/X11.bin_2011-02-15-091824_sandiego.crash using uid: 501 gid: 20, euid: 501 egid: 20
+
+
+Feb 15 09:18:45 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: X11.app: main(): argc=2
+Feb 15 09:18:45 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: 	argv[0] = /Applications/Utilities/X11.app/Contents/MacOS/X11.bin
+Feb 15 09:18:45 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: 	argv[1] = -psn_0_770236
+Feb 15 09:18:45 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: Waiting for startup parameters via Mach IPC.
+Feb 15 09:18:46 211pc75 org.x.startx[3520]: font_cache: Scanning user font directories to generate X11 font caches
+Feb 15 09:18:46 211pc75 org.x.privileged_startx[3528]: font_cache: Scanning system font directories to generate X11 font caches
+Feb 15 09:18:46 211pc75 defaults[3541]: \nThe domain/default pair of (org.x.X11, dpi) does not exist
+Feb 15 09:18:46 211pc75 org.x.startx[3520]: xauth:  file /Users/thierryv/.serverauth.3520 does not exist
+Feb 15 09:18:46 211pc75 org.x.startx[3520]: font_cache: Updating FC cache
+Feb 15 09:18:46 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: X11.app: Listening on socket for fd handoff:  (3) /var/tmp/tmp.0.Wr7lQe
+Feb 15 09:18:46 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: X11.app: Thread created for handoff.  Returning success to tell caller to connect and push the fd.
+Feb 15 09:18:46 211pc75 org.x.startx[3520]: Xquartz: Handoff connection established (try 1 of 5) on fd 4, "/var/tmp/tmp.0.Wr7lQe".  Sending message.
+Feb 15 09:18:46 211pc75 org.x.startx[3520]: Xquartz: Message sent.  Closing handoff fd.
+Feb 15 09:18:46 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: X11.app: Received new $DISPLAY fd: 5 ... sleeping to allow xinitrc to catchup.
+Feb 15 09:18:46 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: X11.app: do_start_x11_server(): argc=4
+Feb 15 09:18:46 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: 	argv[0] = /usr/X11/bin/X
+Feb 15 09:18:46 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: 	argv[1] = :0
+Feb 15 09:18:46 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: 	argv[2] = -auth
+Feb 15 09:18:46 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: 	argv[3] = /Users/thierryv/.serverauth.3520
+Feb 15 09:18:47 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: Xquartz starting:
+Feb 15 09:18:47 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: X.Org X Server 1.9.3
+Feb 15 09:18:47 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: Build Date: 20110113
+Feb 15 09:18:49 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: X11.app Handing off fd to server thread via DarwinListenOnOpenFD(5)
+Feb 15 09:18:49 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: DarwinListenOnOpenFD: 5
+Feb 15 09:18:51 211pc75 org.x.privileged_startx[3528]: font_cache: Updating FC cache
+Feb 15 09:18:52 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: Calling ListenOnOpenFD() for new fd: 5
+Feb 15 09:18:52 211pc75 org.x.startx[3520]: /usr/X11/bin/xinit: XFree86_VT property unexpectedly has 0 items instead of 1
+Feb 15 09:18:52 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: X11.app: Launching /usr/X11/bin/xterm:
+Feb 15 09:18:52 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: 	argv[0] = /bin/sh
+Feb 15 09:18:52 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: 	argv[1] = -c
+Feb 15 09:18:52 211pc75 [0x0-0xbc0bc].org.x.X11[3505]: 	argv[2] = /usr/X11/bin/xterm
+Feb 15 09:18:53 211pc75 org.x.privileged_startx[3528]: font_cache: Done
+Feb 15 09:18:53 211pc75 org.x.startx[3520]: font_cache: Done
+

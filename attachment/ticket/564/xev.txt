@@ -1,0 +1,100 @@
+bash-3.2$ xev
+Outer window is 0x2000001, inner window is 0x2000002
+
+PropertyNotify event, serial 8, synthetic NO, window 0x2000001,
+    atom 0x27 (WM_NAME), time 2056029141, state PropertyNewValue
+
+PropertyNotify event, serial 9, synthetic NO, window 0x2000001,
+    atom 0x22 (WM_COMMAND), time 2056029141, state PropertyNewValue
+
+PropertyNotify event, serial 10, synthetic NO, window 0x2000001,
+    atom 0x28 (WM_NORMAL_HINTS), time 2056029141, state PropertyNewValue
+
+CreateNotify event, serial 11, synthetic NO, window 0x2000001,
+    parent 0x2000001, window 0x2000002, (10,10), width 50, height 50
+border_width 4, override NO
+
+PropertyNotify event, serial 14, synthetic NO, window 0x2000001,
+    atom 0x130 (WM_PROTOCOLS), time 2056029141, state PropertyNewValue
+
+MapNotify event, serial 15, synthetic NO, window 0x2000001,
+    event 0x2000001, window 0x2000002, override NO
+
+PropertyNotify event, serial 28, synthetic NO, window 0x2000001,
+    atom 0x15a (_NET_WM_ALLOWED_ACTIONS), time 2056029144, state PropertyNewValue
+
+PropertyNotify event, serial 28, synthetic NO, window 0x2000001,
+    atom 0xfe (_NET_WM_STATE), time 2056029144, state PropertyNewValue
+
+ConfigureNotify event, serial 28, synthetic NO, window 0x2000001,
+    event 0x2000001, window 0x2000001, (0,0), width 178, height 178,
+    border_width 0, above 0x1200118, override NO
+
+ReparentNotify event, serial 30, synthetic NO, window 0x2000001,
+    event 0x2000001, window 0x2000001, parent 0x120011b,
+    (0,22), override NO
+
+ConfigureNotify event, serial 30, synthetic NO, window 0x2000001,
+    event 0x2000001, window 0x2000001, (0,22), width 178, height 178,
+    border_width 0, above 0x0, override NO
+
+PropertyNotify event, serial 30, synthetic NO, window 0x2000001,
+    atom 0xfe (_NET_WM_STATE), time 2056029146, state PropertyNewValue
+
+MapNotify event, serial 30, synthetic NO, window 0x2000001,
+    event 0x2000001, window 0x2000001, override NO
+
+VisibilityNotify event, serial 30, synthetic NO, window 0x2000001,
+    state VisibilityPartiallyObscured
+
+Expose event, serial 30, synthetic NO, window 0x2000001,
+    (0,0), width 178, height 10, count 4
+
+Expose event, serial 30, synthetic NO, window 0x2000001,
+    (0,10), width 10, height 58, count 3
+
+Expose event, serial 30, synthetic NO, window 0x2000001,
+    (68,10), width 110, height 58, count 2
+
+Expose event, serial 30, synthetic NO, window 0x2000001,
+    (0,68), width 178, height 95, count 1
+
+Expose event, serial 30, synthetic NO, window 0x2000001,
+    (0,163), width 163, height 15, count 0
+
+PropertyNotify event, serial 30, synthetic NO, window 0x2000001,
+    atom 0x108 (WM_STATE), time 2056029147, state PropertyNewValue
+
+ConfigureNotify event, serial 30, synthetic YES, window 0x2000001,
+    event 0x2000001, window 0x2000001, (0,22), width 178, height 178,
+    border_width 2, above 0x120011b, override NO
+
+FocusIn event, serial 30, synthetic NO, window 0x2000001,
+    mode NotifyNormal, detail NotifyNonlinear
+
+KeymapNotify event, serial 30, synthetic NO, window 0x0,
+    keys:  0   0   0   0   0   16  0   0   0   0   0   0   0   0   0   0
+           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+PropertyNotify event, serial 31, synthetic NO, window 0x2000001,
+    atom 0xfe (_NET_WM_STATE), time 2056029151, state PropertyNewValue
+
+PropertyNotify event, serial 31, synthetic NO, window 0x2000001,
+    atom 0xfe (_NET_WM_STATE), time 2056029151, state PropertyNewValue
+
+ConfigureNotify event, serial 31, synthetic YES, window 0x2000001,
+    event 0x2000001, window 0x2000001, (0,1068), width 178, height 178,
+    border_width 2, above 0x120011b, override NO
+
+PropertyNotify event, serial 31, synthetic NO, window 0x2000001,
+    atom 0xfe (_NET_WM_STATE), time 2056029151, state PropertyNewValue
+
+KeyRelease event, serial 31, synthetic NO, window 0x2000001,
+    root 0x381, subw 0x0, time 2056029198, (559,186), root:(559,1254),
+    state 0x0, keycode 44 (keysym 0xff0d, Return), same_screen YES,
+"   XLookupString gives 1 bytes: (0d) "
+    XFilterEvent returns: False
+
+FocusOut event, serial 34, synthetic NO, window 0x2000001,
+    mode NotifyNormal, detail NotifyNonlinear
+

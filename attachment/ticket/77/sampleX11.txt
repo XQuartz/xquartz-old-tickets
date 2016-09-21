@@ -1,0 +1,137 @@
+Sampling process 2311 for 3 seconds with 1 millisecond of run time between samples
+Sampling completed, processing symbols...
+Analysis of sampling X (pid 2311) every 1 millisecond
+Call graph:
+    2111 Thread_2503
+      2045 start
+        2045 main
+          2045 DarwinHandleGUI
+            2045 X11ControllerMain
+              2045 X11ApplicationMain
+                2045 -[NSApplication run]
+                  2043 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:]
+                    2043 _DPSNextEvent
+                      2039 BlockUntilNextEventMatchingListInMode
+                        2039 ReceiveNextEventCommon
+                          2039 RunCurrentEventLoopInMode
+                            2038 CFRunLoopRunSpecific
+                              2024 mach_msg
+                                2024 mach_msg_trap
+                                  2024 mach_msg_trap
+                              10 __CFMachPortPerform
+                                9 PullEventsFromWindowServerOnConnection(unsigned int, unsigned char)
+                                  5 CGEventCreateNextEvent
+                                    5 CGSGetNextEventRecordInternal
+                                      5 snarfEvents
+                                        3 _CGSGetPortStreamInline
+                                          3 mach_msg
+                                            3 mach_msg_trap
+                                              3 mach_msg_trap
+                                        1 CGSDecodeEventRecord
+                                          1 CGEventCreateFromDataAndSource
+                                            1 CGEventCreateFromDataAndSource
+                                        1 CGSDispatchDatagramsFromStream
+                                          1 CGSDecodeEventRecord
+                                            1 _CFRelease
+                                              1 objc_collecting_enabled
+                                                1 objc_collecting_enabled
+                                  3 _CFRelease
+                                    3 _CFRelease
+                                  1 ConvertPlatformEventRecordAndPostWithOptions(__CGEvent*, _CGSEventRecord const*, short, unsigned char, unsigned char)
+                                    1 CreateEventWithCGEvent
+                                      1 CreateMouseEvent
+                                        1 CreateMouseEvent
+                                1 MessageHandler(__CFMachPort*, void*, long, void*)
+                                  1 dyld_stub_CGSExtractEventRecordsFromMessage
+                                    1 dyld_stub_CGSExtractEventRecordsFromMessage
+                              2 __CFRunLoopDoObservers
+                                1 FlushAllBuffers(__CFRunLoopObserver*, unsigned long, void*)
+                                  1 GetCurrentEventTime
+                                    1 dyld_stub_pthread_once
+                                      1 dyld_stub_pthread_once
+                                1 _handleWindowsNeedUpdateNote
+                                  1 -[NSApplication updateWindows]
+                                    1 -[NSUIHeartBeat updateHeartBeatState]
+                                      1 _checkClientHeartBeatStates
+                                        1 _checkClientHeartBeatStates
+                              1 CFRunLoopRunSpecific
+                              1 __CFRunLoopModeFindSourceForMachPort
+                                1 CFSetApplyFunction
+                                  1 __CFRunLoopFindSource
+                                    1 __CFRunLoopFindSource
+                            1 CFStringCompare
+                              1 CFStringCompare
+                      4 SendEventToEventTarget
+                        4 SendEventToEventTargetInternal(OpaqueEventRef*, OpaqueEventTargetRef*, HandlerCallRec*)
+                          4 DispatchEventToHandlers(EventTargetRec*, OpaqueEventRef*, HandlerCallRec*)
+                            4 ToolboxEventDispatcherHandler(OpaqueEventHandlerCallRef*, OpaqueEventRef*, void*)
+                              4 FindWindowAndPartFromMouseEvent
+                                3 FindWindow
+                                  3 FindWindowOfClass
+                                    3 FindWindowCommon(Point, OpaqueWindowPtr**, short*)
+                                      2 FindPlatformWindow
+                                        2 CGSFindWindowAndOwner
+                                          2 _CGSFindWindow
+                                            2 mach_msg
+                                              2 mach_msg_trap
+                                                2 mach_msg_trap
+                                      1 QDSwapPort
+                                        1 QDSwapPort
+                                1 GetEventParameter
+                                  1 GetEventParameter
+                  2 -[X11Application sendEvent:]
+                    2 -[NSApplication sendEvent:]
+                      1 -[NSApplication sendEvent:]
+                      1 -[NSApplication setWindowsNeedUpdate:]
+                        1 CFRunLoopObserverCreate
+                          1 CFRunLoopObserverCreate
+      43 _sigtramp
+        42 _sigtramp
+        1 SmartScheduleTimer
+          1 SmartScheduleTimer
+      20 mach_msg
+        20 _sigtramp
+          20 _sigtramp
+      3 _checkClientHeartBeatStates
+        3 mach_msg
+          3 _sigtramp
+            3 _sigtramp
+    2111 Thread_2603
+      2111 _pthread_start
+        2111 server_thread
+          2111 main
+            2111 Dispatch
+              2111 XaceCatchDispatchProc
+                2111 ProcConfigureWindow
+                  2111 ConfigureWindow
+                    2111 RootlessResizeWindow
+                      2111 miSlideAndSizeWindow
+                        2111 miHandleValidateExposures
+                          2111 DRIWindowExposures
+                            2111 miWindowExposures
+                              2111 RootlessPaintWindowBackground
+                                2111 RootlessStartDrawing
+                                  2111 xprStartDrawing
+                                    2111 xp_lock_window
+                                      2111 _xp_synchronize
+                                        2111 _xp_async_dequeue
+                                          2111 _pthread_cond_wait
+                                            2111 __semwait_signal
+                                              2111 __semwait_signal
+    2111 Thread_2703
+      2111 _pthread_start
+        2111 _xp_async_thread
+          2111 _xp_async_dequeue
+            2111 _pthread_cond_wait
+              2111 __semwait_signal
+                2111 __semwait_signal
+
+Total number in stack (recursive counted multiple, when >=5):
+        5       mach_msg
+
+Sort by top of stack, same collapsed (when >= 5):
+        __semwait_signal        4222
+        mach_msg_trap        2029
+        _sigtramp        65
+Sample analysis of process 2311 written to file /dev/stdout
+

@@ -1,0 +1,149 @@
+From 7bc30b46376f2e6309e3597245cba9d1784cfe74 Mon Sep 17 00:00:00 2001
+From: Jeremy Huddleston <jeremyhu@apple.com>
+Date: Thu, 19 Apr 2012 18:48:22 -0700
+Subject: [PATCH] XQuartz: Add a hack to better handle clicky wheel scroll
+ mice
+
+We loose information from AppKit being in our way.  Before adopting
+smooth scrolling, we always rounded-up the number of scroll button
+clicks per NSEvent.  Now, the scroll value is accumulated in the
+dix, and clicky scroll wheels with legacy X11 clients are seeing
+an accumulation of error due to so many translations (button press
+to smooth scrolling value in AppKit, passed to the dix, and then
+synthesized into a button press).  This attempts to make the
+situation better.
+
+http://xquartz.macosforge.org/trac/ticket/562
+
+Signed-off-by: Jeremy Huddleston <jeremyhu@apple.com>
+---
+ hw/xquartz/X11Application.m |  106 +++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 106 insertions(+)
+
+diff --git a/hw/xquartz/X11Application.m b/hw/xquartz/X11Application.m
+index 3e9f108..f81a492 100644
+--- a/hw/xquartz/X11Application.m
++++ b/hw/xquartz/X11Application.m
+@@ -1643,6 +1643,26 @@ handle_mouse:
+     {
+         float deltaX = [e deltaX];
+         float deltaY = [e deltaY];
++        CGEventRef cge = [e CGEvent];
++        BOOL isContinuous =
++            CGEventGetIntegerValueField(cge, kCGScrollWheelEventIsContinuous);
++
++#if 0
++        /* Scale the scroll value by line height */
++        CGEventSourceRef source = CGEventCreateSourceFromEvent(cge);
++        if (source) {
++            double lineHeight = CGEventSourceGetPixelsPerLine(source);
++            CFRelease(source);
++            
++            /* There's no real reason for the 1/5 ratio here other than that
++             * it feels like a good ratio after some testing.
++             */
++            
++            deltaX *= lineHeight / 5.0;
++            deltaY *= lineHeight / 5.0;
++        }
++#endif
++        
+ #if !defined(XPLUGIN_VERSION) || XPLUGIN_VERSION == 0
+         /* If we're in the background, we need to send a MotionNotify event
+          * first, since we aren't getting them on background mouse motion
+@@ -1663,6 +1683,92 @@ handle_mouse:
+             deltaY *= -1;
+         }
+ #endif
++        /* This hack is in place to better deal with "clicky" scroll wheels:
++         * http://xquartz.macosforge.org/trac/ticket/562
++         */
++        if (!isContinuous) {
++            static NSTimeInterval lastScrollTime = 0.0;
++
++            /* These store how much extra we have already scrolled.
++             * ie, this is how much we ignore on the next event.
++             */
++            static double deficit_x = 0.0;
++            static double deficit_y = 0.0;
++
++            /* If we have past a second since the last scroll, wipe the slate
++             * clean
++             */
++            if ([e timestamp] - lastScrollTime > 1.0) {
++                deficit_x = deficit_y = 0.0;
++            }
++            lastScrollTime = [e timestamp];
++
++            if (deltaX != 0.0) {
++                /* If we changed directions, wipe the slate clean */
++                if ((deficit_x < 0.0 && deltaX > 0.0) ||
++                    (deficit_x > 0.0 && deltaX < 0.0)) {
++                    deficit_x = 0.0;
++                }
++
++                /* Eat up the deficit, but ensure that something is
++                 * always sent 
++                 */                if (fabs(deltaX) > fabs(deficit_x)) {
++                    deltaX -= deficit_x;
++
++                    if (deltaX > 0.0) {
++                        deficit_x = ceil(deltaX) - deltaX;
++                        deltaX = ceil(deltaX);
++                    } else {
++                        deficit_x = floor(deltaX) - deltaX;
++                        deltaX = floor(deltaX);
++                    }
++                } else {
++                    deficit_x -= deltaX;
++
++                    if (deltaX > 0.0) {
++                        deltaX = 1.0;
++                    } else {
++                        deltaX = -1.0;
++                    }
++
++                    deficit_x += deltaX;
++                }
++            }
++
++            if (deltaY != 0.0) {
++                /* If we changed directions, wipe the slate clean */
++                if ((deficit_y < 0.0 && deltaY > 0.0) ||
++                    (deficit_y > 0.0 && deltaY < 0.0)) {
++                    deficit_y = 0.0;
++                }
++
++                /* Eat up the deficit, but ensure that something is
++                 * always sent 
++                 */
++                if (fabs(deltaY) > fabs(deficit_y)) {
++                    deltaY -= deficit_y;
++
++                    if (deltaY > 0.0) {
++                        deficit_y = ceil(deltaY) - deltaY;
++                        deltaY = ceil(deltaY);
++                    } else {
++                        deficit_y = floor(deltaY) - deltaY;
++                        deltaY = floor(deltaY);
++                    }
++                } else {
++                    deficit_y -= deltaY;
++
++                    if (deltaY > 0.0) {
++                        deltaY = 1.0;
++                    } else {
++                        deltaY = -1.0;
++                    }
++
++                    deficit_y += deltaY;
++                }
++            }
++        }
++
+         DarwinSendScrollEvents(deltaX, deltaY);
+         break;
+     }
+-- 
+1.7.10
+

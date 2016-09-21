@@ -1,0 +1,181 @@
+Date/Time:       2012-04-29 18:42:21 +0200
+OS Version:      10.7.3 (Build 11D50b)
+Architecture:    x86_64
+Report Version:  9
+
+Command:         glxinfo
+Path:            /usr/X11/bin/glxinfo
+Version:         ??? (???)
+Parent:          bash [36274]
+
+PID:             36335
+Event:           manual
+Duration:        2.96s
+Steps:           296 (10ms sampling interval)
+
+Pageins:         4
+Pageouts:        0
+
+
+Process:         glxinfo [36335] (zombie)
+Path:            /usr/X11/bin/glxinfo
+Architecture:    x86_64
+UID:             501
+
+  Thread 0x3cbd8      DispatchQueue 1
+  User stack:
+    294 start + 52 (in glxinfo) [0x109ea1778]
+      288 main + 1669 (in glxinfo) [0x109ea1e05]
+        288 MakeContextCurrent + 94 (in libGL.1.dylib) [0x109ec0b49]
+          287 apple_glx_make_current_context + 369 (in libGL.1.dylib) [0x109eb0987]
+            287 apple_glx_surface_create + 105 (in libGL.1.dylib) [0x109eb1f01]
+              287 XAppleDRICreateSurface + 233 (in libGL.1.dylib) [0x109ebd65f]
+                287 _XReply + 274 (in libX11.6.dylib) [0x109f1872b]
+                  287 xcb_wait_for_reply + 247 (in libxcb.1.dylib) [0x10a062f16]
+                    287 poll + 10 (in libsystem_kernel.dylib) [0x7fff8df4ea7a]
+          1 apple_glx_make_current_context + 622 (in libGL.1.dylib) [0x109eb0a84]
+            1 surface_make_current + 65 (in libGL.1.dylib) [0x109eb20b1]
+              1 xp_attach_gl_context + 179 (in libXplugin.1.dylib) [0x10a03457a]
+                1 CGLSetSurface + 418 (in OpenGL) [0x7fff8d065c9f]
+                  1 ??? (in OpenGL) [0x7fff8d06c411]
+                    1 ??? (in OpenGL) [0x7fff8d06b34a]
+                      1 gliAttachDrawableWithOptions + 970 (in GLEngine) [0x10a31dfd2]
+                        1 gliUpdateDispatchState + 258 (in GLEngine) [0x10a46c60a]
+                          1 gldInitDispatch + 433 (in GeForceGLDriver) [0x2000b37a8]
+                            1 ??? (in GeForceGLDriver) [0x2000d869f]
+                              1 ??? (in GeForceGLDriver) [0x2000d85f6]
+                                1 ??? (in GeForceGLDriver) [0x20009b4e3]
+                                  1 ??? (in GeForceGLDriver) [0x20035b65a]
+                                    1 ??? (in GeForceGLDriver) [0x20035b23e]
+                                      1 ??? (in GeForceGLDriver) [0x20035b045]
+                                        1 ??? (in GeForceGLDriver) [0x20035b045]
+                                          1 ??? (in GeForceGLDriver) [0x20035b085]
+                                            1 ??? (in GeForceGLDriver) [0x20035c897]
+                                              1 uuid_parse + 265 (in libsystem_c.dylib) [0x7fff8aacf17a]
+                                                1 strtoul_l + 424 (in libsystem_c.dylib) [0x7fff8ab09b4d]
+      2 main + 2956 (in glxinfo) [0x109ea230c]
+        1 get_visual_attribs + 777 (in glxinfo) [0x109ea3277]
+          1 glXGetConfig + 60 (in libGL.1.dylib) [0x109ebfc7b]
+            1 _gl_context_modes_find_visual + 12 (in libGL.1.dylib) [0x109ebe5d4]
+        1 get_visual_attribs + 528 (in glxinfo) [0x109ea317e]
+          1 glXGetConfig + 60 (in libGL.1.dylib) [0x109ebfc7b]
+            1 _gl_context_modes_find_visual + 12 (in libGL.1.dylib) [0x109ebe5d4]
+      2 main + 4584 (in glxinfo) [0x109ea2968]
+        1 print_visual_attribs_short + 479 (in glxinfo) [0x109ea2bdf]
+          1 printf + 174 (in libsystem_c.dylib) [0x7fff8ab152d0]
+            1 vfprintf_l + 582 (in libsystem_c.dylib) [0x7fff8ab0c18e]
+              1 __vfprintf + 17198 (in libsystem_c.dylib) [0x7fff8ab10991]
+                1 __sfvwrite + 654 (in libsystem_c.dylib) [0x7fff8ab41f6d]
+                  1 __sflush + 142 (in libsystem_c.dylib) [0x7fff8ab1659e]
+                    1 __write_nocancel + 10 (in libsystem_kernel.dylib) [0x7fff8df4e1ba]
+        1 print_visual_attribs_short + 427 (in glxinfo) [0x109ea2bab]
+          1 printf + 174 (in libsystem_c.dylib) [0x7fff8ab152d0]
+            1 vfprintf_l + 582 (in libsystem_c.dylib) [0x7fff8ab0c18e]
+              1 __vfprintf + 14741 (in libsystem_c.dylib) [0x7fff8ab0fff8]
+      1 main + 3127 (in glxinfo) [0x109ea23b7]
+        1 get_visual_attribs + 777 (in glxinfo) [0x109ea3277]
+          1 glXGetConfig + 60 (in libGL.1.dylib) [0x109ebfc7b]
+            1 _gl_context_modes_find_visual + 17 (in libGL.1.dylib) [0x109ebe5d9]
+      1 main + 3896 (in glxinfo) [0x109ea26b8]
+        1 glXGetFBConfigAttrib + 91 (in libGL.1.dylib) [0x109ebfc0f]
+  Kernel stack:
+    290 hndl_unix_scall64 + 19 (in mach_kernel) [0xffffff80002d8363]
+      290 unix_syscall64 + 507 (in mach_kernel) [0xffffff80005caa7b]
+        287 poll_nocancel + 803 (in mach_kernel) [0xffffff800055fce3]
+          287 kqueue_scan + 208 (in mach_kernel) [0xffffff8000537c40]
+            287 thread_block_reason + 299 (in mach_kernel) [0xffffff800022f39b]
+              287 thread_continue + 1661 (in mach_kernel) [0xffffff800022f11d]
+                287 machine_switch_context + 361 (in mach_kernel) [0xffffff80002c0939]
+        2 exit + 14 (in mach_kernel) [0xffffff800053f0ce]
+          2 exit1 + 425 (in mach_kernel) [0xffffff8000541579]
+            2 task_terminate_internal + 400 (in mach_kernel) [0xffffff8000237860]
+              2 ipc_space_destroy + 157 (in mach_kernel) [0xffffff800021a17d]
+                2 ipc_right_clean + 398 (in mach_kernel) [0xffffff800021992e]
+                  2 mach_notify_no_senders + 105 (in mach_kernel) [0xffffff80002516d9]
+                    2 mach_msg_send_from_kernel_proper + 51 (in mach_kernel) [0xffffff8000223193]
+                      2 ipc_kmsg_send + 105 (in mach_kernel) [0xffffff8000214829]
+                        2 ipc_kobject_server + 373 (in mach_kernel) [0xffffff8000223025]
+                          2 iokit_notify + 146 (in mach_kernel) [0xffffff800029bd92]
+                            2 iokit_client_died + 135 (in mach_kernel) [0xffffff8000654097]
+                              2 IONVGLContext::clientClose() + 40 (in GeForce) [0xffffff7f8189c8da]
+                                1 NVGLContext::stop(IOService*) + 894 (in GeForce) [0xffffff7f818e92ec]
+                                  1 nvChannelManager::ReleaseChannel(nvChannel*) + 182 (in GeForce) [0xffffff7f818dae1c]
+                                    1 nvChannel::WaitForTimeStamp(unsigned int, unsigned long long*) + 213 (in GeForce) [0xffffff7f818d9af1]
+                                      1 thread_block_reason + 275 (in mach_kernel) [0xffffff800022f383]
+                                        1 thread_go + 608 (in mach_kernel) [0xffffff800022dfd0]
+                                          1 processor_idle + 149 (in mach_kernel) [0xffffff800022d2e5]
+                                            1 machine_idle + 163 (in mach_kernel) [0xffffff80002c4213]
+                                1 NVGLContext::stop(IOService*) + 848 (in GeForce) [0xffffff7f818e92be]
+                                  1 IONVGLContext::stop(IOService*) + 476 (in GeForce) [0xffffff7f8189fa78]
+                                    1 nvShared::free() + 61 (in GeForce) [0xffffff7f818f2575]
+                                      1 IONVShared::free() + 71 (in GeForce) [0xffffff7f818b44a5]
+                                        1 IONVShared::delete_texture(nvTextureBuffer*) + 28 (in GeForce) [0xffffff7f818b37ce]
+                                          1 IONVShared::delete_texture_internal(IONVAccelerator*, IONVShared*, nvTextureBuffer*) + 456 (in GeForce) [0xffffff7f818b3494]
+                                            1 NVKernel::releaseVendorTextureBuffer(nvTextureBuffer*, unsigned long) + 57 (in GeForce) [0xffffff7f818d21ed]
+                                              1 NVMemory::FreeVirtualAddress(GLKVirtualAddress*) + 840 (in GeForce) [0xffffff7f818ead08]
+                                                1 nvDynamicAllocator::FreeVirtual(GLKVirtualAddress*) + 26 (in GeForce) [0xffffff7f818d3f04]
+                                                  1 nvBaseAllocator::Free(nvAllocatorAllocation*) + 61 (in GeForce) [0xffffff7f818d70d9]
+                                                    1 nvBaseAllocator::DestroySingleEmptyBuffer(__GLNVallocatorHeapRec*, __GLNVallocatorBufferListRec*, unsigned char) + 611 (in GeForce) [0xffffff7f818d6c61]
+                                                      1 nvDynamicAllocator::FreeSurface(__GLNVsurfaceRec*) + 61 (in GeForce) [0xffffff7f818d3cb5]
+                                                        1 NvRmFree + 111 (in NVDAResman) [0xffffff7f80ab66c0]
+                                                          1 insert_registration_func + 12568 (in NVDAResman) [0xffffff7f80ab4c8f]
+                                                            1 RmAllocMemory + 7923 (in NVDAResman) [0xffffff7f80a8ed70]
+                                                              1 rmFreeInternal + 8908 (in NVDAResman) [0xffffff7f80a8cca6]
+                                                                1 nvErrorLog_va + 17119 (in NVDAResman) [0xffffff7f80a8a9ae]
+                                                                  1 osReadRegistryDword + 31522 (in NVDAResman) [0xffffff7f80a86311]
+                                                                    1 CliDelDeviceMemory + 334 (in NVDAResman) [0xffffff7f80a6171e]
+                                                                      1 btreeEnumNext + 39 (in NVDAResman) [0xffffff7f80abca29]
+        1 write_nocancel + 194 (in mach_kernel) [0xffffff80005615e2]
+          1 writev + 207 (in mach_kernel) [0xffffff800056148f]
+            1 utf8_encodelen + 3014 (in mach_kernel) [0xffffff80003103a6]
+              1 VNOP_WRITE + 77 (in mach_kernel) [0xffffff8000318ddd]
+                1 spec_write + 97 (in mach_kernel) [0xffffff8000328d61]
+                  1 ptsd_kqfilter + 1257 (in mach_kernel) [0xffffff800056afd9]
+                    1 ttwrite + 829 (in mach_kernel) [0xffffff800056592d]
+                      1 msleep0 + 103 (in mach_kernel) [0xffffff8000552997]
+                        1 wakeup + 267 (in mach_kernel) [0xffffff80005523cb]
+                          1 lck_mtx_sleep + 74 (in mach_kernel) [0xffffff8000227e6a]
+                            1 thread_block_reason + 299 (in mach_kernel) [0xffffff800022f39b]
+                              1 thread_continue + 1661 (in mach_kernel) [0xffffff800022f11d]
+                                1 machine_switch_context + 361 (in mach_kernel) [0xffffff80002c0939]
+    6 hndl_allintrs + 290 (in mach_kernel) [0xffffff80002d7bd2]
+      6 interrupt + 192 (in mach_kernel) [0xffffff80002c2790]
+        6 lapic_interrupt + 121 (in mach_kernel) [0xffffff80002c7859]
+          6 cpu_signal_handler + 172 (in mach_kernel) [0xffffff80002c970c]
+            6 sync_iss_to_iks + 118 (in mach_kernel) [0xffffff80002c1bc6]
+
+  Thread 0x3cbd9      DispatchQueue 2
+  User stack:
+    294 _dispatch_mgr_thread + 54 (in libdispatch.dylib) [0x7fff824cf14e]
+      294 kevent + 10 (in libsystem_kernel.dylib) [0x7fff8df4e7e6]
+  Kernel stack:
+    294 kqueue_scan + 416 (in mach_kernel) [0xffffff8000537d10]
+
+  Thread 0x3cbdb     
+  User stack:
+    285 start_wqthread + 13 (in libsystem_c.dylib) [0x7fff8ab1bb85]
+      285 __workq_kernreturn + 10 (in libsystem_kernel.dylib) [0x7fff8df4e192]
+  Kernel stack:
+    285 workqueue_exit + 1616 (in mach_kernel) [0xffffff80005a1660]
+
+  Thread 0x3cbda     
+  User stack:
+    281 start_wqthread + 13 (in libsystem_c.dylib) [0x7fff8ab1bb85]
+      281 __workq_kernreturn + 10 (in libsystem_kernel.dylib) [0x7fff8df4e192]
+  Kernel stack:
+    281 workqueue_exit + 1616 (in mach_kernel) [0xffffff80005a1660]
+
+  Binary Images:
+         0x109ea0000 -        0x109ea4ff7  glxinfo ??? (???) <FC3DDBE1-D86D-31C3-BB21-F0CDA263D4DE> /usr/X11/bin/glxinfo
+         0x109eaf000 -        0x109edafff  libGL.1.dylib ??? (???) <AD921058-8B9D-35AD-8C2F-C70374B4B00F> /usr/X11/lib/libGL.1.dylib
+         0x109ef5000 -        0x10a002fff  libX11.6.dylib ??? (???) <EDF51216-D36C-3012-B334-F2629DF08E68> /usr/X11/lib/libX11.6.dylib
+         0x10a02f000 -        0x10a03bfff  libXplugin.1.dylib ??? (???) <ED193AFD-9018-3A92-A685-88EBB279FF20> /usr/lib/libXplugin.1.dylib
+         0x10a061000 -        0x10a072fff  libxcb.1.dylib ??? (???) <D2A0CE9B-38FA-3ABD-8F02-2360A2475917> /usr/X11/lib/libxcb.1.dylib
+         0x10a30a000 -        0x10a4a3fff  GLEngine ??? (???) <8BA26192-A4D7-362D-8B57-5FCF4B706A25> /System/Library/Frameworks/OpenGL.framework/Resources/GLEngine.bundle/GLEngine
+         0x200000000 -        0x2007e6ff7  com.apple.GeForceGLDriver 7.18.11 (7.1.8) <66FE927B-DCB6-3D51-B713-90D9676AA079> /System/Library/Extensions/GeForceGLDriver.bundle/Contents/MacOS/GeForceGLDriver
+      0x7fff824cd000 -     0x7fff824dbfff  libdispatch.dylib ??? (???) <712AAEAC-AD90-37F7-B71F-293FF8AE8723> /usr/lib/system/libdispatch.dylib
+      0x7fff8aaca000 -     0x7fff8aba7fef  libsystem_c.dylib ??? (???) <FF69F06E-0904-3C08-A5EF-536FAFFFDC22> /usr/lib/system/libsystem_c.dylib
+      0x7fff8d062000 -     0x7fff8d072ff7  com.apple.opengl 1.7.6 (1.7.6) <C168883D-9BC5-3C38-9937-42852D719718> /System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL
+      0x7fff8df37000 -     0x7fff8df57fff  libsystem_kernel.dylib ??? (???) <69F2F501-72D8-3B3B-8357-F4418B3E1348> /usr/lib/system/libsystem_kernel.dylib
+
+

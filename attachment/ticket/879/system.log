@@ -1,0 +1,19 @@
+Feb  8 19:09:49 hadron.local quartz-wm[16984]: can't open default display
+Feb  8 19:09:49 hadron.local org.macosforge.xquartz.startx[16809]: /opt/X11/bin/xinit: connection to X server lost
+Feb  8 19:09:49 hadron.local org.macosforge.xquartz.startx[16809]: 
+	
+Feb  8 19:09:50 hadron.local org.macosforge.xquartz.startx[16809]: waiting for X server to shut down 
+Feb  8 19:09:50 --- last message repeated 1 time ---
+Feb  8 19:09:50 hadron com.apple.launchd.peruser.501[142] (org.macosforge.xquartz.startx): Throttling respawn: Will start in 7 seconds
+Feb  8 19:09:58 hadron.local org.macosforge.xquartz.startx[16989]: xauth:  file /Users/chris2/.serverauth.16990 does not exist
+Feb  8 19:09:58 hadron.local org.macosforge.xquartz.X11.stub[17094]: Xquartz: Unable to locate waiting server: org.macosforge.xquartz.X11
+Feb  8 19:09:58 hadron.local org.macosforge.xquartz.X11.stub[17096]: Xquartz: Starting X server: /Applications/Utilities/XQuartz.app/Contents/MacOS/X11 --listenonly
+Feb  8 19:10:00 hadron.local org.macosforge.xquartz.startx[16989]: /opt/X11/bin/xinit: XFree86_VT property unexpectedly has 0 items instead of 1
+Feb  8 19:10:00 hadron.local org.macosforge.xquartz.startx[16989]: xmodmap:  unable to open display ':0.0'
+Feb  8 19:10:00 hadron.local quartz-wm[17164]: can't open default display
+Feb  8 19:10:00 hadron.local org.macosforge.xquartz.startx[16989]: /opt/X11/bin/xinit: connection to X server lost
+Feb  8 19:10:00 hadron.local org.macosforge.xquartz.startx[16989]: 
+	
+Feb  8 19:10:01 hadron.local org.macosforge.xquartz.startx[16989]: waiting for X server to shut down 
+Feb  8 19:10:01 --- last message repeated 1 time ---
+Feb  8 19:10:01 hadron com.apple.launchd.peruser.501[142] (org.macosforge.xquartz.startx): Throttling respawn: Will start in 7 seconds

@@ -1,0 +1,3197 @@
+Date/Time:      2011-03-12 12:37:36 +0100
+OS Version:     10.5.8 (Build 9L31a)
+Architecture:   i386
+Report Version: 4
+
+Command:        idl
+Path:           /Applications/itt/idl71/bin/bin.darwin.x86_64/idl
+Version:        ??? (???)
+Parent:         bash [1297]
+
+PID:            1364
+Event:          timeout
+Time:           13.09s
+Steps:          98
+
+
+Process:        idl [1364]
+Path:           /Applications/itt/idl71/bin/bin.darwin.x86_64/idl
+
+  ADDRESS         BINARY
+
+  Thread id:      85503c8
+  User stack:
+    98 ??? [0x100000e0c]
+      98 ??? [0x100000f11]
+        98 ??? [0x10000c459]
+          97 ??? [0x10043d766]
+            97 ??? [0x100447671]
+              97 ??? [0x100420737]
+                97 ??? [0x1004095e5]
+                  51 ??? [0x10040b459]
+                    51 ??? [0x10040a258]
+                      51 ??? [0x100409864]
+                        51 ??? [0x1002b9b54]
+                          51 ??? [0x1012029f7]
+                            49 ??? [0x7fff84e601e6]
+                            1 ??? [0x101201a26]
+                            1 ??? [0x101201e11]
+                  46 ??? [0x7fff84de5352]
+          1 ??? [0x10043de8a]
+            1 ??? [0x1002f49e6]
+              1 ??? [0x1002afa70]
+                1 ??? [0x1002afdea]
+                  1 ??? [0x1002a85b6]
+                    1 ??? [0x100448e24]
+                      1 ??? [0x1002be501]
+                        1 ??? [0x1002bbdf4]
+                          1 ??? [0x1001342e6]
+                            1 ??? [0x100134ffd]
+                              1 ??? [0x100134c52]
+                                1 ??? [0x100135411]
+                                  1 ??? [0x101614e39]
+                                    1 ??? [0x1016629ab]
+                                      1 ??? [0x10166284c]
+                                        1 ??? [0x101652f51]
+                                          1 ??? [0x10165472f]
+                                            1 ??? [0x7fff8303f078]
+                                              1 ??? [0x7fff8304046e]
+                                                1 ??? [0x7fff83041f37]
+                                                  1 ??? [0x7fff830421f8]
+                                                    1 ??? [0x7fff83042349]
+                                                      1 ??? [0x112b4cb17]
+                                                        1 ??? [0x112b4cf0a]
+                                                          1 ??? [0x7fff84dbdc3d]
+                                                            1 ??? [0x7fff5fc0aa85]
+                                                              1 ??? [0x7fff5fc04c56]
+                                                                1 ??? [0x7fff5fc0f47d]
+                                                                  1 ??? [0x7fff5fc12617]
+  Kernel stack:
+    83 _unix_syscall64 + 643 [0x3e36b1]
+      46 _read_nocancel + 150 [0x39188d]
+        46 _nosys + 593 [0x39164d]
+          46 _vn_rdwr + 353 [0x1ede33]
+            46 _VNOP_READ + 168 [0x1f8492]
+              46 _spec_read + 102 [0x205684]
+                46 _ptmx_init + 4848 [0x39d438]
+                  46 _ttread + 988 [0x399940]
+                    46 _tsleep + 105 [0x386498]
+                      46 _uiomove + 1030 [0x3861b0]
+                        46 _thread_block + 33 [0x136f20]
+                          46 _thread_continue + 1180 [0x136cb3]
+      13 _poll_nocancel + 482 [0x39296c]
+        6 _kevent_register + 787 [0x370a44]
+          5 _fdexec + 346 [0x36f309]
+            3 _vn_pathconf + 299 [0x1ee863]
+              3 _ml_set_interrupts_enabled + 47 [0x1a4389]
+            1 _vn_pathconf + 256 [0x1ee838]
+              1 _thread_funnel_set + 97 [0x13d45a]
+                1 _funnel_lock + 21 [0x13d3bf]
+                  1 _lck_mtx_lock + 289 [0x19d8c1]
+                    1 _lck_mtx_lock_wait + 361 [0x1318f1]
+                      1 _thread_block + 33 [0x136f20]
+                        1 _thread_continue + 1180 [0x136cb3]
+            1 _vnode_removefsref + 91 [0x1dc181]
+          1 _vnode_removefsref + 389 [0x1dc2ab]
+        4 _kevent_register + 956 [0x370aed]
+          2 _lck_mtx_lock + 72 [0x19d7e8]
+          1 _proc_fdlock + 7 [0x36aa3b]
+          1 _knote + 551 [0x37013d]
+            1 _lck_mtx_lock_spin + 53 [0x19d715]
+        1 _kevent_register + 347 [0x37088c]
+          1 _zalloc + 25 [0x143d52]
+            1 _lck_mtx_unlock + 263 [0x19de17]
+        1 _kevent_register + 153 [0x3707ca]
+          1 _lck_mtx_lock_spin + 53 [0x19d715]
+        1 _lck_mtx_lock + 6 [0x19d7a6]
+      3 _kqueue_dealloc + 38 [0x370207]
+      3 _kqueue_dealloc + 56 [0x370219]
+      3 _kqueue_dealloc + 149 [0x370276]
+      2 _kqueue_dealloc + 143 [0x370270]
+      2 _copyin_kern + 22 [0x1a2206]
+      2 _poll_nocancel + 102 [0x3927f0]
+        1 _kqueue_alloc + 49 [0x36f51a]
+          1 _zalloc_canblock + 444 [0x14351c]
+        1 __MALLOC_ZONE + 47 [0x379dbf]
+      1 _poll_nocancel + 152 [0x392822]
+        1 __MALLOC + 81 [0x379d2b]
+          1 _kalloc + 25 [0x12fde1]
+            1 _kalloc_canblock + 178 [0x12fdc2]
+              1 _lck_mtx_unlock + 263 [0x19de17]
+      1 _kqueue_dealloc + 139 [0x37026c]
+      1 _kqueue_dealloc + 50 [0x370213]
+      1 _copyout_kern + 36 [0x1a22e4]
+      1 _kevent_register + 781 [0x370a3e]
+      1 _kqueue_dealloc + 146 [0x370273]
+      1 _poll_nocancel + 844 [0x392ad6]
+        1 _kqueue_dealloc + 333 [0x37032e]
+          1 _lck_mtx_unlock + 13 [0x19dd1d]
+      1 _poll_nocancel + 872 [0x392af2]
+        1 _lck_mtx_unlock + 263 [0x19de17]
+      1 _poll_nocancel + 295 [0x3928b1]
+        1 _clock_get_system_microtime + 47 [0x1aa001]
+    6 _PE_incoming_interrupt + 131 [0x44e416]
+      6 _lapic_interrupt + 121 [0x1b16c0]
+        6 _sync_iss_to_iks + 114 [0x1aa3ae]
+    5 _lo64_unix_scall + 63 [0x1a207f]
+    1 _user_trap + 659 [0x1ab39c]
+      1 _vm_fault + 1976 [0x16327d]
+        1 _bcopy + 28 [0x199b8c]
+    1 _poll_nocancel + 102 [0x3927f0]
+
+  Thread id:      742a3c8
+  User stack:
+    98 ??? [0x7fff84de2d51]
+      98 ??? [0x7fff84de2e8f]
+        98 ??? [0x10040da9b]
+          98 ??? [0x7fff84dbbda2]
+
+  Thread id:      6f476b0
+  User stack:
+    98 ??? [0x7fff84de2d51]
+      98 ??? [0x7fff84de2e8f]
+        98 ??? [0x1000dabde]
+          98 ??? [0x10041027b]
+            98 ??? [0x7fff84dbbda2]
+
+  Thread id:      8550000
+  User stack:
+    51 ??? [0x7fff84de2d51]
+      51 ??? [0x7fff84de2e8f]
+        51 ??? [0x7fff84dbbda2]
+
+
+Process:        ARDAgent [232]
+Path:           /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/MacOS/ARDAgent
+
+  ADDRESS         BINARY
+  00001000        /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/MacOS/ARDAgent
+
+  Thread id:      7a79c80
+  User stack:
+    98 ??? [0x24a5]
+      98 ??? [0x616a6]
+        98 ??? [0x262a]
+          98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+            98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      7ece410
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _kevent + 10 (in libSystem.B.dylib) [0x944529c6]
+
+  Thread id:      7a78998
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PrivateMPEntryPoint + 56 (in CarbonCore) [0x92b68fbb]
+          98 ___recvfrom_nocancel + 10 (in libSystem.B.dylib) [0x9446ab96]
+  Kernel stack:
+    98 _unix_syscall + 572 [0x3e3a7f]
+      98 _recvfrom_nocancel + 301 [0x3b12cf]
+        98 _socketpair + 1219 [0x3b0f79]
+          98 _soreceive + 1142 [0x3ac8df]
+            98 _sbwait + 159 [0x3add29]
+              98 _msleep + 157 [0x3863e8]
+                98 _uiomove + 653 [0x386037]
+                  98 _lck_mtx_sleep + 87 [0x130d90]
+                    98 _thread_block + 33 [0x136f20]
+                      98 _thread_continue + 1180 [0x136cb3]
+
+  Thread id:      7ecc998
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PrivateMPEntryPoint + 56 (in CarbonCore) [0x92b68fbb]
+          98 ___wait4_nocancel + 10 (in libSystem.B.dylib) [0x9448f18e]
+
+
+Process:        ATSServer [236]
+Path:           /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/ATSServer
+
+  ADDRESS         BINARY
+  00001000        /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/ATSServer
+
+  Thread id:      7a76f20
+  User stack:
+    98 ??? [0x4b46]
+      98 ??? [0xdd21f]
+        98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      74e1e40
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+
+Process:        AirPort Base Station Agent [229]
+Path:           /System/Library/CoreServices/AirPort Base Station Agent.app/Contents/MacOS/AirPort Base Station Agent
+
+  ADDRESS         BINARY
+  00001000        /System/Library/CoreServices/AirPort Base Station Agent.app/Contents/MacOS/AirPort Base Station Agent
+
+  Thread id:      7a76790
+  User stack:
+    98 ??? [0x25ad]
+      98 ??? [0x2680]
+        98 _NSApplicationMain + 574 (in AppKit) [0x95afc1d8]
+          98 -[NSApplication run] + 795 (in AppKit) [0x95b2ef9f]
+            98 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] + 128 (in AppKit) [0x95b35f88]
+              98 __DPSNextEvent + 657 (in AppKit) [0x95b366d5]
+                98 _BlockUntilNextEventMatchingListInMode + 106 (in HIToolbox) [0x97757f39]
+                  98 _ReceiveNextEventCommon + 374 (in HIToolbox) [0x977580c5]
+                    98 _RunCurrentEventLoopInMode + 283 (in HIToolbox) [0x977582ac]
+                      98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                        98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      7a77a78
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+
+
+Process:        AppleVNCServer [241]
+Path:           /System/Library/CoreServices/RemoteManagement/AppleVNCServer.bundle/Contents/MacOS/AppleVNCServer
+
+  ADDRESS         BINARY
+  00001000        /System/Library/CoreServices/RemoteManagement/AppleVNCServer.bundle/Contents/MacOS/AppleVNCServer
+
+  Thread id:      7ecd128
+  User stack:
+    98 ??? [0x1ff9]
+      98 ??? [0x25602]
+        98 ??? [0x2695]
+          98 ??? [0x5a6f]
+            98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+              98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      7ece048
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _kevent + 10 (in libSystem.B.dylib) [0x944529c6]
+
+  Thread id:      7ecdc80
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PrivateMPEntryPoint + 56 (in CarbonCore) [0x92b68fbb]
+          98 _select$DARWIN_EXTSN$NOCANCEL + 10 (in libSystem.B.dylib) [0x944593ca]
+
+
+Process:        DirectoryService [11]
+Path:           /usr/sbin/DirectoryService
+
+  ADDRESS         BINARY
+  00001000        /usr/sbin/DirectoryService
+  00160000        /System/Library/PrivateFrameworks/DirectoryServiceCore.framework/Versions/A/DirectoryServiceCore
+
+  Thread id:      67c6128
+  User stack:
+    98 start + 54 (in DirectoryService) [0x1631a]
+      98 _main + 2767 (in DirectoryService) [0x16e07]
+        98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      6f49c80
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 __ZN9DSLThread11_RunWrapperEPv + 84 (in DirectoryServiceCore) [0x168166]
+          98 __ZN9DSCThread3RunEv + 39 (in DirectoryServiceCore) [0x167f5b]
+            98 __ZN20CPluginRunLoopThread10ThreadMainEv + 222 (in DirectoryService) [0x22fc4]
+              98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+                98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      67c6c80
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 __ZN9DSLThread11_RunWrapperEPv + 84 (in DirectoryServiceCore) [0x168166]
+          98 __ZN9DSCThread3RunEv + 39 (in DirectoryServiceCore) [0x167f5b]
+            98 __ZN17CMigHandlerThread10ThreadMainEv + 303 (in DirectoryService) [0x231fd]
+              98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+  Kernel stack:
+    98 _dtrace_get_cpu_int_stack_top + 543 [0x198fa3]
+      98 _mach_msg_overwrite_trap + 3808 [0x1270ea]
+        98 _ipc_mqueue_receive + 750 [0x121292]
+          98 _thread_block + 33 [0x136f20]
+            98 _thread_continue + 1180 [0x136cb3]
+
+  Thread id:      6426e40
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 _kevent + 10 (in libSystem.B.dylib) [0x944529c6]
+
+  Thread id:      80c2a78
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 __ZN9DSLThread11_RunWrapperEPv + 84 (in DirectoryServiceCore) [0x168166]
+          98 ___syscall + 5 (in libSystem.B.dylib) [0x944643a5]
+
+  Thread id:      9785048
+  User stack:
+    96 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      96 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        96 __ZN9DSLThread11_RunWrapperEPv + 84 (in DirectoryServiceCore) [0x168166]
+          96 __ZN9DSCThread3RunEv + 39 (in DirectoryServiceCore) [0x167f5b]
+            96 __ZN17CMigHandlerThread10ThreadMainEv + 162 (in DirectoryService) [0x23170]
+              96 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+
+Process:        Dock [238]
+Path:           /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+
+  ADDRESS         BINARY
+  00001000        /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+  12f80000        /System/Library/CoreServices/RawCamera.bundle/Contents/MacOS/RawCamera
+
+  Thread id:      7eceba0
+  User stack:
+    98 ??? [0x537a]
+      98 ??? [0x97e97]
+        98 -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 213 (in Foundation) [0x921a33d5]
+          98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+            98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      7ecab58
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ??? [0x1340d]
+          98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+  Thread id:      80c57d8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 _kevent + 10 (in libSystem.B.dylib) [0x944529c6]
+
+
+Process:        Finder [245]
+Path:           /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+
+  ADDRESS         BINARY
+  00001000        /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+  004e5000        /System/Library/Frameworks/Collaboration.framework/Versions/A/Collaboration
+  004fe000        /System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport
+  00527000        /System/Library/TextEncodings/Unicode Encodings.bundle/Contents/MacOS/Unicode Encodings
+  12da7000        /System/Library/PrivateFrameworks/URLMount.framework/URLMount
+  12dcf000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCGXCoreImage.A.dylib
+  162f4000        /System/Library/CoreServices/RawCamera.bundle/Contents/MacOS/RawCamera
+
+  Thread id:      7eca790
+  User stack:
+    98 ??? [0x92d6]
+      98 ??? [0xf31d5]
+        98 ??? [0x23319]
+          98 _RunApplicationEventLoop + 207 (in HIToolbox) [0x977b52b3]
+            98 __AcquireNextEvent + 58 (in HIToolbox) [0x977b6b56]
+              98 _ReceiveNextEventCommon + 374 (in HIToolbox) [0x977580c5]
+                98 _RunCurrentEventLoopInMode + 283 (in HIToolbox) [0x977582ac]
+                  98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                    98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      80c5048
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PrivateMPEntryPoint + 56 (in CarbonCore) [0x92b68fbb]
+          98 __ZN23TSystemNotificationTask26SystemNotificationTaskProcEPv + 123 (in DesktopServicesPriv) [0x96678d0f]
+            98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+              98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      80c48b8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PrivateMPEntryPoint + 56 (in CarbonCore) [0x92b68fbb]
+          98 __ZN25TFSEventsNotificationTask28FSEventsNotificationTaskProcEPv + 216 (in DesktopServicesPriv) [0x96678e88]
+            98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+              98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      70b1000
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PrivateMPEntryPoint + 56 (in CarbonCore) [0x92b68fbb]
+          98 __ZN13TNodeSyncTask12SyncTaskProcEPv + 84 (in DesktopServicesPriv) [0x96683e6a]
+            98 _MPWaitOnQueue + 208 (in CarbonCore) [0x92b6aa60]
+              98 _TSWaitOnConditionTimedRelative + 202 (in CarbonCore) [0x92b49c36]
+                98 _TSWaitOnCondition + 126 (in CarbonCore) [0x92b6ade3]
+                  98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+  Thread id:      80c1f20
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 _kevent + 10 (in libSystem.B.dylib) [0x944529c6]
+
+  Thread id:      74e34f0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+
+  Thread id:      85525d0
+  User stack:
+    93 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      93 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        93 _PrivateMPEntryPoint + 56 (in CarbonCore) [0x92b68fbb]
+          93 __ZN15TFolderSizeTask18FolderSizeTaskProcEPv + 104 (in DesktopServicesPriv) [0x96685db4]
+            93 _MPWaitOnQueue + 208 (in CarbonCore) [0x92b6aa60]
+              93 _TSWaitOnConditionTimedRelative + 246 (in CarbonCore) [0x92b49c62]
+                93 _semaphore_timedwait_signal_trap + 10 (in libSystem.B.dylib) [0x944222c6]
+
+
+Process:        Folder Actions Dispatcher [226]
+Path:           /System/Library/CoreServices/Folder Actions Dispatcher.app/Contents/MacOS/Folder Actions Dispatcher
+
+  ADDRESS         BINARY
+  00001000        /System/Library/CoreServices/Folder Actions Dispatcher.app/Contents/MacOS/Folder Actions Dispatcher
+
+  Thread id:      70b5ba0
+  User stack:
+    98 ??? [0x2456]
+      98 ??? [0x2aa7]
+        98 _NSApplicationMain + 574 (in AppKit) [0x95afc1d8]
+          98 -[NSApplication run] + 795 (in AppKit) [0x95b2ef9f]
+            98 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] + 128 (in AppKit) [0x95b35f88]
+              98 __DPSNextEvent + 657 (in AppKit) [0x95b366d5]
+                98 _BlockUntilNextEventMatchingListInMode + 106 (in HIToolbox) [0x97757f39]
+                  98 _ReceiveNextEventCommon + 374 (in HIToolbox) [0x977580c5]
+                    98 _RunCurrentEventLoopInMode + 283 (in HIToolbox) [0x977582ac]
+                      98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                        98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+
+Process:        GrowlHelperApp [263]
+Path:           /Users/lucia/Library/PreferencePanes/Growl.prefPane/Contents/Resources/GrowlHelperApp.app/Contents/MacOS/GrowlHelperApp
+
+  ADDRESS         BINARY
+  00001000        /Users/lucia/Library/PreferencePanes/Growl.prefPane/Contents/Resources/GrowlHelperApp.app/Contents/MacOS/GrowlHelperApp
+  00046000        /System/Library/Frameworks/PreferencePanes.framework/Versions/A/PreferencePanes
+  11b6c000        /System/Library/CoreServices/RawCamera.bundle/Contents/MacOS/RawCamera
+
+  Thread id:      7a798b8
+  User stack:
+    98 start + 54 (in GrowlHelperApp) [0x2162]
+      98 _main + 166 (in GrowlHelperApp) [0x6957]
+        98 -[GrowlApplication run] + 189 (in GrowlHelperApp) [0x21bb9]
+          98 -[NSApplication run] + 795 (in AppKit) [0x95b2ef9f]
+            98 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] + 128 (in AppKit) [0x95b35f88]
+              98 __DPSNextEvent + 657 (in AppKit) [0x95b366d5]
+                98 _BlockUntilNextEventMatchingListInMode + 106 (in HIToolbox) [0x97757f39]
+                  98 _ReceiveNextEventCommon + 374 (in HIToolbox) [0x977580c5]
+                    98 _RunCurrentEventLoopInMode + 283 (in HIToolbox) [0x977582ac]
+                      98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                        98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      8554ba0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 -[NSThread main] + 45 (in Foundation) [0x9216edfd]
+            98 -[NSConnection run] + 280 (in Foundation) [0x9226ef58]
+              98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      6f48998
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 -[NSThread main] + 45 (in Foundation) [0x9216edfd]
+            98 +[NSURLConnection(NSURLConnectionReallyInternal) _resourceLoadLoop:] + 320 (in Foundation) [0x921d2520]
+              98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      6f494f0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 __Z22CFURLCacheWorkerThreadPv + 388 (in CFNetwork) [0x965d218c]
+          98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+            98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      66a1d60
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+
+
+Process:        HPEventHandler [254]
+Path:           /Library/Printers/hp/hpio/HPEventHandler.app/Contents/MacOS/HPEventHandler
+
+  ADDRESS         BINARY
+  00001000        /Library/Printers/hp/hpio/HPEventHandler.app/Contents/MacOS/HPEventHandler
+  00059000        /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/Current/Resources/lib/SxCFReader.dylib
+  00062000        /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/C/HPSmartX
+  00085000        /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/C/Resources/Plugins/Device Management Services/HPSmartX_DM_DMF.SxPlugin/Contents/MacOS/HPSmartX_DM_DMF
+  000a6000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/HPDeviceModel
+  000b3000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/ClientUI.framework/Versions/3.0/ClientUI
+  000ba000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/DataStore.framework/Versions/3.0/DataStore
+  000c9000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/DeviceID.framework/Versions/3.0/DeviceID
+  000e3000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/HDT.framework/Versions/3.0/HDT
+  000f4000        /usr/lib/libmx.A.dylib
+  00300000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Core.framework/Versions/3.0/Core
+  00346000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Status.framework/Versions/3.0/Status
+  00364000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/PML.framework/Versions/3.0/PML
+  00380000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/XMLServices.framework/Versions/3.0/XMLServices
+  0041f000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Configure.framework/Versions/3.0/Configure
+  0043d000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Core.framework/Versions/3.0/Libraries/libHPIOnetsnmp.5.dylib
+  0049a000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Core.framework/Versions/3.0/Resources/PlugIns/network.plugin/Contents/MacOS/network
+  004cb000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Core.framework/Versions/3.0/Resources/PlugIns/usb.plugin/Contents/MacOS/usb
+  004e7000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Core.framework/Versions/3.0/Resources/PlugIns/libXmlParser.plugin/Contents/MacOS/libXmlParser
+
+  Thread id:      66a0e40
+  User stack:
+    98 start + 41 (in HPEventHandler) [0x2055]
+      98 __start + 216 (in HPEventHandler) [0x212e]
+        98 _NSApplicationMain + 574 (in AppKit) [0x95afc1d8]
+          98 -[NSApplication run] + 795 (in AppKit) [0x95b2ef9f]
+            98 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] + 128 (in AppKit) [0x95b35f88]
+              98 __DPSNextEvent + 657 (in AppKit) [0x95b366d5]
+                98 _BlockUntilNextEventMatchingListInMode + 106 (in HIToolbox) [0x97757f39]
+                  98 _ReceiveNextEventCommon + 374 (in HIToolbox) [0x977580c5]
+                    98 _RunCurrentEventLoopInMode + 283 (in HIToolbox) [0x977582ac]
+                      98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                        98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      80c1790
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _ADMWorkerThread_ThreadProc + 280 (in Core) [0x3183e6]
+          98 -[ADMDiscoveryThread threadEntry] + 42 (in Core) [0x317d85]
+            98 -[ADMDiscoveryThread run] + 181 (in Core) [0x317c5a]
+              98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+                98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      80c13c8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+
+
+Process:        HPIO Trap Monitor [162]
+Path:           /Library/Printers/hp/hpio/HPIO Trap Monitor.app/Contents/MacOS/HPIO Trap Monitor
+
+  ADDRESS         BINARY
+  00001000        /Library/Printers/hp/hpio/HPIO Trap Monitor.app/Contents/MacOS/HPIO Trap Monitor
+  00014000        /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/C/HPSmartX
+  0001e000        /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/Current/Resources/lib/SxCFReader.dylib
+  0003d000        /Library/Printers/hp/Frameworks/HPSmartX.framework/Versions/C/Resources/Plugins/Device Management Services/HPSmartX_DM_DMF.SxPlugin/Contents/MacOS/HPSmartX_DM_DMF
+  0005e000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/HPDeviceModel
+  0006b000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/ClientUI.framework/Versions/3.0/ClientUI
+  00072000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/DataStore.framework/Versions/3.0/DataStore
+  00081000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Core.framework/Versions/3.0/Core
+  000c7000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/DeviceID.framework/Versions/3.0/DeviceID
+  000e1000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/HDT.framework/Versions/3.0/HDT
+  000f2000        /usr/lib/libmx.A.dylib
+  00300000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Status.framework/Versions/3.0/Status
+  0031e000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/PML.framework/Versions/3.0/PML
+  0033a000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/XMLServices.framework/Versions/3.0/XMLServices
+  003d9000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Configure.framework/Versions/3.0/Configure
+  003f7000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Core.framework/Versions/3.0/Libraries/libHPIOnetsnmp.5.dylib
+  0044b000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Core.framework/Versions/3.0/Resources/PlugIns/usb.plugin/Contents/MacOS/usb
+  0047d000        /Library/Printers/hp/Frameworks/HPDeviceModel.framework/Versions/3.0/Frameworks/Core.framework/Versions/3.0/Resources/PlugIns/libXmlParser.plugin/Contents/MacOS/libXmlParser
+
+  Thread id:      74e3128
+  User stack:
+    98 start + 41 (in HPIO Trap Monitor) [0x282d]
+      98 __start + 216 (in HPIO Trap Monitor) [0x2906]
+        98 _main + 848 (in HPIO Trap Monitor) [0x3322]
+          98 -[NSRunLoop(NSRunLoop) run] + 84 (in Foundation) [0x921af4f4]
+            98 -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 213 (in Foundation) [0x921a33d5]
+              98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      7a794f0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _ADMWorkerThread_ThreadProc + 280 (in Core) [0x993e6]
+          98 -[ADMDiscoveryThread threadEntry] + 42 (in Core) [0x98d85]
+            98 -[ADMDiscoveryThread run] + 181 (in Core) [0x98c5a]
+              98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+                98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+
+Process:        KernelEventAgent [46]
+Path:           /usr/sbin/KernelEventAgent
+
+  ADDRESS         BINARY
+  00001000        /usr/sbin/KernelEventAgent
+
+  Thread id:      67c4a78
+  User stack:
+    98 start + 54 (in KernelEventAgent) [0x1bfe]
+      98 _main + 1126 (in KernelEventAgent) [0x3b7f]
+        98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      71218b8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+
+
+Process:        RFBRegisterMDNS [43]
+Path:           /System/Library/CoreServices/RemoteManagement/AppleVNCServer.bundle/Contents/Support/RFBRegisterMDNS
+
+  ADDRESS         BINARY
+  00001000        /System/Library/CoreServices/RemoteManagement/AppleVNCServer.bundle/Contents/Support/RFBRegisterMDNS
+
+  Thread id:      70b3d60
+  User stack:
+    98 ??? [0x181d]
+      98 _kevent + 10 (in libSystem.B.dylib) [0x944529c6]
+
+
+Process:        SecurityAgent [613]
+Path:           /System/Library/CoreServices/SecurityAgent.app/Contents/MacOS/SecurityAgent
+
+  ADDRESS         BINARY
+  00001000        /System/Library/CoreServices/SecurityAgent.app/Contents/MacOS/SecurityAgent
+  00036000        /System/Library/Frameworks/ExceptionHandling.framework/Versions/A/ExceptionHandling
+  14274000        /System/Library/CoreServices/RawCamera.bundle/Contents/MacOS/RawCamera
+
+  Thread id:      8551e40
+  User stack:
+    98 ??? [0x2ec6]
+      98 ??? [0x11e63]
+        98 -[NSApplication run] + 795 (in AppKit) [0x95b2ef9f]
+          98 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] + 128 (in AppKit) [0x95b35f88]
+            98 __DPSNextEvent + 657 (in AppKit) [0x95b366d5]
+              98 _BlockUntilNextEventMatchingListInMode + 106 (in HIToolbox) [0x97757f39]
+                98 _ReceiveNextEventCommon + 374 (in HIToolbox) [0x977580c5]
+                  98 _RunCurrentEventLoopInMode + 283 (in HIToolbox) [0x977582ac]
+                    98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                      98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      8552998
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PrivateMPEntryPoint + 56 (in CarbonCore) [0x92b68fbb]
+          98 __ZN23TSystemNotificationTask26SystemNotificationTaskProcEPv + 123 (in DesktopServicesPriv) [0x96678d0f]
+            98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+              98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      85516b0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PrivateMPEntryPoint + 56 (in CarbonCore) [0x92b68fbb]
+          98 __ZN25TFSEventsNotificationTask28FSEventsNotificationTaskProcEPv + 216 (in DesktopServicesPriv) [0x96678e88]
+            98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+              98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      80c22e8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PrivateMPEntryPoint + 56 (in CarbonCore) [0x92b68fbb]
+          98 __ZN13TNodeSyncTask12SyncTaskProcEPv + 84 (in DesktopServicesPriv) [0x96683e6a]
+            98 _MPWaitOnQueue + 208 (in CarbonCore) [0x92b6aa60]
+              98 _TSWaitOnConditionTimedRelative + 202 (in CarbonCore) [0x92b49c36]
+                98 _TSWaitOnCondition + 126 (in CarbonCore) [0x92b6ade3]
+                  98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+  Thread id:      6f48d60
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 -[NSThread main] + 45 (in Foundation) [0x9216edfd]
+            98 -[NSUIHeartBeat _heartBeatThread:] + 753 (in AppKit) [0x95b9c6e8]
+              98 -[NSConditionLock lockWhenCondition:] + 69 (in Foundation) [0x921b4b35]
+                98 -[NSConditionLock lockWhenCondition:beforeDate:] + 144 (in Foundation) [0x921b4bd0]
+                  98 -[NSCondition waitUntilDate:] + 236 (in Foundation) [0x921b4dbc]
+                    98 _semaphore_timedwait_signal_trap + 10 (in libSystem.B.dylib) [0x944222c6]
+
+  Thread id:      74e25d0
+  User stack:
+    89 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      89 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        89 _PrivateMPEntryPoint + 56 (in CarbonCore) [0x92b68fbb]
+          89 __ZN15TFolderSizeTask18FolderSizeTaskProcEPv + 104 (in DesktopServicesPriv) [0x96685db4]
+            89 _MPWaitOnQueue + 208 (in CarbonCore) [0x92b6aa60]
+              89 _TSWaitOnConditionTimedRelative + 246 (in CarbonCore) [0x92b49c62]
+                89 _semaphore_timedwait_signal_trap + 10 (in libSystem.B.dylib) [0x944222c6]
+
+
+Process:        Spotlight [234]
+Path:           /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+
+  ADDRESS         BINARY
+  00001000        /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+  00057000        /System/Library/PrivateFrameworks/Calculate.framework/Versions/A/Calculate
+  00068000        /System/Library/PrivateFrameworks/URLMount.framework/Versions/A/URLMount
+  000d1000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCGXCoreImage.A.dylib
+
+  Thread id:      71214f0
+  User stack:
+    98 ??? [0x26ea]
+      98 _NSApplicationMain + 574 (in AppKit) [0x95afc1d8]
+        98 -[NSApplication run] + 795 (in AppKit) [0x95b2ef9f]
+          98 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] + 128 (in AppKit) [0x95b35f88]
+            98 __DPSNextEvent + 657 (in AppKit) [0x95b366d5]
+              98 _BlockUntilNextEventMatchingListInMode + 106 (in HIToolbox) [0x97757f39]
+                98 _ReceiveNextEventCommon + 374 (in HIToolbox) [0x977580c5]
+                  98 _RunCurrentEventLoopInMode + 283 (in HIToolbox) [0x977582ac]
+                    98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                      98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      74e0790
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _fe_fragment_thread + 54 (in QuartzCore) [0x955a0a09]
+          98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+
+Process:        SystemStarter [39]
+Path:           /sbin/SystemStarter
+
+  ADDRESS         BINARY
+  00001000        /sbin/SystemStarter
+
+  Thread id:      70b2e40
+  User stack:
+    98 _kevent + 10 (in libSystem.B.dylib) [0x944529c6]
+
+
+Process:        SystemUIServer [243]
+Path:           /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+
+  ADDRESS         BINARY
+  00001000        /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+  0006a000        /System/Library/PrivateFrameworks/SystemUIPlugin.framework/Versions/A/SystemUIPlugin
+  00078000        /System/Library/PrivateFrameworks/NetworkConfig.framework/Versions/A/NetworkConfig
+  000cc000        /System/Library/PrivateFrameworks/ICANotifications.framework/Versions/A/ICANotifications
+  000f6000        /System/Library/PrivateFrameworks/iPod.framework/Versions/A/iPod
+  00101000        /System/Library/PrivateFrameworks/BezelServices.framework/Versions/A/BezelServices
+  0010a000        /System/Library/Frameworks/DiscRecording.framework/Versions/A/DiscRecording
+  0023e000        /System/Library/PrivateFrameworks/DiskImages.framework/Versions/A/DiskImages
+  0039c000        /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Apple80211
+  003d7000        /System/Library/Frameworks/AppleTalk.framework/Versions/A/AppleTalk
+  003e8000        /System/Library/PrivateFrameworks/MediaKit.framework/Versions/A/MediaKit
+  0042f000        /usr/lib/libcurl.4.dylib
+  0049d000        /Applications/iCal.app/Contents/Resources/iCalDockExtra.bundle/Contents/MacOS/iCalDockExtra
+  004c6000        /System/Library/Extensions/AudioIPCDriver.kext/Contents/Resources/AudioIPCPlugIn.bundle/Contents/MacOS/AudioIPCPlugIn
+  004e6000        /System/Library/CoreServices/Menu Extras/TextInput.menu/Contents/MacOS/TextInput
+  0072e000        /System/Library/Extensions/AppleHDA.kext/Contents/PlugIns/AppleHDAHALPlugIn.bundle/Contents/MacOS/AppleHDAHALPlugIn
+  00766000        /System/Library/CoreServices/Menu Extras/User.menu/Contents/MacOS/User
+  00783000        /System/Library/CoreServices/Menu Extras/AirPort.menu/Contents/MacOS/AirPort
+  007a8000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCGXCoreImage.A.dylib
+  007eb000        /System/Library/CoreServices/Menu Extras/Bluetooth.menu/Contents/MacOS/Bluetooth
+  11ff3000        /System/Library/Frameworks/IOBluetoothUI.framework/Versions/A/IOBluetoothUI
+  1202a000        /System/Library/CoreServices/Menu Extras/TimeMachine.menu/Contents/MacOS/TimeMachine
+  120cf000        /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/ClientController.bundle/Contents/MacOS/ClientController
+  121cf000        /System/Library/PrivateFrameworks/EAP8021X.framework/Versions/A/EAP8021X
+  121f0000        /System/Library/PrivateFrameworks/InternetConnect.framework/Versions/A/InternetConnect
+  1223f000        /System/Library/CoreServices/RawCamera.bundle/Contents/MacOS/RawCamera
+  148a0000        /System/Library/Frameworks/IOBluetooth.framework/Versions/A/IOBluetooth
+
+  Thread id:      7a77e40
+  User stack:
+    98 ??? [0x5646]
+      98 ??? [0x5b44]
+        98 -[NSApplication run] + 795 (in AppKit) [0x95b2ef9f]
+          98 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] + 128 (in AppKit) [0x95b35f88]
+            98 __DPSNextEvent + 657 (in AppKit) [0x95b366d5]
+              98 _BlockUntilNextEventMatchingListInMode + 106 (in HIToolbox) [0x97757f39]
+                98 _ReceiveNextEventCommon + 374 (in HIToolbox) [0x977580c5]
+                  98 _RunCurrentEventLoopInMode + 283 (in HIToolbox) [0x977582ac]
+                    98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                      98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      7ecaf20
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 __StaticProcessIOObjectsArray + 95 (in ICANotifications) [0xd4e9e]
+          98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+  Thread id:      7ecc5d0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 _kevent + 10 (in libSystem.B.dylib) [0x944529c6]
+
+  Thread id:      7eca000
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 -[NSThread main] + 45 (in Foundation) [0x9216edfd]
+            98 ??? [0x2682c]
+              98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      80c1b58
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 __ZN9CAPThread5EntryEPS_ + 96 (in CoreAudio) [0x9074e480]
+          98 __ZN10HALRunLoop9OwnThreadEPv + 160 (in CoreAudio) [0x9074e5f8]
+            98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+              98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      80c3208
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _fe_fragment_thread + 54 (in QuartzCore) [0x955a0a09]
+          98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+  Thread id:      711fa78
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+
+  Thread id:      6f4a048
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___read + 10 (in libSystem.B.dylib) [0x94445f7a]
+  Kernel stack:
+    98 _unix_syscall + 572 [0x3e3a7f]
+      98 _read_nocancel + 150 [0x39188d]
+        98 _nosys + 593 [0x39164d]
+          98 _vn_rdwr + 353 [0x1ede33]
+            98 _VNOP_READ + 168 [0x1f8492]
+              98 _fifo_read + 196 [0x2043dd]
+                98 _soreceive + 1142 [0x3ac8df]
+                  98 _sbwait + 159 [0x3add29]
+                    98 _msleep + 157 [0x3863e8]
+                      98 _uiomove + 653 [0x386037]
+                        98 _lck_mtx_sleep + 87 [0x130d90]
+                          98 _thread_block + 33 [0x136f20]
+                            98 _thread_continue + 1180 [0x136cb3]
+
+
+Process:        UserEventAgent [235]
+Path:           /usr/sbin/UserEventAgent
+
+  ADDRESS         BINARY
+  00001000        /usr/sbin/UserEventAgent
+  00014000        /System/Library/UserEventPlugins/ACRRDaemon.plugin/Contents/MacOS/ACRRDaemon
+  00028000        /System/Library/UserEventPlugins/AirPortUserAgent.plugin/Contents/MacOS/AirPortUserAgent
+  00031000        /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Apple80211
+  0006c000        /System/Library/UserEventPlugins/alfUIplugin.plugin/Contents/MacOS/alfUIplugin
+  00071000        /System/Library/UserEventPlugins/AppleHIDMouseAgent.plugin/Contents/MacOS/AppleHIDMouseAgent
+  0007d000        /System/Library/UserEventPlugins/BluetoothUserAgent-Plugin.plugin/Contents/MacOS/BluetoothUserAgent-Plugin
+  00084000        /System/Library/Extensions/AudioIPCDriver.kext/Contents/Resources/AudioIPCPlugIn.bundle/Contents/MacOS/AudioIPCPlugIn
+  0008d000        /System/Library/Extensions/AppleHDA.kext/Contents/PlugIns/AppleHDAHALPlugIn.bundle/Contents/MacOS/AppleHDAHALPlugIn
+  00099000        /System/Library/UserEventPlugins/BTMMPortInUseAgent.plugin/Contents/MacOS/BTMMPortInUseAgent
+  000a0000        /System/Library/UserEventPlugins/iCalAlarmAgent.plugin/Contents/MacOS/iCalAlarmAgent
+  000a7000        /System/Library/UserEventPlugins/InstrumentsHotKeyAgent.plugin/Contents/MacOS/InstrumentsHotKeyAgent
+  000c5000        /System/Library/UserEventPlugins/ParentalControlsUEAPlugin.plugin/Contents/MacOS/ParentalControlsUEAPlugin
+  000cf000        /System/Library/UserEventPlugins/SCMonitor.plugin/Contents/MacOS/SCMonitor
+
+  Thread id:      7ece7d8
+  User stack:
+    98 ??? [0x1afa]
+      98 ??? [0x29d7]
+        98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      742d4f0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 -[NSThread main] + 45 (in Foundation) [0x9216edfd]
+            98 _appusage_server_routine + 8737 (in ACRRDaemon) [0x1735c]
+              98 -[NSRunLoop(NSRunLoop) run] + 84 (in Foundation) [0x921af4f4]
+                98 -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 213 (in Foundation) [0x921a33d5]
+                  98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                    98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      7ecb6b0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 __ZN9CAPThread5EntryEPS_ + 96 (in CoreAudio) [0x9074e480]
+          98 __ZN10HALRunLoop9OwnThreadEPv + 160 (in CoreAudio) [0x9074e5f8]
+            98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+              98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+
+Process:        Widget vodafone.it [267]
+Path:           /Applications/Widget vodafone.it.app/Contents/MacOS/Widget vodafone.it
+
+  ADDRESS         BINARY
+  00001000        /Applications/Widget vodafone.it.app/Contents/MacOS/Widget vodafone.it
+  0050a000        /System/Library/Extensions/AudioIPCDriver.kext/Contents/Resources/AudioIPCPlugIn.bundle/Contents/MacOS/AudioIPCPlugIn
+  00513000        /System/Library/Extensions/AppleHDA.kext/Contents/PlugIns/AppleHDAHALPlugIn.bundle/Contents/MacOS/AppleHDAHALPlugIn
+  019c6000        /Library/Frameworks/Adobe AIR.framework/Versions/1.0/Adobe AIR
+  150a4000        /System/Library/CoreServices/Encodings/libSimplifiedChineseConverter.dylib
+  150b7000        /System/Library/CoreServices/Encodings/libTraditionalChineseConverter.dylib
+  150f0000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/ATSHI.dylib
+  17a95000        /System/Library/CoreServices/RawCamera.bundle/Contents/MacOS/RawCamera
+  ba900000        /System/Library/CoreServices/Encodings/libJapaneseConverter.dylib
+  bab00000        /System/Library/CoreServices/Encodings/libKoreanConverter.dylib
+
+  Thread id:      7ecb2e8
+  User stack:
+    98 start + 41 (in Widget vodafone.it) [0x2035]
+      98 start + 258 (in Widget vodafone.it) [0x210e]
+        98 start + 4213 (in Widget vodafone.it) [0x3081]
+          98 ??? [0x19c9fde]
+            98 ??? [0x19c9c98]
+              98 -[NSApplication run] + 795 (in AppKit) [0x95b2ef9f]
+                98 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] + 128 (in AppKit) [0x95b35f88]
+                  98 __DPSNextEvent + 657 (in AppKit) [0x95b366d5]
+                    98 _BlockUntilNextEventMatchingListInMode + 106 (in HIToolbox) [0x97757f39]
+                      98 _ReceiveNextEventCommon + 374 (in HIToolbox) [0x977580c5]
+                        98 _RunCurrentEventLoopInMode + 283 (in HIToolbox) [0x977582ac]
+                          98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                            90 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+                            8 _CFRunLoopRunSpecific + 3141 (in CoreFoundation) [0x945fc3c5]
+                              7 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1496304 (in Adobe AIR) [0x1e49be7]
+                                7 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1491200 (in Adobe AIR) [0x1e487f7]
+                                  4 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 3074092 (in Adobe AIR) [0x1fcaf23]
+                                    4 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2947152 (in Adobe AIR) [0x1fabf47]
+                                      2 _shaders_acos_ss + 354889 (in Adobe AIR) [0x2039ee9]
+                                        2 _shaders_acos_ss + 354305 (in Adobe AIR) [0x2039ca1]
+                                          2 _shaders_acos_ss + 354102 (in Adobe AIR) [0x2039bd6]
+                                            2 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2382301 (in Adobe AIR) [0x1f220d4]
+                                              1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2381245 (in Adobe AIR) [0x1f21cb4]
+                                                1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2229354 (in Adobe AIR) [0x1efcb61]
+                                                  1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2228082 (in Adobe AIR) [0x1efc669]
+                                                    1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2205079 (in Adobe AIR) [0x1ef6c8e]
+                                                      1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2199885 (in Adobe AIR) [0x1ef5844]
+                                                        1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2195317 (in Adobe AIR) [0x1ef466c]
+                                                          1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2175410 (in Adobe AIR) [0x1eef8a9]
+                                                            1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2175117 (in Adobe AIR) [0x1eef784]
+                                                              1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 70651 (in Adobe AIR) [0x1cedaf2]
+                                              1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2379956 (in Adobe AIR) [0x1f217ab]
+                                                1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2695979 (in Adobe AIR) [0x1f6ea22]
+                                                  1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2698780 (in Adobe AIR) [0x1f6f513]
+                                                    1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2695979 (in Adobe AIR) [0x1f6ea22]
+                                                      1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2698780 (in Adobe AIR) [0x1f6f513]
+                                                        1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2695979 (in Adobe AIR) [0x1f6ea22]
+                                                          1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2698780 (in Adobe AIR) [0x1f6f513]
+                                                            1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2695979 (in Adobe AIR) [0x1f6ea22]
+                                                              1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2698780 (in Adobe AIR) [0x1f6f513]
+                                                                1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2695979 (in Adobe AIR) [0x1f6ea22]
+                                                                  1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2698780 (in Adobe AIR) [0x1f6f513]
+                                                                    1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2695979 (in Adobe AIR) [0x1f6ea22]
+                                                                      1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2698780 (in Adobe AIR) [0x1f6f513]
+                                                                        1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2695979 (in Adobe AIR) [0x1f6ea22]
+                                                                          1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2698780 (in Adobe AIR) [0x1f6f513]
+                                                                            1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2695979 (in Adobe AIR) [0x1f6ea22]
+                                                                              1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2698780 (in Adobe AIR) [0x1f6f513]
+                                                                                1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2695979 (in Adobe AIR) [0x1f6ea22]
+                                                                                  1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2698780 (in Adobe AIR) [0x1f6f513]
+                                                                                    1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2695979 (in Adobe AIR) [0x1f6ea22]
+                                                                                      1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2698780 (in Adobe AIR) [0x1f6f513]
+                                                                                        1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2695979 (in Adobe AIR) [0x1f6ea22]
+                                                                                          1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2698780 (in Adobe AIR) [0x1f6f513]
+                                                                                            1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2695979 (in Adobe AIR) [0x1f6ea22]
+                                                                                              1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2698780 (in Adobe AIR) [0x1f6f513]
+                                                                                                1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2695979 (in Adobe AIR) [0x1f6ea22]
+                                                                                                  1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2698780 (in Adobe AIR) [0x1f6f513]
+                                                                                                    1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2695979 (in Adobe AIR) [0x1f6ea22]
+                                                                                                      1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2697535 (in Adobe AIR) [0x1f6f036]
+                                                                                                        1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2679930 (in Adobe AIR) [0x1f6ab71]
+                                                                                                          1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2687363 (in Adobe AIR) [0x1f6c87a]
+                                                                                                            1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 694047 (in Adobe AIR) [0x1d85e16]
+                                                                                                              1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 573060 (in Adobe AIR) [0x1d6857b]
+                                                                                                                1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2311375 (in Adobe AIR) [0x1f10bc6]
+                                      2 _shaders_acos_ss + 355016 (in Adobe AIR) [0x2039f68]
+                                        2 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1743636 (in Adobe AIR) [0x1e8620b]
+                                          2 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 384597 (in Adobe AIR) [0x1d3a54c]
+                                            2 -[NSWindow displayIfNeeded] + 189 (in AppKit) [0x95b38a29]
+                                              2 -[NSView displayIfNeeded] + 933 (in AppKit) [0x95b38e7b]
+                                                2 -[NSView _displayRectIgnoringOpacity:isVisibleRect:rectIsVisibleRectForView:] + 3090 (in AppKit) [0x95bf84ab]
+                                                  2 -[NSNextStepFrame _recursiveDisplayRectIfNeededIgnoringOpacity:isVisibleRect:rectIsVisibleRectForView:topView:] + 340 (in AppKit) [0x95ce4385]
+                                                    2 -[NSView _recursiveDisplayRectIfNeededIgnoringOpacity:isVisibleRect:rectIsVisibleRectForView:topView:] + 1819 (in AppKit) [0x95bfc469]
+                                                      1 -[NSView _regionForOpaqueDescendants:forMove:] + 879 (in AppKit) [0x95bf290f]
+                                                      1 -[NSView _drawRect:clip:] + 3853 (in AppKit) [0x95bfebf8]
+                                                        1 _NSRectFill + 240 (in AppKit) [0x95b6d603]
+                                                          1 _CGContextFillRect + 32 (in CoreGraphics) [0x9098016e]
+                                                            1 _CGContextFillRects + 162 (in CoreGraphics) [0x9092b41e]
+                                                              1 _ripl_BltShape + 0 (in libRIP.A.dylib) [0x93a59d64]
+                                  2 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 3074077 (in Adobe AIR) [0x1fcaf14]
+                                    1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 3062399 (in Adobe AIR) [0x1fc8176]
+                                      1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1965839 (in Adobe AIR) [0x1ebc606]
+                                        1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 793423 (in Adobe AIR) [0x1d9e246]
+                                          1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 756201 (in Adobe AIR) [0x1d950e0]
+                                            1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 757971 (in Adobe AIR) [0x1d957ca]
+                                              1 _XC_RSA_Decrypt_Zeroes_Coding_Lithium + 1176354 (in Adobe AIR) [0x1bc47d2]
+                                    1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2424844 (in Adobe AIR) [0x1f2c703]
+                                  1 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 3062035 (in Adobe AIR) [0x1fc800a]
+                              1 +[NSObject alloc] + 1 (in CoreFoundation) [0x9467cb21]
+  Kernel stack:
+    8 _PE_incoming_interrupt + 131 [0x44e416]
+      8 _lapic_interrupt + 121 [0x1b16c0]
+        8 _sync_iss_to_iks + 114 [0x1aa3ae]
+    6 _dtrace_get_cpu_int_stack_top + 543 [0x198fa3]
+      6 _mach_msg_overwrite_trap + 4820 [0x1274de]
+        6 _ipc_mqueue_receive + 738 [0x121286]
+          6 _thread_block + 33 [0x136f20]
+            6 _thread_block_reason + 135 [0x136e7c]
+              6 _thread_setrun + 3597 [0x136217]
+                6 _machine_idle + 271 [0x1ac3ec]
+
+  Thread id:      80c5410
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1883821 (in Adobe AIR) [0x1ea85a4]
+          98 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1883666 (in Adobe AIR) [0x1ea8509]
+            98 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1883544 (in Adobe AIR) [0x1ea848f]
+              98 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 133843 (in Adobe AIR) [0x1cfd1ca]
+                98 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1882928 (in Adobe AIR) [0x1ea8227]
+                  98 _semaphore_wait_signal_trap + 10 (in libSystem.B.dylib) [0x944222ae]
+
+  Thread id:      7eca3c8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1883821 (in Adobe AIR) [0x1ea85a4]
+          98 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1883666 (in Adobe AIR) [0x1ea8509]
+            98 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1883544 (in Adobe AIR) [0x1ea848f]
+              98 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 133843 (in Adobe AIR) [0x1cfd1ca]
+                98 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1882928 (in Adobe AIR) [0x1ea8227]
+                  98 _semaphore_wait_signal_trap + 10 (in libSystem.B.dylib) [0x944222ae]
+
+  Thread id:      70b44f0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 __ZN9CAPThread5EntryEPS_ + 96 (in CoreAudio) [0x9074e480]
+          98 __ZN10HALRunLoop9OwnThreadEPv + 160 (in CoreAudio) [0x9074e5f8]
+            98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+              98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      80c3d60
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1883821 (in Adobe AIR) [0x1ea85a4]
+          98 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1883666 (in Adobe AIR) [0x1ea8509]
+            98 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1883544 (in Adobe AIR) [0x1ea848f]
+              98 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1963039 (in Adobe AIR) [0x1ebbb16]
+                98 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1882994 (in Adobe AIR) [0x1ea8269]
+                  98 _semaphore_timedwait_signal_trap + 10 (in libSystem.B.dylib) [0x944222c6]
+
+  Thread id:      7a78208
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1883821 (in Adobe AIR) [0x1ea85a4]
+          98 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1883666 (in Adobe AIR) [0x1ea8509]
+            98 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1883544 (in Adobe AIR) [0x1ea848f]
+              90 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2980088 (in Adobe AIR) [0x1fb3fef]
+                90 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1882994 (in Adobe AIR) [0x1ea8269]
+                  90 _semaphore_timedwait_signal_trap + 10 (in libSystem.B.dylib) [0x944222c6]
+              8 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 2980204 (in Adobe AIR) [0x1fb4063]
+                8 _r_0sxkwv70f9yg6kbm41b3d14u0dvqsem0nnvh83 + 1882994 (in Adobe AIR) [0x1ea8269]
+                  8 _semaphore_timedwait_signal_trap + 10 (in libSystem.B.dylib) [0x944222c6]
+  Kernel stack:
+    2 _dtrace_get_cpu_int_stack_top + 543 [0x198fa3]
+      2 _semaphore_timedwait_signal_trap + 48 [0x139d83]
+        2 _semaphore_timedwait_signal_trap_internal + 112 [0x139d33]
+          2 _semaphore_wait_internal + 565 [0x139c87]
+            2 _thread_block + 33 [0x136f20]
+              2 _thread_block_reason + 135 [0x136e7c]
+                2 _thread_setrun + 3597 [0x136217]
+                  2 _machine_idle + 271 [0x1ac3ec]
+
+  Thread id:      7a776b0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 __Z22CFURLCacheWorkerThreadPv + 388 (in CFNetwork) [0x965d218c]
+          98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+            98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      7a785d0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 -[NSThread main] + 45 (in Foundation) [0x9216edfd]
+            98 +[NSURLConnection(NSURLConnectionReallyInternal) _resourceLoadLoop:] + 320 (in Foundation) [0x921d2520]
+              98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      742ab58
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+
+
+Process:        WindowServer [102]
+Path:           /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Resources/WindowServer
+
+  ADDRESS         BINARY
+  00001000        /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Resources/WindowServer
+  0001c000        /System/Library/Extensions/GeForceGA.plugin/Contents/MacOS/GeForceGA
+  12000000        /System/Library/Frameworks/OpenGL.framework/Resources/GLEngine.bundle/GLEngine
+  121b3000        /System/Library/Extensions/GeForce8xxxGLDriver.bundle/Contents/MacOS/GeForce8xxxGLDriver
+  143b1000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCGXCoreImage.A.dylib
+
+  Thread id:      74e47d8
+  User stack:
+    98 start + 54 (in WindowServer) [0x1fbe]
+      98 _main + 24 (in WindowServer) [0x1ff4]
+        98 _CGXGetRootAdminCredentials + 0 (in CoreGraphics) [0x90a18ee9]
+          98 _CGXServerLoop + 161 (in CoreGraphics) [0x90a8ad5e]
+            98 _CGXRunOneServicesPass + 377 (in CoreGraphics) [0x90a7fa6b]
+              78 _mach_msg_overwrite_trap + 10 (in libSystem.B.dylib) [0x94422272]
+              20 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+  Kernel stack:
+    1 _dtrace_get_cpu_int_stack_top + 543 [0x198fa3]
+      1 _mach_msg_overwrite_trap + 4820 [0x1274de]
+        1 _ipc_mqueue_receive + 738 [0x121286]
+          1 _thread_block + 33 [0x136f20]
+            1 _thread_block_reason + 135 [0x136e7c]
+              1 _thread_setrun + 3597 [0x136217]
+                1 _machine_idle + 271 [0x1ac3ec]
+
+  Thread id:      74e4410
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___tickleThread + 41 (in IOKit) [0x92e8353b]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      74e16b0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _eventThread + 499 (in CoreGraphics) [0x90a6c999]
+          98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+            98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+  Kernel stack:
+    2 _dtrace_get_cpu_int_stack_top + 543 [0x198fa3]
+      2 _mach_msg_overwrite_trap + 4820 [0x1274de]
+        2 _ipc_mqueue_receive + 738 [0x121286]
+          2 _thread_block + 33 [0x136f20]
+            2 _thread_block_reason + 135 [0x136e7c]
+              2 _thread_setrun + 3597 [0x136217]
+                2 _machine_idle + 271 [0x1ac3ec]
+
+  Thread id:      7a7a7d8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _glvmDoWork + 162 (in libGLProgrammability.dylib) [0x9023eb32]
+          98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+  Thread id:      742a000
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _layer_blit_async_thread + 95 (in CoreGraphics) [0x90da48da]
+          98 _layer_blit_thread + 229 (in CoreGraphics) [0x90da43b5]
+            98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+
+Process:        X [1111]
+Path:           /usr/X11/bin/X
+
+  ADDRESS         BINARY
+  00001000        /usr/X11/bin/X
+
+  Thread id:      8554410
+  User stack:
+    98 start + 54 (in X) [0x1ab6]
+      98 _main + 2013 (in X) [0x22bf]
+        98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+
+Process:        X11.bin [965]
+Path:           /Applications/Utilities/X11.app/Contents/MacOS/X11.bin
+
+  ADDRESS         BINARY
+  00001000        /Applications/Utilities/X11.app/Contents/MacOS/X11.bin
+  001d3000        /Applications/Utilities/X11.app/Contents/MacOS/../Frameworks/Sparkle.framework/Versions/A/Sparkle
+  001f7000        /usr/X11/lib/libAppleWM.7.dylib
+  001fc000        /usr/X11/lib/libXext.6.dylib
+  0020a000        /usr/X11/lib/libXfixes.3.dylib
+  00210000        /usr/X11/lib/libX11.6.dylib
+  0031e000        /usr/X11/lib/libxcb.1.dylib
+  00336000        /usr/X11/lib/libpixman-1.0.dylib
+  0038c000        /usr/X11/lib/libXfont.1.dylib
+  003bf000        /usr/X11/lib/libfreetype.6.dylib
+  0043a000        /usr/X11/lib/libfontenc.1.dylib
+  00442000        /usr/X11/lib/libXau.6.dylib
+  00446000        /usr/X11/lib/libXdmcp.6.dylib
+  0044c000        /usr/lib/libXplugin.1.dylib
+  0045f000        /usr/lib/libxar.1.dylib
+  007cc000        /System/Library/Frameworks/OpenGL.framework/Versions/A/Resources/GLRendererFloat.bundle/GLRendererFloat
+  155d0000        /System/Library/Frameworks/OpenGL.framework/Resources/GLEngine.bundle/GLEngine
+  15783000        /System/Library/Extensions/GeForce8xxxGLDriver.bundle/Contents/MacOS/GeForce8xxxGLDriver
+  1609f000        /System/Library/CoreServices/RawCamera.bundle/Contents/MacOS/RawCamera
+
+  Thread id:      85547d8
+  User stack:
+    98 start + 54 (in X11.bin) [0x3002]
+      98 _main + 1746 (in X11.bin) [0x4265]
+        98 _mach_msg_server + 343 (in libSystem.B.dylib) [0x9449709b]
+          98 _mach_startup_server + 125 (in X11.bin) [0x432a]
+            98 __Xstart_x11_server + 157 (in X11.bin) [0x44fe]
+              98 _do_start_x11_server + 295 (in X11.bin) [0x35e8]
+                98 _server_main + 282 (in X11.bin) [0x14922]
+                  98 _X11ApplicationMain + 1622 (in X11.bin) [0x98c1]
+                    98 -[NSApplication run] + 795 (in AppKit) [0x95b2ef9f]
+                      98 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] + 128 (in AppKit) [0x95b35f88]
+                        98 __DPSNextEvent + 657 (in AppKit) [0x95b366d5]
+                          98 _BlockUntilNextEventMatchingListInMode + 106 (in HIToolbox) [0x97757f39]
+                            98 _ReceiveNextEventCommon + 374 (in HIToolbox) [0x977580c5]
+                              98 _RunCurrentEventLoopInMode + 283 (in HIToolbox) [0x977582ac]
+                                98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                                  98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+  Kernel stack:
+    1 _dtrace_get_cpu_int_stack_top + 543 [0x198fa3]
+      1 _mach_msg_overwrite_trap + 4820 [0x1274de]
+        1 _ipc_mqueue_receive + 738 [0x121286]
+          1 _thread_block + 33 [0x136f20]
+            1 _thread_block_reason + 135 [0x136e7c]
+              1 _thread_setrun + 3597 [0x136217]
+                1 _machine_idle + 271 [0x1ac3ec]
+
+  Thread id:      7a76b58
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _server_thread + 50 (in X11.bin) [0x14a27]
+          98 _dix_main + 1058 (in X11.bin) [0xc0da5]
+            98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+  Kernel stack:
+    1 _unix_syscall + 572 [0x3e3a7f]
+      1 _select_nocancel + 1450 [0x393aea]
+        1 _selprocess + 1654 [0x3932b7]
+          1 _uiomove + 1018 [0x3861a4]
+            1 _thread_block + 33 [0x136f20]
+              1 _thread_block_reason + 135 [0x136e7c]
+                1 _thread_setrun + 3597 [0x136217]
+                  1 _machine_idle + 271 [0x1ac3ec]
+
+  Thread id:      70b1b58
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _xpbproxy_x_thread + 18 (in X11.bin) [0x98db]
+          98 _xpbproxy_run + 655 (in X11.bin) [0x27cce]
+            98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+              98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      67c3790
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _glvmDoWork + 162 (in libGLProgrammability.dylib) [0x9023eb32]
+          98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+  Thread id:      9781790
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _DarwinProcessFDAdditionQueue_thread + 105 (in X11.bin) [0x111a8]
+          98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+  Thread id:      8551a78
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+
+  Thread id:      7a79128
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 __xp_async_thread + 63 (in libXplugin.1.dylib) [0x44d0cb]
+          98 __xp_async_dequeue + 39 (in libXplugin.1.dylib) [0x44d005]
+            98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+
+Process:        authorizationhost [612]
+Path:           /System/Library/CoreServices/SecurityAgent.app/Contents/Resources/authorizationhost
+
+  ADDRESS         BINARY
+  00001000        /System/Library/CoreServices/SecurityAgent.app/Contents/Resources/authorizationhost
+  0002a000        /System/Library/Frameworks/ExceptionHandling.framework/Versions/A/ExceptionHandling
+
+  Thread id:      85538b8
+  User stack:
+    98 ??? [0x2206]
+      98 __ZN8Security11DataWalkers6CopierI24AuthorizationValueVectorEC2EPKS2_RNS_9AllocatorE + 12621 (in authorizationhost) [0x8859]
+        98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+
+Process:        autofsd [59]
+Path:           /usr/libexec/autofsd
+
+  ADDRESS         BINARY
+  00001000        /usr/libexec/autofsd
+
+  Thread id:      7122410
+  User stack:
+    98 ??? [0x1752]
+      98 ??? [0x1d8b]
+        98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+
+Process:        bash [1190]
+Path:           /bin/bash
+
+  ADDRESS         BINARY
+  00001000        /bin/bash
+
+  Thread id:      742a790
+  User stack:
+    98 ??? [0x1aca]
+      98 ??? [0x3ac7]
+        98 ??? [0x3e95]
+          98 ??? [0x12b27]
+            98 ??? [0x10ccc]
+              98 ??? [0x1e32e]
+                98 ___wait4 + 10 (in libSystem.B.dylib) [0x94466856]
+
+
+Process:        bash [1244]
+Path:           /bin/bash
+
+  ADDRESS         BINARY
+  00001000        /bin/bash
+
+  Thread id:      8552208
+  User stack:
+    98 ??? [0x1aca]
+      98 ??? [0x3ac7]
+        98 ??? [0x3e95]
+          98 ??? [0x12b27]
+            98 ??? [0x10ccc]
+              98 ??? [0x1e32e]
+                98 ___wait4 + 10 (in libSystem.B.dylib) [0x94466856]
+
+
+Process:        bash [1297]
+Path:           /bin/bash
+
+  ADDRESS         BINARY
+  00001000        /bin/bash
+
+  Thread id:      74e0f20
+  User stack:
+    98 ??? [0x1aca]
+      98 ??? [0x3ac7]
+        98 ??? [0x3e95]
+          98 ??? [0x12b27]
+            98 ??? [0x10ccc]
+              98 ??? [0x1e32e]
+                98 ___wait4 + 10 (in libSystem.B.dylib) [0x94466856]
+
+
+Process:        blued [58]
+Path:           /usr/sbin/blued
+
+  ADDRESS         BINARY
+  00001000        /usr/sbin/blued
+  0003e000        /System/Library/PrivateFrameworks/BezelServices.framework/Versions/A/BezelServices
+  000c4000        /System/Library/Frameworks/IOBluetooth.framework/Versions/A/IOBluetooth
+  00188000        /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Apple80211
+
+  Thread id:      71227d8
+  User stack:
+    98 ??? [0x1efa]
+      98 ??? [0x22285]
+        98 -[NSRunLoop(NSRunLoop) run] + 84 (in Foundation) [0x921af4f4]
+          98 -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 213 (in Foundation) [0x921a33d5]
+            98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+              98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+
+Process:        configd [14]
+Path:           /usr/sbin/configd
+
+  ADDRESS         BINARY
+  00001000        /usr/sbin/configd
+  0003e000        /System/Library/SystemConfiguration/PrinterNotifications.bundle/Contents/MacOS/PrinterNotifications
+  00043000        /System/Library/SystemConfiguration/PowerManagement.bundle/Contents/MacOS/PowerManagement
+  00055000        /System/Library/SystemConfiguration/DynamicPowerStep.bundle/Contents/MacOS/DynamicPowerStep
+  0005a000        /System/Library/SystemConfiguration/Bluetooth.bundle/Contents/MacOS/Bluetooth
+  00060000        /System/Library/SystemConfiguration/BatteryUpdater.bundle/Contents/MacOS/BatteryUpdater
+  00065000        /System/Library/SystemConfiguration/Apple80211Monitor.bundle/Contents/MacOS/Apple80211Monitor
+  0007d000        /System/Library/SystemConfiguration/EAPOLController.bundle/EAPOLController
+  00086000        /System/Library/SystemConfiguration/IP6Configuration.bundle/Contents/MacOS/IP6Configuration
+  00098000        /System/Library/SystemConfiguration/IPConfiguration.bundle/Contents/MacOS/IPConfiguration
+  000c4000        /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Apple80211
+  00200000        /System/Library/SystemConfiguration/PPPController.bundle/Contents/MacOS/PPPController
+
+  Thread id:      64275d0
+  User stack:
+    98 start + 54 (in configd) [0x220e]
+      98 _main + 2394 (in configd) [0x2c3f]
+        98 _server_loop + 70 (in configd) [0x39a6]
+          98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+            98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      6f472e8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _plugin_exec + 1562 (in configd) [0x4c5b]
+          98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+            98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      6f47e40
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 __io_pm_assertion_create + 2029 (in PowerManagement) [0x453cb]
+          98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+            98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      6f48208
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+
+
+Process:        coreaudiod [239]
+Path:           /usr/sbin/coreaudiod
+
+  ADDRESS         BINARY
+  00001000        /usr/sbin/coreaudiod
+  00030000        /System/Library/Extensions/AudioIPCDriver.kext/Contents/Resources/AudioIPCPlugIn.bundle/Contents/MacOS/AudioIPCPlugIn
+  00039000        /System/Library/Extensions/AppleHDA.kext/Contents/PlugIns/AppleHDAHALPlugIn.bundle/Contents/MacOS/AppleHDAHALPlugIn
+  70000000        /System/Library/Components/CoreAudio.component/Contents/MacOS/CoreAudio
+
+  Thread id:      7ecbe40
+  User stack:
+    98 ??? [0x27c2]
+      98 ??? [0x97b7]
+        98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      7a772e8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 __ZN9CAPThread5EntryEPS_ + 96 (in CoreAudio) [0x9074e480]
+          98 __ZN10HALRunLoop9OwnThreadEPv + 160 (in CoreAudio) [0x9074e5f8]
+            98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+              98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+
+Process:        coreservicesd [74]
+Path:           /System/Library/CoreServices/coreservicesd
+
+  ADDRESS         BINARY
+  00001000        /System/Library/CoreServices/coreservicesd
+
+  Thread id:      70b35d0
+  User stack:
+    98 ??? [0x1f6e]
+      98 __CoreServicesServerMain + 795 (in CarbonCore) [0x92b8474b]
+        98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      74e4048
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 _kevent + 10 (in libSystem.B.dylib) [0x944529c6]
+
+  Thread id:      7a7aba0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _fmodWatchConsumer + 407 (in CarbonCore) [0x92b8a56f]
+          98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+  Thread id:      80c1000
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 ___read + 10 (in libSystem.B.dylib) [0x94445f7a]
+  Kernel stack:
+    98 _unix_syscall + 572 [0x3e3a7f]
+      98 _read_nocancel + 150 [0x39188d]
+        98 _nosys + 593 [0x39164d]
+          98 _release_pathbuff + 3077 [0x20172b]
+            98 _tsleep + 105 [0x386498]
+              98 _uiomove + 1030 [0x3861b0]
+                98 _thread_block + 33 [0x136f20]
+                  98 _thread_continue + 1180 [0x136cb3]
+
+
+Process:        cron [36]
+Path:           /usr/sbin/cron
+
+  ADDRESS         BINARY
+  00001000        /usr/sbin/cron
+  0000c000        /usr/lib/libutil.dylib
+
+  Thread id:      70b5048
+  User stack:
+    98 ??? [0x1d12]
+      98 ??? [0x224d]
+        98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+
+Process:        dbus-daemon [389]
+Path:           /sw/bin/dbus-daemon
+
+  ADDRESS         BINARY
+  00001000        /sw/bin/dbus-daemon
+  00076000        /sw/lib/libexpat.1.dylib
+
+  Thread id:      85534f0
+  User stack:
+    98 start + 54 (in dbus-daemon) [0x17f6]
+      98 _main + 2486 (in dbus-daemon) [0x14391]
+        98 __dbus_loop_run + 40 (in dbus-daemon) [0x3a894]
+          98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+
+
+Process:        dbus-daemon [198]
+Path:           /sw/bin/dbus-daemon
+
+  ADDRESS         BINARY
+  00001000        /sw/bin/dbus-daemon
+  00076000        /sw/lib/libexpat.1.dylib
+
+  Thread id:      74e4ba0
+  User stack:
+    98 start + 54 (in dbus-daemon) [0x17f6]
+      98 _main + 2486 (in dbus-daemon) [0x14391]
+        98 __dbus_loop_run + 40 (in dbus-daemon) [0x3a894]
+          98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+
+
+Process:        diskarbitrationd [54]
+Path:           /usr/sbin/diskarbitrationd
+
+  ADDRESS         BINARY
+  00001000        /usr/sbin/diskarbitrationd
+
+  Thread id:      70b13c8
+  User stack:
+    98 ??? [0x1a5a]
+      98 ??? [0x8a7a]
+        98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+
+Process:        distnoted [15]
+Path:           /usr/sbin/distnoted
+
+  ADDRESS         BINARY
+  00001000        /usr/sbin/distnoted
+
+  Thread id:      6f485d0
+  User stack:
+    98 ??? [0x1ef6]
+      98 ??? [0x1f95]
+        98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+
+Process:        dynamic_pager [51]
+Path:           /sbin/dynamic_pager
+
+  ADDRESS         BINARY
+
+  Thread id:      70b26b0
+  User stack:
+    98 ??? [0x178a]
+      98 ??? [0x2a11]
+        98 ??? [0x2224]
+          98 ??? [0x1efd]
+            98 ??? [0x94422266]
+
+
+Process:        firefox-bin [955]
+Path:           /Applications/Firefox.app/Contents/MacOS/firefox-bin
+
+  ADDRESS         BINARY
+  00001000        /Applications/Firefox.app/Contents/MacOS/firefox-bin
+  00006000        /Applications/Firefox.app/Contents/MacOS/libxpcom.dylib
+  0000b000        /Applications/Firefox.app/Contents/MacOS/libplds4.dylib
+  00014000        /Applications/Firefox.app/Contents/MacOS/libplc4.dylib
+  00035000        /Applications/Firefox.app/Contents/MacOS/libnspr4.dylib
+  00080000        /Applications/Firefox.app/Contents/MacOS/libsqlite3.dylib
+  00100000        /Applications/Firefox.app/Contents/MacOS/libsmime3.dylib
+  0011f000        /Applications/Firefox.app/Contents/MacOS/libnssutil3.dylib
+  0015a000        /Applications/Firefox.app/Contents/MacOS/libmozjs.dylib
+  002b4000        /Applications/Firefox.app/Contents/MacOS/libssl3.dylib
+  002e6000        /Applications/Firefox.app/Contents/MacOS/libnss3.dylib
+  003de000        /Applications/Firefox.app/Contents/MacOS/components/libbrowserdirprovider.dylib
+  00600000        /System/Library/Frameworks/Carbon.framework/Frameworks/Print.framework/Versions/Current/Plugins/PrintCocoaUI.bundle/Contents/MacOS/PrintCocoaUI
+  009bc000        /Applications/Firefox.app/Contents/MacOS/components/libbrowsercomps.dylib
+  00fa6000        /Applications/Firefox.app/Contents/MacOS/XUL
+  1bbc1000        /Applications/Firefox.app/Contents/MacOS/libsoftokn3.dylib
+  1bfc0000        /Applications/Firefox.app/Contents/MacOS/libnssdbm3.dylib
+  1c800000        /System/Library/CoreServices/RawCamera.bundle/Contents/MacOS/RawCamera
+  1d400000        /Applications/Firefox.app/Contents/MacOS/libfreebl3.dylib
+  1d470000        /Applications/Firefox.app/Contents/MacOS/libnssckbi.dylib
+
+  Thread id:      7a763c8
+  User stack:
+    98 start + 41 (in firefox-bin) [0x2469]
+      98 start + 258 (in firefox-bin) [0x2542]
+        98 start + 2168 (in firefox-bin) [0x2cb8]
+          98 _XRE_main + 15723 (in XUL) [0xfb104b]
+            98 __ZSt13__adjust_heapIN9__gnu_cxx17__normal_iteratorIP8nsRefPtrI13imgCacheEntryESt6vectorIS4_SaIS4_EEEEiS4_PFbRKS4_SB_EEvT_T0_SF_T1_T2_ + 7080855 (in XUL) [0x1852697]
+              98 _JSD_GetValueForObject + 884714 (in XUL) [0x19cc7da]
+                98 -[NSApplication run] + 795 (in AppKit) [0x95b2ef9f]
+                  98 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] + 128 (in AppKit) [0x95b35f88]
+                    98 __DPSNextEvent + 657 (in AppKit) [0x95b366d5]
+                      98 _BlockUntilNextEventMatchingListInMode + 106 (in HIToolbox) [0x97757f39]
+                        98 _ReceiveNextEventCommon + 374 (in HIToolbox) [0x977580c5]
+                          98 _RunCurrentEventLoopInMode + 283 (in HIToolbox) [0x977582ac]
+                            98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                              98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      9782a78
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      8553c80
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PR_Select + 856 (in libnspr4.dylib) [0x53a88]
+          98 _NS_GetComponentRegistrar_P + 36828 (in XUL) [0x1aa26cc]
+            98 __ZN7JNIEnv_22CallStaticObjectMethodEP7_jclassP10_jmethodIDz + 278890 (in XUL) [0x1a6237a]
+              98 _NS_GetComponentRegistrar_P + 36279 (in XUL) [0x1aa24a7]
+                98 _DumpJSStack + 690011 (in XUL) [0x107113b]
+                  98 __ZN7JNIEnv_22CallStaticObjectMethodEP7_jclassP10_jmethodIDz + 278890 (in XUL) [0x1a6237a]
+                    98 _NS_GetComponentRegistrar_P + 36188 (in XUL) [0x1aa244c]
+                      98 _DumpJSStack + 692643 (in XUL) [0x1071b83]
+                        98 _DumpJSStack + 691236 (in XUL) [0x1071604]
+                          98 _DumpJSStack + 688154 (in XUL) [0x10709fa]
+                            98 _PR_Poll + 121 (in libnspr4.dylib) [0x52199]
+                              98 _select$DARWIN_EXTSN$NOCANCEL + 10 (in libSystem.B.dylib) [0x944593ca]
+
+  Thread id:      67c7410
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PR_Select + 856 (in libnspr4.dylib) [0x53a88]
+          98 _js_ValueToCharBuffer + 18463 (in libmozjs.dylib) [0x23388f]
+            98 _PR_WaitCondVar + 241 (in libnspr4.dylib) [0x4e661]
+              98 _semaphore_wait_signal_trap + 10 (in libSystem.B.dylib) [0x944222ae]
+
+  Thread id:      8550f20
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PR_Select + 856 (in libnspr4.dylib) [0x53a88]
+          98 _DumpJSStack + 108931 (in XUL) [0xfe3363]
+            98 _PR_WaitCondVar + 79 (in libnspr4.dylib) [0x4e5bf]
+              98 _PR_AssertCurrentThreadOwnsLock + 177 (in libnspr4.dylib) [0x4e231]
+                98 _semaphore_timedwait_signal_trap + 10 (in libSystem.B.dylib) [0x944222c6]
+
+  Thread id:      74e38b8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PR_Select + 856 (in libnspr4.dylib) [0x53a88]
+          98 _NS_GetComponentRegistrar_P + 36828 (in XUL) [0x1aa26cc]
+            98 __ZN7JNIEnv_22CallStaticObjectMethodEP7_jclassP10_jmethodIDz + 278890 (in XUL) [0x1a6237a]
+              98 _NS_GetComponentRegistrar_P + 36279 (in XUL) [0x1aa24a7]
+                98 _NS_GetComponentRegistrar_P + 54167 (in XUL) [0x1aa6a87]
+                  98 _PR_WaitCondVar + 79 (in libnspr4.dylib) [0x4e5bf]
+                    98 _PR_AssertCurrentThreadOwnsLock + 177 (in libnspr4.dylib) [0x4e231]
+                      98 _semaphore_timedwait_signal_trap + 10 (in libSystem.B.dylib) [0x944222c6]
+
+  Thread id:      7ecd8b8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PR_Select + 856 (in libnspr4.dylib) [0x53a88]
+          98 _DumpJSStack + 740860 (in XUL) [0x107d7dc]
+            98 _DumpJSStack + 736650 (in XUL) [0x107c76a]
+              98 _PR_WaitCondVar + 79 (in libnspr4.dylib) [0x4e5bf]
+                98 _PR_AssertCurrentThreadOwnsLock + 177 (in libnspr4.dylib) [0x4e231]
+                  98 _semaphore_timedwait_signal_trap + 10 (in libSystem.B.dylib) [0x944222c6]
+
+  Thread id:      7a76000
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PR_Select + 856 (in libnspr4.dylib) [0x53a88]
+          98 __ZSt13__adjust_heapIN9__gnu_cxx17__normal_iteratorIP8nsRefPtrI13imgCacheEntryESt6vectorIS4_SaIS4_EEEEiS4_PFbRKS4_SB_EEvT_T0_SF_T1_T2_ + 7251962 (in XUL) [0x187c2fa]
+            98 _PR_WaitCondVar + 241 (in libnspr4.dylib) [0x4e661]
+              98 _semaphore_wait_signal_trap + 10 (in libSystem.B.dylib) [0x944222ae]
+
+  Thread id:      8554048
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PR_Select + 856 (in libnspr4.dylib) [0x53a88]
+          98 __ZSt13__adjust_heapIN9__gnu_cxx17__normal_iteratorIP8nsRefPtrI13imgCacheEntryESt6vectorIS4_SaIS4_EEEEiS4_PFbRKS4_SB_EEvT_T0_SF_T1_T2_ + 7255268 (in XUL) [0x187cfe4]
+            98 _PR_WaitCondVar + 241 (in libnspr4.dylib) [0x4e661]
+              98 _semaphore_wait_signal_trap + 10 (in libSystem.B.dylib) [0x944222ae]
+
+  Thread id:      74e0b58
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PR_Select + 856 (in libnspr4.dylib) [0x53a88]
+          96 _NS_GetComponentRegistrar_P + 36851 (in XUL) [0x1aa26e3]
+            96 __ZN7JNIEnv_22CallStaticObjectMethodEP7_jclassP10_jmethodIDz + 278890 (in XUL) [0x1a6237a]
+              96 _NS_GetComponentRegistrar_P + 36279 (in XUL) [0x1aa24a7]
+                96 _NS_GetComponentRegistrar_P + 57373 (in XUL) [0x1aa770d]
+                  96 _NS_InvokeByIndex_P + 88 (in XUL) [0x1ab2058]
+                    96 __ZSt13__adjust_heapIN9__gnu_cxx17__normal_iteratorIP8nsRefPtrI13imgCacheEntryESt6vectorIS4_SaIS4_EEEEiS4_PFbRKS4_SB_EEvT_T0_SF_T1_T2_ + 7170012 (in XUL) [0x18682dc]
+                      96 __ZSt13__adjust_heapIN9__gnu_cxx17__normal_iteratorIP8nsRefPtrI13imgCacheEntryESt6vectorIS4_SaIS4_EEEEiS4_PFbRKS4_SB_EEvT_T0_SF_T1_T2_ + 7167375 (in XUL) [0x186788f]
+                        96 __ZSt13__adjust_heapIN9__gnu_cxx17__normal_iteratorIP8nsRefPtrI13imgCacheEntryESt6vectorIS4_SaIS4_EEEEiS4_PFbRKS4_SB_EEvT_T0_SF_T1_T2_ + 7164342 (in XUL) [0x1866cb6]
+                          96 _JSD_GetValueForObject + 330269 (in XUL) [0x194520d]
+                            96 _JSD_GetValueForObject + 332144 (in XUL) [0x1945960]
+                              96 _sqlite3_step + 112 (in libsqlite3.dylib) [0xcf230]
+                                89 _sqlite3_blob_open + 15675 (in libsqlite3.dylib) [0xdd1eb]
+                                  89 _sqlite3_clear_bindings + 2398 (in libsqlite3.dylib) [0xa3f9e]
+                                    89 _sqlite3_randomness + 11482 (in libsqlite3.dylib) [0x9c24a]
+                                      89 _sqlite3_randomness + 11331 (in libsqlite3.dylib) [0x9c1b3]
+                                        89 _sqlite3_randomness + 6276 (in libsqlite3.dylib) [0x9adf4]
+                                          88 _sqlite3_randomness + 6056 (in libsqlite3.dylib) [0x9ad18]
+                                            88 _sqlite3_log + 374 (in libsqlite3.dylib) [0x943f6]
+                                              88 _sqlite3_value_type + 112 (in libsqlite3.dylib) [0x82600]
+                                                88 ___read_nocancel + 10 (in libSystem.B.dylib) [0x94422c6e]
+                                          1 _sqlite3_randomness + 5928 (in libsqlite3.dylib) [0x9ac98]
+                                            1 _sqlite3_os_end + 1562 (in libsqlite3.dylib) [0x87aca]
+                                              1 _sqlite3_mprintf + 352 (in libsqlite3.dylib) [0x97380]
+                                                1 _sqlite3_os_end + 3158 (in libsqlite3.dylib) [0x88106]
+                                                  1 _sqlite3_memory_alarm + 547 (in libsqlite3.dylib) [0x82ec3]
+                                                    1 _malloc + 25 (in libSystem.B.dylib) [0x9442302e]
+                                6 _sqlite3_blob_open + 15706 (in libsqlite3.dylib) [0xdd20a]
+                                  5 _sqlite3_backup_init + 19331 (in libsqlite3.dylib) [0xac743]
+                                    5 _sqlite3_randomness + 2189 (in libsqlite3.dylib) [0x99dfd]
+                                      5 _sqlite3_randomness + 1161 (in libsqlite3.dylib) [0x999f9]
+                                        5 _sqlite3_value_type + 176 (in libsqlite3.dylib) [0x82640]
+                                          5 _write + 10 (in libSystem.B.dylib) [0x9445829a]
+                                  1 _sqlite3_backup_init + 19601 (in libsqlite3.dylib) [0xac851]
+                                    1 _sqlite3_backup_init + 16579 (in libsqlite3.dylib) [0xabc83]
+                                      1 _sqlite3_backup_init + 10836 (in libsqlite3.dylib) [0xaa614]
+                                        1 _sqlite3_backup_init + 10056 (in libsqlite3.dylib) [0xaa308]
+                                          1 _sqlite3_randomness + 6276 (in libsqlite3.dylib) [0x9adf4]
+                                            1 _sqlite3_randomness + 6056 (in libsqlite3.dylib) [0x9ad18]
+                                              1 _sqlite3_log + 374 (in libsqlite3.dylib) [0x943f6]
+                                                1 _sqlite3_value_type + 112 (in libsqlite3.dylib) [0x82600]
+                                                  1 ___read_nocancel + 10 (in libSystem.B.dylib) [0x94422c6e]
+                                1 _sqlite3_blob_open + 12384 (in libsqlite3.dylib) [0xdc510]
+                                  1 _sqlite3_clear_bindings + 4405 (in libsqlite3.dylib) [0xa4775]
+                                    1 _sqlite3_clear_bindings + 2398 (in libsqlite3.dylib) [0xa3f9e]
+                                      1 _sqlite3_randomness + 11482 (in libsqlite3.dylib) [0x9c24a]
+                                        1 _sqlite3_randomness + 11331 (in libsqlite3.dylib) [0x9c1b3]
+                                          1 _sqlite3_randomness + 6276 (in libsqlite3.dylib) [0x9adf4]
+                                            1 _sqlite3_randomness + 6056 (in libsqlite3.dylib) [0x9ad18]
+                                              1 _sqlite3_log + 374 (in libsqlite3.dylib) [0x943f6]
+                                                1 _sqlite3_value_type + 112 (in libsqlite3.dylib) [0x82600]
+                                                  1 ___read_nocancel + 10 (in libSystem.B.dylib) [0x94422c6e]
+          2 _NS_GetComponentRegistrar_P + 36828 (in XUL) [0x1aa26cc]
+            2 __ZN7JNIEnv_22CallStaticObjectMethodEP7_jclassP10_jmethodIDz + 278890 (in XUL) [0x1a6237a]
+              2 _NS_GetComponentRegistrar_P + 36244 (in XUL) [0x1aa2484]
+                2 _NS_GetComponentRegistrar_P + 32688 (in XUL) [0x1aa16a0]
+                  2 _PR_Wait + 57 (in libnspr4.dylib) [0x4e999]
+                    2 _PR_WaitCondVar + 241 (in libnspr4.dylib) [0x4e661]
+                      2 _semaphore_wait_signal_trap + 10 (in libSystem.B.dylib) [0x944222ae]
+  Kernel stack:
+    95 _unix_syscall + 572 [0x3e3a7f]
+      90 _read_nocancel + 150 [0x39188d]
+        90 _nosys + 593 [0x39164d]
+          90 _vn_rdwr + 353 [0x1ede33]
+            90 _VNOP_READ + 168 [0x1f8492]
+              90 _hfs_vnop_read + 308 [0x32cad0]
+                90 _cluster_read + 61 [0x1d3648]
+                  90 _cluster_read_ext + 266 [0x1d2920]
+                    90 _cluster_pageout + 2945 [0x1d1527]
+                      90 _msleep + 157 [0x3863e8]
+                        90 _uiomove + 653 [0x386037]
+                          90 _lck_mtx_sleep + 87 [0x130d90]
+                            90 _thread_block + 33 [0x136f20]
+                              85 _thread_continue + 1180 [0x136cb3]
+                              5 _thread_block_reason + 135 [0x136e7c]
+                                5 _thread_setrun + 3597 [0x136217]
+                                  5 _machine_idle + 271 [0x1ac3ec]
+      5 _write_nocancel + 180 [0x391f0a]
+        5 _readv + 312 [0x391c12]
+          5 _vn_pathconf + 1174 [0x1eebce]
+            5 _VNOP_WRITE + 168 [0x1f839a]
+              4 _hfs_vnop_write + 1040 [0x32f35d]
+                4 _GetLogicalBlockSize + 2128 [0x33e6a4]
+                  4 _journal_start_transaction + 540 [0x1fdddc]
+                    4 _lck_mtx_lock + 289 [0x19d8c1]
+                      4 _lck_mtx_lock_wait + 361 [0x1318f1]
+                        4 _thread_block + 33 [0x136f20]
+                          4 _thread_continue + 1180 [0x136cb3]
+              1 _hfs_vnop_write + 2890 [0x32fa97]
+                1 _cluster_write + 103 [0x1d5505]
+                  1 _cluster_write_ext + 2250 [0x1d4e8c]
+                    1 _cluster_read + 979 [0x1d39de]
+                      1 _vnode_cache_is_authorized + 1315 [0x1ce671]
+                        1 _memory_object_control_uiomove + 522 [0x186e7b]
+                          1 _uiomove64 + 824 [0x385bf4]
+                            1 _copyin_kern + 20 [0x1a2204]
+    1 _PE_incoming_interrupt + 131 [0x44e416]
+      1 _lapic_interrupt + 121 [0x1b16c0]
+        1 _sync_iss_to_iks + 114 [0x1aa3ae]
+
+  Thread id:      9785410
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PR_Select + 856 (in libnspr4.dylib) [0x53a88]
+          98 _DumpJSStack + 740860 (in XUL) [0x107d7dc]
+            98 _DumpJSStack + 736650 (in XUL) [0x107c76a]
+              98 _PR_WaitCondVar + 79 (in libnspr4.dylib) [0x4e5bf]
+                98 _PR_AssertCurrentThreadOwnsLock + 177 (in libnspr4.dylib) [0x4e231]
+                  98 _semaphore_timedwait_signal_trap + 10 (in libSystem.B.dylib) [0x944222c6]
+
+  Thread id:      70b2a78
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _PR_Select + 856 (in libnspr4.dylib) [0x53a88]
+          98 _NS_GetComponentRegistrar_P + 36828 (in XUL) [0x1aa26cc]
+            98 __ZN7JNIEnv_22CallStaticObjectMethodEP7_jclassP10_jmethodIDz + 278890 (in XUL) [0x1a6237a]
+              98 _NS_GetComponentRegistrar_P + 36244 (in XUL) [0x1aa2484]
+                98 _NS_GetComponentRegistrar_P + 32688 (in XUL) [0x1aa16a0]
+                  98 _PR_Wait + 57 (in libnspr4.dylib) [0x4e999]
+                    98 _PR_WaitCondVar + 241 (in libnspr4.dylib) [0x4e661]
+                      98 _semaphore_wait_signal_trap + 10 (in libSystem.B.dylib) [0x944222ae]
+
+
+Process:        fseventsd [49]
+Path:           /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Support/fseventsd
+
+  ADDRESS         BINARY
+  00001000        /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Support/fseventsd
+
+  Thread id:      70b5410
+  User stack:
+    98 ??? [0x255e]
+      98 ??? [0x2f88]
+        98 _mach_msg_overwrite_trap + 10 (in libSystem.B.dylib) [0x94422272]
+  Kernel stack:
+    98 _dtrace_get_cpu_int_stack_top + 543 [0x198fa3]
+      98 _mach_msg_overwrite_trap + 3808 [0x1270ea]
+        98 _ipc_mqueue_receive + 750 [0x121292]
+          98 _thread_block + 33 [0x136f20]
+            98 _thread_continue + 1180 [0x136cb3]
+
+  Thread id:      7121128
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ??? [0xbbd5]
+          98 ??? [0xb929]
+            98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+  Thread id:      67c55d0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ??? [0x4492]
+          98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+            98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      70b4c80
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 ___read + 10 (in libSystem.B.dylib) [0x94445f7a]
+  Kernel stack:
+    98 _unix_syscall + 572 [0x3e3a7f]
+      98 _read_nocancel + 150 [0x39188d]
+        98 _nosys + 593 [0x39164d]
+          98 _release_pathbuff + 3077 [0x20172b]
+            98 _tsleep + 105 [0x386498]
+              98 _uiomove + 1030 [0x3861b0]
+                98 _thread_block + 33 [0x136f20]
+                  98 _thread_continue + 1180 [0x136cb3]
+
+  Thread id:      7122ba0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ??? [0x9830]
+          98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+  Thread id:      7120d60
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 _kevent + 10 (in libSystem.B.dylib) [0x944529c6]
+
+  Thread id:      7ecd4f0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ??? [0x9830]
+          98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+  Thread id:      7eccd60
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ??? [0x9830]
+          98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+  Thread id:      7ecc208
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ??? [0x9830]
+          98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+  Thread id:      80c4c80
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ??? [0x9830]
+          98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+  Thread id:      80c26b0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ??? [0x9830]
+          98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+
+Process:        hidd [48]
+Path:           /usr/libexec/hidd
+
+  ADDRESS         BINARY
+  00001000        /usr/libexec/hidd
+  00036000        /System/Library/Extensions/AppleUSBMultitouch.kext/Contents/PlugIns/MultitouchHID.plugin/Contents/MacOS/MultitouchHID
+  0006c000        /System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport
+
+  Thread id:      70b1790
+  User stack:
+    98 ??? [0x1f76]
+      98 ??? [0x1fef]
+        98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      711fe40
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___IOHIDSessionStartOnThread + 929 (in IOKit) [0x92e8257f]
+          98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+            98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      70b57d8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___tickleThread + 41 (in IOKit) [0x92e8353b]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+
+Process:        iTunesHelper [264]
+Path:           /Applications/iTunes.app/Contents/Resources/iTunesHelper.app/Contents/MacOS/iTunesHelper
+
+  ADDRESS         BINARY
+  00001000        /Applications/iTunes.app/Contents/Resources/iTunesHelper.app/Contents/MacOS/iTunesHelper
+  00300000        /System/Library/PrivateFrameworks/MobileDevice.framework/MobileDevice
+
+  Thread id:      80c5ba0
+  User stack:
+    98 ??? [0x2665]
+      98 ??? [0x374d]
+        98 _RunApplicationEventLoop + 207 (in HIToolbox) [0x977b52b3]
+          98 __AcquireNextEvent + 58 (in HIToolbox) [0x977b6b56]
+            98 _ReceiveNextEventCommon + 374 (in HIToolbox) [0x977580c5]
+              98 _RunCurrentEventLoopInMode + 283 (in HIToolbox) [0x977582ac]
+                98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                  98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      711f6b0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+
+
+Process:        kextd [10]
+Path:           /usr/libexec/kextd
+
+  ADDRESS         BINARY
+  00001000        /usr/libexec/kextd
+
+  Thread id:      669fb58
+  User stack:
+    98 ??? [0x1b4e]
+      98 ??? [0x356b]
+        98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      66a2128
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ??? [0x3c11]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+  Kernel stack:
+    98 _dtrace_get_cpu_int_stack_top + 543 [0x198fa3]
+      98 _mach_msg_overwrite_trap + 752 [0x1264fa]
+        98 _ipc_kobject_server + 247 [0x12d4d6]
+          98 _host_priv_server_routine + 3711 [0x1486f9]
+            98 _kmod_control + 243 [0x190f7f]
+              98 _thread_sleep_mutex + 71 [0x137413]
+                98 _thread_continue + 1180 [0x136cb3]
+
+
+Process:        launchd [220]
+Path:           /sbin/launchd
+
+  ADDRESS         BINARY
+  00001000        /sbin/launchd
+
+  Thread id:      74e03c8
+  User stack:
+    98 ??? [0x1eae]
+      98 ??? [0x6efc]
+        98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+  Kernel stack:
+    98 _dtrace_get_cpu_int_stack_top + 543 [0x198fa3]
+      98 _mach_msg_overwrite_trap + 3808 [0x1270ea]
+        98 _ipc_mqueue_receive + 750 [0x121292]
+          98 _thread_block + 33 [0x136f20]
+            98 _thread_continue + 1180 [0x136cb3]
+
+  Thread id:      74e1a78
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+
+  Thread id:      74e12e8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+
+Process:        launchd [1]
+Path:           /sbin/launchd
+
+  ADDRESS         BINARY
+  00001000        /sbin/launchd
+
+  Thread id:      67c77d8
+  User stack:
+    98 ??? [0x1eae]
+      98 ??? [0x6efc]
+        98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+  Kernel stack:
+    98 _dtrace_get_cpu_int_stack_top + 543 [0x198fa3]
+      98 _mach_msg_overwrite_trap + 3808 [0x1270ea]
+        98 _ipc_mqueue_receive + 750 [0x121292]
+          98 _thread_block + 33 [0x136f20]
+            98 _thread_continue + 1180 [0x136cb3]
+
+  Thread id:      67c68b8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+
+  Thread id:      67c5998
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+
+Process:        loginwindow [45]
+Path:           /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+
+  ADDRESS         BINARY
+  00001000        /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  00076000        /System/Library/PrivateFrameworks/Admin.framework/Versions/A/Admin
+  000c0000        /System/Library/PrivateFrameworks/URLMount.framework/Versions/A/URLMount
+  000ec000        /System/Library/LoginPlugins/FSDisconnect.loginPlugin/Contents/MacOS/FSDisconnect
+  0015e000        /System/Library/PrivateFrameworks/DiskImages.framework/Versions/A/DiskImages
+  002bc000        /System/Library/PrivateFrameworks/MediaKit.framework/Versions/A/MediaKit
+  00303000        /System/Library/Frameworks/DiscRecording.framework/Versions/A/DiscRecording
+  00437000        /usr/lib/libcurl.4.dylib
+  0046f000        /System/Library/LoginPlugins/DisplayServices.loginPlugin/Contents/MacOS/DisplayServices
+  00490000        /System/Library/LoginPlugins/BezelServices.loginPlugin/Contents/MacOS/BezelServices
+  004c0000        /System/Library/PrivateFrameworks/MachineSettings.framework/Versions/A/MachineSettings
+  004d1000        /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin/Contents/MacOS/IOHIDLib
+  11b00000        /System/Library/Extensions/AudioIPCDriver.kext/Contents/Resources/AudioIPCPlugIn.bundle/Contents/MacOS/AudioIPCPlugIn
+  11b09000        /System/Library/Extensions/AppleHDA.kext/Contents/PlugIns/AppleHDAHALPlugIn.bundle/Contents/MacOS/AppleHDAHALPlugIn
+
+  Thread id:      66a3ba0
+  User stack:
+    98 ??? [0x5b02]
+      98 ??? [0x1b8e8]
+        98 -[NSApplication run] + 795 (in AppKit) [0x95b2ef9f]
+          98 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] + 128 (in AppKit) [0x95b35f88]
+            98 __DPSNextEvent + 657 (in AppKit) [0x95b366d5]
+              98 _BlockUntilNextEventMatchingListInMode + 106 (in HIToolbox) [0x97757f39]
+                98 _ReceiveNextEventCommon + 374 (in HIToolbox) [0x977580c5]
+                  98 _RunCurrentEventLoopInMode + 283 (in HIToolbox) [0x977582ac]
+                    98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                      98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      711f2e8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _mach_msg_overwrite_trap + 10 (in libSystem.B.dylib) [0x94422272]
+
+  Thread id:      7ecba78
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 __ZN9CAPThread5EntryEPS_ + 96 (in CoreAudio) [0x9074e480]
+          98 __ZN10HALRunLoop9OwnThreadEPv + 160 (in CoreAudio) [0x9074e5f8]
+            98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+              98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+
+Process:        mDNSResponder [16]
+Path:           /usr/sbin/mDNSResponder
+
+  ADDRESS         BINARY
+  00001000        /usr/sbin/mDNSResponder
+
+  Thread id:      6f47a78
+  User stack:
+    98 start + 41 (in mDNSResponder) [0x2099]
+      98 __start + 210 (in mDNSResponder) [0x216c]
+        98 _main + 2606 (in mDNSResponder) [0x368bf]
+          98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+            98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      67c46b0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 _kevent + 10 (in libSystem.B.dylib) [0x944529c6]
+
+
+Process:        mds [44]
+Path:           /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+
+  ADDRESS         BINARY
+  00001000        /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+  000d9000        /System/Library/PrivateFrameworks/MDSChannel.framework/Versions/A/MDSChannel
+  0014d000        /System/Library/PrivateFrameworks/SpotlightIndex.framework/Versions/A/SpotlightIndex
+  0061b000        /usr/lib/liblangid.dylib
+  05eeb000        /usr/lib/libgermantok.dylib
+  07323000        /usr/lib/libmecab.1.0.0.dylib
+
+  Thread id:      70b1f20
+  User stack:
+    98 ??? [0x5a96]
+      98 ??? [0xe803]
+        98 ??? [0x58ecb]
+          98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+            98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      7122048
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 -[NSThread main] + 45 (in Foundation) [0x9216edfd]
+            98 ??? [0x58c99]
+              98 ??? [0xd75d]
+                98 ??? [0x58ecb]
+                  98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                    98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      70b4128
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 -[NSThread main] + 45 (in Foundation) [0x9216edfd]
+            98 ??? [0x58c99]
+              98 ??? [0xd780]
+                98 ??? [0x58ecb]
+                  98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                    98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      742be40
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 -[NSThread main] + 45 (in Foundation) [0x9216edfd]
+            98 ??? [0x58c99]
+              98 ??? [0xd7a3]
+                98 ??? [0x58ecb]
+                  98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                    98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      742d128
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 -[NSThread main] + 45 (in Foundation) [0x9216edfd]
+            98 ??? [0x58c99]
+              98 ??? [0xd7c6]
+                98 ??? [0x58ecb]
+                  98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                    98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      742dc80
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 -[NSThread main] + 45 (in Foundation) [0x9216edfd]
+            98 ??? [0x58c99]
+              98 ??? [0xd7e9]
+                98 ??? [0x58ecb]
+                  98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                    98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      742e7d8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        89 ??? [0xa537]
+          89 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+        6 ??? [0xa5b8]
+          6 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+        3 ??? [0xa49a]
+          3 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+  Thread id:      742e410
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 ___read + 10 (in libSystem.B.dylib) [0x94445f7a]
+  Kernel stack:
+    98 _unix_syscall + 572 [0x3e3a7f]
+      98 _read_nocancel + 150 [0x39188d]
+        98 _nosys + 593 [0x39164d]
+          98 _release_pathbuff + 3077 [0x20172b]
+            98 _tsleep + 105 [0x386498]
+              98 _uiomove + 1030 [0x3861b0]
+                98 _thread_block + 33 [0x136f20]
+                  98 _thread_continue + 1180 [0x136cb3]
+
+  Thread id:      742e048
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 _kevent + 10 (in libSystem.B.dylib) [0x944529c6]
+
+  Thread id:      742eba0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 -[NSThread main] + 45 (in Foundation) [0x9216edfd]
+            98 ??? [0x58c99]
+              98 ??? [0x87c10]
+                98 ??? [0x58ecb]
+                  98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                    98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      711e000
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 -[NSThread main] + 45 (in Foundation) [0x9216edfd]
+            98 ??? [0x58c99]
+              98 ??? [0x54b1e]
+                98 ??? [0x58ecb]
+                  98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                    98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      711e3c8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 -[NSThread main] + 45 (in Foundation) [0x9216edfd]
+            98 ??? [0x58c99]
+              98 ??? [0x54b1e]
+                98 ??? [0x58ecb]
+                  98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                    98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      742b2e8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 -[NSThread main] + 45 (in Foundation) [0x9216edfd]
+            98 ??? [0x58c99]
+              98 ??? [0x54b1e]
+                98 ??? [0x58ecb]
+                  98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                    98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      742af20
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      7a7a048
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 -[NSThread main] + 45 (in Foundation) [0x9216edfd]
+            98 ??? [0x58c99]
+              98 ??? [0x4529e]
+                98 ??? [0x58ecb]
+                  98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+                    98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      9784c80
+  User stack:
+    47 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      47 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        47 _flush_runLoop + 65 (in SpotlightIndex) [0x17a865]
+          47 _runLoop + 77 (in SpotlightIndex) [0x17a658]
+            47 _si_scheduler_run_waiting_timeout + 163 (in SpotlightIndex) [0x18eb00]
+              47 _semaphore_timedwait_signal_trap + 10 (in libSystem.B.dylib) [0x944222c6]
+
+
+Process:        mdworker [625]
+Path:           /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker
+
+  ADDRESS         BINARY
+  00001000        /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker
+
+  Thread id:      8553128
+  User stack:
+    98 ??? [0x2132]
+      98 ??? [0x8680]
+        98 ??? [0xb89d]
+          98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+            98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      8550b58
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ??? [0xa14c]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      80c3998
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 _kevent + 10 (in libSystem.B.dylib) [0x944529c6]
+
+
+Process:        mdworker [626]
+Path:           /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker
+
+  ADDRESS         BINARY
+  00001000        /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker
+  00050000        /System/Library/Spotlight/Application.mdimporter/Contents/MacOS/Application
+  00056000        /System/Library/Spotlight/RichText.mdimporter/Contents/MacOS/RichText
+
+  Thread id:      8552d60
+  User stack:
+    98 ??? [0x2132]
+      98 ??? [0x8680]
+        98 ??? [0xb89d]
+          98 _CFRunLoopRunInMode + 88 (in CoreFoundation) [0x945fcaa8]
+            98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      80c35d0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ??? [0xa14c]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      6f46f20
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 _kevent + 10 (in libSystem.B.dylib) [0x944529c6]
+
+  Thread id:      742d8b8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ___NSThread__main__ + 308 (in Foundation) [0x9216e9a4]
+          98 _kevent + 10 (in libSystem.B.dylib) [0x944529c6]
+
+
+Process:        notifyd [12]
+Path:           /usr/sbin/notifyd
+
+  ADDRESS         BINARY
+
+  Thread id:      66a06b0
+  User stack:
+    98 ??? [0x1b1a]
+      98 ??? [0x944529c6]
+
+  Thread id:      67c4e40
+  User stack:
+    98 ??? [0x94453012]
+      98 ??? [0x94453155]
+        98 ??? [0x94422266]
+
+
+Process:        ntpd [35]
+Path:           /usr/sbin/ntpd
+
+  ADDRESS         BINARY
+  00001000        /usr/sbin/ntpd
+
+  Thread id:      669ff20
+  User stack:
+    98 ??? [0x2002]
+      98 ___sigsuspend + 10 (in libSystem.B.dylib) [0x9447d562]
+
+
+Process:        pboard [240]
+Path:           /usr/sbin/pboard
+
+  ADDRESS         BINARY
+  00001000        /usr/sbin/pboard
+
+  Thread id:      74e2208
+  User stack:
+    98 ??? [0x1f26]
+      98 ___sigsuspend + 10 (in libSystem.B.dylib) [0x9447d562]
+
+
+Process:        privileged_startx [1037]
+Path:           /usr/X11/lib/X11/xinit/privileged_startx
+
+  ADDRESS         BINARY
+  00001000        /usr/X11/lib/X11/xinit/privileged_startx
+
+  Thread id:      74e2998
+  User stack:
+    98 start + 54 (in privileged_startx) [0x22da]
+      98 _server_main + 502 (in privileged_startx) [0x27a9]
+        98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      6f4a410
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _idle_thread + 63 (in privileged_startx) [0x282f]
+          98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+
+Process:        quartz-wm [1179]
+Path:           /usr/bin/quartz-wm
+
+  ADDRESS         BINARY
+  00001000        /usr/bin/quartz-wm
+  0001a000        /usr/X11/lib/libAppleWM.7.dylib
+  0001f000        /usr/X11/lib/libXext.6.dylib
+  0002d000        /usr/X11/lib/libXinerama.1.dylib
+  00031000        /usr/X11/lib/libxcb.1.dylib
+  00056000        /usr/X11/lib/libpixman-1.0.dylib
+  000ac000        /usr/X11/lib/libXau.6.dylib
+  000b0000        /usr/X11/lib/libXdmcp.6.dylib
+  0010e000        /usr/X11/lib/libX11.6.dylib
+
+  Thread id:      80c2e40
+  User stack:
+    98 start + 54 (in quartz-wm) [0x2b72]
+      98 _main + 4347 (in quartz-wm) [0x4c7d]
+        98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      80c44f0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+
+
+Process:        securityd [20]
+Path:           /usr/sbin/securityd
+
+  ADDRESS         BINARY
+  00001000        /usr/sbin/securityd
+  000bc000        /System/Library/Frameworks/PCSC.framework/Versions/A/PCSC
+
+  Thread id:      6f498b8
+  User stack:
+    98 ??? [0x11ff2]
+      98 ??? [0x2836]
+        98 ??? [0x3e0a]
+          98 _mach_msg_overwrite_trap + 10 (in libSystem.B.dylib) [0x94422272]
+
+  Thread id:      67c3000
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ??? [0xa8a0]
+          98 ??? [0xa8f2]
+            98 _mach_msg_overwrite_trap + 10 (in libSystem.B.dylib) [0x94422272]
+
+
+Process:        sh [1030]
+Path:           /bin/sh
+
+  ADDRESS         BINARY
+  00001000        /bin/sh
+
+  Thread id:      7a78d60
+  User stack:
+    98 ??? [0x19ce]
+      98 ??? [0x39ce]
+        98 ??? [0x3d9c]
+          98 ??? [0x12a2e]
+            98 ??? [0x10b68]
+              98 ??? [0x12574]
+                98 ??? [0xf7ab]
+                  98 ??? [0x3f84c]
+                    98 ??? [0x404e9]
+                      98 ??? [0x10bd3]
+                        98 ??? [0x1e329]
+                          98 ___wait4 + 10 (in libSystem.B.dylib) [0x94466856]
+
+
+Process:        socketfilterfw [61]
+Path:           /usr/libexec/ApplicationFirewall/socketfilterfw
+
+  ADDRESS         BINARY
+  00001000        /usr/libexec/ApplicationFirewall/socketfilterfw
+
+  Thread id:      7121c80
+  User stack:
+    98 ??? [0x2032]
+      98 ??? [0x8366]
+        98 ??? [0x5a56]
+          98 ??? [0x7359]
+            98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+              98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      67c3b58
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+
+  Thread id:      7120208
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 _kevent + 10 (in libSystem.B.dylib) [0x944529c6]
+
+
+Process:        syslogd [13]
+Path:           /usr/sbin/syslogd
+
+  ADDRESS         BINARY
+  00001000        /usr/sbin/syslogd
+
+  Thread id:      6f46b58
+  User stack:
+    97 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+    1 ??? [0x17f2]
+      1 ??? [0xf539]
+        1 ??? [0x9640]
+          1 ??? [0x87a1]
+            1 ??? [0x86f1]
+              1 _asl_core_string_hash + 165 (in libSystem.B.dylib) [0x94515041]
+  Kernel stack:
+    1 _PE_incoming_interrupt + 131 [0x44e416]
+      1 _lapic_interrupt + 121 [0x1b16c0]
+        1 _sync_iss_to_iks + 114 [0x1aa3ae]
+
+  Thread id:      6f46790
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      6f463c8
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ??? [0xa53a]
+          98 ??? [0xa29f]
+            98 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+
+  Thread id:      6f46000
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 __pthread_start + 321 (in libSystem.B.dylib) [0x94453155]
+        98 ??? [0x9580]
+          98 __vprocmgr_log_drain + 75 (in libSystem.B.dylib) [0x9454a9ce]
+            98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+
+Process:        tcsh [1191]
+Path:           /bin/tcsh
+
+  ADDRESS         BINARY
+  00001000        /bin/tcsh
+
+  Thread id:      6f4aba0
+  User stack:
+    98 ??? [0x1cc2]
+      98 ??? [0x4f5a]
+        98 ??? [0x280f]
+          98 ??? [0x1aa09]
+            98 ??? [0x1a18d]
+              98 ??? [0x18642]
+                98 ___sigsuspend + 10 (in libSystem.B.dylib) [0x9447d562]
+
+
+Process:        update [38]
+Path:           /usr/sbin/update
+
+  ADDRESS         BINARY
+  00001000        /usr/sbin/update
+
+  Thread id:      70b48b8
+  User stack:
+    94 ??? [0x1f3a]
+      94 ??? [0x1fd9]
+        94 ___semwait_signal + 10 (in libSystem.B.dylib) [0x9442944e]
+    4 ___sync + 10 (in libSystem.B.dylib) [0x9447afba]
+  Kernel stack:
+    4 _unix_syscall + 572 [0x3e3a7f]
+      4 _sync + 34 [0x1e22d7]
+        4 _vfs_iterate + 204 [0x1dd026]
+          4 _mount_dropcrossref + 240 [0x1e22a2]
+            4 _VFS_SYNC + 111 [0x1f89fa]
+              3 _hfs_mark_volume_inconsistent + 10587 [0x338bf4]
+                3 _journal_flush + 608 [0x1fcdeb]
+                  3 _journal_modify_block_start + 4417 [0x1fc296]
+                    3 _journal_modify_block_start + 4118 [0x1fc16b]
+                      3 _journal_uses_fua + 105 [0x1f992b]
+                        3 _VNOP_IOCTL + 209 [0x1f82a2]
+                          3 _spec_ioctl + 176 [0x204f8d]
+                            3 com.apple.iokit.IOStorageFamily (1.5.6) + 63020 [0x56c7362c]
+                              3 com.apple.iokit.IOAHCIBlockStorage (1.2.3) + 25292 [0x56f7f2cc]
+                                3 com.apple.iokit.IOAHCIBlockStorage (1.2.3) + 12848 [0x56f7c230]
+                                  3 _IORecursiveLockSleep + 67 [0x40adad]
+                                    3 _lck_mtx_sleep + 87 [0x130d90]
+                                      3 _thread_block + 33 [0x136f20]
+                                        3 _thread_continue + 1180 [0x136cb3]
+              1 _hfs_mark_volume_inconsistent + 10221 [0x338a86]
+                1 _vnode_iterate + 348 [0x1dff87]
+                  1 _hfs_vnop_ioctl + 12378 [0x334bb7]
+                    1 _GetLogicalBlockSize + 26178 [0x344496]
+                      1 _GetLogicalBlockSize + 23898 [0x343bae]
+                        1 _GetLogicalBlockSize + 2322 [0x33e766]
+                          1 _journal_end_transaction + 1053 [0x1fd7af]
+                            1 _journal_modify_block_start + 4417 [0x1fc296]
+                              1 _journal_modify_block_start + 4118 [0x1fc16b]
+                                1 _journal_uses_fua + 105 [0x1f992b]
+                                  1 _VNOP_IOCTL + 209 [0x1f82a2]
+                                    1 _spec_ioctl + 176 [0x204f8d]
+                                      1 com.apple.iokit.IOStorageFamily (1.5.6) + 63020 [0x56c7362c]
+                                        1 com.apple.iokit.IOAHCIBlockStorage (1.2.3) + 25292 [0x56f7f2cc]
+                                          1 com.apple.iokit.IOAHCIBlockStorage (1.2.3) + 12848 [0x56f7c230]
+                                            1 _IORecursiveLockSleep + 67 [0x40adad]
+                                              1 _lck_mtx_sleep + 87 [0x130d90]
+                                                1 _thread_block + 33 [0x136f20]
+                                                  1 _thread_continue + 1180 [0x136cb3]
+
+
+Process:        usbmuxd [37]
+Path:           /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd
+
+  ADDRESS         BINARY
+  00001000        /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd
+  000ad000        /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice
+
+  Thread id:      70b3998
+  User stack:
+    98 ??? [0x1b8a]
+      98 ??? [0x2e83]
+        98 _CFRunLoopRun + 84 (in CoreFoundation) [0x945fcb04]
+          98 _mach_msg_trap + 10 (in libSystem.B.dylib) [0x94422266]
+
+  Thread id:      7120998
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 _kevent + 10 (in libSystem.B.dylib) [0x944529c6]
+
+  Thread id:      64284f0
+  User stack:
+    98 _thread_start + 34 (in libSystem.B.dylib) [0x94453012]
+      98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+
+
+Process:        xinit [1110]
+Path:           /usr/X11/bin/xinit
+
+  ADDRESS         BINARY
+  00001000        /usr/X11/bin/xinit
+  00006000        /usr/X11/lib/libXau.6.dylib
+  00018000        /usr/X11/lib/libxcb.1.dylib
+  00030000        /usr/X11/lib/libXdmcp.6.dylib
+  0010e000        /usr/X11/lib/libX11.6.dylib
+
+  Thread id:      80c4128
+  User stack:
+    98 start + 54 (in xinit) [0x1a5a]
+      98 ___wait4 + 10 (in libSystem.B.dylib) [0x94466856]
+
+
+Process:        xterm [1029]
+Path:           /usr/X11/bin/xterm
+
+  ADDRESS         BINARY
+  00001000        /usr/X11/bin/xterm
+  00062000        /usr/X11/lib/libXft.2.dylib
+  00074000        /usr/X11/lib/libXaw.7.dylib
+  000cc000        /usr/X11/lib/libICE.6.dylib
+  000e2000        /usr/X11/lib/libXt.6.dylib
+  0012d000        /usr/X11/lib/libX11.6.dylib
+  0023b000        /usr/X11/lib/libXmu.6.dylib
+  00251000        /usr/X11/lib/libfontconfig.1.dylib
+  00280000        /usr/lib/libexpat.1.dylib
+  002a6000        /usr/X11/lib/libfreetype.6.dylib
+  00321000        /usr/X11/lib/libXrender.1.dylib
+  0032a000        /usr/X11/lib/libxcb.1.dylib
+  00342000        /usr/X11/lib/libXau.6.dylib
+  00346000        /usr/X11/lib/libXdmcp.6.dylib
+  0034c000        /usr/X11/lib/libXext.6.dylib
+  0035a000        /usr/X11/lib/libSM.6.dylib
+  00363000        /usr/X11/lib/libXpm.4.dylib
+
+  Thread id:      6f49128
+  User stack:
+    98 start + 54 (in xterm) [0x215a]
+      98 _main + 4777 (in xterm) [0x22ba0]
+        98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+
+
+Process:        xterm [1243]
+Path:           /usr/X11/bin/xterm
+
+  ADDRESS         BINARY
+  00001000        /usr/X11/bin/xterm
+  00062000        /usr/X11/lib/libXft.2.dylib
+  00074000        /usr/X11/lib/libXaw.7.dylib
+  000cc000        /usr/X11/lib/libICE.6.dylib
+  000e2000        /usr/X11/lib/libXt.6.dylib
+  0012d000        /usr/X11/lib/libX11.6.dylib
+  0023b000        /usr/X11/lib/libXmu.6.dylib
+  00251000        /usr/X11/lib/libfontconfig.1.dylib
+  00280000        /usr/lib/libexpat.1.dylib
+  002a6000        /usr/X11/lib/libfreetype.6.dylib
+  00321000        /usr/X11/lib/libXrender.1.dylib
+  0032a000        /usr/X11/lib/libxcb.1.dylib
+  00342000        /usr/X11/lib/libXau.6.dylib
+  00346000        /usr/X11/lib/libXdmcp.6.dylib
+  0034c000        /usr/X11/lib/libXext.6.dylib
+  0035a000        /usr/X11/lib/libSM.6.dylib
+  00363000        /usr/X11/lib/libXpm.4.dylib
+
+  Thread id:      67c33c8
+  User stack:
+    98 start + 54 (in xterm) [0x215a]
+      98 _main + 4777 (in xterm) [0x22ba0]
+        98 ___select + 10 (in libSystem.B.dylib) [0x944716fa]
+  Kernel stack:
+    2 _unix_syscall + 572 [0x3e3a7f]
+      2 _select_nocancel + 1450 [0x393aea]
+        2 _selprocess + 1654 [0x3932b7]
+          2 _uiomove + 1018 [0x3861a4]
+            2 _thread_block + 33 [0x136f20]
+              2 _thread_block_reason + 135 [0x136e7c]
+                2 _thread_setrun + 3597 [0x136217]
+                  2 _machine_idle + 271 [0x1ac3ec]
+
+
+Process:        kernel_task [0]
+Path:           kernel_task
+
+  ADDRESS         BINARY
+
+  Thread id:      522740
+
+  Thread id:      6429ba0
+
+  Thread id:      64297d8
+  Kernel stack:
+    1 _sched_startup + 696 [0x137aaf]
+      1 _thread_block_reason + 135 [0x136e7c]
+        1 _thread_setrun + 3597 [0x136217]
+          1 _machine_idle + 271 [0x1ac3ec]
+
+  Thread id:      6429410
+
+  Thread id:      6429048
+
+  Thread id:      6428c80
+
+  Thread id:      64288b8
+
+  Thread id:      6428128
+
+  Thread id:      64266b0
+
+  Thread id:      6425f20
+  Kernel stack:
+    98 com.apple.driver.AppleIntelCPUPowerManagement (76.2.0) + 34909 [0x5071885d]
+      98 _thread_block + 33 [0x136f20]
+        98 _thread_continue + 1180 [0x136cb3]
+
+  Thread id:      6425b58
+  Kernel stack:
+    98 _buf_list_unlock + 95 [0x1c9d84]
+      98 _msleep + 157 [0x3863e8]
+        98 _uiomove + 653 [0x386037]
+          98 _lck_mtx_sleep + 87 [0x130d90]
+            98 _thread_block + 33 [0x136f20]
+              98 _thread_continue + 1180 [0x136cb3]
+
+  Thread id:      6427d60
+
+  Thread id:      6427208
+  Kernel stack:
+    1 __ZN10IOWorkLoop10threadMainEv + 24 [0x425a3a]
+      1 __ZN10IOWorkLoop15runEventSourcesEv + 23 [0x425d15]
+        1 _IORecursiveLockLock + 42 [0x40acbe]
+          1 _lck_mtx_lock + 289 [0x19d8c1]
+            1 _lck_mtx_lock_wait + 361 [0x1318f1]
+              1 _thread_block + 33 [0x136f20]
+                1 _thread_continue + 1180 [0x136cb3]
+
+  Thread id:      6425790
+
+  Thread id:      66a1208
+
+  Thread id:      66a1998
+
+  Thread id:      66a0a78
+
+  Thread id:      66a37d8
+
+  Thread id:      66a02e8
+  Kernel stack:
+    98 _ifnet_input + 2830 [0x217da7]
+      98 _msleep + 157 [0x3863e8]
+        98 _uiomove + 653 [0x386037]
+          98 _lck_mtx_sleep + 87 [0x130d90]
+            98 _thread_block + 33 [0x136f20]
+              98 _thread_continue + 1180 [0x136cb3]
+
+  Thread id:      66a15d0
+
+  Thread id:      66a3048
+
+  Thread id:      6427998
+
+  Thread id:      6425000
+  Kernel stack:
+    2 _thread_call_enter1 + 913 [0x13ec8f]
+      2 _thread_block_parameter + 32 [0x136efd]
+        2 _thread_block_reason + 135 [0x136e7c]
+          2 _thread_setrun + 3597 [0x136217]
+            2 _machine_idle + 271 [0x1ac3ec]
+
+  Thread id:      66a2c80
+
+  Thread id:      64262e8
+
+  Thread id:      669f3c8
+  Kernel stack:
+    3 __ZN10IOWorkLoop10threadMainEv + 191 [0x425ae1]
+      3 _thread_block_parameter + 32 [0x136efd]
+        3 _thread_block_reason + 135 [0x136e7c]
+          3 _thread_setrun + 3597 [0x136217]
+            3 _machine_idle + 271 [0x1ac3ec]
+
+  Thread id:      67c64f0
+
+  Thread id:      669f790
+
+  Thread id:      67c7048
+
+  Thread id:      66a24f0
+  Kernel stack:
+    98 _macx_swapinfo + 574 [0x3c7972]
+      98 _mach_msg_receive + 175 [0x1261c5]
+        98 _ipc_mqueue_receive + 750 [0x121292]
+          98 _thread_block + 33 [0x136f20]
+            98 _thread_continue + 1180 [0x136cb3]
+
+  Thread id:      669f000
+
+  Thread id:      67c5208
+
+  Thread id:      67c5d60
+
+  Thread id:      66a3410
+
+  Thread id:      67c7ba0
+  Kernel stack:
+    3 _thread_call_enter1 + 913 [0x13ec8f]
+      3 _thread_block_parameter + 32 [0x136efd]
+        3 _thread_block_reason + 135 [0x136e7c]
+          3 _thread_setrun + 3597 [0x136217]
+            3 _machine_idle + 271 [0x1ac3ec]
+
+  Thread id:      64253c8
+
+  Thread id:      6426a78
+  Kernel stack:
+    5 _thread_call_enter1 + 913 [0x13ec8f]
+      5 _thread_block_parameter + 32 [0x136efd]
+        5 _thread_block_reason + 135 [0x136e7c]
+          5 _thread_setrun + 3597 [0x136217]
+            5 _machine_idle + 271 [0x1ac3ec]
+
+  Thread id:      66a28b8
+
+  Thread id:      70b22e8
+  Kernel stack:
+    98 com.apple.driver.AppleIntelCPUPowerManagement (76.2.0) + 33852 [0x5071843c]
+      98 _thread_block + 33 [0x136f20]
+        98 _thread_continue + 1180 [0x136cb3]
+
+  Thread id:      70b3208
+  Kernel stack:
+    1 __ZN10IOWorkLoop10threadMainEv + 24 [0x425a3a]
+      1 __ZN10IOWorkLoop15runEventSourcesEv + 90 [0x425d58]
+        1 __ZN22IOInterruptEventSource12checkForWorkEv + 183 [0x426bfb]
+          1 com.apple.driver.AppleSMC (2.3.1d1) + 19730 [0x505e8d12]
+            1 com.apple.kext.AppleSMCLMU (1.4.5d1) + 5067 [0x5060c3cb]
+              1 com.apple.kext.AppleSMCLMU (1.4.5d1) + 10785 [0x5060da21]
+                1 com.apple.driver.AppleSMC (2.3.1d1) + 10167 [0x505e67b7]
+                  1 com.apple.driver.AppleSMC (2.3.1d1) + 7660 [0x505e5dec]
+                    1 __ZN13IOCommandGate9runActionEPFiP8OSObjectPvS2_S2_S2_ES2_S2_S2_S2_ + 261 [0x427525]
+                      1 com.apple.driver.AppleSMC (2.3.1d1) + 21724 [0x505e94dc]
+                        1 com.apple.driver.AppleSMC (2.3.1d1) + 21058 [0x505e9242]
+                          1 com.apple.driver.AppleSMC (2.3.1d1) + 17816 [0x505e8598]
+                            1 _IODelay + 25 [0x40a693]
+                              1 _delay_for_interval + 49 [0x129b27]
+                                1 _thread_block + 33 [0x136f20]
+                                  1 _thread_continue + 1180 [0x136cb3]
+
+  Thread id:      67c3f20
+
+  Thread id:      711e790
+
+  Thread id:      711eb58
+
+  Thread id:      711ef20
+
+  Thread id:      67c42e8
+
+  Thread id:      742c998
+
+  Thread id:      71205d0
+  Kernel stack:
+    98 com.apple.filesystems.autofs (2.0.2) + 25277 [0x503fc2bd]
+      98 _msleep + 157 [0x3863e8]
+        98 _uiomove + 608 [0x38600a]
+          98 _lck_mtx_sleep_deadline + 104 [0x130e26]
+            98 _thread_block + 33 [0x136f20]
+              98 _thread_continue + 1180 [0x136cb3]
+
+  Thread id:      742c208
+
+  Thread id:      742c5d0
+
+  Thread id:      742cd60
+
+  Thread id:      742b6b0
+  Kernel stack:
+    98 _ifnet_input + 2830 [0x217da7]
+      98 _msleep + 157 [0x3863e8]
+        98 _uiomove + 653 [0x386037]
+          98 _lck_mtx_sleep + 87 [0x130d90]
+            98 _thread_block + 33 [0x136f20]
+              97 _thread_continue + 1180 [0x136cb3]
+              1 _thread_block_reason + 135 [0x136e7c]
+                1 _thread_setrun + 3597 [0x136217]
+                  1 _machine_idle + 271 [0x1ac3ec]
+
+  Thread id:      742ba78
+  Kernel stack:
+    98 _ifnet_input + 2830 [0x217da7]
+      98 _msleep + 157 [0x3863e8]
+        98 _uiomove + 653 [0x386037]
+          98 _lck_mtx_sleep + 87 [0x130d90]
+            98 _thread_block + 33 [0x136f20]
+              98 _thread_continue + 1180 [0x136cb3]
+
+  Thread id:      74e2d60
+
+  Thread id:      74e3c80
+  Kernel stack:
+    98 org.virtualbox.kext.VBoxDrv (3.1.2) + 90021 [0x607c6fa5]
+      98 org.virtualbox.kext.VBoxDrv (3.1.2) + 83024 [0x607c5450]
+        98 org.virtualbox.kext.VBoxDrv (3.1.2) + 83891 [0x607c57b3]
+          98 org.virtualbox.kext.VBoxDrv (3.1.2) + 88669 [0x607c6a5d]
+            98 _lck_spin_sleep + 87 [0x130c72]
+              98 _thread_block + 33 [0x136f20]
+                98 _thread_continue + 1180 [0x136cb3]
+
+  Thread id:      74e0000
+  Kernel stack:
+    3 __ZN10IOWorkLoop10threadMainEv + 191 [0x425ae1]
+      3 _thread_block_parameter + 32 [0x136efd]
+        3 _thread_block_reason + 135 [0x136e7c]
+          3 _thread_setrun + 3597 [0x136217]
+            3 _machine_idle + 271 [0x1ac3ec]
+
+  Thread id:      7a7a410
+  Kernel stack:
+    98 _ifnet_input + 2830 [0x217da7]
+      98 _msleep + 157 [0x3863e8]
+        98 _uiomove + 653 [0x386037]
+          98 _lck_mtx_sleep + 87 [0x130d90]
+            98 _thread_block + 33 [0x136f20]
+              98 _thread_continue + 1180 [0x136cb3]
+
+
+SHARED FRAMEWORK AREA
+ADDRESS         BINARY
+90003000        /System/Library/PrivateFrameworks/DotMacSyncManager.framework/Versions/A/DotMacSyncManager
+90036000        /System/Library/PrivateFrameworks/AOSNotification.framework/Versions/A/AOSNotification
+9003b000        /System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+90073000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+90074000        /System/Library/Frameworks/CalendarStore.framework/Versions/A/CalendarStore
+901d8000        /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLImage.dylib
+90217000        /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLProgrammability.dylib
+906e9000        /usr/lib/libssl.0.9.7.dylib
+9070e000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCSync.A.dylib
+9071a000        /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+90731000        /System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+907af000        /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+90809000        /System/Library/PrivateFrameworks/DisplayServices.framework/Versions/A/DisplayServices
+9080f000        /usr/lib/system/libmathCommon.A.dylib
+90814000        /System/Library/PrivateFrameworks/FileSync.framework/Versions/A/FileSync
+9081e000        /System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
+90910000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+90fb1000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libRadiance.dylib
+91eb5000        /System/Library/PrivateFrameworks/InstallServer.framework/Versions/A/InstallServer
+91eb6000        /System/Library/PrivateFrameworks/AppleVA.framework/Versions/A/AppleVA
+91f05000        /System/Library/PrivateFrameworks/QuickLookUI.framework/Versions/A/QuickLookUI
+91f55000        /System/Library/Frameworks/AddressBook.framework/Versions/A/AddressBook
+920d6000        /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+92164000        /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+923e1000        /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework/Versions/A/SpeechRecognition
+923eb000        /System/Library/PrivateFrameworks/ISSupport.framework/Versions/A/ISSupport
+92452000        /System/Library/PrivateFrameworks/PasswordServer.framework/Versions/A/PasswordServer
+92497000        /System/Library/Frameworks/CoreData.framework/Versions/A/CoreData
+927e9000        /System/Library/PrivateFrameworks/HelpData.framework/Versions/A/HelpData
+927f6000        /System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+928ff000        /System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom
+92934000        /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/ImageKit.framework/Versions/A/ImageKit
+92a6d000        /usr/lib/libcrypto.0.9.7.dylib
+92b20000        /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+92dfb000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libTIFF.dylib
+92e3b000        /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+92ec9000        /System/Library/PrivateFrameworks/DSObjCWrappers.framework/Versions/A/DSObjCWrappers
+92ed9000        /System/Library/Frameworks/QTKit.framework/Versions/A/QTKit
+93024000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libJPEG.dylib
+93044000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+930ec000        /usr/lib/libbsm.dylib
+930f4000        /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib
+930f5000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCGATS.A.dylib
+930fd000        /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+931b9000        /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SecurityHI.framework/Versions/A/SecurityHI
+93261000        /usr/lib/libicucore.A.dylib
+9339b000        /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HTMLRendering.framework/Versions/A/HTMLRendering
+933f8000        /usr/lib/libsqlite3.0.dylib
+93480000        /System/Library/Frameworks/QuickTime.framework/Versions/A/QuickTime
+937ac000        /System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+938ff000        /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+93949000        /System/Library/PrivateFrameworks/Backup.framework/Versions/A/Backup
+9394f000        /System/Library/PrivateFrameworks/KerberosHelper.framework/Versions/A/KerberosHelper
+93955000        /usr/lib/libxslt.1.dylib
+9397a000        /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework/Versions/A/Help
+9397e000        /usr/lib/libgcc_s.1.dylib
+939d5000        /System/Library/PrivateFrameworks/DAVKit.framework/Versions/A/DAVKit
+93a12000        /System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
+93a33000        /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Print.framework/Versions/A/Print
+93a3a000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libRIP.A.dylib
+93a7c000        /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib
+93e3b000        /usr/lib/libffi.dylib
+93e3d000        /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/PDFKit.framework/Versions/A/PDFKit
+93eb0000        /usr/lib/libz.1.dylib
+93ebf000        /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib
+93eed000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+93efe000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libPng.dylib
+93f1a000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+93f2b000        /usr/lib/libstdc++.6.dylib
+93f89000        /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+93f8a000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreText.framework/Versions/A/CoreText
+93fe5000        /System/Library/PrivateFrameworks/FamilyControls.framework/Versions/A/FamilyControls
+94037000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+940b2000        /System/Library/Frameworks/AGL.framework/Versions/A/AGL
+940f1000        /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+94171000        /System/Library/PrivateFrameworks/MediaToolbox.framework/Versions/A/MediaToolbox
+942f6000        /System/Library/PrivateFrameworks/Shortcut.framework/Versions/A/Shortcut
+9431f000        /usr/lib/libiconv.2.dylib
+94414000        /usr/lib/libbz2.1.0.dylib
+94421000        /usr/lib/libSystem.B.dylib
+94589000        /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+946bd000        /System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo
+946da000        /System/Library/PrivateFrameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework/Versions/A/CFOpenDirectory
+946ec000        /System/Library/Frameworks/SecurityInterface.framework/Versions/A/SecurityInterface
+948c8000        /System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework/Versions/A/WebCore
+953cb000        /usr/lib/libobjc.A.dylib
+954ac000        /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+9584a000        /System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit
+9584b000        /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/ImageCapture.framework/Versions/A/ImageCapture
+95861000        /System/Library/PrivateFrameworks/CoreMediaIOServices.framework/Versions/A/CoreMediaIOServices
+958ad000        /System/Library/PrivateFrameworks/WhitePages.framework/Versions/A/WhitePages
+9591b000        /System/Library/Frameworks/QuickLook.framework/Versions/A/QuickLook
+95939000        /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzComposer.framework/Versions/A/QuartzComposer
+95af6000        /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+962f5000        /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzFilters.framework/Versions/A/QuartzFilters
+96327000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+963f3000        /System/Library/Frameworks/Quartz.framework/Versions/A/Quartz
+964be000        /usr/lib/libxml2.2.dylib
+965a0000        /usr/lib/libcups.2.dylib
+965ca000        /System/Library/PrivateFrameworks/OpenDirectory.framework/Versions/A/OpenDirectory
+965cf000        /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+96677000        /System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv
+96702000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+96796000        /System/Library/PrivateFrameworks/DotMacLegacy.framework/Versions/A/DotMacLegacy
+967a2000        /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CommonPanels.framework/Versions/A/CommonPanels
+967bf000        /System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+967c0000        /System/Library/PrivateFrameworks/CoreMedia.framework/Versions/A/CoreMedia
+9681e000        /usr/lib/libresolv.9.dylib
+9683d000        /System/Library/PrivateFrameworks/VideoToolbox.framework/Versions/A/VideoToolbox
+96bfa000        /System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+96bfb000        /System/Library/Frameworks/JavaScriptCore.framework/Versions/A/JavaScriptCore
+96df5000        /System/Library/Frameworks/Kerberos.framework/Versions/A/Kerberos
+96ea6000        /System/Library/Frameworks/DirectoryService.framework/Versions/A/DirectoryService
+96ec5000        /System/Library/Frameworks/SyncServices.framework/Versions/A/SyncServices
+96fa8000        /System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL
+96fb6000        /System/Library/PrivateFrameworks/MonitorPanel.framework/Versions/A/MonitorPanel
+96fb7000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+97009000        /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/NavigationServices.framework/Versions/A/NavigationServices
+9704c000        /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/CarbonSound
+97057000        /System/Library/Frameworks/LDAP.framework/Versions/A/LDAP
+9708f000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/ImageIO
+971d8000        /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Ink.framework/Versions/A/Ink
+9726c000        /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+9767d000        /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+9767e000        /usr/lib/libauto.dylib
+976aa000        /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib
+97728000        /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox
+97a31000        /System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI
+97a6c000        /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage
+97b34000        /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+97b8e000        /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libGIF.dylib
+97b93000        /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+97c14000        /usr/lib/libsasl2.2.dylib
+97c24000        /System/Library/Frameworks/Security.framework/Versions/A/Security
+97df6000        /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework/Versions/A/OpenScripting
+97e0f000        /System/Library/Frameworks/vecLib.framework/Versions/A/vecLib
+97e10000        /usr/lib/libncurses.5.4.dylib
+97e40000        /System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+

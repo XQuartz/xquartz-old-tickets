@@ -1,0 +1,65 @@
+fixme:ole:TLB_ReadTypeLib Header type magic 0x00905a4d not supported.
+err:ole:TLB_ReadTypeLib Loading of typelib L"C:\\Program Files\\Electronic Arts\\Red Alert 3\\ra3.exe" failed with error 0
+fixme:ole:TLB_ReadTypeLib Header type magic 0x00905a4d not supported.
+err:ole:TLB_ReadTypeLib Loading of typelib L"C:\\Program Files\\Electronic Arts\\Red Alert 3\\ra3.exe" failed with error 0
+fixme:shdocvw:PersistStreamInit_Load (0x147658)->(0x146718)
+fixme:shdocvw:OleObject_Advise (0x147658)->(0x863e54, 0x863eac)
+fixme:shdocvw:ViewObject_SetAdvise (0x147658)->(1 00000000 0x863e54)
+fixme:shdocvw:ViewObject_Draw (0x147658)->(1 -1 0x0 0x0 0x0 0x30c 0x863ec4 0x863ec4 0x0 00000000)
+fixme:system:SetProcessDPIAware stub!
+fixme:dwmapi:DwmIsCompositionEnabled 0x32c394
+fixme:iphlpapi:NotifyAddrChange (Handle 0x21ff508, overlapped 0x21ff510): stub
+fixme:shdocvw:ClOleCommandTarget_QueryStatus (0x1476f8)->((null) 1 0x32d044 0x0)
+fixme:shdocvw:ClOleCommandTarget_Exec (0x1476f8)->((null) 25 2 0x32d058 0x0)
+fixme:shdocvw:ClOleCommandTarget_Exec (0x1476f8)->((null) 26 2 0x32d058 0x0)
+fixme:ole:TLB_ReadTypeLib Header type magic 0x00905a4d not supported.
+err:ole:TLB_ReadTypeLib Loading of typelib L"C:\\Program Files\\Electronic Arts\\Red Alert 3\\ra3.exe" failed with error 0
+fixme:ole:TLB_ReadTypeLib Header type magic 0x00905a4d not supported.
+err:ole:TLB_ReadTypeLib Loading of typelib L"C:\\Program Files\\Electronic Arts\\Red Alert 3\\ra3.exe" failed with error 0
+fixme:ole:TLB_ReadTypeLib Header type magic 0x00905a4d not supported.
+err:ole:TLB_ReadTypeLib Loading of typelib L"C:\\Program Files\\Electronic Arts\\Red Alert 3\\ra3.exe" failed with error 0
+fixme:ole:TLB_ReadTypeLib Header type magic 0x00905a4d not supported.
+err:ole:TLB_ReadTypeLib Loading of typelib L"C:\\Program Files\\Electronic Arts\\Red Alert 3\\ra3.exe" failed with error 0
+fixme:shdocvw:ClientSite_GetContainer (0x1476f8)->(0x32d0ac)
+fixme:shdocvw:ClOleCommandTarget_Exec (0x1476f8)->({000214d1-0000-0000-c000-000000000046} 37 0 0x32d1d0 0x0)
+fixme:shdocvw:HttpNegotiate_BeginningTransaction (0x146690)->(L"" L"" 0 0x32d208)
+fixme:shdocvw:ClOleCommandTarget_Exec (0x1476f8)->((null) 29 2 0x32ecc8 0x0)
+fixme:shdocvw:DocHostUIHandler_GetDropTarget (0x1476f8)
+fixme:shdocvw:ClientSite_GetContainer (0x1476f8)->(0x32eadc)
+fixme:shdocvw:InPlaceFrame_SetStatusText (0x1476f8)->(0x400097e8)
+fixme:shdocvw:ClOleCommandTarget_Exec (0x1476f8)->((null) 25 2 0x32e9c8 0x0)
+fixme:shdocvw:ClOleCommandTarget_Exec (0x1476f8)->((null) 26 2 0x32e9c8 0x0)
+fixme:mshtml:HTMLElement_get_outerHTML (0x15c498)->(0x32e940)
+fixme:shdocvw:ClOleCommandTarget_Exec (0x1476f8)->((null) 21 2 0x0 0x0)
+fixme:shdocvw:ClOleCommandTarget_Exec (0x1476f8)->((null) 28 2 0x32ee08 0x0)
+fixme:resource:GetGuiResources (0xffffffff,0): stub
+fixme:font:ExtTextOutW flags ETO_NUMERICSLOCAL | ETO_NUMERICSLATIN | ETO_PDY unimplemented
+fixme:shdocvw:ViewObject_SetAdvise (0x147658)->(1 00000000 0x0)
+fixme:shdocvw:OleObject_Unadvise (0x147658)->(1735289188)
+fixme:shdocvw:OleObject_Close (0x147658)->(1)
+fixme:mshtml:HlinkTarget_SetBrowseContext (0x15d5e8)->(0x0)
+fixme:font:get_nearest_charset TCI failing on 20000000
+fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 20000000 file = /Users/chip/Library/Caches/Wine/Fonts/GillSans.dfont_1fae.ttf
+fixme:font:get_nearest_charset TCI failing on 20000000
+fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 20000000 file = /Users/chip/Library/Caches/Wine/Fonts/GillSans.dfont_606d.ttf
+fixme:font:get_nearest_charset TCI failing on 20000000
+fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 20000000 file = /Users/chip/Library/Caches/Wine/Fonts/GillSans.dfont_3b19.ttf
+fixme:font:get_nearest_charset TCI failing on 20000000
+fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 20000000 file = /Users/chip/Library/Caches/Wine/Fonts/GillSans.dfont_0fc3.ttf
+trace:d3d:DllMain WineD3D DLLMain Reason=1
+trace:d3d:wined3d_init appname = [RA3_1.12.game\Direct3D]
+trace:d3d:wined3d_init Allow HW vertex shaders
+trace:d3d:wined3d_init If supported by your system, GL Shading Language will be used
+fixme:ntdll:NtQueryInformationProcess (0xffffffff,info_class=34,0x1e69620,0x00000004,0x1e6961c) Unknown information class
+fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_HANDLE_INFORMATION
+fixme:ntdll:NtQueryObject Unsupported information class 3
+fixme:debugstr:CheckRemoteDebuggerPresent (0xffffffff)->(0x1e6840c): Stub!
+err:rpc:I_RpcGetBuffer no binding
+fixme:ntdll:NtQueryInformationProcess (process=0xffffffff) Unimplemented information class: ProcessDebugFlags
+trace:d3d:InitAdapters Initializing adapters
+trace:wgl:wglGetProcAddress func: 'glAccum'
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  0 ()
+  Value in failed request:  0x22
+  Serial number of failed request:  515
+  Current serial number in output stream:  515

@@ -1,0 +1,18 @@
+diff -up hw/xquartz/X11Application.m.baddeltas hw/xquartz/X11Application.m
+--- hw/xquartz/X11Application.m.baddeltas	2009-12-30 15:05:54.000000000 -0500
++++ hw/xquartz/X11Application.m	2009-12-30 15:08:38.000000000 -0500
+@@ -1015,12 +1015,13 @@ static inline int ensure_flag(int flags,
+             location.x += frame.origin.x;
+             location.y += frame.origin.y;
+             lastpt = location;
+-        } else if(isTabletEvent) {
++        } else if(isTabletEvent || [e type] == NSOtherMouseDown || [e type] == NSOtherMouseUp) {
+             // NSEvents for tablets are not consistent wrt deltaXY between events, so we cannot rely on that
+             // Thus tablets will be subject to the warp-pointer bug worked around by the delta, but tablets
+             // are not normally used in cases where that bug would present itself, so this is a fair tradeoff
+             // <rdar://problem/7111003> deltaX and deltaY are incorrect for NSMouseMoved, NSTabletPointEventSubtype
+             // http://xquartz.macosforge.org/trac/ticket/288
++            // The deltaXY for middle click events also appear erroneous during fast user switching
+             location = [e locationInWindow];
+             lastpt = location;
+         } else {

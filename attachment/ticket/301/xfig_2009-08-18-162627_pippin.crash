@@ -1,0 +1,62 @@
+Process:         xfig [9228]
+Path:            /sw/bin/xfig
+Identifier:      xfig
+Version:         ??? (???)
+Code Type:       X86 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2009-08-18 16:26:27.717 +0100
+OS Version:      Mac OS X 10.5.8 (9L30)
+Report Version:  6
+Anonymous UUID:  2C760669-009E-471F-B1AC-AA0E1EB76880
+
+Exception Type:  EXC_BAD_ACCESS (SIGABRT)
+Exception Codes: KERN_PROTECTION_FAILURE at 0x0000000000000010
+Crashed Thread:  0
+
+Thread 0 Crashed:
+0   libSystem.B.dylib             	0x9559fe42 __kill + 10
+1   libSystem.B.dylib             	0x9561223a raise + 26
+2   libSystem.B.dylib             	0x9561e679 abort + 73
+3   xfig                          	0x00074943 goodbye + 151
+4   libSystem.B.dylib             	0x9559e2bb _sigtramp + 43
+5   ???                           	0xffffffff 0 + 4294967295
+6   libX11.6.dylib                	0x0033dbd2 _XIOError + 81
+7   libX11.6.dylib                	0x0033e0a7 _XRead + 157
+8   libX11.6.dylib                	0x00340f5e _XEventsQueued + 641
+9   libX11.6.dylib                	0x00331858 XEventsQueued + 61
+10  libXt.6.dylib                 	0x002b27e1 _XtWaitForSomething + 1944
+11  libXt.6.dylib                 	0x002b3496 XtAppNextEvent + 302
+12  xfig                          	0x000442f0 main + 11743
+13  xfig                          	0x000018f2 start + 54
+
+Thread 0 crashed with X86 Thread State (32-bit):
+  eax: 0x00000000  ebx: 0x9561e639  ecx: 0xbfffdedc  edx: 0x9559fe42
+  edi: 0x00000001  esi: 0x0019a2a0  ebp: 0xbfffdef8  esp: 0xbfffdedc
+   ss: 0x0000001f  efl: 0x00000282  eip: 0x9559fe42   cs: 0x00000007
+   ds: 0x0000001f   es: 0x0000001f   fs: 0x00000000   gs: 0x00000037
+  cr2: 0x0029459c
+
+Binary Images:
+    0x1000 -   0x113fff +xfig ??? (???) /sw/bin/xfig
+  0x1e0000 -   0x1fcff8 +libjpeg.62.dylib ??? (???) /sw/lib/libjpeg.62.dylib
+  0x203000 -   0x20dfe3 +libXpm.4.dylib ??? (???) <d13ff750cd1183b8afdfdbb8904ba68c> /usr/X11/lib/libXpm.4.dylib
+  0x212000 -   0x22dfe7 +libpng12.0.dylib ??? (???) <42d3d836aa6ba8c04a7e9e790b720249> /usr/X11/lib/libpng12.0.dylib
+  0x234000 -   0x239fff +libXi.6.dylib ??? (???) <5513158ce44d1ad30068aa5f9ee01c05> /usr/X11/lib/libXi.6.dylib
+  0x23d000 -   0x26cfef +libXaw3d.7.dylib ??? (???) /sw/lib/libXaw3d.7.dylib
+  0x285000 -   0x293fe7 +libXmu.6.dylib ??? (???) <ffc72c9513a7cba36fa12c605456a30c> /usr/X11/lib/libXmu.6.dylib
+  0x29b000 -   0x2d3ff8 +libXt.6.dylib ??? (???) <568057bef6bcc14ae6fae13fd72d6b42> /usr/X11/lib/libXt.6.dylib
+  0x2e6000 -   0x2eaffc +libSM.6.dylib ??? (???) <ff5742cac2a0e352cfd971ff92c50957> /usr/X11/lib/libSM.6.dylib
+  0x2ef000 -   0x2fdfff +libICE.6.dylib ??? (???) <860061063d1f265a085e05fc0523373d> /usr/X11/lib/libICE.6.dylib
+  0x305000 -   0x309fff +libXp.6.dylib ??? (???) <a11b35ae895f89bf9800e0897d2ce4c1> /usr/X11/lib/libXp.6.dylib
+  0x30e000 -   0x317ffe +libXext.6.dylib ??? (???) <39c8113d17025a2a43c4d7975048eacd> /usr/X11/lib/libXext.6.dylib
+  0x31d000 -   0x412fef +libX11.6.dylib ??? (???) <2e3dc6f74cdb6448f4659ab5ec6d6056> /usr/X11/lib/libX11.6.dylib
+  0x432000 -   0x432ffd +libXau.6.dylib ??? (???) <382d608e6aa264157b952ab3c8f870d2> /usr/X11/lib/libXau.6.dylib
+  0x436000 -   0x438fef +libXdmcp.6.dylib ??? (???) <9f53434b19c63dd6d4f85163699cbb0f> /usr/X11/lib/libXdmcp.6.dylib
+0x8fe00000 - 0x8fe2db43  dyld 97.1 (???) <458eed38a009e5658a79579e7bc26603> /usr/lib/dyld
+0x90101000 - 0x9010fffd  libz.1.dylib ??? (???) <a98b3b221a72b54faf73ded3dd7000e5> /usr/lib/libz.1.dylib
+0x9148a000 - 0x9148efff  libmathCommon.A.dylib ??? (???) /usr/lib/system/libmathCommon.A.dylib
+0x95531000 - 0x95698ff3  libSystem.B.dylib ??? (???) <ae47ca9b1686b065f8ac4d2de09cc432> /usr/lib/libSystem.B.dylib
+0x95aa3000 - 0x95aaafe9  libgcc_s.1.dylib ??? (???) <e280ddf3f5fb3049e674edcb109f389a> /usr/lib/libgcc_s.1.dylib
+0xffff0000 - 0xffff1780  libSystem.B.dylib ??? (???) /usr/lib/libSystem.B.dylib
+

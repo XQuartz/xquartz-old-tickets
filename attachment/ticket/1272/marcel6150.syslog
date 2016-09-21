@@ -1,0 +1,2057 @@
+*** /tmp/marcel6150.syslog
+*** system log created by marcel on Mon May 19 11:30:38 2014 CEST
+
+Node Name    :- Marcel-Eggimanns-Mac-Pro.local
+Machine type :- x86_64 (MacPro4,1)
+OS           :- Darwin 12.5.0
+# Processors :- 8
+Memory       :- 8192Mb
+Total Swap   :- 64Mb
+Free  Swap   :- 64Mb
+Running customer environment
+Session is running in codeset UTF-8 21
+
+************** Licensing Information **************
+
+ Server ID : 1030712 - Eggimann Holzfertigun
+ Webkey Access Code : QDKUH20JW0
+ License File Issuer : SIEMENS
+ Flex Daemon Version : 11.10
+ Vendor Daemon Version String : 6.3
+
+****************************************************
+
+Licensing version 4.1.4.0.0
+
+NX 8.0.3.4 r   
+NX 8.0.3.4
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/ugxml.dylib
+UGXML is using 'UTF-8' as the local code page
+Processing customer default values file /Volumes/cad-cam-daten/ug_settings/SiemensNX/site/startup/nx80_site.dpv
+Processing customer default values file /Volumes/cad-cam-daten/ug_settings/SiemensNX/group/startup/nx80_group.dpv
+	User customizations file /Volumes/cad-cam-daten/ug_settings/SiemensNX/group/startup/nx80_group.dpv does not exist
+Processing customer default values file /Users/marcel/Library/Application Support/UGS/nx80/nx80_user.dpv
+Processing drafting standard file /Applications/Siemens/NX8.0/ugii/drafting_standards/nx8_ISO_Drafting_Standard_Shipped.dpv
+Processing drafting standard file /Volumes/cad-cam-daten/ug_settings/SiemensNX/site/startup/nx8_eggispan_Drafting_Standard_Site.dpv
+UPDATE: predefined fail option is <Unknown>
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/libattr.dylib
+3D DCM version 430403011
+Customer CDF (Color Definition File) is defined as /Volumes/cad-cam-daten/ug_settings/SiemensNX/other/ugcolor.cdf and loaded successfully.
+FR_PSMARK: system page size = 4096, ram block size = 1024, disk file threshold =32769, buffer size = 16384
+*** Enabling SMP using 4 threads on 8 processors ***
+Parasolid version 24.1 build 220 on 19:45:2 18-5-2012
+CMOD delete: predefined, dumbify-feature option is <TRUE>
+CMOD delete: predefined, propagate-delete option is <ON>
+CMOD update: predefined, fail-on-missing-refs option is <OFF>
+2D DCM version 580301005
+Descriptive Part Names set to $FILENAME
+Assemblies: No model reference set is defined.
+Lightweight Customer Defaults: Smart is enabled, Remove All
+KF search path used is from the registry, not from UGII_KF_USER_CLASS_DIR
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/libnxvtk.dylib
+A master env file has not been loaded
+ **************  Locked Unigraphics Configuration Variables  **************
+    UGII_PRODUCT_NAME                nx
+    UGII_VERSION                     v8
+    UGII_FULL_VERSION                v8.0.3.4
+    UGII_MAJOR_VERSION               8
+    UGII_MINOR_VERSION               0
+    UGII_SUBMINOR_VERSION            3
+
+ **************        System Environment Variables          **************
+    DYLD_LIBRARY_PATH                /usr/lib:/Applications/Siemens/NX8.0/ugii:/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/libraries/Libraries
+    LD_LIBRARY_PATH                  
+    PATH                             .:/usr/bin:/usr/sbin:/usr/ucb:/bin:/usr/bin/X11:/sbin:.:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:.:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/X11/bin
+    TMPDIR                           /var/folders/vm/5wjxth308xj3_b0059b_kq000000gn/T/
+    UGII_BASE_DIR                    /Applications/Siemens/NX8.0
+    UGII_GROUP_DIR                   /Volumes/cad-cam-daten/ug_settings/SiemensNX/group
+    UGII_ROOT_DIR                    /Applications/Siemens/NX8.0/bin/
+    UGII_SITE_DIR                    /Volumes/cad-cam-daten/ug_settings/SiemensNX/site
+    UGII_TERMMOD                     
+    UGII_USER_DIR                    /Volumes/cad-cam-daten/ug_settings/SiemensNX/marcel
+    UGS_LICENSE_SERVER               28000@192.168.0.100
+    USER                             marcel
+
+ Using ugii_env.dat file from /Applications/Siemens/NX8.0/ugii
+ **************    MacOS User Preference "com.ugs.nx8" Variables    **************
+
+ **************   MacOS Global Preference "com.ugs.nx8" Variables   **************
+    UGS_LICENSE_SERVER               28000@192.168.0.100
+
+ ************** Unlocked Unigraphics Configuration Variables **************
+    DISPLAY                          :0
+    UGII_ENABLE_TRANSFORM_LEGACY_OPTIONS 1
+    UGS_LICENSE_SERVER               28000@192.168.0.100
+    UGII_UDF_DEFINITION_FILE         /Volumes/cad-cam-daten/ug_udf_lib/dbc_udf_ascii.def
+    UGII_UDF_DATABASE_FILE           /Volumes/cad-cam-daten/ug_udf_lib/udf_database.txt
+    UGII_UDF_LIBRARY_DIR             /Volumes/cad-cam-daten/ug_udf_lib/
+    UGII_UDF_LAYER_ORIGINAL          0
+    UGII_USER_DIR                    /Volumes/cad-cam-daten/ug_settings/SiemensNX/marcel
+    UGII_GROUP_DIR                   /Volumes/cad-cam-daten/ug_settings/SiemensNX/group
+    UGII_SITE_DIR                    /Volumes/cad-cam-daten/ug_settings/SiemensNX/site
+    UGII_BITMAP_PATH                 /Volumes/cad-cam-daten/ug_settings/SiemensNX/icons
+    EGGI_GRIP_APP_DIR                /Volumes/cad-cam-daten/ug_grip/
+    EGGI_JAVA_APP_DIR                /Volumes/cad-cam-daten/ug_java/
+    EGGI_JAVA_DLX_DIR                /Volumes/cad-cam-daten/ug_java/
+    EGGI_PARTLIST_USER_PATH          /Users/marcel/Desktop/
+    EGGI_PARTLIST_FM_PATH            /Volumes/UnigraphicsServer/grip_temp/users/
+    EGGI_ARBEIT_PATH                 /Volumes/cad-cam-daten/auftraege-in-arbeit/
+    EGGI_ARCHIV_PATH                 /Volumes/cad-cam-daten/ug_cad-cam-archiv/
+    UGII_CLASSPATH_PRELOAD           /Users/marcel/Documents/workspace/
+    UGII_JVM_LIBRARY_DIR             /System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/libraries
+    EGGI_UDOP_TEST                   /Volumes/cad-cam-daten/ug_java/udops/TestUdop.jar
+    EGGI_UDOP_LAMELLO_P              /Volumes/cad-cam-daten/ug_java/udops/UdOpLamelloP.jar
+    UGII_SMP_ENABLE                  1
+    UGII_PLATFORM                    macosx
+    UGII_LANG                        english
+    GEARWIZARD_DIR                   /Applications/Siemens/NX8.0/localization//GearWizard
+    GC_TOOL_DIR                      /Applications/Siemens/NX8.0/localization//gc_tools
+    UG_IMAGE                         ugspawn
+    UGII_USERFCN                     /Applications/Siemens/NX8.0/ugii
+    UGII_TMP_DIR                     /tmp
+    UGII_08_FILE                     /Applications/Siemens/NX8.0/ugopen/08.ugf
+    UGII_10_FILE                     /Applications/Siemens/NX8.0/ugii/10.ugf
+    UGII_SCHEMA                      /Applications/Siemens/NX8.0/ugii/ugschema
+    UGII_ENGLISH_THREADS             /Applications/Siemens/NX8.0/ugii/thd_english.dat
+    UGII_METRIC_THREADS              /Applications/Siemens/NX8.0/ugii/thd_metric.dat
+    UGII_OLD_SKETCH                  0
+    UGII_DUMBIFY_FEATURE             1
+    UGII_WAVE_DELETE                 0
+    MOLDWIZARD_DIR                   /Applications/Siemens/NX8.0/moldwizard
+    MOLDWIZARD_LIB_DIR               /Applications/Siemens/NX8.0/moldwizard
+    ELECTRODE_DESIGN_DIR             /Applications/Siemens/NX8.0/moldwizard/electrode
+    PDIEWIZARD_DIR                   /Applications/Siemens/NX8.0/stamping_tools/pdiewizard
+    PDIEWIZARD_LIB_DIR               /Applications/Siemens/NX8.0/stamping_tools/pdiewizard
+    TOOLING_BASE_DIR                 /Applications/Siemens/NX8.0/tooling_base
+    EDIEWIZARD_DIR                   /Applications/Siemens/NX8.0/stamping_tools/ediewizard
+    EDIEWIZARD_LIB_DIR               /Applications/Siemens/NX8.0/stamping_tools/ediewizard
+    UGWELD_DIR                       /Applications/Siemens/NX8.0/ugweld
+    UGII_WELD_BASE_DIR               /Applications/Siemens/NX8.0/ugweld
+    UGII_EXPMAN_CFG_FILE             /Applications/Siemens/NX8.0/ugexpman/expmancfg.dat
+    UGII_INOP_SE_IMPORT_ONLY_DESIGN_PART 0
+    NXDESIGNTOOLS_DIR                /Applications/Siemens/NX8.0/design_tools
+    UGCHECKMATE_DIR                  /Applications/Siemens/NX8.0/design_tools/checkmate
+    UGCHECKMATE_CONFIG               /Applications/Siemens/NX8.0/design_tools/checkmate/customization/ugcheckmate.dat
+    UGCHECKMATE_XMLLOG_XSL_FILE      /Applications/Siemens/NX8.0/design_tools/checkmate/examples/checkmate_log.xsl
+    UGCHECKMATE_MENU_TEMPLATE_FILE   /Applications/Siemens/NX8.0/design_tools/checkmate/templates/user_defined_menu_template.txt
+    UGCHECKMATE_TEMPLATE_DIR         /Applications/Siemens/NX8.0/design_tools/checkmate/customization
+    UGQUICKCHECK_DIR                 /Applications/Siemens/NX8.0/ugquickcheck
+    NXREQUIREMENT_DIR                /Applications/Siemens/NX8.0/design_tools/requirement
+    NXISSUETRACKING_DIR              /Applications/Siemens/NX8.0/design_tools/issue_tracking
+    UGII_CAM_BASE_DIR                /Applications/Siemens/NX8.0/mach/
+    UGII_CAM_CUSTOM_DIR              /Applications/Siemens/NX8.0/mach/custom/
+    UGII_CAM_RESOURCE_DIR            /Applications/Siemens/NX8.0/mach/resource/
+    UGII_CAM_SAMPLES_DIR             /Applications/Siemens/NX8.0/mach/samples/
+    UGII_CAM_AUXILIARY_DIR           /Applications/Siemens/NX8.0/mach/auxiliary/
+    UGII_APT_VOC                     /Applications/Siemens/NX8.0/mach/auxiliary/apt.voc
+    UGII_BCL_VOC                     /Applications/Siemens/NX8.0/mach/auxiliary/bcl.voc
+    UGII_ISO_VOC                     /Applications/Siemens/NX8.0/mach/auxiliary/iso.voc
+    UGII_UNIMAJ_VOC                  /Applications/Siemens/NX8.0/mach/auxiliary/unimaj.voc
+    UGII_UNIMIN_VOC                  /Applications/Siemens/NX8.0/mach/auxiliary/unimin.voc
+    UGII_VERICUT                     /Applications/Siemens/NX8.0/commands/vericut
+    UGII_CAM_THREAD_MILL_DIR         /Applications/Siemens/NX8.0/mach/auxiliary/thread_mill/
+    UGII_CAM_BATCH_DIR               /Applications/Siemens/NX8.0/mach/auxiliary/batch/
+    UGII_CAMBATCH_BACKGROUND_EXE     /Applications/Siemens/NX8.0/mach/auxiliary/batch/cambatch_background.exe
+    UGII_CAM_TAGGING_DIR             /Applications/Siemens/NX8.0/mach/auxiliary/tagging/
+    UGII_CAM_TAGGING_DLL_DIR         /Applications/Siemens/NX8.0/mach/auxiliary/tagging/application/
+    UGII_CAM_TAGGING_ENGLISH_DIR     /Applications/Siemens/NX8.0/mach/auxiliary/tagging/english/
+    UGII_CAM_TAGGING_METRIC_DIR      /Applications/Siemens/NX8.0/mach/auxiliary/tagging/metric/
+    UGII_CAM_FILE_SEARCH_PATH        ./:/Applications/Siemens/NX8.0/mach/:/Applications/Siemens/NX8.0/mach/resource/
+    UGII_CAM_CONFIG_DIR              /Applications/Siemens/NX8.0/mach/resource/configuration/
+    UGII_CAM_CONFIG                  /Applications/Siemens/NX8.0/mach/resource/configuration/cam_general.dat
+    UGII_SHOPS_DIE_MOLD_CONFIG       /Applications/Siemens/NX8.0/mach/resource/configuration/shops_diemold.dat
+    UGII_SHOPS_MACHINERY_CONFIG      /Applications/Siemens/NX8.0/mach/resource/configuration/shops_machinery.dat
+    UGII_CAM_TEMPLATE_SET_DIR        /Applications/Siemens/NX8.0/mach/resource/template_set/
+    UGII_CAM_TEMPLATE_PART_DIR       /Applications/Siemens/NX8.0/mach/resource/template_part/
+    UGII_CAM_TEMPLATE_PART_ENGLISH_DIR /Applications/Siemens/NX8.0/mach/resource/template_part/english/
+    UGII_CAM_TEMPLATE_PART_METRIC_DIR /Applications/Siemens/NX8.0/mach/resource/template_part/metric/
+    UGII_CAM_LIBRARY_TEMPLATE_DIR    /Applications/Siemens/NX8.0/mach/resource/template_dir/
+    UGII_CAM_LIBRARY_TEMPLATE_DATA_DIR /Applications/Siemens/NX8.0/mach/resource/template_dir/
+    UGII_CAM_SHOP_DOC_DIR            /Applications/Siemens/NX8.0/mach/resource/shop_doc/
+    UGII_CAM_PART_DOC_CONFIG_FILE    /Applications/Siemens/NX8.0/mach/resource/shop_doc/shop_doc.dat
+    UGII_CAM_POST_DIR                /Applications/Siemens/NX8.0/mach/resource/postprocessor/
+    UGII_CAM_POST_CONFIG_FILE        /Applications/Siemens/NX8.0/mach/resource/postprocessor/template_post.dat
+    UGII_CAM_LIBRARY_MACHINE_CONFIG_DIR /Applications/Siemens/NX8.0/mach/resource/postprocessor/
+    UGII_CAM_USER_DEF_EVENT_DIR      /Applications/Siemens/NX8.0/mach/resource/user_def_event/
+    UGII_CAM_TOOL_PATH_DIR           /Applications/Siemens/NX8.0/mach/resource/tool_path/
+    UGII_CAM_WIZARD_DIR              /Applications/Siemens/NX8.0/mach/resource/wizard/
+    UGII_CAM_DEBUG_DIR               /Applications/Siemens/NX8.0/mach/resource/debug/
+    UGII_CAM_DEFAULT_TYPE_TEMPLATE   /Applications/Siemens/NX8.0/mach/resource/template_set/cam_general.opt
+    UGII_CAM_IMAN_TYPE_TEMPLATE      /Applications/Siemens/NX8.0/mach/resource/template_set/cam_teamcenter_general.opt
+    UGII_CAM_FEATURE_DATA_DIR        /Applications/Siemens/NX8.0/mach/resource/feature/
+    UGII_CAM_FEATURE_DATA_ENGLISH_DIR /Applications/Siemens/NX8.0/mach/resource/feature/english/
+    UGII_CAM_FEATURE_DATA_METRIC_DIR /Applications/Siemens/NX8.0/mach/resource/feature/metric/
+    UGII_CAM_FEATURE_IMAGES_DIR      /Applications/Siemens/NX8.0/mach/resource/feature/images/
+    UGII_CAM_SPREADSHEET_DIR         /Applications/Siemens/NX8.0/mach/resource/spreadsheet/
+    UGII_CAM_MACHINING_KNOWLEDGE_DIR /Applications/Siemens/NX8.0/mach/resource/machining_knowledge/
+    UGII_UG_LIBRARY_DIR              /Applications/Siemens/NX8.0/mach/resource/ug_library/
+    UGII_CAM_LIBRARY_DIR             /Applications/Siemens/NX8.0/mach/resource/library/
+    UGII_CAM_LIBRARY_TOOL_DIR        /Applications/Siemens/NX8.0/mach/resource/library/tool/
+    UGII_CAM_LIBRARY_TOOL_ASCII_DIR  /Applications/Siemens/NX8.0/mach/resource/library/tool/ascii/
+    UGII_CAM_LIBRARY_TOOL_GENIUS_DIR /Applications/Siemens/NX8.0/mach/resource/library/tool/genius/
+    UGII_CAM_LIBRARY_TOOL_INCLASS_DIR /Applications/Siemens/NX8.0/mach/resource/library/tool/inclass/
+    UGII_CAM_LIBRARY_TOOL_ENGLISH_DIR /Applications/Siemens/NX8.0/mach/resource/library/tool/english/
+    UGII_CAM_LIBRARY_TOOL_METRIC_DIR /Applications/Siemens/NX8.0/mach/resource/library/tool/metric/
+    UGII_CAM_LIBRARY_TOOL_GRAPHICS_PATH /Applications/Siemens/NX8.0/mach/resource/library/tool/graphics/
+    UGII_CAM_LIBRARY_TOOL_ASCII_LOAD_LIMIT 200000
+    UGII_CAM_LIBRARY_DEVICE_DIR      /Applications/Siemens/NX8.0/mach/resource/library/device/
+    UGII_CAM_LIBRARY_DEVICE_DATA_DIR /Applications/Siemens/NX8.0/mach/resource/library/device/ascii/
+    UGII_CAM_LIBRARY_DEVICE_ASCII_DIR /Applications/Siemens/NX8.0/mach/resource/library/device/ascii/
+    UGII_CAM_LIBRARY_DEVICE_INCLASS_DIR /Applications/Siemens/NX8.0/mach/resource/library/device/inclass/
+    UGII_CAM_LIBRARY_DEVICE_GRAPHICS_PATH /Applications/Siemens/NX8.0/mach/resource/library/device/graphics/
+    UGII_CAM_LIBRARY_MACHINE_DIR     /Applications/Siemens/NX8.0/mach/resource/library/machine/
+    UGII_CAM_LIBRARY_MACHINE_ASCII_DIR /Applications/Siemens/NX8.0/mach/resource/library/machine/ascii/
+    UGII_CAM_LIBRARY_MACHINE_DATA_DIR /Applications/Siemens/NX8.0/mach/resource/library/machine/ascii/
+    UGII_CAM_LIBRARY_MACHINE_GENIUS_DIR /Applications/Siemens/NX8.0/mach/resource/library/machine/genius/
+    UGII_CAM_LIBRARY_MACHINE_INCLASS_DIR /Applications/Siemens/NX8.0/mach/resource/library/machine/inclass/
+    UGII_CAM_LIBRARY_MACHINE_GRAPHICS_PATH /Applications/Siemens/NX8.0/mach/resource/library/machine/graphics/
+    UGII_CAM_LIBRARY_INSTALLED_MACHINES_DIR /Applications/Siemens/NX8.0/mach/resource/library/machine/installed_machines/
+    UGII_CAM_LIBRARY_FEEDS_SPEEDS_DIR /Applications/Siemens/NX8.0/mach/resource/library/feeds_speeds/
+    UGII_CAM_LIBRARY_FEEDS_SPEEDS_ASCII_DIR /Applications/Siemens/NX8.0/mach/resource/library/feeds_speeds/ascii/
+    UGII_CAM_LIBRARY_FEEDS_SPEEDS_DATA_DIR /Applications/Siemens/NX8.0/mach/resource/library/feeds_speeds/ascii/
+    UGII_CAM_LIBRARY_FEEDS_SPEEDS_GENIUS_DIR /Applications/Siemens/NX8.0/mach/resource/library/feeds_speeds/genius/
+    UGII_CAM_LIBRARY_UDF_DIR         /Applications/Siemens/NX8.0/mach/resource/library/udf/
+    UGII_UG_LIBRARY_GENIUS_TCP_HOST  localhost
+    UGII_UG_LIBRARY_GENIUS_TCP_PORT  2326
+    UGII_INSPECTION_BASE_DIR         /Applications/Siemens/NX8.0/cmm_inspection/
+    UGII_INSPECTION_RESOURCE_DIR     /Applications/Siemens/NX8.0/cmm_inspection/resource/
+    UGII_INSPECTION_CONFIG_DIR       /Applications/Siemens/NX8.0/cmm_inspection/resource/configuration/
+    UGII_INSPECTION_CONFIG           /Applications/Siemens/NX8.0/cmm_inspection/resource/configuration/inspection_general.dat
+    UGII_INSPECTION_USER_DEF_EVENT_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/user_def_event/
+    UGII_INSPECTION_TEMPLATE_SET_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/template_set/
+    UGII_INSPECTION_TEMPLATE_PART_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/template_part/
+    UGII_INSPECTION_TEMPLATE_PART_ENGLISH_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/template_part/english/
+    UGII_INSPECTION_TEMPLATE_PART_METRIC_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/template_part/metric/
+    UGII_INSPECTION_POST_DIR         /Applications/Siemens/NX8.0/cmm_inspection/resource/postprocessor/
+    UGII_INSPECTION_LIBRARY_DIR      /Applications/Siemens/NX8.0/cmm_inspection/resource/library/
+    UGII_INSPECTION_LIBRARY_TOOL_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/library/tool/
+    UGII_INSPECTION_LIBRARY_TOOL_ASCII_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/library/tool/ascii/
+    UGII_INSPECTION_LIBRARY_TOOL_GENIUS_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/library/tool/genius/
+    UGII_INSPECTION_LIBRARY_TOOL_INCLASS_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/library/tool/inclass/
+    UGII_INSPECTION_LIBRARY_TOOL_ENGLISH_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/library/tool/english/
+    UGII_INSPECTION_LIBRARY_TOOL_METRIC_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/library/tool/metric/
+    UGII_INSPECTION_LIBRARY_TOOL_GRAPHICS_PATH /Applications/Siemens/NX8.0/cmm_inspection/resource/library/tool/graphics/
+    UGII_INSPECTION_LIBRARY_DEVICE_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/library/device/
+    UGII_INSPECTION_LIBRARY_DEVICE_DATA_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/library/device/ascii/
+    UGII_INSPECTION_LIBRARY_DEVICE_ASCII_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/library/device/ascii/
+    UGII_INSPECTION_LIBRARY_DEVICE_INCLASS_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/library/device/inclass/
+    UGII_INSPECTION_LIBRARY_DEVICE_GRAPHICS_PATH /Applications/Siemens/NX8.0/cmm_inspection/resource/library/device/graphics/
+    UGII_INSPECTION_LIBRARY_MACHINE_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/library/machine/
+    UGII_INSPECTION_LIBRARY_MACHINE_ASCII_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/library/machine/ascii/
+    UGII_INSPECTION_LIBRARY_MACHINE_DATA_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/library/machine/ascii/
+    UGII_INSPECTION_LIBRARY_MACHINE_GENIUS_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/library/machine/genius/
+    UGII_INSPECTION_LIBRARY_MACHINE_INCLASS_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/library/machine/inclass/
+    UGII_INSPECTION_LIBRARY_MACHINE_GRAPHICS_PATH /Applications/Siemens/NX8.0/cmm_inspection/resource/library/machine/graphics/
+    UGII_INSPECTION_LIBRARY_INSTALLED_MACHINES_DIR /Applications/Siemens/NX8.0/cmm_inspection/resource/library/machine/installed_machines/
+    UGII_KF_CLASS_DIR                /Applications/Siemens/NX8.0/ugii/dfa
+    UGII_TAB_LABEL_FORMATS_FILE      /Applications/Siemens/NX8.0/ugii/tab_label_format_file.xml
+    UGII_PMI_SYMBOL_LIBRARY_DIR      /Applications/Siemens/NX8.0/ugii/symbol/PMI_Symbols
+    UGII_CGM_DEFAULTS                /Applications/Siemens/NX8.0/ugii/cgmdef.txt
+    UGII_HTML_BROWSER                firefox
+    UGII_UGDOC_BASE_DIR              /Applications/Siemens/NX8.0/ugdoc
+    UGII_HELP_RELEASE_NOTES          /Applications/Siemens/NX8.0/rel_info/release_notes/english/index.html
+    UGII_HELP_WHATS_NEW              /Applications/Siemens/NX8.0/rel_info/whatsnew/english/index.html
+    UGII_HTML_UGDOC                  /Applications/Siemens/NX8.0/ugdoc/html_files/nx_help/index.html
+    UGII_CSHELP_MAPS                 /Applications/Siemens/NX8.0/ugii/docmaps
+    UGII_CSHELP_DOCS                 /Applications/Siemens/NX8.0/ugdoc/html_files
+    UGII_CSHELP_MAINT_DOCS           /Applications/Siemens/NX8.0/rel_info/maint_docs
+    UGII_CSHELP_HTML_DOCS            /Applications/Siemens/NX8.0/ugdoc/html_files
+    UGII_CSHELP_BROWSER              /Applications/Siemens/NX8.0/ugii/cshelp_html.ksh
+    UGII_CAST_HTML_URL               /Applications/Siemens/NX8.0/nxcast/html/index.html
+    UGII_CAST_HTML_DIR               /Applications/Siemens/NX8.0/nxcast/html
+    UGII_CAST_PARTS                  /Applications/Siemens/NX8.0/nxcast/parts
+    UGALLIANCE_DIR                   /Applications/Siemens/NX8.0/ugalliance
+    UGII_MENUSCRIPT_DISPLAY_TEAROFFS true
+    UGII_DEFAULT_MENU_DIR            /Applications/Siemens/NX8.0/ugii/menus
+    UGII_CUSTOM_DIRECTORY_FILE       /Applications/Siemens/NX8.0/ugii/menus/custom_dirs.dat
+    UGII_UG_CUSTOM_DIRECTORY_FILE    /Applications/Siemens/NX8.0/ugii/menus/ug_custom_dirs.dat
+    UGII_MAIN_MENU_FILE              /Applications/Siemens/NX8.0/ugii/menus/ug_main.men
+    UGII_VIEW_POPUP_MENU_FILE        /Applications/Siemens/NX8.0/ugii/menus/ug_view_popup.men
+    UGII_LOCAL_USER_DEFAULTS         /Users/marcel/Library/Application Support/UGS/nx80/nx80_user.dpv
+    UGII_CHARACTER_FONT_DIR          /Applications/Siemens/NX8.0/ugii/ugfonts
+    UGII_CHARACTER_FONT_DEFAULT      blockfont
+    UGII_EDITOR                      vi
+    UGII_LIB1                        /tmp
+    UGII_LIB2                        /Applications/Siemens/NX8.0/bin/
+    UGII_UTIL                        /Applications/Siemens/NX8.0/ugii/
+    UGII_OPTION                      
+    UGII_PRINTER                     
+    UGII_TAPEBAUD                    1200
+    UGII_UGMX                        /Applications/Siemens/NX8.0/ugmx/me/etc/startmcad
+    UGII_MXUG_FILE                   /tmp/
+    UGII_UGMX_FILE                   /tmp/
+    UGII_SHARE                       /Applications/Siemens/NX8.0/bin/
+    UGII_SPREADSHEET                 /Applications/Siemens/NX8.0/ugii/
+    UGII_LOAD_OPTIONS                
+    UGII_PHYS_MATERIAL_LIB_DIR       /Applications/Siemens/NX8.0/ugii/materials/english/
+    UGII_PHYS_MATERIAL_LIB_DATA_DIR  /Applications/Siemens/NX8.0/ugii/materials/
+    UGII_PHYS_MATERIAL_LIB_PATH      ./:/Applications/Siemens/NX8.0/ugii/materials/
+    UGII_CAE_REPORT_TEMPLATES_DIR    /Applications/Siemens/NX8.0/ugstructures/
+    UGII_CAE_POST_TEMPLATE_USER_DIR  /Users/marcel/post_template_files
+    USER_GEO_UNF                     */Applications/Siemens/NX8.0/unfold/flatpat.grx
+    USER_PUNCHTOOLS                  */Applications/Siemens/NX8.0/punchpress/buildtool.grx
+    USER_PUNCH                       */Applications/Siemens/NX8.0/punchpress/punchlaser.grx
+    USER_PUNCHGRID                   */Applications/Siemens/NX8.0/punchpress/punchgrid.grx
+    USER_PDAIF                       /Applications/Siemens/NX8.0/ugpatif/ugpatif
+    USER_ICADIF                      /Applications/Siemens/NX8.0/icadif/uficad
+    UNC_LANG                         eng
+    UNC_CAM_DIR                      /Applications/Siemens/NX8.0/sheetmfg/unc/
+    UGII_UGSMD_STDS_LIBRARY          /Applications/Siemens/NX8.0/ugii/
+    UGII_ROUTE_ELEC_KIT_DIR          /Applications/Siemens/NX8.0/ugroute_elec
+    UGII_ROUTE_MECH_KIT_DIR          /Applications/Siemens/NX8.0/ugroute_mech
+    UGII_ROUTE_LGCL_KIT_DIR          /Applications/Siemens/NX8.0/ugroute_mech
+    UGII_ROUTING_KIT_UNITS           metric
+    UGII_ROUTING_APP_VIEW_DIR        /Applications/Siemens/NX8.0/ugroute_mech/appview/:/Applications/Siemens/NX8.0/ugroute_elec/appview/
+    UGII_ROUTE_ELEC_APP_VIEW         /Applications/Siemens/NX8.0/ugroute_elec/appview/ugroute_elec_metric.xml
+    UGII_ROUTE_MECH_APP_VIEW         /Applications/Siemens/NX8.0/ugroute_mech/appview/ugroute_mech_metric.xml
+    UGII_ROUTE_LGCL_APP_VIEW         /Applications/Siemens/NX8.0/ugroute_mech/appview/ugroute_lgcl_metric.xml
+    UGII_EPLIB_PART_LIB_VIEW_PATH    /Applications/Siemens/NX8.0/ugroute_mech/appview/:/Applications/Siemens/NX8.0/ugroute_elec/appview/
+    UGII_EPLIB_TABLE_PATH            /Applications/Siemens/NX8.0/ugroute_mech/metric/tables/:/Applications/Siemens/NX8.0/ugroute_elec/metric/tables/
+    UGII_ROUTE_ELEC_PART_PATH        /Applications/Siemens/NX8.0/ugroute_elec/metric/parts
+    UGII_ROUTE_MECH_PART_PATH        /Applications/Siemens/NX8.0/ugroute_mech/metric/parts
+    UGII_ROUTE_LGCL_PART_PATH        /Applications/Siemens/NX8.0/ugroute_mech/metric/parts
+    UGII_ROUTING_DESIGN_RULES_PATH   /Applications/Siemens/NX8.0/ugroute_mech/rules/:/Applications/Siemens/NX8.0/ugroute_elec/rules/
+    UGII_ROUTE_ELEC_TCL_DIR          /Applications/Siemens/NX8.0/ugroute_elec/rules/tcl/
+    UGII_ROUTE_MECH_TCL_DIR          /Applications/Siemens/NX8.0/ugroute_mech/rules/tcl/
+    UGII_ROUTE_LGCL_TCL_DIR          /Applications/Siemens/NX8.0/ugroute_mech/rules/tcl/
+    UGII_RLIST_PATH                  /Applications/Siemens/NX8.0/ugroute_elec/rlist/
+    UGII_FMBD_FORMATS_FILE           /Applications/Siemens/NX8.0/ugroute_elec/rlist/fmbd_annotation.fmt
+    UGII_FMBD_USE_LAYOUTS            FALSE
+    UGII_FMBD_PATTERN_DIR            /Applications/Siemens/NX8.0/ugroute_elec/metric/parts
+    UGII_FMBD_CGM_DIR                /Applications/Siemens/NX8.0/ugroute_elec/metric/parts
+    UGII_FMBD_DISABLE_ROTATION_VECTOR_ALIGNMENT FALSE
+    UGII_RLIST_SCHEMA_FILE           /Applications/Siemens/NX8.0/ugroute_elec/rlist/routelist.xsd
+    UGII_ROUTING_BOM_PATH            /Applications/Siemens/NX8.0/ugroute_mech/metric/parts/
+    UGII_ROUTING_BEND_TABLES_PATH    /Applications/Siemens/NX8.0/ugroute_mech/metric/tables/
+    UGII_ROUTE_SKIP_ENGAGE_CHARX     TRUE
+    UGII_ROUTE_SKIP_LENGTH_ADDITION_CHARX TRUE
+    UGII_ROUTE_SKIP_ROUTING_LEVEL_CHECKING TRUE
+    UGII_ROUTE_CONVERT_SLACK_TO_LOCK_LENGTH TRUE
+    MAYA_PCB_DIR                     /Applications/Siemens/NX8.0/ugpcbxchange
+    UGII_REFL_IMAGE_DIR              /Applications/Siemens/NX8.0/ugii/ugvisuals/
+    UGII_TEXTURE_TIFF_IMAGE_DIR      /Applications/Siemens/NX8.0/ugstudio/
+    UGII_NO_TIFF_SEARCH              
+    UGII_LI_LAYLA_DIR                /Applications/Siemens/NX8.0/ugphoto
+    UGII_RENDER_ARTISTIC_DIR         /Applications/Siemens/NX8.0/ugphoto/artistic_render/
+    UGII_SHOWROOM_DATA_DIR           /Applications/Siemens/NX8.0/ugphoto/ug_environment
+    UGII_USER_SHOWROOM_DATA_DIR      
+    UGII_CANNED_MATERIAL_DIR         /Applications/Siemens/NX8.0/ugphoto/ug_canned_mattex
+    UGII_HDR_IMAGE_DIR               /Applications/Siemens/NX8.0/ugphoto/hdr_images
+    UGII_ENV_IMAGE_DIR               /Applications/Siemens/NX8.0/ugphoto/env_images/
+    UGII_SYSTEM_SCENE_DATA_DIR       /Applications/Siemens/NX8.0/ugphoto/system_scene_data_dir
+    UGII_TRUESHADING_DIR             /Applications/Siemens/NX8.0/ugphoto/true_shading
+    UGII_MAX_FACETING_SCALE          125.0
+    UGII_SDI_BASE                    /Applications/Siemens/NX8.0/nxplot
+    UGII_CGM2PDF                     /Applications/Siemens/NX8.0/nxplot/bin/pdf
+    UGII_SDI_OUTPUT_DIR              /tmp
+    UGII_SDI_PS_PAGE_SIZE            1
+    STEP203UG_DIR                    /Applications/Siemens/NX8.0/step203ug/
+    STEP214UG_DIR                    /Applications/Siemens/NX8.0/step214ug/
+    DXFDWG_DIR                       /Applications/Siemens/NX8.0/dxfdwg/
+    IGES_DIR                         /Applications/Siemens/NX8.0/iges/
+    UGTO2D_DIR                       /Applications/Siemens/NX8.0/ugto2d/
+    UGII_CATIAV5_DIR                 /Applications/Siemens/NX8.0/catiav5/
+    UGII_NXPROE_DIR                  /Applications/Siemens/NX8.0/nxproe/
+    UGII_CATIA_DIR                   /Applications/Siemens/NX8.0/ugcatia/
+    UGII_UGMANAGER_DIR               /Applications/Siemens/NX8.0/ugmanager
+    UGII_UGMGR_ATTR_SYNC             NEW
+    UGII_MSC_NASTRAN                 /msc/bin/nastran.so
+    UGII_NX_NASTRAN                  /Applications/Siemens/NX8.0/nxnastran/bin/nastran
+    UGII_MSC_NASTRAN_VERSION         2005
+    UGII_NX_NASTRAN_VERSION          8.1
+    UGII_ANSYS                       /ansys_inc/ansys100/sun/v100/ansys/bin/ansys100.so
+    UGII_ANSYS_VERSION               10
+    UGII_ANSYS_PRODUCT               ane3fl
+    UGII_ABAQUS                      /abaqus/sun/6.5-6/exec/abq662.exe
+    UGII_ABAQUS_VERSION              6.5
+    UGII_TMG_DIR                     /Applications/Siemens/NX8.0/nxcae_extras/tmg
+    UGII_CONVERT_OLD_MOTION_CONTACTS 0
+    UGII_CREATE_OLD_MOTION_CONTACTS  0
+    UGII_GDT_DIR                     /Applications/Siemens/NX8.0/ugii/gdt_files
+    QUICKSTACK_DIR                   /Applications/Siemens/NX8.0/tolstackup/ugquickstack
+    UGII_QS_DEFS_DIR                 /Applications/Siemens/NX8.0/tolstackup/ugquickstack/application
+    TOLSTACKUP_DIR                   /Applications/Siemens/NX8.0/tolstackup
+    UGII_TSV_DEFS_DIR                /Applications/Siemens/NX8.0/tolstackup/application
+    UGII_ANNOTATION_TEMPLATE_DIR     /Applications/Siemens/NX8.0/ugii/inh_files/
+    UGII_TABLE_TEMPLATES             /Applications/Siemens/NX8.0/ugii/table_files
+    UGII_UPDATE_ALL_ID_SYMBOLS_WITH_PLIST 1
+    UGII_SURFACE_FINISH              OFF
+    UF_MF_PA_PATH                    /usr/moldflow/mpa300/bin
+    UF_MF_PA_FACET_TOL               0.05
+    UF_MF_PA_MAX_EDGE                10.0
+    UF_MF_PA_STL_DIR                 
+    UF_MF_PA_STL_SUF                 slp
+    UGPROCESS_AID                    /Applications/Siemens/NX8.0/ugprocess_aid
+    UGII_PROCESS_AID_DIR             /Applications/Siemens/NX8.0/ugprocess_aid
+    UGII_FEAT_FAILURE_REPORT_TEMPLATE_FILE /Applications/Siemens/NX8.0/bin//xsl/FeatureFailureReportTemplate.xsl
+    UGII_ONESTEP_ANALYSIS_TEMPLATE_FILE /Applications/Siemens/NX8.0/bin//xsl/OnestepAnalysisTemplate.xsl
+    UGAUTOMOTIVE_DIR                 /Applications/Siemens/NX8.0/ugautomotive
+    UGBODYDES_DIR                    /Applications/Siemens/NX8.0/ugautomotive/bodydes
+    UGDIEDES_DIR                     /Applications/Siemens/NX8.0/ugautomotive/diedes
+    UGDIEENG_DIR                     /Applications/Siemens/NX8.0/ugautomotive/dieeng
+    UG_VPACK_DIR                     /Applications/Siemens/NX8.0/ugautomotive/packaging
+    AUTOSTAMPING_DATA_DIR            /Applications/Siemens/NX8.0/ugautomotive/diedes
+    UGII_VD_WS_REQ_XML_FILE          /Applications/Siemens/NX8.0/ugautomotive/packaging\requirements\windshield_vision_zones_requirement_text.xml
+    UGII_VD_APO_REQ_XML_FILE         /Applications/Siemens/NX8.0/ugautomotive/packaging\requirements\a_pillar_obstruction_requirement_text.xml
+    UGII_VD_MC_REQ_XML_FILE          /Applications/Siemens/NX8.0/ugautomotive/packaging\requirements\mirror_certification_requirement_text.xml
+    UGII_VD_DFV_REQ_XML_FILE         /Applications/Siemens/NX8.0/ugautomotive/packaging\requirements\direct_field_view_requirement_text.xml
+    UGII_VD_DP_REQ_XML_FILE          /Applications/Siemens/NX8.0/ugautomotive/packaging\requirements\driver_posture_requirement_text.xml
+    UGII_VD_JOINT_REQ_XML_FILE       /Applications/Siemens/NX8.0/ugautomotive/packaging\requirements\manikin_joint_angle_requirement_text.xml
+    UGDIEDES_STANDARD_DIR            /Applications/Siemens/NX8.0/ugautomotive/diedes
+    UG_VD_DEFAULTS_FILE              /Applications/Siemens/NX8.0/ugautomotive/packaging/ug_vd.def
+    NXSHIP_DIR                       /Applications/Siemens/NX8.0/nxship
+    NXSHIP_GSD_DIR                   /Applications/Siemens/NX8.0/nxship/shipgsd
+    NXSHIP_CONFIG_DIR                /Applications/Siemens/NX8.0/nxship/data
+    UGII_JAVA_HOME                   /System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home
+    UGII_JVM_OPTIONS                 
+    UGII_CLASSPATH                   
+    PVTRANSUI_DIR                    /Applications/Siemens/NX8.0/pvtrans
+    UGII_DRAFTING_STANDARD_DIR       /Applications/Siemens/NX8.0/ugii/drafting_standards
+    UGII_LOCAL_USER_DRAFTING_STANDARD_DIR /Users/marcel/.nx80
+    UGII_PMI_DIR                     /Applications/Siemens/NX8.0/ugii/pmi
+    UGII_CAE_AFUAPP                  /Applications/Siemens/NX8.0/ugstructures/ftk/afuapp.jar
+    UGII_SCREW_CLEARANCE_HOLE_STANDARD_DIR /Applications/Siemens/NX8.0/ugii/modeling_standards
+    UGII_THREADED_HOLE_STANDARD_DIR  /Applications/Siemens/NX8.0/ugii/modeling_standards
+    UGII_ENABLE_HOLE_SERIES          1
+    UGII_DRILL_SIZE_HOLE_STANDARD_DIR /Applications/Siemens/NX8.0/ugii/modeling_standards
+    UGII_SHIP_DRAFTING_DIR           /Applications/Siemens/NX8.0/ugii/shipdrafting
+    UGII_SHIP_DRAFTING_CONFIG_DIR    /Applications/Siemens/NX8.0/ugii/shipdrafting/application
+    UGII_SHIP_DRAFTING_ANNOTATION_MAPPING /Applications/Siemens/NX8.0/ugii/shipdrafting/XML/ship_annotation_mapping_file.xml
+    UGII_SHIP_DRAFTING_AREACENTERLINES_MAPPING /Applications/Siemens/NX8.0/ugii/shipdrafting/XML/ship_area_centerline_mapping_file.xml
+    UGII_SHIP_DRAFTING_DRAFTINGLINES_MAPPING /Applications/Siemens/NX8.0/ugii/shipdrafting/XML/ship_drafting_line_mapping_file.xml
+    UGII_SHIP_DRAFTING_SYMBOLS_MAPPING /Applications/Siemens/NX8.0/ugii/shipdrafting/XML/ship_symbols_mapping_file.xml
+    UGII_SHIP_DRAFTING_ANNOTATION_SYMBOLS /Applications/Siemens/NX8.0/ugii/shipdrafting/symbol/ug_drafting_shipbuilding_default_symbols.sbf
+    UGII_ROOT_DIR                    /Applications/Siemens/NX8.0/bin/
+    HOME                             /Users/marcel
+    UGII_BASE_DIR                    /Applications/Siemens/NX8.0
+NX_VERSION=8.0.3.4
+=====================
+Versions of DLLs are:
+=====================
+    /Applications/Siemens/NX8.0/ugii/libpvmtoolkit.dylib 0x138abb000 0x138abb000
+    /Applications/Siemens/NX8.0/ugii/libVTK.dylib    0x138738000 0x138738000
+    /Applications/Siemens/NX8.0/ugii/libnxvtk.dylib  0x13867b000 0x13867b000
+    /Applications/Siemens/NX8.0/ugii/libattr.dylib   0x137648000 0x137648000
+    /System/Library/TextEncodings/Unicode Encodings.bundle/Contents/MacOS/Unicode Encodings 0x1343f6000 0x1343f6000
+    /Applications/Siemens/NX8.0/ugii/ugxml.dylib     0x134500000 0x134500000
+    /Applications/Siemens/NX8.0/ugii/libpdwdes.dylib 0x132668000 0x132668000
+    /Applications/Siemens/NX8.0/ugii/libmwdes.dylib  0x131e0a000 0x131e0a000
+    /Applications/Siemens/NX8.0/ugii/libuicomp.dylib 0x1317b9000 0x1317b9000
+    /System/Library/Frameworks/CoreData.framework/Versions/A/CoreData 0x7fff93ad1000 0xb8a1000
+    /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Frameworks/CommerceCore.framework/Versions/A/CommerceCore 0x7fff8f3ef000 0xb8a1000
+    /System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation 0x7fff8bb33000 0xb8a1000
+    /System/Library/Frameworks/vecLib.framework/Versions/A/vecLib 0x7fff95614000 0xb8a1000
+    /System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio 0x7fff8fd03000 0xb8a1000
+    /System/Library/PrivateFrameworks/ChunkingLibrary.framework/Versions/A/ChunkingLibrary 0x7fff94162000 0xb8a1000
+    /System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement 0x7fff8edca000 0xb8a1000
+    /System/Library/PrivateFrameworks/Ubiquity.framework/Versions/A/Ubiquity 0x7fff92604000 0xb8a1000
+    /System/Library/PrivateFrameworks/AppleFSCompression.framework/Versions/A/AppleFSCompression 0x7fff8ed6d000 0xb8a1000
+    /System/Library/PrivateFrameworks/FaceCoreLight.framework/Versions/A/FaceCoreLight 0x7fff8cb46000 0xb8a1000
+    /System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL 0x7fff8bad8000 0xb8a1000
+    /System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport 0x7fff92ade000 0xb8a1000
+    /System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/ScalableUserInterface.framework/Versions/A/ScalableUserInterface 0x7fff92a86000 0xb8a1000
+    /System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/CoreImage.framework/Versions/A/CoreImage 0x7fff9750f000 0xb8a1000
+    /System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo 0x7fff8d27a000 0xb8a1000
+    /System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom 0x7fff8f51a000 0xb8a1000
+    /System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport 0x7fff8f503000 0xb8a1000
+    /System/Library/PrivateFrameworks/FamilyControls.framework/Versions/A/FamilyControls 0x7fff96fb4000 0xb8a1000
+    /System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox 0x7fff92924000 0xb8a1000
+    /System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv 0x7fff8bf53000 0xb8a1000
+    /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore 0x7fff96ce3000 0xb8a1000
+    /System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI 0x7fff92f54000 0xb8a1000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework/Versions/A/SpeechRecognition 0x7fff911f1000 0xb8a1000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SecurityHI.framework/Versions/A/SecurityHI 0x7fff95611000 0xb8a1000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Print.framework/Versions/A/Print 0x7fff9561c000 0xb8a1000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework/Versions/A/OpenScripting 0x7fff969db000 0xb8a1000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Ink.framework/Versions/A/Ink 0x7fff91897000 0xb8a1000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/ImageCapture.framework/Versions/A/ImageCapture 0x7fff8b9e3000 0xb8a1000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox 0x7fff8c72e000 0xb8a1000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework/Versions/A/Help 0x7fff9822a000 0xb8a1000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CommonPanels.framework/Versions/A/CommonPanels 0x7fff8f71f000 0xb8a1000
+    /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libCoreVMClient.dylib 0x7fff95617000 0xb8a1000
+    /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libCVMSPluginSupport.dylib 0x7fff920e4000 0xb8a1000
+    /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLImage.dylib 0x7fff91550000 0xb8a1000
+    /System/Library/PrivateFrameworks/CommonAuth.framework/Versions/A/CommonAuth 0x7fff9685d000 0xb8a1000
+    /System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory 0x7fff8f3e9000 0xb8a1000
+    /System/Library/PrivateFrameworks/TrustEvaluationAgent.framework/Versions/A/TrustEvaluationAgent 0x7fff91237000 0xb8a1000
+    /System/Library/PrivateFrameworks/Heimdal.framework/Versions/A/Heimdal 0x7fff8fd77000 0xb8a1000
+    /usr/lib/libresolv.9.dylib                       0x7fff8dc19000 0xb8a1000
+    /System/Library/Frameworks/GSS.framework/Versions/A/GSS 0x7fff911fc000 0xb8a1000
+    /System/Library/Frameworks/Kerberos.framework/Versions/A/Kerberos 0x7fff9219e000 0xb8a1000
+    /usr/lib/libcups.2.dylib                         0x7fff9366d000 0xb8a1000
+    /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libRadiance.dylib 0x7fff92aeb000 0xb8a1000
+    /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libJP2.dylib 0x7fff96ab8000 0xb8a1000
+    /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libGIF.dylib 0x7fff93d16000 0xb8a1000
+    /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libPng.dylib 0x7fff8fe38000 0xb8a1000
+    /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libTIFF.dylib 0x7fff8f4ad000 0xb8a1000
+    /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libJPEG.dylib 0x7fff8e413000 0xb8a1000
+    /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib 0x7fff930d8000 0xb8a1000
+    /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib 0x7fff8efa5000 0xb8a1000
+    /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib 0x7fff8e376000 0xb8a1000
+    /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib 0x7fff8dd85000 0xb8a1000
+    /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib 0x7fff8edc9000 0xb8a1000
+    /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage 0x7fff9808e000 0xb8a1000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistry.dylib 0x7fff8caf5000 0xb8a1000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontParser.dylib 0x7fff93fba000 0xb8a1000
+    /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate 0x7fff8f4ac000 0xb8a1000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis 0x7fff8ddf0000 0xb8a1000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD 0x7fff96869000 0xb8a1000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore 0x7fff9112e000 0xb8a1000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis 0x7fff91c69000 0xb8a1000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices 0x7fff9158e000 0xb8a1000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync 0x7fff8f9dc000 0xb8a1000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS 0x7fff8bbb3000 0xb8a1000
+    /System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO 0x7fff93422000 0xb8a1000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics 0x7fff9561f000 0xb8a1000
+    /System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface 0x7fff8b9f9000 0xb8a1000
+    /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib 0x7fff9690b000 0xb8a1000
+    /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGFXShared.dylib 0x7fff8e53e000 0xb8a1000
+    /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib 0x7fff94117000 0xb8a1000
+    /System/Library/Frameworks/CoreText.framework/Versions/A/CoreText 0x7fff8fe59000 0xb8a1000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Carbon 0x7fff93d24000 0xb8a1000
+    /System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL 0x7fff96c70000 0xb8a1000
+    /opt/X11/lib/libX11-xcb.1.dylib                  0x1317b5000 0x1317b5000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices 0x7fff920e7000 0xb8a1000
+    /usr/lib/libXplugin.1.dylib                      0x13179e000 0x13179e000
+    /opt/X11/lib/libXdmcp.6.dylib                    0x131795000 0x131795000
+    /opt/X11/lib/libXau.6.dylib                      0x13178f000 0x13178f000
+    /opt/X11/lib/libxcb.1.dylib                      0x131768000 0x131768000
+    /usr/X11/lib/libXext.6.dylib                     0x131755000 0x131755000
+    /usr/X11/lib/libXp.6.dylib                       0x13174a000 0x13174a000
+    /usr/X11/lib/libICE.6.dylib                      0x13172d000 0x13172d000
+    /usr/X11/lib/libSM.6.dylib                       0x131723000 0x131723000
+    /Applications/Siemens/NX8.0/ugii/libvd.dylib     0x13150d000 0x13150d000
+    /usr/X11/lib/libGLU.1.dylib                      0x131493000 0x131493000
+    /usr/X11/lib/libGL.1.dylib                       0x131412000 0x131412000
+    /Applications/Siemens/NX8.0/ugii/libhdv.dylib    0x1313d9000 0x1313d9000
+    /Applications/Siemens/NX8.0/ugii/libpartmodule.dylib 0x131329000 0x131329000
+    /Applications/Siemens/NX8.0/ugii/libuifw.dylib   0x130ee8000 0x130ee8000
+    /Applications/Siemens/NX8.0/ugii/libicudata32.dylib 0x130594000 0x130594000
+    /Applications/Siemens/NX8.0/ugii/libicuuc32.dylib 0x1304b2000 0x1304b2000
+    /Applications/Siemens/NX8.0/ugii/librec.dylib    0x1303ce000 0x1303ce000
+    /Applications/Siemens/NX8.0/ugii/libftkdatamgr.dylib 0x13030b000 0x13030b000
+    /Applications/Siemens/NX8.0/ugii/libdurabilityom.dylib 0x1302aa000 0x1302aa000
+    /Applications/Siemens/NX8.0/ugii/libcorrelom.dylib 0x130233000 0x130233000
+    /Applications/Siemens/NX8.0/ugii/libtoscaoptom.dylib 0x1300c9000 0x1300c9000
+    /Applications/Siemens/NX8.0/ugii/libcaetopo.dylib 0x12ff43000 0x12ff43000
+    /usr/lib/libexpat.1.dylib                        0x7fff928f8000 0xb8a1000
+    /opt/X11/lib/libfreetype.6.dylib                 0x12fead000 0x12fead000
+    /usr/X11/lib/libfontconfig.1.dylib               0x12fe6f000 0x12fe6f000
+    /Applications/Siemens/NX8.0/ugii/libugmi.dylib   0x12fe26000 0x12fe26000
+    /Applications/Siemens/NX8.0/ugii/libcaetopodm.dylib 0x12fc3b000 0x12fc3b000
+    /Applications/Siemens/NX8.0/ugii/libpsbodyshop.dylib 0x12f85c000 0x12f85c000
+    /Applications/Siemens/NX8.0/ugii/libcamsboost.dylib 0x12f83b000 0x12f83b000
+    /Applications/Siemens/NX8.0/ugii/libfbmengine.dylib 0x12f3ca000 0x12f3ca000
+    /Applications/Siemens/NX8.0/ugii/libfrcpstoolkit.dylib 0x12f331000 0x12f331000
+    /Applications/Siemens/NX8.0/ugii/libtptopol.dylib 0x12f2c6000 0x12f2c6000
+    /Applications/Siemens/NX8.0/ugii/libtceng_utils.dylib 0x12f2bf000 0x12f2bf000
+    /Applications/Siemens/NX8.0/ugii/libcamsdemand.dylib 0x12f2b9000 0x12f2b9000
+    /Applications/Siemens/NX8.0/ugii/libpatch.dylib  0x12f2b5000 0x12f2b5000
+    /Applications/Siemens/NX8.0/ugii/libdmservices.dylib 0x12f1c0000 0x12f1c0000
+    /Applications/Siemens/NX8.0/ugii/libdmapplication.dylib 0x12f0a5000 0x12f0a5000
+    /usr/lib/libxslt.1.dylib                         0x7fff8ca79000 0xb8a1000
+    /System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework/Versions/A/CFOpenDirectory 0x7fff96aa0000 0xb8a1000
+    /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/GenerationalStorage 0x7fff90e76000 0xb8a1000
+    /usr/lib/libCRFSuite.dylib                       0x7fff95216000 0xb8a1000
+    /usr/lib/liblangid.dylib                         0x7fff92bc5000 0xb8a1000
+    /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation 0x7fff8e557000 0xb8a1000
+    /System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC 0x7fff9134a000 0xb8a1000
+    /System/Library/PrivateFrameworks/DataDetectorsCore.framework/Versions/A/DataDetectorsCore 0x7fff96535000 0xb8a1000
+    /System/Library/PrivateFrameworks/NetAuth.framework/Versions/A/NetAuth 0x7fff92a77000 0xb8a1000
+    /usr/lib/system/libkxld.dylib                    0x7fff91f0b000 0xb8a1000
+    /System/Library/Frameworks/NetFS.framework/Versions/A/NetFS 0x7fff969f9000 0xb8a1000
+    /System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration 0x7fff93396000 0xb8a1000
+    /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit 0x7fff8db69000 0xb8a1000
+    /usr/lib/libbz2.1.0.dylib                        0x7fff8db5b000 0xb8a1000
+    /usr/lib/libOpenScriptingUtil.dylib              0x7fff91936000 0xb8a1000
+    /usr/lib/libpam.2.dylib                          0x7fff96001000 0xb8a1000
+    /usr/lib/libxar.1.dylib                          0x7fff92914000 0xb8a1000
+    /usr/lib/libxml2.2.dylib                         0x7fff90d63000 0xb8a1000
+    /usr/lib/libsqlite3.dylib                        0x7fff8e43c000 0xb8a1000
+    /System/Library/Frameworks/Security.framework/Versions/A/Security 0x7fff92626000 0xb8a1000
+    /System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration 0x7fff953a0000 0xb8a1000
+    /usr/lib/libbsm.0.dylib                          0x7fff921c1000 0xb8a1000
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices 0x7fff8baa6000 0xb8a1000
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices 0x7fff8f3f9000 0xb8a1000
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE 0x7fff91191000 0xb8a1000
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit 0x7fff95480000 0xb8a1000
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices 0x7fff92aef000 0xb8a1000
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata 0x7fff91be7000 0xb8a1000
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore 0x7fff960bf000 0xb8a1000
+    /System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork 0x7fff921d5000 0xb8a1000
+    /usr/lib/system/libcorecrypto.dylib              0x7fff8c5ab000 0xb8a1000
+    /usr/lib/system/libxpc.dylib                     0x7fff96f91000 0xb8a1000
+    /usr/lib/system/libunwind.dylib                  0x7fff8ba2b000 0xb8a1000
+    /usr/lib/system/libunc.dylib                     0x7fff985d4000 0xb8a1000
+    /usr/lib/system/libsystem_sandbox.dylib          0x7fff8fd01000 0xb8a1000
+    /usr/lib/system/libsystem_notify.dylib           0x7fff9553c000 0xb8a1000
+    /usr/lib/system/libsystem_network.dylib          0x7fff8b998000 0xb8a1000
+    /usr/lib/system/libsystem_m.dylib                0x7fff8cf64000 0xb8a1000
+    /usr/lib/system/libsystem_kernel.dylib           0x7fff8ba3d000 0xb8a1000
+    /usr/lib/system/libsystem_info.dylib             0x7fff8faf7000 0xb8a1000
+    /usr/lib/system/libsystem_dnssd.dylib            0x7fff91f02000 0xb8a1000
+    /usr/lib/system/libsystem_c.dylib                0x7fff91c7d000 0xb8a1000
+    /usr/lib/system/libsystem_blocks.dylib           0x7fff8e912000 0xb8a1000
+    /usr/lib/system/libremovefile.dylib              0x7fff9118f000 0xb8a1000
+    /usr/lib/system/libquarantine.dylib              0x7fff932a9000 0xb8a1000
+    /usr/lib/system/libmacho.dylib                   0x7fff93d1b000 0xb8a1000
+    /usr/lib/system/liblaunch.dylib                  0x7fff95289000 0xb8a1000
+    /usr/lib/system/libkeymgr.dylib                  0x7fff8fd6d000 0xb8a1000
+    /usr/lib/system/libdyld.dylib                    0x7fff9609f000 0xb8a1000
+    /usr/lib/system/libdnsinfo.dylib                 0x7fff93d07000 0xb8a1000
+    /usr/lib/system/libdispatch.dylib                0x7fff92bc7000 0xb8a1000
+    /usr/lib/system/libcopyfile.dylib                0x7fff90e61000 0xb8a1000
+    /usr/lib/system/libcompiler_rt.dylib             0x7fff8fd67000 0xb8a1000
+    /usr/lib/system/libcommonCrypto.dylib            0x7fff9807f000 0xb8a1000
+    /usr/lib/system/libcache.dylib                   0x7fff9647c000 0xb8a1000
+    /usr/lib/libc++abi.dylib                         0x7fff8c6f2000 0xb8a1000
+    /usr/lib/libc++.1.dylib                          0x7fff8f55e000 0xb8a1000
+    /usr/lib/libz.1.dylib                            0x7fff977c9000 0xb8a1000
+    /usr/lib/libobjc.A.dylib                         0x7fff8dc39000 0xb8a1000
+    /usr/lib/libicucore.A.dylib                      0x7fff9134f000 0xb8a1000
+    /usr/lib/libDiagnosticMessagesClient.dylib       0x7fff92f52000 0xb8a1000
+    /usr/lib/libauto.dylib                           0x7fff96a01000 0xb8a1000
+    /usr/lib/libiconv.2.dylib                        0x7fff8c5fc000 0xb8a1000
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices 0x7fff965a3000 0xb8a1000
+    /Applications/Siemens/NX8.0/ugii/libxerces260.dylib 0x12ecc4000 0x12ecc4000
+    /usr/lib/libstdc++.6.dylib                       0x7fff98565000 0xb8a1000
+    /usr/X11/lib/libXt.6.dylib                       0x12ec66000 0x12ec66000
+    /usr/X11/lib/libX11.6.dylib                      0x12eb35000 0x12eb35000
+    /usr/OpenMotif-2.1.32-22i/lib/libXm.3.dylib      0x12e8f8000 0x12e8f8000
+    /usr/lib/libSystem.B.dylib                       0x7fff95615000 0xb8a1000
+    /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation 0x7fff93d40000 0xb8a1000
+    /Applications/Siemens/NX8.0/ugii/libumdmom.dylib 0x12e8d4000 0x12e8d4000
+    /Applications/Siemens/NX8.0/ugii/libmodlfreeform.dylib 0x12e7ad000 0x12e7ad000
+    /Applications/Siemens/NX8.0/ugii/libdurability.dylib 0x12e586000 0x12e586000
+    /Applications/Siemens/NX8.0/ugii/libmodlmath.dylib 0x12e32f000 0x12e32f000
+    /Applications/Siemens/NX8.0/ugii/libtcreq.dylib  0x12e31d000 0x12e31d000
+    /Applications/Siemens/NX8.0/ugii/libcmminspectutil.dylib 0x12e2cb000 0x12e2cb000
+    /Applications/Siemens/NX8.0/ugii/libcmminspectbuilderja.dylib 0x12dcef000 0x12dcef000
+    /Applications/Siemens/NX8.0/ugii/libcmminspect.dylib 0x12dc0e000 0x12dc0e000
+    /Applications/Siemens/NX8.0/ugii/libcaeideal.dylib 0x12dbb9000 0x12dbb9000
+    /Applications/Siemens/NX8.0/ugii/libcaelang.dylib 0x12db74000 0x12db74000
+    /Applications/Siemens/NX8.0/ugii/libcoreblockdata.dylib 0x12d785000 0x12d785000
+    /Applications/Siemens/NX8.0/ugii/libautomotivebuilders.dylib 0x12d333000 0x12d333000
+    /Applications/Siemens/NX8.0/ugii/libfasthidden.dylib 0x12d244000 0x12d244000
+    /Applications/Siemens/NX8.0/ugii/libfacetstore.dylib 0x12d236000 0x12d236000
+    /Applications/Siemens/NX8.0/ugii/libuifldutils.dylib 0x12d22c000 0x12d22c000
+    /Applications/Siemens/NX8.0/ugii/libcorrel.dylib 0x12cf82000 0x12cf82000
+    /Applications/Siemens/NX8.0/ugii/libumdmint.dylib 0x12cd1b000 0x12cd1b000
+    /Applications/Siemens/NX8.0/ugii/libew.dylib     0x12ccef000 0x12ccef000
+    /Applications/Siemens/NX8.0/ugii/libanalysis.dylib 0x12cc88000 0x12cc88000
+    /Applications/Siemens/NX8.0/ugii/libnxvki.dylib  0x12cc61000 0x12cc61000
+    /Applications/Siemens/NX8.0/ugii/libkrunavint.dylib 0x12cabf000 0x12cabf000
+    /Applications/Siemens/NX8.0/ugii/libkruint.dylib 0x12ca98000 0x12ca98000
+    /Applications/Siemens/NX8.0/ugii/libtoolingutils.dylib 0x12c9e0000 0x12c9e0000
+    /Applications/Siemens/NX8.0/ugii/libkru.dylib    0x12c6b4000 0x12c6b4000
+    /Applications/Siemens/NX8.0/ugii/libnxc.dylib    0x12c68c000 0x12c68c000
+    /Applications/Siemens/NX8.0/ugii/libclipboardops.dylib 0x12c64d000 0x12c64d000
+    /Applications/Siemens/NX8.0/ugii/libfeaturerecognition.dylib 0x12c636000 0x12c636000
+    /Applications/Siemens/NX8.0/ugii/libdrafting.dylib 0x12c3ba000 0x12c3ba000
+    /Applications/Siemens/NX8.0/ugii/libftkint.dylib 0x12c346000 0x12c346000
+    /Applications/Siemens/NX8.0/ugii/libftkom.dylib  0x12c304000 0x12c304000
+    /Applications/Siemens/NX8.0/ugii/librasol.dylib  0x12c1ee000 0x12c1ee000
+    /Applications/Siemens/NX8.0/ugii/libhmpack.dylib 0x12c16c000 0x12c16c000
+    /Applications/Siemens/NX8.0/ugii/libop2utils.dylib 0x12c12d000 0x12c12d000
+    /Applications/Siemens/NX8.0/ugii/libraom.dylib   0x12c036000 0x12c036000
+    /Applications/Siemens/NX8.0/ugii/libra.dylib     0x12bc60000 0x12bc60000
+    /Applications/Siemens/NX8.0/ugii/libjatest.dylib 0x12b9ac000 0x12b9ac000
+    /Applications/Siemens/NX8.0/ugii/libmqccore.dylib 0x12b7dc000 0x12b7dc000
+    /Applications/Siemens/NX8.0/ugii/libschemalocator.dylib 0x12ad56000 0x12ad56000
+    /Applications/Siemens/NX8.0/ugii/libmold.dylib   0x12ac06000 0x12ac06000
+    /Applications/Siemens/NX8.0/ugii/libblend.dylib  0x12ab1a000 0x12ab1a000
+    /Applications/Siemens/NX8.0/ugii/libnxpos.dylib  0x12aa28000 0x12aa28000
+    /Applications/Siemens/NX8.0/ugii/libpmiint.dylib 0x12a9c8000 0x12a9c8000
+    /Applications/Siemens/NX8.0/ugii/libaerosm.dylib 0x12a83c000 0x12a83c000
+    /Applications/Siemens/NX8.0/ugii/libship.dylib   0x129792000 0x129792000
+    /Applications/Siemens/NX8.0/ugii/libshipint.dylib 0x129770000 0x129770000
+    /Applications/Siemens/NX8.0/ugii/libpkp.dylib    0x12966a000 0x12966a000
+    /Applications/Siemens/NX8.0/ugii/libpmi.dylib    0x1285e9000 0x1285e9000
+    /Applications/Siemens/NX8.0/ugii/libcompos.dylib 0x128401000 0x128401000
+    /Applications/Siemens/NX8.0/ugii/libgenpos.dylib 0x12832a000 0x12832a000
+    /Applications/Siemens/NX8.0/ugii/libvsweep.dylib 0x128218000 0x128218000
+    /Applications/Siemens/NX8.0/ugii/libhm.dylib     0x12808a000 0x12808a000
+    /Applications/Siemens/NX8.0/ugii/libwvint.dylib  0x128052000 0x128052000
+    /Applications/Siemens/NX8.0/ugii/libweld.dylib   0x127bac000 0x127bac000
+    /Applications/Siemens/NX8.0/ugii/libvdac.dylib   0x127b0f000 0x127b0f000
+    /Applications/Siemens/NX8.0/ugii/libugutilsint.dylib 0x1273e6000 0x1273e6000
+    /Applications/Siemens/NX8.0/ugii/libugutils.dylib 0x127224000 0x127224000
+    /Applications/Siemens/NX8.0/ugii/libugui.dylib   0x124323000 0x124323000
+    /Applications/Siemens/NX8.0/ugii/libugmrint.dylib 0x124110000 0x124110000
+    /Applications/Siemens/NX8.0/ugii/libugmr.dylib   0x123bbe000 0x123bbe000
+    /Applications/Siemens/NX8.0/ugii/libugmath.dylib 0x123aea000 0x123aea000
+    /Applications/Siemens/NX8.0/ugii/libtl_schema.dylib 0x123acc000 0x123acc000
+    /Applications/Siemens/NX8.0/ugii/libxyplotint.dylib 0x123a6c000 0x123a6c000
+    /Applications/Siemens/NX8.0/ugii/libxyplot.dylib 0x1237b5000 0x1237b5000
+    /Applications/Siemens/NX8.0/ugii/libfnutil.dylib 0x1237a4000 0x1237a4000
+    /Applications/Siemens/NX8.0/ugii/libftkfor.dylib 0x123775000 0x123775000
+    /Applications/Siemens/NX8.0/ugii/libftkfac.dylib 0x12376f000 0x12376f000
+    /Applications/Siemens/NX8.0/ugii/libadflib.dylib 0x12373d000 0x12373d000
+    /Applications/Siemens/NX8.0/ugii/libftkutil.dylib 0x123673000 0x123673000
+    /Applications/Siemens/NX8.0/ugii/libftknavint.dylib 0x123599000 0x123599000
+    /Applications/Siemens/NX8.0/ugii/libuginitint.dylib 0x123347000 0x123347000
+    /Applications/Siemens/NX8.0/ugii/libuginit.dylib 0x123300000 0x123300000
+    /Applications/Siemens/NX8.0/ugii/libturnint.dylib 0x1231c0000 0x1231c0000
+    /Applications/Siemens/NX8.0/ugii/libtline.dylib  0x123190000 0x123190000
+    /Applications/Siemens/NX8.0/ugii/libtableint.dylib 0x123123000 0x123123000
+    /Applications/Siemens/NX8.0/ugii/libtable.dylib  0x122f35000 0x122f35000
+    /Applications/Siemens/NX8.0/ugii/libsyss.dylib   0x1227f7000 0x1227f7000
+    /Applications/Siemens/NX8.0/ugii/libstylerint.dylib 0x12264a000 0x12264a000
+    /Applications/Siemens/NX8.0/ugii/libsprdint.dylib 0x122581000 0x122581000
+    /Applications/Siemens/NX8.0/ugii/libsmsputil.dylib 0x122526000 0x122526000
+    /Applications/Siemens/NX8.0/ugii/libsmspint.dylib 0x1224a9000 0x1224a9000
+    /Applications/Siemens/NX8.0/ugii/libsmsp.dylib   0x1222c0000 0x1222c0000
+    /Applications/Siemens/NX8.0/ugii/libsmmint.dylib 0x122289000 0x122289000
+    /Applications/Siemens/NX8.0/ugii/libsmdpk.dylib  0x12221f000 0x12221f000
+    /Applications/Siemens/NX8.0/ugii/libsmdint.dylib 0x121f39000 0x121f39000
+    /Applications/Siemens/NX8.0/ugii/libsmd.dylib    0x1217e1000 0x1217e1000
+    /Applications/Siemens/NX8.0/ugii/libsketint.dylib 0x12162f000 0x12162f000
+    /Applications/Siemens/NX8.0/ugii/libsimsja.dylib 0x121593000 0x121593000
+    /Applications/Siemens/NX8.0/ugii/libsims.dylib   0x1214ac000 0x1214ac000
+    /Applications/Siemens/NX8.0/ugii/libsbsmint.dylib 0x121488000 0x121488000
+    /Applications/Siemens/NX8.0/ugii/libtemplate.dylib 0x121431000 0x121431000
+    /Applications/Siemens/NX8.0/ugii/libsbsm.dylib   0x120b2e000 0x120b2e000
+    /Applications/Siemens/NX8.0/ugii/libspsdint.dylib 0x120b0c000 0x120b0c000
+    /Applications/Siemens/NX8.0/ugii/libroutja.dylib 0x1203c7000 0x1203c7000
+    /Applications/Siemens/NX8.0/ugii/libroutint.dylib 0x11ffe2000 0x11ffe2000
+    /Applications/Siemens/NX8.0/ugii/librout.dylib   0x11f21e000 0x11f21e000
+    /Applications/Siemens/NX8.0/ugii/libpgs.dylib    0x11f0c6000 0x11f0c6000
+    /Applications/Siemens/NX8.0/ugii/libptr.dylib    0x11f04f000 0x11f04f000
+    /Applications/Siemens/NX8.0/ugii/libpskernel.dylib 0x11c958000 0x11c958000
+    /Applications/Siemens/NX8.0/ugii/libpmanint.dylib 0x11c8d0000 0x11c8d0000
+    /Applications/Siemens/NX8.0/ugii/libpman.dylib   0x11c84a000 0x11c84a000
+    /Applications/Siemens/NX8.0/ugii/libpdi.dylib    0x11c6ab000 0x11c6ab000
+    /Applications/Siemens/NX8.0/ugii/libpartnavint.dylib 0x11c3c2000 0x11c3c2000
+    /Applications/Siemens/NX8.0/ugii/libpartnav.dylib 0x11c3a4000 0x11c3a4000
+    /Applications/Siemens/NX8.0/ugii/libpartconv.dylib 0x11c060000 0x11c060000
+    /Applications/Siemens/NX8.0/ugii/libmswpint.dylib 0x11c056000 0x11c056000
+    /Applications/Siemens/NX8.0/ugii/libmswp.dylib   0x11bf92000 0x11bf92000
+    /Applications/Siemens/NX8.0/ugii/libmillint.dylib 0x11bc58000 0x11bc58000
+    /Applications/Siemens/NX8.0/ugii/liblwksint.dylib 0x11b9ed000 0x11b9ed000
+    /Applications/Siemens/NX8.0/ugii/liblwks.dylib   0x11b72f000 0x11b72f000
+    /Applications/Siemens/NX8.0/ugii/liblathint.dylib 0x11b6f2000 0x11b6f2000
+    /Applications/Siemens/NX8.0/ugii/libklo.dylib    0x11b506000 0x11b506000
+    /Applications/Siemens/NX8.0/ugii/libkfint.dylib  0x11b416000 0x11b416000
+    /Applications/Siemens/NX8.0/ugii/libjam.dylib    0x11ac21000 0x11ac21000
+    /Applications/Siemens/NX8.0/ugii/libjaimporters.dylib 0x11abbf000 0x11abbf000
+    /Applications/Siemens/NX8.0/ugii/libjafeatures.dylib 0x11a989000 0x11a989000
+    /Applications/Siemens/NX8.0/ugii/libinterop.dylib 0x11a944000 0x11a944000
+    /Applications/Siemens/NX8.0/ugii/libimage.dylib  0x11a897000 0x11a897000
+    /Applications/Siemens/NX8.0/ugii/libhidl.dylib   0x11a817000 0x11a817000
+    /Applications/Siemens/NX8.0/ugii/libhelpint.dylib 0x11a633000 0x11a633000
+    /Applications/Siemens/NX8.0/ugii/libgwyint.dylib 0x11a3f9000 0x11a3f9000
+    /Applications/Siemens/NX8.0/ugii/libgraphics_driver.dylib 0x11a23a000 0x11a23a000
+    /Applications/Siemens/NX8.0/ugii/libgeomutil.dylib 0x11a0b2000 0x11a0b2000
+    /Applications/Siemens/NX8.0/ugii/libgeomint.dylib 0x119cf0000 0x119cf0000
+    /Applications/Siemens/NX8.0/ugii/libgdtint.dylib 0x119aa5000 0x119aa5000
+    /Applications/Siemens/NX8.0/ugii/libgdt.dylib    0x119508000 0x119508000
+    /Applications/Siemens/NX8.0/ugii/libfusion.dylib 0x119438000 0x119438000
+    /Applications/Siemens/NX8.0/ugii/libflat.dylib   0x119373000 0x119373000
+    /Applications/Siemens/NX8.0/ugii/libcaepost.dylib 0x118f89000 0x118f89000
+    /Applications/Siemens/NX8.0/ugii/libfemgint.dylib 0x1186c2000 0x1186c2000
+    /Applications/Siemens/NX8.0/ugii/libfemhtml.dylib 0x118691000 0x118691000
+    /Applications/Siemens/NX8.0/ugii/libumdm.dylib   0x117bc6000 0x117bc6000
+    /Applications/Siemens/NX8.0/ugii/libphymat.dylib 0x1179f2000 0x1179f2000
+    /Applications/Siemens/NX8.0/ugii/libfemgom.dylib 0x11695c000 0x11695c000
+    /Applications/Siemens/NX8.0/ugii/libcaemigrate.dylib 0x1166e5000 0x1166e5000
+    /Applications/Siemens/NX8.0/ugii/libcaemesh.dylib 0x116585000 0x116585000
+    /Applications/Siemens/NX8.0/ugii/libfemg.dylib   0x114ca1000 0x114ca1000
+    /Applications/Siemens/NX8.0/ugii/libfeatutils.dylib 0x114a8f000 0x114a8f000
+    /Applications/Siemens/NX8.0/ugii/libpartdisp.dylib 0x114840000 0x114840000
+    /Applications/Siemens/NX8.0/ugii/libdrawint.dylib 0x11468d000 0x11468d000
+    /Applications/Siemens/NX8.0/ugii/libdraftingint.dylib 0x1145fa000 0x1145fa000
+    /Applications/Siemens/NX8.0/ugii/libdman.dylib   0x114564000 0x114564000
+    /Applications/Siemens/NX8.0/ugii/libcustdef.dylib 0x11440b000 0x11440b000
+    /Applications/Siemens/NX8.0/ugii/libcsfadp.dylib 0x1143a2000 0x1143a2000
+    /Applications/Siemens/NX8.0/ugii/libcsf.dylib    0x1140bc000 0x1140bc000
+    /Applications/Siemens/NX8.0/ugii/libmodlint.dylib 0x113891000 0x113891000
+    /Applications/Siemens/NX8.0/ugii/libcmod.dylib   0x11315c000 0x11315c000
+    /Applications/Siemens/NX8.0/ugii/libassyutilsint.dylib 0x1130bd000 0x1130bd000
+    /Applications/Siemens/NX8.0/ugii/libassybox.dylib 0x112fcf000 0x112fcf000
+    /Applications/Siemens/NX8.0/ugii/libfacet.dylib  0x112aad000 0x112aad000
+    /Applications/Siemens/NX8.0/ugii/libassypos.dylib 0x112a30000 0x112a30000
+    /Applications/Siemens/NX8.0/ugii/libocc.dylib    0x11247e000 0x11247e000
+    /Applications/Siemens/NX8.0/ugii/libsket.dylib   0x111f6f000 0x111f6f000
+    /Applications/Siemens/NX8.0/ugii/libpartmodl.dylib 0x110634000 0x110634000
+    /Applications/Siemens/NX8.0/ugii/libpartutils.dylib 0x10fe4d000 0x10fe4d000
+    /Applications/Siemens/NX8.0/ugii/libpart.dylib   0x10ec39000 0x10ec39000
+    /Applications/Siemens/NX8.0/ugii/libmodlgeom.dylib 0x10dd9c000 0x10dd9c000
+    /Applications/Siemens/NX8.0/ugii/libmodl.dylib   0x10b76b000 0x10b76b000
+    /Applications/Siemens/NX8.0/ugii/libgeom.dylib   0x10b05e000 0x10b05e000
+    /Applications/Siemens/NX8.0/ugii/libevaluator.dylib 0x10ac8c000 0x10ac8c000
+    /Applications/Siemens/NX8.0/ugii/libdraw.dylib   0x10a0ac000 0x10a0ac000
+    /Applications/Siemens/NX8.0/ugii/libdisp.dylib   0x1095a5000 0x1095a5000
+    /Applications/Siemens/NX8.0/ugii/libcaeutils.dylib 0x109501000 0x109501000
+    /Applications/Siemens/NX8.0/ugii/libautomotive.dylib 0x107e1a000 0x107e1a000
+    /Applications/Siemens/NX8.0/ugii/libassy.dylib   0x10787a000 0x10787a000
+    /Applications/Siemens/NX8.0/ugii/libcamsbuilder.dylib 0x106ee8000 0x106ee8000
+    /Applications/Siemens/NX8.0/ugii/libcamsja.dylib 0x105c63000 0x105c63000
+    /Applications/Siemens/NX8.0/ugii/libcamsutilint.dylib 0x105519000 0x105519000
+    /Applications/Siemens/NX8.0/ugii/libcamsutil2.dylib 0x105491000 0x105491000
+    /Applications/Siemens/NX8.0/ugii/libcamsutil1.dylib 0x1052b1000 0x1052b1000
+    /Applications/Siemens/NX8.0/ugii/libcamssimint.dylib 0x10524a000 0x10524a000
+    /Applications/Siemens/NX8.0/ugii/libcamcse.dylib 0x104d2d000 0x104d2d000
+    /Applications/Siemens/NX8.0/ugii/libcamssim.dylib 0x104a7f000 0x104a7f000
+    /Applications/Siemens/NX8.0/ugii/libcamsscop.dylib 0x1049fe000 0x1049fe000
+    /Applications/Siemens/NX8.0/ugii/libcamsproc2.dylib 0x1049bd000 0x1049bd000
+    /Applications/Siemens/NX8.0/ugii/libcamsproc1.dylib 0x104008000 0x104008000
+    /Applications/Siemens/NX8.0/ugii/libcamsobj.dylib 0x103fee000 0x103fee000
+    /Applications/Siemens/NX8.0/ugii/libcamsmom.dylib 0x103f62000 0x103f62000
+    /Applications/Siemens/NX8.0/ugii/libcamsint.dylib 0x103caf000 0x103caf000
+    /Applications/Siemens/NX8.0/ugii/libcamsftr.dylib 0x10382b000 0x10382b000
+    /Applications/Siemens/NX8.0/ugii/libcams.dylib   0x1020fd000 0x1020fd000
+    /Applications/Siemens/NX8.0/ugii/libassyint.dylib 0x101a47000 0x101a47000
+    /Applications/Siemens/NX8.0/ugii/libasmo.dylib   0x1017d8000 0x1017d8000
+    /Applications/Siemens/NX8.0/ugii/libannutilsint.dylib 0x1016b1000 0x1016b1000
+    /Applications/Siemens/NX8.0/ugii/libannint.dylib 0x10132b000 0x10132b000
+    /Applications/Siemens/NX8.0/ugii/libann.dylib    0x100037000 0x100037000
+    /Applications/Siemens/NX8.0/ugii/ugraf           0x100000000 0x000000
+Processing /Volumes/cad-cam-daten/ug_settings/SiemensNX/site/startup/ugs_cae_templates.pax for File New Templates
+Processing /Volumes/cad-cam-daten/ug_settings/SiemensNX/site/startup/ugs_drawing_templates.pax for File New Templates
+Processing /Volumes/cad-cam-daten/ug_settings/SiemensNX/site/startup/ugs_manufacturing_templates.pax for File New Templates
+Processing /Volumes/cad-cam-daten/ug_settings/SiemensNX/site/startup/ugs_model_templates.pax for File New Templates
+Processing /Volumes/cad-cam-daten/ug_settings/SiemensNX/site/startup/ugs_sheet_templates.pax for File New Templates
+Processing /Applications/Siemens/NX8.0/bin/templates/ugs_inspection_templates.pax for File New Templates
+
+ Template part ${UGII_INSPECTION_TEMPLATE_PART_METRIC_DIR}insp_general_assy.prt not found. Ignoring template
+
+ Template part ${UGII_INSPECTION_TEMPLATE_PART_METRIC_DIR}insp_probe_assy.prt not found. Ignoring template
+
+ Template part ${UGII_INSPECTION_TEMPLATE_PART_ENGLISH_DIR}insp_general_assy.prt not found. Ignoring template
+
+ Template part ${UGII_INSPECTION_TEMPLATE_PART_ENGLISH_DIR}insp_probe_assy.prt not found. Ignoring template
+Unable to find PAX file for Modeling
+Unable to find PAX file for Simulation
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/treelist.dylib
+
+**************************pdw database version ******************************
+**                                                                         **
+**                     PDW DATABASE VERSION:  8.0                          **
+**                                                                         **
+*****************************************************************************
+
+**************************edw database version ******************************
+**                                                                         **
+**                     EDW DATABASE VERSION:  8.0                          **
+**                                                                         **
+*****************************************************************************
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/libuifw.dylib
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/libuicomp.dylib
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/libuicomp_modl.dylib
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/libuicomp_mswp.dylib
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/libpdmui.dylib
+Load Dialog Memory:   3.150 secs, Real time:  3.144 secs
+LAY_REG:: CANNOT_LOCATE_VALUE for <Dialog Bar>
+NX loaded /Applications/Siemens/NX8.0/ugii/menus/master.dtx file as INTERNAL data
+NX loaded /Users/marcel/Library/Application Support/UGS/NX80/user.mtx file as CUSTOM data
+*LOAD UBM TABLE*  TOTAL: 529, 529
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 296, 296
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 397, 693
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 304, 997
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 336, 1333
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 387, 1720
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 259, 1979
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 96, 2075
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 703, 2778
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 703, 3481
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 703, 4184
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 703, 4887
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 703, 5590
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 434, 6024
+*LOAD BMP TABLE* SIZE: 1 TOTAL: 841, 841
+*LOAD BMP TABLE* SIZE: 1 TOTAL: 847, 1688
+*LOAD BMP TABLE* SIZE: 1 TOTAL: 847, 2535
+*LOAD BMP TABLE* SIZE: 1 TOTAL: 396, 2931
+*LOAD BMP TABLE* SIZE: 3 TOTAL: 31, 31
+Validation passed for - /Applications/Siemens/NX8.0/ugweld/startup/weld_uf_startup.dylib 
+Native license authentication passed for /Applications/Siemens/NX8.0/ugweld/startup/weld_uf_startup.dylib
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugweld/startup/weld_uf_startup.dylib
+Number of types: 9
+Validation passed for - /Applications/Siemens/NX8.0/ugprocess_aid/startup/mpaw_uf_startup.dylib 
+Native license authentication passed for /Applications/Siemens/NX8.0/ugprocess_aid/startup/mpaw_uf_startup.dylib
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugprocess_aid/startup/mpaw_uf_startup.dylib
+Validation passed for - /Applications/Siemens/NX8.0/nxship/startup/libship_iuf_actions.dylib 
+Native license authentication passed for /Applications/Siemens/NX8.0/nxship/startup/libship_iuf_actions.dylib
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/nxship/startup/libship_iuf_actions.dylib
+MB_LOADED_MENU_FILE Using UGII_MAIN_MENU_FILE setting, successfully loaded menu file: /Applications/Siemens/NX8.0/ugii/menus/ug_main.men
+MB_LOADED_MENU_FILE Using UGII_VIEW_POPUP_MENU_FILE setting, successfully loaded menu file: /Applications/Siemens/NX8.0/ugii/menus/ug_view_popup.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/Siemens/NX8.0/ugalliance/site/startup/uf_mold_mf.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/Siemens/NX8.0/ugweld/startup/ug_weld.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/Siemens/NX8.0/mach/auxiliary/batch/startup/ug_cam_add_batch.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/Siemens/NX8.0/ugautomotive/bodydes/startup/bodydes_app.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/Siemens/NX8.0/ugautomotive/dieeng/startup/dieeng_app.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/Siemens/NX8.0/ugautomotive/diedes/startup/diedes_app.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/Siemens/NX8.0/ugautomotive/diedes/startup/presslinesim_app.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/Siemens/NX8.0/ugimw/startup/iware_integ.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/Siemens/NX8.0/ugautomotive/packaging/startup/ug_vd_app.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/Siemens/NX8.0/nxship/startup/ug_drafting_shipbuilding_app.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/Siemens/NX8.0/nxship/startup/ug_ship_app.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/Siemens/NX8.0/ugpcbxchange/startup/pcbm_app.men
+Number of colors not allocated for user interface: 0
+OpenGL EXTENSIONS SUPPORTED:
+    GL_ARB_multitexture            = 1
+    GL_ARB_shadow                  = 1
+    GL_ARB_depth_texture           = 1
+    GL_ARB_shadow_ambient          = 1
+    GL_NV_register_combiners       = 0
+    GL_EXT_blend_color             = 1
+    GL_ARB_vertex_program          = 1
+    GL_ARB_fragment_program        = 1
+    GL_EXT_framebuffer_object      = 1
+    GL_EXT_framebuffer_multisample = 1
+    GL_EXT_framebuffer_blit        = 1
+    GL_EXT_packed_depth_stencil    = 1
+WGL_ARB_extensions_string          = 0
+    WGL_ARB_pbuffer                = 0
+    WGL_ARB_pixel_format           = 0
+    WGL_ARB_render_texture         = 0
+    WGL_NV_render_depth_texture    = 0
+X server vendor:  The X.Org Foundation
+X vendor release:  11406000
+X11 version:  unknown
+Window identifier:  0x10000d5
+Window type:  0x19f (TrueColor)
+Window depth:  24
+Graphics device:  ATI Radeon HD 5870 OpenGL Engine
+Translucency method:  Alpha-blend translucency
+Maximum texture size:  512
+Stereo viewing:  Unavailable
+Full-scene antialiasing:  Available (8 samples per pixel)
+Texture cube map:  Available
+Non power of two texture:  Available
+Inter-object shadows:  Unavailable
+Disable Translucency is supported and disabled
+Backface Culling is supported and disabled
+Depth-Sorted Wireframe is supported and disabled
+Line Antialiasing is supported and enabled
+Edge Emphasis is supported and enabled
+
+GIT_CSR: XQueryBestCursor=1; Max Csr < 48x40: maxW=32; maxH=32.
+SpaceBall or SpaceMouse is attached
+Window Manager: Xquartz
+Found 21312 bitmaps in 0.05 seconds
+INTEROP: Establishing server
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/interop_server.dylib
+INTEROP: Established server at port 49761
+INTEROP: Establishing client-proxy for interoperating
+UGINTEROP: Registering modified function
+Playback is at level 5
+Macros resize flag is OFF
+Knowledge Fusion Navigator Column Headers NAME,On,200:VALUE,On,100:OBJECT_NAME,Off,100
+&MACRO NX 8.0.3.4
+&MACRO Macro Version 7.50
+&MACRO Macro List Language and Codeset: english 21
+&MACRO Created by marcel on Mon May 19 11:30:45 2014
+&MACRO Part Name Display Style: $FILENAME
+&MACRO Selection Parameters 1 2 0.229231 1
+&MACRO Display Parameters 1.000000 16.468750 10.260551 -1.000000 -0.623032 1.000000 0.623032
+&MACRO *****************
+Part Navigator Column Headings NAME,On,538FEATURE_TYPE,Off,200TIMESTAMP,Off,100LAYER,On,100STATE,Off,100OUT_OF_DATE,On,171CREATED,Off,100MODIFIED,Off,100COMMENT,On,100REQUIREMENT_ID,Off,100PART_NAME,Off,100VALUE,Off,100CREATEDBY,Off,100MODIFIEDBY,Off,100ALERTS,Off,100SHEET_NUMBER,Off,100SHEET_REVISION,Off,100
+Using PLMXML.
+Assemblies positioning interaction is set to Assembly Constraints
+Failed to restore previous Issue Management application state - defaulting to OFF
+On startup: filter nav OFF, unloaded ON, blanked ON, refset ON, not visually reported ON, more nodes ON
+Assembly Navigator Mode Normal
+Assembly Navigator Running Enabled
+Assembly Navigator Column Headers PART_NAME,On,477REQUIREMENT RESULT,Off,24INFO,On,36COMPONENT_NAME,Off,100FILE_NAME,Off,250WRITABLE,On,24MODIFIED,On,24POSITION,On,24COUNT,On,50REFERENCE_SET,On,119OUT_OF_DATE,Off,24FILE_DESCRIPTION,Off,75UNITS,Off,30MASS_LB,Off,50MASS_GM,Off,50MASS_KG,Off,50MASS_STATUS,Off,24COLOR,Off,50LAYER,Off,50SHAPE,Off,24CONFIG,Off,50POSITION_CONTROL,Off,100SUPPRESSION_CONTROL,Off,100FILTERED_NODE,Off,24MULTI_CAD,Off,24PRODUCT INTERFACES,Off,24ALERTS,Off,100CALLOUT,Off,50QUANTITY,Off,24CHECKMATE RESULT,Off,24REPRESENTATION,Off,150@E001_PART_LAENGE,On,97@E002_PART_BREITE,On,71@E003_PART_DICKE,On,61@PART_ARTIKEL,On,100@PART_COUNT,On,100@PART_MAT,On,100@PART_DATE,On,100@PART_TYP,On,100@FM_PART_LIST_ID,On,100
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/libXmHTML.dylib
+&MACRO DIALOG_BEGIN "Persistent Dialog" 7200 ! Persistent
+&MACRO BEG_ITEM  0 (1 BOOL 7200) = 0  ! ##01Detailed View
+&MACRO DIALOG_PERSISTENT_END 7200
+DEFAULT_ROLE::LOAD - Default Role from /Applications/Siemens/NX8.0/ugii/menus/roles/essentials.mtx file was loaded successfully
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/Siemens/NX8.0/ugii/menus/ug_nopart.men
+&MACRO CUSTOM HEADER 26 "ResourceBar" 0
+&MACRO CUSTOM 26 1 1 2021 ! Activate Reuse Library
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/libuicompkru.dylib
+Teamcenter Integration: capability PLM2007_Feature_Support is disabled
+The file (/Users/marcel/Library/Application Support/UGS/NX80/ReuseLibraryConfiguration.krx) doesn't exist.
+&MACRO FOCUS CHANGE IN 1
+&MACRO FOCUS CHANGE OUT 1
+&MACRO WINDOW RESIZE 1.000000 16.864583 10.896622 -1.000000 -0.646125 1.000000 0.646125
+&MACRO WINDOW RESIZE 1.000000 16.875000 10.594228 -1.000000 -0.627806 1.000000 0.627806
+&MACRO CUSTOM 26 1 5 2023 ! Activate History
+&MACRO MENU, 0, UG_FILE_NEW UG_GATEWAY_MAIN_MENUBAR ! <MB/Toolbar> 
+UNDO_UG: Recyclable status of mark 3  set to False 
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/libuicompgateway.dylib
+&MACRO ASK_ITEM 131072 (1 BTAB 0) = 1  !  
+&MACRO ASK_ITEM 851968 (1 OPTM 0) = 0  ! Stand-alone Part
+&MACRO ASK_ITEM 1048576 (1 OPTM 0) = 0  ! Millimeters
+&MACRO ASK_ITEM 2621440 (1 OPTM 0) = 0  ! Model
+&MACRO ASK_ITEM 4718592 (1 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 4915200 (1 STRN 0) = "/Volumes/cad-cam-daten/auftraege-in-arbeit"  ! Folder
+&MACRO ASK_ITEM 6029312 (1 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 7405568 (1 OPTM 0) = 0  ! Stand-alone Part
+&MACRO ASK_ITEM 7602176 (1 OPTM 0) = 0  ! Millimeters
+&MACRO ASK_ITEM 9175040 (1 OPTM 0) = 0  ! Model
+&MACRO ASK_ITEM 11272192 (1 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 11468800 (1 STRN 0) = "/Volumes/cad-cam-daten/auftraege-in-arbeit"  ! Folder
+&MACRO ASK_ITEM 12582912 (1 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 13959168 (1 OPTM 0) = 0  ! Stand-alone Part
+&MACRO ASK_ITEM 14155776 (1 OPTM 0) = 0  ! Millimeters
+&MACRO ASK_ITEM 15728640 (1 OPTM 0) = 0  ! Model
+&MACRO ASK_ITEM 17825792 (1 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 18022400 (1 STRN 0) = "/Volumes/cad-cam-daten/auftraege-in-arbeit"  ! Folder
+&MACRO ASK_ITEM 19136512 (1 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 20250626 (1 BOOL 0) = 1  ! Preview
+&MACRO ASK_ITEM 131072 (1 BTAB 0) = 1  !  
+&MACRO ASK_ITEM 851968 (1 OPTM 0) = 0  ! Stand-alone Part
+&MACRO ASK_ITEM 1048576 (1 OPTM 0) = 0  ! Millimeters
+&MACRO ASK_ITEM 2621440 (1 OPTM 0) = 0  ! Model
+&MACRO ASK_ITEM 4718592 (1 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 4915200 (1 STRN 0) = "/Volumes/cad-cam-daten/auftraege-in-arbeit"  ! Folder
+&MACRO ASK_ITEM 6029312 (0 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 7405568 (1 OPTM 0) = 0  ! Stand-alone Part
+&MACRO ASK_ITEM 7602176 (1 OPTM 0) = 0  ! Millimeters
+&MACRO ASK_ITEM 9175040 (1 OPTM 0) = 0  ! Model
+&MACRO ASK_ITEM 11272192 (1 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 11468800 (1 STRN 0) = "/Volumes/cad-cam-daten/auftraege-in-arbeit"  ! Folder
+&MACRO ASK_ITEM 12582912 (1 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 13959168 (1 OPTM 0) = 0  ! Stand-alone Part
+&MACRO ASK_ITEM 14155776 (1 OPTM 0) = 0  ! Millimeters
+&MACRO ASK_ITEM 15728640 (1 OPTM 0) = 0  ! Model
+&MACRO ASK_ITEM 17825792 (1 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 18022400 (1 STRN 0) = "/Volumes/cad-cam-daten/auftraege-in-arbeit"  ! Folder
+&MACRO ASK_ITEM 19136512 (1 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 20250626 (1 BOOL 0) = 1  ! Preview
+&MACRO ASK_ITEM 131072 (1 BTAB 0) = 1  !  
+&MACRO ASK_ITEM 851968 (1 OPTM 0) = 0  ! Stand-alone Part
+&MACRO ASK_ITEM 1048576 (1 OPTM 0) = 0  ! Millimeters
+&MACRO ASK_ITEM 2621440 (1 OPTM 0) = 0  ! Model
+&MACRO ASK_ITEM 4718592 (1 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 4915200 (1 STRN 0) = "/Volumes/cad-cam-daten/auftraege-in-arbeit"  ! Folder
+&MACRO ASK_ITEM 6029312 (0 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 7405568 (1 OPTM 0) = 0  ! Stand-alone Part
+&MACRO ASK_ITEM 7602176 (1 OPTM 0) = 0  ! Millimeters
+&MACRO ASK_ITEM 9175040 (1 OPTM 0) = 0  ! Model
+&MACRO ASK_ITEM 11272192 (1 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 11468800 (1 STRN 0) = "/Volumes/cad-cam-daten/auftraege-in-arbeit"  ! Folder
+&MACRO ASK_ITEM 12582912 (0 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 13959168 (1 OPTM 0) = 0  ! Stand-alone Part
+&MACRO ASK_ITEM 14155776 (1 OPTM 0) = 0  ! Millimeters
+&MACRO ASK_ITEM 15728640 (1 OPTM 0) = 0  ! Model
+&MACRO ASK_ITEM 17825792 (1 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 18022400 (1 STRN 0) = "/Volumes/cad-cam-daten/auftraege-in-arbeit"  ! Folder
+&MACRO ASK_ITEM 19136512 (1 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 20250626 (1 BOOL 0) = 1  ! Preview
+&MACRO ASK_ITEM 851968 (1 OPTM 0) = 0  ! Stand-alone Part
+&MACRO ASK_ITEM 851968 (1 OPTM 0) = 1  ! Reference Existing Part
+&MACRO ASK_ITEM 4718592 (1 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 4718592 (1 STRN 0) = "inspection_setup_1"  ! Name 
+&MACRO ASK_ITEM 11272192 (1 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 11272192 (1 STRN 0) = "model1.prt"  ! Name 
+&MACRO ASK_ITEM 17825792 (1 STRN 0) = ""  ! Name 
+&MACRO ASK_ITEM 17825792 (1 STRN 0) = "fem1.fem"  ! Name 
+&MACRO DIALOG_BEGIN "##84New" 0 ! DA2
+&MACRO BEG_ITEM 131072 (1 BTAB 0) = 4  !  
+&MACRO BEG_ITEM 851968 (0 OPTM 0) = 1  ! Reference Existing Part
+&MACRO BEG_ITEM 1048576 (1 OPTM 0) = 0  ! Millimeters
+&MACRO BEG_ITEM 2621440 (1 OPTM 0) = 0  ! Model
+&MACRO BEG_ITEM 4718592 (1 STRN 0) = "inspection_setup_1"  ! Name 
+&MACRO BEG_ITEM 4915200 (1 STRN 0) = "/Volumes/cad-cam-daten/auftraege-in-arbeit"  ! Folder
+&MACRO BEG_ITEM 6029312 (1 STRN 0) = ""  ! Name 
+&MACRO BEG_ITEM 7405568 (0 OPTM 0) = 0  ! Stand-alone Part
+&MACRO BEG_ITEM 7602176 (1 OPTM 0) = 0  ! Millimeters
+&MACRO BEG_ITEM 9175040 (1 OPTM 0) = 0  ! Model
+&MACRO BEG_ITEM 11272192 (1 STRN 0) = "model1.prt"  ! Name 
+&MACRO BEG_ITEM 11468800 (1 STRN 0) = "/Volumes/cad-cam-daten/auftraege-in-arbeit"  ! Folder
+&MACRO BEG_ITEM 12582912 (0 STRN 0) = ""  ! Name 
+&MACRO BEG_ITEM 13959168 (0 OPTM 0) = 0  ! Stand-alone Part
+&MACRO BEG_ITEM 14155776 (1 OPTM 0) = 0  ! Millimeters
+&MACRO BEG_ITEM 15728640 (1 OPTM 0) = 0  ! Model
+&MACRO BEG_ITEM 17825792 (1 STRN 0) = "fem1.fem"  ! Name 
+&MACRO BEG_ITEM 18022400 (1 STRN 0) = "/Volumes/cad-cam-daten/auftraege-in-arbeit"  ! Folder
+&MACRO BEG_ITEM 19136512 (0 STRN 0) = ""  ! Name 
+&MACRO BEG_ITEM 20250626 (1 BOOL 0) = 1  ! Preview
+!!!&MACRO EVENT FOCUS_IN 0 0, 11272192, 0, 0, 0! (Application CB Nested)
+&MACRO OK 0 0 ! OK Callback  
+&MACRO ASK_ITEM 11272192 (1 STRN 0) = "model1.prt"  ! Name 
+Versioning rules :-
+             PartNameFormat :- 
+             PartNameSubstitution :- 
+             PartNameMatch :- 
+             VersionSubstitution :- 
+             VersionType :- military
+Closing/deleting initial_part
+ Setting the new displayed part to 32160Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/freetype.dylib
+Marcel-Eggimanns-Mac-Pro.local Marcel-Eggimanns-Mac-Pro.local:0.0 ATI Radeon HD 5870 OpenGL Engine configuration:polyline_set=array_set,single,immediate_mode,8:tri_set=array,multi,immediate_mode,8:tri_strip_set=array_set,multi,immediate_mode,8:
+Displayed in: CPU time:   0.330 secs, Real time:  0.354 secs
+$$TBR::AVAILABILITY: Could not find application toolbar ugweld.tbr
+$$TBR::AVAILABILITY: Could not find application toolbar ugweldstructure.tbr
+$$TBR::AVAILABILITY: Could not find application toolbar ug_biw.tbr
+ Status [0 means success] : 0
+UNDO_UG_delete_mark: Mark 4 (Unspecified) not found
+&MACRO END_ITEM 131072 (1 BTAB 0) = 4  !  
+&MACRO END_ITEM 851968 (0 OPTM 0) = 1  ! Reference Existing Part
+&MACRO END_ITEM 1048576 (1 OPTM 0) = 0  ! Millimeters
+&MACRO END_ITEM 2621440 (1 OPTM 0) = 0  ! Model
+&MACRO END_ITEM 4718592 (1 STRN 0) = "inspection_setup_1"  ! Name 
+&MACRO END_ITEM 4915200 (1 STRN 0) = "/Volumes/cad-cam-daten/auftraege-in-arbeit"  ! Folder
+&MACRO END_ITEM 6029312 (1 STRN 0) = ""  ! Name 
+&MACRO END_ITEM 7405568 (0 OPTM 0) = 0  ! Stand-alone Part
+&MACRO END_ITEM 7602176 (1 OPTM 0) = 0  ! Millimeters
+&MACRO END_ITEM 9175040 (1 OPTM 0) = 0  ! Model
+&MACRO END_ITEM 11272192 (1 STRN 0) = "model1.prt"  ! Name 
+&MACRO END_ITEM 11468800 (1 STRN 0) = "/Volumes/cad-cam-daten/auftraege-in-arbeit"  ! Folder
+&MACRO END_ITEM 12582912 (0 STRN 0) = ""  ! Name 
+&MACRO END_ITEM 13959168 (0 OPTM 0) = 0  ! Stand-alone Part
+&MACRO END_ITEM 14155776 (1 OPTM 0) = 0  ! Millimeters
+&MACRO END_ITEM 15728640 (1 OPTM 0) = 0  ! Model
+&MACRO END_ITEM 17825792 (1 STRN 0) = "fem1.fem"  ! Name 
+&MACRO END_ITEM 18022400 (1 STRN 0) = "/Volumes/cad-cam-daten/auftraege-in-arbeit"  ! Folder
+&MACRO END_ITEM 19136512 (0 STRN 0) = ""  ! Name 
+&MACRO END_ITEM 20250626 (1 BOOL 0) = 1  ! Preview
+&MACRO DIALOG_END -2, 0 ! ##84New: OK
+&MACRO DIALOG_BEGIN "Persistent Dialog" 7201 ! Persistent
+&MACRO BEG_ITEM  0 (1 BOOL 7201) = 0  ! ##01Detailed View
+&MACRO DIALOG_PERSISTENT_END 7201
+&MACRO DIALOG_BEGIN "Persistent Dialog" 7202 ! Persistent
+&MACRO DIALOG_PERSISTENT_END 7202
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/Siemens/NX8.0/ugii/menus/ug_gateway.men
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/libwizardint.dylib
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/wizstrint.dylib
+&MACRO FOCUS CHANGE IN 1
+&MACRO FOCUS CHANGE OUT 1
+&MACRO WINDOW RESIZE 1.000000 16.468750 10.260551 -1.000000 -0.623032 1.000000 0.623032
+&MACRO MENU, 0, UG_APP_MODELING UG_GATEWAY_MAIN_MENUBAR ! <MB/Toolbar> 
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/libmodlint.dylib
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/Siemens/NX8.0/ugii/menus/ug_modeling.men
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/Siemens/NX8.0/ugii/menus/ug_synchronous.men
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/Siemens/NX8.0/ugii/menus/ug_direct_sketch.men
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/Siemens/NX8.0/ugii/menus/ug_modeling_sketch_tools.men
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/Siemens/NX8.0/ugii/menus/ug_part_module.men
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/Siemens/NX8.0/ugweld/application/add_ug_weld.men
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/Siemens/NX8.0/ugautomotive/bodydes/application/bodydes.men
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/Siemens/NX8.0/ugautomotive/dieeng/application/dieeng.men
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/Siemens/NX8.0/ugautomotive/diedes/application/diedes.men
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/Siemens/NX8.0/ugautomotive/diedes/application/presslinesim.men
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/Siemens/NX8.0/ugautomotive/packaging/application/ug_vd.men
+&MACRO MENU, 0, UG_MODELING_BLOCK_FEATURE UG_GATEWAY_MAIN_MENUBAR ! <MB/Toolbar> 
+UNDO_UG: Recyclable status of mark 11  set to False 
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 0 1 ! Inferred Point
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 0 1 ! Inferred Point
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 2621440 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 2621440 (1 OPTT 0) = 0 1 ! Inferred Point
+&MACRO ASK_ITEM 2621440 (1 OPTT 0) = 0 1 ! Inferred Point
+&MACRO ASK_ITEM 2621440 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 2621440 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 2621440 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 4063232 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 4063232 (1 OPTT 0) = 0 1 ! Inferred Point
+&MACRO ASK_ITEM 4063232 (1 OPTT 0) = 0 1 ! Inferred Point
+&MACRO ASK_ITEM 4063232 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 4063232 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 4063232 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 10354688 (1 BOOL 0) = 1  ! Associative Origin
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 1 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 1 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 0 ! Fixed
+&MACRO ASK_ITEM 1769472 (1 OPTM 0) = 0  ! Inferred Point
+&MACRO ASK_ITEM 1769472 (0 OPTM 0) = -1  !  
+&MACRO ASK_ITEM 1769474 (1 TOOL 0) = -1  !  
+&MACRO DIALOG_BEGIN "Block" 0 ! DA2
+&MACRO BEG_ITEM 262144 (1 OPTM 0) = 0  ! Origin and Edge Lengths
+&MACRO BEG_ITEM 262146 (1 TOOL 0) = 0  ! Origin and Edge Lengths
+&MACRO BEG_ITEM 1179648 (1 OPTT 0) = 10 0 ! Fixed
+&MACRO BEG_ITEM 1769472 (0 OPTM 0) = -1  !  
+&MACRO BEG_ITEM 1769474 (1 TOOL 0) = -1  !  
+&MACRO BEG_ITEM 2621440 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO BEG_ITEM 3211264 (1 OPTM 0) = 0  ! Inferred Point
+&MACRO BEG_ITEM 3211266 (1 TOOL 0) = 0  ! Inferred Point
+&MACRO BEG_ITEM 4063232 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO BEG_ITEM 4653056 (1 OPTM 0) = 0  ! Inferred Point
+&MACRO BEG_ITEM 4653058 (1 TOOL 0) = 0  ! Inferred Point
+&MACRO BEG_ITEM 5767170 (1 OPTM 0) = 1  ! mm
+&MACRO BEG_ITEM 5767171 (1 STRN 0) = "150"  ! Length (XC)
+&MACRO BEG_ITEM 6750210 (1 OPTM 0) = 1  ! mm
+&MACRO BEG_ITEM 6750211 (1 STRN 0) = "150"  ! Width (YC)
+&MACRO BEG_ITEM 7733250 (1 OPTM 0) = 1  ! mm
+&MACRO BEG_ITEM 7733251 (1 STRN 0) = "150"  ! Height (ZC)
+&MACRO BEG_ITEM 8847360 (1 OPTM 0) = 0  ! None
+&MACRO BEG_ITEM 8847362 (1 TOOL 0) = 0  ! None
+&MACRO BEG_ITEM 9371648 (1 BOOL 0) = 0  ! Body
+&MACRO BEG_ITEM 10354688 (1 BOOL 0) = 1  ! Associative Origin
+&MACRO BEG_ITEM 10944514 (1 BOOL 0) = 1  ! Preview
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 0 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 1 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 1 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 0 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 0 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 1 ! Fixed
+!!!&MACRO EVENT FOCUS_IN 0 0, 5767171, 0, 0, 0! (Application CB Nested)
+&MACRO OK 0 0 ! OK Callback  
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 1 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 0 ! Fixed
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/jtfacet.dylib
+!!!&MACRO ASK_ITEM 5767171 (1 STRN 0) = "150"  ! Length (XC)
+!!!&MACRO ASK_ITEM 6750211 (1 STRN 0) = "150"  ! Width (YC)
+!!!&MACRO ASK_ITEM 7733251 (1 STRN 0) = "150"  ! Height (ZC)
+&MACRO END_ITEM 262144 (1 OPTM 0) = 0  ! Origin and Edge Lengths
+&MACRO END_ITEM 262146 (1 TOOL 0) = 0  ! Origin and Edge Lengths
+&MACRO END_ITEM 1179648 (1 OPTT 0) = 10 0 ! Fixed
+&MACRO END_ITEM 1769472 (0 OPTM 0) = -1  !  
+&MACRO END_ITEM 1769474 (1 TOOL 0) = -1  !  
+&MACRO END_ITEM 2621440 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO END_ITEM 3211264 (1 OPTM 0) = 0  ! Inferred Point
+&MACRO END_ITEM 3211266 (1 TOOL 0) = 0  ! Inferred Point
+&MACRO END_ITEM 4063232 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO END_ITEM 4653056 (1 OPTM 0) = 0  ! Inferred Point
+&MACRO END_ITEM 4653058 (1 TOOL 0) = 0  ! Inferred Point
+&MACRO END_ITEM 5767170 (1 OPTM 0) = 1  ! mm
+&MACRO END_ITEM 5767171 (1 STRN 0) = "150"  ! Length (XC)
+&MACRO END_ITEM 6750210 (1 OPTM 0) = 1  ! mm
+&MACRO END_ITEM 6750211 (1 STRN 0) = "150"  ! Width (YC)
+&MACRO END_ITEM 7733250 (1 OPTM 0) = 1  ! mm
+&MACRO END_ITEM 7733251 (1 STRN 0) = "150"  ! Height (ZC)
+&MACRO END_ITEM 8847360 (1 OPTM 0) = 0  ! None
+&MACRO END_ITEM 8847362 (1 TOOL 0) = 0  ! None
+&MACRO END_ITEM 9371648 (1 BOOL 0) = 0  ! Body
+&MACRO END_ITEM 10354688 (1 BOOL 0) = 1  ! Associative Origin
+&MACRO END_ITEM 10944514 (1 BOOL 0) = 1  ! Preview
+&MACRO DIALOG_END -2, 0 ! Block: OK
+StyleMonitor: currFocus.widget set to NULL
+UNDO_UG: Recyclable status of mark 11  set to True  
+&MACRO CUSTOM 26 1 1 2021 ! Activate Reuse Library
+&MACRO CUSTOM HEADER 25 "UGTL_macro" 0
+&MACRO CUSTOM 25 KRUNAV * TL_EXPAND * (5) * 1 ! UDF Library
+&MACRO CUSTOM 25 KRUNAV * TL_EXPAND * (5 2) * 1 ! eggispan UDF
+&MACRO CUSTOM 25 KRUNAV * TL_SELECT * (5 2 2) * 0 * 1 ! geos
+&MACRO CUSTOM 25 KRUNAV * TL_SELECT * (5 2 2) * 0 * 0 ! geos
+&MACRO CUSTOM 25 KRUNAV * TL_SELECT * (5 2 4) * 0 * 1 ! schloss
+&MACRO CUSTOM 25 KRUNAV * TL_SELECT * (5 2 4) * 0 * 0 ! schloss
+&MACRO CUSTOM 25 KRUNAV * TL_SELECT * (5 2 1) * 0 * 1 ! band
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/libpng121.dylib
+&MACRO CUSTOM 25 KRUNAV * TL_EXPAND * (5 2 1) * 1 ! band
+&MACRO CUSTOM 25 KRUNAV * TL_SELECT * (5 2 1) * 0 * 0 ! band
+&MACRO CUSTOM 25 KRUNAV * TL_SELECT * (5 2 2) * 0 * 1 ! geos
+&MACRO CUSTOM 25 KRUNAV * TL_SELECT * (5 2 2) * 0 * 0 ! geos
+&MACRO CUSTOM 25 KRUNAV * TL_SELECT * (5 2 3) * 0 * 1 ! schliesblech
+&MACRO CUSTOM 25 KRUNAV * TL_SELECT * (5 2 3) * 0 * 0 ! schliesblech
+&MACRO CUSTOM 25 KRUNAV * TL_SELECT * (5 2 4) * 0 * 1 ! schloss
+&MACRO CUSTOM 25 KRUNAV * TL_SELECT * (5 2 4) * 0 * 0 ! schloss
+&MACRO CUSTOM 25 KRUNAV * TL_SELECT * (5 2 4) * 0 * 0 ! schloss
+&MACRO CUSTOM 26 1 1 2008 ! Activate Part Navigator
+&MACRO CUSTOM 25 PARTNT * TL_SELECT * (4 1) * 0 * 1 ! Block (0)
+&MACRO CUSTOM 25 PARTNT * TL_DEFAULT_ACTION * (4 1) * 0 ! Block (0)
+UNDO_UG: Recyclable status of mark 23  set to False 
+UNDO_UG: Recyclable status of mark 24  set to False 
+UNDO_UG: Recyclable status of mark 29  set to False 
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 1 ! Fixed
+&MACRO ASK_ITEM 1769474 (1 TOOL 0) = 5  ! Fixed
+&MACRO ASK_ITEM 1769474 (1 TOOL 0) = -1  !  
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 1 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 0 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 0 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 1 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 1 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 0 ! Fixed
+&MACRO ASK_ITEM 2621440 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 2621440 (1 OPTT 0) = 0 1 ! Inferred Point
+&MACRO ASK_ITEM 2621440 (1 OPTT 0) = 0 1 ! Inferred Point
+&MACRO ASK_ITEM 2621440 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 2621440 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 2621440 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 4063232 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 4063232 (1 OPTT 0) = 0 1 ! Inferred Point
+&MACRO ASK_ITEM 4063232 (1 OPTT 0) = 0 1 ! Inferred Point
+&MACRO ASK_ITEM 4063232 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 4063232 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 4063232 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO ASK_ITEM 10354688 (1 BOOL 0) = 1  ! Associative Origin
+&MACRO ASK_ITEM 10354688 (1 BOOL 0) = 0  ! Associative Origin
+&MACRO DIALOG_BEGIN "Block" 0 ! DA2
+&MACRO BEG_ITEM 262144 (1 OPTM 0) = 0  ! Origin and Edge Lengths
+&MACRO BEG_ITEM 262146 (1 TOOL 0) = 0  ! Origin and Edge Lengths
+&MACRO BEG_ITEM 1179648 (1 OPTT 0) = 10 0 ! Fixed
+&MACRO BEG_ITEM 1769472 (0 OPTM 0) = -1  !  
+&MACRO BEG_ITEM 1769474 (1 TOOL 0) = -1  !  
+&MACRO BEG_ITEM 2621440 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO BEG_ITEM 3211264 (1 OPTM 0) = 0  ! Inferred Point
+&MACRO BEG_ITEM 3211266 (1 TOOL 0) = 0  ! Inferred Point
+&MACRO BEG_ITEM 4063232 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO BEG_ITEM 4653056 (1 OPTM 0) = 0  ! Inferred Point
+&MACRO BEG_ITEM 4653058 (1 TOOL 0) = 0  ! Inferred Point
+&MACRO BEG_ITEM 5767170 (1 OPTM 0) = 1  ! mm
+&MACRO BEG_ITEM 5767171 (1 STRN 0) = "150"  ! Length (XC)
+&MACRO BEG_ITEM 6750210 (1 OPTM 0) = 1  ! mm
+&MACRO BEG_ITEM 6750211 (1 STRN 0) = "150"  ! Width (YC)
+&MACRO BEG_ITEM 7733250 (1 OPTM 0) = 1  ! mm
+&MACRO BEG_ITEM 7733251 (1 STRN 0) = "150"  ! Height (ZC)
+&MACRO BEG_ITEM 8847360 (1 OPTM 0) = 0  ! None
+&MACRO BEG_ITEM 8847362 (1 TOOL 0) = 0  ! None
+&MACRO BEG_ITEM 9371648 (1 BOOL 0) = 0  ! Body
+&MACRO BEG_ITEM 10354688 (1 BOOL 0) = 0  ! Associative Origin
+&MACRO BEG_ITEM 10944514 (1 BOOL 0) = 1  ! Preview
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 0 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 1 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 1 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 0 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 0 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 1 ! Fixed
+!!!&MACRO EVENT FOCUS_IN 0 0, 5767171, 0, 0, 0! (Application CB Nested)
+&MACRO MODIFY_VERIFY_EVENT 0 0 5767171 1 STRN 0 3 insert = 5 proposed = 5 current = 150  ! Length (XC)
+&MACRO EVENT VALUE_CHANGED 0 0, 5767171, 0, 0, 0! Length (XC)
+&MACRO ASK_ITEM 5767171 (1 STRN 0) = "5"  ! Length (XC)
+&MACRO MODIFY_VERIFY_EVENT 0 0 5767171 1 STRN 1 1 insert = 0 proposed = 50 current = 5  ! Length (XC)
+&MACRO EVENT VALUE_CHANGED 0 0, 5767171, 0, 0, 0! Length (XC)
+&MACRO ASK_ITEM 5767171 (1 STRN 0) = "50"  ! Length (XC)
+&MACRO MODIFY_VERIFY_EVENT 0 0 5767171 1 STRN 2 2 insert = 0 proposed = 500 current = 50  ! Length (XC)
+&MACRO EVENT VALUE_CHANGED 0 0, 5767171, 0, 0, 0! Length (XC)
+&MACRO ASK_ITEM 5767171 (1 STRN 0) = "500"  ! Length (XC)
+&MACRO MODIFY_VERIFY_EVENT 0 0 5767171 1 STRN 3 3 insert = 0 proposed = 5000 current = 500  ! Length (XC)
+&MACRO EVENT VALUE_CHANGED 0 0, 5767171, 0, 0, 0! Length (XC)
+&MACRO ASK_ITEM 5767171 (1 STRN 0) = "5000"  ! Length (XC)
+&MACRO EVENT KEY 0 0, 5767171, 0, 40000000, 0! Length (XC)
+&MACRO ASK_ITEM 5767171 (1 STRN 0) = "5000"  ! Length (XC)
+!!!&MACRO EVENT VALUE_CHANGED 0 0, 5767171, 0, 0, 0! (Application CB Nested)
+!!!&MACRO ASK_ITEM 5767171 (1 STRN 0) = "5000"  ! Length (XC)
+&MACRO EVENT FOCUS_OUT 0 0, 5767171, 0, 0, 0! Length (XC)
+&MACRO ASK_ITEM 5767171 (1 STRN 0) = "5000"  ! Length (XC)
+!!!&MACRO EVENT FOCUS_IN 0 0, 5767171, 0, 0, 0! (Application CB Nested)
+&MACRO MODIFY_VERIFY_EVENT 0 0 5767171 1 STRN 0 4 insert = 2 proposed = 2 current = 5000  ! Length (XC)
+&MACRO EVENT VALUE_CHANGED 0 0, 5767171, 0, 0, 0! Length (XC)
+&MACRO ASK_ITEM 5767171 (1 STRN 0) = "2"  ! Length (XC)
+&MACRO MODIFY_VERIFY_EVENT 0 0 5767171 1 STRN 1 1 insert = 0 proposed = 20 current = 2  ! Length (XC)
+&MACRO EVENT VALUE_CHANGED 0 0, 5767171, 0, 0, 0! Length (XC)
+&MACRO ASK_ITEM 5767171 (1 STRN 0) = "20"  ! Length (XC)
+&MACRO MODIFY_VERIFY_EVENT 0 0 5767171 1 STRN 2 2 insert = 0 proposed = 200 current = 20  ! Length (XC)
+&MACRO EVENT VALUE_CHANGED 0 0, 5767171, 0, 0, 0! Length (XC)
+&MACRO ASK_ITEM 5767171 (1 STRN 0) = "200"  ! Length (XC)
+&MACRO EVENT KEY 0 0, 5767171, 0, 10, 4! Length (XC)
+&MACRO ASK_ITEM 5767171 (1 STRN 0) = "200"  ! Length (XC)
+!!!&MACRO EVENT VALUE_CHANGED 0 0, 5767171, 0, 0, 0! (Application CB Nested)
+!!!&MACRO ASK_ITEM 5767171 (1 STRN 0) = "200"  ! Length (XC)
+&MACRO EVENT KEY 0 0, 5767171, 0, 20, 4! Length (XC)
+&MACRO ASK_ITEM 5767171 (1 STRN 0) = "200"  ! Length (XC)
+!!!&MACRO EVENT FOCUS_OUT 0 0, 5767171, 0, 0, 0! (Application CB Nested)
+!!!&MACRO ASK_ITEM 5767171 (1 STRN 0) = "200"  ! Length (XC)
+!!!&MACRO EVENT FOCUS_IN 0 0, 5767171, 0, 0, 0! (Application CB Nested)
+&MACRO MODIFY_VERIFY_EVENT 0 0 5767171 1 STRN 0 3 insert = 2 proposed = 2 current = 200  ! Length (XC)
+&MACRO EVENT VALUE_CHANGED 0 0, 5767171, 0, 0, 0! Length (XC)
+&MACRO ASK_ITEM 5767171 (1 STRN 0) = "2"  ! Length (XC)
+&MACRO MODIFY_VERIFY_EVENT 0 0 5767171 1 STRN 1 1 insert = 1 proposed = 21 current = 2  ! Length (XC)
+&MACRO EVENT VALUE_CHANGED 0 0, 5767171, 0, 0, 0! Length (XC)
+&MACRO ASK_ITEM 5767171 (1 STRN 0) = "21"  ! Length (XC)
+&MACRO MODIFY_VERIFY_EVENT 0 0 5767171 1 STRN 2 2 insert = 0 proposed = 210 current = 21  ! Length (XC)
+&MACRO EVENT VALUE_CHANGED 0 0, 5767171, 0, 0, 0! Length (XC)
+&MACRO ASK_ITEM 5767171 (1 STRN 0) = "210"  ! Length (XC)
+&MACRO MODIFY_VERIFY_EVENT 0 0 5767171 1 STRN 3 3 insert = 0 proposed = 2100 current = 210  ! Length (XC)
+&MACRO EVENT VALUE_CHANGED 0 0, 5767171, 0, 0, 0! Length (XC)
+&MACRO ASK_ITEM 5767171 (1 STRN 0) = "2100"  ! Length (XC)
+&MACRO EVENT KEY 0 0, 5767171, 0, 40000000, 0! Length (XC)
+&MACRO ASK_ITEM 5767171 (1 STRN 0) = "2100"  ! Length (XC)
+!!!&MACRO EVENT VALUE_CHANGED 0 0, 5767171, 0, 0, 0! (Application CB Nested)
+!!!&MACRO ASK_ITEM 5767171 (1 STRN 0) = "2100"  ! Length (XC)
+&MACRO EVENT FOCUS_OUT 0 0, 5767171, 0, 0, 0! Length (XC)
+&MACRO ASK_ITEM 5767171 (1 STRN 0) = "2100"  ! Length (XC)
+!!!&MACRO EVENT FOCUS_OUT 0 0, 5767171, 0, 0, 0! (Application CB Nested)
+!!!&MACRO EVENT FOCUS_IN 0 0, 6750211, 0, 0, 0! (Application CB Nested)
+&MACRO EVENT KEY 0 0, 6750211, 0, 40000000, 0! Width (YC)
+&MACRO ASK_ITEM 6750211 (1 STRN 0) = "150"  ! Width (YC)
+&MACRO EVENT FOCUS_OUT 0 0, 6750211, 0, 0, 0! Width (YC)
+&MACRO ASK_ITEM 6750211 (1 STRN 0) = "150"  ! Width (YC)
+!!!&MACRO EVENT FOCUS_OUT 0 0, 6750211, 0, 0, 0! (Application CB Nested)
+!!!&MACRO EVENT FOCUS_IN 0 0, 7733251, 0, 0, 0! (Application CB Nested)
+&MACRO MODIFY_VERIFY_EVENT 0 0 7733251 1 STRN 0 3 insert = 4 proposed = 4 current = 150  ! Height (ZC)
+&MACRO EVENT VALUE_CHANGED 0 0, 7733251, 0, 0, 0! Height (ZC)
+&MACRO ASK_ITEM 7733251 (1 STRN 0) = "4"  ! Height (ZC)
+&MACRO MODIFY_VERIFY_EVENT 0 0 7733251 1 STRN 1 1 insert = 0 proposed = 40 current = 4  ! Height (ZC)
+&MACRO EVENT VALUE_CHANGED 0 0, 7733251, 0, 0, 0! Height (ZC)
+&MACRO ASK_ITEM 7733251 (1 STRN 0) = "40"  ! Height (ZC)
+&MACRO EVENT ACTIVATE 0 0, 7733251, 0, a, 0! Height (ZC)
+&MACRO ASK_ITEM 7733251 (1 STRN 0) = "40"  ! Height (ZC)
+&MACRO OK 0 0 ! OK Callback  
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 1 ! Fixed
+&MACRO ASK_ITEM 1179648 (1 OPTT 0) = 10 0 ! Fixed
+!!!&MACRO ASK_ITEM 5767171 (1 STRN 0) = "2100"  ! Length (XC)
+!!!&MACRO ASK_ITEM 6750211 (1 STRN 0) = "150"  ! Width (YC)
+!!!&MACRO ASK_ITEM 7733251 (1 STRN 0) = "40"  ! Height (ZC)
+&MACRO END_ITEM 262144 (1 OPTM 0) = 0  ! Origin and Edge Lengths
+&MACRO END_ITEM 262146 (1 TOOL 0) = 0  ! Origin and Edge Lengths
+&MACRO END_ITEM 1179648 (1 OPTT 0) = 10 0 ! Fixed
+&MACRO END_ITEM 1769472 (0 OPTM 0) = -1  !  
+&MACRO END_ITEM 1769474 (1 TOOL 0) = -1  !  
+&MACRO END_ITEM 2621440 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO END_ITEM 3211264 (1 OPTM 0) = 0  ! Inferred Point
+&MACRO END_ITEM 3211266 (1 TOOL 0) = 0  ! Inferred Point
+&MACRO END_ITEM 4063232 (1 OPTT 0) = 0 0 ! Inferred Point
+&MACRO END_ITEM 4653056 (1 OPTM 0) = 0  ! Inferred Point
+&MACRO END_ITEM 4653058 (1 TOOL 0) = 0  ! Inferred Point
+&MACRO END_ITEM 5767170 (1 OPTM 0) = 1  ! mm
+&MACRO END_ITEM 5767171 (1 STRN 0) = "2100"  ! Length (XC)
+&MACRO END_ITEM 6750210 (1 OPTM 0) = 1  ! mm
+&MACRO END_ITEM 6750211 (1 STRN 0) = "150"  ! Width (YC)
+&MACRO END_ITEM 7733250 (1 OPTM 0) = 1  ! mm
+&MACRO END_ITEM 7733251 (1 STRN 0) = "40"  ! Height (ZC)
+&MACRO END_ITEM 8847360 (1 OPTM 0) = 0  ! None
+&MACRO END_ITEM 8847362 (1 TOOL 0) = 0  ! None
+&MACRO END_ITEM 9371648 (1 BOOL 0) = 0  ! Body
+&MACRO END_ITEM 10354688 (1 BOOL 0) = 0  ! Associative Origin
+&MACRO END_ITEM 10944514 (1 BOOL 0) = 1  ! Preview
+&MACRO DIALOG_END -2, 0 ! Block: OK
+StyleMonitor: currFocus.widget set to NULL
+UNDO_UG: Recyclable status of mark 29  set to True  
+UNDO_UG: Recyclable status of mark 23  set to True  
+UNDO_UG: Recyclable status of mark 24  set to True  
+&MACRO CUSTOM 26 1 1 2021 ! Activate Reuse Library
+&MACRO CUSTOM 25 KRUNAV * TL_SELECT * (5 2 4) * 0 * 1 ! schloss
+&MACRO CUSTOM HEADER 24 "INPUT3D" 1
+&MACRO CUSTOM 24 XFORM_SEQUENCE 0 0.630559 0.776139 0.0020965 -0.292604 0.235217 0.926853 0.718873 -0.585049 0.375419 -272.523 9.50132 4.44089e-16 0.270806 ! 
+&MACRO DYN_POP_BUTTON 0 ! Insert
+
+NX Load Options Are :-
+    Load Options      : Load from directory
+    Load Latest       : Find exact version of partnames
+    Load Components   : Load all the component parts
+    Failure Option    : Do not abort load on failure
+    Load Fully        : Do not fully load the component parts
+    Representations   : Do not use lightweight
+    Load Substitution : Do not allow substitutions on load
+    Reference Sets    : As Saved, None, Empty, Use Model
+                      : Do not apply to all levels
+    Load Wave Data    : Default load behaviour
+    Part family members : Regenerate missing members automatically
+unknown filing system type afpfs
+    /Volumes/cad-cam-daten/ug_udf_lib/schloss/glutz_1001_schloss.prt is on a unknown filing system
+
+Loading "/Volumes/cad-cam-daten/ug_udf_lib/schloss/glutz_1001_schloss.prt" which was saved in NX V3.0
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/rm_26.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/rm_27.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/so_8.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/curve_6.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/line_5.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/rm_25.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/es_base_12.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/rm_21.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/draft_1.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/annot_25.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/rm_17.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/so_5.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/es_base_10.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/annot_13.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/ann_base_3.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/om_maps_11.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/rm_32.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/annot_44.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/ann_base_4.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/drf_aid_5.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/dim_19.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/dim_23.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/dim_linear_2.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/rm_30.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/ugfont_1.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/csystem_4.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/rm_28.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/param_4.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/ncgrp_1.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/cutter_5.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/skeleton_3.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/acom_2.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/so_7.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/point_29.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/ann_origin_4.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/view_55.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/layout_4.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/so_9.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/refset_2.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/solid_4.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/sketch_6.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/pmtext_6.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/annot_38.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/tabnot_8.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/plist_8.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/scalar_19.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/pmtext_5.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/cs2_13.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/attr_4.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/display_29.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/dwg_4.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/drawings_11.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/modeling_6.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/unit_6.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/rm_complex_1.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/cm_18.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/cm_21.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/cm_reference_15.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/cm_features_2.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/cm_features_11.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/primitive_features_1.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/base_form_features_1.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/cm_features_8.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/sweep_7.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/fset_15.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/sketch_features_2.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/ess_18.om_sch"
+Using OCC partial loading: UGII_OCC_PARTIAL_LOADING is unset
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/occ_71.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/im_15.om_sch"
+  Read in schema transmit file "/Applications/Siemens/NX8.0/ugii/ugschema/om_maps_10.om_sch"
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/libnxmdgantt.dylib
+  Read in all for part "/Volumes/cad-cam-daten/ug_udf_lib/schloss/glutz_1001_schloss.prt", cpu    0.250, real    1.163
+Partition info: RM:1 (0.1, 0.7) CM:1 (0.0, 0.1) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) KF:1 (0.0, 0.0) 
+Loaded and updated part "/Volumes/cad-cam-daten/ug_udf_lib/schloss/glutz_1001_schloss.prt" cpu    0.260, real    1.168
+Loaded and displayed "/Volumes/cad-cam-daten/ug_udf_lib/schloss/glutz_1001_schloss.prt": CPU time:   0.260 secs, Real time:  1.168 secs
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/ugtcl.dylib
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/libtcl.dylib
+
+NX Load Options Are :-
+    Load Options      : Load from directory
+    Load Latest       : Find exact version of partnames
+    Load Components   : Do not load the component parts
+    Failure Option    : Abort load on failure
+    Load Fully        : Do not fully load the component parts
+    Representations   : Do not use lightweight
+    Load Substitution : Do not allow substitutions on load
+    Reference Sets    : As Saved, None, Empty, Use Model
+                      : Do not apply to all levels
+    Load Wave Data    : Default load behaviour
+    Part family members : Regenerate missing members automatically
+unknown filing system type afpfs
+    /Volumes/cad-cam-daten/ug_udf_lib/schloss/glutz_1001_schloss.prt is on a unknown filing system
+
+  Read in all for part "/Volumes/cad-cam-daten/ug_udf_lib/schloss/glutz_1001_schloss.prt", cpu    0.000, real    0.004
+Loaded and updated part "/Volumes/cad-cam-daten/ug_udf_lib/schloss/glutz_1001_schloss.prt" cpu    0.000, real    0.004
+UNDO_UG: Recyclable status of mark 119  set to False 
+OCC_part_occurrence__ask_box_in_view: Use of component bounding boxes for fit is disabled
+&MACRO DIALOG_BEGIN "glutz_1001_schloss" 0 ! DA2
+&MACRO BEG_ITEM 10 (1 OPTM 0) = 3  ! 3
+&MACRO BEG_ITEM 11 (1 OPTM 0) = 1  ! 1
+&MACRO BEG_ITEM 589826 (1 OPTM 0) = 0  ! ???
+&MACRO BEG_ITEM 589827 (1 STRN 0) = "231"  ! Stulp_Laenge
+&MACRO BEG_ITEM 1179650 (1 OPTM 0) = 0  ! ???
+&MACRO BEG_ITEM 1179651 (1 STRN 0) = "18"  ! Stulp_Breite
+&MACRO BEG_ITEM 1769474 (1 OPTM 0) = 0  ! ???
+&MACRO BEG_ITEM 1769475 (1 STRN 0) = "3"  ! Stulp_Tiefe
+&MACRO BEG_ITEM 2359298 (1 OPTM 0) = 0  ! ???
+&MACRO BEG_ITEM 2359299 (1 STRN 0) = "-1"  ! Stulp_Links_Rechts
+&MACRO BEG_ITEM 2949122 (1 OPTM 0) = 0  ! ???
+&MACRO BEG_ITEM 2949123 (1 STRN 0) = "180"  ! Kasten_Laenge
+&MACRO BEG_ITEM 3538946 (1 OPTM 0) = 0  ! ???
+&MACRO BEG_ITEM 3538947 (1 STRN 0) = "14"  ! Kasten_Breite
+&MACRO BEG_ITEM 4128770 (1 OPTM 0) = 0  ! ???
+&MACRO BEG_ITEM 4128771 (1 STRN 0) = "90"  ! Kasten_Tiefe
+&MACRO BEG_ITEM 4718594 (1 OPTM 0) = 1  ! mm
+&MACRO BEG_ITEM 4718595 (1 STRN 0) = "60"  ! Dornmass
+&MACRO BEG_ITEM 5308418 (1 OPTM 0) = 0  ! ???
+&MACRO BEG_ITEM 5308419 (1 STRN 0) = "25"  ! Druecker_Dia
+&MACRO BEG_ITEM 5898242 (1 OPTM 0) = 0  ! ???
+&MACRO BEG_ITEM 5898243 (1 STRN 0) = "78"  ! KABA_Distanz
+&MACRO BEG_ITEM 6488066 (1 OPTM 0) = 0  ! ???
+&MACRO BEG_ITEM 6488067 (1 STRN 0) = "33"  ! KABA_Schlitz_Laenge
+&MACRO BEG_ITEM 7077890 (1 OPTM 0) = 0  ! ???
+&MACRO BEG_ITEM 7077891 (1 STRN 0) = "16"  ! KABA_Schlitz_Breite
+&MACRO BEG_ITEM 7667714 (1 OPTM 0) = 0  ! ???
+&MACRO BEG_ITEM 7667715 (1 STRN 0) = "28"  ! Drucker_aus_Zentrum
+&MACRO BEG_ITEM 8257538 (1 OPTM 0) = 0  ! ???
+&MACRO BEG_ITEM 8257539 (1 STRN 0) = "0.0"  ! Kasten_aus_Mitte
+&MACRO BEG_ITEM 8847362 (1 OPTM 0) = 1  ! mm
+&MACRO BEG_ITEM 8847363 (1 STRN 0) = "212"  ! Stulp_Schr_achs
+&MACRO BEG_ITEM 27 (1 OPTM 0) = 1  ! 1
+&MACRO BEG_ITEM 9502722 (1 OPTM 0) = 1  ! mm
+&MACRO BEG_ITEM 9502723 (1 STRN 0) = "3"  ! Stulp_Schr_dia
+&MACRO BEG_ITEM 10092546 (1 OPTM 0) = 1  ! mm
+&MACRO BEG_ITEM 10092547 (1 STRN 0) = "6"  ! Stulp_Schr_tiefe
+&MACRO BEG_ITEM 33 (1 LIST 0) = 1  ! List (Items selected)
+&MACRO      POSITION = 0 "(-)_Planar Placement Face for GLUTZ_1001" ! Index/contents of selected item
+&MACRO BEG_ITEM 37 (1 OPTM 0) = 0  ! ##29Work
+&MACRO BEG_ITEM 38 (0 INTE 0) = 0  ! Layer
+OpenGL EXTENSIONS SUPPORTED:
+    GL_ARB_multitexture            = 1
+    GL_ARB_shadow                  = 1
+    GL_ARB_depth_texture           = 1
+    GL_ARB_shadow_ambient          = 1
+    GL_NV_register_combiners       = 0
+    GL_EXT_blend_color             = 1
+    GL_ARB_vertex_program          = 1
+    GL_ARB_fragment_program        = 1
+    GL_EXT_framebuffer_object      = 1
+    GL_EXT_framebuffer_multisample = 1
+    GL_EXT_framebuffer_blit        = 1
+    GL_EXT_packed_depth_stencil    = 1
+WGL_ARB_extensions_string          = 0
+    WGL_ARB_pbuffer                = 0
+    WGL_ARB_pixel_format           = 0
+    WGL_ARB_render_texture         = 0
+    WGL_NV_render_depth_texture    = 0
+X server vendor:  The X.Org Foundation
+X vendor release:  11406000
+X11 version:  unknown
+Window identifier:  0x1001876
+Window type:  0x19f (TrueColor)
+Window depth:  24
+Graphics device:  ATI Radeon HD 5870 OpenGL Engine
+Translucency method:  Alpha-blend translucency
+Maximum texture size:  512
+Stereo viewing:  Unavailable
+Full-scene antialiasing:  Available (8 samples per pixel)
+Texture cube map:  Available
+Non power of two texture:  Available
+Inter-object shadows:  Unavailable
+Disable Translucency is supported and disabled
+Backface Culling is supported and disabled
+Depth-Sorted Wireframe is supported and disabled
+Line Antialiasing is supported and enabled
+Edge Emphasis is supported and enabled
+!!!&MACRO EVENT FOCUS_IN 0 0, 589827, 0, 0, 0! (Application CB Nested)
+&MACRO EVENT FOCUS_OUT 0 0, 589827, 0, 0, 0! Stulp_Laenge
+&MACRO ASK_ITEM 589827 (1 STRN 0) = "231"  ! Stulp_Laenge
+&MACRO FOCUS CHANGE IN 2
+&MACRO CURSOR_EVENT 1001 3,1,100 ! single_pt, mb1/0+0, U_SELECT_SINGLE (T+:0+0)
+&MACRO CPOS 674.104798656238,-294.430488174866,718.446486019063
+&MACRO CUSTOM 24 XFORM_SEQUENCE 0 0.630559 0.776139 0.0020965 -0.292604 0.235217 0.926853 0.718873 -0.585049 0.375419 -617.628 255.937 -718.446 0.209389 ! 
+&MACRO CURSOR_EVENT 1001 3,1,100 ! single_pt, mb1/0+0, U_SELECT_SINGLE (T+:1+0)
+&MACRO CPOS 639.740543242205,-302.737754408776,718.446486019063
+&MACRO FOCUS CHANGE OUT 1
+!!!&MACRO EVENT FOCUS_IN 0 0, 589827, 0, 0, 0! (Application CB Nested)
+&MACRO CUSTOM 24 XFORM_SEQUENCE 0 0.630559 0.776139 0.0020965 -0.292604 0.235217 0.926853 0.718873 -0.585049 0.375419 -399.873 239.134 -718.446 0.209389 ! 
+&MACRO OK 0 0 ! OK Callback  
+!!!&MACRO ASK_ITEM 589827 (1 STRN 0) = "231"  ! Stulp_Laenge
+!!!&MACRO ASK_ITEM 1179651 (1 STRN 0) = "18"  ! Stulp_Breite
+!!!&MACRO ASK_ITEM 1769475 (1 STRN 0) = "3"  ! Stulp_Tiefe
+!!!&MACRO ASK_ITEM 2359299 (1 STRN 0) = "-1"  ! Stulp_Links_Rechts
+!!!&MACRO ASK_ITEM 2949123 (1 STRN 0) = "180"  ! Kasten_Laenge
+!!!&MACRO ASK_ITEM 3538947 (1 STRN 0) = "14"  ! Kasten_Breite
+!!!&MACRO ASK_ITEM 4128771 (1 STRN 0) = "90"  ! Kasten_Tiefe
+!!!&MACRO ASK_ITEM 4718595 (1 STRN 0) = "60"  ! Dornmass
+!!!&MACRO ASK_ITEM 5308419 (1 STRN 0) = "25"  ! Druecker_Dia
+!!!&MACRO ASK_ITEM 5898243 (1 STRN 0) = "78"  ! KABA_Distanz
+!!!&MACRO ASK_ITEM 6488067 (1 STRN 0) = "33"  ! KABA_Schlitz_Laenge
+!!!&MACRO ASK_ITEM 7077891 (1 STRN 0) = "16"  ! KABA_Schlitz_Breite
+!!!&MACRO ASK_ITEM 7667715 (1 STRN 0) = "28"  ! Drucker_aus_Zentrum
+!!!&MACRO ASK_ITEM 8257539 (1 STRN 0) = "0.0"  ! Kasten_aus_Mitte
+!!!&MACRO ASK_ITEM 8847363 (1 STRN 0) = "212"  ! Stulp_Schr_achs
+!!!&MACRO ASK_ITEM 9502723 (1 STRN 0) = "3"  ! Stulp_Schr_dia
+!!!&MACRO ASK_ITEM 10092547 (1 STRN 0) = "6"  ! Stulp_Schr_tiefe
+&MACRO END_ITEM 10 (1 OPTM 0) = 3  ! 3
+&MACRO END_ITEM 11 (1 OPTM 0) = 1  ! 1
+&MACRO END_ITEM 589826 (1 OPTM 0) = 0  ! ???
+&MACRO END_ITEM 589827 (1 STRN 0) = "231"  ! Stulp_Laenge
+&MACRO END_ITEM 1179650 (1 OPTM 0) = 0  ! ???
+&MACRO END_ITEM 1179651 (1 STRN 0) = "18"  ! Stulp_Breite
+&MACRO END_ITEM 1769474 (1 OPTM 0) = 0  ! ???
+&MACRO END_ITEM 1769475 (1 STRN 0) = "3"  ! Stulp_Tiefe
+&MACRO END_ITEM 2359298 (1 OPTM 0) = 0  ! ???
+&MACRO END_ITEM 2359299 (1 STRN 0) = "-1"  ! Stulp_Links_Rechts
+&MACRO END_ITEM 2949122 (1 OPTM 0) = 0  ! ???
+&MACRO END_ITEM 2949123 (1 STRN 0) = "180"  ! Kasten_Laenge
+&MACRO END_ITEM 3538946 (1 OPTM 0) = 0  ! ???
+&MACRO END_ITEM 3538947 (1 STRN 0) = "14"  ! Kasten_Breite
+&MACRO END_ITEM 4128770 (1 OPTM 0) = 0  ! ???
+&MACRO END_ITEM 4128771 (1 STRN 0) = "90"  ! Kasten_Tiefe
+&MACRO END_ITEM 4718594 (1 OPTM 0) = 1  ! mm
+&MACRO END_ITEM 4718595 (1 STRN 0) = "60"  ! Dornmass
+&MACRO END_ITEM 5308418 (1 OPTM 0) = 0  ! ???
+&MACRO END_ITEM 5308419 (1 STRN 0) = "25"  ! Druecker_Dia
+&MACRO END_ITEM 5898242 (1 OPTM 0) = 0  ! ???
+&MACRO END_ITEM 5898243 (1 STRN 0) = "78"  ! KABA_Distanz
+&MACRO END_ITEM 6488066 (1 OPTM 0) = 0  ! ???
+&MACRO END_ITEM 6488067 (1 STRN 0) = "33"  ! KABA_Schlitz_Laenge
+&MACRO END_ITEM 7077890 (1 OPTM 0) = 0  ! ???
+&MACRO END_ITEM 7077891 (1 STRN 0) = "16"  ! KABA_Schlitz_Breite
+&MACRO END_ITEM 7667714 (1 OPTM 0) = 0  ! ???
+&MACRO END_ITEM 7667715 (1 STRN 0) = "28"  ! Drucker_aus_Zentrum
+&MACRO END_ITEM 8257538 (1 OPTM 0) = 0  ! ???
+&MACRO END_ITEM 8257539 (1 STRN 0) = "0.0"  ! Kasten_aus_Mitte
+&MACRO END_ITEM 8847362 (1 OPTM 0) = 1  ! mm
+&MACRO END_ITEM 8847363 (1 STRN 0) = "212"  ! Stulp_Schr_achs
+&MACRO END_ITEM 27 (1 OPTM 0) = 1  ! 1
+&MACRO END_ITEM 9502722 (1 OPTM 0) = 1  ! mm
+&MACRO END_ITEM 9502723 (1 STRN 0) = "3"  ! Stulp_Schr_dia
+&MACRO END_ITEM 10092546 (1 OPTM 0) = 1  ! mm
+&MACRO END_ITEM 10092547 (1 STRN 0) = "6"  ! Stulp_Schr_tiefe
+&MACRO END_ITEM 33 (1 LIST 0) = 0  ! List (Items selected)
+&MACRO END_ITEM 37 (1 OPTM 0) = 0  ! ##29Work
+&MACRO END_ITEM 38 (0 INTE 0) = 0  ! Layer
+&MACRO DIALOG_END -2, 0 ! glutz_1001_schloss: OK
+StyleMonitor: currFocus.widget set to NULL
+
+*********************************************
+*********************************************
+******** An XWindows Error Occurred: ********
+X Error of failed request: 0
+Major opcode of failed request: 149     
+Serial number of failed request: 67095
+*********************************************
+*********************************************
+
+MSEQ: Motion CCP is enabled.
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/libdcu2d58.dylib
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/nxpgm.dylib
+Mark-point size check for undo mark recycling is enabled
+&MACRO DIALOG_BEGIN "Positioning" 0 ! DA2
+&MACRO  BEG_ITEM  0 (1 TOOL 0) = -1  !  
+&MACRO  END_ITEM  0 (1 TOOL 0) = -1  !  
+&MACRO DIALOG_END -2, 0 ! Positioning: OK
+Successfully loaded dynamic module /Applications/Siemens/NX8.0/ugii/libdraftingautomation.dylib
+*** EXCEPTION: Error code  670030 in line 1376 of /plm/cynas/iproot/ugnx8mr/build/sandbox/src/cmod/no/ind/cm_create_frec_mbf.c at Mon May 19 11:31:39 2014 CEST
++++ apply feature for &0x144f053b8 failed
+Loaded module /Applications/Siemens/NX8.0/ugii/libdraftingautomation.dylib 0x153b3d000 0x153b3d000
+Loaded module /Applications/Siemens/NX8.0/ugii/libdcupgm58.dylib 0x153730000 0x153730000
+Loaded module /Applications/Siemens/NX8.0/ugii/nxpgm.dylib 0x151de1000 0x151de1000
+Loaded module /Applications/Siemens/NX8.0/ugii/libdcu2d58.dylib 0x153000000 0x153000000
+Loaded module /usr/lib/libtcl.dylib 0x151aad000 0x151aad000
+Loaded module /Applications/Siemens/NX8.0/ugii/ugtcl.dylib 0x144fae000 0x144fae000
+Loaded module /Applications/Siemens/NX8.0/ugii/libmdgantt.dylib 0x151a2f000 0x151a2f000
+Loaded module /Applications/Siemens/NX8.0/ugii/libmdphys.dylib 0x1515d6000 0x1515d6000
+Loaded module /Applications/Siemens/NX8.0/ugii/libnxmdgantt.dylib 0x1515c8000 0x1515c8000
+Loaded module /Applications/Siemens/NX8.0/ugii/libpng121.dylib 0x14ecd7000 0x14ecd7000
+Loaded module /Applications/Siemens/NX8.0/ugii/libJtImageIO73.dylib 0x15098c000 0x15098c000
+Loaded module /Applications/Siemens/NX8.0/ugii/libTcVisGlw.dylib 0x14cfea000 0x14cfea000
+Loaded module /Applications/Siemens/NX8.0/ugii/libJtWinSys73.dylib 0x14edcc000 0x14edcc000
+Loaded module /Applications/Siemens/NX8.0/ugii/libJtSupt73.dylib 0x14ed9c000 0x14ed9c000
+Loaded module /Applications/Siemens/NX8.0/ugii/libJtXTBrep73.dylib 0x14cd6c000 0x14cd6c000
+Loaded module /Applications/Siemens/NX8.0/ugii/libeaiunicode.dylib 0x14cd62000 0x14cd62000
+Loaded module /Applications/Siemens/NX8.0/ugii/libJtSimpOGL73.dylib 0x1508fc000 0x1508fc000
+Loaded module /Applications/Siemens/NX8.0/ugii/libParaSupt73.dylib 0x150848000 0x150848000
+Loaded module /Applications/Siemens/NX8.0/ugii/libJtOGL73.dylib 0x1507c5000 0x1507c5000
+Loaded module /Applications/Siemens/NX8.0/ugii/libJtBrep73.dylib 0x150608000 0x150608000
+Loaded module /Applications/Siemens/NX8.0/ugii/libJtLibra73.dylib 0x1504cf000 0x1504cf000
+Loaded module /Applications/Siemens/NX8.0/ugii/libJtSimp73.dylib 0x150389000 0x150389000
+Loaded module /Applications/Siemens/NX8.0/ugii/libJt73.dylib 0x14fd9a000 0x14fd9a000
+Loaded module /Applications/Siemens/NX8.0/ugii/libjt2nxutils.dylib 0x14cd51000 0x14cd51000
+Loaded module /Applications/Siemens/NX8.0/ugii/jtfacet.dylib 0x14fa83000 0x14fa83000
+Loaded module /Applications/Siemens/NX8.0/ugii/wizstrint.dylib 0x14e900000 0x14e900000
+Loaded module /Applications/Siemens/NX8.0/ugii/freetype.dylib 0x14cbe4000 0x14cbe4000
+Loaded module /Applications/Siemens/NX8.0/ugii/libcamsuicomp.dylib 0x14bbce000 0x14bbce000
+Loaded module /Applications/Siemens/NX8.0/ugii/libuicompgateway.dylib 0x14b97e000 0x14b97e000
+Loaded module /Applications/Siemens/NX8.0/ugii/libissueadapter.dylib 0x148d11000 0x148d11000
+Loaded module /Applications/Siemens/NX8.0/ugii/libissue.dylib 0x145f5e000 0x145f5e000
+Loaded module /Applications/Siemens/NX8.0/ugii/libissueint.dylib 0x148a21000 0x148a21000
+Loaded module /Applications/Siemens/NX8.0/ugii/libhdvint.dylib 0x145cda000 0x145cda000
+Loaded module /Applications/Siemens/NX8.0/ugii/liboptimization.dylib 0x145f00000 0x145f00000
+Loaded module /Applications/Siemens/NX8.0/ugii/libuicompfld.dylib 0x14b69e000 0x14b69e000
+Loaded module /Applications/Siemens/NX8.0/ugii/libuicompsf.dylib 0x14abaa000 0x14abaa000
+Loaded module /Applications/Siemens/NX8.0/ugii/libuimodl.dylib 0x149a70000 0x149a70000
+Loaded module /Applications/Siemens/NX8.0/ugii/libuicompkru.dylib 0x149800000 0x149800000
+Loaded module /usr/X11/lib/libXmu.6.dylib 0x144fcb000 0x144fcb000
+Loaded module /usr/X11/lib/libXpm.4.dylib 0x144fb8000 0x144fb8000
+Loaded module /Applications/Siemens/NX8.0/ugii/libXmHTML.dylib 0x148c00000 0x148c00000
+Loaded module /System/Library/PrivateFrameworks/DebugSymbols.framework/Versions/A/DebugSymbols 0x7fff965a4000 0xb8a1000
+Loaded module /System/Library/PrivateFrameworks/Symbolication.framework/Versions/A/Symbolication 0x7fff93053000 0xb8a1000
+Loaded module /System/Library/PrivateFrameworks/CoreSymbolication.framework/Versions/A/CoreSymbolication 0x7fff8ff2c000 0xb8a1000
+Loaded module /System/Library/PrivateFrameworks/Backup.framework/Versions/A/Backup 0x7fff9848a000 0xb8a1000
+Loaded module /System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/PerformanceAnalysis 0x7fff93597000 0xb8a1000
+Loaded module /System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit 0x7fff8efa4000 0xb8a1000
+Loaded module /System/Library/PrivateFrameworks/RemoteViewServices.framework/Versions/A/RemoteViewServices 0x7fff9605b000 0xb8a1000
+Loaded module /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit 0x7fff9012d000 0xb8a1000
+Loaded module /Applications/Siemens/NX8.0/ugii/interop_server.dylib 0x144e47000 0x144e47000
+Loaded module /usr/lib/libsasl2.2.dylib 0x7fff8ba59000 0xb8a1000
+Loaded module /System/Library/Frameworks/LDAP.framework/Versions/A/LDAP 0x7fff8b9a7000 0xb8a1000
+Loaded module /usr/lib/libcrypto.0.9.8.dylib 0x7fff95292000 0xb8a1000
+Loaded module /usr/lib/libssl.0.9.8.dylib 0x7fff900f3000 0xb8a1000
+Loaded module /System/Library/PrivateFrameworks/MediaKit.framework/Versions/A/MediaKit 0x7fff8dbd8000 0xb8a1000
+Loaded module /usr/lib/libcurl.4.dylib 0x7fff93616000 0xb8a1000
+Loaded module /System/Library/Frameworks/DiscRecording.framework/Versions/A/DiscRecording 0x7fff94182000 0xb8a1000
+Loaded module /System/Library/PrivateFrameworks/DiskImages.framework/Versions/A/DiskImages 0x7fff936b2000 0xb8a1000
+Loaded module /System/Library/Frameworks/OpenCL.framework/Versions/A/Libraries/libcldcpuengine.dylib 0x1442d4000 0x1442d4000
+Loaded module /System/Library/Frameworks/OpenGL.framework/Resources//GLRendererFloat.bundle/GLRendererFloat 0x1442a0000 0x1442a0000
+Loaded module /System/Library/PrivateFrameworks/GPUSupport.framework/Versions/A/Libraries/libGPUSupportMercury.dylib 0x14428c000 0x14428c000
+Loaded module /System/Library/PrivateFrameworks/IOAccelerator.framework/Versions/A/IOAccelerator 0x14427f000 0x14427f000
+Loaded module /System/Library/Extensions/AMDRadeonX3000GLDriver.bundle/Contents/MacOS/AMDRadeonX3000GLDriver 0x144a00000 0x144a00000
+Loaded module /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLProgrammability.dylib 0x14473e000 0x14473e000
+Loaded module /System/Library/Frameworks/OpenGL.framework/Resources/GLEngine.bundle/GLEngine 0x14408a000 0x14408a000
+Loaded module /System/Library/PrivateFrameworks/CoreServicesInternal.framework/Versions/A/CoreServicesInternal 0x7fff8c074000 0xb8a1000
+Loaded module /Applications/Siemens/NX8.0/ugii/libvmathpp.dylib 0x13f5dc000 0x13f5dc000
+Loaded module /Applications/Siemens/NX8.0/ugii/libopenintpp.dylib 0x13f5c3000 0x13f5c3000
+Loaded module /Applications/Siemens/NX8.0/ugii/libopenpp.dylib 0x140600000 0x140600000
+Loaded module /Applications/Siemens/NX8.0/ugii/libufchecker.dylib 0x13f5a8000 0x13f5a8000
+Loaded module /Applications/Siemens/NX8.0/ugii/libshipapp.dylib 0x133ffa000 0x133ffa000
+Loaded module /Applications/Siemens/NX8.0/ugii/libwizardint.dylib 0x14052e000 0x14052e000
+Loaded module /Applications/Siemens/NX8.0/ugii/libugopenint.dylib 0x13458b000 0x13458b000
+Loaded module /Applications/Siemens/NX8.0/ugii/libufship.dylib 0x140386000 0x140386000
+Loaded module /Applications/Siemens/NX8.0/ugii/libshipappint.dylib 0x13f700000 0x13f700000
+Loaded module /Applications/Siemens/NX8.0/nxship/startup/libship_iuf_actions.dylib 0x134583000 0x134583000
+Loaded module /Applications/Siemens/NX8.0/ugii/libmpaw.dylib 0x133fbf000 0x133fbf000
+Loaded module /Applications/Siemens/NX8.0/ugprocess_aid/startup/mpaw_uf_startup.dylib 0x133fba000 0x133fba000
+Loaded module /Applications/Siemens/NX8.0/ugii/libmqc.dylib 0x133fa6000 0x133fa6000
+Loaded module /Applications/Siemens/NX8.0/ugii/libtoscaopt.dylib 0x140200000 0x140200000
+Loaded module /Applications/Siemens/NX8.0/ugii/libdrfcmp.dylib 0x133f8e000 0x133f8e000
+Loaded module /Applications/Siemens/NX8.0/ugii/libkfbindings.dylib 0x14170e000 0x14170e000
+Loaded module /Applications/Siemens/NX8.0/ugii/libweldapp.dylib 0x13f50d000 0x13f50d000
+Loaded module /Applications/Siemens/NX8.0/ugii/libufun.dylib 0x141000000 0x141000000
+Loaded module /Applications/Siemens/NX8.0/ugweld/startup/weld_uf_startup.dylib 0x133f87000 0x133f87000
+Loaded module /Applications/Siemens/NX8.0/ugii/libuigenpos.dylib 0x1397f8000 0x1397f8000
+Loaded module /Applications/Siemens/NX8.0/ugii/libpdmui.dylib 0x13962a000 0x13962a000
+Loaded module /Applications/Siemens/NX8.0/ugii/libuicomp_mswp.dylib 0x1395f5000 0x1395f5000
+Loaded module /Applications/Siemens/NX8.0/ugii/libuicomp_modl.dylib 0x1394a7000 0x1394a7000
+Loaded module /Applications/Siemens/NX8.0/ugii/treelist.dylib 0x139028000 0x139028000
+[ 1] 0x12280e804 Error_Exception.cxx/UGS::Error::Exception::printTracebackToLog() (libsyss.dylib)
+[ 2] 0x12280e869 Error_Exception.cxx/UGS::Error::Exception::doTraceback(bool) const (libsyss.dylib)
+[ 3] 0x12280ad22 Error_Standard.cxx/UGS::Error::Standard::Standard(char const*, int, int, bool, char const*, __va_list_tag*) (libsyss.dylib)
+[ 4] 0x12280ad63 Error_Standard.cxx/UGS::Error::Standard::Standard(char const*, int, int, bool, char const*, __va_list_tag*) (libsyss.dylib)
+[ 5] 0x12280ad8d Error_Standard.cxx/UGS::Error::Standard::raise(char const*, int, int, bool, char const*, __va_list_tag*) (libsyss.dylib)
+[ 6] 0x1227fef27 error.cxx/raise_exception(char const*, int, int, bool, char const*, __va_list_tag*) (libsyss.dylib)
+[ 7] 0x1227fefed error.cxx/ERROR_raise(char const*, int, int, char const*, ...) (libsyss.dylib)
+[ 8] 0x1132467e4 cm_create_frec_mbf.c/apply_feature(UGS::FEATURE_RECORD*, int, UGS::OM::Set*) (libcmod.dylib)
+[ 9] 0x113249d4f cm_create_frec_mbf.c/CM_recreate_frec_mbf(UGS::FEATURE_RECORD*, int, UGS::OM::Set*) (libcmod.dylib)
+[10] 0x1131b24a1 update_cm.c/UPDATE_CM_recreate_frec_doit(UGS::FEATURE_RECORD*, int, int, UGS::UPDATE_CM_ROLLBACK_DATA*, UGS::OM::Set*, int*) (libcmod.dylib)
+[11] 0x1131b32ab update_cm.c/UPDATE_CM_recreate_frec(UGS::FEATURE_RECORD*, int, int, UGS::UPDATE_CM_ROLLBACK_DATA*, UGS::OM::Set*, int*) (libcmod.dylib)
+[12] 0x11318c81a cm_update.c/recreate_frecs(UGS::FEATURE_RECORD*, UGS::UPDATE_CM_data*, UGS::UPDATE_CM_ROLLBACK_DATA*, UGS::CONT_UPDATE*, UGS::OM::Set*, int* (libcmod.dylib)
+[13] 0x11318cdef cm_update.c/update_frec(UGS::FEATURE_RECORD*, int*) (libcmod.dylib)
+[14] 0x11318a268 cm_update.c/CM_update_do_update(void*, int, void**) (libcmod.dylib)
+[15] 0x113276507 feature_record_definitions.c/UGS::FEATURE_RECORD::update_internal() (libcmod.dylib)
+[16] 0x11317e5eb feature_parms_definitions.c/UGS::FEATURE_PARMS::update() (libcmod.dylib)
+[17] 0x113267690 feature_record_definitions.c/UGS::FEATURE_RECORD::update() (libcmod.dylib)
+[18] 0x10ee75ed3 update.c/apply_events()                        (libpart.dylib)
+[19] 0x10ee77117 update.c/perform_update(bool, bool)            (libpart.dylib)
+[20] 0x10ee779ed update.c/update_and_delete(int)                (libpart.dylib)
+[21] 0x10ee78781 update.c/UPDATE_do_update_no_message()         (libpart.dylib)
+[22] 0x11339b84b frec_copy_frec.c/update_copy_feature(UGS::FEATURE_RECORD*, UGS::FEATURE_RECORD*, UGS::CMCP_closure*) (libcmod.dylib)
+[23] 0x11339e24b frec_copy_frec.c/frec__copy_feature(UGS::FEATURE_RECORD*, UGS::CMCP_closure*, bool) (libcmod.dylib)
+[24] 0x11339e946 frec_copy_frec.c/FREC_copy_feature(UGS::FEATURE_RECORD*, UGS::CMCP_closure*, bool) (libcmod.dylib)
+[25] 0x1131e6a2c cmcp.c/CMCP_feature(UGS::OM::Object*, UGS::CMCP_closure*, UGS::OM::Object**) (libcmod.dylib)
+[26] 0x113183057 cmcp_method.c/CMCP__invoke_copy_fn(UGS::OM::Object*, void (*)(), void*, void*) (libcmod.dylib)
+[27] 0x1228a2252 meth.c/call_fn(int, METH__method_s*, void*, void*) (libsyss.dylib)
+[28] 0x1228a3106 meth.c/METH_invoke_method_as_class(void*, int, unsigned int, void*) (libsyss.dylib)
+[29] 0x1228a3171 meth.c/METH_invoke_method(void*, unsigned int, void*) (libsyss.dylib)
+[30] 0x1131832b3 cmcp_method.c/CMCP_copy_object(UGS::OM::Object*, UGS::CMCP_closure*, UGS::OM::Object**) (libcmod.dylib)
+[31] 0x11339f13c frec_copy_frec.c/frec__copy_features(int, int, double*, UGS::FEATURE_RECORD**, int, UGS::OM_tag_map*, UGS::OM::Set*, int (*)(UGS::FEATURE_RECORD* (libcmod.dylib)
+[32] 0x11339f92c frec_copy_frec.c/FREC_copy_features(int, int, double*, UGS::FEATURE_RECORD**, int, UGS::OM_tag_map*, UGS::OM::Set*, int (*)(UGS::FEATURE_RECORD*, (libcmod.dylib)
+[33] 0x113a589a8 udfs_ui_instantiation.c/create_udf_menu(bool, unsigned int, char*, char*, UGS::FEATURE_RECORD*, UGS::FEATURE_RECORD**, int, UGS::FSET_exp**, int, unsign (libmodlint.dylib)
+[34] 0x113a5a006 udfs_ui_instantiation.c/UDFS_bui_create_inst_frec_uifw(UGS::UICOMP_udf*) (libmodlint.dylib)
+[35] 0x149b783b9 uicomp_udf_definitions.c/UGS::UICOMP_udf::start_adopted_dialog() (libuimodl.dylib)
+[36] 0x130f1c7c5 uifw_definitions.c/start_activate_adopted(UGS::UICOMP*, int*) (libuifw.dylib)
+[37] 0x130f1f563 uifw_definitions.c/UGS::UIFW::create_command(bool, bool, char const*, UGS::OM::MethodicObject*, void*) (libuifw.dylib)
+[38] 0x124666179 uifw.c/UIFW_create_command(char const*, UGS::OM::MethodicObject*, void*) (libugui.dylib)
+[39] 0x113a4fbc4 udfs_ui_instantiation.c/bui_create_inst_frec(bool, unsigned int, char*, char*, UGS::FEATURE_RECORD*, char*, char*, int, double*, int, bool*, unsigned in (libmodlint.dylib)
+[40] 0x113a5332d udfs_ui_instantiation.c/UDFS_create_inst_frec(char*, char*, char*, char*) (libmodlint.dylib)
+[41] 0x1139b60a8 System_LibModlintInterfaceImpl.cxx/UGS::System::LibModlintImpl::CALL_UDFS_create_inst_frec(char*, char*, char*, char*) (libmodlint.dylib)
+[42] 0x12cb1df73 ToolingUI_KRUNAVUdfRules.cxx/KRUNAV_udf_part_drop(KRUNAV_drag_data_s*, unsigned int, double*, unsigned int) (libkrunavint.dylib)
+[43] 0x12cae2315 ToolingUI_MemberViewUdfItem.cxx/UGS::ToolingUI::MemberViewUdfItem::OnMenuCommand(UGS::ToolingUI::MemberViewApp*, MemberView_cell_t, int, void*) (libkrunavint.dylib)
+[44] 0x12cb22170 ToolingUI_MemberViewApp.cxx/MemberViewApp__ThumnailPopupMenuCB(int, void const*, void*) (libkrunavint.dylib)
+[45] 0x12281e067 callback.c/call_function_list(int, CALLBACK_registered_fn_s*, void const*) (libsyss.dylib)
+[46] 0x12281e1d9 callback.c/CALLBACK_call_list(int, void const*) (libsyss.dylib)
+[47] 0x12c6de760 kru_callbacks.c/KRU_call_cbs(KRUNAV__callback_type_t, void*) (libkru.dylib)
+[48] 0x12cafa18f krunav_callbacks.c/KRUNAV_call_cbs(KRUNAV__callback_type_t, void*) (libkrunavint.dylib)
+[49] 0x12cb21ce8 ToolingUI_MemberViewApp.cxx/on_item_popup_menu_cb(TNL_thumbnail_list_s*, int, int, int, int, int, int) (libkrunavint.dylib)
+[50] 0x12471a88e mt_thumbnail_list_motif.c/doPopupThumbnail(void*) (libugui.dylib)
+[51] 0x1245226fe evt_timeout.c/EVT__dispatch_timeout_cb(EVT_registered_timeout_s*) (libugui.dylib)
+[52] 0x1246f1e2c evt_procs_motif.c/timeout_cb(void*, unsigned long*) (libugui.dylib)
+[53] 0x12ec7ddd0 _DoOtherSources                                (libXt.6.dylib)
+[54] 0x12ec7dae9 _XtAppNextEvent                                (libXt.6.dylib)
+[55] 0x1243977f9 tbxm_events.c/_TbxmAppNextEvent                (libugui.dylib)
+[56] 0x1247429a0 uithread_motif.c/ugUIevent(EVT_event_context_t, void*, UGUI_selection_s*, int*, EVT_loop_attributes_s*) (libugui.dylib)
+[57] 0x124742dc5 uithread_motif.c/EVT__x_event_loop(EVT_event_context_t, void*, UGUI_selection_s*, int*, EVT_loop_attributes_s*) (libugui.dylib)
+[58] 0x1245e7bec evt_loop.c/EVT_loop_enter(EVT_event_context_t, void*, UGUI_selection_s*, int*, EVT_loop_attributes_s*) (libugui.dylib)
+[59] 0x12448c978 ui_app.c/event_loop(int)                       (libugui.dylib)
+[60] 0x124515d62 uigblfunc.c/ugUIenterGlobalFunction(void (*)(int), int) (libugui.dylib)
+[61] 0x12448c9a8 ui_app.c/UI_APP_event_loop()                   (libugui.dylib)
+[62] 0x1139b40b6 ui_modl_app.cxx/MODL__ui_enter()               (libmodlint.dylib)
+[63] 0x1233a5756 clink.c/clbgn()                                (libuginitint.dylib)
+[64] 0x1000349e5 ugraf.c/_main                                  (ugraf)
+[65] 0x100034710 ugraf.c/start                                  (ugraf)
+>>>> Error code  670030 caught in file "/plm/cynas/iproot/ugnx8mr/build/sandbox/src/cmod/no/ind/cm_create_frec_mbf.c" at line number 2003
+>>>> Error code  670030 caught in file "/plm/cynas/iproot/ugnx8mr/build/sandbox/src/cmod/no/ind/update_cm.c" at line number 4310
+>>>> Error code  670030 successfully handled and acknowledged
+*** EXCEPTION: Error code  670030 in line 4749 of /plm/cynas/iproot/ugnx8mr/build/sandbox/src/cmod/no/ind/feature_record_definitions.c at Mon May 19 11:31:39 2014 CEST
++++ Feature Update Failed - Simple Hole(11) Tool body completely outside target body.
+
+[ 1] 0x12280e804 Error_Exception.cxx/UGS::Error::Exception::printTracebackToLog() (libsyss.dylib)
+[ 2] 0x12280e869 Error_Exception.cxx/UGS::Error::Exception::doTraceback(bool) const (libsyss.dylib)
+[ 3] 0x12280ad22 Error_Standard.cxx/UGS::Error::Standard::Standard(char const*, int, int, bool, char const*, __va_list_tag*) (libsyss.dylib)
+[ 4] 0x12280ad63 Error_Standard.cxx/UGS::Error::Standard::Standard(char const*, int, int, bool, char const*, __va_list_tag*) (libsyss.dylib)
+[ 5] 0x12280ad8d Error_Standard.cxx/UGS::Error::Standard::raise(char const*, int, int, bool, char const*, __va_list_tag*) (libsyss.dylib)
+[ 6] 0x1227fef27 error.cxx/raise_exception(char const*, int, int, bool, char const*, __va_list_tag*) (libsyss.dylib)
+[ 7] 0x1227fefed error.cxx/ERROR_raise(char const*, int, int, char const*, ...) (libsyss.dylib)
+[ 8] 0x113276a63 feature_record_definitions.c/UGS::FEATURE_RECORD::update_internal() (libcmod.dylib)
+[ 9] 0x11317e5eb feature_parms_definitions.c/UGS::FEATURE_PARMS::update() (libcmod.dylib)
+[10] 0x113267690 feature_record_definitions.c/UGS::FEATURE_RECORD::update() (libcmod.dylib)
+[11] 0x10ee75ed3 update.c/apply_events()                        (libpart.dylib)
+[12] 0x10ee77117 update.c/perform_update(bool, bool)            (libpart.dylib)
+[13] 0x10ee779ed update.c/update_and_delete(int)                (libpart.dylib)
+[14] 0x10ee78781 update.c/UPDATE_do_update_no_message()         (libpart.dylib)
+[15] 0x11339b84b frec_copy_frec.c/update_copy_feature(UGS::FEATURE_RECORD*, UGS::FEATURE_RECORD*, UGS::CMCP_closure*) (libcmod.dylib)
+[16] 0x11339e24b frec_copy_frec.c/frec__copy_feature(UGS::FEATURE_RECORD*, UGS::CMCP_closure*, bool) (libcmod.dylib)
+[17] 0x11339e946 frec_copy_frec.c/FREC_copy_feature(UGS::FEATURE_RECORD*, UGS::CMCP_closure*, bool) (libcmod.dylib)
+[18] 0x1131e6a2c cmcp.c/CMCP_feature(UGS::OM::Object*, UGS::CMCP_closure*, UGS::OM::Object**) (libcmod.dylib)
+[19] 0x113183057 cmcp_method.c/CMCP__invoke_copy_fn(UGS::OM::Object*, void (*)(), void*, void*) (libcmod.dylib)
+[20] 0x1228a2252 meth.c/call_fn(int, METH__method_s*, void*, void*) (libsyss.dylib)
+[21] 0x1228a3106 meth.c/METH_invoke_method_as_class(void*, int, unsigned int, void*) (libsyss.dylib)
+[22] 0x1228a3171 meth.c/METH_invoke_method(void*, unsigned int, void*) (libsyss.dylib)
+[23] 0x1131832b3 cmcp_method.c/CMCP_copy_object(UGS::OM::Object*, UGS::CMCP_closure*, UGS::OM::Object**) (libcmod.dylib)
+[24] 0x11339f13c frec_copy_frec.c/frec__copy_features(int, int, double*, UGS::FEATURE_RECORD**, int, UGS::OM_tag_map*, UGS::OM::Set*, int (*)(UGS::FEATURE_RECORD* (libcmod.dylib)
+[25] 0x11339f92c frec_copy_frec.c/FREC_copy_features(int, int, double*, UGS::FEATURE_RECORD**, int, UGS::OM_tag_map*, UGS::OM::Set*, int (*)(UGS::FEATURE_RECORD*, (libcmod.dylib)
+[26] 0x113a589a8 udfs_ui_instantiation.c/create_udf_menu(bool, unsigned int, char*, char*, UGS::FEATURE_RECORD*, UGS::FEATURE_RECORD**, int, UGS::FSET_exp**, int, unsign (libmodlint.dylib)
+[27] 0x113a5a006 udfs_ui_instantiation.c/UDFS_bui_create_inst_frec_uifw(UGS::UICOMP_udf*) (libmodlint.dylib)
+[28] 0x149b783b9 uicomp_udf_definitions.c/UGS::UICOMP_udf::start_adopted_dialog() (libuimodl.dylib)
+[29] 0x130f1c7c5 uifw_definitions.c/start_activate_adopted(UGS::UICOMP*, int*) (libuifw.dylib)
+[30] 0x130f1f563 uifw_definitions.c/UGS::UIFW::create_command(bool, bool, char const*, UGS::OM::MethodicObject*, void*) (libuifw.dylib)
+[31] 0x124666179 uifw.c/UIFW_create_command(char const*, UGS::OM::MethodicObject*, void*) (libugui.dylib)
+[32] 0x113a4fbc4 udfs_ui_instantiation.c/bui_create_inst_frec(bool, unsigned int, char*, char*, UGS::FEATURE_RECORD*, char*, char*, int, double*, int, bool*, unsigned in (libmodlint.dylib)
+[33] 0x113a5332d udfs_ui_instantiation.c/UDFS_create_inst_frec(char*, char*, char*, char*) (libmodlint.dylib)
+[34] 0x1139b60a8 System_LibModlintInterfaceImpl.cxx/UGS::System::LibModlintImpl::CALL_UDFS_create_inst_frec(char*, char*, char*, char*) (libmodlint.dylib)
+[35] 0x12cb1df73 ToolingUI_KRUNAVUdfRules.cxx/KRUNAV_udf_part_drop(KRUNAV_drag_data_s*, unsigned int, double*, unsigned int) (libkrunavint.dylib)
+[36] 0x12cae2315 ToolingUI_MemberViewUdfItem.cxx/UGS::ToolingUI::MemberViewUdfItem::OnMenuCommand(UGS::ToolingUI::MemberViewApp*, MemberView_cell_t, int, void*) (libkrunavint.dylib)
+[37] 0x12cb22170 ToolingUI_MemberViewApp.cxx/MemberViewApp__ThumnailPopupMenuCB(int, void const*, void*) (libkrunavint.dylib)
+[38] 0x12281e067 callback.c/call_function_list(int, CALLBACK_registered_fn_s*, void const*) (libsyss.dylib)
+[39] 0x12281e1d9 callback.c/CALLBACK_call_list(int, void const*) (libsyss.dylib)
+[40] 0x12c6de760 kru_callbacks.c/KRU_call_cbs(KRUNAV__callback_type_t, void*) (libkru.dylib)
+[41] 0x12cafa18f krunav_callbacks.c/KRUNAV_call_cbs(KRUNAV__callback_type_t, void*) (libkrunavint.dylib)
+[42] 0x12cb21ce8 ToolingUI_MemberViewApp.cxx/on_item_popup_menu_cb(TNL_thumbnail_list_s*, int, int, int, int, int, int) (libkrunavint.dylib)
+[43] 0x12471a88e mt_thumbnail_list_motif.c/doPopupThumbnail(void*) (libugui.dylib)
+[44] 0x1245226fe evt_timeout.c/EVT__dispatch_timeout_cb(EVT_registered_timeout_s*) (libugui.dylib)
+[45] 0x1246f1e2c evt_procs_motif.c/timeout_cb(void*, unsigned long*) (libugui.dylib)
+[46] 0x12ec7ddd0 _DoOtherSources                                (libXt.6.dylib)
+[47] 0x12ec7dae9 _XtAppNextEvent                                (libXt.6.dylib)
+[48] 0x1243977f9 tbxm_events.c/_TbxmAppNextEvent                (libugui.dylib)
+[49] 0x1247429a0 uithread_motif.c/ugUIevent(EVT_event_context_t, void*, UGUI_selection_s*, int*, EVT_loop_attributes_s*) (libugui.dylib)
+[50] 0x124742dc5 uithread_motif.c/EVT__x_event_loop(EVT_event_context_t, void*, UGUI_selection_s*, int*, EVT_loop_attributes_s*) (libugui.dylib)
+[51] 0x1245e7bec evt_loop.c/EVT_loop_enter(EVT_event_context_t, void*, UGUI_selection_s*, int*, EVT_loop_attributes_s*) (libugui.dylib)
+[52] 0x12448c978 ui_app.c/event_loop(int)                       (libugui.dylib)
+[53] 0x124515d62 uigblfunc.c/ugUIenterGlobalFunction(void (*)(int), int) (libugui.dylib)
+[54] 0x12448c9a8 ui_app.c/UI_APP_event_loop()                   (libugui.dylib)
+[55] 0x1139b40b6 ui_modl_app.cxx/MODL__ui_enter()               (libmodlint.dylib)
+[56] 0x1233a5756 clink.c/clbgn()                                (libuginitint.dylib)
+[57] 0x1000349e5 ugraf.c/_main                                  (ugraf)
+[58] 0x100034710 ugraf.c/start                                  (ugraf)
+>>>> Error code  670030 caught in file "/plm/cynas/iproot/ugnx8mr/build/sandbox/src/cmod/no/ind/feature_record_definitions.c" at line number 4824
+>>>> Error code  670030 caught in file "/plm/cynas/iproot/ugnx8mr/build/sandbox/src/part/no/ind/update.c" at line number 5195
+>>>> Error code  670030 successfully handled and acknowledged
+*** EXCEPTION: Error code  670030 in line 1376 of /plm/cynas/iproot/ugnx8mr/build/sandbox/src/cmod/no/ind/cm_create_frec_mbf.c at Mon May 19 11:31:39 2014 CEST
++++ apply feature for &0x144f053b8 failed
+[ 1] 0x12280e804 Error_Exception.cxx/UGS::Error::Exception::printTracebackToLog() (libsyss.dylib)
+[ 2] 0x12280e869 Error_Exception.cxx/UGS::Error::Exception::doTraceback(bool) const (libsyss.dylib)
+[ 3] 0x12280ad22 Error_Standard.cxx/UGS::Error::Standard::Standard(char const*, int, int, bool, char const*, __va_list_tag*) (libsyss.dylib)
+[ 4] 0x12280ad63 Error_Standard.cxx/UGS::Error::Standard::Standard(char const*, int, int, bool, char const*, __va_list_tag*) (libsyss.dylib)
+[ 5] 0x12280ad8d Error_Standard.cxx/UGS::Error::Standard::raise(char const*, int, int, bool, char const*, __va_list_tag*) (libsyss.dylib)
+[ 6] 0x1227fef27 error.cxx/raise_exception(char const*, int, int, bool, char const*, __va_list_tag*) (libsyss.dylib)
+[ 7] 0x1227fefed error.cxx/ERROR_raise(char const*, int, int, char const*, ...) (libsyss.dylib)
+[ 8] 0x1132467e4 cm_create_frec_mbf.c/apply_feature(UGS::FEATURE_RECORD*, int, UGS::OM::Set*) (libcmod.dylib)
+[ 9] 0x113249d4f cm_create_frec_mbf.c/CM_recreate_frec_mbf(UGS::FEATURE_RECORD*, int, UGS::OM::Set*) (libcmod.dylib)
+[10] 0x1131b24a1 update_cm.c/UPDATE_CM_recreate_frec_doit(UGS::FEATURE_RECORD*, int, int, UGS::UPDATE_CM_ROLLBACK_DATA*, UGS::OM::Set*, int*) (libcmod.dylib)
+[11] 0x1131b32ab update_cm.c/UPDATE_CM_recreate_frec(UGS::FEATURE_RECORD*, int, int, UGS::UPDATE_CM_ROLLBACK_DATA*, UGS::OM::Set*, int*) (libcmod.dylib)
+[12] 0x11318c81a cm_update.c/recreate_frecs(UGS::FEATURE_RECORD*, UGS::UPDATE_CM_data*, UGS::UPDATE_CM_ROLLBACK_DATA*, UGS::CONT_UPDATE*, UGS::OM::Set*, int* (libcmod.dylib)
+[13] 0x11318cdef cm_update.c/update_frec(UGS::FEATURE_RECORD*, int*) (libcmod.dylib)
+[14] 0x11318a268 cm_update.c/CM_update_do_update(void*, int, void**) (libcmod.dylib)
+[15] 0x113276507 feature_record_definitions.c/UGS::FEATURE_RECORD::update_internal() (libcmod.dylib)
+[16] 0x11317e5eb feature_parms_definitions.c/UGS::FEATURE_PARMS::update() (libcmod.dylib)
+[17] 0x113267690 feature_record_definitions.c/UGS::FEATURE_RECORD::update() (libcmod.dylib)
+[18] 0x10ee75ed3 update.c/apply_events()                        (libpart.dylib)
+[19] 0x10ee77117 update.c/perform_update(bool, bool)            (libpart.dylib)
+[20] 0x10ee779ed update.c/update_and_delete(int)                (libpart.dylib)
+[21] 0x10ee78781 update.c/UPDATE_do_update_no_message()         (libpart.dylib)
+[22] 0x11339e4a0 frec_copy_frec.c/frec__copy_feature(UGS::FEATURE_RECORD*, UGS::CMCP_closure*, bool) (libcmod.dylib)
+[23] 0x11339e946 frec_copy_frec.c/FREC_copy_feature(UGS::FEATURE_RECORD*, UGS::CMCP_closure*, bool) (libcmod.dylib)
+[24] 0x1131e6a2c cmcp.c/CMCP_feature(UGS::OM::Object*, UGS::CMCP_closure*, UGS::OM::Object**) (libcmod.dylib)
+[25] 0x113183057 cmcp_method.c/CMCP__invoke_copy_fn(UGS::OM::Object*, void (*)(), void*, void*) (libcmod.dylib)
+[26] 0x1228a2252 meth.c/call_fn(int, METH__method_s*, void*, void*) (libsyss.dylib)
+[27] 0x1228a3106 meth.c/METH_invoke_method_as_class(void*, int, unsigned int, void*) (libsyss.dylib)
+[28] 0x1228a3171 meth.c/METH_invoke_method(void*, unsigned int, void*) (libsyss.dylib)
+[29] 0x1131832b3 cmcp_method.c/CMCP_copy_object(UGS::OM::Object*, UGS::CMCP_closure*, UGS::OM::Object**) (libcmod.dylib)
+[30] 0x11339f13c frec_copy_frec.c/frec__copy_features(int, int, double*, UGS::FEATURE_RECORD**, int, UGS::OM_tag_map*, UGS::OM::Set*, int (*)(UGS::FEATURE_RECORD* (libcmod.dylib)
+[31] 0x11339f92c frec_copy_frec.c/FREC_copy_features(int, int, double*, UGS::FEATURE_RECORD**, int, UGS::OM_tag_map*, UGS::OM::Set*, int (*)(UGS::FEATURE_RECORD*, (libcmod.dylib)
+[32] 0x113a589a8 udfs_ui_instantiation.c/create_udf_menu(bool, unsigned int, char*, char*, UGS::FEATURE_RECORD*, UGS::FEATURE_RECORD**, int, UGS::FSET_exp**, int, unsign (libmodlint.dylib)
+[33] 0x113a5a006 udfs_ui_instantiation.c/UDFS_bui_create_inst_frec_uifw(UGS::UICOMP_udf*) (libmodlint.dylib)
+[34] 0x149b783b9 uicomp_udf_definitions.c/UGS::UICOMP_udf::start_adopted_dialog() (libuimodl.dylib)
+[35] 0x130f1c7c5 uifw_definitions.c/start_activate_adopted(UGS::UICOMP*, int*) (libuifw.dylib)
+[36] 0x130f1f563 uifw_definitions.c/UGS::UIFW::create_command(bool, bool, char const*, UGS::OM::MethodicObject*, void*) (libuifw.dylib)
+[37] 0x124666179 uifw.c/UIFW_create_command(char const*, UGS::OM::MethodicObject*, void*) (libugui.dylib)
+[38] 0x113a4fbc4 udfs_ui_instantiation.c/bui_create_inst_frec(bool, unsigned int, char*, char*, UGS::FEATURE_RECORD*, char*, char*, int, double*, int, bool*, unsigned in (libmodlint.dylib)
+[39] 0x113a5332d udfs_ui_instantiation.c/UDFS_create_inst_frec(char*, char*, char*, char*) (libmodlint.dylib)
+[40] 0x1139b60a8 System_LibModlintInterfaceImpl.cxx/UGS::System::LibModlintImpl::CALL_UDFS_create_inst_frec(char*, char*, char*, char*) (libmodlint.dylib)
+[41] 0x12cb1df73 ToolingUI_KRUNAVUdfRules.cxx/KRUNAV_udf_part_drop(KRUNAV_drag_data_s*, unsigned int, double*, unsigned int) (libkrunavint.dylib)
+[42] 0x12cae2315 ToolingUI_MemberViewUdfItem.cxx/UGS::ToolingUI::MemberViewUdfItem::OnMenuCommand(UGS::ToolingUI::MemberViewApp*, MemberView_cell_t, int, void*) (libkrunavint.dylib)
+[43] 0x12cb22170 ToolingUI_MemberViewApp.cxx/MemberViewApp__ThumnailPopupMenuCB(int, void const*, void*) (libkrunavint.dylib)
+[44] 0x12281e067 callback.c/call_function_list(int, CALLBACK_registered_fn_s*, void const*) (libsyss.dylib)
+[45] 0x12281e1d9 callback.c/CALLBACK_call_list(int, void const*) (libsyss.dylib)
+[46] 0x12c6de760 kru_callbacks.c/KRU_call_cbs(KRUNAV__callback_type_t, void*) (libkru.dylib)
+[47] 0x12cafa18f krunav_callbacks.c/KRUNAV_call_cbs(KRUNAV__callback_type_t, void*) (libkrunavint.dylib)
+[48] 0x12cb21ce8 ToolingUI_MemberViewApp.cxx/on_item_popup_menu_cb(TNL_thumbnail_list_s*, int, int, int, int, int, int) (libkrunavint.dylib)
+[49] 0x12471a88e mt_thumbnail_list_motif.c/doPopupThumbnail(void*) (libugui.dylib)
+[50] 0x1245226fe evt_timeout.c/EVT__dispatch_timeout_cb(EVT_registered_timeout_s*) (libugui.dylib)
+[51] 0x1246f1e2c evt_procs_motif.c/timeout_cb(void*, unsigned long*) (libugui.dylib)
+[52] 0x12ec7ddd0 _DoOtherSources                                (libXt.6.dylib)
+[53] 0x12ec7dae9 _XtAppNextEvent                                (libXt.6.dylib)
+[54] 0x1243977f9 tbxm_events.c/_TbxmAppNextEvent                (libugui.dylib)
+[55] 0x1247429a0 uithread_motif.c/ugUIevent(EVT_event_context_t, void*, UGUI_selection_s*, int*, EVT_loop_attributes_s*) (libugui.dylib)
+[56] 0x124742dc5 uithread_motif.c/EVT__x_event_loop(EVT_event_context_t, void*, UGUI_selection_s*, int*, EVT_loop_attributes_s*) (libugui.dylib)
+[57] 0x1245e7bec evt_loop.c/EVT_loop_enter(EVT_event_context_t, void*, UGUI_selection_s*, int*, EVT_loop_attributes_s*) (libugui.dylib)
+[58] 0x12448c978 ui_app.c/event_loop(int)                       (libugui.dylib)
+[59] 0x124515d62 uigblfunc.c/ugUIenterGlobalFunction(void (*)(int), int) (libugui.dylib)
+[60] 0x12448c9a8 ui_app.c/UI_APP_event_loop()                   (libugui.dylib)
+[61] 0x1139b40b6 ui_modl_app.cxx/MODL__ui_enter()               (libmodlint.dylib)
+[62] 0x1233a5756 clink.c/clbgn()                                (libuginitint.dylib)
+[63] 0x1000349e5 ugraf.c/_main                                  (ugraf)
+[64] 0x100034710 ugraf.c/start                                  (ugraf)
+>>>> Error code  670030 caught in file "/plm/cynas/iproot/ugnx8mr/build/sandbox/src/cmod/no/ind/cm_create_frec_mbf.c" at line number 2003
+>>>> Error code  670030 caught in file "/plm/cynas/iproot/ugnx8mr/build/sandbox/src/cmod/no/ind/update_cm.c" at line number 4310
+>>>> Error code  670030 successfully handled and acknowledged
+*** EXCEPTION: Error code  670030 in line 4749 of /plm/cynas/iproot/ugnx8mr/build/sandbox/src/cmod/no/ind/feature_record_definitions.c at Mon May 19 11:31:39 2014 CEST
++++ Feature Update Failed - Simple Hole(11) Tool body completely outside target body.
+
+[ 1] 0x12280e804 Error_Exception.cxx/UGS::Error::Exception::printTracebackToLog() (libsyss.dylib)
+[ 2] 0x12280e869 Error_Exception.cxx/UGS::Error::Exception::doTraceback(bool) const (libsyss.dylib)
+[ 3] 0x12280ad22 Error_Standard.cxx/UGS::Error::Standard::Standard(char const*, int, int, bool, char const*, __va_list_tag*) (libsyss.dylib)
+[ 4] 0x12280ad63 Error_Standard.cxx/UGS::Error::Standard::Standard(char const*, int, int, bool, char const*, __va_list_tag*) (libsyss.dylib)
+[ 5] 0x12280ad8d Error_Standard.cxx/UGS::Error::Standard::raise(char const*, int, int, bool, char const*, __va_list_tag*) (libsyss.dylib)
+[ 6] 0x1227fef27 error.cxx/raise_exception(char const*, int, int, bool, char const*, __va_list_tag*) (libsyss.dylib)
+[ 7] 0x1227fefed error.cxx/ERROR_raise(char const*, int, int, char const*, ...) (libsyss.dylib)
+[ 8] 0x113276a63 feature_record_definitions.c/UGS::FEATURE_RECORD::update_internal() (libcmod.dylib)
+[ 9] 0x11317e5eb feature_parms_definitions.c/UGS::FEATURE_PARMS::update() (libcmod.dylib)
+[10] 0x113267690 feature_record_definitions.c/UGS::FEATURE_RECORD::update() (libcmod.dylib)
+[11] 0x10ee75ed3 update.c/apply_events()                        (libpart.dylib)
+[12] 0x10ee77117 update.c/perform_update(bool, bool)            (libpart.dylib)
+[13] 0x10ee779ed update.c/update_and_delete(int)                (libpart.dylib)
+[14] 0x10ee78781 update.c/UPDATE_do_update_no_message()         (libpart.dylib)
+[15] 0x11339e4a0 frec_copy_frec.c/frec__copy_feature(UGS::FEATURE_RECORD*, UGS::CMCP_closure*, bool) (libcmod.dylib)
+[16] 0x11339e946 frec_copy_frec.c/FREC_copy_feature(UGS::FEATURE_RECORD*, UGS::CMCP_closure*, bool) (libcmod.dylib)
+[17] 0x1131e6a2c cmcp.c/CMCP_feature(UGS::OM::Object*, UGS::CMCP_closure*, UGS::OM::Object**) (libcmod.dylib)
+[18] 0x113183057 cmcp_method.c/CMCP__invoke_copy_fn(UGS::OM::Object*, void (*)(), void*, void*) (libcmod.dylib)
+[19] 0x1228a2252 meth.c/call_fn(int, METH__method_s*, void*, void*) (libsyss.dylib)
+[20] 0x1228a3106 meth.c/METH_invoke_method_as_class(void*, int, unsigned int, void*) (libsyss.dylib)
+[21] 0x1228a3171 meth.c/METH_invoke_method(void*, unsigned int, void*) (libsyss.dylib)
+[22] 0x1131832b3 cmcp_method.c/CMCP_copy_object(UGS::OM::Object*, UGS::CMCP_closure*, UGS::OM::Object**) (libcmod.dylib)
+[23] 0x11339f13c frec_copy_frec.c/frec__copy_features(int, int, double*, UGS::FEATURE_RECORD**, int, UGS::OM_tag_map*, UGS::OM::Set*, int (*)(UGS::FEATURE_RECORD* (libcmod.dylib)
+[24] 0x11339f92c frec_copy_frec.c/FREC_copy_features(int, int, double*, UGS::FEATURE_RECORD**, int, UGS::OM_tag_map*, UGS::OM::Set*, int (*)(UGS::FEATURE_RECORD*, (libcmod.dylib)
+[25] 0x113a589a8 udfs_ui_instantiation.c/create_udf_menu(bool, unsigned int, char*, char*, UGS::FEATURE_RECORD*, UGS::FEATURE_RECORD**, int, UGS::FSET_exp**, int, unsign (libmodlint.dylib)
+[26] 0x113a5a006 udfs_ui_instantiation.c/UDFS_bui_create_inst_frec_uifw(UGS::UICOMP_udf*) (libmodlint.dylib)
+[27] 0x149b783b9 uicomp_udf_definitions.c/UGS::UICOMP_udf::start_adopted_dialog() (libuimodl.dylib)
+[28] 0x130f1c7c5 uifw_definitions.c/start_activate_adopted(UGS::UICOMP*, int*) (libuifw.dylib)
+[29] 0x130f1f563 uifw_definitions.c/UGS::UIFW::create_command(bool, bool, char const*, UGS::OM::MethodicObject*, void*) (libuifw.dylib)
+[30] 0x124666179 uifw.c/UIFW_create_command(char const*, UGS::OM::MethodicObject*, void*) (libugui.dylib)
+[31] 0x113a4fbc4 udfs_ui_instantiation.c/bui_create_inst_frec(bool, unsigned int, char*, char*, UGS::FEATURE_RECORD*, char*, char*, int, double*, int, bool*, unsigned in (libmodlint.dylib)
+[32] 0x113a5332d udfs_ui_instantiation.c/UDFS_create_inst_frec(char*, char*, char*, char*) (libmodlint.dylib)
+[33] 0x1139b60a8 System_LibModlintInterfaceImpl.cxx/UGS::System::LibModlintImpl::CALL_UDFS_create_inst_frec(char*, char*, char*, char*) (libmodlint.dylib)
+[34] 0x12cb1df73 ToolingUI_KRUNAVUdfRules.cxx/KRUNAV_udf_part_drop(KRUNAV_drag_data_s*, unsigned int, double*, unsigned int) (libkrunavint.dylib)
+[35] 0x12cae2315 ToolingUI_MemberViewUdfItem.cxx/UGS::ToolingUI::MemberViewUdfItem::OnMenuCommand(UGS::ToolingUI::MemberViewApp*, MemberView_cell_t, int, void*) (libkrunavint.dylib)
+[36] 0x12cb22170 ToolingUI_MemberViewApp.cxx/MemberViewApp__ThumnailPopupMenuCB(int, void const*, void*) (libkrunavint.dylib)
+[37] 0x12281e067 callback.c/call_function_list(int, CALLBACK_registered_fn_s*, void const*) (libsyss.dylib)
+[38] 0x12281e1d9 callback.c/CALLBACK_call_list(int, void const*) (libsyss.dylib)
+[39] 0x12c6de760 kru_callbacks.c/KRU_call_cbs(KRUNAV__callback_type_t, void*) (libkru.dylib)
+[40] 0x12cafa18f krunav_callbacks.c/KRUNAV_call_cbs(KRUNAV__callback_type_t, void*) (libkrunavint.dylib)
+[41] 0x12cb21ce8 ToolingUI_MemberViewApp.cxx/on_item_popup_menu_cb(TNL_thumbnail_list_s*, int, int, int, int, int, int) (libkrunavint.dylib)
+[42] 0x12471a88e mt_thumbnail_list_motif.c/doPopupThumbnail(void*) (libugui.dylib)
+[43] 0x1245226fe evt_timeout.c/EVT__dispatch_timeout_cb(EVT_registered_timeout_s*) (libugui.dylib)
+[44] 0x1246f1e2c evt_procs_motif.c/timeout_cb(void*, unsigned long*) (libugui.dylib)
+[45] 0x12ec7ddd0 _DoOtherSources                                (libXt.6.dylib)
+[46] 0x12ec7dae9 _XtAppNextEvent                                (libXt.6.dylib)
+[47] 0x1243977f9 tbxm_events.c/_TbxmAppNextEvent                (libugui.dylib)
+[48] 0x1247429a0 uithread_motif.c/ugUIevent(EVT_event_context_t, void*, UGUI_selection_s*, int*, EVT_loop_attributes_s*) (libugui.dylib)
+[49] 0x124742dc5 uithread_motif.c/EVT__x_event_loop(EVT_event_context_t, void*, UGUI_selection_s*, int*, EVT_loop_attributes_s*) (libugui.dylib)
+[50] 0x1245e7bec evt_loop.c/EVT_loop_enter(EVT_event_context_t, void*, UGUI_selection_s*, int*, EVT_loop_attributes_s*) (libugui.dylib)
+[51] 0x12448c978 ui_app.c/event_loop(int)                       (libugui.dylib)
+[52] 0x124515d62 uigblfunc.c/ugUIenterGlobalFunction(void (*)(int), int) (libugui.dylib)
+[53] 0x12448c9a8 ui_app.c/UI_APP_event_loop()                   (libugui.dylib)
+[54] 0x1139b40b6 ui_modl_app.cxx/MODL__ui_enter()               (libmodlint.dylib)
+[55] 0x1233a5756 clink.c/clbgn()                                (libuginitint.dylib)
+[56] 0x1000349e5 ugraf.c/_main                                  (ugraf)
+[57] 0x100034710 ugraf.c/start                                  (ugraf)
+>>>> Error code  670030 caught in file "/plm/cynas/iproot/ugnx8mr/build/sandbox/src/cmod/no/ind/feature_record_definitions.c" at line number 4824
+>>>> Error code  670030 caught in file "/plm/cynas/iproot/ugnx8mr/build/sandbox/src/part/no/ind/update.c" at line number 5195
+>>>> Error code  670030 successfully handled and acknowledged
+Closing/deleting /Volumes/cad-cam-daten/ug_udf_lib/schloss/glutz_1001_schloss.prt
+Called CONSTRUCTOR()
+&MACRO FOCUS CHANGE IN 1
+&MACRO CUSTOM 24 XFORM_SEQUENCE 0 0.631438 0.775426 -0.000698832 -0.290701 0.237556 0.926855 0.718873 -0.585049 0.375419 -975.095 236.556 -718.446 0.165254 ! 
+&MACRO CURSOR_EVENT 1001 3,1,100 ! single_pt, mb1/0+0, U_SELECT_SINGLE (P+:0+0)
+&MACRO CPOS 964.687570417867,8.65952257454211,718.446486019063
+&MACRO FOCUS CHANGE OUT 1
+&MACRO FOCUS CHANGE IN 1
+&MACRO CURSOR_EVENT 1001 3,1,100 ! single_pt, mb1/0+0, U_SELECT_SINGLE (P+:0+0)
+&MACRO CPOS 167.355677222104,202.58817682397,718.446486019063
+&MACRO FOCUS CHANGE OUT 1

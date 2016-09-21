@@ -1,0 +1,189 @@
+Sampling process 2322 for 1 seconds with 1 millisecond of run time between samples
+Sampling completed, processing symbols...
+Analysis of sampling X11.bin (pid 2322) every 1 millisecond
+Call graph:
+    622 Thread_2507
+      622 start
+        622 main
+          622 mach_msg_server
+            622 mach_startup_server
+              622 _Xstart_x11_server
+                622 do_start_x11_server
+                  622 server_main
+                    622 X11ApplicationMain
+                      622 -[NSApplication run]
+                        622 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:]
+                          622 _DPSNextEvent
+                            620 BlockUntilNextEventMatchingListInMode
+                              620 ReceiveNextEventCommon
+                                620 RunCurrentEventLoopInMode
+                                  620 CFRunLoopRunInMode
+                                    620 CFRunLoopRunSpecific
+                                      609 mach_msg
+                                        609 mach_msg_trap
+                                          609 mach_msg_trap
+                                      8 0xffffffff
+                                        8 _sigtramp
+                                          7 _sigtramp
+                                          1 setitimer
+                                            1 setitimer
+                                      3 __CFMachPortPerform
+                                        3 PullEventsFromWindowServerOnConnection(unsigned int, unsigned char)
+                                          2 CGEventCreateNextEvent
+                                            2 CGSGetNextEventRecordInternal
+                                              2 snarfEvents
+                                                2 _CGSGetPortStreamInline
+                                                  2 mach_msg
+                                                    2 mach_msg_trap
+                                                      2 mach_msg_trap
+                                          1 ConvertPlatformEventRecordAndPostWithOptions(__CGEvent*, _CGSEventRecord const*, short, unsigned char, unsigned char)
+                                            1 PostEventToQueueInternal
+                                              1 _NotifyEventLoopObservers
+                                                1 _NotifyEventLoopObservers
+                            2 SendEventToEventTarget
+                              2 SendEventToEventTargetInternal(OpaqueEventRef*, OpaqueEventTargetRef*, HandlerCallRec*)
+                                2 DispatchEventToHandlers(EventTargetRec*, OpaqueEventRef*, HandlerCallRec*)
+                                  2 ToolboxEventDispatcherHandler(OpaqueEventHandlerCallRef*, OpaqueEventRef*, void*)
+                                    2 FindWindowAndPartFromMouseEvent
+                                      2 FindWindow
+                                        2 FindWindowOfClass
+                                          2 FindWindowCommon(Point, OpaqueWindowPtr**, short*)
+                                            2 FindPlatformWindow
+                                              2 CGSFindWindowAndOwner
+                                                2 _CGSFindWindow
+                                                  2 mach_msg
+                                                    2 mach_msg_trap
+                                                      2 mach_msg_trap
+    622 Thread_2603
+      622 thread_start
+        622 _pthread_start
+          622 CAPThread::Entry(CAPThread*)
+            622 HALRunLoop::OwnThread(void*)
+              622 CFRunLoopRunInMode
+                622 CFRunLoopRunSpecific
+                  622 mach_msg
+                    622 mach_msg_trap
+                      622 mach_msg_trap
+    622 Thread_2703
+      622 thread_start
+        622 _pthread_start
+          622 server_thread
+            622 dix_main
+              622 Dispatch
+                543 select$DARWIN_EXTSN
+                  543 select$DARWIN_EXTSN
+                76 WaitForSomething
+                  36 BlockHandler
+                    31 QuartzBlockHandler
+                      18 NSPopAutoreleasePool
+                        8 NSPopAutoreleasePool
+                        5 objc_assign_strongCast
+                          5 objc_assign_strongCast
+                        3 NSClassFromObject
+                          2 object_getClass
+                            2 object_getClass
+                          1 -[NSObject class]
+                            1 -[NSObject class]
+                        1 _CFExecutableLinkedOnOrAfter
+                          1 _CFExecutableLinkedOnOrAfter
+                        1 objc_msgSend
+                          1 objc_msgSend
+                      4 -[NSAutoreleasePool init]
+                        4 -[NSAutoreleasePool initWithCapacity:]
+                          2 NSClassFromObject
+                            2 NSClassFromObject
+                          2 NSPushAutoreleasePool
+                            1 NSPushAutoreleasePool
+                            1 objc_assign_strongCast
+                              1 objc_assign_strongCast
+                      3 +[NSObject alloc]
+                        2 +[NSObject alloc]
+                        1 +[NSAutoreleasePool allocWithZone:]
+                          1 objc_assign_strongCast
+                            1 objc_assign_strongCast
+                      3 objc_msgSend
+                        3 objc_msgSend
+                      1 -[NSAutoreleasePool release]
+                        1 -[NSAutoreleasePool release]
+                      1 objc_collecting_enabled
+                        1 objc_collecting_enabled
+                      1 pthread_getspecific
+                        1 pthread_getspecific
+                    4 AnimCurScreenBlockHandler
+                      3 miSpriteBlockHandler
+                        3 miSpriteBlockHandler
+                      1 AnimCurScreenBlockHandler
+                    1 objc_msgSend
+                      1 objc_msgSend
+                  16 WaitForSomething
+                  10 GetTimeInMillis
+                    8 gettimeofday
+                      5 __gettimeofday
+                        4 __gettimeofday
+                        1 __nanotime
+                          1 __nanotime
+                      3 gettimeofday
+                    2 GetTimeInMillis
+                  4 WakeupHandler
+                    2 RootlessWakeupHandler
+                      2 RootlessWakeupHandler
+                    2 WakeupHandler
+                  4 select$DARWIN_EXTSN
+                    4 select$DARWIN_EXTSN
+                  3 __bzero
+                    3 __bzero
+                  2 select$UNIX2003
+                    2 select$UNIX2003
+                  1 __error
+                    1 __error
+                3 Dispatch
+    622 Thread_2803
+      622 thread_start
+        622 _pthread_start
+          622 xpbproxy_x_thread
+            622 xpbproxy_input_loop
+              622 pthread_cond_wait$UNIX2003
+                622 __semwait_signal
+                  622 __semwait_signal
+    622 Thread_2903
+      622 thread_start
+        622 _pthread_start
+          622 glvmDoWork
+            622 pthread_cond_wait$UNIX2003
+              622 __semwait_signal
+                622 __semwait_signal
+    622 Thread_2a03
+      622 thread_start
+        622 _pthread_start
+          622 DarwinProcessFDAdditionQueue_thread
+            622 pthread_cond_wait$UNIX2003
+              622 __semwait_signal
+                622 __semwait_signal
+    622 Thread_2b03
+      622 thread_start
+        622 _pthread_start
+          622 select$DARWIN_EXTSN
+            622 select$DARWIN_EXTSN
+    622 Thread_2c03
+      622 thread_start
+        622 _pthread_start
+          622 _xp_async_thread
+            622 _xp_async_dequeue
+              622 pthread_cond_wait$UNIX2003
+                622 __semwait_signal
+                  622 __semwait_signal
+
+Total number in stack (recursive counted multiple, when >=5):
+        7       _pthread_start
+        7       thread_start
+
+Sort by top of stack, same collapsed (when >= 5):
+        __semwait_signal        2488
+        mach_msg_trap        1235
+        select$DARWIN_EXTSN        1169
+        WaitForSomething        16
+        NSPopAutoreleasePool        8
+        _sigtramp        7
+        objc_assign_strongCast        7
+        objc_msgSend        5
+Sample analysis of process 2322 written to file /dev/stdout

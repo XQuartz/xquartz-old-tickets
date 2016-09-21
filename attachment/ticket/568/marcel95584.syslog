@@ -1,0 +1,1793 @@
+*** /tmp/marcel95584.syslog
+*** system log created by marcel on Tue Apr 17 17:43:10 2012 CEST
+
+Node Name    :- Marcel-Eggimanns-Mac-Pro.local
+Machine type :- i386 (MacPro4,1)
+OS           :- Darwin 10.8.0
+# Processors :- 8
+Memory       :- 8192Mb
+Total Swap   :- 64Mb
+Free  Swap   :- 64Mb
+Running customer environment
+Session is running in codeset UTF-8 21
+
+************** Licensing Information **************
+
+ Server ID : 1030712 - Eggimann Holzfertigun
+ Webkey Access Code : ZIJMXYUQ36
+ License File Issuer : SIEMENS
+ Flex Daemon Version : 11.6
+ Vendor Daemon Version String : 4.0
+
+****************************************************
+
+Licensing version 4.1.3.0.0
+
+
+NX 7.5.5.4
+Successfully loaded dynamic module /Applications/UGS/NX7.5/ugii/ugxml.dylib
+UGXML is using 'UTF-8' as the local code page
+Processing customer default values file /Volumes/cad-cam-daten/ug_settings/SiemensNX/site/startup/nx75_site.dpv
+Processing customer default values file /Volumes/cad-cam-daten/ug_settings/SiemensNX/group/startup/nx75_group.dpv
+	User customizations file /Volumes/cad-cam-daten/ug_settings/SiemensNX/group/startup/nx75_group.dpv does not exist
+Processing customer default values file /Users/marcel/Library/Application Support/UGS/nx75/nx75_user.dpv
+Processing drafting standard file /Applications/UGS/NX7.5/ugii/drafting_standards/nx75_ISO_Drafting_Standard_Shipped.dpv
+Processing drafting standard file /Volumes/cad-cam-daten/ug_settings/SiemensNX/site/startup/nx75_eggispan_Drafting_Standard_Site.dpv
+UPDATE: predefined fail option is <Unknown>
+3D DCM version 410002002
+Customer CDF (Color Definition File) is defined as /Volumes/cad-cam-daten/ug_settings/SiemensNX/other/ugcolor.cdf and loaded successfully.
+FR_PSMARK: system page size = 4096, ram block size = 1024, disk file threshold =32769, buffer size = 16384
+*** Enabling SMP using 4 threads on 8 processors ***
+Parasolid version 22.1 build 277 on 19:45:3 30-7-2011
+CMOD delete: predefined, dumbify-feature option is <TRUE>
+CMOD delete: predefined, propagate-delete option is <ON>
+CMOD update: predefined, fail-on-missing-refs option is <OFF>
+2D DCM version 560001022
+Descriptive Part Names set to $FILENAME
+Assemblies: No model reference set is defined.
+Lightweight Customer Defaults: Smart is enabled, Remove All
+KF search path used is from the registry, not from UGII_KF_USER_CLASS_DIR
+Successfully loaded dynamic module /Applications/UGS/NX7.5/ugii/libnxvtk.dylib
+A master env file has not been loaded
+ **************  Locked Unigraphics Configuration Variables  **************
+    UGII_PRODUCT_NAME                nx
+    UGII_VERSION                     v7.5
+    UGII_FULL_VERSION                v7.5.5.4
+    UGII_MAJOR_VERSION               7
+    UGII_MINOR_VERSION               5
+    UGII_SUBMINOR_VERSION            5
+
+ **************        System Environment Variables          **************
+    PATH                             /usr/bin:/bin:/usr/sbin:/sbin
+    UGS_LICENSE_SERVER               28000@192.168.0.100
+    UGS_LICENSE_BUNDLE               MFG;P2;P1;
+    UGII_USER_DIR                    /Volumes/cad-cam-daten/ug_settings/SiemensNX/marcel
+    UGII_GROUP_DIR                   /Volumes/cad-cam-daten/ug_settings/SiemensNX/group
+    UGII_SITE_DIR                    /Volumes/cad-cam-daten/ug_settings/SiemensNX/site
+    TMPDIR                           /var/folders/rE/rEj6xp+M2RWBGk+8ZOdL+++++TI/-Tmp-/
+    USER                             marcel
+    UGII_BASE_DIR                    /Applications/UGS/NX7.5
+    UGII_ROOT_DIR                    /Applications/UGS/NX7.5/bin/
+    DYLD_LIBRARY_PATH                /usr/lib:/Applications/UGS/NX7.5/ugii
+ Using ugii_env.dat file from /Applications/UGS/NX7.5/bin//ugii_env.dat
+
+ **************    MacOS User Preference "com.ugs.nx75" Variables    **************
+
+ **************   MacOS Global Preference "com.ugs.nx75" Variables   **************
+
+ ************** Unlocked Unigraphics Configuration Variables **************
+    UGS_LICENSE_SERVER               28000@192.168.0.100
+    DISPLAY                          /tmp/launch-p1fHIT/org.macosforge.xquartz:0
+    UGII_ENABLE_TRANSFORM_LEGACY_OPTIONS 1
+    UGII_UDF_DEFINITION_FILE         /Volumes/cad-cam-daten/ug_udf_lib/dbc_udf_ascii.def
+    UGII_UDF_DATABASE_FILE           /Volumes/cad-cam-daten/ug_udf_lib/udf_database.txt
+    UGII_UDF_LIBRARY_DIR             /Volumes/cad-cam-daten/ug_udf_lib/
+    UGII_UDF_LAYER_ORIGINAL          0
+    UGII_USER_DIR                    /Volumes/cad-cam-daten/ug_settings/SiemensNX/marcel
+    UGII_GROUP_DIR                   /Volumes/cad-cam-daten/ug_settings/SiemensNX/group
+    UGII_SITE_DIR                    /Volumes/cad-cam-daten/ug_settings/SiemensNX/site
+    UGII_BITMAP_PATH                 /Volumes/cad-cam-daten/ug_settings/SiemensNX/icons
+    UGII_JVM_LIBRARY_DIR             /System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/libraries
+    EGGI_GRIP_APP_DIR                /Volumes/cad-cam-daten/ug_grip/
+    EGGI_JAVA_APP_DIR                /Volumes/cad-cam-daten/ug_java/
+    EGGI_JAVA_DLX_DIR                /Volumes/cad-cam-daten/ug_java/
+    EGGI_DRAWING_TO_PDF_LIC          EggispanUser
+    EGGI_PARTLIST_USER_PATH          /Users/marcel/Desktop/
+    EGGI_PARTLIST_FM_PATH            /Volumes/UnigraphicsServer/grip_temp/users/
+    UGII_CLASSPATH_PRELOAD           /Users/marcel/Documents/workspace/
+    UGII_SMP_ENABLE                  1
+    UGII_PLATFORM                    macosx
+    UGII_LANG                        english
+    GEARWIZARD_DIR                   /Applications/UGS/NX7.5/localization//GearWizard
+    GC_TOOL_DIR                      /Applications/UGS/NX7.5/localization//gc_tools
+    UG_IMAGE                         ugspawn
+    UGII_USERFCN                     /Applications/UGS/NX7.5/ugii
+    UGII_TMP_DIR                     /tmp
+    UGII_08_FILE                     /Applications/UGS/NX7.5/ugopen/08.ugf
+    UGII_10_FILE                     /Applications/UGS/NX7.5/ugii/10.ugf
+    UGII_SCHEMA                      /Applications/UGS/NX7.5/ugii/ugschema
+    UGII_ENGLISH_THREADS             /Applications/UGS/NX7.5/ugii/thd_english.dat
+    UGII_METRIC_THREADS              /Applications/UGS/NX7.5/ugii/thd_metric.dat
+    UGII_OLD_SKETCH                  0
+    UGII_DUMBIFY_FEATURE             1
+    UGII_WAVE_DELETE                 0
+    MOLDWIZARD_DIR                   /Applications/UGS/NX7.5/moldwizard
+    MOLDWIZARD_LIB_DIR               /Applications/UGS/NX7.5/moldwizard
+    ELECTRODE_DESIGN_DIR             /Applications/UGS/NX7.5/moldwizard/electrode
+    PDIEWIZARD_DIR                   /Applications/UGS/NX7.5/pdiewizard
+    PDIEWIZARD_LIB_DIR               /Applications/UGS/NX7.5/pdiewizard
+    TOOLING_BASE_DIR                 /Applications/UGS/NX7.5/tooling_base
+    UGWELD_DIR                       /Applications/UGS/NX7.5/ugweld
+    UGII_WELD_BASE_DIR               /Applications/UGS/NX7.5/ugweld
+    UGII_EXPMAN_CFG_FILE             /Applications/UGS/NX7.5/ugexpman/expmancfg.dat
+    UGII_INOP_SE_IMPORT_ONLY_DESIGN_PART 0
+    NXDESIGNTOOLS_DIR                /Applications/UGS/NX7.5/design_tools
+    UGCHECKMATE_DIR                  /Applications/UGS/NX7.5/design_tools/checkmate
+    UGCHECKMATE_CONFIG               /Applications/UGS/NX7.5/design_tools/checkmate/customization/ugcheckmate.dat
+    UGCHECKMATE_XMLLOG_XSL_FILE      /Applications/UGS/NX7.5/design_tools/checkmate/examples/checkmate_log.xsl
+    UGCHECKMATE_MENU_TEMPLATE_FILE   /Applications/UGS/NX7.5/design_tools/checkmate/templates/user_defined_menu_template.txt
+    UGCHECKMATE_TEMPLATE_DIR         /Applications/UGS/NX7.5/design_tools/checkmate/customization
+    UGQUICKCHECK_DIR                 /Applications/UGS/NX7.5/ugquickcheck
+    NXREQUIREMENT_DIR                /Applications/UGS/NX7.5/design_tools/requirement
+    NXISSUETRACKING_DIR              /Applications/UGS/NX7.5/design_tools/issue_tracking
+    UGII_CAM_BASE_DIR                /Applications/UGS/NX7.5/mach/
+    UGII_CAM_CUSTOM_DIR              /Applications/UGS/NX7.5/mach/custom/
+    UGII_CAM_RESOURCE_DIR            /Applications/UGS/NX7.5/mach/resource/
+    UGII_CAM_SAMPLES_DIR             /Applications/UGS/NX7.5/mach/samples/
+    UGII_CAM_AUXILIARY_DIR           /Applications/UGS/NX7.5/mach/auxiliary/
+    UGII_APT_VOC                     /Applications/UGS/NX7.5/mach/auxiliary/apt.voc
+    UGII_BCL_VOC                     /Applications/UGS/NX7.5/mach/auxiliary/bcl.voc
+    UGII_ISO_VOC                     /Applications/UGS/NX7.5/mach/auxiliary/iso.voc
+    UGII_UNIMAJ_VOC                  /Applications/UGS/NX7.5/mach/auxiliary/unimaj.voc
+    UGII_UNIMIN_VOC                  /Applications/UGS/NX7.5/mach/auxiliary/unimin.voc
+    UGII_VERICUT                     /Applications/UGS/NX7.5/commands/vericut
+    UGII_CAM_THREAD_MILL_DIR         /Applications/UGS/NX7.5/mach/auxiliary/thread_mill/
+    UGII_CAM_BATCH_DIR               /Applications/UGS/NX7.5/mach/auxiliary/batch/
+    UGII_CAMBATCH_BACKGROUND_EXE     /Applications/UGS/NX7.5/mach/auxiliary/batch/cambatch_background.exe
+    UGII_CAM_TAGGING_DIR             /Applications/UGS/NX7.5/mach/auxiliary/tagging/
+    UGII_CAM_TAGGING_DLL_DIR         /Applications/UGS/NX7.5/mach/auxiliary/tagging/application/
+    UGII_CAM_TAGGING_ENGLISH_DIR     /Applications/UGS/NX7.5/mach/auxiliary/tagging/english/
+    UGII_CAM_TAGGING_METRIC_DIR      /Applications/UGS/NX7.5/mach/auxiliary/tagging/metric/
+    UGII_CAM_FILE_SEARCH_PATH        ./:/Applications/UGS/NX7.5/mach/:/Applications/UGS/NX7.5/mach/resource/
+    UGII_CAM_CONFIG_DIR              /Applications/UGS/NX7.5/mach/resource/configuration/
+    UGII_CAM_CONFIG                  /Applications/UGS/NX7.5/mach/resource/configuration/cam_general.dat
+    UGII_SHOPS_DIE_MOLD_CONFIG       /Applications/UGS/NX7.5/mach/resource/configuration/shops_diemold.dat
+    UGII_SHOPS_MACHINERY_CONFIG      /Applications/UGS/NX7.5/mach/resource/configuration/shops_machinery.dat
+    UGII_CAM_TEMPLATE_SET_DIR        /Applications/UGS/NX7.5/mach/resource/template_set/
+    UGII_CAM_TEMPLATE_PART_DIR       /Applications/UGS/NX7.5/mach/resource/template_part/
+    UGII_CAM_TEMPLATE_PART_ENGLISH_DIR /Applications/UGS/NX7.5/mach/resource/template_part/english/
+    UGII_CAM_TEMPLATE_PART_METRIC_DIR /Applications/UGS/NX7.5/mach/resource/template_part/metric/
+    UGII_CAM_LIBRARY_TEMPLATE_DIR    /Applications/UGS/NX7.5/mach/resource/template_dir/
+    UGII_CAM_SHOP_DOC_DIR            /Applications/UGS/NX7.5/mach/resource/shop_doc/
+    UGII_CAM_PART_DOC_CONFIG_FILE    /Applications/UGS/NX7.5/mach/resource/shop_doc/shop_doc.dat
+    UGII_CAM_POST_DIR                /Applications/UGS/NX7.5/mach/resource/postprocessor/
+    UGII_CAM_POST_CONFIG_FILE        /Applications/UGS/NX7.5/mach/resource/postprocessor/template_post.dat
+    UGII_CAM_LIBRARY_MACHINE_CONFIG_DIR /Applications/UGS/NX7.5/mach/resource/postprocessor/
+    UGII_CAM_USER_DEF_EVENT_DIR      /Applications/UGS/NX7.5/mach/resource/user_def_event/
+    UGII_CAM_TOOL_PATH_DIR           /Applications/UGS/NX7.5/mach/resource/tool_path/
+    UGII_CAM_WIZARD_DIR              /Applications/UGS/NX7.5/mach/resource/wizard/
+    UGII_CAM_DEBUG_DIR               /Applications/UGS/NX7.5/mach/resource/debug/
+    UGII_CAM_DEFAULT_TYPE_TEMPLATE   /Applications/UGS/NX7.5/mach/resource/template_set/cam_general.opt
+    UGII_CAM_IMAN_TYPE_TEMPLATE      /Applications/UGS/NX7.5/mach/resource/template_set/cam_teamcenter_general.opt
+    UGII_CAM_FEATURE_DATA_DIR        /Applications/UGS/NX7.5/mach/resource/feature/
+    UGII_CAM_FEATURE_DATA_ENGLISH_DIR /Applications/UGS/NX7.5/mach/resource/feature/english/
+    UGII_CAM_FEATURE_DATA_METRIC_DIR /Applications/UGS/NX7.5/mach/resource/feature/metric/
+    UGII_CAM_FEATURE_IMAGES_DIR      /Applications/UGS/NX7.5/mach/resource/feature/images/
+    UGII_CAM_SPREADSHEET_DIR         /Applications/UGS/NX7.5/mach/resource/spreadsheet/
+    UGII_CAM_MACHINING_KNOWLEDGE_DIR /Applications/UGS/NX7.5/mach/resource/machining_knowledge/
+    UGII_UG_LIBRARY_DIR              /Applications/UGS/NX7.5/mach/resource/ug_library/
+    UGII_CAM_LIBRARY_DIR             /Applications/UGS/NX7.5/mach/resource/library/
+    UGII_CAM_LIBRARY_TOOL_DIR        /Applications/UGS/NX7.5/mach/resource/library/tool/
+    UGII_CAM_LIBRARY_TOOL_ASCII_DIR  /Applications/UGS/NX7.5/mach/resource/library/tool/ascii/
+    UGII_CAM_LIBRARY_TOOL_GENIUS_DIR /Applications/UGS/NX7.5/mach/resource/library/tool/genius/
+    UGII_CAM_LIBRARY_TOOL_INCLASS_DIR /Applications/UGS/NX7.5/mach/resource/library/tool/inclass/
+    UGII_CAM_LIBRARY_TOOL_ENGLISH_DIR /Applications/UGS/NX7.5/mach/resource/library/tool/english/
+    UGII_CAM_LIBRARY_TOOL_METRIC_DIR /Applications/UGS/NX7.5/mach/resource/library/tool/metric/
+    UGII_CAM_LIBRARY_TOOL_GRAPHICS_PATH /Applications/UGS/NX7.5/mach/resource/library/tool/graphics/
+    UGII_CAM_LIBRARY_TOOL_ASCII_LOAD_LIMIT 200000
+    UGII_CAM_LIBRARY_DEVICE_DIR      /Applications/UGS/NX7.5/mach/resource/library/device/
+    UGII_CAM_LIBRARY_DEVICE_DATA_DIR /Applications/UGS/NX7.5/mach/resource/library/device/ascii/
+    UGII_CAM_LIBRARY_DEVICE_ASCII_DIR /Applications/UGS/NX7.5/mach/resource/library/device/ascii/
+    UGII_CAM_LIBRARY_DEVICE_INCLASS_DIR /Applications/UGS/NX7.5/mach/resource/library/device/inclass/
+    UGII_CAM_LIBRARY_DEVICE_GRAPHICS_PATH /Applications/UGS/NX7.5/mach/resource/library/device/graphics/
+    UGII_CAM_LIBRARY_MACHINE_DIR     /Applications/UGS/NX7.5/mach/resource/library/machine/
+    UGII_CAM_LIBRARY_MACHINE_ASCII_DIR /Applications/UGS/NX7.5/mach/resource/library/machine/ascii/
+    UGII_CAM_LIBRARY_MACHINE_DATA_DIR /Applications/UGS/NX7.5/mach/resource/library/machine/ascii/
+    UGII_CAM_LIBRARY_MACHINE_GENIUS_DIR /Applications/UGS/NX7.5/mach/resource/library/machine/genius/
+    UGII_CAM_LIBRARY_MACHINE_INCLASS_DIR /Applications/UGS/NX7.5/mach/resource/library/machine/inclass/
+    UGII_CAM_LIBRARY_MACHINE_GRAPHICS_PATH /Applications/UGS/NX7.5/mach/resource/library/machine/graphics/
+    UGII_CAM_LIBRARY_INSTALLED_MACHINES_DIR /Applications/UGS/NX7.5/mach/resource/library/machine/installed_machines/
+    UGII_CAM_LIBRARY_FEEDS_SPEEDS_DIR /Applications/UGS/NX7.5/mach/resource/library/feeds_speeds/
+    UGII_CAM_LIBRARY_FEEDS_SPEEDS_ASCII_DIR /Applications/UGS/NX7.5/mach/resource/library/feeds_speeds/ascii/
+    UGII_CAM_LIBRARY_FEEDS_SPEEDS_DATA_DIR /Applications/UGS/NX7.5/mach/resource/library/feeds_speeds/ascii/
+    UGII_CAM_LIBRARY_FEEDS_SPEEDS_GENIUS_DIR /Applications/UGS/NX7.5/mach/resource/library/feeds_speeds/genius/
+    UGII_CAM_LIBRARY_UDF_DIR         /Applications/UGS/NX7.5/mach/resource/library/udf/
+    UGII_UG_LIBRARY_GENIUS_TCP_HOST  localhost
+    UGII_UG_LIBRARY_GENIUS_TCP_PORT  2326
+    UGII_INSPECTION_BASE_DIR         /Applications/UGS/NX7.5/cmm_inspection/
+    UGII_INSPECTION_RESOURCE_DIR     /Applications/UGS/NX7.5/cmm_inspection/resource/
+    UGII_INSPECTION_CONFIG_DIR       /Applications/UGS/NX7.5/cmm_inspection/resource/configuration/
+    UGII_INSPECTION_CONFIG           /Applications/UGS/NX7.5/cmm_inspection/resource/configuration/inspection_general.dat
+    UGII_INSPECTION_USER_DEF_EVENT_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/user_def_event/
+    UGII_INSPECTION_TEMPLATE_SET_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/template_set/
+    UGII_INSPECTION_TEMPLATE_PART_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/template_part/
+    UGII_INSPECTION_TEMPLATE_PART_ENGLISH_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/template_part/english/
+    UGII_INSPECTION_TEMPLATE_PART_METRIC_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/template_part/metric/
+    UGII_INSPECTION_POST_DIR         /Applications/UGS/NX7.5/cmm_inspection/resource/postprocessor/
+    UGII_INSPECTION_LIBRARY_DIR      /Applications/UGS/NX7.5/cmm_inspection/resource/library/
+    UGII_INSPECTION_LIBRARY_TOOL_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/library/tool/
+    UGII_INSPECTION_LIBRARY_TOOL_ASCII_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/library/tool/ascii/
+    UGII_INSPECTION_LIBRARY_TOOL_GENIUS_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/library/tool/genius/
+    UGII_INSPECTION_LIBRARY_TOOL_INCLASS_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/library/tool/inclass/
+    UGII_INSPECTION_LIBRARY_TOOL_ENGLISH_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/library/tool/english/
+    UGII_INSPECTION_LIBRARY_TOOL_METRIC_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/library/tool/metric/
+    UGII_INSPECTION_LIBRARY_TOOL_GRAPHICS_PATH /Applications/UGS/NX7.5/cmm_inspection/resource/library/tool/graphics/
+    UGII_INSPECTION_LIBRARY_DEVICE_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/library/device/
+    UGII_INSPECTION_LIBRARY_DEVICE_DATA_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/library/device/ascii/
+    UGII_INSPECTION_LIBRARY_DEVICE_ASCII_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/library/device/ascii/
+    UGII_INSPECTION_LIBRARY_DEVICE_INCLASS_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/library/device/inclass/
+    UGII_INSPECTION_LIBRARY_DEVICE_GRAPHICS_PATH /Applications/UGS/NX7.5/cmm_inspection/resource/library/device/graphics/
+    UGII_INSPECTION_LIBRARY_MACHINE_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/library/machine/
+    UGII_INSPECTION_LIBRARY_MACHINE_ASCII_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/library/machine/ascii/
+    UGII_INSPECTION_LIBRARY_MACHINE_DATA_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/library/machine/ascii/
+    UGII_INSPECTION_LIBRARY_MACHINE_GENIUS_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/library/machine/genius/
+    UGII_INSPECTION_LIBRARY_MACHINE_INCLASS_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/library/machine/inclass/
+    UGII_INSPECTION_LIBRARY_MACHINE_GRAPHICS_PATH /Applications/UGS/NX7.5/cmm_inspection/resource/library/machine/graphics/
+    UGII_INSPECTION_LIBRARY_INSTALLED_MACHINES_DIR /Applications/UGS/NX7.5/cmm_inspection/resource/library/machine/installed_machines/
+    UGII_KF_CLASS_DIR                /Applications/UGS/NX7.5/ugii/dfa
+    UGII_TAB_LABEL_FORMATS_FILE      /Applications/UGS/NX7.5/ugii/tab_label_format_file.xml
+    UGII_PMI_SYMBOL_LIBRARY_DIR      /Applications/UGS/NX7.5/ugii/symbol/PMI_Symbols
+    UGII_CGM_DEFAULTS                /Applications/UGS/NX7.5/ugii/cgmdef.txt
+    UGII_HTML_BROWSER                firefox
+    UGII_UGDOC_BASE_DIR              /Applications/UGS/NX7.5/ugdoc
+    UGII_HELP_RELEASE_NOTES          /Applications/UGS/NX7.5/rel_info/release_notes/english/index.html
+    UGII_HELP_WHATS_NEW              /Applications/UGS/NX7.5/rel_info/whatsnew/english/index.html
+    UGII_HTML_UGDOC                  /Applications/UGS/NX7.5/ugdoc/html_files/mainlibrary.html
+    UGII_CSHELP_MAPS                 /Applications/UGS/NX7.5/ugii/docmaps
+    UGII_CSHELP_DOCS                 /Applications/UGS/NX7.5/ugdoc/html_files
+    UGII_CSHELP_HTML_DOCS            /Applications/UGS/NX7.5/ugdoc/html_files
+    UGII_CSHELP_BROWSER              /Applications/UGS/NX7.5/ugii/cshelp_html.ksh
+    UGII_CAST                        /Applications/UGS/NX7.5/nxcast/bin/castonly
+    UGALLIANCE_DIR                   /Applications/UGS/NX7.5/ugalliance
+    UGII_MENUSCRIPT_DISPLAY_TEAROFFS true
+    UGII_DEFAULT_MENU_DIR            /Applications/UGS/NX7.5/ugii/menus
+    UGII_CUSTOM_DIRECTORY_FILE       /Applications/UGS/NX7.5/ugii/menus/custom_dirs.dat
+    UGII_UG_CUSTOM_DIRECTORY_FILE    /Applications/UGS/NX7.5/ugii/menus/ug_custom_dirs.dat
+    UGII_MAIN_MENU_FILE              /Applications/UGS/NX7.5/ugii/menus/ug_main.men
+    UGII_VIEW_POPUP_MENU_FILE        /Applications/UGS/NX7.5/ugii/menus/ug_view_popup.men
+    UGII_APPL_POPUP_MENU_FILE        /Applications/UGS/NX7.5/ugii/menus/ug_application_popup.men
+    UGII_LOCAL_USER_DEFAULTS         /Users/marcel/Library/Application Support/UGS/nx75/nx75_user.dpv
+    UGII_CHARACTER_FONT_DIR          /Applications/UGS/NX7.5/ugii/ugfonts
+    UGII_CHARACTER_FONT_DEFAULT      blockfont
+    UGII_EDITOR                      vi
+    UGII_LIB1                        /tmp
+    UGII_LIB2                        /Applications/UGS/NX7.5/bin/
+    UGII_UTIL                        /Applications/UGS/NX7.5/ugii/
+    UGII_OPTION                      
+    UGII_PRINTER                     
+    UGII_TAPEBAUD                    1200
+    UGII_UGMX                        /Applications/UGS/NX7.5/ugmx/me/etc/startmcad
+    UGII_MXUG_FILE                   /tmp/
+    UGII_UGMX_FILE                   /tmp/
+    UGII_SHARE                       /Applications/UGS/NX7.5/bin/
+    UGII_SPREADSHEET                 /Applications/UGS/NX7.5/ugii/
+    UGII_LOAD_OPTIONS                
+    UGII_PHYS_MATERIAL_LIB_DIR       /Applications/UGS/NX7.5/ugii/materials/english/
+    UGII_PHYS_MATERIAL_LIB_DATA_DIR  /Applications/UGS/NX7.5/ugii/materials/
+    UGII_PHYS_MATERIAL_LIB_PATH      ./:/Applications/UGS/NX7.5/ugii/materials/
+    UGII_CAE_REPORT_TEMPLATES_DIR    /Applications/UGS/NX7.5/ugstructures/
+    UGII_CAE_POST_TEMPLATE_USER_DIR  /Users/marcel/post_template_files
+    USER_GEO_UNF                     */Applications/UGS/NX7.5/unfold/flatpat.grx
+    USER_PUNCHTOOLS                  */Applications/UGS/NX7.5/punchpress/buildtool.grx
+    USER_PUNCH                       */Applications/UGS/NX7.5/punchpress/punchlaser.grx
+    USER_PUNCHGRID                   */Applications/UGS/NX7.5/punchpress/punchgrid.grx
+    USER_PDAIF                       /Applications/UGS/NX7.5/ugpatif/ugpatif
+    USER_ICADIF                      /Applications/UGS/NX7.5/icadif/uficad
+    UNC_LANG                         eng
+    UNC_CAM_DIR                      /Applications/UGS/NX7.5/sheetmfg/unc/
+    UGII_UGSMD_STDS_LIBRARY          /Applications/UGS/NX7.5/ugii/
+    UGII_ROUTE_ELEC_KIT_DIR          /Applications/UGS/NX7.5/ugroute_elec
+    UGII_ROUTE_MECH_KIT_DIR          /Applications/UGS/NX7.5/ugroute_mech
+    UGII_ROUTE_LGCL_KIT_DIR          /Applications/UGS/NX7.5/ugroute_mech
+    UGII_ROUTING_KIT_UNITS           metric
+    UGII_ROUTING_APP_VIEW_DIR        /Applications/UGS/NX7.5/ugroute_mech/appview/:/Applications/UGS/NX7.5/ugroute_elec/appview/
+    UGII_ROUTE_ELEC_APP_VIEW         /Applications/UGS/NX7.5/ugroute_elec/appview/ugroute_elec_metric.xml
+    UGII_ROUTE_MECH_APP_VIEW         /Applications/UGS/NX7.5/ugroute_mech/appview/ugroute_mech_metric.xml
+    UGII_ROUTE_LGCL_APP_VIEW         /Applications/UGS/NX7.5/ugroute_mech/appview/ugroute_lgcl_metric.xml
+    UGII_EPLIB_PART_LIB_VIEW_PATH    /Applications/UGS/NX7.5/ugroute_mech/appview/:/Applications/UGS/NX7.5/ugroute_elec/appview/
+    UGII_EPLIB_TABLE_PATH            /Applications/UGS/NX7.5/ugroute_mech/metric/tables/:/Applications/UGS/NX7.5/ugroute_elec/metric/tables/
+    UGII_ROUTE_ELEC_PART_PATH        /Applications/UGS/NX7.5/ugroute_elec/metric/parts
+    UGII_ROUTE_MECH_PART_PATH        /Applications/UGS/NX7.5/ugroute_mech/metric/parts
+    UGII_ROUTE_LGCL_PART_PATH        /Applications/UGS/NX7.5/ugroute_mech/metric/parts
+    UGII_ROUTING_DESIGN_RULES_PATH   /Applications/UGS/NX7.5/ugroute_mech/rules/:/Applications/UGS/NX7.5/ugroute_elec/rules/
+    UGII_ROUTE_ELEC_TCL_DIR          /Applications/UGS/NX7.5/ugroute_elec/rules/tcl/
+    UGII_ROUTE_MECH_TCL_DIR          /Applications/UGS/NX7.5/ugroute_mech/rules/tcl/
+    UGII_ROUTE_LGCL_TCL_DIR          /Applications/UGS/NX7.5/ugroute_mech/rules/tcl/
+    UGII_RLIST_PATH                  /Applications/UGS/NX7.5/ugroute_elec/rlist/
+    UGII_FMBD_FORMATS_FILE           /Applications/UGS/NX7.5/ugroute_elec/rlist/fmbd_annotation.fmt
+    UGII_FMBD_USE_LAYOUTS            FALSE
+    UGII_FMBD_PATTERN_DIR            /Applications/UGS/NX7.5/ugroute_elec/metric/parts
+    UGII_FMBD_CGM_DIR                /Applications/UGS/NX7.5/ugroute_elec/metric/parts
+    UGII_FMBD_DISABLE_ROTATION_VECTOR_ALIGNMENT FALSE
+    UGII_RLIST_SCHEMA_FILE           /Applications/UGS/NX7.5/ugroute_elec/rlist/routelist.xsd
+    UGII_ROUTING_BOM_PATH            /Applications/UGS/NX7.5/ugroute_mech/metric/parts/
+    UGII_ROUTING_BEND_TABLES_PATH    /Applications/UGS/NX7.5/ugroute_mech/metric/tables/
+    UGII_ROUTE_SKIP_LENGTH_ADDITION_CHARX TRUE
+    UGII_ROUTE_SKIP_ROUTING_LEVEL_CHECKING TRUE
+    UGII_ROUTE_CONVERT_SLACK_TO_LOCK_LENGTH TRUE
+    MAYA_PCB_DIR                     /Applications/UGS/NX7.5/ugpcbxchange
+    UGII_REFL_IMAGE_DIR              /Applications/UGS/NX7.5/ugii/ugvisuals/
+    UGII_TEXTURE_TIFF_IMAGE_DIR      /Applications/UGS/NX7.5/ugstudio/
+    UGII_NO_TIFF_SEARCH              
+    UGII_LI_LAYLA_DIR                /Applications/UGS/NX7.5/ugphoto
+    UGII_RENDER_ARTISTIC_DIR         /Applications/UGS/NX7.5/ugphoto/artistic_render/
+    UGII_SHOWROOM_DATA_DIR           /Applications/UGS/NX7.5/ugphoto/ug_environment
+    UGII_USER_SHOWROOM_DATA_DIR      
+    UGII_CANNED_MATERIAL_DIR         /Applications/UGS/NX7.5/ugphoto/ug_canned_mattex
+    UGII_HDR_IMAGE_DIR               /Applications/UGS/NX7.5/ugphoto/hdr_images
+    UGII_ENV_IMAGE_DIR               /Applications/UGS/NX7.5/ugphoto/env_images/
+    UGII_SYSTEM_SCENE_DATA_DIR       /Applications/UGS/NX7.5/ugphoto/system_scene_data_dir
+    UGII_TRUESHADING_DIR             /Applications/UGS/NX7.5/ugphoto/true_shading
+    UGII_MAX_FACETING_SCALE          125.0
+    UGII_SDI_BASE                    /Applications/UGS/NX7.5/nxplot
+    UGII_CGM2PDF                     /Applications/UGS/NX7.5/nxplot/bin/pdf
+    UGII_SDI_OUTPUT_DIR              /tmp
+    UGII_SDI_PS_PAGE_SIZE            1
+    STEP203UG_DIR                    /Applications/UGS/NX7.5/step203ug/
+    STEP214UG_DIR                    /Applications/UGS/NX7.5/step214ug/
+    DXFDWG_DIR                       /Applications/UGS/NX7.5/dxfdwg/
+    IGES_DIR                         /Applications/UGS/NX7.5/iges/
+    UGTO2D_DIR                       /Applications/UGS/NX7.5/ugto2d/
+    UGII_CATIAV5_DIR                 /Applications/UGS/NX7.5/catiav5/
+    UGII_NXPROE_DIR                  /Applications/UGS/NX7.5/nxproe/
+    UGII_CATIA_DIR                   /Applications/UGS/NX7.5/ugcatia/
+    UGII_UGMANAGER_DIR               /Applications/UGS/NX7.5/ugmanager
+    UGII_UGMGR_ATTR_SYNC             NEW
+    UGII_MSC_NASTRAN                 /msc/bin/nastran.so
+    UGII_NX_NASTRAN                  /Applications/UGS/NX7.5/nxnastran/bin/nastran
+    UGII_MSC_NASTRAN_VERSION         2005
+    UGII_NX_NASTRAN_VERSION          7.1
+    UGII_ANSYS                       /ansys_inc/ansys100/sun/v100/ansys/bin/ansys100.so
+    UGII_ANSYS_VERSION               10
+    UGII_ANSYS_PRODUCT               ane3fl
+    UGII_ABAQUS                      /abaqus/sun/6.5-6/exec/abq662.exe
+    UGII_ABAQUS_VERSION              6.5
+    UGII_TMG_DIR                     /Applications/UGS/NX7.5/nxcae_extras/tmg
+    UGII_CONVERT_OLD_MOTION_CONTACTS 0
+    UGII_CREATE_OLD_MOTION_CONTACTS  0
+    UGII_GDT_DIR                     /Applications/UGS/NX7.5/ugii/gdt_files
+    QUICKSTACK_DIR                   /Applications/UGS/NX7.5/tolstackup/ugquickstack
+    UGII_QS_DEFS_DIR                 /Applications/UGS/NX7.5/tolstackup/ugquickstack/application
+    TOLSTACKUP_DIR                   /Applications/UGS/NX7.5/tolstackup
+    UGII_TSV_DEFS_DIR                /Applications/UGS/NX7.5/tolstackup/application
+    UGII_ANNOTATION_TEMPLATE_DIR     /Applications/UGS/NX7.5/ugii/inh_files/
+    UGII_TABLE_TEMPLATES             /Applications/UGS/NX7.5/ugii/table_files
+    UGII_UPDATE_ALL_ID_SYMBOLS_WITH_PLIST 1
+    UGII_SURFACE_FINISH              OFF
+    UF_MF_PA_PATH                    /usr/moldflow/mpa300/bin
+    UF_MF_PA_FACET_TOL               0.05
+    UF_MF_PA_MAX_EDGE                10.0
+    UF_MF_PA_STL_DIR                 
+    UF_MF_PA_STL_SUF                 slp
+    UGPROCESS_AID                    /Applications/UGS/NX7.5/ugprocess_aid
+    UGII_PROCESS_AID_DIR             /Applications/UGS/NX7.5/ugprocess_aid
+    UGII_FEAT_FAILURE_REPORT_TEMPLATE_FILE /Applications/UGS/NX7.5/bin//xsl/FeatureFailureReportTemplate.xsl
+    UGII_ONESTEP_ANALYSIS_TEMPLATE_FILE /Applications/UGS/NX7.5/bin//xsl/OnestepAnalysisTemplate.xsl
+    UGAUTOMOTIVE_DIR                 /Applications/UGS/NX7.5/ugautomotive
+    UGBODYDES_DIR                    /Applications/UGS/NX7.5/ugautomotive/bodydes
+    UGDIEDES_DIR                     /Applications/UGS/NX7.5/ugautomotive/diedes
+    UGDIEENG_DIR                     /Applications/UGS/NX7.5/ugautomotive/dieeng
+    UG_VPACK_DIR                     /Applications/UGS/NX7.5/ugautomotive/packaging
+    UGII_VD_WS_REQ_XML_FILE          /Applications/UGS/NX7.5/ugautomotive/packaging\requirements\windshield_vision_zones_requirement_text.xml
+    UGII_VD_APO_REQ_XML_FILE         /Applications/UGS/NX7.5/ugautomotive/packaging\requirements\a_pillar_obstruction_requirement_text.xml
+    UGII_VD_MC_REQ_XML_FILE          /Applications/UGS/NX7.5/ugautomotive/packaging\requirements\mirror_certification_requirement_text.xml
+    UGII_VD_DFV_REQ_XML_FILE         /Applications/UGS/NX7.5/ugautomotive/packaging\requirements\direct_field_view_requirement_text.xml
+    UGII_VD_DP_REQ_XML_FILE          /Applications/UGS/NX7.5/ugautomotive/packaging\requirements\driver_posture_requirement_text.xml
+    UGII_VD_JOINT_REQ_XML_FILE       /Applications/UGS/NX7.5/ugautomotive/packaging\requirements\manikin_joint_angle_requirement_text.xml
+    UGDIEDES_STANDARD_DIR            /Applications/UGS/NX7.5/ugautomotive/diedes
+    UG_VD_DEFAULTS_FILE              /Applications/UGS/NX7.5/ugautomotive/packaging/ug_vd.def
+    NXSHIP_DIR                       /Applications/UGS/NX7.5/nxship
+    NXSHIP_GSD_DIR                   /Applications/UGS/NX7.5/nxship/shipgsd
+    NXSHIP_CONFIG_DIR                /Applications/UGS/NX7.5/nxship/data
+    UGII_JAVA_HOME                   /System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home
+    UGII_JVM_OPTIONS                 
+    UGII_CLASSPATH                   
+    PVTRANSUI_DIR                    /Applications/UGS/NX7.5/pvtrans
+    UGII_DRAFTING_STANDARD_DIR       /Applications/UGS/NX7.5/ugii/drafting_standards
+    UGII_LOCAL_USER_DRAFTING_STANDARD_DIR /Users/marcel/.nx75
+    UGII_PMI_DIR                     /Applications/UGS/NX7.5/ugii/pmi
+    UGII_CAE_AFUAPP                  /Applications/UGS/NX7.5/ugstructures/ftk/afuapp.jar
+    UGII_SCREW_CLEARANCE_HOLE_STANDARD_DIR /Applications/UGS/NX7.5/ugii/modeling_standards
+    UGII_THREADED_HOLE_STANDARD_DIR  /Applications/UGS/NX7.5/ugii/modeling_standards
+    UGII_ENABLE_HOLE_SERIES          1
+    UGII_DRILL_SIZE_HOLE_STANDARD_DIR /Applications/UGS/NX7.5/ugii/modeling_standards
+    UGII_ROOT_DIR                    /Applications/UGS/NX7.5/bin/
+    HOME                             /Users/marcel
+    UGII_BASE_DIR                    /Applications/UGS/NX7.5
+NX_VERSION=7.5.5.4
+=====================
+Versions of DLLs are:
+=====================
+    /Applications/UGS/NX7.5/ugii/libpvmtoolkit.dylib 0x12f156000 0x12f156000
+    /Applications/UGS/NX7.5/ugii/libVTK.dylib        0x12eedc000 0x12eedc000
+    /Applications/UGS/NX7.5/ugii/libnxvtk.dylib      0x12ee2a000 0x12ee2a000
+    /System/Library/TextEncodings/Unicode Encodings.bundle/Contents/MacOS/Unicode Encodings 0x129776000 0x129776000
+    /Applications/UGS/NX7.5/ugii/libicudata32.dylib  0x12cbe1000 0x12cbe1000
+    /Applications/UGS/NX7.5/ugii/libicuuc32.dylib    0x12be00000 0x12be00000
+    /Applications/UGS/NX7.5/ugii/libxerces260.dylib  0x12c800000 0x12c800000
+    /Applications/UGS/NX7.5/ugii/ugxml.dylib         0x129735000 0x129735000
+    /Applications/UGS/NX7.5/ugii/libhm_int.dylib     0x128fbc000 0x128fbc000
+    /usr/lib/libXplugin.1.dylib                      0x128fa5000 0x128fa5000
+    /usr/X11/lib/libXdmcp.6.dylib                    0x128f9d000 0x128f9d000
+    /usr/X11/lib/libXau.6.dylib                      0x128f98000 0x128f98000
+    /usr/X11/lib/libXext.6.dylib                     0x128f85000 0x128f85000
+    /usr/X11/lib/libXp.6.dylib                       0x128f7a000 0x128f7a000
+    /usr/X11/lib/libICE.6.dylib                      0x128f5e000 0x128f5e000
+    /usr/X11/lib/libSM.6.dylib                       0x128f54000 0x128f54000
+    /Applications/UGS/NX7.5/ugii/libOsiClp.dylib     0x128f14000 0x128f14000
+    /Applications/UGS/NX7.5/ugii/libOsi.dylib        0x128ec5000 0x128ec5000
+    /Applications/UGS/NX7.5/ugii/libCoinUtils.dylib  0x128d98000 0x128d98000
+    /Applications/UGS/NX7.5/ugii/libClp.dylib        0x128c3f000 0x128c3f000
+    /usr/lib/libsasl2.2.dylib                        0x7fff806f1000 0x000000
+    /System/Library/Frameworks/DirectoryService.framework/Versions/A/DirectoryService 0x7fff86a25000 0x000000
+    /System/Library/PrivateFrameworks/PasswordServer.framework/Versions/A/PasswordServer 0x7fff83487000 0x000000
+    /System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework/Versions/A/CFOpenDirectory 0x7fff8511c000 0x000000
+    /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Frameworks/CommerceCore.framework/Versions/A/CommerceCore 0x7fff8863a000 0x000000
+    /System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory 0x7fff88a20000 0x000000
+    /System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation 0x7fff880bd000 0x000000
+    /System/Library/Frameworks/vecLib.framework/Versions/A/vecLib 0x7fff85035000 0x000000
+    /System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit 0x7fff88d98000 0x000000
+    /System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio 0x7fff8900e000 0x000000
+    /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGFXShared.dylib 0x7fff87237000 0x000000
+    /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libCoreVMClient.dylib 0x7fff88d9a000 0x000000
+    /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLProgrammability.dylib 0x7fff88865000 0x000000
+    /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib 0x7fff83141000 0x000000
+    /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib 0x7fff894d6000 0x000000
+    /System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface 0x7fff8318f000 0x000000
+    /System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL 0x7fff87c29000 0x000000
+    /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLImage.dylib 0x7fff8577d000 0x000000
+    /System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL 0x7fff87401000 0x000000
+    /System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo 0x7fff856f5000 0x000000
+    /System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport 0x7fff8199d000 0x000000
+    /System/Library/PrivateFrameworks/FamilyControls.framework/Versions/A/FamilyControls 0x7fff8069b000 0x000000
+    /System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox 0x7fff8723d000 0x000000
+    /System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv 0x7fff85036000 0x000000
+    /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore 0x7fff86ab8000 0x000000
+    /System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI 0x7fff87be1000 0x000000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework/Versions/A/SpeechRecognition 0x7fff86f23000 0x000000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SecurityHI.framework/Versions/A/SecurityHI 0x7fff8571b000 0x000000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Print.framework/Versions/A/Print 0x7fff88531000 0x000000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework/Versions/A/OpenScripting 0x7fff88ff2000 0x000000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Ink.framework/Versions/A/Ink 0x7fff85535000 0x000000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/ImageCapture.framework/Versions/A/ImageCapture 0x7fff88616000 0x000000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox 0x7fff88a99000 0x000000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework/Versions/A/Help 0x7fff814a6000 0x000000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CommonPanels.framework/Versions/A/CommonPanels 0x7fff88a19000 0x000000
+    /System/Library/Frameworks/Carbon.framework/Versions/A/Carbon 0x7fff80123000 0x000000
+    /Applications/UGS/NX7.5/ugii/libvd.dylib         0x128acf000 0x128acf000
+    /usr/X11/lib/libGLU.1.dylib                      0x128a56000 0x128a56000
+    /usr/X11/lib/libGL.1.dylib                       0x128a13000 0x128a13000
+    /Applications/UGS/NX7.5/ugii/libuicomp.dylib     0x1284dc000 0x1284dc000
+    /Applications/UGS/NX7.5/ugii/libhdv.dylib        0x1284a3000 0x1284a3000
+    /Applications/UGS/NX7.5/ugii/libuifw.dylib       0x128003000 0x128003000
+    /Applications/UGS/NX7.5/ugii/libfrcpstoolkit.dylib 0x127f3a000 0x127f3a000
+    /Applications/UGS/NX7.5/ugii/libcamsboost.dylib  0x127f0d000 0x127f0d000
+    /Applications/UGS/NX7.5/ugii/libftkdatamgr.dylib 0x127e48000 0x127e48000
+    /Applications/UGS/NX7.5/ugii/libdurabilityom.dylib 0x127df4000 0x127df4000
+    /Applications/UGS/NX7.5/ugii/libcorrelom.dylib   0x127d76000 0x127d76000
+    /Applications/UGS/NX7.5/ugii/libcaetopo.dylib    0x127c08000 0x127c08000
+    /Applications/UGS/NX7.5/ugii/libugmi.dylib       0x127bc8000 0x127bc8000
+    /Applications/UGS/NX7.5/ugii/libcaetopodm.dylib  0x1279ee000 0x1279ee000
+    /Applications/UGS/NX7.5/ugii/libtceng_utils.dylib 0x1279e7000 0x1279e7000
+    /usr/lib/libresolv.9.dylib                       0x7fff8066a000 0x000000
+    /System/Library/Frameworks/Kerberos.framework/Versions/A/Kerberos 0x7fff834d7000 0x000000
+    /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation 0x7fff8795e000 0x000000
+    /usr/lib/libcups.2.dylib                         0x7fff885db000 0x000000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontParser.dylib 0x7fff82795000 0x000000
+    /System/Library/PrivateFrameworks/TrustEvaluationAgent.framework/Versions/A/TrustEvaluationAgent 0x7fff8228d000 0x000000
+    /usr/lib/libcrypto.0.9.8.dylib                   0x7fff80704000 0x000000
+    /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib 0x7fff87c4d000 0x000000
+    /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib 0x7fff82936000 0x000000
+    /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib 0x7fff88a28000 0x000000
+    /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib 0x7fff83906000 0x000000
+    /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib 0x7fff88a1f000 0x000000
+    /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage 0x7fff8058c000 0x000000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libJPEG.dylib 0x7fff84909000 0x000000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libRadiance.dylib 0x7fff83196000 0x000000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libPng.dylib 0x7fff8382f000 0x000000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libGIF.dylib 0x7fff88a93000 0x000000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libTIFF.dylib 0x7fff8572b000 0x000000
+    /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate 0x7fff80003000 0x000000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis 0x7fff80867000 0x000000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD 0x7fff84e38000 0x000000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore 0x7fff87455000 0x000000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis 0x7fff8167d000 0x000000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices 0x7fff817e1000 0x000000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync 0x7fff808a5000 0x000000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS 0x7fff8289b000 0x000000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreText.framework/Versions/A/CoreText 0x7fff85658000 0x000000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/ImageIO 0x7fff8814a000 0x000000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics 0x7fff8396a000 0x000000
+    /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices 0x7fff83156000 0x000000
+    /usr/lib/libexpat.1.dylib                        0x7fff85477000 0x000000
+    /usr/lib/libbz2.1.0.dylib                        0x7fff8057f000 0x000000
+    /usr/X11/lib/libfreetype.6.dylib                 0x127955000 0x127955000
+    /usr/lib/libiconv.2.dylib                        0x7fff8a6a5000 0x000000
+    /usr/X11/lib/libfontconfig.1.dylib               0x12791d000 0x12791d000
+    /Applications/UGS/NX7.5/ugii/libfbmengine.dylib  0x127702000 0x127702000
+    /Applications/UGS/NX7.5/ugii/libcamsdemand.dylib 0x1276fd000 0x1276fd000
+    /Applications/UGS/NX7.5/ugii/libtptopol.dylib    0x1276ae000 0x1276ae000
+    /Applications/UGS/NX7.5/ugii/libdmapplication.dylib 0x127572000 0x127572000
+    /Applications/UGS/NX7.5/ugii/libpatch.dylib      0x12756e000 0x12756e000
+    /Applications/UGS/NX7.5/ugii/libdmservices.dylib 0x1274e3000 0x1274e3000
+    /usr/lib/libxml2.2.dylib                         0x7fff87724000 0x000000
+    /usr/lib/libxslt.1.dylib                         0x7fff88091000 0x000000
+    /System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration 0x7fff8228f000 0x000000
+    /usr/lib/libsqlite3.dylib                        0x7fff8783c000 0x000000
+    /System/Library/Frameworks/Security.framework/Versions/A/Security 0x7fff895f5000 0x000000
+    /usr/lib/system/libkxld.dylib                    0x7fff81630000 0x000000
+    /System/Library/Frameworks/NetFS.framework/Versions/A/NetFS 0x7fff8551c000 0x000000
+    /usr/lib/libbsm.0.dylib                          0x7fff856de000 0x000000
+    /System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration 0x7fff81ed6000 0x000000
+    /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit 0x7fff88351000 0x000000
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices 0x7fff8087c000 0x000000
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices 0x7fff80004000 0x000000
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE 0x7fff8384d000 0x000000
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit 0x7fff81750000 0x000000
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices 0x7fff821cf000 0x000000
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata 0x7fff836d9000 0x000000
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CFNetwork.framework/Versions/A/CFNetwork 0x7fff89520000 0x000000
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore 0x7fff822d1000 0x000000
+    /usr/lib/system/libmathCommon.A.dylib            0x7fff8834c000 0x000000
+    /usr/lib/libz.1.dylib                            0x7fff88de1000 0x000000
+    /usr/lib/libobjc.A.dylib                         0x7fff89e14000 0x000000
+    /usr/lib/libicucore.A.dylib                      0x7fff802b3000 0x000000
+    /usr/lib/libauto.dylib                           0x7fff848bc000 0x000000
+    /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices 0x7fff89880000 0x000000
+    /usr/lib/libstdc++.6.dylib                       0x7fff800a5000 0x000000
+    /usr/X11/lib/libXt.6.dylib                       0x127483000 0x127483000
+    /usr/X11/lib/libX11.6.dylib                      0x12734c000 0x12734c000
+    /usr/OpenMotif-2.1.32-22i/lib/libXm.3.dylib      0x12710f000 0x12710f000
+    /usr/lib/libSystem.B.dylib                       0x7fff8200d000 0x000000
+    /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation 0x7fff814b8000 0x000000
+    /Applications/UGS/NX7.5/ugii/libmodlfreeform.dylib 0x1270a0000 0x1270a0000
+    /Applications/UGS/NX7.5/ugii/libdurability.dylib 0x126f8d000 0x126f8d000
+    /Applications/UGS/NX7.5/ugii/libmodlmath.dylib   0x126e42000 0x126e42000
+    /Applications/UGS/NX7.5/ugii/libtcreq.dylib      0x126e33000 0x126e33000
+    /Applications/UGS/NX7.5/ugii/libcmminspectutil.dylib 0x126dfd000 0x126dfd000
+    /Applications/UGS/NX7.5/ugii/libcmminspectbuilderja.dylib 0x1269f4000 0x1269f4000
+    /Applications/UGS/NX7.5/ugii/libcmminspect.dylib 0x12692f000 0x12692f000
+    /Applications/UGS/NX7.5/ugii/libcaelang.dylib    0x1268b2000 0x1268b2000
+    /Applications/UGS/NX7.5/ugii/libcoreblockdata.dylib 0x126681000 0x126681000
+    /Applications/UGS/NX7.5/ugii/libautomotivebuilders.dylib 0x1263b0000 0x1263b0000
+    /Applications/UGS/NX7.5/ugii/libfasthidden.dylib 0x1262d9000 0x1262d9000
+    /Applications/UGS/NX7.5/ugii/libfacetstore.dylib 0x1262ca000 0x1262ca000
+    /Applications/UGS/NX7.5/ugii/libuifldutils.dylib 0x1262c1000 0x1262c1000
+    /Applications/UGS/NX7.5/ugii/libcorrel.dylib     0x1260d6000 0x1260d6000
+    /Applications/UGS/NX7.5/ugii/libumdmint.dylib    0x125ea4000 0x125ea4000
+    /Applications/UGS/NX7.5/ugii/libew.dylib         0x125e7c000 0x125e7c000
+    /Applications/UGS/NX7.5/ugii/libanalysis.dylib   0x125e29000 0x125e29000
+    /Applications/UGS/NX7.5/ugii/libnxvki.dylib      0x125e03000 0x125e03000
+    /Applications/UGS/NX7.5/ugii/libkrunavint.dylib  0x125ca2000 0x125ca2000
+    /Applications/UGS/NX7.5/ugii/libkruint.dylib     0x125c7b000 0x125c7b000
+    /Applications/UGS/NX7.5/ugii/libtoolingutils.dylib 0x125bfa000 0x125bfa000
+    /Applications/UGS/NX7.5/ugii/libkru.dylib        0x125a16000 0x125a16000
+    /Applications/UGS/NX7.5/ugii/libnxc.dylib        0x1259ee000 0x1259ee000
+    /Applications/UGS/NX7.5/ugii/libclipboardops.dylib 0x1259bd000 0x1259bd000
+    /Applications/UGS/NX7.5/ugii/libfeaturerecognition.dylib 0x1259a6000 0x1259a6000
+    /Applications/UGS/NX7.5/ugii/libdrafting.dylib   0x1256a8000 0x1256a8000
+    /Applications/UGS/NX7.5/ugii/libftkint.dylib     0x12563e000 0x12563e000
+    /Applications/UGS/NX7.5/ugii/libftkom.dylib      0x125607000 0x125607000
+    /Applications/UGS/NX7.5/ugii/librasol.dylib      0x125504000 0x125504000
+    /Applications/UGS/NX7.5/ugii/libhmpack.dylib     0x12548f000 0x12548f000
+    /Applications/UGS/NX7.5/ugii/libop2utils.dylib   0x125453000 0x125453000
+    /Applications/UGS/NX7.5/ugii/libraom.dylib       0x125375000 0x125375000
+    /Applications/UGS/NX7.5/ugii/libra.dylib         0x125095000 0x125095000
+    /Applications/UGS/NX7.5/ugii/libjatest.dylib     0x124e70000 0x124e70000
+    /Applications/UGS/NX7.5/ugii/libmqccore.dylib    0x124d15000 0x124d15000
+    /Applications/UGS/NX7.5/ugii/libschemalocator.dylib 0x1243d4000 0x1243d4000
+    /Applications/UGS/NX7.5/ugii/libmold.dylib       0x1242a6000 0x1242a6000
+    /Applications/UGS/NX7.5/ugii/libblend.dylib      0x124203000 0x124203000
+    /Applications/UGS/NX7.5/ugii/libnxpos.dylib      0x12413d000 0x12413d000
+    /Applications/UGS/NX7.5/ugii/libpmiint.dylib     0x1240e9000 0x1240e9000
+    /Applications/UGS/NX7.5/ugii/libaerosm.dylib     0x123f7f000 0x123f7f000
+    /Applications/UGS/NX7.5/ugii/libship.dylib       0x123a6c000 0x123a6c000
+    /Applications/UGS/NX7.5/ugii/libshipint.dylib    0x123a54000 0x123a54000
+    /Applications/UGS/NX7.5/ugii/libpkp.dylib        0x123953000 0x123953000
+    /Applications/UGS/NX7.5/ugii/libpmi.dylib        0x122dd0000 0x122dd0000
+    /Applications/UGS/NX7.5/ugii/libcompos.dylib     0x122c5b000 0x122c5b000
+    /Applications/UGS/NX7.5/ugii/libgenpos.dylib     0x122b8d000 0x122b8d000
+    /Applications/UGS/NX7.5/ugii/libvsweep.dylib     0x122a61000 0x122a61000
+    /Applications/UGS/NX7.5/ugii/libhm.dylib         0x122923000 0x122923000
+    /Applications/UGS/NX7.5/ugii/libwvint.dylib      0x1228f1000 0x1228f1000
+    /Applications/UGS/NX7.5/ugii/libweld.dylib       0x122658000 0x122658000
+    /Applications/UGS/NX7.5/ugii/libvdac.dylib       0x1225c3000 0x1225c3000
+    /Applications/UGS/NX7.5/ugii/libugutilsint.dylib 0x121f9b000 0x121f9b000
+    /Applications/UGS/NX7.5/ugii/libugutils.dylib    0x121e5f000 0x121e5f000
+    /Applications/UGS/NX7.5/ugii/libugui.dylib       0x11efa0000 0x11efa0000
+    /Applications/UGS/NX7.5/ugii/libugmrint.dylib    0x11eddf000 0x11eddf000
+    /Applications/UGS/NX7.5/ugii/libugmr.dylib       0x11e71a000 0x11e71a000
+    /Applications/UGS/NX7.5/ugii/libugmath.dylib     0x11e657000 0x11e657000
+    /Applications/UGS/NX7.5/ugii/libtl_schema.dylib  0x11e63d000 0x11e63d000
+    /Applications/UGS/NX7.5/ugii/libxyplotint.dylib  0x11e5d6000 0x11e5d6000
+    /Applications/UGS/NX7.5/ugii/libxyplot.dylib     0x11e315000 0x11e315000
+    /Applications/UGS/NX7.5/ugii/libfnutil.dylib     0x11e306000 0x11e306000
+    /Applications/UGS/NX7.5/ugii/libftkfor.dylib     0x11e2d7000 0x11e2d7000
+    /Applications/UGS/NX7.5/ugii/libftkfac.dylib     0x11e2d0000 0x11e2d0000
+    /Applications/UGS/NX7.5/ugii/libadflib.dylib     0x11e2a0000 0x11e2a0000
+    /Applications/UGS/NX7.5/ugii/libftkutil.dylib    0x11e201000 0x11e201000
+    /Applications/UGS/NX7.5/ugii/libftknavint.dylib  0x11e133000 0x11e133000
+    /Applications/UGS/NX7.5/ugii/libuginitint.dylib  0x11df44000 0x11df44000
+    /Applications/UGS/NX7.5/ugii/libuginit.dylib     0x11df0e000 0x11df0e000
+    /Applications/UGS/NX7.5/ugii/libturnint.dylib    0x11ddd6000 0x11ddd6000
+    /Applications/UGS/NX7.5/ugii/libtline.dylib      0x11ddab000 0x11ddab000
+    /Applications/UGS/NX7.5/ugii/libtableint.dylib   0x11dd51000 0x11dd51000
+    /Applications/UGS/NX7.5/ugii/libtable.dylib      0x11dc12000 0x11dc12000
+    /Applications/UGS/NX7.5/ugii/libsyss.dylib       0x11d45d000 0x11d45d000
+    /Applications/UGS/NX7.5/ugii/libstylerint.dylib  0x11d2d4000 0x11d2d4000
+    /Applications/UGS/NX7.5/ugii/libsprdint.dylib    0x11d230000 0x11d230000
+    /Applications/UGS/NX7.5/ugii/libsmsputil.dylib   0x11d1dd000 0x11d1dd000
+    /Applications/UGS/NX7.5/ugii/libsmspint.dylib    0x11d168000 0x11d168000
+    /Applications/UGS/NX7.5/ugii/libsmsp.dylib       0x11cf98000 0x11cf98000
+    /Applications/UGS/NX7.5/ugii/libsmmint.dylib     0x11cf62000 0x11cf62000
+    /Applications/UGS/NX7.5/ugii/libsmdpk.dylib      0x11cf02000 0x11cf02000
+    /Applications/UGS/NX7.5/ugii/libsmdint.dylib     0x11cc6b000 0x11cc6b000
+    /Applications/UGS/NX7.5/ugii/libsmd.dylib        0x11c620000 0x11c620000
+    /Applications/UGS/NX7.5/ugii/libsketint.dylib    0x11c4a1000 0x11c4a1000
+    /Applications/UGS/NX7.5/ugii/libsimsja.dylib     0x11c452000 0x11c452000
+    /Applications/UGS/NX7.5/ugii/libsims.dylib       0x11c3a7000 0x11c3a7000
+    /Applications/UGS/NX7.5/ugii/libsbsmint.dylib    0x11c384000 0x11c384000
+    /Applications/UGS/NX7.5/ugii/libtemplate.dylib   0x11c336000 0x11c336000
+    /Applications/UGS/NX7.5/ugii/libsbsm.dylib       0x11bbad000 0x11bbad000
+    /Applications/UGS/NX7.5/ugii/libspsdint.dylib    0x11bb8b000 0x11bb8b000
+    /Applications/UGS/NX7.5/ugii/libroutja.dylib     0x11b720000 0x11b720000
+    /Applications/UGS/NX7.5/ugii/libroutint.dylib    0x11b3a9000 0x11b3a9000
+    /Applications/UGS/NX7.5/ugii/librout.dylib       0x11a8dc000 0x11a8dc000
+    /Applications/UGS/NX7.5/ugii/libpgs.dylib        0x11a766000 0x11a766000
+    /Applications/UGS/NX7.5/ugii/libptr.dylib        0x11a6fb000 0x11a6fb000
+    /Applications/UGS/NX7.5/ugii/libpskernel.dylib   0x1182e5000 0x1182e5000
+    /Applications/UGS/NX7.5/ugii/libpmanint.dylib    0x11825c000 0x11825c000
+    /Applications/UGS/NX7.5/ugii/libpman.dylib       0x1181d8000 0x1181d8000
+    /Applications/UGS/NX7.5/ugii/libpdi.dylib        0x117fd4000 0x117fd4000
+    /Applications/UGS/NX7.5/ugii/libpartnavint.dylib 0x117d65000 0x117d65000
+    /Applications/UGS/NX7.5/ugii/libpartnav.dylib    0x117d4b000 0x117d4b000
+    /Applications/UGS/NX7.5/ugii/libpartconv.dylib   0x117a6b000 0x117a6b000
+    /Applications/UGS/NX7.5/ugii/libmswpint.dylib    0x117a62000 0x117a62000
+    /Applications/UGS/NX7.5/ugii/libmswp.dylib       0x1179b7000 0x1179b7000
+    /Applications/UGS/NX7.5/ugii/libmillint.dylib    0x117699000 0x117699000
+    /Applications/UGS/NX7.5/ugii/liblwksint.dylib    0x117461000 0x117461000
+    /Applications/UGS/NX7.5/ugii/liblwks.dylib       0x117217000 0x117217000
+    /Applications/UGS/NX7.5/ugii/liblathint.dylib    0x1171db000 0x1171db000
+    /Applications/UGS/NX7.5/ugii/libklo.dylib        0x117019000 0x117019000
+    /Applications/UGS/NX7.5/ugii/libkfint.dylib      0x116f4e000 0x116f4e000
+    /Applications/UGS/NX7.5/ugii/libjam.dylib        0x116bbb000 0x116bbb000
+    /Applications/UGS/NX7.5/ugii/libjaimporters.dylib 0x116b69000 0x116b69000
+    /Applications/UGS/NX7.5/ugii/libjafeatures.dylib 0x116a18000 0x116a18000
+    /Applications/UGS/NX7.5/ugii/libinterop.dylib    0x1169d8000 0x1169d8000
+    /Applications/UGS/NX7.5/ugii/libimage.dylib      0x116932000 0x116932000
+    /Applications/UGS/NX7.5/ugii/libhidl.dylib       0x1168bd000 0x1168bd000
+    /Applications/UGS/NX7.5/ugii/libhelpint.dylib    0x11670f000 0x11670f000
+    /Applications/UGS/NX7.5/ugii/libgwyint.dylib     0x116525000 0x116525000
+    /Applications/UGS/NX7.5/ugii/libgraphics_driver.dylib 0x1162f0000 0x1162f0000
+    /Applications/UGS/NX7.5/ugii/libgeomutil.dylib   0x11619c000 0x11619c000
+    /Applications/UGS/NX7.5/ugii/libgeomint.dylib    0x115e36000 0x115e36000
+    /Applications/UGS/NX7.5/ugii/libgdtint.dylib     0x115c1c000 0x115c1c000
+    /Applications/UGS/NX7.5/ugii/libgdt.dylib        0x1156d3000 0x1156d3000
+    /Applications/UGS/NX7.5/ugii/libfusion.dylib     0x115616000 0x115616000
+    /Applications/UGS/NX7.5/ugii/libflat.dylib       0x11555a000 0x11555a000
+    /Applications/UGS/NX7.5/ugii/libcaepost.dylib    0x1151b4000 0x1151b4000
+    /Applications/UGS/NX7.5/ugii/libfemgint.dylib    0x114962000 0x114962000
+    /Applications/UGS/NX7.5/ugii/libfemhtml.dylib    0x11493f000 0x11493f000
+    /Applications/UGS/NX7.5/ugii/libumdm.dylib       0x114111000 0x114111000
+    /Applications/UGS/NX7.5/ugii/libphymat.dylib     0x113f69000 0x113f69000
+    /Applications/UGS/NX7.5/ugii/libfemgom.dylib     0x112f83000 0x112f83000
+    /Applications/UGS/NX7.5/ugii/libcaemigrate.dylib 0x112d6c000 0x112d6c000
+    /Applications/UGS/NX7.5/ugii/libcaemesh.dylib    0x112c1a000 0x112c1a000
+    /Applications/UGS/NX7.5/ugii/libfemg.dylib       0x11183d000 0x11183d000
+    /Applications/UGS/NX7.5/ugii/libfeatutils.dylib  0x11168e000 0x11168e000
+    /Applications/UGS/NX7.5/ugii/libpartdisp.dylib   0x1114aa000 0x1114aa000
+    /Applications/UGS/NX7.5/ugii/libdrawint.dylib    0x111305000 0x111305000
+    /Applications/UGS/NX7.5/ugii/libdraftingint.dylib 0x11129b000 0x11129b000
+    /Applications/UGS/NX7.5/ugii/libdman.dylib       0x111200000 0x111200000
+    /Applications/UGS/NX7.5/ugii/libcustdef.dylib    0x11109c000 0x11109c000
+    /Applications/UGS/NX7.5/ugii/libcsfadp.dylib     0x111029000 0x111029000
+    /Applications/UGS/NX7.5/ugii/libcsf.dylib        0x110d94000 0x110d94000
+    /Applications/UGS/NX7.5/ugii/libmodlint.dylib    0x110596000 0x110596000
+    /Applications/UGS/NX7.5/ugii/libcmod.dylib       0x10fea5000 0x10fea5000
+    /Applications/UGS/NX7.5/ugii/libassyutilsint.dylib 0x10fe18000 0x10fe18000
+    /Applications/UGS/NX7.5/ugii/libassybox.dylib    0x10fd3b000 0x10fd3b000
+    /Applications/UGS/NX7.5/ugii/libfacet.dylib      0x10f806000 0x10f806000
+    /Applications/UGS/NX7.5/ugii/libassypos.dylib    0x10f796000 0x10f796000
+    /Applications/UGS/NX7.5/ugii/libocc.dylib        0x10f2b8000 0x10f2b8000
+    /Applications/UGS/NX7.5/ugii/libsket.dylib       0x10ee6a000 0x10ee6a000
+    /Applications/UGS/NX7.5/ugii/libpartmodl.dylib   0x10d92c000 0x10d92c000
+    /Applications/UGS/NX7.5/ugii/libpartutils.dylib  0x10d2bc000 0x10d2bc000
+    /Applications/UGS/NX7.5/ugii/libpart.dylib       0x10c026000 0x10c026000
+    /Applications/UGS/NX7.5/ugii/libmodlgeom.dylib   0x10b477000 0x10b477000
+    /Applications/UGS/NX7.5/ugii/libmodl.dylib       0x1096f3000 0x1096f3000
+    /Applications/UGS/NX7.5/ugii/libgeom.dylib       0x1090cd000 0x1090cd000
+    /Applications/UGS/NX7.5/ugii/libevaluator.dylib  0x108d72000 0x108d72000
+    /Applications/UGS/NX7.5/ugii/libdraw.dylib       0x10853c000 0x10853c000
+    /Applications/UGS/NX7.5/ugii/libdisp.dylib       0x107c9c000 0x107c9c000
+    /Applications/UGS/NX7.5/ugii/libcaeutils.dylib   0x107c2f000 0x107c2f000
+    /Applications/UGS/NX7.5/ugii/libautomotive.dylib 0x106870000 0x106870000
+    /Applications/UGS/NX7.5/ugii/libassy.dylib       0x106505000 0x106505000
+    /Applications/UGS/NX7.5/ugii/libcamsbuilder.dylib 0x105d92000 0x105d92000
+    /Applications/UGS/NX7.5/ugii/libcamsja.dylib     0x1051d4000 0x1051d4000
+    /Applications/UGS/NX7.5/ugii/libcamsutilint.dylib 0x104acf000 0x104acf000
+    /Applications/UGS/NX7.5/ugii/libcamsutil2.dylib  0x104a4f000 0x104a4f000
+    /Applications/UGS/NX7.5/ugii/libcamsutil1.dylib  0x104894000 0x104894000
+    /Applications/UGS/NX7.5/ugii/libcamssimint.dylib 0x104836000 0x104836000
+    /Applications/UGS/NX7.5/ugii/libcamcse.dylib     0x104306000 0x104306000
+    /Applications/UGS/NX7.5/ugii/libcamssim.dylib    0x104068000 0x104068000
+    /Applications/UGS/NX7.5/ugii/libcamsscop.dylib   0x103ffa000 0x103ffa000
+    /Applications/UGS/NX7.5/ugii/libcamsproc2.dylib  0x103fc1000 0x103fc1000
+    /Applications/UGS/NX7.5/ugii/libcamsproc1.dylib  0x103788000 0x103788000
+    /Applications/UGS/NX7.5/ugii/libcamsobj.dylib    0x103779000 0x103779000
+    /Applications/UGS/NX7.5/ugii/libcamsmom.dylib    0x1036f7000 0x1036f7000
+    /Applications/UGS/NX7.5/ugii/libcamsint.dylib    0x10348f000 0x10348f000
+    /Applications/UGS/NX7.5/ugii/libcamsftr.dylib    0x10312c000 0x10312c000
+    /Applications/UGS/NX7.5/ugii/libcams.dylib       0x101b9f000 0x101b9f000
+    /Applications/UGS/NX7.5/ugii/libassyint.dylib    0x1015b0000 0x1015b0000
+    /Applications/UGS/NX7.5/ugii/libasmo.dylib       0x101352000 0x101352000
+    /Applications/UGS/NX7.5/ugii/libannutilsint.dylib 0x101247000 0x101247000
+    /Applications/UGS/NX7.5/ugii/libannint.dylib     0x100ec9000 0x100ec9000
+    /Applications/UGS/NX7.5/ugii/libann.dylib        0x100036000 0x100036000
+    /Applications/UGS/NX7.5_Apps/NX7.5.app/Contents/MacOS/ugraf 0x100000000 0x000000
+Processing /Volumes/cad-cam-daten/ug_settings/SiemensNX/site/startup/ugs_cae_templates.pax for File New Templates
+Processing /Volumes/cad-cam-daten/ug_settings/SiemensNX/site/startup/ugs_drawing_templates.pax for File New Templates
+Processing /Volumes/cad-cam-daten/ug_settings/SiemensNX/site/startup/ugs_manufacturing_templates.pax for File New Templates
+Processing /Volumes/cad-cam-daten/ug_settings/SiemensNX/site/startup/ugs_model_templates.pax for File New Templates
+Processing /Volumes/cad-cam-daten/ug_settings/SiemensNX/site/startup/ugs_sheet_templates.pax for File New Templates
+Processing /Applications/UGS/NX7.5/bin/templates/ugs_inspection_templates.pax for File New Templates
+
+ Template part ${UGII_INSPECTION_TEMPLATE_PART_METRIC_DIR}insp_general_assy.prt not found. Ignoring template
+
+ Template part ${UGII_INSPECTION_TEMPLATE_PART_METRIC_DIR}insp_probe_assy.prt not found. Ignoring template
+
+ Template part ${UGII_INSPECTION_TEMPLATE_PART_ENGLISH_DIR}insp_general_assy.prt not found. Ignoring template
+
+ Template part ${UGII_INSPECTION_TEMPLATE_PART_ENGLISH_DIR}insp_probe_assy.prt not found. Ignoring template
+Unable to find PAX file for Modeling
+Unable to find PAX file for Simulation
+Successfully loaded dynamic module /Applications/UGS/NX7.5/ugii/treelist.dylib
+
+**************************pdw database version ******************************
+**                                                                         **
+**                     PDW DATABASE VERSION:  7.5                          **
+**                                                                         **
+*****************************************************************************
+Successfully loaded dynamic module /Applications/UGS/NX7.5/ugii/libuifw.dylib
+Successfully loaded dynamic module /Applications/UGS/NX7.5/ugii/libuicomp.dylib
+Successfully loaded dynamic module /Applications/UGS/NX7.5/ugii/libuicomp_modl.dylib
+Successfully loaded dynamic module /Applications/UGS/NX7.5/ugii/libuicomp_mswp.dylib
+Successfully loaded dynamic module /Applications/UGS/NX7.5/ugii/libpdmui.dylib
+Load Dialog Memory:  18.150 secs, Real time: 18.156 secs
+
+ **************************** Default Registry Settings **************************
+REGEDIT4
+
+
+ *********************************************************************************
+LAY_REG:: CANNOT_LOCATE_VALUE for <Dialog Bar>
+NX loaded /Applications/UGS/NX7.5/ugii/menus/master.dtx file as INTERNAL data
+NX loaded /Users/marcel/Library/Application Support/UGS/NX75/user.mtx file as CUSTOM data
+*LOAD UBM TABLE*  TOTAL: 694, 694
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 331, 331
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 434, 765
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 454, 1219
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 315, 1534
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 454, 1988
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 378, 2366
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 197, 2563
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 703, 3266
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 702, 3968
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 702, 4670
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 703, 5373
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 702, 6075
+*LOAD BMP TABLE* SIZE: 0 TOTAL: 464, 6539
+*LOAD BMP TABLE* SIZE: 1 TOTAL: 842, 842
+*LOAD BMP TABLE* SIZE: 1 TOTAL: 847, 1689
+*LOAD BMP TABLE* SIZE: 1 TOTAL: 846, 2535
+*LOAD BMP TABLE* SIZE: 1 TOTAL: 440, 2975
+*LOAD BMP TABLE* SIZE: 3 TOTAL: 44, 44
+Validation passed for - /Applications/UGS/NX7.5/ugweld/startup/weld_uf_startup.dylib 
+Native license authentication passed for /Applications/UGS/NX7.5/ugweld/startup/weld_uf_startup.dylib
+Successfully loaded dynamic module /Applications/UGS/NX7.5/ugweld/startup/weld_uf_startup.dylib
+Number of types: 9
+Validation passed for - /Applications/UGS/NX7.5/ugprocess_aid/startup/mpaw_uf_startup.dylib 
+Native license authentication passed for /Applications/UGS/NX7.5/ugprocess_aid/startup/mpaw_uf_startup.dylib
+Successfully loaded dynamic module /Applications/UGS/NX7.5/ugprocess_aid/startup/mpaw_uf_startup.dylib
+Validation passed for - /Applications/UGS/NX7.5/nxship/startup/libship_iuf_actions.dylib 
+Native license authentication passed for /Applications/UGS/NX7.5/nxship/startup/libship_iuf_actions.dylib
+Successfully loaded dynamic module /Applications/UGS/NX7.5/nxship/startup/libship_iuf_actions.dylib
+MB_LOADED_MENU_FILE Using UGII_MAIN_MENU_FILE setting, successfully loaded menu file: /Applications/UGS/NX7.5/ugii/menus/ug_main.men
+MB_LOADED_MENU_FILE Using UGII_VIEW_POPUP_MENU_FILE setting, successfully loaded menu file: /Applications/UGS/NX7.5/ugii/menus/ug_view_popup.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/UGS/NX7.5/ugalliance/site/startup/uf_mold_mf.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/UGS/NX7.5/ugweld/startup/ug_weld.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/UGS/NX7.5/mach/auxiliary/batch/startup/ug_cam_add_batch.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/UGS/NX7.5/ugautomotive/bodydes/startup/bodydes_app.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/UGS/NX7.5/ugautomotive/dieeng/startup/dieeng_app.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/UGS/NX7.5/ugautomotive/diedes/startup/diedes_app.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/UGS/NX7.5/ugautomotive/diedes/startup/presslinesim_app.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/UGS/NX7.5/ugimw/startup/iware_integ.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/UGS/NX7.5/ugautomotive/packaging/startup/ug_vd_app.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/UGS/NX7.5/nxship/startup/ug_drafting_shipbuilding_app.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/UGS/NX7.5/nxship/startup/ug_ship_app.men
+MB_LOADED_MENU_FILE Loaded startup menu file: /Applications/UGS/NX7.5/ugpcbxchange/startup/pcbm_app.men
+OpenGL EXTENSIONS SUPPORTED:
+    GL_ARB_multitexture            = 1
+    GL_ARB_shadow                  = 1
+    GL_ARB_depth_texture           = 1
+    GL_ARB_shadow_ambient          = 1
+    GL_NV_register_combiners       = 0
+    GL_EXT_blend_color             = 1
+    GL_ARB_vertex_program          = 1
+    GL_ARB_fragment_program        = 1
+    GL_EXT_framebuffer_object      = 1
+    GL_EXT_framebuffer_multisample = 1
+    GL_EXT_framebuffer_blit        = 1
+    GL_EXT_packed_depth_stencil    = 1
+WGL_ARB_extensions_string          = 0
+    WGL_ARB_pbuffer                = 0
+    WGL_ARB_pixel_format           = 0
+    WGL_ARB_render_texture         = 0
+    WGL_NV_render_depth_texture    = 0
+X server vendor:  The X.Org Foundation
+X vendor release:  11201000
+X11 version:  2.3.6
+Window identifier:  0x6000ab
+Window type:  0x2ff (TrueColor)
+Window depth:  24
+Graphics device:  ATI Radeon HD 5870 OpenGL Engine
+Translucency method:  Alpha-blend translucency
+Maximum texture size:  512
+Stereo viewing:  Unavailable
+Full-scene antialiasing:  Available (8 samples per pixel)
+Texture cube map:  Available
+Non power of two texture:  Available
+Inter-object shadows:  Unavailable
+Disable Translucency is supported and disabled
+Backface Culling is supported and disabled
+Depth-Sorted Wireframe is supported and disabled
+Line Antialiasing is supported and enabled
+Edge Emphasis is supported and enabled
+
+GIT_CSR: XQueryBestCursor=1; Max Csr < 48x40: maxW=32; maxH=32.
+SpaceBall or SpaceMouse is attached
+ugUIidentifyWindowManager: Unrecognized Window Manager: (null)
+Window Manager: Xquartz
+Found 17893 bitmaps in 0.05 seconds
+INTEROP: Establishing server
+Successfully loaded dynamic module /Applications/UGS/NX7.5/ugii/interop_server.dylib
+INTEROP: Established server at port 57113
+INTEROP: Establishing client-proxy for interoperating
+UGINTEROP: Registering modified function
+Playback is at level 5
+Macros resize flag is OFF
+Knowledge Fusion Navigator Column Headers NAME,On,200:VALUE,On,100:OBJECT_NAME,Off,100
+&MACRO NX 7.5.5.4
+&MACRO Macro Version 7.50
+&MACRO Macro List Language and Codeset: english 21
+&MACRO Created by marcel on Tue Apr 17 17:43:33 2012
+&MACRO Part Name Display Style: $FILENAME
+&MACRO Selection Parameters 1 2 0.229231 1
+&MACRO Display Parameters 1.000000 16.083333 10.260551 -1.000000 -0.637962 1.000000 0.637962
+&MACRO *****************
+Part Navigator Column Headings NAME,On,502FEATURE_TYPE,Off,200TIMESTAMP,Off,100LAYER,On,100STATE,Off,100OUT_OF_DATE,On,100CREATED,Off,100MODIFIED,Off,100COMMENT,On,100REQUIREMENT_ID,Off,100PART_NAME,Off,100VALUE,Off,100CREATEDBY,Off,100MODIFIEDBY,Off,100ALERTS,On,223
+Using PLMXML.
+Assemblies positioning interaction is set to Assembly Constraints
+Failed to restore previous Issue Management application state - defaulting to OFF
+Successfully loaded dynamic module /Applications/UGS/NX7.5/ugii/libissueint.dylib
+
+X Toolkit Warning: 
+    Name: TbxmEditViewer_edit_control
+    Class: XmTextField
+    Character '\60' not supported in font.  Discarded.
+
+Failed to restore previous assemblies preference for add component preview - defaulting to ON
+DEFAULT_ROLE::LOAD - Default Role from /Applications/UGS/NX7.5/ugii/menus/roles/essentials.mtx file was loaded successfully
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/UGS/NX7.5/ugii/menus/ug_nopart.men
+&MACRO CUSTOM HEADER 26 "ResourceBar" 0
+&MACRO CUSTOM 26 1 5 2022 ! Activate History
+Number of colors not allocated for user interface: 0
+&MACRO FOCUS CHANGE IN 1
+&MACRO WINDOW RESIZE 1.000000 19.739583 10.907049 -1.000000 -0.552547 1.000000 0.552547
+&MACRO FOCUS CHANGE OUT 1
+&MACRO WINDOW RESIZE 1.000000 16.875000 10.594228 -1.000000 -0.627806 1.000000 0.627806
+&MACRO DDM_EVENT 6 1 <<</Users/marcel/Library/Application Support/UGS/NX75/history.pax#h226<<< ! click
+!!!&MACRO Filename:  /Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/sht-9084-tower.prt
+
+NX Load Options Are :-
+    Load Options      : Load from search directories:-
+unknown filing system type afpfs
+                      //Volumes/cad-cam-daten/auftraege-in-arbeit/...   unknown
+unknown filing system type afpfs
+                      //Volumes/cad-cam-daten/vorlagen/...   unknown
+unknown filing system type afpfs
+                      //Volumes/cad-cam-daten/normdaten-eggi/...   unknown
+unknown filing system type afpfs
+                      //Volumes/cad-cam-daten/normdaten-kunden/...   unknown
+unknown filing system type afpfs
+                      //Volumes/cad-cam-daten/offerten-und-diverses/...   unknown
+    Load Latest       : Find exact version of partnames
+    Load Components   : Load all the component parts
+    Failure Option    : Do not abort load on failure
+    Load Fully        : Do not fully load the component parts
+    Representations   : Do not use lightweight
+    Load Substitution : Do not allow substitutions on load
+    Reference Sets    : As Saved, None, Empty, Use Model
+                      : Do not apply to all levels
+    Load Wave Data    : Default load behaviour
+    Part family members : Regenerate missing members automatically
+unknown filing system type afpfs
+    /Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/sht-9084-tower.prt is on a unknown filing system
+
+Versioning rules :-
+             PartNameFormat :- 
+             PartNameSubstitution :- 
+             PartNameMatch :- 
+             VersionSubstitution :- 
+             VersionType :- military
+Closing/deleting initial_part
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/sht-9084-tower.prt" which was saved in NX V7.5
+Using OCC partial loading: UGII_OCC_PARTIAL_LOADING is unset
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower.prt", cpu    0.040, real    0.031
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-boden.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-boden.prt", cpu    0.070, real    0.091
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSS:72 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e9.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e9.prt", cpu    0.000, real    0.007
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e8.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e8.prt", cpu    0.010, real    0.009
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e7.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e7.prt", cpu    0.010, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e6.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e6.prt", cpu    0.010, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e5.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e5.prt", cpu    0.010, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e4.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e4.prt", cpu    0.000, real    0.009
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e3.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e3.prt", cpu    0.010, real    0.011
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e2.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e2.prt", cpu    0.010, real    0.009
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e1.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e1.prt", cpu    0.010, real    0.011
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e0.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tower-e0.prt", cpu    0.010, real    0.013
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-a-07.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-a-07.prt", cpu    0.020, real    0.011
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-a-05.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-a-05.prt", cpu    0.000, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-90.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-90.prt", cpu    0.020, real    0.016
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-81.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-81.prt", cpu    0.000, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s08.prt" which was saved in NX V7.5
+  Loading full occ partition for component positioning constraints
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s08.prt", cpu    0.020, real    0.034
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s06.prt" which was saved in NX V7.5
+  Loading full occ partition for component positioning constraints
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s06.prt", cpu    0.010, real    0.015
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s07.prt" which was saved in NX V7.5
+  Loading full occ partition for component positioning constraints
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s07.prt", cpu    0.010, real    0.014
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s04.prt" which was saved in NX V7.5
+  Loading full occ partition for component positioning constraints
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s04.prt", cpu    0.020, real    0.016
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s01.prt" which was saved in NX V7.5
+  Loading full occ partition for component positioning constraints
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s01.prt", cpu    0.010, real    0.015
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s10.prt" which was saved in NX V7.5
+  Loading full occ partition for component positioning constraints
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s10.prt", cpu    0.010, real    0.014
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s02.prt" which was saved in NX V7.5
+  Loading full occ partition for component positioning constraints
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s02.prt", cpu    0.020, real    0.016
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-a-06.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-a-06.prt", cpu    0.000, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-80.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-80.prt", cpu    0.020, real    0.016
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-71.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-71.prt", cpu    0.000, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s09.prt" which was saved in NX V7.5
+  Loading full occ partition for component positioning constraints
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s09.prt", cpu    0.020, real    0.014
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-b-03.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-b-03.prt", cpu    0.010, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-a-03.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-a-03.prt", cpu    0.010, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-a-04.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-a-04.prt", cpu    0.000, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-70.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-70.prt", cpu    0.020, real    0.016
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-63.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-63.prt", cpu    0.000, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-62.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-62.prt", cpu    0.010, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-61.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-61.prt", cpu    0.020, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-60.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-60.prt", cpu    0.010, real    0.016
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-53.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-53.prt", cpu    0.010, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-52.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-52.prt", cpu    0.000, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-51.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-51.prt", cpu    0.010, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-50.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-50.prt", cpu    0.010, real    0.016
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-43.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-43.prt", cpu    0.010, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-42.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-42.prt", cpu    0.010, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-41.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-41.prt", cpu    0.020, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s11.prt" which was saved in NX V7.5
+  Loading full occ partition for component positioning constraints
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s11.prt", cpu    0.010, real    0.026
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-b-02.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-b-02.prt", cpu    0.000, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-40.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-40.prt", cpu    0.020, real    0.018
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-33.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-33.prt", cpu    0.000, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-32.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-32.prt", cpu    0.010, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-31.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-31.prt", cpu    0.010, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s13.prt" which was saved in NX V7.5
+  Loading full occ partition for component positioning constraints
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s13.prt", cpu    0.020, real    0.015
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-30.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-30.prt", cpu    0.010, real    0.017
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-23.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-23.prt", cpu    0.010, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-22.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-22.prt", cpu    0.010, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-21.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-21.prt", cpu    0.000, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-20.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-20.prt", cpu    0.080, real    0.094
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSS:56 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-12.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-12.prt", cpu    0.030, real    0.028
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSS:18 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-11.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-11.prt", cpu    0.030, real    0.028
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSS:18 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-13.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-13.prt", cpu    0.020, real    0.027
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSS:18 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-b-01.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-b-01.prt", cpu    0.010, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-a-02.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-a-02.prt", cpu    0.010, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-a-01.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-rohr-a-01.prt", cpu    0.000, real    0.010
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-10.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-10.prt", cpu    0.130, real    0.125
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PS:3 (0.0, 0.0) PSS:101 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-01.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-ebene-01.prt", cpu    0.020, real    0.028
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSS:18 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-okta-f1.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-okta-f1.prt", cpu    0.010, real    0.009
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-okta-f2.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-okta-f2.prt", cpu    0.010, real    0.009
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s14.prt" which was saved in NX V7.5
+  Loading full occ partition for component positioning constraints
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s14.prt", cpu    0.020, real    0.016
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s12.prt" which was saved in NX V7.5
+  Loading full occ partition for component positioning constraints
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-tetra-s12.prt", cpu    0.010, real    0.015
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t06.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t06.prt", cpu    0.010, real    0.018
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t05.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t05.prt", cpu    0.010, real    0.014
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t07.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t07.prt", cpu    0.010, real    0.025
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t08.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t08.prt", cpu    0.020, real    0.013
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t04.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t04.prt", cpu    0.010, real    0.014
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t03.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t03.prt", cpu    0.010, real    0.021
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t01.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t01.prt", cpu    0.010, real    0.013
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t02.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t02.prt", cpu    0.010, real    0.014
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t11.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t11.prt", cpu    0.010, real    0.013
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSS:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-okta-t1.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-okta-t1.prt", cpu    0.010, real    0.022
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-okta-t2.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-okta-t2.prt", cpu    0.020, real    0.021
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t10.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t10.prt", cpu    0.010, real    0.012
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+Loading "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t09.prt" which was saved in NX V7.5
+  Read in child of instance data for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/9084-stange-t09.prt", cpu    0.010, real    0.013
+Partition info: RM:3 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.0, 0.0) PSP:1 (0.0, 0.0) 
+  Read in all for part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/sht-9084-tower.prt", cpu    3.240, real    5.566
+Partition info: RM:1 (0.3, 0.3) CM:1 (0.0, 0.0) EXP:1 (0.0, 0.0) PATT:1 (0.0, 0.0) OCC:1 (0.4, 0.4) KF:1 (0.1, 0.1) 
+Loaded and updated part "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/sht-9084-tower.prt" cpu    5.200, real    7.533
+Marcel-Eggimanns-Mac-Pro.local /tmp/launch-p1fhit/org.macosforge.xquartz:0.0 ATI Radeon HD 5870 OpenGL Engine configuration:polyline_set=array_set,single,display_list,0:tri_set=array,multi,display_list,0:tri_strip_set=array_set,multi,display_list,0:
+Successfully loaded dynamic module /Applications/UGS/NX7.5/ugii/jtfacet.dylib
+Displayed in: CPU time:   7.940 secs, Real time:  7.382 secs
+$$TBR::AVAILABILITY: Could not find application toolbar ugweld.tbr
+$$TBR::AVAILABILITY: Could not find application toolbar ug_biw.tbr
+Loaded and displayed "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/sht-9084-tower.prt": CPU time:  13.730 secs, Real time: 15.539 secs
+On startup: filter nav OFF, unloaded ON, blanked ON, refset ON, not visually reported ON, more nodes ON
+Assembly Navigator Mode Normal
+Assembly Navigator Running Enabled
+Assembly Navigator Column Headers PART_NAME,On,328INFO,On,36COMPONENT_NAME,Off,100FILE_NAME,Off,250WRITABLE,On,35MODIFIED,On,24POSITION,On,24COUNT,On,50REFERENCE_SET,On,102OUT_OF_DATE,Off,24FILE_DESCRIPTION,Off,75UNITS,Off,30MASS_LB,Off,50MASS_GM,Off,50MASS_KG,Off,50MASS_STATUS,Off,24COLOR,Off,50LAYER,Off,50SHAPE,Off,24CONFIG,On,50POSITION_CONTROL,Off,100SUPPRESSION_CONTROL,Off,100FILTERED_NODE,Off,24MULTI_CAD,Off,24PRODUCT INTERFACES,Off,24ALERTS,Off,100CALLOUT,Off,50QUANTITY,Off,24CHECKMATE RESULT,Off,24REPRESENTATION,Off,150@PART_COUNT,On,100@PART_ARTIKEL,On,100@FM_PART_LIST_ID,On,100@E001_PART_LAENGE,On,100@E002_PART_BREITE,On,100@E003_PART_DICKE,On,100@PART_TYP,On,100@PART_FASER,On,100@PART_TXP,On,100
+Successfully loaded dynamic module /Applications/UGS/NX7.5/ugii/libXmHTML.dylib
+&MACRO DIALOG_BEGIN "Persistent Dialog" 7200 ! Persistent
+&MACRO BEG_ITEM  0 (1 BOOL 7200) = 0  ! Detailed View
+&MACRO DIALOG_PERSISTENT_END 7200
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/UGS/NX7.5/ugii/menus/ug_gateway.men
+Successfully loaded dynamic module /Applications/UGS/NX7.5/ugii/libwizardint.dylib
+Successfully loaded dynamic module /Applications/UGS/NX7.5/ugii/wizstrint.dylib
+&MACRO FOCUS CHANGE IN 1
+&MACRO FOCUS CHANGE OUT 1
+&MACRO WINDOW RESIZE 1.000000 16.468750 10.260551 -1.000000 -0.623032 1.000000 0.623032
+&MACRO FOCUS CHANGE IN 1
+&MACRO CURSOR_EVENT 1001 3,1,100 ! single_pt, mb1/0+0, U_Sel_sngl (P+:0+0)
+&MACRO CPOS 1633.78451929159,783.175758496429,0
+&MACRO CURSOR_EVENT 1001 3,1,100 ! single_pt, mb1/0+0, U_Sel_sngl (P+:1+0)
+&MACRO CPOS 1639.95137571158,790.892263996353,0
+&MACRO POPUP UG_OBJECT_POPUP 1001, 1639.95137571158, 790.892263996353, 0
+&MACRO CURSOR_EVENT 1001 120,3,401 ! popup_pb, mb3/0+0, U_popup (P+:1+0)
+&MACRO CPOS 1639.95137571158,790.892263996353,0
+&MACRO FOCUS CHANGE OUT 1
+&MACRO FOCUS CHANGE IN 1
+&MACRO CURSOR_EVENT 1001 3,1,100 ! single_pt, mb1/0+0, U_Sel_sngl (P+:1+0)
+&MACRO CPOS 1544.36510120177,807.868576096186,0
+&MACRO FOCUS CHANGE OUT 1
+&MACRO MENU, 0, UG_APP_DRAFTING UG_GATEWAY_MAIN_MENUBAR ! <MB/Toolbar> 
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/UGS/NX7.5/ugii/menus/ug_drafting.men
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/UGS/NX7.5/ugii/menus/ug_direct_sketch.men
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/UGS/NX7.5/ugii/menus/ug_drafting_sketch_tools.men
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/UGS/NX7.5/ugii/menus/ug_route_formboard.men
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/UGS/NX7.5/ugii/menus/ug_route_formboard_annotation.men
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/UGS/NX7.5/ugweld/application/add_ug_weld_symbols.men
+MB_LOADED_MENU_FILE Successfully loaded menu file: /Applications/UGS/NX7.5/nxship/application/ug_drafting_shipbuilding.men
+&MACRO FOCUS CHANGE IN 1
+&MACRO CURSOR_EVENT 1001 3,1,100 ! single_pt, mb1/0+0, U_Sel_sngl (P+:0+0)
+&MACRO CPOS 1639.95137571158,786.262360696398,0
+&MACRO POPUP UG_OBJECT_POPUP 1011, -16.3384793282635, 3494.1661154993, 276.598712408878
+&MACRO CURSOR_EVENT 1011 120,3,401 ! popup_pb, mb3/0+0, U_popup (P+:1+0)
+&MACRO CPOS -16.3384793282635,3494.1661154993,276.598712408878
+&MACRO FOCUS CHANGE OUT 1
+&MACRO MENU, 0, UG_DRAFT_EDIT_VIEW_STYLE UG_GATEWAY_MAIN_MENUBAR ! <MB/Toolbar> 
+&MACRO ASK_ITEM  1 (1 BTAB 0) = 2  !  
+!!!&MACRO ASK_ITEM 24 (1 REAL 0) = 0.0000000000000000  ! Scale
+&MACRO ASK_ITEM  1 (1 BTAB 0) = 2  !  
+!!!&MACRO ASK_ITEM 261 (1 WIDE 0) = "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/sht-9084-tower.prt"  !  
+&MACRO ASK_ITEM 261 (1 WIDE 0) = "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/sht-9084-tower.prt"  !  
+!!!&MACRO ASK_ITEM 24 (1 REAL 0) = 0.1000000000000000  ! Scale
+&MACRO ASK_ITEM  1 (1 BTAB 0) = 2  !  
+&MACRO ASK_ITEM  1 (1 BTAB 0) = 2  !  
+&MACRO ASK_ITEM  1 (1 BTAB 0) = 2  !  
+!!!&MACRO ASK_ITEM 21 (1 REAL 0) = 0.8470375063618100  ! Tolerance
+&MACRO ASK_ITEM 21 (1 REAL 0) = 0.8470375063618100  ! Tolerance
+!!!&MACRO ASK_ITEM 22 (1 REAL 0) = 0.0000000000000000  ! Angle
+&MACRO ASK_ITEM 22 (1 REAL 0) = 0.0000000000000000  ! Angle
+!!!&MACRO ASK_ITEM 24 (1 REAL 0) = 0.1000000000000000  ! Scale
+!!!&MACRO ASK_ITEM 60 (1 REAL 0) = 3.0000000000000000  !  
+&MACRO ASK_ITEM 60 (1 REAL 0) = 3.0000000000000000  !  
+!!!&MACRO ASK_ITEM 70 (1 REAL 0) = 3.0000000000000000  !  
+&MACRO ASK_ITEM 70 (1 REAL 0) = 3.0000000000000000  !  
+!!!&MACRO ASK_ITEM 85 (1 REAL 0) = 3.0000000000000000  !  
+&MACRO ASK_ITEM 85 (1 REAL 0) = 3.0000000000000000  !  
+!!!&MACRO ASK_ITEM 201 (1 REAL 0) = 1.2700000000000000  ! Crosshatch Adjacency Tolerance
+&MACRO ASK_ITEM 201 (1 REAL 0) = 1.2700000000000000  ! Crosshatch Adjacency Tolerance
+!!!&MACRO ASK_ITEM 214 (1 REAL 0) = 0.0050000000000000  ! Custom Edge Tolerance
+&MACRO ASK_ITEM 214 (1 REAL 0) = 0.0050000000000000  ! Custom Edge Tolerance
+!!!&MACRO ASK_ITEM 215 (1 REAL 0) = 0.0050000000000000  ! Custom Face Tolerance
+&MACRO ASK_ITEM 215 (1 REAL 0) = 0.0050000000000000  ! Custom Face Tolerance
+!!!&MACRO ASK_ITEM 216 (1 REAL 0) = 15.0000000000000000  ! Custom Angle Tolerance
+&MACRO ASK_ITEM 216 (1 REAL 0) = 15.0000000000000000  ! Custom Angle Tolerance
+!!!&MACRO ASK_ITEM 223 (1 REAL 0) = 0.0000000000000000  ! Minimum Pitch
+&MACRO ASK_ITEM 223 (1 REAL 0) = 0.0000000000000000  ! Minimum Pitch
+!!!&MACRO ASK_ITEM 246 (1 REAL 0) = 0.0000000000000000  ! Distance
+&MACRO ASK_ITEM 246 (1 REAL 0) = 0.0000000000000000  ! Distance
+!!!&MACRO ASK_ITEM 248 (1 REAL 0) = 0.0000000000000000  ! Distance
+&MACRO ASK_ITEM 248 (1 REAL 0) = 0.0000000000000000  ! Distance
+!!!&MACRO ASK_ITEM 254 (1 REAL 0) = 0.0000000000000000  ! Distance
+&MACRO ASK_ITEM 254 (1 REAL 0) = 0.0000000000000000  ! Distance
+&MACRO ASK_ITEM 44 (1 RADI 0) = 0  ! Show All
+&MACRO ASK_ITEM 246 (1 REAL 0) = 0.0000000000000000  ! Distance
+&MACRO ASK_ITEM 248 (1 REAL 0) = 0.0000000000000000  ! Distance
+&MACRO ASK_ITEM 254 (1 REAL 0) = 0.0000000000000000  ! Distance
+&MACRO ASK_ITEM 254 (0 REAL 0) = 0.0000000000000000  ! Distance
+&MACRO ASK_ITEM  1 (1 BTAB 0) = 2  !  
+&MACRO DIALOG_BEGIN "View Style" 0 ! DA2
+&MACRO BEG_ITEM  1 (1 BTAB 0) = 2  !  
+&MACRO BEG_ITEM  9 (1 BOOL 0) = 1  ! Silhouettes
+&MACRO BEG_ITEM 10 (1 BOOL 0) = 0  ! Reference
+&MACRO BEG_ITEM 11 (1 BOOL 0) = 1  ! UV Grid
+&MACRO BEG_ITEM 12 (1 BOOL 0) = 1  ! Automatic Update
+&MACRO BEG_ITEM 13 (1 BOOL 0) = 1  ! Anchor Point
+&MACRO BEG_ITEM 14 (1 BOOL 0) = 0  ! View Label
+&MACRO BEG_ITEM 15 (1 BOOL 0) = 0  ! Scale Label
+&MACRO BEG_ITEM 16 (1 BOOL 0) = 0  ! Check Boundary Status
+&MACRO BEG_ITEM 17 (1 BOOL 0) = 0  ! Centerlines
+&MACRO BEG_ITEM 20 (1 OPTM 0) = 2  ! Standard
+&MACRO BEG_ITEM 21 (1 REAL 0) = 0.8470375063618100  ! Tolerance
+&MACRO BEG_ITEM 22 (1 REAL 0) = 0.0000000000000000  ! Angle
+&MACRO BEG_ITEM 24 (1 REAL 0) = 0.1000000000000000  ! Scale
+&MACRO BEG_ITEM 27 (1 OPTM 0) = 0  ! None
+&MACRO BEG_ITEM 28 (1 RADI 0) = 0  ! From Body
+&MACRO BEG_ITEM 31 (1 OPTM 0) = 0  ! None
+&MACRO BEG_ITEM 35 (1 BOOL 0) = 1  ! Hidden Line
+&MACRO BEG_ITEM 36 (1 CTOL 0) = 4  !  
+&MACRO BEG_ITEM 37 (1 OPTM 0) = 0  ! Invisible
+&MACRO BEG_ITEM 38 (1 OPTM 0) = 1  ! Thin
+&MACRO BEG_ITEM 39 (1 BOOL 0) = 0  ! Referenced Edges Only
+&MACRO BEG_ITEM 40 (1 BOOL 0) = 0  ! Edges Hidden by Edges
+&MACRO BEG_ITEM 41 (1 RADI 0) = 0  ! None
+&MACRO BEG_ITEM 42 (1 BOOL 0) = 1  ! Self Hidden
+&MACRO BEG_ITEM 43 (1 BOOL 0) = 0  ! Include Model Curves
+&MACRO BEG_ITEM 44 (1 RADI 0) = 0  ! Show All
+&MACRO BEG_ITEM 45 (0 SCAL 0) = 1.0000000000000000  !  
+&MACRO BEG_ITEM 49 (1 CTOL 0) = -1  !  
+&MACRO BEG_ITEM 50 (1 OPTM 0) = 0  ! ##44Original
+&MACRO BEG_ITEM 51 (1 OPTM 0) = 2  ! ##88Normal
+&MACRO BEG_ITEM 55 (1 BOOL 0) = 1  ! Smooth Edges
+&MACRO BEG_ITEM 56 (1 CTOL 0) = 2  !  
+&MACRO BEG_ITEM 57 (1 OPTM 0) = 1  ! Solid
+&MACRO BEG_ITEM 58 (1 OPTM 0) = 1  ! Thin
+&MACRO BEG_ITEM 59 (1 BOOL 0) = 0  ! End Gaps
+&MACRO BEG_ITEM 60 (1 REAL 0) = 3.0000000000000000  !  
+&MACRO BEG_ITEM 64 (1 BOOL 0) = 0  ! Virtual Intersections
+&MACRO BEG_ITEM 65 (0 BOOL 0) = 0  ! Adjacent Blends
+&MACRO BEG_ITEM 66 (0 CTOL 0) = 135  !  
+&MACRO BEG_ITEM 67 (0 OPTM 0) = 0  ! ##44Original
+&MACRO BEG_ITEM 68 (0 OPTM 0) = 1  ! Thin
+&MACRO BEG_ITEM 69 (0 BOOL 0) = 0  ! End Gaps
+&MACRO BEG_ITEM 70 (0 REAL 0) = 3.0000000000000000  !  
+&MACRO BEG_ITEM 75 (1 CTOL 0) = -1  !  
+&MACRO BEG_ITEM 76 (1 OPTM 0) = 0  ! ##44Original
+&MACRO BEG_ITEM 77 (1 OPTM 0) = 0  ! ##45Original
+&MACRO BEG_ITEM 80 (1 CTOL 0) = -1  !  
+&MACRO BEG_ITEM 81 (1 OPTM 0) = 0  ! Invisible
+&MACRO BEG_ITEM 82 (1 OPTM 0) = 0  ! ##45Original
+&MACRO BEG_ITEM 84 (1 BOOL 0) = 1  ! Create Gaps
+&MACRO BEG_ITEM 85 (1 REAL 0) = 3.0000000000000000  !  
+&MACRO BEG_ITEM 90 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 91 (1 CTOL 0) = 0  !  
+&MACRO BEG_ITEM 92 (1 OPTM 0) = 0  ! ##44Original
+&MACRO BEG_ITEM 93 (1 OPTM 0) = 0  ! ##45Original
+&MACRO BEG_ITEM 94 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 95 (1 CTOL 0) = 0  !  
+&MACRO BEG_ITEM 96 (1 OPTM 0) = 0  ! ##44Original
+&MACRO BEG_ITEM 97 (1 OPTM 0) = 0  ! ##45Original
+&MACRO BEG_ITEM 98 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 99 (1 CTOL 0) = 0  !  
+&MACRO BEG_ITEM 100 (1 OPTM 0) = 0  ! ##44Original
+&MACRO BEG_ITEM 101 (1 OPTM 0) = 0  ! ##45Original
+&MACRO BEG_ITEM 102 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 103 (1 CTOL 0) = 0  !  
+&MACRO BEG_ITEM 104 (1 OPTM 0) = 0  ! ##44Original
+&MACRO BEG_ITEM 105 (1 OPTM 0) = 0  ! ##45Original
+&MACRO BEG_ITEM 106 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 107 (1 CTOL 0) = 0  !  
+&MACRO BEG_ITEM 108 (1 OPTM 0) = 0  ! ##44Original
+&MACRO BEG_ITEM 109 (1 OPTM 0) = 0  ! ##45Original
+&MACRO BEG_ITEM 110 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 111 (1 CTOL 0) = 0  !  
+&MACRO BEG_ITEM 112 (1 OPTM 0) = 0  ! ##44Original
+&MACRO BEG_ITEM 113 (1 OPTM 0) = 0  ! ##45Original
+&MACRO BEG_ITEM 114 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 115 (1 CTOL 0) = 0  !  
+&MACRO BEG_ITEM 116 (1 OPTM 0) = 0  ! ##44Original
+&MACRO BEG_ITEM 117 (1 OPTM 0) = 0  ! ##45Original
+&MACRO BEG_ITEM 118 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 119 (1 CTOL 0) = 0  !  
+&MACRO BEG_ITEM 120 (1 OPTM 0) = 0  ! ##44Original
+&MACRO BEG_ITEM 121 (1 OPTM 0) = 0  ! ##45Original
+&MACRO BEG_ITEM 122 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 123 (1 CTOL 0) = 0  !  
+&MACRO BEG_ITEM 124 (1 OPTM 0) = 0  ! ##44Original
+&MACRO BEG_ITEM 125 (1 OPTM 0) = 0  ! ##45Original
+&MACRO BEG_ITEM 126 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 127 (1 CTOL 0) = 0  !  
+&MACRO BEG_ITEM 128 (1 OPTM 0) = 0  ! ##44Original
+&MACRO BEG_ITEM 129 (1 OPTM 0) = 0  ! ##45Original
+&MACRO BEG_ITEM 130 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 131 (1 CTOL 0) = 0  !  
+&MACRO BEG_ITEM 132 (1 OPTM 0) = 0  ! ##44Original
+&MACRO BEG_ITEM 133 (1 OPTM 0) = 0  ! ##45Original
+&MACRO BEG_ITEM 134 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 135 (1 CTOL 0) = 0  !  
+&MACRO BEG_ITEM 136 (1 OPTM 0) = 0  ! ##44Original
+&MACRO BEG_ITEM 137 (1 OPTM 0) = 0  ! ##45Original
+&MACRO BEG_ITEM 138 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 139 (1 CTOL 0) = 0  !  
+&MACRO BEG_ITEM 140 (1 OPTM 0) = 0  ! ##44Original
+&MACRO BEG_ITEM 141 (1 OPTM 0) = 0  ! ##45Original
+&MACRO BEG_ITEM 147 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 148 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 149 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 150 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 151 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 152 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 153 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 154 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 158 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 159 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 160 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 161 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 162 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 163 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 164 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 165 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 169 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 170 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 171 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 172 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 173 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 174 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 175 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 176 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 180 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 181 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 182 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 183 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 184 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 185 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 186 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 187 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 192 (1 BOOL 0) = 1  ! Background
+&MACRO BEG_ITEM 193 (1 BOOL 0) = 0  ! Foreground
+&MACRO BEG_ITEM 194 (1 BOOL 0) = 0  ! Bend Lines
+&MACRO BEG_ITEM 195 (1 BOOL 0) = 1  ! Section Sheet Bodies
+&MACRO BEG_ITEM 196 (1 BOOL 0) = 1  ! Crosshatch
+&MACRO BEG_ITEM 197 (1 BOOL 0) = 0  ! Hidden Line Hatching
+&MACRO BEG_ITEM 199 (1 BOOL 0) = 1  ! Assembly Crosshatching
+&MACRO BEG_ITEM 200 (1 BOOL 0) = 0  ! Restrict Crosshatch to +/- 45 degrees
+&MACRO BEG_ITEM 201 (1 REAL 0) = 1.2700000000000000  ! Crosshatch Adjacency Tolerance
+&MACRO BEG_ITEM 203 (1 BOOL 0) = 1  ! Display Section Line
+&MACRO BEG_ITEM 206 (1 OPTM 0) = 1  ! Wireframe
+&MACRO BEG_ITEM 208 (1 CTOL 0) = 30  !  
+&MACRO BEG_ITEM 210 (1 CTOL 0) = -1  !  
+&MACRO BEG_ITEM 212 (1 CTOL 0) = -1  !  
+&MACRO BEG_ITEM 213 (1 OPTM 0) = 1  ! Standard
+&MACRO BEG_ITEM 214 (0 REAL 0) = 0.0050000000000000  ! Custom Edge Tolerance
+&MACRO BEG_ITEM 215 (0 REAL 0) = 0.0050000000000000  ! Custom Face Tolerance
+&MACRO BEG_ITEM 216 (0 REAL 0) = 15.0000000000000000  ! Custom Angle Tolerance
+&MACRO BEG_ITEM 218 (1 SCAL 0) = 0.4000000000000000  !  
+&MACRO BEG_ITEM 219 (1 BOOL 0) = 1  ! Two-Sided Light
+&MACRO BEG_ITEM 222 (1 OPTM 0) = 4  ! ISO/Simplified
+&MACRO BEG_ITEM 223 (1 REAL 0) = 0.0000000000000000  ! Minimum Pitch
+&MACRO BEG_ITEM 224 (1 BOOL 0) = 1  ! Render True Hidden Line
+&MACRO BEG_ITEM 226 (1 CTOL 0) = -1  !  
+&MACRO BEG_ITEM 231 (0 OPTM 0) = 0  ! Inferred Vector
+&MACRO BEG_ITEM 245 (1 BOOL 0) = 0  ! Front Clipping
+&MACRO BEG_ITEM 246 (0 REAL 0) = 0.0000000000000000  ! Distance
+&MACRO BEG_ITEM 247 (1 BOOL 0) = 0  ! Back Clipping
+&MACRO BEG_ITEM 248 (0 REAL 0) = 0.0000000000000000  ! Distance
+&MACRO BEG_ITEM 253 (1 BOOL 0) = 0  ! Perspective
+&MACRO BEG_ITEM 254 (0 REAL 0) = 0.0000000000000000  ! Distance
+&MACRO BEG_ITEM 260 (0 BOOL 0) = 0  ! ##02Load
+&MACRO BEG_ITEM 261 (0 WIDE 0) = "/Volumes/cad-cam-daten/auftraege-in-arbeit/9084-vitra-tower/sht-9084-tower.prt"  !  
+&MACRO BEG_ITEM 265 (0 COMB 0) = ""  ! Arrangement
+&MACRO BEG_ITEM 270 (1 BOOL 0) = 0  ! Faceted Representation
+&MACRO BEG_ITEM 271 (1 BOOL 0) = 0  ! Inherit Clipping Boundary
+&MACRO BEG_ITEM 272 (1 BOOL 0) = 1  ! Transfer Annotation
+&MACRO BEG_ITEM 278 (1 BOOL 0) = 0  ! Scale
+&MACRO BEG_ITEM 279 (1 BOOL 0) = 0  ! ##01Orientation
+&MACRO BEG_ITEM 280 (1 BOOL 0) = 0  ! Alignment
+&MACRO BEG_ITEM 281 (1 BOOL 0) = 0  ! Offset
+&MACRO BEG_ITEM 282 (1 BOOL 0) = 0  ! Drawing Sheet
+&MACRO BEG_ITEM 286 (1 BOOL 0) = 1  ! Circular Boundary
+&MACRO BEG_ITEM 288 (1 CTOL 0) = 125  !  
+&MACRO BEG_ITEM 289 (1 OPTM 0) = 3  ! Phantom
+&MACRO BEG_ITEM 290 (1 OPTM 0) = 2  ! ##89Normal
+&MACRO BEG_ITEM 295 (0 BOOL 0) = 0  ! Scale
+&MACRO BEG_ITEM 296 (1 BOOL 0) = 0  ! ##01Orientation
+&MACRO BEG_ITEM 297 (0 BOOL 0) = 0  ! Alignment
+&MACRO BEG_ITEM 298 (1 BOOL 0) = 0  ! Offset
+&MACRO BEG_ITEM 299 (1 BOOL 0) = 0  ! Drawing Sheet
+&MACRO BEG_ITEM 301 (1 BOOL 0) = 0  ! Create Independent Detail View
+&MACRO BEG_ITEM 306 (1 BOOL 0) = 0  ! Scale
+&MACRO BEG_ITEM 307 (1 BOOL 0) = 0  ! ##01Orientation
+&MACRO BEG_ITEM 308 (1 BOOL 0) = 0  ! Alignment
+&MACRO BEG_ITEM 309 (1 BOOL 0) = 0  ! Offset
+&MACRO BEG_ITEM 310 (1 BOOL 0) = 0  ! Drawing Sheet
+&MACRO BEG_ITEM 315 (1 RADI 0) = 0  ! None
+&MACRO BEG_ITEM 316 (1 RADI 0) = 0  ! None
+&MACRO BEG_ITEM 319 (0 BOOL 0) = 0  ! Inherit PMI onto Drawing
+&MACRO BEG_ITEM 324 (1 BLO  0) = 0  ! Inherit
+&MACRO FOCUS CHANGE IN 1
+&MACRO FOCUS CHANGE OUT 1
+&MACRO CANCEL 0 0 ! Cancel Callback
+&MACRO DIALOG_END -3, 0 ! View Style: CANCEL
+&MACRO FOCUS CHANGE IN 1
+&MACRO CURSOR_EVENT 1001 3,1,100 ! single_pt, mb1/0+0, U_Sel_sngl (P+:0+0)
+&MACRO CPOS 1763.28850411132,784.719059596414,0
+&MACRO POPUP UG_OBJECT_POPUP 1011, 1217.03280466921, 3478.73310449945, 276.598712408878
+&MACRO CURSOR_EVENT 1011 120,3,401 ! popup_pb, mb3/0+0, U_popup (P+:1+0)
+&MACRO CPOS 1217.03280466921,3478.73310449945,276.598712408878
+&MACRO FOCUS CHANGE OUT 1
+&MACRO MENU, 0, UG_DRAFT_DRW_EDIT_VIEW UG_GATEWAY_MAIN_MENUBAR ! <MB/Toolbar> 
+UNDO_UG: Recyclable status of mark 331  set to False 
+Successfully loaded dynamic module /Applications/UGS/NX7.5/ugii/libuicomp_draw.dylib
+/plm/cynas/iproot/ugnx75mr/build/sandbox/src/jam/no/ind/jam.cxx:14251 get property: KinematicConfigurator on 29977 failed 3975001
+/plm/cynas/iproot/ugnx75mr/build/sandbox/src/jam/no/ind/jam.cxx:14251 get property: InspectionSetup on 29977 failed 1345023
+/plm/cynas/iproot/ugnx75mr/build/sandbox/src/jam/no/ind/jam.cxx:14251 get property: CAMSetup on 29977 failed 1345023
+&MACRO ASK_ITEM 8585216 (1 BOOL 0) = 1  ! Show All Views in Drawing
+&MACRO ASK_ITEM 8585216 (1 BOOL 0) = 0  ! Show All Views in Drawing
+&MACRO ASK_ITEM 10420224 (1 BOOL 0) = 1  ! Cursor Tracking
+&MACRO ASK_ITEM 10420224 (1 BOOL 0) = 0  ! Cursor Tracking
+&MACRO ASK_ITEM 10747904 (1 BOOL 0) = 1  !  
+&MACRO ASK_ITEM 10747904 (1 BOOL 0) = 0  !  
+&MACRO ASK_ITEM 11272192 (1 BOOL 0) = 1  !  
+&MACRO ASK_ITEM 11272192 (1 BOOL 0) = 0  !  
+&MACRO ASK_ITEM 11796480 (1 BOOL 0) = 1  !  
+&MACRO ASK_ITEM 11796480 (1 BOOL 0) = 0  !  
+&MACRO ASK_ITEM 16515072 (1 REAL 0) = 0.1000000000000000  ! 
+&MACRO ASK_ITEM 16711680 (1 REAL 0) = 1.0000000000000000  ! :
+&MACRO ASK_ITEM 16318464 (1 OPTM 0) = 0  ! 10:1
+&MACRO ASK_ITEM 16318464 (1 OPTM 0) = 10  ! 1:10
+&MACRO ASK_ITEM 16318464 (1 OPTM 0) = 0  ! 10:1
+&MACRO ASK_ITEM 16318464 (1 OPTM 0) = 10  ! 1:10
+&MACRO ASK_ITEM 16318464 (1 OPTM 0) = 10  ! 1:10
+&MACRO ASK_ITEM 16318464 (1 OPTM 0) = 10  ! 1:10
+&MACRO ASK_ITEM 16515072 (1 REAL 0) = 0.1000000000000000  ! 
+&MACRO ASK_ITEM 16515072 (1 REAL 0) = 0.1000000000000000  ! 
+&MACRO ASK_ITEM 16711680 (1 REAL 0) = 1.0000000000000000  ! :
+&MACRO ASK_ITEM 16711680 (1 REAL 0) = 1.0000000000000000  ! :
+&MACRO ASK_ITEM 16908288 (1 STRN 0) = ""  ! 
+&MACRO DIALOG_BEGIN "Base View" 0 ! DA2
+&MACRO BEG_ITEM 393216 (1 BOOL 0) = 0  ! Part
+&MACRO BEG_ITEM 1572864 (1 LIST 0) = 0  ! List (Items selected)
+&MACRO BEG_ITEM 2752512 (1 LIST 0) = 0  ! List (Items selected)
+&MACRO BEG_ITEM 4521984 (1 BOOL 0) = 0  ! View
+&MACRO BEG_ITEM 5308416 (1 OPTM 0) = 0  ! Infer
+&MACRO BEG_ITEM 5308418 (1 TOOL 0) = 0  ! Infer
+&MACRO BEG_ITEM 5832704 (1 OPTT 0) = 0 0 ! Inferred Vector
+&MACRO BEG_ITEM 6684672 (1 OPTM 0) = 0  ! To View
+&MACRO BEG_ITEM 6881280 (1 BOOL 0) = 0  ! View
+&MACRO BEG_ITEM 7602176 (1 LIST 0) = 0  ! List (Items selected)
+&MACRO BEG_ITEM 8585216 (1 BOOL 0) = 0  ! Show All Views in Drawing
+&MACRO BEG_ITEM 9043968 (1 BOOL 0) = 0  ! Specify Stationary View Point
+&MACRO BEG_ITEM 9633792 (1 BOOL 0) = 0  ! Specify Current View Point
+&MACRO BEG_ITEM 10420224 (1 BOOL 0) = 0  ! Cursor Tracking
+&MACRO BEG_ITEM 10747904 (1 BOOL 0) = 0  !  
+&MACRO BEG_ITEM 11075584 (1 REAL 0) = 0.0000000000000000  ! Offset
+&MACRO BEG_ITEM 11272192 (1 BOOL 0) = 0  !  
+&MACRO BEG_ITEM 11599872 (1 REAL 0) = 0.0000000000000000  ! X
+&MACRO BEG_ITEM 11796480 (1 BOOL 0) = 0  !  
+&MACRO BEG_ITEM 12124160 (1 REAL 0) = 0.0000000000000000  ! Y
+&MACRO BEG_ITEM 13172736 (1 BOOL 0) = 0  ! View
+&MACRO BEG_ITEM 14483456 (1 OPTM 0) = 0  ! TOP
+&MACRO BEG_ITEM 15597568 (1 OPTM 0) = 0  ! Arrangements
+&MACRO BEG_ITEM 16318464 (1 OPTM 0) = 10  ! 1:10
+&MACRO BEG_ITEM 16515072 (1 REAL 0) = 0.1000000000000000  ! 
+&MACRO BEG_ITEM 16711680 (1 REAL 0) = 1.0000000000000000  ! :
+&MACRO BEG_ITEM 16908288 (1 STRN 0) = ""  ! 
+&MACRO BEG_ITEM 18481152 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 19070976 (1 MULT 0) = 0  ! List (Items selected)
+&MACRO BEG_ITEM 20578304 (1 BOOL 0) = 0  ! 
+&MACRO BEG_ITEM 21168128 (1 MULT 0) = 0  ! List (Items selected)
+&MACRO BEG_ITEM 22806530 (1 BOOL 0) = 1  ! Preview
+&MACRO ASK_ITEM 4521984 (1 BOOL 0) = 0  ! View
+&MACRO ASK_ITEM 4521984 (1 BOOL 0) = 1  ! View
+&MACRO FOCUS CHANGE IN 1
+&MACRO FOCUS CHANGE OUT 1
+&MACRO EVENT FOCUS_IN 0 0, 4521984, 0, 0, 0! View
+&MACRO ASK_ITEM 4521984 (1 BOOL 0) = 1  ! View
+&MACRO CURSOR_EVENT 1001 106,0,201 ! motion_pb, mb0/0+0, U_Pre_sel_ND (N:0)
+&MACRO CPOS 627.045208728653,726.073617796991,0
+&MACRO CURSOR_EVENT 1001 106,0,201 ! motion_pb, mb0/0+0, U_Pre_sel_ND (N:0)
+&MACRO CPOS 627.045208728653,726.073617796991,0
+&MACRO CURSOR_EVENT 1001 106,0,201 ! motion_pb, mb0/0+0, U_Pre_sel_ND (N:0)
+&MACRO CPOS 627.045208728653,726.073617796991,0
+&MACRO CURSOR_EVENT 1001 106,0,201 ! motion_pb, mb0/0+0, U_Pre_sel_ND (N:0)
+&MACRO CPOS 627.045208728653,726.073617796991,0
+&MACRO CURSOR_EVENT 1001 106,0,201 ! motion_pb, mb0/0+0, U_Pre_sel_ND (N:0)
+&MACRO CPOS 627.045208728653,726.073617796991,0
+&MACRO CURSOR_EVENT 1001 106,0,201 ! motion_pb, mb0/0+0, U_Pre_sel_ND (N:0)
+&MACRO CPOS 627.045208728653,726.073617796991,0
+&MACRO EVENT FOCUS_IN 0 0, 14811136, 0, 0, 0! Orient View Tool
+&MACRO EVENT ACTIVATE 0 0, 14811136, 0, a, 0! <DLC> Orient View Tool
+UNDO_UG: Recyclable status of mark 337  set to False 
+&MACRO ASK_ITEM 2818048 (1 BOOL 0) = 1  ! Associative Orientation
+&MACRO ASK_ITEM 2818048 (1 BOOL 0) = 0  ! Associative Orientation
+&MACRO DIALOG_BEGIN "Orient View Tool" 0 ! DA2
+&MACRO BEG_ITEM 327680 (1 OPTT 0) = 0 0 ! Inferred Vector
+&MACRO BEG_ITEM 1572864 (1 OPTT 0) = 0 0 ! Inferred Vector
+&MACRO BEG_ITEM 2818048 (1 BOOL 0) = 0  ! Associative Orientation
+&MACRO BEG_ITEM 3407874 (1 BOOL 0) = 1  ! Preview
+&MACRO ASK_ITEM 327680 (1 OPTT 0) = 0 0 ! Inferred Vector
+&MACRO ASK_ITEM 327680 (1 OPTT 0) = 0 0 ! Inferred Vector
+&MACRO ASK_ITEM 327680 (1 OPTT 0) = 0 1 ! Inferred Vector
+OpenGL EXTENSIONS SUPPORTED:
+    GL_ARB_multitexture            = 1
+    GL_ARB_shadow                  = 1
+    GL_ARB_depth_texture           = 1
+    GL_ARB_shadow_ambient          = 1
+    GL_NV_register_combiners       = 0
+    GL_EXT_blend_color             = 1
+    GL_ARB_vertex_program          = 1
+    GL_ARB_fragment_program        = 1
+    GL_EXT_framebuffer_object      = 1
+    GL_EXT_framebuffer_multisample = 1
+    GL_EXT_framebuffer_blit        = 1
+    GL_EXT_packed_depth_stencil    = 1
+WGL_ARB_extensions_string          = 0
+    WGL_ARB_pbuffer                = 0
+    WGL_ARB_pixel_format           = 0
+    WGL_ARB_render_texture         = 0
+    WGL_NV_render_depth_texture    = 0
+X server vendor:  The X.Org Foundation
+X vendor release:  11201000
+X11 version:  2.3.6
+Window identifier:  0x601a9f
+Window type:  0x2ff (TrueColor)
+Window depth:  24
+Graphics device:  ATI Radeon HD 5870 OpenGL Engine
+Translucency method:  Alpha-blend translucency
+Maximum texture size:  512
+Stereo viewing:  Unavailable
+Full-scene antialiasing:  Available (8 samples per pixel)
+Texture cube map:  Available
+Non power of two texture:  Available
+Inter-object shadows:  Unavailable
+Disable Translucency is supported and enabled
+Backface Culling is supported and disabled
+Depth-Sorted Wireframe is supported and disabled
+Line Antialiasing is supported and enabled
+Edge Emphasis is supported and enabled
+
+*********************************************
+*********************************************
+******** An XWindows Error Occurred: ********
+X Error of failed request: BadWindow (invalid Window parameter)
+Major opcode of failed request: 61   X_ClearArea
+Serial number of failed request: 58473
+*********************************************
+*********************************************
+
+
+*********************************************
+*********************************************
+******** An XWindows Error Occurred: ********
+X Error of failed request: BadWindow (invalid Window parameter)
+Major opcode of failed request: 2   X_ChangeWindowAttributes
+Serial number of failed request: 58492
+*********************************************
+*********************************************
+
+
+*********************************************
+*********************************************
+******** An XWindows Error Occurred: ********
+X Error of failed request: BadWindow (invalid Window parameter)
+Major opcode of failed request: 61   X_ClearArea
+Serial number of failed request: 58493
+*********************************************
+*********************************************
+
+&MACRO EVENT FOCUS_IN 1 0, 327680, 0, 0, 0! Inferred Vector
+&MACRO ASK_ITEM 327680 (1 OPTT 0) = 0 1 ! Inferred Vector
+
+*********************************************
+*********************************************
+******** An XWindows Error Occurred: ********
+X Error of failed request: BadWindow (invalid Window parameter)
+Major opcode of failed request: 2   X_ChangeWindowAttributes
+Serial number of failed request: 58819
+*********************************************
+*********************************************
+
+
+*********************************************
+*********************************************
+******** An XWindows Error Occurred: ********
+X Error of failed request: BadWindow (invalid Window parameter)
+Major opcode of failed request: 61   X_ClearArea
+Serial number of failed request: 58820
+*********************************************
+*********************************************
+
+
+*********************************************
+*********************************************
+******** An XWindows Error Occurred: ********
+X Error of failed request: BadWindow (invalid Window parameter)
+Major opcode of failed request: 4   X_DestroyWindow
+Serial number of failed request: 58930
+*********************************************
+*********************************************
+
+&MACRO EVENT FOCUS_IN 1 0, 327680, 0, 0, 0! Inferred Vector
+&MACRO ASK_ITEM 327680 (1 OPTT 0) = 0 1 ! Inferred Vector
+&MACRO DIALOG_BEGIN "Persistent Dialog" 150000 ! Persistent
+&MACRO BEG_ITEM  2 (1 COMB 150000) = "0.00"  ! Angle
+&MACRO DIALOG_PERSISTENT_END 150000
+&MACRO EVENT FOCUS_IN -40 150000, 2, 0, 0, 0! Angle
+&MACRO ASK_ITEM  2 (1 COMB 150000) = "0.00"  ! Angle
+&MACRO EVENT VALUE_CHANGED -40 150000, 2, 0, 0, 0! Angle
+&MACRO ASK_ITEM  2 (1 COMB 150000) = "9"  ! Angle
+&MACRO EVENT VALUE_CHANGED -40 150000, 2, 0, 0, 0! Angle
+&MACRO ASK_ITEM  2 (1 COMB 150000) = "90"  ! Angle
+&MACRO EVENT ACTIVATE -40 150000, 2, 0, a, 0! Angle
+&MACRO ASK_ITEM  2 (1 COMB 150000) = "90"  ! Angle
+!!!&MACRO EVENT VALUE_CHANGED -40 150000, 2, 0, 0, 0! (Application CB Nested)
+!!!&MACRO ASK_ITEM  2 (1 COMB 150000) = "90"  ! Angle
+&MACRO EVENT FOCUS_OUT -40 150000, 2, 0, 0, 0! Angle
+&MACRO ASK_ITEM  2 (1 COMB 150000) = "90"  ! Angle
+&MACRO EVENT FOCUS_IN 1 0, 327680, 0, 0, 0! Inferred Vector
+&MACRO ASK_ITEM 327680 (1 OPTT 0) = 0 1 ! Inferred Vector
+&MACRO OK 1 0 ! OK Callback  
+&MACRO ASK_ITEM 327680 (1 OPTT 0) = 0 1 ! Inferred Vector
+&MACRO ASK_ITEM 327680 (1 OPTT 0) = 0 0 ! Inferred Vector
+&MACRO END_ITEM 327680 (1 OPTT 0) = 0 0 ! Inferred Vector
+&MACRO END_ITEM 1572864 (1 OPTT 0) = 0 0 ! Inferred Vector
+&MACRO END_ITEM 2818048 (1 BOOL 0) = 0  ! Associative Orientation
+&MACRO END_ITEM 3407874 (1 BOOL 0) = 1  ! Preview
+&MACRO DIALOG_END -2, 0 ! Orient View Tool: OK
+UNDO_UG: Recyclable status of mark 337  set to True  
+&MACRO EVENT FOCUS_IN 0 0, 14811136, 0, 0, 0! Orient View Tool
+&MACRO CURSOR_EVENT 1001 106,0,201 ! motion_pb, mb0/0+0, U_Pre_sel_ND (N:0)
+&MACRO CPOS 847.5103257432,239.933771301778,0
+&MACRO CURSOR_EVENT 1001 106,0,201 ! motion_pb, mb0/0+0, U_Pre_sel_ND (N:0)
+&MACRO CPOS 847.5103257432,239.933771301778,0
+*** EXCEPTION: O/S ERROR: signal  15 in line 1852 of /plm/cynas/iproot/ugnx75mr/build/sandbox/src/syss/error/ind/error.cxx at Tue Apr 17 17:45:07 2012 CEST
++++ General Fault Exception
+Loaded module /Applications/UGS/NX7.5/ugii/libuicompassyutils.dylib 0x170f13000 0x170f13000
+Loaded module /Applications/UGS/NX7.5/ugii/libuicomp_draw.dylib 0x173300000 0x173300000
+Loaded module /Applications/UGS/NX7.5/ugii/libuicompfld.dylib 0x172411000 0x172411000
+Loaded module /Applications/UGS/NX7.5/ugii/libuicompsf.dylib 0x171901000 0x171901000
+Loaded module /Applications/UGS/NX7.5/ugii/wizstrint.dylib 0x1717b4000 0x1717b4000
+Loaded module /usr/X11/lib/libXmu.6.dylib 0x171799000 0x171799000
+Loaded module /usr/X11/lib/libXpm.4.dylib 0x171787000 0x171787000
+Loaded module /Applications/UGS/NX7.5/ugii/libXmHTML.dylib 0x171676000 0x171676000
+Loaded module /Applications/UGS/NX7.5/ugii/libJtImageIO73.dylib 0x17023a000 0x17023a000
+Loaded module /Applications/UGS/NX7.5/ugii/libTcVisGlw.dylib 0x169876000 0x169876000
+Loaded module /Applications/UGS/NX7.5/ugii/libJtWinSys73.dylib 0x16cb25000 0x16cb25000
+Loaded module /Applications/UGS/NX7.5/ugii/libpsbodyshop.dylib 0x16fdc3000 0x16fdc3000
+Loaded module /Applications/UGS/NX7.5/ugii/libJtSupt73.dylib 0x16c75d000 0x16c75d000
+Loaded module /Applications/UGS/NX7.5/ugii/libJtXTBrep73.dylib 0x16c1b9000 0x16c1b9000
+Loaded module /Applications/UGS/NX7.5/ugii/libeaiunicode.dylib 0x168358000 0x168358000
+Loaded module /Applications/UGS/NX7.5/ugii/libJtSimpOGL73.dylib 0x16eec6000 0x16eec6000
+Loaded module /Applications/UGS/NX7.5/ugii/libParaSupt73.dylib 0x16fd12000 0x16fd12000
+Loaded module /Applications/UGS/NX7.5/ugii/libJtOGL73.dylib 0x16ee50000 0x16ee50000
+Loaded module /Applications/UGS/NX7.5/ugii/libJtBrep73.dylib 0x16fb5f000 0x16fb5f000
+Loaded module /Applications/UGS/NX7.5/ugii/libJtLibra73.dylib 0x16fa2a000 0x16fa2a000
+Loaded module /Applications/UGS/NX7.5/ugii/libJtSimp73.dylib 0x16f8fd000 0x16f8fd000
+Loaded module /Applications/UGS/NX7.5/ugii/libJt73.dylib 0x16f371000 0x16f371000
+Loaded module /Applications/UGS/NX7.5/ugii/libjt2nxutils.dylib 0x16be48000 0x16be48000
+Loaded module /Applications/UGS/NX7.5/ugii/jtfacet.dylib 0x16f056000 0x16f056000
+Loaded module /Applications/UGS/NX7.5/ugii/libissueadapter.dylib 0x16806d000 0x16806d000
+Loaded module /Applications/UGS/NX7.5/ugii/libissue.dylib 0x168004000 0x168004000
+Loaded module /Applications/UGS/NX7.5/ugii/libissueint.dylib 0x167f52000 0x167f52000
+Loaded module /Applications/UGS/NX7.5/ugii/interop_server.dylib 0x167a60000 0x167a60000
+Loaded module /System/Library/Frameworks/OpenGL.framework/Resources//GLRendererFloat.bundle/GLRendererFloat 0x154dce000 0x154dce000
+Loaded module /System/Library/Extensions/ATIRadeonX3000GLDriver.bundle/Contents/MacOS/ATIRadeonX3000GLDriver 0x1654c4000 0x1654c4000
+Loaded module /System/Library/Frameworks/OpenGL.framework/Resources/GLEngine.bundle/GLEngine 0x165300000 0x165300000
+Loaded module /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCSync.A.dylib 0x7fff83442000 0x000000
+Loaded module /Applications/UGS/NX7.5/ugii/libvmathpp.dylib 0x154c4f000 0x154c4f000
+Loaded module /Applications/UGS/NX7.5/ugii/libopenintpp.dylib 0x154c34000 0x154c34000
+Loaded module /Applications/UGS/NX7.5/ugii/libopenpp.dylib 0x154b53000 0x154b53000
+Loaded module /Applications/UGS/NX7.5/ugii/libufchecker.dylib 0x1517d8000 0x1517d8000
+Loaded module /Applications/UGS/NX7.5/ugii/libshipapp.dylib 0x1517d2000 0x1517d2000
+Loaded module /Applications/UGS/NX7.5/ugii/libwizardint.dylib 0x154a91000 0x154a91000
+Loaded module /Applications/UGS/NX7.5/ugii/libugopenint.dylib 0x154a33000 0x154a33000
+Loaded module /Applications/UGS/NX7.5/ugii/libufship.dylib 0x15486a000 0x15486a000
+Loaded module /Applications/UGS/NX7.5/ugii/libshipappint.dylib 0x154778000 0x154778000
+Loaded module /Applications/UGS/NX7.5/nxship/startup/libship_iuf_actions.dylib 0x1514f7000 0x1514f7000
+Loaded module /Applications/UGS/NX7.5/ugii/libmpaw.dylib 0x15179d000 0x15179d000
+Loaded module /Applications/UGS/NX7.5/ugprocess_aid/startup/mpaw_uf_startup.dylib 0x1514f2000 0x1514f2000
+Loaded module /Applications/UGS/NX7.5/ugii/libmdgantt.dylib 0x154710000 0x154710000
+Loaded module /Applications/UGS/NX7.5/ugii/libmdft.dylib 0x15172b000 0x15172b000
+Loaded module /Applications/UGS/NX7.5/ugii/libmdphys.dylib 0x154402000 0x154402000
+Loaded module /Applications/UGS/NX7.5/ugii/libfmbdja.dylib 0x1516c3000 0x1516c3000
+Loaded module /Applications/UGS/NX7.5/ugii/libnxxml_comparison.dylib 0x15168c000 0x15168c000
+Loaded module /Applications/UGS/NX7.5/ugii/libdesignstudy.dylib 0x15165c000 0x15165c000
+Loaded module /Applications/UGS/NX7.5/ugii/liboptimization.dylib 0x15161a000 0x15161a000
+Loaded module /Applications/UGS/NX7.5/ugii/libpdwdes.dylib 0x154189000 0x154189000
+Loaded module /Applications/UGS/NX7.5/ugii/libmqc.dylib 0x151600000 0x151600000
+Loaded module /Applications/UGS/NX7.5/ugii/libdrfcmp.dylib 0x1514dd000 0x1514dd000
+Loaded module /Applications/UGS/NX7.5/ugii/libkfbindings.dylib 0x152657000 0x152657000
+Loaded module /Applications/UGS/NX7.5/ugii/libweldapp.dylib 0x151452000 0x151452000
+Loaded module /Applications/UGS/NX7.5/ugii/libufun.dylib 0x152000000 0x152000000
+Loaded module /Applications/UGS/NX7.5/ugweld/startup/weld_uf_startup.dylib 0x15144c000 0x15144c000
+Loaded module /Applications/UGS/NX7.5/ugii/libuigenpos.dylib 0x130002000 0x130002000
+Loaded module /Applications/UGS/NX7.5/ugii/libpdmui.dylib 0x12fe55000 0x12fe55000
+Loaded module /Applications/UGS/NX7.5/ugii/libuicomp_mswp.dylib 0x12fe25000 0x12fe25000
+Loaded module /Applications/UGS/NX7.5/ugii/libuicomp_modl.dylib 0x12fd03000 0x12fd03000
+Loaded module /Applications/UGS/NX7.5/ugii/treelist.dylib 0x12f58b000 0x12f58b000
+[ 1] 0x11d5f8c59 Error_Exception.cxx/UGS::Error::Exception::doTraceback(bool) const (libsyss.dylib)
+[ 2] 0x11d59c119 Error_Signal.cxx/UGS::Error::Signal::Signal(char const*, int, int, char const*, __va_list_tag*) (libsyss.dylib)
+[ 3] 0x11d59c28f Error_Signal.cxx/UGS::Error::Signal::raise(char const*, int, int, char const*, __va_list_tag*) (libsyss.dylib)
+[ 4] 0x11d59c34d Error_Signal.cxx/UGS::Error::Signal::raise(char const*, int, int, char const*, ...) (libsyss.dylib)
+[ 5] 0x11d52353d error.cxx/general_fault_handler(int)           (libsyss.dylib)
+[ 6] 0x7fff8206e1ba sigtramp                                    (libSystem.B.dylib)
+*** EXCEPTION: O/S ERROR: signal  11 in line 1852 of /plm/cynas/iproot/ugnx75mr/build/sandbox/src/syss/error/ind/error.cxx at Tue Apr 17 17:45:07 2012 CEST
++++ General Fault Exception
+**** Recursive call to trace back - level 2 ****
+>>>> O/S ERROR: signal  11 caught in file "/plm/cynas/iproot/ugnx75mr/build/sandbox/src/disp/no/ind/dss_updt_ws.c" at line number 127
+>>>> O/S ERROR: signal  11 caught in file "/plm/cynas/iproot/ugnx75mr/build/sandbox/src/ugui/no/unx/uithread_motif.c" at line number 2734
+>>>> O/S ERROR: signal  11 caught in file "/plm/cynas/iproot/ugnx75mr/build/sandbox/src/ugui/no/ind/dlg_main.c" at line number 1635
+!!!&MACRO DIALOG_END -3, 0 !  : Auto Cancel
+>>>> O/S ERROR: signal  11 caught in file "/plm/cynas/iproot/ugnx75mr/build/sandbox/src/ugui/no/ind/mtlib.c" at line number 2856
+>>>> O/S ERROR: signal  11 caught in file "/plm/cynas/iproot/ugnx75mr/build/sandbox/src/uifw/no/ind/uifw_definitions.c" at line number 3462
+>>>> O/S ERROR: signal  11 caught in file "/plm/cynas/iproot/ugnx75mr/build/sandbox/src/uifw/no/ind/uifw_definitions.c" at line number 3541
+&MACRO MESSAGE_BOX -2, Internal error: memory access violation

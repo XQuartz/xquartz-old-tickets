@@ -1,0 +1,20 @@
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: kCGErrorIllegalArgument: CGSGetWindowBounds
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: kCGErrorFailure: Set a breakpoint @ CGErrorBreakpoint() to catch errors as they are logged.
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: kCGErrorIllegalArgument: CGSGetSurfaceBounds
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: kCGErrorIllegalArgument: CGSBindSurface: Invalid window 0x3c2
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: kCGErrorIllegalArgument: CGSBindSurface: Invalid window 0x3c2
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: kCGErrorIllegalArgument: CGSBindSurface: Invalid window 0x3c2
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: unknown error code: invalid drawable
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: kCGErrorIllegalArgument: CGSGetWindowBounds
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: kCGErrorIllegalArgument: CGSGetSurfaceBounds
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: kCGErrorIllegalArgument: CGSBindSurface: Invalid window 0x3c2
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: kCGErrorIllegalArgument: CGSBindSurface: Invalid window 0x3c2
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: kCGErrorIllegalArgument: CGSBindSurface: Invalid window 0x3c2
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: unknown error code: invalid drawable
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: kCGErrorIllegalArgument: CGSGetWindowBounds
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: kCGErrorIllegalArgument: CGSGetSurfaceBounds
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: kCGErrorIllegalArgument: CGSBindSurface: Invalid window 0x3c2
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: kCGErrorIllegalArgument: CGSBindSurface: Invalid window 0x3c2
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: kCGErrorIllegalArgument: CGSBindSurface: Invalid window 0x3c2
+Sat Jun 26 16:28:45 Procyon.local gnubg[8409] <Error>: unknown error code: invalid drawable
+

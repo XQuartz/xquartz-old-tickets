@@ -1,0 +1,28 @@
+Process:         idl [15045]
+Path:            /Applications/Math/itt/idl706/bin/bin.darwin.x86_64/idl
+Identifier:      idl
+5   libidl.7.0.dylib              	0x0000000100133801 X_AllocRenderContext + 91
+6   libidl.7.0.dylib              	0x0000000100133042 X_EstablishConnectionGLRes + 142
+7   libidl.7.0.dylib              	0x00000001001333ed X_EstablishConnection + 66
+8   libidl.7.0.dylib              	0x00000001001326d6 X_GetConnectionWithColors + 37
+9   libidl.7.0.dylib              	0x00000001002b9920 x_init + 188
+10  libidl.7.0.dylib              	0x00000001002bc02d x_window + 360
+11  libidl.7.0.dylib              	0x000000010044abc4 IDL_window_create + 66
+12  libidl.7.0.dylib              	0x00000001002f2556 interpreter + 25606
+13  libidl.7.0.dylib              	0x000000010043865a IDL_Executive + 3403
+14  libidl.7.0.dylib              	0x000000010000b8ea IDL_Main + 99
+15  idl                           	0x0000000100000f11 main + 227
+16  idl                           	0x0000000100000e0c start + 52
+2   libidl.7.0.dylib              	0x000000010040a9bf IDL_ThreadBEventWait + 169
+3   libidl.7.0.dylib              	0x0000000100408633 thread_pool_func + 251
+3   libidl.7.0.dylib              	0x000000010040ae13 IDL_ThreadSleep + 19
+4   libidl.7.0.dylib              	0x00000001000d9989 draw_l_func + 30
+       0x100000000 -        0x100000fff +idl ??? (???) /Applications/Math/itt/idl706/bin/bin.darwin.x86_64/idl
+       0x100003000 -        0x10071cfeb +libidl.7.0.dylib ??? (???) <025FF0EA-6678-ACC9-A099-9653CB6BDA39> /Applications/Math/itt/idl706/bin/bin.darwin.x86_64/libidl.7.0.dylib
+       0x100a82000 -        0x100ac0fff +libMesaGLU6_2.dylib ??? (???) /Applications/Math/itt/idl706/bin/bin.darwin.x86_64/libMesaGLU6_2.dylib
+       0x100ac5000 -        0x100db1fff +libMesaGL6_2.dylib ??? (???) /Applications/Math/itt/idl706/bin/bin.darwin.x86_64/libMesaGL6_2.dylib
+       0x100e19000 -        0x100e28ff7 +libOSMesa6_2.dylib ??? (???) /Applications/Math/itt/idl706/bin/bin.darwin.x86_64/libOSMesa6_2.dylib
+       0x100e37000 -        0x101113ff7 +libXm.3.0.2.dylib ??? (???) /Applications/Math/itt/idl706/bin/bin.darwin.x86_64/libXm.3.0.2.dylib
+       0x1013aa000 -        0x1013bbffd +libz.1.dylib ??? (???) <2022CC89-50AF-DF48-5BA1-DF76364BA725> /Applications/Math/itt/idl706/bin/bin.darwin.x86_64/libz.1.dylib
+       0x1015b1000 -        0x1015e3fff +gl_driver.so ??? (???) /Applications/Math/itt/idl706/bin/bin.darwin.x86_64/gl_driver.so
+ 

@@ -1,0 +1,3 @@
+set path = ( $path "." /Developer/usr/bin /Users/laurent/Shellscripts /Users/laurent/bin /Users/laurent/Telescopes/ESO-Paranal/p2pp-3.3.2/bin )
+test -r /sw/bin/init.csh && source /sw/bin/init.csh #fink
+source /opt/intel/bin/ifortvars.csh intel64

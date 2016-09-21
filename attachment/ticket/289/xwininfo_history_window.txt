@@ -1,0 +1,27 @@
+
+xwininfo: Please select the window about which you
+          would like information by clicking the
+          mouse in that window.
+
+xwininfo: Window id: 0xa00462 "History"
+
+  Absolute upper-left X:  23
+  Absolute upper-left Y:  228
+  Relative upper-left X:  0
+  Relative upper-left Y:  22
+  Width: 457
+  Height: 798
+  Depth: 24
+  Visual Class: TrueColor
+  Border width: 0
+  Class: InputOutput
+  Colormap: 0x21 (installed)
+  Bit Gravity State: ForgetGravity
+  Window Gravity State: NorthWestGravity
+  Backing Store State: NotUseful
+  Save Under State: yes
+  Map State: IsViewable
+  Override Redirect State: no
+  Corners:  +23+228  -1200+228  -1200-2  +23-2
+  -geometry 457x798+23-2
+

@@ -1,0 +1,20 @@
+============================================================
+Information listing created by :  marcel
+Date                           :  31.07.2009 16:46:06
+Current work part              :  /Volumes/cad-cam-daten/auftraege-in-arbeit/7967-fluekiger-prog/ass-7967-fo-10203.prt
+Node name                      :  Marcels-iMac.local
+============================================================
+X server vendor:  The X.Org Foundation
+X vendor release:  10402000
+Window identifier:  0xa000ab
+Window type:  0x82 (TrueColor)
+Window depth:  24
+Graphics device:  ATI Radeon HD 2600 PRO OpenGL Engine
+Translucency method:  Alpha-blend translucency
+Maximum texture size:  512
+Stereo viewing:  Unavailable
+Full-scene antialiasing:  Unavailable
+Texture cube map:  Available
+Non power of two texture:  Available
+Inter-object shadows:  Unavailable
+

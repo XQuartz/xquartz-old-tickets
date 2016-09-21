@@ -1,0 +1,5 @@
+Jan  5 16:32:06 ••MY_name•• kernel[0]: hfs: mounted XQuartz-2.7.7 on device disk4s1
+Jan  5 16:32:06 ••MY__FQDN•• mds[32]: (Volume.Normal:2464) volume:0x7f947a9b2000 ********** Bootstrapped Creating a default store:1 SpotLoc:(null) SpotVerLoc:(null) occlude:0 /Volumes/0084E9A8-23E2-45F4-86E8-CA66EA7B4DAE
+Jan  5 16:34:26 ••MY_name•• kernel[0]: process X11.bin[721] thread 11071 caught burning CPU! It used more than 50% CPU (Actual recent usage: 65%) over 180 seconds. thread lifetime cpu usage 90.571973 seconds, (32.880944 user, 57.691029 system) ledger info: balance: 90325609624 credit: 90325609624 debit: 0 limit: 90000000000 (50%) period: 180000000000 time since last refill (ns): 138852204333
+Jan  5 16:34:26 ••MY__FQDN•• ReportCrash[916]: Invoking spindump for pid=721 thread=11071 percent_cpu=65 duration=139 because of excessive cpu utilization
+Jan  5 16:34:27 ••MY__FQDN•• spindump[550]: Saved cpu_resource.diag report for X11.bin version ??? (???) to /Library/Logs/DiagnosticReports/X11.bin_2015-01-05-163427_••MY_name••.cpu_resource.diag

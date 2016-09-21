@@ -1,0 +1,182 @@
+19.05.14 11:30:48.893	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37a
+19.05.14 11:30:48.894	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:30:50.606	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37c
+19.05.14 11:30:50.606	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:30:50.606	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37b
+19.05.14 11:30:50.606	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:30:50.607	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37a
+19.05.14 11:30:50.607	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:30:54.863	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37c
+19.05.14 11:30:54.863	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:30:54.864	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37b
+19.05.14 11:30:54.864	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:30:54.864	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37a
+19.05.14 11:30:54.864	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:30:58.042	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x380
+19.05.14 11:30:58.042	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:30:58.042	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37d
+19.05.14 11:30:58.042	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:30:58.042	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37c
+19.05.14 11:30:58.042	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:30:58.042	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37b
+19.05.14 11:30:58.042	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:30:58.042	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37a
+19.05.14 11:30:58.042	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:07.585	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x381
+19.05.14 11:31:07.585	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:07.585	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x380
+19.05.14 11:31:07.585	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:07.585	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37d
+19.05.14 11:31:07.585	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:07.585	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37c
+19.05.14 11:31:07.585	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:07.585	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37b
+19.05.14 11:31:07.585	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:07.585	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37a
+19.05.14 11:31:07.586	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:08.647	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x381
+19.05.14 11:31:08.647	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:08.647	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x380
+19.05.14 11:31:08.647	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:08.648	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37d
+19.05.14 11:31:08.648	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:08.648	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37c
+19.05.14 11:31:08.648	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:08.648	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37b
+19.05.14 11:31:08.648	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:08.648	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37a
+19.05.14 11:31:08.648	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:21.874	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x386
+19.05.14 11:31:21.874	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:21.874	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x385
+19.05.14 11:31:21.874	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:21.874	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x381
+19.05.14 11:31:21.874	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:21.874	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x380
+19.05.14 11:31:21.874	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:21.874	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37d
+19.05.14 11:31:21.874	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:21.874	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37c
+19.05.14 11:31:21.874	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:21.875	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37b
+19.05.14 11:31:21.875	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:21.875	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37a
+19.05.14 11:31:21.875	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.440	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x386
+19.05.14 11:31:29.440	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.440	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x385
+19.05.14 11:31:29.440	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.440	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x381
+19.05.14 11:31:29.440	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.440	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x380
+19.05.14 11:31:29.440	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.441	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37d
+19.05.14 11:31:29.441	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.441	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37c
+19.05.14 11:31:29.441	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.441	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37b
+19.05.14 11:31:29.441	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.441	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37a
+19.05.14 11:31:29.441	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.596	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x386
+19.05.14 11:31:29.596	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.596	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x385
+19.05.14 11:31:29.596	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.596	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x381
+19.05.14 11:31:29.596	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.596	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x380
+19.05.14 11:31:29.596	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.597	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37d
+19.05.14 11:31:29.597	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.597	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37c
+19.05.14 11:31:29.597	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.597	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37b
+19.05.14 11:31:29.597	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.597	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37a
+19.05.14 11:31:29.597	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.746	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x38b
+19.05.14 11:31:29.746	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.746	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x386
+19.05.14 11:31:29.746	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.746	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x385
+19.05.14 11:31:29.746	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.746	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x381
+19.05.14 11:31:29.746	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.746	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x380
+19.05.14 11:31:29.746	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.746	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37d
+19.05.14 11:31:29.747	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.747	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37c
+19.05.14 11:31:29.747	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.747	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37b
+19.05.14 11:31:29.747	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.747	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37a
+19.05.14 11:31:29.747	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.748	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x38b
+19.05.14 11:31:29.748	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.748	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x386
+19.05.14 11:31:29.748	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.748	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x385
+19.05.14 11:31:29.749	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.749	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x381
+19.05.14 11:31:29.749	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.749	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x380
+19.05.14 11:31:29.749	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.749	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37d
+19.05.14 11:31:29.749	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.749	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37c
+19.05.14 11:31:29.749	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.749	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37b
+19.05.14 11:31:29.750	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.750	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37a
+19.05.14 11:31:29.750	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.751	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x38b
+19.05.14 11:31:29.751	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.751	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x386
+19.05.14 11:31:29.751	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.751	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x385
+19.05.14 11:31:29.751	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.751	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x381
+19.05.14 11:31:29.751	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.751	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x380
+19.05.14 11:31:29.751	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.751	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37d
+19.05.14 11:31:29.751	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.751	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37c
+19.05.14 11:31:29.751	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.752	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37b
+19.05.14 11:31:29.752	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:29.752	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37a
+19.05.14 11:31:29.752	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:36.925	ugraf[6150]	CGSSetWindowSendExposed: Invalid window 0x38d
+19.05.14 11:31:36.930	WindowServer[223]	CGXGetWindowShape: Invalid window 909
+19.05.14 11:31:36.930	ugraf[6150]	CGSGetWindowBounds
+19.05.14 11:31:36.930	WindowServer[223]	CGXGetSurfaceBounds : Invalid window 909
+19.05.14 11:31:36.930	ugraf[6150]	CGSGetSurfaceBounds
+19.05.14 11:31:36.930	ugraf[6150]	CGSBindSurface: Invalid window 0x38d
+19.05.14 11:31:36.930	ugraf[6150]	CGSBindSurface: Invalid window 0x38d
+19.05.14 11:31:36.930	ugraf[6150]	CGSBindSurface: Invalid window 0x38d
+19.05.14 11:31:36.930	ugraf[6150]	CGSBindSurface: Invalid window 0x38d
+19.05.14 11:31:37.390	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x38d
+19.05.14 11:31:37.390	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:37.390	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x38c
+19.05.14 11:31:37.390	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:37.390	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x38b
+19.05.14 11:31:37.390	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:37.391	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x386
+19.05.14 11:31:37.391	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:37.391	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x385
+19.05.14 11:31:37.391	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:37.391	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x381
+19.05.14 11:31:37.391	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:37.391	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x380
+19.05.14 11:31:37.391	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:37.391	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37d
+19.05.14 11:31:37.391	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:37.391	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37c
+19.05.14 11:31:37.391	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:37.391	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37b
+19.05.14 11:31:37.391	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:31:37.391	WindowServer[223]	CGXSetWindowProperty: Invalid window 0x37a
+19.05.14 11:31:37.392	WindowServer[223]	kCGErrorIllegalArgument: _CGXAddWindowToWindowOrderingGroup: error setting window property
+19.05.14 11:32:36.335	WindowServer[223]	CGXSetWindowBackgroundBlurRadius: Invalid window 0xffffffff

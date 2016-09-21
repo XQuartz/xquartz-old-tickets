@@ -1,0 +1,82 @@
+GuardMalloc: Allocations will be placed on 16 byte boundaries.
+GuardMalloc:  - Some buffer overruns may not be noticed.
+GuardMalloc:  - Applications using vector instructions (e.g., SSE or Altivec) should work.
+GuardMalloc: GuardMalloc version 23
+GuardMalloc: Allocations will be placed on 16 byte boundaries.
+GuardMalloc:  - Some buffer overruns may not be noticed.
+GuardMalloc:  - Applications using vector instructions (e.g., SSE or Altivec) should work.
+GuardMalloc: GuardMalloc version 23
+GuardMalloc: Allocations will be placed on 16 byte boundaries.
+GuardMalloc:  - Some buffer overruns may not be noticed.
+GuardMalloc:  - Applications using vector instructions (e.g., SSE or Altivec) should work.
+GuardMalloc: GuardMalloc version 23
+GuardMalloc: Allocations will be placed on 16 byte boundaries.
+GuardMalloc:  - Some buffer overruns may not be noticed.
+GuardMalloc:  - Applications using vector instructions (e.g., SSE or Altivec) should work.
+GuardMalloc: GuardMalloc version 23
+GuardMalloc: Allocations will be placed on 16 byte boundaries.
+GuardMalloc:  - Some buffer overruns may not be noticed.
+GuardMalloc:  - Applications using vector instructions (e.g., SSE or Altivec) should work.
+GuardMalloc: GuardMalloc version 23
+GuardMalloc: Allocations will be placed on 16 byte boundaries.
+GuardMalloc:  - Some buffer overruns may not be noticed.
+GuardMalloc:  - Applications using vector instructions (e.g., SSE or Altivec) should work.
+GuardMalloc: GuardMalloc version 23
+X11.app: main(): argc=1
+	argv[0] = /Applications/Utilities/XQuartz.app/Contents/MacOS/X11.bin
+Waiting for startup parameters via Mach IPC.
+X11.app: Listening on socket for fd handoff:  (3) /var/tmp/tmp.0.xQSdkJ
+X11.app: Thread created for handoff.  Returning success to tell caller to connect and push the fd.
+X11.app: Received new $DISPLAY fd: 5 ... sleeping to allow xinitrc to catchup.
+X11.app: do_start_x11_server(): argc=6
+	argv[0] = /opt/X11/bin/X
+	argv[1] = :2
+	argv[2] = -nolisten
+	argv[3] = tcp
+	argv[4] = -auth
+	argv[5] = /Users/andrew/.serverauth.55352
+Xquartz starting:
+X.Org X Server 1.10.0.902
+Build Date: 20110411
+X11.app Handing off fd to server thread via DarwinListenOnOpenFD(5)
+DarwinListenOnOpenFD: 5
+GuardMalloc: Allocations will be placed on 16 byte boundaries.
+GuardMalloc:  - Some buffer overruns may not be noticed.
+GuardMalloc:  - Applications using vector instructions (e.g., SSE or Altivec) should work.
+GuardMalloc: GuardMalloc version 23
+GuardMalloc: Allocations will be placed on 16 byte boundaries.
+GuardMalloc:  - Some buffer overruns may not be noticed.
+GuardMalloc:  - Applications using vector instructions (e.g., SSE or Altivec) should work.
+GuardMalloc: GuardMalloc version 23
+GuardMalloc: Allocations will be placed on 16 byte boundaries.
+GuardMalloc:  - Some buffer overruns may not be noticed.
+GuardMalloc:  - Applications using vector instructions (e.g., SSE or Altivec) should work.
+GuardMalloc: GuardMalloc version 23
+GuardMalloc: Allocations will be placed on 16 byte boundaries.
+GuardMalloc:  - Some buffer overruns may not be noticed.
+GuardMalloc:  - Applications using vector instructions (e.g., SSE or Altivec) should work.
+GuardMalloc: GuardMalloc version 23
+(EE) Error loading keymap /tmp/server-2.xkm
+(EE) XKB: Failed to load keymap. Loading default keymap instead.
+GuardMalloc: Allocations will be placed on 16 byte boundaries.
+GuardMalloc:  - Some buffer overruns may not be noticed.
+GuardMalloc:  - Applications using vector instructions (e.g., SSE or Altivec) should work.
+GuardMalloc: GuardMalloc version 23
+GuardMalloc: Allocations will be placed on 16 byte boundaries.
+GuardMalloc:  - Some buffer overruns may not be noticed.
+GuardMalloc:  - Applications using vector instructions (e.g., SSE or Altivec) should work.
+GuardMalloc: GuardMalloc version 23
+Calling ListenOnOpenFD() for new fd: 5
+X11.app: Launching /opt/X11/bin/xterm:
+	argv[0] = /bin/sh
+	argv[1] = -c
+	argv[2] = /opt/X11/bin/xterm
+GuardMalloc: Allocations will be placed on 16 byte boundaries.
+GuardMalloc:  - Some buffer overruns may not be noticed.
+GuardMalloc:  - Applications using vector instructions (e.g., SSE or Altivec) should work.
+GuardMalloc: GuardMalloc version 23
+GuardMalloc: Allocations will be placed on 16 byte boundaries.
+GuardMalloc:  - Some buffer overruns may not be noticed.
+GuardMalloc:  - Applications using vector instructions (e.g., SSE or Altivec) should work.
+GuardMalloc: GuardMalloc version 23
+/opt/X11/bin/xterm:  fatal IO error 35 (Resource temporarily unavailable) or KillClient on X server "/tmp/launch-OitWwN/org.macosforge.xquartz:0"
